@@ -1,0 +1,396 @@
+{
+    "Microsoft_365_Copilot_Basic_Design": [
+        {
+            "title": "Azure AI Services",
+            "url": "https://azure.microsoft.com/solutions/ai/"
+        },
+        {
+            "title": "Microsoft Bing",
+            "url": "https://www.microsoft.com/bing"
+        },
+        {
+            "title": "Graph Connectors",
+            "url": "https://learn.microsoft.com/microsoftsearch/connectors-overview"
+        },
+        {
+            "title": "Microsoft 365 Copilot Service",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot"
+        },
+        {
+            "title": "Custom Engine Agents",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-custom-engine-agent"
+        },
+        {
+            "title": "Microsoft Graph",
+            "url": "https://learn.microsoft.com/graph/overview"
+        },
+        {
+            "title": "Declarative Agents",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-declarative-agent"
+        },
+        {
+            "title": "Copilot Extensibility",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/"
+        },
+        {
+            "title": "Tenant Data Storage",
+            "url": "https://learn.microsoft.com/compliance/assurance/assurance-privacy#where-is-customer-data-located"
+        },
+        {
+            "title": "Microsoft Network Edge",
+            "url": "https://learn.microsoft.com/azure/networking/microsoft-global-network"
+        }
+    ],
+    "Microsoft_365_Copilot_Detailed_Design": [
+        {
+            "title": "Microsoft 365 Service Components",
+            "url": "https://learn.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo"
+        },
+        {
+            "title": "Microsoft Bing",
+            "url": "https://www.microsoft.com/bing"
+        },
+        {
+            "title": "Custom Engine Agents",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-custom-engine-agent"
+        },
+        {
+            "title": "External Data",
+            "url": "https://learn.microsoft.com/graph/overview"
+        },
+        {
+            "title": "Core Online Services Storage",
+            "url": "https://learn.microsoft.com/compliance/assurance/assurance-privacy#where-is-customer-data-located"
+        },
+        {
+            "title": "Additional Services Storage",
+            "url": "https://learn.microsoft.com/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide"
+        },
+        {
+            "title": "Azure OpenAI Service",
+            "url": "https://azure.microsoft.com/products/ai-foundry/models/openai/"
+        },
+        {
+            "title": "Copilot Studio",
+            "url": "https://www.microsoft.com/microsoft-365-copilot/microsoft-copilot-studio"
+        },
+        {
+            "title": "Microsoft Network Edge",
+            "url": "https://learn.microsoft.com/azure/networking/microsoft-global-network"
+        },
+        {
+            "title": "·Copilot Web Grounding Security",
+            "url": "https://learn.microsoft.com/copilot/microsoft-365/manage-public-web-access"
+        },
+        {
+            "title": "·Copilot Architecture",
+            "url": "https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-architecture"
+        },
+        {
+            "title": "·Copilot Security",
+            "url": "https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-privacy"
+        },
+        {
+            "title": "optional",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/"
+        },
+        {
+            "title": "Azure AI Services",
+            "url": "https://azure.microsoft.com/solutions/ai/"
+        },
+        {
+            "title": "Graph Connectors",
+            "url": "https://learn.microsoft.com/microsoftsearch/connectors-overview"
+        },
+        {
+            "title": "Microsoft 365 Copilot Service",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot"
+        },
+        {
+            "title": "Declarative Agents",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-declarative-agent"
+        }
+    ],
+    "Microsoft_365_Copilot_Extensibility": [
+        {
+            "title": "External Data",
+            "url": "https://learn.microsoft.com/graph/overview"
+        },
+        {
+            "title": "Custom Engine Agents",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-custom-engine-agent"
+        },
+        {
+            "title": "Microsoft 365 Agents SDK",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/m365-agents-sdk"
+        },
+        {
+            "title": "Graph Connectors",
+            "url": "https://learn.microsoft.com/microsoftsearch/connectors-overview"
+        },
+        {
+            "title": "Copilot Studio",
+            "url": "https://www.microsoft.com/microsoft-365-copilot/microsoft-copilot-studio"
+        },
+        {
+            "title": "Microsoft 365 Tenant Content",
+            "url": "https://learn.microsoft.com/compliance/assurance/assurance-privacy#where-is-customer-data-located"
+        },
+        {
+            "title": "Power Automate Flows",
+            "url": "https://learn.microsoft.com/microsoft-copilot-studio/advanced-flow"
+        },
+        {
+            "title": "Copilot Actions",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-business-applications"
+        },
+        {
+            "title": "Declarative Agents",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-declarative-agent"
+        },
+        {
+            "title": "Power Platform Connectors",
+            "url": "https://learn.microsoft.com/connectors/custom-connectors/learn-with-a-tutorial"
+        },
+        {
+            "title": "API Plugins",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-api-plugins"
+        },
+        {
+            "title": "Web Content",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/knowledge-sources#web-and-scoped-web-search"
+        },
+        {
+            "title": "SharePoint & OneDrive",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/knowledge-sources#sharepoint-and-onedrive"
+        },
+        {
+            "title": "Graph Connectors",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/knowledge-sources#copilot-connectors"
+        },
+        {
+            "title": "Graphic Art (Designer)",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/image-generator"
+        },
+        {
+            "title": "Code Interpreter",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/code-interpreter"
+        },
+        {
+            "title": "Dataverse",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/knowledge-sources#dataverse"
+        },
+        {
+            "title": "People",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/knowledge-sources#people"
+        },
+        {
+            "title": "Teams Messages",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/knowledge-sources#teams-messages"
+        },
+        {
+            "title": "Email",
+            "url": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.3/schema.json"
+        }
+    ],
+    "Microsoft_365_Copilot_Licensing": [
+        {
+            "title": "Microsoft 365 Copilot",
+            "url": "https://learn.microsoft.com/copilot/microsoft-365/"
+        },
+        {
+            "title": "Copilot Chat (Work)",
+            "url": "https://support.microsoft.com/copilot-microsoft365-chat"
+        },
+        {
+            "title": "SharePoint Advanced Management for Copilot",
+            "url": "https://learn.microsoft.com/sharepoint/advanced-management"
+        },
+        {
+            "title": "Copilot Pages",
+            "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/announcing-copilot-pages-for-multiplayer-collaboration/4242701/"
+        },
+        {
+            "title": "Copilot in Excel",
+            "url": "https://support.microsoft.com/copilot-excel"
+        },
+        {
+            "title": "Copilot in Teams",
+            "url": "https://support.microsoft.com/copilot-teams"
+        },
+        {
+            "title": "Microsoft Places (additional)",
+            "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+        },
+        {
+            "title": "Copilot Dashboard",
+            "url": "https://learn.microsoft.com/viva/insights/org-team-insights/copilot-dashboard"
+        },
+        {
+            "title": "Copilot in Loop",
+            "url": "https://support.microsoft.com/copilot-loop"
+        },
+        {
+            "title": "Copilot in OneDrive",
+            "url": "https://support.microsoft.com/office/7fc81e10-e0cf-4da8-af2e-9876a2770e5d"
+        },
+        {
+            "title": "Copilot in OneNote",
+            "url": "https://support.microsoft.com/copilot-onenote"
+        },
+        {
+            "title": "Copilot in Outlook",
+            "url": "https://support.microsoft.com/copilot-outlook"
+        },
+        {
+            "title": "Copilot in PowerPoint",
+            "url": "https://support.microsoft.com/copilot-powerpoint"
+        },
+        {
+            "title": "Copilot in SharePoint",
+            "url": "https://support.microsoft.com/office/44e981e7-dcef-4422-977d-967f3dcfe796"
+        },
+        {
+            "title": "Copilot in Clipchamp",
+            "url": "https://support.microsoft.com/office/0b531ea9-2d9d-4830-97e4-2c1b2b8ca31d"
+        },
+        {
+            "title": "Copilot in Whiteboard",
+            "url": "https://support.microsoft.com/copilot-whiteboard"
+        },
+        {
+            "title": "Copilot in Word",
+            "url": "https://support.microsoft.com/copilot-word"
+        },
+        {
+            "title": "Copilot Prompt Gallery",
+            "url": "https://learn.microsoft.com/copilot/microsoft-365/copilot-prompt-gallery"
+        },
+        {
+            "title": "Intelligent Search",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot"
+        },
+        {
+            "title": "SharePoint Agents",
+            "url": "https://adoption.microsoft.com/sharepoint-agents/"
+        },
+        {
+            "title": "Copilot in Planner",
+            "url": "https://support.microsoft.com/topic/0a958ec4-1ebc-491c-b9ef-ae1ef99979a2"
+        },
+        {
+            "title": "Copilot in Forms",
+            "url": "https://support.microsoft.com/office/6a21bfbd-21b3-4e48-946c-7603b129521c"
+        },
+        {
+            "title": "Microsoft 365 Copilot Chat",
+            "url": "https://learn.microsoft.com/copilot/overview"
+        },
+        {
+            "title": "Copilot File Upload",
+            "url": "https://learn.microsoft.com/copilot/security/upload-file"
+        },
+        {
+            "title": "Copilot Image Generator",
+            "url": "https://www.microsoft.com/microsoft-365/microsoft-designer/ai-art-generator"
+        },
+        {
+            "title": "Copilot Code Interpreter",
+            "url": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/do-more-with-ai/general-ai/debug-code"
+        },
+        {
+            "title": "Graph Access in Agents (metered)",
+            "url": "https://learn.microsoft.com/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions#add-knowledge-to-a-copilot-agent"
+        },
+        {
+            "title": "Graph Connectors in Agents (metered)",
+            "url": "https://learn.microsoft.com/microsoft-copilot-studio/advanced-connectors"
+        },
+        {
+            "title": "Microsoft 365 Agents",
+            "url": "https://adoption.microsoft.com/ai-agents/agents-in-microsoft-365/"
+        },
+        {
+            "title": "Create Agents",
+            "url": "https://learn.microsoft.com/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions"
+        },
+        {
+            "title": "Copilot Actions",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2024/11/19/introducing-copilot-actions-new-agents-and-tools-to-empower-it-teams/#empowering-every-employee"
+        },
+        {
+            "title": "Graph and Connector Access Included",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-copilot-connector"
+        },
+        {
+            "title": "Intelligent Recap",
+            "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#intelligent-recap"
+        },
+        {
+            "title": "Viva Pulse for Copilot",
+            "url": "https://learn.microsoft.com/viva/pulse/get-started/licensing-requirements"
+        },
+        {
+            "title": "Viva Insights - Manager, Leader, Analyst",
+            "url": "https://learn.microsoft.com/viva/insights/introduction"
+        },
+        {
+            "title": "Copilot Chat in Excel",
+            "url": "https://support.microsoft.com/topic/676db5e8-9568-4bdb-bf0b-e207e29e056b"
+        },
+        {
+            "title": "Work IQ",
+            "url": "https://www.microsoft.com/microsoft-365-copilot#WorkIQ"
+        },
+        {
+            "title": "Copilot Notebooks",
+            "url": "https://support.microsoft.com/topic/0775e693-11c6-4d80-8aba-fcc81a737a06"
+        }
+    ],
+    "Microsoft_365_Copilot_Web_Content_Integration": [
+        {
+            "title": "optional",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/"
+        },
+        {
+            "title": "Web Crawler",
+            "url": "https://www.bing.com/webmasters/help/8c184ec0"
+        },
+        {
+            "title": "Search Index",
+            "url": "https://support.microsoft.com/topic/d18fc815-ac37-4723-bc67-9229ce3eb6a3"
+        },
+        {
+            "title": "Copilot API",
+            "url": "https://learn.microsoft.com/copilot/microsoft-365/manage-public-web-access"
+        },
+        {
+            "title": "Bing.com",
+            "url": "https://www.microsoft.com/bing"
+        },
+        {
+            "title": "Advertiser Platform",
+            "url": "https://about.ads.microsoft.com/"
+        },
+        {
+            "title": "Webmaster Tools",
+            "url": "https://www.bing.com/webmasters/about"
+        },
+        {
+            "title": "Azure AI Services",
+            "url": "https://azure.microsoft.com/solutions/ai/"
+        },
+        {
+            "title": "Microsoft 365 Copilot Service",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot"
+        },
+        {
+            "title": "Microsoft Graph",
+            "url": "https://learn.microsoft.com/graph/overview"
+        },
+        {
+            "title": "Tenant Data Storage",
+            "url": "https://learn.microsoft.com/compliance/assurance/assurance-privacy#where-is-customer-data-located"
+        }
+    ]
+}

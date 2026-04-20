@@ -1,0 +1,64 @@
+{
+    "generated_at": "2026-04-18",
+    "version": "1.1",
+    "source": "https://m365maps.com",
+    "description": "Microsoft 365 라이선스 다이어그램 외부 참조 링크 인덱스",
+    "stats": {
+        "categories": 12,
+        "diagrams": 92,
+        "total_entries_raw": 5601,
+        "total_entries_deduped_per_diagram": 5600,
+        "unique_urls_global": 1135,
+        "filtered_duplicates": 1
+    },
+    "categories": {
+        "copilot": {
+            "label": "Microsoft 365 Copilot",
+            "link_count": 95
+        },
+        "ems": {
+            "label": "Enterprise Mobility + Security (EMS)",
+            "link_count": 224
+        },
+        "entra": {
+            "label": "Microsoft Entra",
+            "link_count": 96
+        },
+        "m365": {
+            "label": "Microsoft 365",
+            "link_count": 2583
+        },
+        "defender": {
+            "label": "Microsoft Defender",
+            "link_count": 121
+        },
+        "productivity": {
+            "label": "Planner / Visio / Viva",
+            "link_count": 61
+        },
+        "teams": {
+            "label": "Microsoft Teams",
+            "link_count": 154
+        },
+        "o365": {
+            "label": "Office 365",
+            "link_count": 593
+        },
+        "windows": {
+            "label": "Windows",
+            "link_count": 151
+        },
+        "cal": {
+            "label": "Client Access License (CAL)",
+            "link_count": 40
+        },
+        "guides": {
+            "label": "Guides",
+            "link_count": 190
+        },
+        "reference": {
+            "label": "Reference",
+            "link_count": 1292
+        }
+    }
+}

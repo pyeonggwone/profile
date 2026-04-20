@@ -1,0 +1,410 @@
+{
+    "copilot": [
+        {
+            "title": "Microsoft 365 Copilot Basic Design",
+            "url": "https://m365maps.com/files/Microsoft-365-Copilot-Basic-Design.htm"
+        },
+        {
+            "title": "Microsoft 365 Copilot Detailed Design",
+            "url": "https://m365maps.com/files/Microsoft-365-Copilot-Detailed-Design.htm"
+        },
+        {
+            "title": "Microsoft 365 Copilot Extensibility",
+            "url": "https://m365maps.com/files/Microsoft-365-Copilot-Extensibility.htm"
+        },
+        {
+            "title": "Microsoft 365 Copilot Licensing",
+            "url": "https://m365maps.com/files/Microsoft-365-Copilot.htm"
+        },
+        {
+            "title": "Microsoft 365 Copilot Web Content Integration",
+            "url": "https://m365maps.com/files/Microsoft-365-Copilot-Web-Content.htm"
+        }
+    ],
+    "ems": [
+        {
+            "title": "EMS All",
+            "url": "https://m365maps.com/files/EMS-All.htm"
+        },
+        {
+            "title": "EMS Simple",
+            "url": "https://m365maps.com/files/EMS-Simple.htm"
+        },
+        {
+            "title": "EMS E3",
+            "url": "https://m365maps.com/files/EMS-E3.htm"
+        },
+        {
+            "title": "EMS E5",
+            "url": "https://m365maps.com/files/EMS-E5.htm"
+        },
+        {
+            "title": "Intune Plans",
+            "url": "https://m365maps.com/files/Intune.htm"
+        }
+    ],
+    "entra": [
+        {
+            "title": "Entra ID All",
+            "url": "https://m365maps.com/files/Entra-ID-All.htm"
+        },
+        {
+            "title": "Entra ID Paid",
+            "url": "https://m365maps.com/files/Entra-ID-Paid.htm"
+        },
+        {
+            "title": "Entra ID Governance",
+            "url": "https://m365maps.com/files/Entra-ID-Governance.htm"
+        },
+        {
+            "title": "Entra Workload ID",
+            "url": "https://m365maps.com/files/Entra-Workload-ID.htm"
+        },
+        {
+            "title": "Entra Suite",
+            "url": "https://m365maps.com/files/Entra-Suite.htm"
+        }
+    ],
+    "m365": {
+        "apps": [
+            {
+                "title": "M365 Apps All",
+                "url": "https://m365maps.com/files/Microsoft-365-Apps-All.htm"
+            },
+            {
+                "title": "M365 Apps for Business",
+                "url": "https://m365maps.com/files/Microsoft-365-Apps-Business.htm"
+            },
+            {
+                "title": "M365 Apps for Enterprise",
+                "url": "https://m365maps.com/files/Microsoft-365-Apps-Enterprise.htm"
+            }
+        ],
+        "business": [
+            {
+                "title": "M365 Business All",
+                "url": "https://m365maps.com/files/Microsoft-365-Business-All.htm"
+            },
+            {
+                "title": "M365 Business Basic",
+                "url": "https://m365maps.com/files/Microsoft-365-Business-Basic.htm"
+            },
+            {
+                "title": "M365 Business Standard",
+                "url": "https://m365maps.com/files/Microsoft-365-Business-Standard.htm"
+            },
+            {
+                "title": "M365 Business Premium",
+                "url": "https://m365maps.com/files/Microsoft-365-Business-Premium.htm"
+            },
+            {
+                "title": "Defender and Purview Suites for Business Premium",
+                "url": "https://m365maps.com/files/Microsoft-Defender-and-Purview-Suites-for-Business-Premium.htm"
+            }
+        ],
+        "consumer": [
+            {
+                "title": "M365 Consumer All",
+                "url": "https://m365maps.com/files/Microsoft-365-Consumer.htm"
+            },
+            {
+                "title": "M365 Personal and Family",
+                "url": "https://m365maps.com/files/Microsoft-365-Personal-and-Family.htm"
+            },
+            {
+                "title": "Office Consumer",
+                "url": "https://m365maps.com/files/Office-Consumer.htm"
+            }
+        ],
+        "education": [
+            {
+                "title": "M365 Education All",
+                "url": "https://m365maps.com/files/Microsoft-365-Education-All.htm"
+            },
+            {
+                "title": "M365 A1 (Legacy)",
+                "url": "https://m365maps.com/files/Microsoft-365-Education-A1-(Legacy).htm"
+            },
+            {
+                "title": "M365 A1 for Devices",
+                "url": "https://m365maps.com/files/Microsoft-365-Education-A1-for-Devices.htm"
+            },
+            {
+                "title": "M365 A3",
+                "url": "https://m365maps.com/files/Microsoft-365-Education-A3.htm"
+            },
+            {
+                "title": "M365 A5",
+                "url": "https://m365maps.com/files/Microsoft-365-Education-A5.htm"
+            },
+            {
+                "title": "M365 Student Use Benefits All",
+                "url": "https://m365maps.com/files/Microsoft-365-Education-Student-Use-Benefits-All.htm"
+            },
+            {
+                "title": "M365 Student Use Benefits Simple",
+                "url": "https://m365maps.com/files/Microsoft-365-Education-Student-Use-Benefits-Simple.htm"
+            }
+        ],
+        "enterprise": [
+            {
+                "title": "M365 Enterprise All",
+                "url": "https://m365maps.com/files/Microsoft-365-Enterprise-All.htm"
+            },
+            {
+                "title": "M365 Enterprise Venn",
+                "url": "https://m365maps.com/files/Microsoft-365-Enterprise-Venn.htm"
+            },
+            {
+                "title": "M365 Enterprise Landscape",
+                "url": "https://m365maps.com/files/Microsoft-365-Enterprise-Landscape.htm"
+            },
+            {
+                "title": "M365 E3",
+                "url": "https://m365maps.com/files/Microsoft-365-E3.htm"
+            },
+            {
+                "title": "M365 E5",
+                "url": "https://m365maps.com/files/Microsoft-365-E5.htm"
+            },
+            {
+                "title": "Defender Suite for Enterprise",
+                "url": "https://m365maps.com/files/Microsoft-Defender-Suite.htm"
+            },
+            {
+                "title": "Purview Suite for Enterprise",
+                "url": "https://m365maps.com/files/Microsoft-Purview-Suite.htm"
+            }
+        ],
+        "frontline": [
+            {
+                "title": "M365 Frontline All",
+                "url": "https://m365maps.com/files/Microsoft-365-Frontline-All.htm"
+            },
+            {
+                "title": "M365 F1",
+                "url": "https://m365maps.com/files/Microsoft-365-F1.htm"
+            },
+            {
+                "title": "M365 F3",
+                "url": "https://m365maps.com/files/Microsoft-365-F3.htm"
+            },
+            {
+                "title": "Defender and Purview Suites for Frontline Workers",
+                "url": "https://m365maps.com/files/Microsoft-365-F5.htm"
+            }
+        ]
+    },
+    "defender": [
+        {
+            "title": "Defender for Business",
+            "url": "https://m365maps.com/files/Microsoft-Defender-for-Business.htm"
+        },
+        {
+            "title": "Defender for Cloud Apps",
+            "url": "https://m365maps.com/files/Microsoft-Defender-for-Cloud-Apps.htm"
+        },
+        {
+            "title": "Defender for Endpoint",
+            "url": "https://m365maps.com/files/Microsoft-Defender-for-Endpoint.htm"
+        },
+        {
+            "title": "Defender for Office 365",
+            "url": "https://m365maps.com/files/Microsoft-Defender-for-Office-365.htm"
+        },
+        {
+            "title": "Defender for Servers",
+            "url": "https://m365maps.com/files/Microsoft-Defender-for-Servers.htm"
+        },
+        {
+            "title": "Defender CSPM",
+            "url": "https://m365maps.com/files/Microsoft-Defender-CSPM.htm"
+        },
+        {
+            "title": "Defender Vulnerability Management",
+            "url": "https://m365maps.com/files/Microsoft-Defender-Vulnerability-Management.htm"
+        }
+    ],
+    "productivity": [
+        {
+            "title": "Planner and Project",
+            "url": "https://m365maps.com/files/Microsoft-Project.htm"
+        },
+        {
+            "title": "Visio",
+            "url": "https://m365maps.com/files/Microsoft-Visio.htm"
+        },
+        {
+            "title": "Viva",
+            "url": "https://m365maps.com/files/Viva.htm"
+        }
+    ],
+    "teams": [
+        {
+            "title": "Teams Enterprise",
+            "url": "https://m365maps.com/files/Microsoft-Teams-Enterprise.htm"
+        },
+        {
+            "title": "Teams",
+            "url": "https://m365maps.com/files/Microsoft-Teams.htm"
+        },
+        {
+            "title": "Teams Premium",
+            "url": "https://m365maps.com/files/Microsoft-Teams-Premium.htm"
+        },
+        {
+            "title": "Teams Rooms",
+            "url": "https://m365maps.com/files/Microsoft-Teams-Rooms.htm"
+        },
+        {
+            "title": "Teams Rooms Basic",
+            "url": "https://m365maps.com/files/Microsoft-Teams-Rooms-Basic.htm"
+        },
+        {
+            "title": "Teams Rooms Pro",
+            "url": "https://m365maps.com/files/Microsoft-Teams-Rooms-Pro.htm"
+        }
+    ],
+    "o365": {
+        "education": [
+            {
+                "title": "Office 365 Education All",
+                "url": "https://m365maps.com/files/Office-365-Education-All.htm"
+            },
+            {
+                "title": "Office 365 Education Simple",
+                "url": "https://m365maps.com/files/Office-365-Education-Simple.htm"
+            }
+        ],
+        "enterprise": [
+            {
+                "title": "Office 365 Enterprise All",
+                "url": "https://m365maps.com/files/Office-365-Enterprise-All.htm"
+            },
+            {
+                "title": "Office 365 Enterprise Simple",
+                "url": "https://m365maps.com/files/Office-365-Enterprise-Simple.htm"
+            },
+            {
+                "title": "Office 365 E1",
+                "url": "https://m365maps.com/files/Office-365-E1.htm"
+            },
+            {
+                "title": "Office 365 E3",
+                "url": "https://m365maps.com/files/Office-365-E3.htm"
+            },
+            {
+                "title": "Office 365 E5",
+                "url": "https://m365maps.com/files/Office-365-E5.htm"
+            },
+            {
+                "title": "Office 365 F3",
+                "url": "https://m365maps.com/files/Office-365-F3.htm"
+            }
+        ]
+    },
+    "windows": [
+        {
+            "title": "Windows Enterprise",
+            "url": "https://m365maps.com/files/Windows-Enterprise.htm"
+        },
+        {
+            "title": "Windows Pro",
+            "url": "https://m365maps.com/files/Windows-Pro.htm"
+        },
+        {
+            "title": "Windows Volume Licensing",
+            "url": "https://m365maps.com/files/Windows-VL.htm"
+        },
+        {
+            "title": "Windows 365",
+            "url": "https://m365maps.com/files/Windows-365.htm"
+        }
+    ],
+    "cal": [
+        {
+            "title": "Client Access Licenses (CALs)",
+            "url": "https://m365maps.com/files/CALs.htm"
+        },
+        {
+            "title": "CAL Main Bridges",
+            "url": "https://m365maps.com/files/CAL-Main-Bridges.htm"
+        },
+        {
+            "title": "CAL Other Bridges",
+            "url": "https://m365maps.com/files/CAL-Other-Bridges.htm"
+        },
+        {
+            "title": "CAL All Bridges",
+            "url": "https://m365maps.com/files/CAL-All-Bridges.htm"
+        }
+    ],
+    "guides": [
+        {
+            "title": "AI Services Map",
+            "url": "https://m365maps.com/files/AI-Services.htm"
+        },
+        {
+            "title": "AI Development Stack",
+            "url": "https://m365maps.com/files/Microsoft-AI-Development-Stack.htm"
+        },
+        {
+            "title": "Multi-Tenant Architecture",
+            "url": "https://m365maps.com/files/Multi-Tenant-Architecture.htm"
+        },
+        {
+            "title": "Related Services",
+            "url": "https://m365maps.com/files/Related-Services.htm"
+        },
+        {
+            "title": "SharePoint Advanced Management",
+            "url": "https://m365maps.com/files/SharePoint-Advanced-Management.htm"
+        },
+        {
+            "title": "Virtual Desktop",
+            "url": "https://m365maps.com/files/Virtual-Desktop.htm"
+        },
+        {
+            "title": "Windows 365 and AVD Comparison",
+            "url": "https://m365maps.com/files/Windows-365-Compare.htm"
+        },
+        {
+            "title": "Australia Resources",
+            "url": "https://m365maps.com/australia.htm"
+        }
+    ],
+    "reference": [
+        {
+            "title": "Product Name Changes",
+            "url": "https://m365maps.com/renames.htm"
+        },
+        {
+            "title": "Feature Matrix",
+            "url": "https://m365maps.com/matrix.htm"
+        },
+        {
+            "title": "Feature Maps",
+            "url": "https://m365maps.com/maps.htm"
+        },
+        {
+            "title": "Change Log",
+            "url": "https://m365maps.com/changes.htm"
+        },
+        {
+            "title": "User Guide",
+            "url": "https://m365maps.com/guide.htm"
+        },
+        {
+            "title": "Downloads",
+            "url": "https://m365maps.com/downloads.htm"
+        },
+        {
+            "title": "Knowledge",
+            "url": "https://m365maps.com/knowledge.htm"
+        },
+        {
+            "title": "Glossary",
+            "url": "https://m365maps.com/glossary.htm"
+        }
+    ]
+}

@@ -1,0 +1,2394 @@
+{
+    "education": {
+        "Office_365_Education_All": [
+            {
+                "title": "Office 365 A5",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/office365-plans-and-pricing"
+            },
+            {
+                "title": "Exchange Online Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+            },
+            {
+                "title": "Office 365 Cloud App Security",
+                "url": "https://learn.microsoft.com/defender-cloud-apps/editions-cloud-app-security-o365"
+            },
+            {
+                "title": "Bookings",
+                "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+            },
+            {
+                "title": "Microsoft 365 Apps for Education",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise-product"
+            },
+            {
+                "title": "Teams Phone",
+                "url": "https://learn.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365"
+            },
+            {
+                "title": "Power BI Pro",
+                "url": "https://learn.microsoft.com/power-bi/fundamentals/service-get-started"
+            },
+            {
+                "title": "Customer Lockbox",
+                "url": "https://learn.microsoft.com/purview/customer-lockbox-requests"
+            },
+            {
+                "title": "Customer Key",
+                "url": "https://learn.microsoft.com/purview/customer-key-overview"
+            },
+            {
+                "title": "eDiscovery (premium)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-overview"
+            },
+            {
+                "title": "Privileged Access Management",
+                "url": "https://learn.microsoft.com/purview/privileged-access-management-solution-overview"
+            },
+            {
+                "title": "TeamsData Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-microsoft-teams"
+            },
+            {
+                "title": "Message Encryption (advanced)",
+                "url": "https://learn.microsoft.com/purview/ome-advanced-message-encryption"
+            },
+            {
+                "title": "Viva Insights - Personal (premium)",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description"
+            },
+            {
+                "title": "Comm Compliance",
+                "url": "https://learn.microsoft.com/purview/communication-compliance"
+            },
+            {
+                "title": "Data Lifecycle Management",
+                "url": "https://learn.microsoft.com/purview/manage-data-governance"
+            },
+            {
+                "title": "Records Management",
+                "url": "https://learn.microsoft.com/purview/records-management"
+            },
+            {
+                "title": "Audit (premium)",
+                "url": "https://learn.microsoft.com/purview/audit-solutions-overview"
+            },
+            {
+                "title": "Double Key Encryption",
+                "url": "https://learn.microsoft.com/purview/double-key-encryption"
+            },
+            {
+                "title": "SharePoint Online Plan 2",
+                "url": "https://learn.microsoft.com/sharepoint/introduction"
+            },
+            {
+                "title": "Rules-Based Classification(Office 365)",
+                "url": "https://learn.microsoft.com/purview/apply-sensitivity-label-automatically"
+            },
+            {
+                "title": "Viva Insights - Personal (basic)",
+                "url": "https://learn.microsoft.com/viva/insights/advanced/setup-maint/environment-requirements"
+            },
+            {
+                "title": "OneDrive for Business Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+            },
+            {
+                "title": "Productivity Server CAL",
+                "url": "https://www.microsoft.com/licensing/terms/product/CALandMLEquivalencyLicenses/EAEAS"
+            },
+            {
+                "title": "Defender for Office 365 Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans"
+            },
+            {
+                "title": "Threat Trackers",
+                "url": "https://learn.microsoft.com/defender-office-365/threat-trackers"
+            },
+            {
+                "title": "Attack Simulation Training",
+                "url": "https://learn.microsoft.com/defender-office-365/attack-simulation-training-get-started"
+            },
+            {
+                "title": "Threat Explorer",
+                "url": "https://learn.microsoft.com/defender-office-365/threat-explorer-real-time-detections-about"
+            },
+            {
+                "title": "Automated Investigation & Response",
+                "url": "https://learn.microsoft.com/defender-office-365/air-examples"
+            },
+            {
+                "title": "Safe Links",
+                "url": "https://learn.microsoft.com/defender-office-365/safe-links-about"
+            },
+            {
+                "title": "Safe Attachments",
+                "url": "https://learn.microsoft.com/defender-office-365/safe-attachments-about"
+            },
+            {
+                "title": "Advanced Anti-Phishing",
+                "url": "https://learn.microsoft.com/defender-office-365/anti-phishing-policies-about"
+            },
+            {
+                "title": "Compromised User Detection",
+                "url": "https://learn.microsoft.com/defender-office-365/address-compromised-users-quickly"
+            },
+            {
+                "title": "Campaign Views",
+                "url": "https://learn.microsoft.com/defender-office-365/campaigns"
+            },
+            {
+                "title": "Real-Time Reports",
+                "url": "https://learn.microsoft.com/defender-office-365/reports-defender-for-office-365"
+            },
+            {
+                "title": "Exchange Online Protection",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+            },
+            {
+                "title": "Sway",
+                "url": "https://support.microsoft.com/sway"
+            },
+            {
+                "title": "Planner for Office 365",
+                "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner"
+            },
+            {
+                "title": "School Data Sync",
+                "url": "https://sds.edu.cloud.microsoft/"
+            },
+            {
+                "title": "Microsoft Forms",
+                "url": "https://support.microsoft.com/forms"
+            },
+            {
+                "title": "OneNote Class Notebook",
+                "url": "https://www.onenote.com/classnotebook"
+            },
+            {
+                "title": "PLCGroups",
+                "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2016/06/20/professional-learning-community-groups-in-office-365-education/"
+            },
+            {
+                "title": "Microsoft Whiteboard",
+                "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+            },
+            {
+                "title": "Microsoft To Do",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app"
+            },
+            {
+                "title": "eDiscovery (standard)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-standard-get-started"
+            },
+            {
+                "title": "Microsoft Lists",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-lists"
+            },
+            {
+                "title": "Basic Mobility & Security",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+            },
+            {
+                "title": "Entra ID for Office 365",
+                "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+            },
+            {
+                "title": "Information Protectionfor M365",
+                "url": "https://learn.microsoft.com/purview/sensitivity-labels"
+            },
+            {
+                "title": "Message Encryption (basic)",
+                "url": "https://learn.microsoft.com/purview/ome"
+            },
+            {
+                "title": "Viva Connections",
+                "url": "https://www.microsoft.com/microsoft-viva/connections"
+            },
+            {
+                "title": "Audit (standard)",
+                "url": "https://learn.microsoft.com/purview/audit-search"
+            },
+            {
+                "title": "Alert Policies",
+                "url": "https://learn.microsoft.com/defender-xdr/alert-policies"
+            },
+            {
+                "title": "Microsoft 365 Mobile App",
+                "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+            },
+            {
+                "title": "Project & Roadmap View Access",
+                "url": "https://learn.microsoft.com/project-for-the-web/office-365-user-view-access-to-project-and-roadmap"
+            },
+            {
+                "title": "Viva Engage",
+                "url": "https://learn.microsoft.com/viva/engage/overview"
+            },
+            {
+                "title": "Compliance Manager",
+                "url": "https://learn.microsoft.com/purview/compliance-manager"
+            },
+            {
+                "title": "Secure Score",
+                "url": "https://learn.microsoft.com/defender-xdr/microsoft-secure-score"
+            },
+            {
+                "title": "Information Barriers",
+                "url": "https://learn.microsoft.com/purview/information-barriers"
+            },
+            {
+                "title": "Adoption Score",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/adoption/adoption-score"
+            },
+            {
+                "title": "Activity Reports",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports"
+            },
+            {
+                "title": "Education Insights",
+                "url": "https://support.microsoft.com/topic/27b56255-90c0-47aa-bac3-1c9f50157181"
+            },
+            {
+                "title": "Microsoft Search",
+                "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+            },
+            {
+                "title": "Exact Data Match",
+                "url": "https://learn.microsoft.com/purview/sit-learn-about-exact-data-match-based-sits"
+            },
+            {
+                "title": "Power Appsfor Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-apps/"
+            },
+            {
+                "title": "Power Automate for Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-automate/"
+            },
+            {
+                "title": "3x Premium & Custom Compliance Templates",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-templates-are-included-by-default-free-of-cost"
+            },
+            {
+                "title": "Retention Labels",
+                "url": "https://learn.microsoft.com/purview/retention"
+            },
+            {
+                "title": "Retention Policies",
+                "url": "https://learn.microsoft.com/purview/create-retention-policies"
+            },
+            {
+                "title": "Content Search",
+                "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+            },
+            {
+                "title": "Teams DLP & Export Graph API",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-loss-prevention-graph-apis-for-teams-data-loss-prevention-dlp-and-for-teams-export"
+            },
+            {
+                "title": "Microsoft 365 Copilot Chat",
+                "url": "https://learn.microsoft.com/copilot/overview"
+            },
+            {
+                "title": "Teams Message Quarantine",
+                "url": "https://learn.microsoft.com/defender-office-365/quarantine-admin-manage-messages-files#use-the-microsoft-defender-portal-to-manage-microsoft-teams-quarantined-messages"
+            },
+            {
+                "title": "Teams Message Entity Panel",
+                "url": "https://learn.microsoft.com/defender-office-365/teams-message-entity-panel"
+            },
+            {
+                "title": "Graph Connector Capacity",
+                "url": "https://learn.microsoft.com/microsoftsearch/licensing#index-quota-for-microsoft-365-enterprise-users"
+            },
+            {
+                "title": "Teams for Education",
+                "url": "https://www.microsoft.com/education/products/teams"
+            },
+            {
+                "title": "Teams Audio Conferencing (full)",
+                "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+            },
+            {
+                "title": "Microsoft Places(core)",
+                "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+            },
+            {
+                "title": "Copilot Studio Lite",
+                "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents"
+            },
+            {
+                "title": "Dataverse for Teams",
+                "url": "https://learn.microsoft.com/power-apps/teams/overview-data-platform"
+            },
+            {
+                "title": "Teams Live Events",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events"
+            },
+            {
+                "title": "Teams Webinars",
+                "url": "https://learn.microsoft.com/microsoftteams/set-up-webinars"
+            },
+            {
+                "title": "Teams Town Halls",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#town-halls"
+            },
+            {
+                "title": "Office for the Web",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+            },
+            {
+                "title": "Visio for the Web",
+                "url": "https://support.microsoft.com/office/9ca66c90-04f1-42c8-8176-1687ffb35d46"
+            },
+            {
+                "title": "Conditional Accessfor Sites",
+                "url": "https://learn.microsoft.com/sharepoint/authentication-context-example"
+            }
+        ],
+        "Office_365_Education_Simple": [
+            {
+                "title": "Office 365 A5",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/office365-plans-and-pricing"
+            },
+            {
+                "title": "Exchange Online Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+            },
+            {
+                "title": "Office 365 Cloud App Security",
+                "url": "https://learn.microsoft.com/defender-cloud-apps/editions-cloud-app-security-o365"
+            },
+            {
+                "title": "Bookings",
+                "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+            },
+            {
+                "title": "Microsoft 365 Apps for Education",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise-product"
+            },
+            {
+                "title": "SharePoint Online Plan 2",
+                "url": "https://learn.microsoft.com/sharepoint/introduction"
+            },
+            {
+                "title": "Sway",
+                "url": "https://support.microsoft.com/sway"
+            },
+            {
+                "title": "Exchange Online Protection",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+            },
+            {
+                "title": "OneDrive for Business Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+            },
+            {
+                "title": "Planner for Office 365",
+                "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner"
+            },
+            {
+                "title": "Data Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-learn-about-dlp"
+            },
+            {
+                "title": "School Data Sync",
+                "url": "https://sds.edu.cloud.microsoft/"
+            },
+            {
+                "title": "Microsoft Forms",
+                "url": "https://support.microsoft.com/forms"
+            },
+            {
+                "title": "OneNote Class Notebook",
+                "url": "https://www.onenote.com/classnotebook"
+            },
+            {
+                "title": "PLCGroups",
+                "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2016/06/20/professional-learning-community-groups-in-office-365-education/"
+            },
+            {
+                "title": "Microsoft Whiteboard",
+                "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+            },
+            {
+                "title": "Microsoft To Do",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app"
+            },
+            {
+                "title": "eDiscovery (standard)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-standard-get-started"
+            },
+            {
+                "title": "Microsoft Lists",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-lists"
+            },
+            {
+                "title": "Entra ID for Office 365",
+                "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+            },
+            {
+                "title": "Basic Mobility & Security",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+            },
+            {
+                "title": "Viva Insights - Personal (basic)",
+                "url": "https://learn.microsoft.com/viva/insights/advanced/setup-maint/environment-requirements"
+            },
+            {
+                "title": "Information Protectionfor M365",
+                "url": "https://learn.microsoft.com/purview/sensitivity-labels"
+            },
+            {
+                "title": "Audit (standard)",
+                "url": "https://learn.microsoft.com/purview/audit-search"
+            },
+            {
+                "title": "Alert Policies",
+                "url": "https://learn.microsoft.com/defender-xdr/alert-policies"
+            },
+            {
+                "title": "Message Encryption (basic)",
+                "url": "https://learn.microsoft.com/purview/ome"
+            },
+            {
+                "title": "Viva Connections",
+                "url": "https://www.microsoft.com/microsoft-viva/connections"
+            },
+            {
+                "title": "Productivity Server CAL",
+                "url": "https://www.microsoft.com/licensing/terms/product/CALandMLEquivalencyLicenses/EAEAS"
+            },
+            {
+                "title": "Project & Roadmap View Access",
+                "url": "https://learn.microsoft.com/project-for-the-web/office-365-user-view-access-to-project-and-roadmap"
+            },
+            {
+                "title": "Viva Engage",
+                "url": "https://learn.microsoft.com/viva/engage/overview"
+            },
+            {
+                "title": "Secure Score",
+                "url": "https://learn.microsoft.com/defender-xdr/microsoft-secure-score"
+            },
+            {
+                "title": "Information Barriers",
+                "url": "https://learn.microsoft.com/purview/information-barriers"
+            },
+            {
+                "title": "Adoption Score",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/adoption/adoption-score"
+            },
+            {
+                "title": "Activity Reports",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports"
+            },
+            {
+                "title": "Education Insights",
+                "url": "https://support.microsoft.com/topic/27b56255-90c0-47aa-bac3-1c9f50157181"
+            },
+            {
+                "title": "Microsoft Search",
+                "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+            },
+            {
+                "title": "Teams Phone",
+                "url": "https://learn.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365"
+            },
+            {
+                "title": "Power BI Pro",
+                "url": "https://learn.microsoft.com/power-bi/fundamentals/service-get-started"
+            },
+            {
+                "title": "Customer Lockbox",
+                "url": "https://learn.microsoft.com/purview/customer-lockbox-requests"
+            },
+            {
+                "title": "Customer Key",
+                "url": "https://learn.microsoft.com/purview/customer-key-overview"
+            },
+            {
+                "title": "eDiscovery (premium)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-overview"
+            },
+            {
+                "title": "Privileged Access Management",
+                "url": "https://learn.microsoft.com/purview/privileged-access-management-solution-overview"
+            },
+            {
+                "title": "TeamsData Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-microsoft-teams"
+            },
+            {
+                "title": "Message Encryption (advanced)",
+                "url": "https://learn.microsoft.com/purview/ome-advanced-message-encryption"
+            },
+            {
+                "title": "Viva Insights - Personal (premium)",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description"
+            },
+            {
+                "title": "Comm Compliance",
+                "url": "https://learn.microsoft.com/purview/communication-compliance"
+            },
+            {
+                "title": "Data Lifecycle Management",
+                "url": "https://learn.microsoft.com/purview/manage-data-governance"
+            },
+            {
+                "title": "Records Management",
+                "url": "https://learn.microsoft.com/purview/records-management"
+            },
+            {
+                "title": "Audit (premium)",
+                "url": "https://learn.microsoft.com/purview/audit-solutions-overview"
+            },
+            {
+                "title": "Double Key Encryption",
+                "url": "https://learn.microsoft.com/purview/double-key-encryption"
+            },
+            {
+                "title": "Rules-Based Classification(Office 365)",
+                "url": "https://learn.microsoft.com/purview/apply-sensitivity-label-automatically"
+            },
+            {
+                "title": "Exact Data Match",
+                "url": "https://learn.microsoft.com/purview/sit-learn-about-exact-data-match-based-sits"
+            },
+            {
+                "title": "Defender for Office 365 Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans"
+            },
+            {
+                "title": "Power Appsfor Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-apps/"
+            },
+            {
+                "title": "Power Automate for Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-automate/"
+            },
+            {
+                "title": "3x Premium & Custom Compliance Templates",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-templates-are-included-by-default-free-of-cost"
+            },
+            {
+                "title": "Retention Labels",
+                "url": "https://learn.microsoft.com/purview/retention"
+            },
+            {
+                "title": "Retention Policies",
+                "url": "https://learn.microsoft.com/purview/create-retention-policies"
+            },
+            {
+                "title": "Microsoft 365 Mobile App",
+                "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+            },
+            {
+                "title": "Compliance Manager",
+                "url": "https://learn.microsoft.com/purview/compliance-manager"
+            },
+            {
+                "title": "Content Search",
+                "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+            },
+            {
+                "title": "Teams DLP & Export Graph API",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-loss-prevention-graph-apis-for-teams-data-loss-prevention-dlp-and-for-teams-export"
+            },
+            {
+                "title": "Microsoft 365 Copilot Chat",
+                "url": "https://learn.microsoft.com/copilot/overview"
+            },
+            {
+                "title": "Graph Connector Capacity",
+                "url": "https://learn.microsoft.com/microsoftsearch/licensing#index-quota-for-microsoft-365-enterprise-users"
+            },
+            {
+                "title": "Teams for Education",
+                "url": "https://www.microsoft.com/education/products/teams"
+            },
+            {
+                "title": "Microsoft Places(core)",
+                "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+            },
+            {
+                "title": "Teams Audio Conferencing (full)",
+                "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+            },
+            {
+                "title": "Copilot Studio Lite",
+                "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents"
+            },
+            {
+                "title": "Dataverse for Teams",
+                "url": "https://learn.microsoft.com/power-apps/teams/overview-data-platform"
+            },
+            {
+                "title": "Teams Live Events",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events"
+            },
+            {
+                "title": "Teams Webinars",
+                "url": "https://learn.microsoft.com/microsoftteams/set-up-webinars"
+            },
+            {
+                "title": "Teams Town Halls",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#town-halls"
+            },
+            {
+                "title": "Office for the Web",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+            },
+            {
+                "title": "Visio for the Web",
+                "url": "https://support.microsoft.com/office/9ca66c90-04f1-42c8-8176-1687ffb35d46"
+            },
+            {
+                "title": "Conditional Accessfor Sites",
+                "url": "https://learn.microsoft.com/sharepoint/authentication-context-example"
+            }
+        ]
+    },
+    "enterprise": {
+        "Office_365_Enterprise_All": [
+            {
+                "title": "Office 365 E5",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/office365-plans-and-pricing"
+            },
+            {
+                "title": "Teams Phone",
+                "url": "https://learn.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365"
+            },
+            {
+                "title": "Power BI Pro",
+                "url": "https://learn.microsoft.com/power-bi/fundamentals/service-get-started"
+            },
+            {
+                "title": "Customer Lockbox",
+                "url": "https://learn.microsoft.com/purview/customer-lockbox-requests"
+            },
+            {
+                "title": "Customer Key",
+                "url": "https://learn.microsoft.com/purview/customer-key-overview"
+            },
+            {
+                "title": "eDiscovery (premium)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-overview"
+            },
+            {
+                "title": "Privileged Access Management",
+                "url": "https://learn.microsoft.com/purview/privileged-access-management-solution-overview"
+            },
+            {
+                "title": "Teams Data Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-microsoft-teams"
+            },
+            {
+                "title": "Message Encryption (advanced)",
+                "url": "https://learn.microsoft.com/purview/ome-advanced-message-encryption"
+            },
+            {
+                "title": "Information Barriers",
+                "url": "https://learn.microsoft.com/purview/information-barriers"
+            },
+            {
+                "title": "Viva Insights - Personal (premium)",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description"
+            },
+            {
+                "title": "Comm Compliance",
+                "url": "https://learn.microsoft.com/purview/communication-compliance"
+            },
+            {
+                "title": "Office 365 Cloud App Security",
+                "url": "https://learn.microsoft.com/defender-cloud-apps/editions-cloud-app-security-o365"
+            },
+            {
+                "title": "Data Lifecycle Management",
+                "url": "https://learn.microsoft.com/purview/manage-data-governance"
+            },
+            {
+                "title": "Records Management",
+                "url": "https://learn.microsoft.com/purview/records-management"
+            },
+            {
+                "title": "Audit (premium)",
+                "url": "https://learn.microsoft.com/purview/audit-solutions-overview"
+            },
+            {
+                "title": "Double Key Encryption",
+                "url": "https://learn.microsoft.com/purview/double-key-encryption"
+            },
+            {
+                "title": "Rules-Based Classification(Office 365)",
+                "url": "https://learn.microsoft.com/purview/apply-sensitivity-label-automatically"
+            },
+            {
+                "title": "Skype for Business Plus CAL",
+                "url": "https://www.microsoft.com/licensing/terms/product/CALandMLEquivalencyLicenses/EAEAS"
+            },
+            {
+                "title": "Defender for Office 365 Plan 2 Step-up",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans"
+            },
+            {
+                "title": "Threat Trackers",
+                "url": "https://learn.microsoft.com/defender-office-365/threat-trackers"
+            },
+            {
+                "title": "Attack Simulation Training",
+                "url": "https://learn.microsoft.com/defender-office-365/attack-simulation-training-get-started"
+            },
+            {
+                "title": "Threat Explorer",
+                "url": "https://learn.microsoft.com/defender-office-365/threat-explorer-real-time-detections-about"
+            },
+            {
+                "title": "Automated Investigation & Response",
+                "url": "https://learn.microsoft.com/defender-office-365/air-examples"
+            },
+            {
+                "title": "Safe Links",
+                "url": "https://learn.microsoft.com/defender-office-365/safe-links-about"
+            },
+            {
+                "title": "Safe Attachments",
+                "url": "https://learn.microsoft.com/defender-office-365/safe-attachments-about"
+            },
+            {
+                "title": "Advanced Anti-Phishing",
+                "url": "https://learn.microsoft.com/defender-office-365/anti-phishing-policies-about"
+            },
+            {
+                "title": "Compromised User Detection",
+                "url": "https://learn.microsoft.com/defender-office-365/address-compromised-users-quickly"
+            },
+            {
+                "title": "Campaign Views",
+                "url": "https://learn.microsoft.com/defender-office-365/campaigns"
+            },
+            {
+                "title": "Real-Time Reports",
+                "url": "https://learn.microsoft.com/defender-office-365/reports-defender-for-office-365"
+            },
+            {
+                "title": "Exact Data Match",
+                "url": "https://learn.microsoft.com/purview/sit-learn-about-exact-data-match-based-sits"
+            },
+            {
+                "title": "3x Premium & Custom Compliance Templates",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-templates-are-included-by-default-free-of-cost"
+            },
+            {
+                "title": "Teams DLP & Export Graph API",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-loss-prevention-graph-apis-for-teams-data-loss-prevention-dlp-and-for-teams-export"
+            },
+            {
+                "title": "Teams Message Quarantine",
+                "url": "https://learn.microsoft.com/defender-office-365/quarantine-admin-manage-messages-files#use-the-microsoft-defender-portal-to-manage-microsoft-teams-quarantined-messages"
+            },
+            {
+                "title": "Teams Message Entity Panel",
+                "url": "https://learn.microsoft.com/defender-office-365/teams-message-entity-panel"
+            },
+            {
+                "title": "Teams Audio Conferencing (full)",
+                "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+            },
+            {
+                "title": "Microsoft 365 Apps for Enterprise",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise-product"
+            },
+            {
+                "title": "Planner for Office 365",
+                "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner"
+            },
+            {
+                "title": "Viva Insights - Personal (basic)",
+                "url": "https://learn.microsoft.com/viva/insights/advanced/setup-maint/environment-requirements"
+            },
+            {
+                "title": "SharePoint Online Plan 2",
+                "url": "https://learn.microsoft.com/sharepoint/introduction"
+            },
+            {
+                "title": "OneDrive for Business Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+            },
+            {
+                "title": "Sway",
+                "url": "https://support.microsoft.com/sway"
+            },
+            {
+                "title": "Microsoft Forms",
+                "url": "https://support.microsoft.com/forms"
+            },
+            {
+                "title": "Data Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-learn-about-dlp"
+            },
+            {
+                "title": "Exchange Online Protection",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+            },
+            {
+                "title": "eDiscovery (standard)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-standard-get-started"
+            },
+            {
+                "title": "Exchange Online Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+            },
+            {
+                "title": "Microsoft Lists",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-lists"
+            },
+            {
+                "title": "Bookings",
+                "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+            },
+            {
+                "title": "InfoPathApp",
+                "url": "https://www.microsoft.com/download/details.aspx?id=48734"
+            },
+            {
+                "title": "Audit (standard)",
+                "url": "https://learn.microsoft.com/purview/audit-search"
+            },
+            {
+                "title": "Alert Policies",
+                "url": "https://learn.microsoft.com/defender-xdr/alert-policies"
+            },
+            {
+                "title": "Microsoft Whiteboard",
+                "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+            },
+            {
+                "title": "Microsoft To Do",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app"
+            },
+            {
+                "title": "Microsoft 365 Mobile App",
+                "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+            },
+            {
+                "title": "Office for the Web",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+            },
+            {
+                "title": "Basic Mobility & Security",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+            },
+            {
+                "title": "Entra ID for Office 365",
+                "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+            },
+            {
+                "title": "Information Protectionfor M365",
+                "url": "https://learn.microsoft.com/purview/sensitivity-labels"
+            },
+            {
+                "title": "Message Encryption (basic)",
+                "url": "https://learn.microsoft.com/purview/ome"
+            },
+            {
+                "title": "Viva Connections",
+                "url": "https://www.microsoft.com/microsoft-viva/connections"
+            },
+            {
+                "title": "Viva Learning (basic)",
+                "url": "https://www.microsoft.com/microsoft-viva/learning"
+            },
+            {
+                "title": "Project & Roadmap View Access",
+                "url": "https://learn.microsoft.com/project-for-the-web/office-365-user-view-access-to-project-and-roadmap"
+            },
+            {
+                "title": "Viva Engage",
+                "url": "https://learn.microsoft.com/viva/engage/overview"
+            },
+            {
+                "title": "Compliance Manager",
+                "url": "https://learn.microsoft.com/purview/compliance-manager"
+            },
+            {
+                "title": "Secure Score",
+                "url": "https://learn.microsoft.com/defender-xdr/microsoft-secure-score"
+            },
+            {
+                "title": "Adoption Score",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/adoption/adoption-score"
+            },
+            {
+                "title": "Activity Reports",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports"
+            },
+            {
+                "title": "Microsoft Search",
+                "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+            },
+            {
+                "title": "Graph Connector Capacity",
+                "url": "https://learn.microsoft.com/microsoftsearch/licensing#index-quota-for-microsoft-365-enterprise-users"
+            },
+            {
+                "title": "Power Appsfor Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-apps/"
+            },
+            {
+                "title": "Power Automate for Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-automate/"
+            },
+            {
+                "title": "Retention Labels",
+                "url": "https://learn.microsoft.com/purview/retention"
+            },
+            {
+                "title": "Retention Policies",
+                "url": "https://learn.microsoft.com/purview/create-retention-policies"
+            },
+            {
+                "title": "Content Search",
+                "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+            },
+            {
+                "title": "Microsoft Places(core)",
+                "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+            },
+            {
+                "title": "Copilot Studio Lite",
+                "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents"
+            },
+            {
+                "title": "Dataverse for Teams",
+                "url": "https://learn.microsoft.com/power-apps/teams/overview-data-platform"
+            },
+            {
+                "title": "Teams Live Events",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events"
+            },
+            {
+                "title": "Teams Webinars",
+                "url": "https://learn.microsoft.com/microsoftteams/set-up-webinars"
+            },
+            {
+                "title": "Teams Town Halls",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#town-halls"
+            },
+            {
+                "title": "Visio for the Web",
+                "url": "https://support.microsoft.com/office/9ca66c90-04f1-42c8-8176-1687ffb35d46"
+            },
+            {
+                "title": "Microsoft 365 Copilot Chat",
+                "url": "https://learn.microsoft.com/copilot/overview"
+            },
+            {
+                "title": "Conditional Accessfor Sites",
+                "url": "https://learn.microsoft.com/sharepoint/authentication-context-example"
+            },
+            {
+                "title": "Teams Enterprise (optional)",
+                "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+            },
+            {
+                "title": "Clipchamp Standard",
+                "url": "https://learn.microsoft.com/clipchamp/"
+            }
+        ],
+        "Office_365_Enterprise_Simple": [
+            {
+                "title": "Office 365 E5",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/office365-plans-and-pricing"
+            },
+            {
+                "title": "Teams Phone",
+                "url": "https://learn.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365"
+            },
+            {
+                "title": "Power BI Pro",
+                "url": "https://learn.microsoft.com/power-bi/fundamentals/service-get-started"
+            },
+            {
+                "title": "Customer Lockbox",
+                "url": "https://learn.microsoft.com/purview/customer-lockbox-requests"
+            },
+            {
+                "title": "Customer Key",
+                "url": "https://learn.microsoft.com/purview/customer-key-overview"
+            },
+            {
+                "title": "eDiscovery (premium)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-overview"
+            },
+            {
+                "title": "Privileged Access Management",
+                "url": "https://learn.microsoft.com/purview/privileged-access-management-solution-overview"
+            },
+            {
+                "title": "TeamsData Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-microsoft-teams"
+            },
+            {
+                "title": "Information Barriers",
+                "url": "https://learn.microsoft.com/purview/information-barriers"
+            },
+            {
+                "title": "Viva Insights - Personal (premium)",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description"
+            },
+            {
+                "title": "Comm Compliance",
+                "url": "https://learn.microsoft.com/purview/communication-compliance"
+            },
+            {
+                "title": "Office 365 Cloud App Security",
+                "url": "https://learn.microsoft.com/defender-cloud-apps/editions-cloud-app-security-o365"
+            },
+            {
+                "title": "Data Lifecycle Management",
+                "url": "https://learn.microsoft.com/purview/manage-data-governance"
+            },
+            {
+                "title": "Records Management",
+                "url": "https://learn.microsoft.com/purview/records-management"
+            },
+            {
+                "title": "Audit (premium)",
+                "url": "https://learn.microsoft.com/purview/audit-solutions-overview"
+            },
+            {
+                "title": "Double Key Encryption",
+                "url": "https://learn.microsoft.com/purview/double-key-encryption"
+            },
+            {
+                "title": "Defender for Office 365 Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans"
+            },
+            {
+                "title": "Rules-Based Classification(Office 365)",
+                "url": "https://learn.microsoft.com/purview/apply-sensitivity-label-automatically"
+            },
+            {
+                "title": "Skype for Business Plus CAL",
+                "url": "https://www.microsoft.com/licensing/terms/product/CALandMLEquivalencyLicenses/EAEAS"
+            },
+            {
+                "title": "Exact Data Match",
+                "url": "https://learn.microsoft.com/purview/sit-learn-about-exact-data-match-based-sits"
+            },
+            {
+                "title": "Graph Connector Capacity",
+                "url": "https://learn.microsoft.com/microsoftsearch/licensing#index-quota-for-microsoft-365-enterprise-users"
+            },
+            {
+                "title": "3x Premium & Custom Compliance Templates",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-templates-are-included-by-default-free-of-cost"
+            },
+            {
+                "title": "Microsoft 365 Apps for Enterprise",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise-product"
+            },
+            {
+                "title": "Planner for Office 365",
+                "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner"
+            },
+            {
+                "title": "Viva Insights - Personal (basic)",
+                "url": "https://learn.microsoft.com/viva/insights/advanced/setup-maint/environment-requirements"
+            },
+            {
+                "title": "Clipchamp Standard",
+                "url": "https://learn.microsoft.com/clipchamp/"
+            },
+            {
+                "title": "SharePoint Online Plan 2",
+                "url": "https://learn.microsoft.com/sharepoint/introduction"
+            },
+            {
+                "title": "OneDrive for Business Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+            },
+            {
+                "title": "Sway",
+                "url": "https://support.microsoft.com/sway"
+            },
+            {
+                "title": "Microsoft Forms",
+                "url": "https://support.microsoft.com/forms"
+            },
+            {
+                "title": "Data Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-learn-about-dlp"
+            },
+            {
+                "title": "Exchange Online Protection",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+            },
+            {
+                "title": "eDiscovery (standard)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-standard-get-started"
+            },
+            {
+                "title": "Exchange Online Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+            },
+            {
+                "title": "Microsoft Lists",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-lists"
+            },
+            {
+                "title": "Bookings",
+                "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+            },
+            {
+                "title": "InfoPathApp",
+                "url": "https://www.microsoft.com/download/details.aspx?id=48734"
+            },
+            {
+                "title": "Audit (standard)",
+                "url": "https://learn.microsoft.com/purview/audit-search"
+            },
+            {
+                "title": "Alert Policies",
+                "url": "https://learn.microsoft.com/defender-xdr/alert-policies"
+            },
+            {
+                "title": "Microsoft Whiteboard",
+                "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+            },
+            {
+                "title": "Microsoft To Do",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app"
+            },
+            {
+                "title": "Microsoft 365 Mobile App",
+                "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+            },
+            {
+                "title": "Basic Mobility & Security",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+            },
+            {
+                "title": "Entra ID for Office 365",
+                "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+            },
+            {
+                "title": "Information Protectionfor M365",
+                "url": "https://learn.microsoft.com/purview/sensitivity-labels"
+            },
+            {
+                "title": "Message Encryption (basic)",
+                "url": "https://learn.microsoft.com/purview/ome"
+            },
+            {
+                "title": "Viva Connections",
+                "url": "https://www.microsoft.com/microsoft-viva/connections"
+            },
+            {
+                "title": "Viva Learning (basic)",
+                "url": "https://www.microsoft.com/microsoft-viva/learning"
+            },
+            {
+                "title": "Project & Roadmap View Access",
+                "url": "https://learn.microsoft.com/project-for-the-web/office-365-user-view-access-to-project-and-roadmap"
+            },
+            {
+                "title": "Viva Engage",
+                "url": "https://learn.microsoft.com/viva/engage/overview"
+            },
+            {
+                "title": "Compliance Manager",
+                "url": "https://learn.microsoft.com/purview/compliance-manager"
+            },
+            {
+                "title": "Secure Score",
+                "url": "https://learn.microsoft.com/defender-xdr/microsoft-secure-score"
+            },
+            {
+                "title": "Adoption Score",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/adoption/adoption-score"
+            },
+            {
+                "title": "Activity Reports",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports"
+            },
+            {
+                "title": "Microsoft Search",
+                "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+            },
+            {
+                "title": "Power Appsfor Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-apps/"
+            },
+            {
+                "title": "Power Automate for Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-automate/"
+            },
+            {
+                "title": "Retention Labels",
+                "url": "https://learn.microsoft.com/purview/retention"
+            },
+            {
+                "title": "Retention Policies",
+                "url": "https://learn.microsoft.com/purview/create-retention-policies"
+            },
+            {
+                "title": "Message Encryption (advanced)",
+                "url": "https://learn.microsoft.com/purview/ome-advanced-message-encryption"
+            },
+            {
+                "title": "Content Search",
+                "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+            },
+            {
+                "title": "Teams DLP & Export Graph API",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-loss-prevention-graph-apis-for-teams-data-loss-prevention-dlp-and-for-teams-export"
+            },
+            {
+                "title": "Microsoft Places(core)",
+                "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+            },
+            {
+                "title": "Teams Audio Conferencing (full)",
+                "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+            },
+            {
+                "title": "Copilot Studio Lite",
+                "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents"
+            },
+            {
+                "title": "Dataverse for Teams",
+                "url": "https://learn.microsoft.com/power-apps/teams/overview-data-platform"
+            },
+            {
+                "title": "Teams Live Events",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events"
+            },
+            {
+                "title": "Teams Webinars",
+                "url": "https://learn.microsoft.com/microsoftteams/set-up-webinars"
+            },
+            {
+                "title": "Teams Town Halls",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#town-halls"
+            },
+            {
+                "title": "Office for the Web",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+            },
+            {
+                "title": "Visio for the Web",
+                "url": "https://support.microsoft.com/office/9ca66c90-04f1-42c8-8176-1687ffb35d46"
+            },
+            {
+                "title": "Microsoft 365 Copilot Chat",
+                "url": "https://learn.microsoft.com/copilot/overview"
+            },
+            {
+                "title": "Conditional Accessfor Sites",
+                "url": "https://learn.microsoft.com/sharepoint/authentication-context-example"
+            },
+            {
+                "title": "Teams Enterprise (optional)",
+                "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+            },
+            {
+                "title": "Defender for Office 365 Plan 1",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description"
+            }
+        ],
+        "Office_365_E1": [
+            {
+                "title": "Office 365 E5",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/office365-plans-and-pricing"
+            },
+            {
+                "title": "Exchange Online Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+            },
+            {
+                "title": "SharePoint Online Plan 2",
+                "url": "https://learn.microsoft.com/sharepoint/introduction"
+            },
+            {
+                "title": "OneDrive for Business Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+            },
+            {
+                "title": "Data Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-learn-about-dlp"
+            },
+            {
+                "title": "Microsoft 365 Apps for Enterprise",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise-product"
+            },
+            {
+                "title": "eDiscovery (standard)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-standard-get-started"
+            },
+            {
+                "title": "InfoPathApp",
+                "url": "https://www.microsoft.com/download/details.aspx?id=48734"
+            },
+            {
+                "title": "Information Protectionfor M365",
+                "url": "https://learn.microsoft.com/purview/sensitivity-labels"
+            },
+            {
+                "title": "Message Encryption (basic)",
+                "url": "https://learn.microsoft.com/purview/ome"
+            },
+            {
+                "title": "Planner for Office 365",
+                "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner"
+            },
+            {
+                "title": "Viva Insights - Personal (basic)",
+                "url": "https://learn.microsoft.com/viva/insights/advanced/setup-maint/environment-requirements"
+            },
+            {
+                "title": "Clipchamp Standard",
+                "url": "https://learn.microsoft.com/clipchamp/"
+            },
+            {
+                "title": "Sway",
+                "url": "https://support.microsoft.com/sway"
+            },
+            {
+                "title": "Microsoft Forms",
+                "url": "https://support.microsoft.com/forms"
+            },
+            {
+                "title": "Exchange Online Protection",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+            },
+            {
+                "title": "Microsoft Lists",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-lists"
+            },
+            {
+                "title": "Bookings",
+                "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+            },
+            {
+                "title": "Audit (standard)",
+                "url": "https://learn.microsoft.com/purview/audit-search"
+            },
+            {
+                "title": "Alert Policies",
+                "url": "https://learn.microsoft.com/defender-xdr/alert-policies"
+            },
+            {
+                "title": "Microsoft Whiteboard",
+                "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+            },
+            {
+                "title": "Microsoft To Do",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app"
+            },
+            {
+                "title": "Microsoft 365 Mobile App",
+                "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+            },
+            {
+                "title": "Basic Mobility & Security",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+            },
+            {
+                "title": "Entra ID for Office 365",
+                "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+            },
+            {
+                "title": "Viva Connections",
+                "url": "https://www.microsoft.com/microsoft-viva/connections"
+            },
+            {
+                "title": "Viva Learning (basic)",
+                "url": "https://www.microsoft.com/microsoft-viva/learning"
+            },
+            {
+                "title": "Productivity Server CAL",
+                "url": "https://www.microsoft.com/licensing/terms/product/CALandMLEquivalencyLicenses/EAEAS"
+            },
+            {
+                "title": "Project & Roadmap View Access",
+                "url": "https://learn.microsoft.com/project-for-the-web/office-365-user-view-access-to-project-and-roadmap"
+            },
+            {
+                "title": "Viva Engage",
+                "url": "https://learn.microsoft.com/viva/engage/overview"
+            },
+            {
+                "title": "Compliance Manager",
+                "url": "https://learn.microsoft.com/purview/compliance-manager"
+            },
+            {
+                "title": "Secure Score",
+                "url": "https://learn.microsoft.com/defender-xdr/microsoft-secure-score"
+            },
+            {
+                "title": "Adoption Score",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/adoption/adoption-score"
+            },
+            {
+                "title": "Activity Reports",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports"
+            },
+            {
+                "title": "Microsoft Search",
+                "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+            },
+            {
+                "title": "Teams Phone",
+                "url": "https://learn.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365"
+            },
+            {
+                "title": "Power BI Pro",
+                "url": "https://learn.microsoft.com/power-bi/fundamentals/service-get-started"
+            },
+            {
+                "title": "Customer Lockbox",
+                "url": "https://learn.microsoft.com/purview/customer-lockbox-requests"
+            },
+            {
+                "title": "Customer Key",
+                "url": "https://learn.microsoft.com/purview/customer-key-overview"
+            },
+            {
+                "title": "eDiscovery (premium)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-overview"
+            },
+            {
+                "title": "Privileged Access Management",
+                "url": "https://learn.microsoft.com/purview/privileged-access-management-solution-overview"
+            },
+            {
+                "title": "TeamsData Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-microsoft-teams"
+            },
+            {
+                "title": "Message Encryption (advanced)",
+                "url": "https://learn.microsoft.com/purview/ome-advanced-message-encryption"
+            },
+            {
+                "title": "Information Barriers",
+                "url": "https://learn.microsoft.com/purview/information-barriers"
+            },
+            {
+                "title": "Viva Insights - Personal (premium)",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description"
+            },
+            {
+                "title": "Comm Compliance",
+                "url": "https://learn.microsoft.com/purview/communication-compliance"
+            },
+            {
+                "title": "Office 365 Cloud App Security",
+                "url": "https://learn.microsoft.com/defender-cloud-apps/editions-cloud-app-security-o365"
+            },
+            {
+                "title": "Data Lifecycle Management",
+                "url": "https://learn.microsoft.com/purview/manage-data-governance"
+            },
+            {
+                "title": "Records Management",
+                "url": "https://learn.microsoft.com/purview/records-management"
+            },
+            {
+                "title": "Audit (premium)",
+                "url": "https://learn.microsoft.com/purview/audit-solutions-overview"
+            },
+            {
+                "title": "Double Key Encryption",
+                "url": "https://learn.microsoft.com/purview/double-key-encryption"
+            },
+            {
+                "title": "Defender for Office 365 Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans"
+            },
+            {
+                "title": "Rules-Based Classification(Office 365)",
+                "url": "https://learn.microsoft.com/purview/apply-sensitivity-label-automatically"
+            },
+            {
+                "title": "Exact Data Match",
+                "url": "https://learn.microsoft.com/purview/sit-learn-about-exact-data-match-based-sits"
+            },
+            {
+                "title": "Graph Connector Capacity",
+                "url": "https://learn.microsoft.com/microsoftsearch/licensing#index-quota-for-microsoft-365-enterprise-users"
+            },
+            {
+                "title": "Power Appsfor Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-apps/"
+            },
+            {
+                "title": "Power Automate for Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-automate/"
+            },
+            {
+                "title": "3x Premium & Custom Compliance Templates",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-templates-are-included-by-default-free-of-cost"
+            },
+            {
+                "title": "Retention Labels",
+                "url": "https://learn.microsoft.com/purview/retention"
+            },
+            {
+                "title": "Retention Policies",
+                "url": "https://learn.microsoft.com/purview/create-retention-policies"
+            },
+            {
+                "title": "Content Search",
+                "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+            },
+            {
+                "title": "Teams DLP & Export Graph API",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-loss-prevention-graph-apis-for-teams-data-loss-prevention-dlp-and-for-teams-export"
+            },
+            {
+                "title": "Microsoft Places(core)",
+                "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+            },
+            {
+                "title": "Teams Audio Conferencing (full)",
+                "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+            },
+            {
+                "title": "Copilot Studio Lite",
+                "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents"
+            },
+            {
+                "title": "Dataverse for Teams",
+                "url": "https://learn.microsoft.com/power-apps/teams/overview-data-platform"
+            },
+            {
+                "title": "Teams Live Events",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events"
+            },
+            {
+                "title": "Teams Webinars",
+                "url": "https://learn.microsoft.com/microsoftteams/set-up-webinars"
+            },
+            {
+                "title": "Teams Town Halls",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#town-halls"
+            },
+            {
+                "title": "Office for the Web",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+            },
+            {
+                "title": "Visio for the Web",
+                "url": "https://support.microsoft.com/office/9ca66c90-04f1-42c8-8176-1687ffb35d46"
+            },
+            {
+                "title": "Microsoft 365 Copilot Chat",
+                "url": "https://learn.microsoft.com/copilot/overview"
+            },
+            {
+                "title": "Teams Enterprise (optional)",
+                "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+            },
+            {
+                "title": "Defender for Office 365 Plan 1",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description"
+            }
+        ],
+        "Office_365_E3": [
+            {
+                "title": "Office 365 E3",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/office365-plans-and-pricing"
+            },
+            {
+                "title": "Microsoft 365 Apps for Enterprise",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise-product"
+            },
+            {
+                "title": "Planner for Office 365",
+                "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner"
+            },
+            {
+                "title": "Viva Insights - Personal (basic)",
+                "url": "https://learn.microsoft.com/viva/insights/advanced/setup-maint/environment-requirements"
+            },
+            {
+                "title": "Clipchamp Standard",
+                "url": "https://learn.microsoft.com/clipchamp/"
+            },
+            {
+                "title": "SharePoint Online Plan 2",
+                "url": "https://learn.microsoft.com/sharepoint/introduction"
+            },
+            {
+                "title": "OneDrive for Business Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+            },
+            {
+                "title": "Sway",
+                "url": "https://support.microsoft.com/sway"
+            },
+            {
+                "title": "Microsoft Forms",
+                "url": "https://support.microsoft.com/forms"
+            },
+            {
+                "title": "Data Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-learn-about-dlp"
+            },
+            {
+                "title": "Exchange Online Protection",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+            },
+            {
+                "title": "eDiscovery (standard)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-standard-get-started"
+            },
+            {
+                "title": "Exchange Online Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+            },
+            {
+                "title": "Microsoft Lists",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-lists"
+            },
+            {
+                "title": "Bookings",
+                "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+            },
+            {
+                "title": "InfoPathApp",
+                "url": "https://www.microsoft.com/download/details.aspx?id=48734"
+            },
+            {
+                "title": "Audit (standard)",
+                "url": "https://learn.microsoft.com/purview/audit-search"
+            },
+            {
+                "title": "Alert Policies",
+                "url": "https://learn.microsoft.com/defender-xdr/alert-policies"
+            },
+            {
+                "title": "Microsoft Whiteboard",
+                "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+            },
+            {
+                "title": "Microsoft To Do",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app"
+            },
+            {
+                "title": "Microsoft 365 Mobile App",
+                "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+            },
+            {
+                "title": "Basic Mobility & Security",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+            },
+            {
+                "title": "Entra ID for Office 365",
+                "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+            },
+            {
+                "title": "Information Protectionfor M365",
+                "url": "https://learn.microsoft.com/purview/sensitivity-labels"
+            },
+            {
+                "title": "Message Encryption (basic)",
+                "url": "https://learn.microsoft.com/purview/ome"
+            },
+            {
+                "title": "Viva Connections",
+                "url": "https://www.microsoft.com/microsoft-viva/connections"
+            },
+            {
+                "title": "Viva Learning (basic)",
+                "url": "https://www.microsoft.com/microsoft-viva/learning"
+            },
+            {
+                "title": "Productivity Server CAL",
+                "url": "https://www.microsoft.com/licensing/terms/product/CALandMLEquivalencyLicenses/EAEAS"
+            },
+            {
+                "title": "Project & Roadmap View Access",
+                "url": "https://learn.microsoft.com/project-for-the-web/office-365-user-view-access-to-project-and-roadmap"
+            },
+            {
+                "title": "Viva Engage",
+                "url": "https://learn.microsoft.com/viva/engage/overview"
+            },
+            {
+                "title": "Compliance Manager",
+                "url": "https://learn.microsoft.com/purview/compliance-manager"
+            },
+            {
+                "title": "Secure Score",
+                "url": "https://learn.microsoft.com/defender-xdr/microsoft-secure-score"
+            },
+            {
+                "title": "Adoption Score",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/adoption/adoption-score"
+            },
+            {
+                "title": "Activity Reports",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports"
+            },
+            {
+                "title": "Microsoft Search",
+                "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+            },
+            {
+                "title": "Graph Connector Capacity",
+                "url": "https://learn.microsoft.com/microsoftsearch/licensing#index-quota-for-microsoft-365-enterprise-users"
+            },
+            {
+                "title": "Power Appsfor Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-apps/"
+            },
+            {
+                "title": "Power Automate for Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-automate/"
+            },
+            {
+                "title": "Retention Labels",
+                "url": "https://learn.microsoft.com/purview/retention"
+            },
+            {
+                "title": "Retention Policies",
+                "url": "https://learn.microsoft.com/purview/create-retention-policies"
+            },
+            {
+                "title": "Content Search",
+                "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+            },
+            {
+                "title": "Microsoft Places(core)",
+                "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+            },
+            {
+                "title": "Copilot Studio Lite",
+                "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents"
+            },
+            {
+                "title": "Dataverse for Teams",
+                "url": "https://learn.microsoft.com/power-apps/teams/overview-data-platform"
+            },
+            {
+                "title": "Teams Live Events",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events"
+            },
+            {
+                "title": "Teams Webinars",
+                "url": "https://learn.microsoft.com/microsoftteams/set-up-webinars"
+            },
+            {
+                "title": "Teams Town Halls",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#town-halls"
+            },
+            {
+                "title": "Office for the Web",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+            },
+            {
+                "title": "Visio for the Web",
+                "url": "https://support.microsoft.com/office/9ca66c90-04f1-42c8-8176-1687ffb35d46"
+            },
+            {
+                "title": "Microsoft 365 Copilot Chat",
+                "url": "https://learn.microsoft.com/copilot/overview"
+            },
+            {
+                "title": "Teams Enterprise (optional)",
+                "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+            },
+            {
+                "title": "Defender for Office 365 Plan 1",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description"
+            }
+        ],
+        "Office_365_E5": [
+            {
+                "title": "Office 365 E5",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/office365-plans-and-pricing"
+            },
+            {
+                "title": "Teams Phone",
+                "url": "https://learn.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365"
+            },
+            {
+                "title": "Power BI Pro",
+                "url": "https://learn.microsoft.com/power-bi/fundamentals/service-get-started"
+            },
+            {
+                "title": "Customer Lockbox",
+                "url": "https://learn.microsoft.com/purview/customer-lockbox-requests"
+            },
+            {
+                "title": "Customer Key",
+                "url": "https://learn.microsoft.com/purview/customer-key-overview"
+            },
+            {
+                "title": "eDiscovery (premium)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-overview"
+            },
+            {
+                "title": "Privileged Access Management",
+                "url": "https://learn.microsoft.com/purview/privileged-access-management-solution-overview"
+            },
+            {
+                "title": "TeamsData Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-microsoft-teams"
+            },
+            {
+                "title": "Message Encryption (advanced)",
+                "url": "https://learn.microsoft.com/purview/ome-advanced-message-encryption"
+            },
+            {
+                "title": "Information Barriers",
+                "url": "https://learn.microsoft.com/purview/information-barriers"
+            },
+            {
+                "title": "Viva Insights - Personal (premium)",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description"
+            },
+            {
+                "title": "Comm Compliance",
+                "url": "https://learn.microsoft.com/purview/communication-compliance"
+            },
+            {
+                "title": "Office 365 Cloud App Security",
+                "url": "https://learn.microsoft.com/defender-cloud-apps/editions-cloud-app-security-o365"
+            },
+            {
+                "title": "Data Lifecycle Management",
+                "url": "https://learn.microsoft.com/purview/manage-data-governance"
+            },
+            {
+                "title": "Records Management",
+                "url": "https://learn.microsoft.com/purview/records-management"
+            },
+            {
+                "title": "Audit (premium)",
+                "url": "https://learn.microsoft.com/purview/audit-solutions-overview"
+            },
+            {
+                "title": "Double Key Encryption",
+                "url": "https://learn.microsoft.com/purview/double-key-encryption"
+            },
+            {
+                "title": "Defender for Office 365 Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans"
+            },
+            {
+                "title": "Rules-Based Classification(Office 365)",
+                "url": "https://learn.microsoft.com/purview/apply-sensitivity-label-automatically"
+            },
+            {
+                "title": "Skype for Business Plus CAL",
+                "url": "https://www.microsoft.com/licensing/terms/product/CALandMLEquivalencyLicenses/EAEAS"
+            },
+            {
+                "title": "Exact Data Match",
+                "url": "https://learn.microsoft.com/purview/sit-learn-about-exact-data-match-based-sits"
+            },
+            {
+                "title": "Microsoft 365 Apps for Enterprise",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise-product"
+            },
+            {
+                "title": "Planner for Office 365",
+                "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner"
+            },
+            {
+                "title": "Clipchamp Standard",
+                "url": "https://learn.microsoft.com/clipchamp/"
+            },
+            {
+                "title": "SharePoint Online Plan 2",
+                "url": "https://learn.microsoft.com/sharepoint/introduction"
+            },
+            {
+                "title": "OneDrive for Business Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+            },
+            {
+                "title": "Sway",
+                "url": "https://support.microsoft.com/sway"
+            },
+            {
+                "title": "Microsoft Forms",
+                "url": "https://support.microsoft.com/forms"
+            },
+            {
+                "title": "Data Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-learn-about-dlp"
+            },
+            {
+                "title": "Exchange Online Protection",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+            },
+            {
+                "title": "Exchange Online Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+            },
+            {
+                "title": "Microsoft Lists",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-lists"
+            },
+            {
+                "title": "Bookings",
+                "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+            },
+            {
+                "title": "InfoPathApp",
+                "url": "https://www.microsoft.com/download/details.aspx?id=48734"
+            },
+            {
+                "title": "Alert Policies",
+                "url": "https://learn.microsoft.com/defender-xdr/alert-policies"
+            },
+            {
+                "title": "Microsoft Whiteboard",
+                "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+            },
+            {
+                "title": "Microsoft To Do",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app"
+            },
+            {
+                "title": "Microsoft 365 Mobile App",
+                "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+            },
+            {
+                "title": "Basic Mobility & Security",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+            },
+            {
+                "title": "Entra ID for Office 365",
+                "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+            },
+            {
+                "title": "Information Protectionfor M365",
+                "url": "https://learn.microsoft.com/purview/sensitivity-labels"
+            },
+            {
+                "title": "Viva Connections",
+                "url": "https://www.microsoft.com/microsoft-viva/connections"
+            },
+            {
+                "title": "Viva Learning (basic)",
+                "url": "https://www.microsoft.com/microsoft-viva/learning"
+            },
+            {
+                "title": "Project & Roadmap View Access",
+                "url": "https://learn.microsoft.com/project-for-the-web/office-365-user-view-access-to-project-and-roadmap"
+            },
+            {
+                "title": "Viva Engage",
+                "url": "https://learn.microsoft.com/viva/engage/overview"
+            },
+            {
+                "title": "Compliance Manager",
+                "url": "https://learn.microsoft.com/purview/compliance-manager"
+            },
+            {
+                "title": "Secure Score",
+                "url": "https://learn.microsoft.com/defender-xdr/microsoft-secure-score"
+            },
+            {
+                "title": "Adoption Score",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/adoption/adoption-score"
+            },
+            {
+                "title": "Activity Reports",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports"
+            },
+            {
+                "title": "Microsoft Search",
+                "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+            },
+            {
+                "title": "Graph Connector Capacity",
+                "url": "https://learn.microsoft.com/microsoftsearch/licensing#index-quota-for-microsoft-365-enterprise-users"
+            },
+            {
+                "title": "Power Appsfor Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-apps/"
+            },
+            {
+                "title": "Power Automate for Office 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-automate/"
+            },
+            {
+                "title": "3x Premium & Custom Compliance Templates",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-templates-are-included-by-default-free-of-cost"
+            },
+            {
+                "title": "Retention Labels",
+                "url": "https://learn.microsoft.com/purview/retention"
+            },
+            {
+                "title": "Retention Policies",
+                "url": "https://learn.microsoft.com/purview/create-retention-policies"
+            },
+            {
+                "title": "Content Search",
+                "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+            },
+            {
+                "title": "Teams DLP & Export Graph API",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-loss-prevention-graph-apis-for-teams-data-loss-prevention-dlp-and-for-teams-export"
+            },
+            {
+                "title": "Microsoft Places(core)",
+                "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+            },
+            {
+                "title": "Teams Audio Conferencing (full)",
+                "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+            },
+            {
+                "title": "Copilot Studio Lite",
+                "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents"
+            },
+            {
+                "title": "Dataverse for Teams",
+                "url": "https://learn.microsoft.com/power-apps/teams/overview-data-platform"
+            },
+            {
+                "title": "Teams Live Events",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events"
+            },
+            {
+                "title": "Teams Webinars",
+                "url": "https://learn.microsoft.com/microsoftteams/set-up-webinars"
+            },
+            {
+                "title": "Teams Town Halls",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#town-halls"
+            },
+            {
+                "title": "Office for the Web",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+            },
+            {
+                "title": "Visio for the Web",
+                "url": "https://support.microsoft.com/office/9ca66c90-04f1-42c8-8176-1687ffb35d46"
+            },
+            {
+                "title": "Microsoft 365 Copilot Chat",
+                "url": "https://learn.microsoft.com/copilot/overview"
+            },
+            {
+                "title": "Conditional Accessfor Sites",
+                "url": "https://learn.microsoft.com/sharepoint/authentication-context-example"
+            },
+            {
+                "title": "Teams Enterprise (optional)",
+                "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+            }
+        ],
+        "Office_365_F3": [
+            {
+                "title": "Refer to the Microsoft Product Terms for more information, including specific Frontline license eligibility and usage rights",
+                "url": "https://www.microsoft.com/licensing/terms/productoffering/Microsoft365/EAEAS#Availability"
+            },
+            {
+                "title": "Office 365 E5",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/office365-plans-and-pricing"
+            },
+            {
+                "title": "Teams Phone",
+                "url": "https://learn.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365"
+            },
+            {
+                "title": "Power BI Pro",
+                "url": "https://learn.microsoft.com/power-bi/fundamentals/service-get-started"
+            },
+            {
+                "title": "Customer Lockbox",
+                "url": "https://learn.microsoft.com/purview/customer-lockbox-requests"
+            },
+            {
+                "title": "Customer Key",
+                "url": "https://learn.microsoft.com/purview/customer-key-overview"
+            },
+            {
+                "title": "eDiscovery (premium)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-overview"
+            },
+            {
+                "title": "Privileged Access Management",
+                "url": "https://learn.microsoft.com/purview/privileged-access-management-solution-overview"
+            },
+            {
+                "title": "TeamsData Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-microsoft-teams"
+            },
+            {
+                "title": "Message Encryption (advanced)",
+                "url": "https://learn.microsoft.com/purview/ome-advanced-message-encryption"
+            },
+            {
+                "title": "Information Barriers",
+                "url": "https://learn.microsoft.com/purview/information-barriers"
+            },
+            {
+                "title": "Viva Insights - Personal (premium)",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description"
+            },
+            {
+                "title": "Comm Compliance",
+                "url": "https://learn.microsoft.com/purview/communication-compliance"
+            },
+            {
+                "title": "Office 365 Cloud App Security",
+                "url": "https://learn.microsoft.com/defender-cloud-apps/editions-cloud-app-security-o365"
+            },
+            {
+                "title": "Data Lifecycle Management",
+                "url": "https://learn.microsoft.com/purview/manage-data-governance"
+            },
+            {
+                "title": "Records Management",
+                "url": "https://learn.microsoft.com/purview/records-management"
+            },
+            {
+                "title": "Audit (premium)",
+                "url": "https://learn.microsoft.com/purview/audit-solutions-overview"
+            },
+            {
+                "title": "Double Key Encryption",
+                "url": "https://learn.microsoft.com/purview/double-key-encryption"
+            },
+            {
+                "title": "Defender for Office 365 Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans"
+            },
+            {
+                "title": "Microsoft 365 Apps for Enterprise",
+                "url": "https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise-product"
+            },
+            {
+                "title": "Viva Insights - Personal (basic)",
+                "url": "https://learn.microsoft.com/viva/insights/advanced/setup-maint/environment-requirements"
+            },
+            {
+                "title": "Clipchamp Standard",
+                "url": "https://learn.microsoft.com/clipchamp/"
+            },
+            {
+                "title": "SharePoint Online Plan 2",
+                "url": "https://learn.microsoft.com/sharepoint/introduction"
+            },
+            {
+                "title": "OneDrive for Business Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+            },
+            {
+                "title": "Power Automate forOffice 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-automate/"
+            },
+            {
+                "title": "Data Loss Prevention",
+                "url": "https://learn.microsoft.com/purview/dlp-learn-about-dlp"
+            },
+            {
+                "title": "eDiscovery (standard)",
+                "url": "https://learn.microsoft.com/purview/ediscovery-standard-get-started"
+            },
+            {
+                "title": "Exchange Online Plan 2",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+            },
+            {
+                "title": "InfoPathApp",
+                "url": "https://www.microsoft.com/download/details.aspx?id=48734"
+            },
+            {
+                "title": "Rules-Based Classification(Office 365)",
+                "url": "https://learn.microsoft.com/purview/apply-sensitivity-label-automatically"
+            },
+            {
+                "title": "Information Protectionfor M365",
+                "url": "https://learn.microsoft.com/purview/sensitivity-labels"
+            },
+            {
+                "title": "Productivity Server CAL",
+                "url": "https://www.microsoft.com/licensing/terms/product/CALandMLEquivalencyLicenses/EAEAS"
+            },
+            {
+                "title": "Exchange Online Protection",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+            },
+            {
+                "title": "Teams Enterprise (optional)",
+                "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+            },
+            {
+                "title": "Power AppsforOffice 365",
+                "url": "https://www.microsoft.com/power-platform/products/power-apps/"
+            },
+            {
+                "title": "Microsoft Forms",
+                "url": "https://support.microsoft.com/forms"
+            },
+            {
+                "title": "Planner for Office 365",
+                "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner"
+            },
+            {
+                "title": "Sway",
+                "url": "https://support.microsoft.com/sway"
+            },
+            {
+                "title": "Microsoft To Do",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-to-do-list-app"
+            },
+            {
+                "title": "Microsoft Whiteboard",
+                "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+            },
+            {
+                "title": "Basic Mobility & Security",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+            },
+            {
+                "title": "Entra ID for Office 365",
+                "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+            },
+            {
+                "title": "Retention Labels",
+                "url": "https://learn.microsoft.com/purview/create-apply-retention-labels"
+            },
+            {
+                "title": "Bookings",
+                "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+            },
+            {
+                "title": "Viva Connections",
+                "url": "https://www.microsoft.com/microsoft-viva/connections"
+            },
+            {
+                "title": "Viva Learning (basic)",
+                "url": "https://www.microsoft.com/microsoft-viva/learning"
+            },
+            {
+                "title": "Message Encryption (basic)",
+                "url": "https://learn.microsoft.com/purview/ome"
+            },
+            {
+                "title": "Audit (standard)",
+                "url": "https://learn.microsoft.com/purview/audit-search"
+            },
+            {
+                "title": "Alert Policies",
+                "url": "https://learn.microsoft.com/defender-xdr/alert-policies"
+            },
+            {
+                "title": "Project & Roadmap View Access",
+                "url": "https://learn.microsoft.com/project-for-the-web/office-365-user-view-access-to-project-and-roadmap"
+            },
+            {
+                "title": "Viva Engage",
+                "url": "https://learn.microsoft.com/viva/engage/overview"
+            },
+            {
+                "title": "Adoption Score",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/adoption/adoption-score"
+            },
+            {
+                "title": "Activity Reports",
+                "url": "https://learn.microsoft.com/microsoft-365/admin/activity-reports/activity-reports"
+            },
+            {
+                "title": "Compliance Manager",
+                "url": "https://learn.microsoft.com/purview/compliance-manager"
+            },
+            {
+                "title": "Secure Score",
+                "url": "https://learn.microsoft.com/defender-xdr/microsoft-secure-score"
+            },
+            {
+                "title": "Microsoft Lists",
+                "url": "https://www.microsoft.com/microsoft-365/microsoft-lists"
+            },
+            {
+                "title": "Microsoft Search",
+                "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+            },
+            {
+                "title": "Exact Data Match",
+                "url": "https://learn.microsoft.com/purview/sit-learn-about-exact-data-match-based-sits"
+            },
+            {
+                "title": "3x Premium & Custom Compliance Templates",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#which-templates-are-included-by-default-free-of-cost"
+            },
+            {
+                "title": "Retention Policies",
+                "url": "https://learn.microsoft.com/purview/create-retention-policies"
+            },
+            {
+                "title": "Microsoft 365 Mobile App",
+                "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+            },
+            {
+                "title": "Content Search",
+                "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+            },
+            {
+                "title": "Teams DLP & Export Graph API",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-loss-prevention-graph-apis-for-teams-data-loss-prevention-dlp-and-for-teams-export"
+            },
+            {
+                "title": "Graph Connector Capacity",
+                "url": "https://learn.microsoft.com/microsoftsearch/licensing#index-quota-for-microsoft-365-enterprise-users"
+            },
+            {
+                "title": "Teams Audio Conferencing (full)",
+                "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+            },
+            {
+                "title": "Microsoft Places(core)",
+                "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+            },
+            {
+                "title": "Copilot Studio Lite",
+                "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents"
+            },
+            {
+                "title": "Dataverse for Teams",
+                "url": "https://learn.microsoft.com/power-apps/teams/overview-data-platform"
+            },
+            {
+                "title": "Teams Live Events",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events"
+            },
+            {
+                "title": "Teams Webinars",
+                "url": "https://learn.microsoft.com/microsoftteams/set-up-webinars"
+            },
+            {
+                "title": "Teams Town Halls",
+                "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#town-halls"
+            },
+            {
+                "title": "Office for the Web",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+            },
+            {
+                "title": "Visio for the Web",
+                "url": "https://support.microsoft.com/office/9ca66c90-04f1-42c8-8176-1687ffb35d46"
+            },
+            {
+                "title": "Microsoft 365 Copilot Chat",
+                "url": "https://learn.microsoft.com/copilot/overview"
+            },
+            {
+                "title": "Defender for Office 365 Plan 1",
+                "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description"
+            }
+        ]
+    }
+}

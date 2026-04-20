@@ -1,0 +1,58 @@
+import json
+
+data = {
+    "official": [
+        {"title": "Recent News - Stories", "url": "https://news.microsoft.com/recent-news/"},
+        {"title": "The Official Microsoft Blog", "url": "https://blogs.microsoft.com/"},
+        {"title": "Korea - Source Asia", "url": "https://news.microsoft.com/source/asia/region/korea/?lang=ko"},
+        {"title": "Microsoft Korea", "url": "https://www.microsoft.com/ko-kr"},
+        {"title": "Search Customer Success Stories", "url": "https://www.microsoft.com/en-sg/customers/search"},
+        {"title": "Microsoft Organization Chart & Leadership Structure", "url": "https://teamchart.io/microsoft-org-chart/"}
+    ],
+    "m365": [
+        {"title": "Microsoft 365 Roadmap", "url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=0734104bfb4e6ec7105e06f5fafe6fdc"},
+        {"title": "Microsoft 365 Blog", "url": "https://www.microsoft.com/en-us/microsoft-365/blog/"},
+        {"title": "Windows Blog", "url": "https://blogs.windows.com/"}
+    ],
+    "copilot": {
+        "blog": [
+            {"title": "The Copilot Team Blog", "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/author/the-copilot-team/"},
+            {"title": "What's Next in Copilot Newsletter", "url": "https://outlook.office.com/newsletters/newsletters/145eb5aaaa519741943d868c21116b7523#7f434d4c-188c-707b-1ef3-e65af19eb938"},
+            {"title": "Microsoft Copilot Tasks Preview", "url": "https://copilot.microsoft.com/tasks/preview"},
+            {"title": "What's New in Microsoft 365 Copilot - February 2026 (Blog)", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--february-2026/4496489"},
+            {"title": "GPT-5.3 Instant in Microsoft 365 Copilot (Blog)", "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-3-instant-in-microsoft-365-copilot/4496567"},
+            {"title": "Standard vs Priority Access - Microsoft 365 Copilot Chat", "url": "https://support.microsoft.com/en-us/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f"},
+            {"title": "Powering Frontier Transformation with Copilot and Agents (Blog)", "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/"},
+            {"title": "Copilot Cowork: A New Way of Getting Work Done (Blog)", "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"},
+            {"title": "Copilot Tasks: From Answers to Actions (Blog)", "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/2026/02/26/copilot-tasks-from-answers-to-actions/"},
+            {"title": "Viva Engage (Copilot)", "url": "https://engage.cloud.microsoft/main/articles/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzYyMTU2NjAwMjA0NDkyOCJ9"}
+        ],
+        "studio": [
+            {"title": "TechWorkshop: Copilot 스튜디오와 에이전트들의 작업 (소개)", "url": "https://microsoft.github.io/L400-Copilot-and-Agents-at-work/"},
+            {"title": "Viva Engage - Agents at Microsoft | Builders' Lounge", "url": "https://engage.cloud.microsoft/main/org/microsoft.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMzMwMjY0NzgwODAifQ/all"}
+        ]
+    },
+    "azure": {
+        "updates": [
+            {"title": "Azure Updates", "url": "https://azure.microsoft.com/en-us/updates/?msockid=0734104bfb4e6ec7105e06f5fafe6fdc"}
+        ],
+        "ai": [
+            {"title": "AgentOps - End-to-End Lifecycle Management (Blog)", "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/from-zero-to-hero-agentops---end-to-end-lifecycle-management-for-production-ai-a/4484922"},
+            {"title": "Agentic Launchpad Cohort Announcement (UK Blog)", "url": "https://www.microsoft.com/en-gb/industry/blog/cross-industry/2025/12/18/agentic-launchpad-cohort/"},
+            {"title": "AI Red Teaming Playground Labs (GitHub)", "url": "https://github.com/microsoft/AI-Red-Teaming-Playground-Labs"},
+            {"title": "Viva Engage (Agent Launchpad)", "url": "https://engage.cloud.microsoft/main/articles/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzc1Mjk4MzQ0NDA4Njc4NCJ9"}
+        ],
+        "data": [
+            {"title": "Fabric Data Agent Creation (Learn)", "url": "https://learn.microsoft.com/en-us/fabric/data-science/concept-data-agent"}
+        ]
+    },
+    "certification": [
+        {"title": "New Certification: Agentic AI Business Solutions Architect (Tech Community Blog)", "url": "https://techcommunity.microsoft.com/blog/skills-hub-blog/new-certification-for-architects-of-agentic-ai-business-solutions/4428968"},
+        {"title": "Viva Engage - Search (AB-731)", "url": "https://engage.cloud.microsoft/main/search?search=AB-731&type=threads"}
+    ]
+}
+
+out = r"c:\Users\v-kimpy\test\profile\Microsoft\PTC\News\list_news.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
+print("Done")

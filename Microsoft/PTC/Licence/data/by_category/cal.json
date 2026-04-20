@@ -1,0 +1,170 @@
+{
+    "Client_Access_Licenses_CALs": [
+        {
+            "title": "Windows Server",
+            "url": "https://www.microsoft.com/licensing/product-licensing/client-access-license"
+        },
+        {
+            "title": "Config Manager",
+            "url": "https://learn.microsoft.com/configmgr/core/understand/introduction"
+        },
+        {
+            "title": "Config Manager Endpoint Protection",
+            "url": "https://learn.microsoft.com/intune/configmgr/protect/deploy-use/endpoint-protection"
+        },
+        {
+            "title": "Active Directory RMS",
+            "url": "https://learn.microsoft.com/azure/information-protection/compare-on-premise"
+        },
+        {
+            "title": "Exchange Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/exchange/microsoft-exchange-server-licensing-licensing-overview"
+        },
+        {
+            "title": "SharePoint Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/sharepoint/sharepoint-licensing-overview"
+        },
+        {
+            "title": "Skype for Business Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/skype-for-business/it-pros"
+        },
+        {
+            "title": "Exchange Online Protection",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+        },
+        {
+            "title": "Online Archiving for Exchange Server",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description"
+        },
+        {
+            "title": "Exchange Data Loss Prevention",
+            "url": "https://learn.microsoft.com/Exchange/policy-and-compliance/data-loss-prevention/data-loss-prevention"
+        }
+    ],
+    "CAL_Main_Bridges": [
+        {
+            "title": "Windows Server",
+            "url": "https://www.microsoft.com/licensing/product-licensing/client-access-license"
+        },
+        {
+            "title": "Config Manager",
+            "url": "https://learn.microsoft.com/configmgr/core/understand/introduction"
+        },
+        {
+            "title": "Config Manager Endpoint Protection",
+            "url": "https://learn.microsoft.com/intune/configmgr/protect/deploy-use/endpoint-protection"
+        },
+        {
+            "title": "Active Directory RMS",
+            "url": "https://learn.microsoft.com/azure/information-protection/compare-on-premise"
+        },
+        {
+            "title": "Exchange Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/exchange/microsoft-exchange-server-licensing-licensing-overview"
+        },
+        {
+            "title": "SharePoint Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/sharepoint/sharepoint-licensing-overview"
+        },
+        {
+            "title": "Skype for Business Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/skype-for-business/it-pros"
+        },
+        {
+            "title": "Exchange Online Protection",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+        },
+        {
+            "title": "Online Archiving for Exchange Server",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description"
+        },
+        {
+            "title": "Exchange Data Loss Prevention",
+            "url": "https://learn.microsoft.com/Exchange/policy-and-compliance/data-loss-prevention/data-loss-prevention"
+        }
+    ],
+    "CAL_Other_Bridges": [
+        {
+            "title": "Windows Server",
+            "url": "https://www.microsoft.com/licensing/product-licensing/client-access-license"
+        },
+        {
+            "title": "Config Manager",
+            "url": "https://learn.microsoft.com/configmgr/core/understand/introduction"
+        },
+        {
+            "title": "Config Manager Endpoint Protection",
+            "url": "https://learn.microsoft.com/intune/configmgr/protect/deploy-use/endpoint-protection"
+        },
+        {
+            "title": "Active Directory RMS",
+            "url": "https://learn.microsoft.com/azure/information-protection/compare-on-premise"
+        },
+        {
+            "title": "Exchange Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/exchange/microsoft-exchange-server-licensing-licensing-overview"
+        },
+        {
+            "title": "SharePoint Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/sharepoint/sharepoint-licensing-overview"
+        },
+        {
+            "title": "Skype for Business Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/skype-for-business/it-pros"
+        },
+        {
+            "title": "Exchange Data Loss Prevention",
+            "url": "https://learn.microsoft.com/Exchange/policy-and-compliance/data-loss-prevention/data-loss-prevention"
+        },
+        {
+            "title": "Exchange Online Protection",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+        },
+        {
+            "title": "Online Archiving for Exchange Server",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description"
+        }
+    ],
+    "CAL_All_Bridges": [
+        {
+            "title": "Windows Server",
+            "url": "https://www.microsoft.com/licensing/product-licensing/client-access-license"
+        },
+        {
+            "title": "Config Manager",
+            "url": "https://learn.microsoft.com/configmgr/core/understand/introduction"
+        },
+        {
+            "title": "Config Manager Endpoint Protection",
+            "url": "https://learn.microsoft.com/intune/configmgr/protect/deploy-use/endpoint-protection"
+        },
+        {
+            "title": "Active Directory RMS",
+            "url": "https://learn.microsoft.com/azure/information-protection/compare-on-premise"
+        },
+        {
+            "title": "Exchange Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/exchange/microsoft-exchange-server-licensing-licensing-overview"
+        },
+        {
+            "title": "SharePoint Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/sharepoint/sharepoint-licensing-overview"
+        },
+        {
+            "title": "Skype for Business Server (Standard)",
+            "url": "https://www.microsoft.com/microsoft-365/skype-for-business/it-pros"
+        },
+        {
+            "title": "Exchange Data Loss Prevention",
+            "url": "https://learn.microsoft.com/Exchange/policy-and-compliance/data-loss-prevention/data-loss-prevention"
+        },
+        {
+            "title": "Exchange Online Protection",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+        },
+        {
+            "title": "Online Archiving for Exchange Server",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description"
+        }
+    ]
+}

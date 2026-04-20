@@ -1,0 +1,1 @@
+let theme="System";const settingJSON=localStorage.getItem("settings");if(settingJSON){const e=JSON.parse(settingJSON);e&&e.Theme&&(theme=e.Theme)}let dark=!1;"Dark"===theme?dark=!0:"Light"!==theme&&(dark=window.matchMedia("(prefers-color-scheme: dark)").matches),document.documentElement.classList.add(dark?"theme-dark":"theme-light");

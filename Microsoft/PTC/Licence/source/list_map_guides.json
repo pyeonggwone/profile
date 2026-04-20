@@ -1,0 +1,778 @@
+{
+    "AI_Services_Map": [
+        {
+            "title": "Microsoft 365 Copilot",
+            "url": "https://learn.microsoft.com/copilot/microsoft-365/"
+        },
+        {
+            "title": "GitHub Copilot",
+            "url": "https://github.com/features/copilot"
+        },
+        {
+            "title": "Azure OpenAI Service",
+            "url": "https://azure.microsoft.com/products/ai-foundry/models/openai/"
+        },
+        {
+            "title": "Security Copilot",
+            "url": "https://www.microsoft.com/security/business/ai-machine-learning/microsoft-security-copilot"
+        },
+        {
+            "title": "Microsoft 365 Copilot for Sales",
+            "url": "https://learn.microsoft.com/microsoft-sales-copilot/introduction"
+        },
+        {
+            "title": "Microsoft Copilot",
+            "url": "https://www.microsoft.com/bing"
+        },
+        {
+            "title": "Copilot for Service",
+            "url": "https://www.microsoft.com/microsoft-365-copilot/copilot-for-service"
+        },
+        {
+            "title": "Finance Agents",
+            "url": "https://learn.microsoft.com/copilot/finance/welcome"
+        },
+        {
+            "title": "Copilot in Fabric & Power BI",
+            "url": "https://powerbi.microsoft.com/blog/introducing-microsoft-fabric-and-copilot-in-microsoft-power-bi/"
+        },
+        {
+            "title": "Agents, Plugins, and Connectors (varies by product)",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/05/23/empowering-every-developer-with-plugins-for-microsoft-365-copilot/"
+        },
+        {
+            "title": "Copilot Studio",
+            "url": "https://www.microsoft.com/microsoft-365-copilot/microsoft-copilot-studio"
+        },
+        {
+            "title": "Consumer",
+            "url": "https://www.microsoft.com/servicesagreement"
+        },
+        {
+            "title": "Copilots",
+            "url": "https://copilot.cloud.microsoft/"
+        },
+        {
+            "title": "Azure AI",
+            "url": "https://azure.microsoft.com/solutions/ai/"
+        },
+        {
+            "title": "Enterprise",
+            "url": "https://learn.microsoft.com/copilot/privacy-and-protections#commercial-data-protection"
+        },
+        {
+            "title": "Azure AI Foundry",
+            "url": "https://azure.microsoft.com/products/ai-foundry/"
+        },
+        {
+            "title": "Windows AI Studio",
+            "url": "https://learn.microsoft.com/windows/ai/toolkit/"
+        },
+        {
+            "title": "Copilot in Azure",
+            "url": "https://learn.microsoft.com/azure/copilot/overview"
+        },
+        {
+            "title": "Microsoft 365 Copilot Chat",
+            "url": "https://learn.microsoft.com/copilot/overview"
+        }
+    ],
+    "AI_Development_Stack": [
+        {
+            "title": "Build / Buy Build or buy bespoke connectors",
+            "url": "https://learn.microsoft.com/connectors/"
+        }
+    ],
+    "Multi_Tenant_Architecture": [
+        {
+            "title": "Optional Connected Experiences",
+            "url": "https://learn.microsoft.com/microsoft-365-apps/privacy/optional-connected-experiences"
+        },
+        {
+            "title": "Additional Services Storage",
+            "url": "https://learn.microsoft.com/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide"
+        },
+        {
+            "title": "Advanced Data Residency",
+            "url": "https://learn.microsoft.com/microsoft-365/enterprise/advanced-data-residency"
+        },
+        {
+            "title": "Multi-Geo",
+            "url": "https://learn.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo"
+        },
+        {
+            "title": "Microsoft 365 Service Component",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library"
+        },
+        {
+            "title": "Supporting Azure Components",
+            "url": "https://azure.microsoft.com/"
+        },
+        {
+            "title": "·Microsoft Product Terms",
+            "url": "https://www.microsoft.com/licensing/terms/product/PrivacyandSecurityTerms/EAEAS"
+        },
+        {
+            "title": "·Microsoft 365 Data Residency",
+            "url": "https://learn.microsoft.com/microsoft-365/enterprise/m365-dr-overview"
+        },
+        {
+            "title": "·Microsoft 365 Tenant Isolation",
+            "url": "https://learn.microsoft.com/compliance/assurance/assurance-microsoft-365-isolation-controls"
+        },
+        {
+            "title": "Microsoft Graph",
+            "url": "https://learn.microsoft.com/graph/overview"
+        },
+        {
+            "title": "Graph Connectors",
+            "url": "https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-copilot-connector?https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview-copilot-connector"
+        },
+        {
+            "title": "Core Online Services Storage",
+            "url": "https://learn.microsoft.com/compliance/assurance/assurance-privacy#where-is-customer-data-located"
+        },
+        {
+            "title": "Microsoft Bing",
+            "url": "https://www.microsoft.com/bing"
+        },
+        {
+            "title": "Microsoft Network Edge",
+            "url": "https://learn.microsoft.com/azure/networking/microsoft-global-network"
+        }
+    ],
+    "Related_Services": [
+        {
+            "title": "Power Apps",
+            "url": "https://www.microsoft.com/power-platform/products/power-apps/#compare-plans"
+        },
+        {
+            "title": "Planner and Project",
+            "url": "https://www.microsoft.com/microsoft-365/planner/microsoft-planner-plans-and-pricing"
+        },
+        {
+            "title": "Visio Online",
+            "url": "https://www.microsoft.com/microsoft-365/visio/microsoft-visio-plans-and-pricing-compare-visio-options"
+        },
+        {
+            "title": "Microsoft 365 Unattended RPA",
+            "url": "https://devblogs.microsoft.com/microsoft365dev/new-licensing-options-for-microsoft-365-for-unattended-scenarios/"
+        },
+        {
+            "title": "Microsoft Tunnel",
+            "url": "https://learn.microsoft.com/intune/intune-service/protect/microsoft-tunnel-overview"
+        },
+        {
+            "title": "Power Automate",
+            "url": "https://www.microsoft.com/power-platform/products/power-automate/"
+        },
+        {
+            "title": "Dynamics 365 Customer Voice",
+            "url": "https://www.microsoft.com/dynamics-365/"
+        },
+        {
+            "title": "Power Virtual Agents",
+            "url": "https://www.microsoft.com/microsoft-365-copilot/microsoft-copilot-studio"
+        },
+        {
+            "title": "Microsoft Dataverse",
+            "url": "https://www.microsoft.com/power-platform/dataverse/"
+        },
+        {
+            "title": "Power BI Premium",
+            "url": "https://www.microsoft.com/power-platform/products/power-bi/power-bi-premium"
+        },
+        {
+            "title": "Document Processing for Microsoft 365",
+            "url": "https://learn.microsoft.com/microsoft-365/documentprocessing/syntex-overview"
+        },
+        {
+            "title": "Microsoft Sentinel",
+            "url": "https://www.microsoft.com/security/business/siem-and-xdr/microsoft-sentinel/"
+        },
+        {
+            "title": "Compliance Premium Assessments",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#compliance-manager--premium-assessments"
+        },
+        {
+            "title": "10-Year Audit Log Retention",
+            "url": "https://learn.microsoft.com/purview/audit-solutions-overview#long-term-retention-of-audit-logs"
+        },
+        {
+            "title": "Windows 365 Business",
+            "url": "https://www.microsoft.com/windows-365/business"
+        },
+        {
+            "title": "Calling Plans",
+            "url": "https://www.microsoft.com/microsoft-teams/microsoft-teams-phone"
+        },
+        {
+            "title": "Teams Rooms",
+            "url": "https://www.microsoft.com/microsoft-teams/microsoft-teams-rooms"
+        },
+        {
+            "title": "Teams Phone Mobile",
+            "url": "https://learn.microsoft.com/microsoftteams/operator-connect-mobile-plan"
+        },
+        {
+            "title": "Teams Operator Connect",
+            "url": "https://learn.microsoft.com/microsoftteams/operator-connect-plan"
+        },
+        {
+            "title": "Intune Remote Help",
+            "url": "https://learn.microsoft.com/intune/intune-service/fundamentals/remote-help"
+        },
+        {
+            "title": "Viva Insights - Manager, Leader, Analyst",
+            "url": "https://learn.microsoft.com/viva/insights/introduction"
+        },
+        {
+            "title": "Viva Learning (premium)",
+            "url": "https://learn.microsoft.com/viva/learning/"
+        },
+        {
+            "title": "Viva Suite",
+            "url": "https://www.microsoft.com/microsoft-viva"
+        },
+        {
+            "title": "Azure Dev Tools for Teaching",
+            "url": "https://learn.microsoft.com/azure/education-hub/azure-dev-tools-teaching/program-faq#azure-dev-tools-for-teaching"
+        },
+        {
+            "title": "SharePoint Storage",
+            "url": "https://learn.microsoft.com/microsoft-365/commerce/add-storage-space"
+        },
+        {
+            "title": "AI Builder Capacity",
+            "url": "https://learn.microsoft.com/ai-builder/administer-licensing#purchase-ai-builder-capacity"
+        },
+        {
+            "title": "AI Builder",
+            "url": "https://learn.microsoft.com/ai-builder/overview"
+        },
+        {
+            "title": "Defender Vulnerability Management (premium)",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/defender-vulnerability-management-capabilities"
+        },
+        {
+            "title": "Azure Virtual Desktop",
+            "url": "https://azure.microsoft.com/products/virtual-desktop/"
+        },
+        {
+            "title": "Power Pages",
+            "url": "https://www.microsoft.com/power-platform/products/power-pages/"
+        },
+        {
+            "title": "Microsoft eCDN",
+            "url": "https://learn.microsoft.com/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant"
+        },
+        {
+            "title": "Defender for Cloud",
+            "url": "https://www.microsoft.com/security/business/cloud-security/microsoft-defender-cloud/"
+        },
+        {
+            "title": "EHR Connector for Teams",
+            "url": "https://learn.microsoft.com/microsoft-365/frontline/ehr-admin-epic"
+        },
+        {
+            "title": "Multi-Geo",
+            "url": "https://learn.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo"
+        },
+        {
+            "title": "Defender Threat Intelligence",
+            "url": "https://learn.microsoft.com/defender/threat-intelligence/what-is-microsoft-defender-threat-intelligence-defender-ti"
+        },
+        {
+            "title": "Defender EASM",
+            "url": "https://learn.microsoft.com/azure/external-attack-surface-management/"
+        },
+        {
+            "title": "Defender Experts for Hunting",
+            "url": "https://www.microsoft.com/security/business/services/microsoft-defender-experts-hunting"
+        },
+        {
+            "title": "Microsoft 365 Lighthouse",
+            "url": "https://learn.microsoft.com/microsoft-365/lighthouse/m365-lighthouse-overview"
+        },
+        {
+            "title": "ProDirect Support for Azure",
+            "url": "https://azure.microsoft.com/support/plans/prodirect/"
+        },
+        {
+            "title": "ProDirect Support for Microsoft 365",
+            "url": "https://www.microsoft.com/microsoft-365/business/microsoft-365-for-business-support-options"
+        },
+        {
+            "title": "ProDirect Support for Dynamics 365",
+            "url": "https://www.microsoft.com/dynamics-365/support"
+        },
+        {
+            "title": "Unified Support",
+            "url": "https://www.microsoft.com/microsoft-unified"
+        },
+        {
+            "title": "LinkedIn Learning",
+            "url": "https://learning.linkedin.com/product-overview"
+        },
+        {
+            "title": "Viva Glint",
+            "url": "https://www.microsoft.com/microsoft-viva/glint"
+        },
+        {
+            "title": "Dataverse Storage",
+            "url": "https://learn.microsoft.com/power-platform/admin/add-storage"
+        },
+        {
+            "title": "Defender for Business",
+            "url": "https://learn.microsoft.com/defender-business/"
+        },
+        {
+            "title": "Cross-Tenant Migration",
+            "url": "https://learn.microsoft.com/microsoft-365/enterprise/microsoft-365-tenant-to-tenant-migrations"
+        },
+        {
+            "title": "Advanced Data Residency",
+            "url": "https://learn.microsoft.com/microsoft-365/enterprise/advanced-data-residency"
+        },
+        {
+            "title": "Azure Comm. Services",
+            "url": "https://azure.microsoft.com/products/communication-services/"
+        },
+        {
+            "title": "SharePoint Advanced Management",
+            "url": "https://learn.microsoft.com/sharepoint/advanced-management"
+        },
+        {
+            "title": "Intune Endpoint Privilege Management",
+            "url": "https://techcommunity.microsoft.com/blog/microsoftintuneblog/enable-windows-standard-users-with-endpoint-privilege-management-in-microsoft-in/3755710"
+        },
+        {
+            "title": "Insider Risk Management Forensic Evidence",
+            "url": "https://learn.microsoft.com/purview/insider-risk-management-forensic-evidence"
+        },
+        {
+            "title": "Defender Experts for XDR",
+            "url": "https://learn.microsoft.com/defender-xdr/dex-xdr-overview"
+        },
+        {
+            "title": "Universal Print Jobs",
+            "url": "https://learn.microsoft.com/universal-print/get-access-to-universal-print#additional-print-volume"
+        },
+        {
+            "title": "Microsoft Industry Clouds",
+            "url": "https://learn.microsoft.com/industry/"
+        },
+        {
+            "title": "Drive Shipping for PST import",
+            "url": "https://learn.microsoft.com/purview/use-drive-shipping-to-import-pst-files-to-office-365"
+        },
+        {
+            "title": "Microsoft 365 Dev Program",
+            "url": "https://developer.microsoft.com/microsoft-365/dev-program"
+        },
+        {
+            "title": "AccountGuard",
+            "url": "https://accountguard.microsoft.com/"
+        },
+        {
+            "title": "Workplace Discount Program",
+            "url": "https://www.microsoft.com/workplace-discount-program"
+        },
+        {
+            "title": "Comms. Credits",
+            "url": "https://learn.microsoft.com/microsoftteams/set-up-communications-credits-for-your-organization"
+        },
+        {
+            "title": "Teams Premium",
+            "url": "https://learn.microsoft.com/microsoftteams/enhanced-teams-experience"
+        },
+        {
+            "title": "Digital Contact Centre",
+            "url": "https://www.microsoft.com/dynamics-365/products/contact-center"
+        },
+        {
+            "title": "App Assure",
+            "url": "https://www.microsoft.com/fasttrack/microsoft-365/app-assure"
+        },
+        {
+            "title": "Microsoft 365 Copilot",
+            "url": "https://learn.microsoft.com/copilot/microsoft-365/"
+        },
+        {
+            "title": "Intune Suite",
+            "url": "https://www.microsoft.com/security/business/microsoft-intune-pricing"
+        },
+        {
+            "title": "Security Copilot",
+            "url": "https://www.microsoft.com/security/business/ai-machine-learning/microsoft-security-copilot"
+        },
+        {
+            "title": "Privacy Risk Management",
+            "url": "https://learn.microsoft.com/privacy/priva/risk-management"
+        },
+        {
+            "title": "Subject Rights Requests",
+            "url": "https://learn.microsoft.com/privacy/priva/subject-rights-requests"
+        },
+        {
+            "title": "Data Catalog",
+            "url": "https://learn.microsoft.com/purview/unified-catalog-data-assets-search"
+        },
+        {
+            "title": "Data Map",
+            "url": "https://learn.microsoft.com/purview/data-map"
+        },
+        {
+            "title": "Entra Permissions Management (retiring)",
+            "url": "https://learn.microsoft.com/entra/permissions-management/"
+        },
+        {
+            "title": "Entra Verified ID",
+            "url": "https://learn.microsoft.com/entra/verified-id/"
+        },
+        {
+            "title": "Entra ID Governance",
+            "url": "https://learn.microsoft.com/entra/id-governance/"
+        },
+        {
+            "title": "Entra Workload ID",
+            "url": "https://learn.microsoft.com/entra/workload-id/"
+        },
+        {
+            "title": "Windows 365 Enterprise",
+            "url": "https://www.microsoft.com/windows-365/enterprise"
+        },
+        {
+            "title": "Windows 365 Frontline",
+            "url": "https://www.microsoft.com/windows-365/frontline"
+        },
+        {
+            "title": "Data Estate Insights",
+            "url": "https://learn.microsoft.com/purview/legacy/concept-insights"
+        },
+        {
+            "title": "Data Policy",
+            "url": "https://learn.microsoft.com/purview/legacy/concept-policies-data-owner"
+        },
+        {
+            "title": "Class Notebook",
+            "url": "https://www.onenote.com/classnotebook"
+        },
+        {
+            "title": "Defender CSPM",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/concept-cloud-security-posture-management"
+        },
+        {
+            "title": "Defender for Servers",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/plan-defender-for-servers-select-plan"
+        },
+        {
+            "title": "Defender for Business Servers",
+            "url": "https://learn.microsoft.com/defender-business/get-defender-business"
+        },
+        {
+            "title": "Microsoft 365 Archive",
+            "url": "https://learn.microsoft.com/microsoft-365/archive/archive-overview"
+        },
+        {
+            "title": "Microsoft 365 Backup",
+            "url": "https://learn.microsoft.com/microsoft-365/backup/backup-overview"
+        },
+        {
+            "title": "Microsoft Priva",
+            "url": "https://www.microsoft.com/security/business/services/microsoft-defender-experts-xdr/"
+        },
+        {
+            "title": "Microsoft Purview",
+            "url": "https://learn.microsoft.com/purview/"
+        },
+        {
+            "title": "Azure Automation",
+            "url": "https://learn.microsoft.com/azure/automation/overview"
+        },
+        {
+            "title": "Azure Backup",
+            "url": "https://learn.microsoft.com/azure/backup/backup-overview"
+        },
+        {
+            "title": "Azure Bastion",
+            "url": "https://learn.microsoft.com/azure/bastion/bastion-overview"
+        },
+        {
+            "title": "Azure Log Analytics",
+            "url": "https://learn.microsoft.com/azure/azure-monitor/logs/log-analytics-overview"
+        },
+        {
+            "title": "Azure RBAC",
+            "url": "https://learn.microsoft.com/azure/role-based-access-control/overview"
+        },
+        {
+            "title": "Viva Pulse",
+            "url": "https://learn.microsoft.com/viva/pulse/introduction-to-viva-pulse"
+        },
+        {
+            "title": "Entra Domain Services",
+            "url": "https://learn.microsoft.com/entra/identity/domain-services/overview"
+        },
+        {
+            "title": "Entra External ID",
+            "url": "https://learn.microsoft.com/entra/external-id/external-identities-overview"
+        },
+        {
+            "title": "Entra Internet Access",
+            "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-internet-access"
+        },
+        {
+            "title": "Entra Private Access",
+            "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-private-access"
+        },
+        {
+            "title": "Entra ID",
+            "url": "https://learn.microsoft.com/entra/identity/"
+        },
+        {
+            "title": "Entra ID Protection",
+            "url": "https://learn.microsoft.com/entra/id-protection/"
+        },
+        {
+            "title": "Defender Threat Intelligence API",
+            "url": "https://learn.microsoft.com/graph/api/resources/security-threatintelligence-overview"
+        },
+        {
+            "title": "Power Automate Process Mining",
+            "url": "https://learn.microsoft.com/power-automate/process-mining-overview"
+        },
+        {
+            "title": "Microsoft Copilot",
+            "url": "https://learn.microsoft.com/copilot/overview"
+        },
+        {
+            "title": "Microsoft 365 Copilot for Sales",
+            "url": "https://learn.microsoft.com/microsoft-sales-copilot/introduction"
+        },
+        {
+            "title": "Clipchamp Standard",
+            "url": "https://www.microsoft.com/microsoft-365/clipchamp"
+        },
+        {
+            "title": "Teams Enterprise",
+            "url": "https://www.microsoft.com/microsoft-teams/enterprise"
+        },
+        {
+            "title": "SharePoint Embedded",
+            "url": "https://learn.microsoft.com/sharepoint/dev/embedded/overview"
+        },
+        {
+            "title": "Teams Essentials",
+            "url": "https://www.microsoft.com/microsoft-teams/essentials"
+        }
+    ],
+    "SharePoint_Advanced_Management": [
+        {
+            "title": "SharePoint Advanced Management Plan 1",
+            "url": "https://learn.microsoft.com/sharepoint/advanced-management"
+        },
+        {
+            "title": "SharePoint Advanced Management for Copilot",
+            "url": "https://learn.microsoft.com/sharepoint/advanced-management#sharepoint-advanced-management-features-in-microsoft-365-copilot-licenses"
+        },
+        {
+            "title": "Advanced Tenant Rename",
+            "url": "https://learn.microsoft.com/sharepoint/change-your-sharepoint-domain-name#what-is-advanced-tenant-rename"
+        },
+        {
+            "title": "Conditional Accessfor Sites",
+            "url": "https://learn.microsoft.com/sharepoint/authentication-context-example"
+        },
+        {
+            "title": "Enterprise App Insight Reports",
+            "url": "https://learn.microsoft.com/sharepoint/app-insights"
+        },
+        {
+            "title": "Site Ownership Policy",
+            "url": "https://learn.microsoft.com/sharepoint/create-sharepoint-site-ownership-policy"
+        },
+        {
+            "title": "AI-Powered Insights",
+            "url": "https://learn.microsoft.com/sharepoint/ai-insights"
+        },
+        {
+            "title": "Block Download Policy",
+            "url": "https://learn.microsoft.com/sharepoint/block-download-from-sites"
+        },
+        {
+            "title": "Data Access Governance Reports",
+            "url": "https://learn.microsoft.com/sharepoint/data-access-governance-reports"
+        },
+        {
+            "title": "Data Access Governance Reports PowerShell",
+            "url": "https://learn.microsoft.com/sharepoint/powershell-for-data-access-governance"
+        },
+        {
+            "title": "Inactive Sites Policy",
+            "url": "https://learn.microsoft.com/sharepoint/site-lifecycle-management"
+        },
+        {
+            "title": "Recent Site Actions",
+            "url": "https://learn.microsoft.com/sharepoint/recent-actions-panel"
+        },
+        {
+            "title": "Restricted Access Control for OneDrive",
+            "url": "https://learn.microsoft.com/sharepoint/advanced-management#restricted-access-control-for-onedrive"
+        },
+        {
+            "title": "Restricted Access Control for SharePoint",
+            "url": "https://learn.microsoft.com/sharepoint/advanced-management#restricted-access-control-for-sharepoint"
+        },
+        {
+            "title": "Site Access Review",
+            "url": "https://learn.microsoft.com/sharepoint/site-access-review"
+        },
+        {
+            "title": "Site Change History Reports",
+            "url": "https://learn.microsoft.com/sharepoint/change-history-report"
+        },
+        {
+            "title": "Restricted Content Discovery",
+            "url": "https://learn.microsoft.com/sharepoint/restricted-content-discovery"
+        },
+        {
+            "title": "Restricted Site Creation by Users",
+            "url": "https://learn.microsoft.com/sharepoint/restricted-site-creation"
+        },
+        {
+            "title": "Agent Content Access Insights",
+            "url": "https://learn.microsoft.com/sharepoint/insights-on-agent-access"
+        },
+        {
+            "title": "Agent Insights",
+            "url": "https://learn.microsoft.com/sharepoint/insights-on-sharepoint-agents"
+        },
+        {
+            "title": "SharePoint Catalog Management",
+            "url": "https://learn.microsoft.com/sharepoint/catalog-management"
+        },
+        {
+            "title": "Compare Site Policies",
+            "url": "https://learn.microsoft.com/sharepoint/site-policy-comparison"
+        },
+        {
+            "title": "Content Management Assessment",
+            "url": "https://learn.microsoft.com/sharepoint/content-management-assessment"
+        },
+        {
+            "title": "Request Site Attestation",
+            "url": "https://learn.microsoft.com/sharepoint/request-site-attestations"
+        },
+        {
+            "title": "Restricted Site Creation by Apps",
+            "url": "https://learn.microsoft.com/sharepoint/restricted-site-creation-by-apps"
+        }
+    ],
+    "Virtual_Desktop": [
+        {
+            "title": "Microsoft Dev Box",
+            "url": "https://learn.microsoft.com/azure/dev-box/overview-what-is-microsoft-dev-box"
+        },
+        {
+            "title": "Windows 365 Business",
+            "url": "https://www.microsoft.com/windows-365/business"
+        },
+        {
+            "title": "Azure Virtual Desktop",
+            "url": "https://azure.microsoft.com/products/virtual-desktop/"
+        },
+        {
+            "title": "Windows 365 Enterprise",
+            "url": "https://www.microsoft.com/windows-365/enterprise"
+        },
+        {
+            "title": "Windows 365 Frontline (dedicated)",
+            "url": "https://www.microsoft.com/windows-365/frontline"
+        },
+        {
+            "title": "Windows 365 Frontline (shared)",
+            "url": "https://learn.microsoft.com/windows-365/enterprise/introduction-windows-365-frontline#windows-365-frontline-in-shared-mode-preview"
+        },
+        {
+            "title": "Need a GPU?",
+            "url": "https://www.microsoft.com/windows-365/enterprise/all-pricing"
+        }
+    ],
+    "Windows_365_and_AVD_Comparison": [
+        {
+            "title": "Azure Virtual Desktop",
+            "url": "https://azure.microsoft.com/products/virtual-desktop/"
+        },
+        {
+            "title": "Windows 365 Enterprise and Frontline",
+            "url": "https://www.microsoft.com/windows-365/enterprise"
+        },
+        {
+            "title": "Platform as a Service",
+            "url": "https://learn.microsoft.com/windows-365/business-enterprise-comparison#purchasing-and-licensing-comparisons"
+        },
+        {
+            "title": "Cloud Service Model",
+            "url": "https://learn.microsoft.com/windows-365/business-enterprise-comparison#administrative-comparisons"
+        },
+        {
+            "title": "Windows 365 Business",
+            "url": "https://www.microsoft.com/windows-365/business"
+        },
+        {
+            "title": "Web, RDP, Store App, or App Streaming",
+            "url": "https://learn.microsoft.com/azure/virtual-desktop/connect-azure-virtual-desktop"
+        },
+        {
+            "title": "Web, RDP, Store App",
+            "url": "https://learn.microsoft.com/windows-365/business-enterprise-comparison#end-user-comparisons"
+        }
+    ],
+    "Australia_Resources": [
+        {
+            "title": "ACSC Guidance",
+            "url": "https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight"
+        },
+        {
+            "title": "Microsoft Essential 8 Implementation Guide",
+            "url": "https://learn.microsoft.com/compliance/anz/e8-overview"
+        },
+        {
+            "title": "Deepika Mahankali",
+            "url": "https://www.linkedin.com/in/deepikamahankali/"
+        },
+        {
+            "title": "PSPF Website",
+            "url": "https://www.protectivesecurity.gov.au/"
+        },
+        {
+            "title": "Email Protective Marking Standard (EPMS)",
+            "url": "https://www.protectivesecurity.gov.au/publications-library/policy-8-sensitive-and-classified-information"
+        },
+        {
+            "title": "Microsoft PSPF Implementation Guide",
+            "url": "https://learn.microsoft.com/compliance/anz/pspf-overview"
+        },
+        {
+            "title": "Guidance on Attorney General Direction 001-2023",
+            "url": "https://techcommunity.microsoft.com/blog/intunecustomersuccess/support-tip-removing-and-preventing-the-use-of-applications-on-iosipados-and-and/3815452"
+        },
+        {
+            "title": "Australian Government IRAP Website",
+            "url": "https://www.cyber.gov.au/resources-business-and-government/assessment-and-evaluation-programs/infosec-registered-assessors-program"
+        },
+        {
+            "title": "Microsoft IRAP Assessments",
+            "url": "https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP"
+        },
+        {
+            "title": "ASD's Blueprint for Secure Cloud",
+            "url": "https://blueprint.asd.gov.au/"
+        },
+        {
+            "title": "Copilot Configuration Planning Guide for Sensitive and Regulated Industry Customers",
+            "url": "https://learn.microsoft.com/compliance/anz/blueprint-copilot-overview"
+        }
+    ]
+}

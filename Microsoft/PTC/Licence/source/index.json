@@ -1,0 +1,56 @@
+{
+    "generated_at": "2026-04-18",
+    "source": "https://m365maps.com",
+    "total": 5601,
+    "unique_urls": 1136,
+    "categories": {
+        "copilot": {
+            "total": 96,
+            "unique_urls": 72
+        },
+        "ems": {
+            "total": 224,
+            "unique_urls": 59
+        },
+        "entra": {
+            "total": 96,
+            "unique_urls": 52
+        },
+        "m365": {
+            "total": 2583,
+            "unique_urls": 273
+        },
+        "defender": {
+            "total": 121,
+            "unique_urls": 79
+        },
+        "productivity": {
+            "total": 61,
+            "unique_urls": 60
+        },
+        "teams": {
+            "total": 154,
+            "unique_urls": 80
+        },
+        "o365": {
+            "total": 593,
+            "unique_urls": 94
+        },
+        "windows": {
+            "total": 151,
+            "unique_urls": 75
+        },
+        "cal": {
+            "total": 40,
+            "unique_urls": 10
+        },
+        "guides": {
+            "total": 190,
+            "unique_urls": 174
+        },
+        "reference": {
+            "total": 1292,
+            "unique_urls": 857
+        }
+    }
+}
