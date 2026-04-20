@@ -1,0 +1,630 @@
+{
+    "Teams_Enterprise": [
+        {
+            "title": "Teams Enterprise",
+            "url": "https://www.microsoft.com/microsoft-teams/enterprise"
+        },
+        {
+            "title": "Audit (standard)",
+            "url": "https://learn.microsoft.com/purview/audit-search"
+        },
+        {
+            "title": "Content Search",
+            "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+        },
+        {
+            "title": "Microsoft Search",
+            "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+        },
+        {
+            "title": "Basic Mobility & Security",
+            "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+        },
+        {
+            "title": "Retention Policies",
+            "url": "https://learn.microsoft.com/purview/create-retention-policies"
+        },
+        {
+            "title": "Teams Mobile App",
+            "url": "https://www.microsoft.com/microsoft-teams/mobile-app"
+        },
+        {
+            "title": "Unlimited Chat",
+            "url": "https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-home-options"
+        },
+        {
+            "title": "OneDrive for Business (10 GB)",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+        },
+        {
+            "title": "Office for the Web",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+        },
+        {
+            "title": "Avatars",
+            "url": "https://learn.microsoft.com/microsoftteams/meeting-avatars"
+        },
+        {
+            "title": "Entra ID Free",
+            "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+        },
+        {
+            "title": "Microsoft Places(core)",
+            "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+        },
+        {
+            "title": "Screen Sharing",
+            "url": "https://www.microsoft.com/microsoft-teams/screen-sharing"
+        },
+        {
+            "title": "Record Meetings",
+            "url": "https://support.microsoft.com/office/34dfbe7f-b07d-4a27-b4c6-de62f1348c24"
+        },
+        {
+            "title": "Breakout Rooms",
+            "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+        },
+        {
+            "title": "Service Level Agreement",
+            "url": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services"
+        },
+        {
+            "title": "Live Captions (multilingual)",
+            "url": "https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260"
+        },
+        {
+            "title": "No License Limit",
+            "url": "https://www.microsoft.com/licensing/terms/productoffering/microsoftteams/EAEAS"
+        },
+        {
+            "title": "Microsoft 365 Mobile App",
+            "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+        },
+        {
+            "title": "Channels",
+            "url": "https://support.microsoft.com/office/8e7b8f6f-0f0d-41c2-9883-3dc0bd5d4cda"
+        },
+        {
+            "title": "3rd Party Integrations",
+            "url": "https://support.microsoft.com/office/ff207d1f-e071-40a3-8388-0c3d5a3b456a"
+        },
+        {
+            "title": "Loop Components",
+            "url": "https://support.microsoft.com/office/ee2a584b-5785-4dd6-8a2d-956131a29c81"
+        },
+        {
+            "title": "Custom Background",
+            "url": "https://www.microsoft.com/microsoft-teams/virtual-meeting-backgrounds"
+        },
+        {
+            "title": "Immersive Spaces",
+            "url": "https://support.microsoft.com/office/4a6182f8-0f43-4c24-bb66-ef229fa221d8"
+        },
+        {
+            "title": "Scheduled Meetings",
+            "url": "https://support.microsoft.com/office/943507a9-8583-4c58-b5d2-8ec8265e04e5"
+        },
+        {
+            "title": "Phone and Web Support",
+            "url": "https://support.microsoft.com/teams"
+        },
+        {
+            "title": "Group Calls for 1000 participants",
+            "url": "https://learn.microsoft.com/microsoftteams/limits-specifications-teams#meetings-and-calls"
+        },
+        {
+            "title": "Teams Desktop Client",
+            "url": "https://www.microsoft.com/microsoft-teams/download-app"
+        },
+        {
+            "title": "Teams Web Client",
+            "url": "https://teams.microsoft.com/"
+        },
+        {
+            "title": "Exchange Online Kiosk(2 GB)",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+        },
+        {
+            "title": "Polls",
+            "url": "https://support.microsoft.com/office/92bc2481-b5e4-4650-8a87-d90103ee95a1"
+        },
+        {
+            "title": "Tasks",
+            "url": "https://support.microsoft.com/office/ce086555-cc04-455e-a5e5-4288ca2f6a08"
+        },
+        {
+            "title": "Meeting Transcripts",
+            "url": "https://support.microsoft.com/office/dc1a8f23-2e20-4684-885e-2152e06a4a8b"
+        },
+        {
+            "title": "Exchange Online Protection",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+        },
+        {
+            "title": "Teams Audio Conferencing (free add-on)",
+            "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+        },
+        {
+            "title": "Meeting Notes",
+            "url": "https://support.microsoft.com/office/3eadf032-0ef8-4d60-9e21-0691d317d103"
+        },
+        {
+            "title": "Microsoft Forms",
+            "url": "https://support.microsoft.com/forms"
+        },
+        {
+            "title": "Microsoft Graph API",
+            "url": "https://learn.microsoft.com/graph/overview"
+        },
+        {
+            "title": "Standard Commercial Support",
+            "url": "https://www.microsoft.com/microsoft-365/business/microsoft-365-for-business-support-options"
+        },
+        {
+            "title": "Microsoft Whiteboard",
+            "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+        }
+    ],
+    "Teams": [
+        {
+            "title": "Teams Essentials (Entra ID)",
+            "url": "https://learn.microsoft.com/microsoftteams/get-started-with-teams-essentials"
+        },
+        {
+            "title": "Teams Enterprise",
+            "url": "https://www.microsoft.com/microsoft-teams/enterprise"
+        },
+        {
+            "title": "Teams Essentials (Consumer)",
+            "url": "https://www.microsoft.com/microsoft-teams/essentials"
+        },
+        {
+            "title": "Audit (standard)",
+            "url": "https://learn.microsoft.com/purview/audit-search"
+        },
+        {
+            "title": "Calendar",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#feature-availability-across-exchange-online-standalone-plans"
+        },
+        {
+            "title": "Content Search",
+            "url": "https://learn.microsoft.com/purview/ediscovery-content-search-overview"
+        },
+        {
+            "title": "Microsoft Search",
+            "url": "https://learn.microsoft.com/microsoftsearch/overview-microsoft-search"
+        },
+        {
+            "title": "Basic Mobility & Security",
+            "url": "https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview"
+        },
+        {
+            "title": "Retention Policies",
+            "url": "https://learn.microsoft.com/purview/create-retention-policies"
+        },
+        {
+            "title": "Teams Mobile App",
+            "url": "https://www.microsoft.com/microsoft-teams/mobile-app"
+        },
+        {
+            "title": "Unlimited Chat",
+            "url": "https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-home-options"
+        },
+        {
+            "title": "OneDrive (5 GB)",
+            "url": "https://www.microsoft.com/microsoft-365/onedrive/onedrive-plans-and-pricing"
+        },
+        {
+            "title": "OneDrive for Business (10 GB)",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+        },
+        {
+            "title": "Office for the Web",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/office-online-service-description/office-online-service-description"
+        },
+        {
+            "title": "Avatars",
+            "url": "https://learn.microsoft.com/microsoftteams/meeting-avatars"
+        },
+        {
+            "title": "Entra ID Free",
+            "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+        },
+        {
+            "title": "Microsoft Places(core)",
+            "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+        },
+        {
+            "title": "Group Calls for 30 hours",
+            "url": "https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-business-options"
+        },
+        {
+            "title": "Screen Sharing",
+            "url": "https://www.microsoft.com/microsoft-teams/screen-sharing"
+        },
+        {
+            "title": "Record Meetings",
+            "url": "https://support.microsoft.com/office/34dfbe7f-b07d-4a27-b4c6-de62f1348c24"
+        },
+        {
+            "title": "Breakout Rooms",
+            "url": "https://learn.microsoft.com/microsoft-365/bookings/bookings-overview"
+        },
+        {
+            "title": "Service Level Agreement",
+            "url": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services"
+        },
+        {
+            "title": "Live Captions (multilingual)",
+            "url": "https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260"
+        },
+        {
+            "title": "300 License Limit",
+            "url": "https://www.microsoft.com/microsoft-teams/small-medium-business"
+        },
+        {
+            "title": "No License Limit",
+            "url": "https://www.microsoft.com/licensing/terms/productoffering/microsoftteams/EAEAS"
+        },
+        {
+            "title": "Microsoft 365 Mobile App",
+            "url": "https://www.microsoft.com/microsoft-365-copilot/download-copilot-app"
+        },
+        {
+            "title": "Channels",
+            "url": "https://support.microsoft.com/office/8e7b8f6f-0f0d-41c2-9883-3dc0bd5d4cda"
+        },
+        {
+            "title": "3rd Party Integrations",
+            "url": "https://support.microsoft.com/office/ff207d1f-e071-40a3-8388-0c3d5a3b456a"
+        },
+        {
+            "title": "Purchase Web Direct",
+            "url": "https://go.microsoft.com/fwlink/?linkid=2227652"
+        },
+        {
+            "title": "Purchase through CSP",
+            "url": "https://www.microsoft.com/licensing/terms/productoffering/microsoftteams/MCA"
+        },
+        {
+            "title": "Loop Components",
+            "url": "https://support.microsoft.com/office/ee2a584b-5785-4dd6-8a2d-956131a29c81"
+        },
+        {
+            "title": "Custom Background",
+            "url": "https://www.microsoft.com/microsoft-teams/virtual-meeting-backgrounds"
+        },
+        {
+            "title": "Join Immersive Spaces",
+            "url": "https://support.microsoft.com/office/4a6182f8-0f43-4c24-bb66-ef229fa221d8"
+        },
+        {
+            "title": "Scheduled Meetings",
+            "url": "https://support.microsoft.com/office/943507a9-8583-4c58-b5d2-8ec8265e04e5"
+        },
+        {
+            "title": "Phone and Web Support",
+            "url": "https://support.microsoft.com/teams"
+        },
+        {
+            "title": "Group Calls for 1000 participants",
+            "url": "https://learn.microsoft.com/microsoftteams/limits-specifications-teams#meetings-and-calls"
+        },
+        {
+            "title": "Teams Desktop Client",
+            "url": "https://www.microsoft.com/microsoft-teams/download-app"
+        },
+        {
+            "title": "Teams Web Client",
+            "url": "https://teams.microsoft.com/"
+        },
+        {
+            "title": "Microsoft Forms (consume)",
+            "url": "https://support.microsoft.com/forms"
+        },
+        {
+            "title": "Polls",
+            "url": "https://support.microsoft.com/office/92bc2481-b5e4-4650-8a87-d90103ee95a1"
+        },
+        {
+            "title": "Tasks",
+            "url": "https://support.microsoft.com/office/ce086555-cc04-455e-a5e5-4288ca2f6a08"
+        },
+        {
+            "title": "Meeting Transcripts",
+            "url": "https://support.microsoft.com/office/dc1a8f23-2e20-4684-885e-2152e06a4a8b"
+        },
+        {
+            "title": "Exchange Online Protection",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+        },
+        {
+            "title": "Teams Audio Conferencing (free add-on)",
+            "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+        },
+        {
+            "title": "Meeting Notes",
+            "url": "https://support.microsoft.com/office/3eadf032-0ef8-4d60-9e21-0691d317d103"
+        },
+        {
+            "title": "Microsoft Graph API",
+            "url": "https://learn.microsoft.com/graph/overview"
+        },
+        {
+            "title": "Standard Commercial Support",
+            "url": "https://www.microsoft.com/microsoft-365/business/microsoft-365-for-business-support-options"
+        },
+        {
+            "title": "Microsoft Whiteboard",
+            "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+        }
+    ],
+    "Teams_Premium": [
+        {
+            "title": "Teams Premium",
+            "url": "https://learn.microsoft.com/microsoftteams/enhanced-teams-experience"
+        },
+        {
+            "title": "Live Caption Translation",
+            "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/get-started-with-microsoft-teams-premium/3699262#toc-hId-1423047668"
+        },
+        {
+            "title": "Advanced Virtual Appointments",
+            "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#virtual-appointments"
+        },
+        {
+            "title": "Microsoft eCDN",
+            "url": "https://learn.microsoft.com/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant"
+        },
+        {
+            "title": "Microsoft Places (enhanced)",
+            "url": "https://learn.microsoft.com/microsoft-365/places/places-overview"
+        },
+        {
+            "title": "Advanced Meetings",
+            "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#meetings"
+        },
+        {
+            "title": "Advanced Webinars",
+            "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#webinars"
+        },
+        {
+            "title": "Advanced Town Halls",
+            "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#town-halls"
+        },
+        {
+            "title": "Advanced Collaboration Tools",
+            "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#advanced-collaboration-tools"
+        },
+        {
+            "title": "Advanced Meetings Protection",
+            "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#meetings-protection"
+        },
+        {
+            "title": "PowerPoint Live Chapters",
+            "url": "https://support.microsoft.com/office/9720aba3-2039-4678-9d55-26cbefd2fe8b"
+        },
+        {
+            "title": "Intelligent Recap",
+            "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#intelligent-recap"
+        },
+        {
+            "title": "Queues App",
+            "url": "https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9"
+        },
+        {
+            "title": "Immersive Mesh Experiences",
+            "url": "https://learn.microsoft.com/microsoftteams/teams-add-on-licensing/licensing-enhance-teams#immersive-mesh-experiences"
+        }
+    ],
+    "Teams_Rooms": [
+        {
+            "title": "Teams Rooms Basic",
+            "url": "https://www.microsoft.com/microsoft-teams/microsoft-teams-rooms"
+        },
+        {
+            "title": "No charge with certified room hardware. Limit of 25 rooms per tenant.",
+            "url": "https://www.microsoft.com/microsoft-teams/microsoft-teams-rooms#office-ContentAreaHeadingTemplate-njol7nz"
+        },
+        {
+            "title": "Microsoft Whiteboard",
+            "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+        },
+        {
+            "title": "Automatic Updates",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing#device-management"
+        },
+        {
+            "title": "Entra ID Plan 1",
+            "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+        },
+        {
+            "title": "Intune Management",
+            "url": "https://learn.microsoft.com/intune/intune-service/fundamentals/what-is-intune"
+        },
+        {
+            "title": "Teams Phone",
+            "url": "https://learn.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365"
+        },
+        {
+            "title": "Join Webex and Zoom Meetings",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/third-party-join"
+        },
+        {
+            "title": "Teams Panel Check-In",
+            "url": "https://learn.microsoft.com/microsoftteams/devices/check-in-and-auto-release"
+        },
+        {
+            "title": "SIP/H323 Support",
+            "url": "https://www.microsoft.com/microsoft-teams/microsoft-teams-rooms/compare-rooms-plans"
+        },
+        {
+            "title": "Intelligent Audio & Video",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing#intelligent-audio-and-video"
+        },
+        {
+            "title": "Room Planning & Rollout",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-pro-management#service-capabilities"
+        },
+        {
+            "title": "Monitoring and Trouble-shooting",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-pro-management#service-features"
+        },
+        {
+            "title": "Health and Usage Reports",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/health-reports"
+        },
+        {
+            "title": "Teams Rooms Admin",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing"
+        },
+        {
+            "title": "Large Gallery Support",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing#meeting-engagement"
+        },
+        {
+            "title": "Graph APIs for Admin",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing#comparison-of-teams-rooms-feature-availability-by-license"
+        },
+        {
+            "title": "Room Activity Audit Logs",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/multi-tenant-auditing"
+        },
+        {
+            "title": "Partner Management",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/multi-tenant-management-customer"
+        },
+        {
+            "title": "Teams Audio Conferencing (full)",
+            "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+        },
+        {
+            "title": "Teams Enterprise",
+            "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+        },
+        {
+            "title": "Defender for Endpoint Plan 2",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-defender-endpoint"
+        }
+    ],
+    "Teams_Rooms_Basic": [
+        {
+            "title": "Teams Audio Conferencing (full)",
+            "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+        },
+        {
+            "title": "Teams Enterprise",
+            "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+        },
+        {
+            "title": "Teams Rooms Basic",
+            "url": "https://www.microsoft.com/microsoft-teams/microsoft-teams-rooms"
+        },
+        {
+            "title": "No charge with certified room hardware.  Limit of 25 rooms per tenant.",
+            "url": "https://www.microsoft.com/microsoft-teams/microsoft-teams-rooms#office-ContentAreaHeadingTemplate-njol7nz"
+        },
+        {
+            "title": "Microsoft Whiteboard",
+            "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+        },
+        {
+            "title": "Automatic Updates",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing#device-management"
+        },
+        {
+            "title": "Join Webex and Zoom Meetings",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/third-party-join"
+        },
+        {
+            "title": "Teams Rooms Admin",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing"
+        }
+    ],
+    "Teams_Rooms_Pro": [
+        {
+            "title": "Teams Audio Conferencing (full)",
+            "url": "https://learn.microsoft.com/microsoftteams/audio-conferencing-in-office-365"
+        },
+        {
+            "title": "Teams Enterprise",
+            "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+        },
+        {
+            "title": "Teams Rooms Pro",
+            "url": "https://www.microsoft.com/microsoft-teams/microsoft-teams-rooms"
+        },
+        {
+            "title": "Microsoft Whiteboard",
+            "url": "https://learn.microsoft.com/microsoft-365/whiteboard/"
+        },
+        {
+            "title": "Automatic Updates",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing#device-management"
+        },
+        {
+            "title": "Entra ID Plan 1",
+            "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+        },
+        {
+            "title": "Intune Management",
+            "url": "https://learn.microsoft.com/intune/intune-service/fundamentals/what-is-intune"
+        },
+        {
+            "title": "Teams Phone",
+            "url": "https://learn.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365"
+        },
+        {
+            "title": "Join Webex and Zoom Meetings",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/third-party-join"
+        },
+        {
+            "title": "Teams Panel Check-In",
+            "url": "https://learn.microsoft.com/microsoftteams/devices/check-in-and-auto-release"
+        },
+        {
+            "title": "SIP/H323 Support",
+            "url": "https://www.microsoft.com/microsoft-teams/microsoft-teams-rooms/compare-rooms-plans"
+        },
+        {
+            "title": "Intelligent Audio & Video",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing#intelligent-audio-and-video"
+        },
+        {
+            "title": "Room Planning & Rollout",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-pro-management#service-capabilities"
+        },
+        {
+            "title": "Monitoring and Trouble-shooting",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-pro-management#service-features"
+        },
+        {
+            "title": "Health and Usage Reports",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/health-reports"
+        },
+        {
+            "title": "Teams Rooms Admin",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing"
+        },
+        {
+            "title": "Large Gallery Support",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing#meeting-engagement"
+        },
+        {
+            "title": "Graph APIs for Admin",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/rooms-licensing#comparison-of-teams-rooms-feature-availability-by-license"
+        },
+        {
+            "title": "Room Activity Audit Logs",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/multi-tenant-auditing"
+        },
+        {
+            "title": "Partner Management",
+            "url": "https://learn.microsoft.com/microsoftteams/rooms/multi-tenant-management-customer"
+        },
+        {
+            "title": "Defender for Endpoint Plan 2",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-defender-endpoint"
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+  "offer_type": "Azure Managed Application Offer",
+  "description": "ARM 템플릿을 통해 고객 테넌트에 솔루션 리소스를 배포하며, 게시자가 배포된 리소스에 대한 고객 접근을 제어할 수 있는 오퍼 유형.",
+  "policy_reference": "Azure Managed Application offer policies",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "개요",
+      "description": "Azure Application Offer는 ARM 템플릿을 통해 VM, 컨테이너, 스토리지 등 다양한 Azure 리소스를 포함한 솔루션 배포 및 구성을 지원. Solution Template 또는 Managed Application으로 구성 가능.",
+      "items": [
+        {
+          "title": "게시자 관리 옵션",
+          "description": "게시자는 고객 테넌트의 리소스 그룹에 대한 게시자 관리 액세스 활성화/비활성화를 선택하고, 고객에게 전체 또는 제한된 액세스 권한을 부여할 수 있음."
+        },
+        {
+          "title": "Plan an Azure Application Offer",
+          "description": "Commercial Marketplace에 Azure Application Offer를 게시하기 위한 계획 수립 가이드.",
+          "reference": "Plan an Azure Application offer for the commercial marketplace - Marketplace publisher | Microsoft Learn"
+        },
+        {
+          "title": "Plan an Azure Managed Application",
+          "description": "Azure Application Offer 내 Managed Application 플랜 계획 수립 가이드.",
+          "reference": "Plan an Azure managed application for an Azure application offer - Marketplace publisher | Microsoft Learn"
+        }
+      ]
+    },
+    {
+      "id": "publishing_steps",
+      "title": "게시 단계",
+      "description": "Azure Managed Application Offer를 Commercial Marketplace에 게시하기 위한 순서별 단계.",
+      "items": [
+        {
+          "title": "기술 자산 준비",
+          "description": "Azure Application 게시에 필요한 기술 자산을 준비.",
+          "reference": "Prepare the technical assets for Azure application - Marketplace publisher | Microsoft Learn"
+        },
+        {
+          "title": "Azure Application Offer 생성",
+          "description": "Partner Center에서 Azure Application Offer를 신규 생성.",
+          "reference": "Create an Azure application offer in Azure Marketplace - Marketplace publisher | Microsoft Learn"
+        },
+        {
+          "title": "Offer Properties 설정",
+          "description": "카테고리, 산업, 법적 계약 등 오퍼 속성을 구성.",
+          "reference": "How to configure your Azure Application offer properties - Marketplace publisher | Microsoft Learn"
+        },
+        {
+          "title": "Offer Listing Details 설정",
+          "description": "오퍼 이름, 요약, 설명, 검색 키워드, 스크린샷 등 Listing 정보를 구성.",
+          "reference": "Configure your Azure application offer listing details - Marketplace publisher | Microsoft Learn"
+        },
+        {
+          "title": "Preview Audience 추가",
+          "description": "전체 게시 전 오퍼를 미리 검토할 수 있는 Preview Audience를 추가.",
+          "reference": "Add a preview audience for an Azure Application offer - Marketplace publisher | Microsoft Learn"
+        },
+        {
+          "title": "Technical Details 추가",
+          "description": "배포 패키지 URL 등 기술 세부 정보를 추가.",
+          "reference": "Add technical details for an Azure application offer - Marketplace publisher | Microsoft Learn"
+        },
+        {
+          "title": "Managed Application Plan 설정",
+          "description": "Managed Application 플랜의 가격, 시장, 기술 설정을 구성.",
+          "reference": "Configure a managed application plan - Marketplace publisher | Microsoft Learn"
+        }
+      ]
+    },
+    {
+      "id": "deployment_package",
+      "title": "Deployment Package",
+      "description": "플랜에 필요한 모든 템플릿 파일을 .zip 파일로 패키징. 루트 폴더에 아래 두 파일을 반드시 포함해야 함.",
+      "items": [
+        {
+          "title": "mainTemplate.json",
+          "description": "고객의 Azure 구독에 배포할 리소스를 정의하는 ARM Resource Manager 템플릿 파일."
+        },
+        {
+          "title": "createUiDefinition.json",
+          "description": "Azure Application 생성 경험을 위한 UI 정의 파일. 고객이 파라미터 값을 입력할 UI 요소를 지정. 게시 전 Sandbox 환경에서 UX를 테스트하는 것을 권장."
+        }
+      ]
+    },
+    {
+      "id": "arm_template",
+      "title": "ARM Template",
+      "description": "프로젝트의 인프라와 구성을 정의하는 JSON 파일. Azure 솔루션의 Infrastructure as Code(IaC) 구현에 사용.",
+      "items": [
+        {
+          "title": "템플릿 구조 및 문법",
+          "description": "ARM 템플릿의 기본 구조와 문법 가이드.",
+          "reference": "Template structure and syntax - Azure Resource Manager | Microsoft Learn"
+        },
+        {
+          "title": "ARM 템플릿 Best Practices",
+          "description": "ARM 템플릿 작성 시 권장 모범 사례.",
+          "reference": "Best practices for templates - Azure Resource Manager | Microsoft Learn"
+        },
+        {
+          "title": "ARM Template Test Toolkit",
+          "description": "ARM 템플릿의 유효성 및 Best Practice 준수 여부를 검사하는 테스트 도구.",
+          "reference": "ARM template test toolkit - Azure Resource Manager | Microsoft Learn"
+        },
+        {
+          "title": "Parameters",
+          "description": "ARM 템플릿의 파라미터 정의 및 활용 방법.",
+          "reference": "Parameters in templates - Azure Resource Manager | Microsoft Learn"
+        },
+        {
+          "title": "Deny Assignments",
+          "description": "역할 할당이 있더라도 특정 Azure 리소스 작업을 차단. 게시자가 고객의 관리 리소스 접근을 제한하는 데 활용."
+        },
+        {
+          "title": "JIT (Just In Time) Access",
+          "description": "문제 해결 또는 유지보수를 위해 Managed Application 리소스에 대한 일시적 상승 권한을 요청하는 기능. 기본값은 읽기 전용이며 특정 시간 동안 상위 권한 사용 가능."
+        }
+      ]
+    },
+    {
+      "id": "metered_billing",
+      "title": "Metered Billing",
+      "description": "Azure Marketplace의 Managed Application 플랜에서만 지원되는 종량제 과금 방식. Solution Template에는 적용 불가.",
+      "items": [
+        {
+          "title": "Marketplace Metering Service API 연동",
+          "description": "청구 이벤트(예: 트랜잭션, 사용량 단위)를 Microsoft에 보고하기 위해 애플리케이션이 Marketplace Metering Service API와 반드시 통합되어야 함."
+        },
+        {
+          "title": "Pricing Model 구성",
+          "description": "기본 월 요금(순수 소비 기반인 경우 $0 설정 가능)과 기본 요금을 초과하는 사용에 대한 청구 단위(Billing Dimensions)로 구성."
+        },
+        {
+          "title": "Custom Dimensions",
+          "description": "Partner Center에서 플랜당 최대 30개의 Billing Dimension 정의 가능. 각 Dimension은 측정 가능한 단위를 나타냄 (예: 스캔한 페이지 수, API 호출 수)."
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "title": "Mastering Managed Application Offers",
+      "url": "Mastering Managed Application Offers - Mastering the Marketplace (microsoft.github.io)"
+    },
+    {
+      "title": "Azure Managed App Samples (GitHub)",
+      "url": "commercial-marketplace-solutions/azure-application-samples at main · microsoft/commercial-marketplace-solutions · GitHub"
+    },
+    {
+      "title": "ARM Template Quickstart Samples (GitHub)",
+      "url": "azure-quickstart-templates/quickstarts at master · Azure/azure-quickstart-templates · GitHub"
+    },
+    {
+      "title": "ARM Template Documentation",
+      "url": "ARM template documentation | Microsoft Learn"
+    }
+  ]
+}

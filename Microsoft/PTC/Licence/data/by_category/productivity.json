@@ -1,0 +1,252 @@
+{
+    "Planner_and_Project": [
+        {
+            "title": "Planner and Project Plan 3",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description#microsoft-project-subscriptions"
+        },
+        {
+            "title": "Timesheet Submission",
+            "url": "https://support.microsoft.com/office/a44e4d20-a5f0-4f36-94c0-d0abeca8366f"
+        },
+        {
+            "title": "Project for the Web",
+            "url": "https://support.microsoft.com/office/50bf3e29-0f0d-4b7a-9d2c-7c78389b67ad"
+        },
+        {
+            "title": "Project Planning & Scheduling",
+            "url": "https://support.microsoft.com/office/b9766811-9f5f-4bca-ac9c-202a183a1656#ID0EAABAAA=Scheduling"
+        },
+        {
+            "title": "Grid View",
+            "url": "https://support.microsoft.com/office/b01443f4-0e85-4952-b1f2-f4b55e4a90be"
+        },
+        {
+            "title": "Reporting",
+            "url": "https://support.microsoft.com/office/6e74dc79-0e2d-480b-b600-3a466bf289a3"
+        },
+        {
+            "title": "Co-authoring",
+            "url": "https://support.microsoft.com/office/2ce5cddb-87da-42fe-9df3-fbe37c3c7afb"
+        },
+        {
+            "title": "Collaboration & Comms",
+            "url": "https://support.microsoft.com/office/2dc584e6-2f6c-4e2d-9008-0b3f6845eb52"
+        },
+        {
+            "title": "Project Home",
+            "url": "https://support.microsoft.com/office/a3b38418-35e7-4df4-8e4a-ba6a4fa0562a"
+        },
+        {
+            "title": "Resource Management",
+            "url": "https://support.microsoft.com/office/fdca571c-d35b-490b-8560-8b39ae4a6cb4"
+        },
+        {
+            "title": "Roadmap Visualisation (edit)",
+            "url": "https://support.microsoft.com/office/57764149-51b8-468f-a50d-9ea6a4fd835a"
+        },
+        {
+            "title": "Project Online (retiring)",
+            "url": "https://support.microsoft.com/office/6569170c-5c8e-474e-a7f0-642872f62f8a"
+        },
+        {
+            "title": "Project Online Desktop (5 PCs)",
+            "url": "https://support.microsoft.com/office/7059249b-d9fe-4d61-ab96-5c5bf435f281"
+        },
+        {
+            "title": "Board View",
+            "url": "https://support.microsoft.com/office/1c318425-81ee-441a-83dd-6fe8606275d6"
+        },
+        {
+            "title": "Demand Management",
+            "url": "https://support.microsoft.com/office/6ce59d2e-aff1-49f0-ac61-8952b438e444"
+        },
+        {
+            "title": "Portfolio Selection & Optimization",
+            "url": "https://support.microsoft.com/office/7e5503e2-79ac-425d-b91c-a49c1548d384"
+        },
+        {
+            "title": "SharePoint OnlinePlan 1",
+            "url": "https://learn.microsoft.com/sharepoint/introduction"
+        }
+    ],
+    "Visio": [
+        {
+            "title": "Visio Plan 1",
+            "url": "https://www.microsoft.com/microsoft-365/visio/visio-plan-1"
+        },
+        {
+            "title": "Visio Plan 2",
+            "url": "https://www.microsoft.com/microsoft-365/visio/visio-plan-2"
+        },
+        {
+            "title": "Visio in Microsoft 365",
+            "url": "https://support.microsoft.com/office/e6647040-2fca-42ec-9fa5-d16a4e39e0ee"
+        },
+        {
+            "title": "Pyramid Diagrams",
+            "url": "https://support.microsoft.com/office/a89d509c-a03c-4e9f-b878-3b65fce90ca9#bm5"
+        },
+        {
+            "title": "Basic Flowcharts",
+            "url": "https://support.microsoft.com/office/e207d975-4a51-4bfa-a356-eeec314bd276"
+        },
+        {
+            "title": "Block Diagrams",
+            "url": "https://support.microsoft.com/office/f7e11f20-45d9-4c31-92c9-16a87a6b6fee"
+        },
+        {
+            "title": "Process Diagrams",
+            "url": "https://support.microsoft.com/office/f064cd25-d7d5-47b8-87e1-ecb3c39cc165"
+        },
+        {
+            "title": "Business Matrix Diagrams",
+            "url": "https://support.microsoft.com/office/a89d509c-a03c-4e9f-b878-3b65fce90ca9#bm4"
+        },
+        {
+            "title": "Co-authoring and Commenting",
+            "url": "https://support.microsoft.com/office/413c0b5a-0d52-4ace-af85-8b9bf115bbbf#OfficeVersion=Web"
+        },
+        {
+            "title": "Basic Diagrams",
+            "url": "https://support.microsoft.com/office/453ca3a8-3ae8-437b-88c7-38cd44e55d28"
+        },
+        {
+            "title": "Unlimited shapes, pages, and documents",
+            "url": "https://support.microsoft.com/office/a3b38418-35e7-4df4-8e4a-ba6a4fa0562a"
+        },
+        {
+            "title": "Network Diagrams",
+            "url": "https://support.microsoft.com/office/f2020ce6-c20f-4342-84f7-bf4e7488843a"
+        },
+        {
+            "title": "Azure and AWS Diagrams",
+            "url": "https://support.microsoft.com/office/efbb25e7-c80e-42e1-b1ad-7ef630ff01b7"
+        },
+        {
+            "title": "Cross-functional Flowcharts",
+            "url": "https://support.microsoft.com/office/4a403033-9787-454f-b87e-b88452c47a21"
+        },
+        {
+            "title": "SDL, UML, and EDR Diagrams",
+            "url": "https://support.microsoft.com/office/ca4e3ae9-d413-4c94-8a7a-38dac30cbed6#OfficeVersion=Web"
+        },
+        {
+            "title": "Cycle Diagrams",
+            "url": "https://support.microsoft.com/office/fa9b7a59-3099-4637-820c-1b41b24fc2a7"
+        },
+        {
+            "title": "Create & Edit Diagrams",
+            "url": "https://support.microsoft.com/office/06f04845-91b8-4e8f-881f-a43c970735fc"
+        },
+        {
+            "title": "Maps and Floor Plans",
+            "url": "https://support.microsoft.com/office/ec17da08-64aa-4ead-9b9b-35e821645791"
+        },
+        {
+            "title": "Process Model Flowcharts",
+            "url": "https://support.microsoft.com/office/fff03563-1df0-4586-b753-2970b1f81bfa"
+        },
+        {
+            "title": "Schedule Diagrams",
+            "url": "https://support.microsoft.com/office/49902c25-587d-4b81-98f3-124485bf8083"
+        },
+        {
+            "title": "Venn Diagrams",
+            "url": "https://support.microsoft.com/office/447d65f4-79a3-411d-811d-bfdea7f83e2d"
+        },
+        {
+            "title": "Business Diagrams",
+            "url": "https://support.microsoft.com/office/fa9b7a59-3099-4637-820c-1b41b24fc2a7#ID0EAABAAA=BusinessChartsTab&ID0EBD=businesschartstab"
+        },
+        {
+            "title": "Microsoft Teams Integration",
+            "url": "https://support.microsoft.com/topic/9b200289-dbac-4823-85bd-628a5c7bb0ae"
+        },
+        {
+            "title": "Visio App for Windows",
+            "url": "https://support.microsoft.com/office/f98f21e3-aa02-4827-9167-ddab5b025710"
+        },
+        {
+            "title": "OneDrive for Business (2 GB)",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/onedrive-for-business-service-description"
+        },
+        {
+            "title": "Connect to External Data",
+            "url": "https://support.microsoft.com/office/4f24e8b1-b7e0-41c9-8d0f-d780a1107793"
+        },
+        {
+            "title": "Value-Stream Maps",
+            "url": "https://support.microsoft.com/office/35a09801-999e-4beb-ad4a-3235b3f0eaa3"
+        }
+    ],
+    "Viva": [
+        {
+            "title": "Viva Learning (premium)",
+            "url": "https://learn.microsoft.com/viva/learning/"
+        },
+        {
+            "title": "Viva Insights - Manager, Leader, Analyst",
+            "url": "https://learn.microsoft.com/viva/insights/introduction"
+        },
+        {
+            "title": "Viva Glint",
+            "url": "https://learn.microsoft.com/viva/glint/introduction-viva-glint"
+        },
+        {
+            "title": "Viva Suite",
+            "url": "https://www.microsoft.com/microsoft-viva"
+        },
+        {
+            "title": "Viva Pulse",
+            "url": "https://learn.microsoft.com/viva/pulse/introduction-to-viva-pulse"
+        },
+        {
+            "title": "Viva Workplace Analytics & Employee Feedback",
+            "url": "https://www.microsoft.com/microsoft-viva/workplace-analytics-and-feedback"
+        },
+        {
+            "title": "Copilot in Viva Learning (preview)",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/04/20/introducing-copilot-in-microsoft-viva-a-new-way-to-boost-employee-engagement-and-performance/"
+        },
+        {
+            "title": "Copilot in Viva Glint",
+            "url": "https://learn.microsoft.com/viva/glint/copilot/copilot-admin-intro"
+        },
+        {
+            "title": "Skills in Viva (preview)",
+            "url": "https://learn.microsoft.com/copilot/microsoft-365/people-skills-overview"
+        },
+        {
+            "title": "Viva Employee Communications & Communities",
+            "url": "https://www.microsoft.com/microsoft-viva/employee-communications-and-communities"
+        },
+        {
+            "title": "Viva Amplify",
+            "url": "https://learn.microsoft.com/viva/amplify/overview-viva-amplify"
+        },
+        {
+            "title": "Viva Connections (50 instances)",
+            "url": "https://learn.microsoft.com/viva/connections/set-up-admin-center"
+        },
+        {
+            "title": "Copilot in Viva Amplify",
+            "url": "https://learn.microsoft.com/viva/amplify/copilot-in-viva-amplify"
+        },
+        {
+            "title": "Copilot in Viva Engage",
+            "url": "https://learn.microsoft.com/viva/engage/configure-copilot-for-engage"
+        },
+        {
+            "title": "Viva Engage (premium)",
+            "url": "https://learn.microsoft.com/viva/engage/setup#set-up-licensing-for-viva-engage"
+        },
+        {
+            "title": "Answers in Viva",
+            "url": "https://learn.microsoft.com/viva/engage/eac-answers-overview-set-up"
+        },
+        {
+            "title": "People in Viva",
+            "url": "https://techcommunity.microsoft.com/blog/microsoftvivablog/people-in-microsoft-viva-%E2%80%93-putting-people-at-the-center-of-the-employee-experien/3633223"
+        }
+    ]
+}

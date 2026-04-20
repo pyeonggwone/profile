@@ -1,0 +1,396 @@
+{
+    "Entra_ID_All": [
+        {
+            "title": "Entra ID Plan 2",
+            "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+        },
+        {
+            "title": "Access Reviews",
+            "url": "https://learn.microsoft.com/entra/id-governance/access-reviews-overview"
+        },
+        {
+            "title": "Entra ID Protection",
+            "url": "https://learn.microsoft.com/entra/id-protection/overview-identity-protection"
+        },
+        {
+            "title": "Entitlement Management (basic)",
+            "url": "https://learn.microsoft.com/entra/id-governance/entitlement-management-overview"
+        },
+        {
+            "title": "Risk-Based Conditional Access",
+            "url": "https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-conditions#sign-in-risk"
+        },
+        {
+            "title": "Privileged Identity Management",
+            "url": "https://learn.microsoft.com/entra/id-governance/privileged-identity-management/pim-configure"
+        },
+        {
+            "title": "MFA Registration Policy",
+            "url": "https://learn.microsoft.com/entra/id-protection/howto-identity-protection-configure-mfa-policy"
+        },
+        {
+            "title": "Advanced Security Reports & Alerts",
+            "url": "https://learn.microsoft.com/entra/identity/monitoring-health/"
+        },
+        {
+            "title": "App Proxy, including PingAccess",
+            "url": "https://learn.microsoft.com/entra/identity/app-proxy/"
+        },
+        {
+            "title": "Entra ID Connect Health",
+            "url": "https://learn.microsoft.com/entra/identity/hybrid/connect/whatis-azure-ad-connect#what-is-azure-ad-connect-health"
+        },
+        {
+            "title": "Cloud App Discovery",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/set-up-cloud-discovery"
+        },
+        {
+            "title": "Shared Account Password Roll-Over",
+            "url": "https://learn.microsoft.com/entra/identity/users/users-sharing-accounts"
+        },
+        {
+            "title": "Self-Service Password Reset in AD",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/concept-sspr-howitworks"
+        },
+        {
+            "title": "Self-Service Group Management",
+            "url": "https://learn.microsoft.com/entra/identity/users/groups-self-service-management"
+        },
+        {
+            "title": "Conditional Access",
+            "url": "https://learn.microsoft.com/entra/identity/conditional-access/overview"
+        },
+        {
+            "title": "External ID",
+            "url": "https://learn.microsoft.com/entra/external-id/"
+        },
+        {
+            "title": "Enterprise State Roaming",
+            "url": "https://learn.microsoft.com/entra/identity/devices/enterprise-state-roaming-enable"
+        },
+        {
+            "title": "Terms of Use",
+            "url": "https://learn.microsoft.com/entra/identity/conditional-access/terms-of-use"
+        },
+        {
+            "title": "Password Protection",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/concept-password-ban-bad"
+        },
+        {
+            "title": "Microsoft Identity Manager",
+            "url": "https://learn.microsoft.com/microsoft-identity-manager/"
+        },
+        {
+            "title": "3rd Party MFA Integration",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-external-method-manage"
+        },
+        {
+            "title": "Administrative Units",
+            "url": "https://learn.microsoft.com/entra/identity/role-based-access-control/administrative-units"
+        },
+        {
+            "title": "Dynamic Groups",
+            "url": "https://learn.microsoft.com/entra/identity/users/groups-create-rule"
+        },
+        {
+            "title": "Single-Sign-On to other SaaS",
+            "url": "https://learn.microsoft.com/entra/identity/hybrid/connect/how-to-connect-sso"
+        },
+        {
+            "title": "Multi-Factor Auth (MFA)",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/concept-mfa-howitworks"
+        },
+        {
+            "title": "SMS Sign-In",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/howto-authentication-sms-signin"
+        },
+        {
+            "title": "Temporary Access Pass",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/howto-authentication-temporary-access-pass"
+        },
+        {
+            "title": "Basic Security & Usage Reports",
+            "url": "https://learn.microsoft.com/entra/identity/monitoring-health/overview-monitoring-health"
+        },
+        {
+            "title": "Customized Sign-In Page",
+            "url": "https://learn.microsoft.com/entra/fundamentals/how-to-customize-branding"
+        },
+        {
+            "title": "Self-Service Activity Reports",
+            "url": "https://support.microsoft.com/account-billing/9e7d108c-8e3f-42aa-ac3a-bca892898972"
+        },
+        {
+            "title": "Service Level Agreement",
+            "url": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services"
+        },
+        {
+            "title": "Custom Security Attributes",
+            "url": "https://learn.microsoft.com/entra/fundamentals/custom-security-attributes-overview"
+        },
+        {
+            "title": "Passwordless Authentication",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/concept-authentication-passkeys-fido2"
+        },
+        {
+            "title": "Verified ID",
+            "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-verified-id"
+        },
+        {
+            "title": "Windows Autopilot",
+            "url": "https://learn.microsoft.com/autopilot/overview"
+        },
+        {
+            "title": "Tenant Restrictions",
+            "url": "https://learn.microsoft.com/entra/external-id/tenant-restrictions-v2"
+        },
+        {
+            "title": "Entra Internet Access for Microsoft",
+            "url": "https://learn.microsoft.com/entra/global-secure-access/overview-what-is-global-secure-access#microsoft-entra-internet-access-for-microsoft-services"
+        }
+    ],
+    "Entra_ID_Paid": [
+        {
+            "title": "Entra ID Plan 2",
+            "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+        },
+        {
+            "title": "Access Reviews",
+            "url": "https://learn.microsoft.com/entra/id-governance/access-reviews-overview"
+        },
+        {
+            "title": "Entra ID Protection",
+            "url": "https://learn.microsoft.com/entra/id-protection/overview-identity-protection"
+        },
+        {
+            "title": "Entitlement Management (basic)",
+            "url": "https://learn.microsoft.com/entra/id-governance/entitlement-management-overview"
+        },
+        {
+            "title": "Risk-Based Conditional Access",
+            "url": "https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-conditions#sign-in-risk"
+        },
+        {
+            "title": "Privileged Identity Management",
+            "url": "https://learn.microsoft.com/entra/id-governance/privileged-identity-management/pim-configure"
+        },
+        {
+            "title": "MFA Registration Policy",
+            "url": "https://learn.microsoft.com/entra/id-protection/howto-identity-protection-configure-mfa-policy"
+        },
+        {
+            "title": "Advanced Security Reports & Alerts",
+            "url": "https://learn.microsoft.com/entra/identity/monitoring-health/"
+        },
+        {
+            "title": "Single-Sign-On to other SaaS",
+            "url": "https://learn.microsoft.com/entra/identity/hybrid/connect/how-to-connect-sso"
+        },
+        {
+            "title": "App Proxy, including PingAccess",
+            "url": "https://learn.microsoft.com/entra/identity/app-proxy/"
+        },
+        {
+            "title": "Multi-Factor Auth (MFA)",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/concept-mfa-howitworks"
+        },
+        {
+            "title": "Entra ID Connect Health",
+            "url": "https://learn.microsoft.com/entra/identity/hybrid/connect/whatis-azure-ad-connect#what-is-azure-ad-connect-health"
+        },
+        {
+            "title": "Cloud App Discovery",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/set-up-cloud-discovery"
+        },
+        {
+            "title": "Shared Account Password Roll-Over",
+            "url": "https://learn.microsoft.com/entra/identity/users/users-sharing-accounts"
+        },
+        {
+            "title": "Self-Service Password Reset in AD",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/concept-sspr-howitworks"
+        },
+        {
+            "title": "Self-Service Group Management",
+            "url": "https://learn.microsoft.com/entra/identity/users/groups-self-service-management"
+        },
+        {
+            "title": "Conditional Access",
+            "url": "https://learn.microsoft.com/entra/identity/conditional-access/overview"
+        },
+        {
+            "title": "External ID",
+            "url": "https://learn.microsoft.com/entra/external-id/"
+        },
+        {
+            "title": "Enterprise State Roaming",
+            "url": "https://learn.microsoft.com/entra/identity/devices/enterprise-state-roaming-enable"
+        },
+        {
+            "title": "Terms of Use",
+            "url": "https://learn.microsoft.com/entra/identity/conditional-access/terms-of-use"
+        },
+        {
+            "title": "Password Protection",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/concept-password-ban-bad"
+        },
+        {
+            "title": "Microsoft Identity Manager",
+            "url": "https://learn.microsoft.com/microsoft-identity-manager/"
+        },
+        {
+            "title": "3rd Party MFA Integration",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-external-method-manage"
+        },
+        {
+            "title": "Administrative Units",
+            "url": "https://learn.microsoft.com/entra/identity/role-based-access-control/administrative-units"
+        },
+        {
+            "title": "Dynamic Groups",
+            "url": "https://learn.microsoft.com/entra/identity/users/groups-create-rule"
+        },
+        {
+            "title": "SMS Sign-In",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/howto-authentication-sms-signin"
+        },
+        {
+            "title": "Temporary Access Pass",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/howto-authentication-temporary-access-pass"
+        },
+        {
+            "title": "Customized Sign-In Page",
+            "url": "https://learn.microsoft.com/entra/fundamentals/how-to-customize-branding"
+        },
+        {
+            "title": "Self-Service Activity Reports",
+            "url": "https://support.microsoft.com/account-billing/9e7d108c-8e3f-42aa-ac3a-bca892898972"
+        },
+        {
+            "title": "Service Level Agreement",
+            "url": "https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services"
+        },
+        {
+            "title": "Custom Security Attributes",
+            "url": "https://learn.microsoft.com/entra/fundamentals/custom-security-attributes-overview"
+        },
+        {
+            "title": "Passwordless Authentication",
+            "url": "https://learn.microsoft.com/entra/identity/authentication/concept-authentication-passkeys-fido2"
+        },
+        {
+            "title": "Verified ID",
+            "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-verified-id"
+        },
+        {
+            "title": "Windows Autopilot",
+            "url": "https://learn.microsoft.com/autopilot/overview"
+        },
+        {
+            "title": "Tenant Restrictions",
+            "url": "https://learn.microsoft.com/entra/external-id/tenant-restrictions-v2"
+        },
+        {
+            "title": "Entra Internet Access for Microsoft",
+            "url": "https://learn.microsoft.com/entra/global-secure-access/overview-what-is-global-secure-access#microsoft-entra-internet-access-for-microsoft-services"
+        }
+    ],
+    "Entra_ID_Governance": [
+        {
+            "title": "Entra ID Plan 2 features",
+            "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+        },
+        {
+            "title": "Entra ID Governance add-on to Entra ID Plan 1",
+            "url": "https://learn.microsoft.com/entra/id-governance/"
+        },
+        {
+            "title": "Entitlement Management (premium)",
+            "url": "https://learn.microsoft.com/entra/id-governance/licensing-fundamentals#features-by-license"
+        },
+        {
+            "title": "ML Assisted Access Reviews",
+            "url": "https://learn.microsoft.com/entra/id-governance/review-recommendations-access-reviews#user-to-group-affiliation"
+        },
+        {
+            "title": "Identity Governance Dashboard",
+            "url": "https://learn.microsoft.com/entra/id-governance/governance-dashboard"
+        },
+        {
+            "title": "Access Reviews",
+            "url": "https://learn.microsoft.com/entra/id-governance/access-reviews-overview"
+        },
+        {
+            "title": "Entitlement Management (basic)",
+            "url": "https://learn.microsoft.com/entra/id-governance/entitlement-management-overview"
+        },
+        {
+            "title": "Privileged Identity Management",
+            "url": "https://learn.microsoft.com/entra/id-governance/privileged-identity-management/pim-configure"
+        },
+        {
+            "title": "Lifecycle Workflows",
+            "url": "https://learn.microsoft.com/entra/id-governance/lifecycle-workflows-deployment"
+        }
+    ],
+    "Entra_Workload_ID": [
+        {
+            "title": "Entra Workload ID Premium",
+            "url": "https://learn.microsoft.com/entra/workload-id/workload-identities-overview"
+        },
+        {
+            "title": "Access Reviews",
+            "url": "https://learn.microsoft.com/entra/id-governance/privileged-identity-management/pim-create-roles-and-resource-roles-review"
+        },
+        {
+            "title": "Entra ID Protection",
+            "url": "https://learn.microsoft.com/entra/id-protection/concept-workload-identity-risk"
+        },
+        {
+            "title": "Identity Federation",
+            "url": "https://learn.microsoft.com/entra/workload-id/workload-identity-federation"
+        },
+        {
+            "title": "Risk-Based Conditional Access",
+            "url": "https://learn.microsoft.com/entra/identity/conditional-access/concept-conditional-access-conditions#sign-in-risk"
+        },
+        {
+            "title": "Basic Security & Usage Reports",
+            "url": "https://learn.microsoft.com/entra/workload-id/workload-identities-faqs#what-features-are-included-in-workload-identities-premium-plan-and-which-features-are-free"
+        }
+    ],
+    "Entra_Suite": [
+        {
+            "title": "Entra Suite add-on to Entra ID Plan 1",
+            "url": "https://learn.microsoft.com/entra/fundamentals/licensing"
+        },
+        {
+            "title": "Entra Verified ID Premium",
+            "url": "https://learn.microsoft.com/entra/fundamentals/licensing#microsoft-entra-verified-id"
+        },
+        {
+            "title": "Entra ID Governance",
+            "url": "https://learn.microsoft.com/entra/id-governance/"
+        },
+        {
+            "title": "Entra Internet Access",
+            "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-internet-access"
+        },
+        {
+            "title": "Entra Private Access",
+            "url": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-private-access"
+        },
+        {
+            "title": "Entra ID Plan 2 features",
+            "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+        },
+        {
+            "title": "Face Check",
+            "url": "https://learn.microsoft.com/entra/verified-id/using-facecheck"
+        },
+        {
+            "title": "Entra ID Protection",
+            "url": "https://learn.microsoft.com/entra/id-protection/overview-identity-protection"
+        }
+    ]
+}

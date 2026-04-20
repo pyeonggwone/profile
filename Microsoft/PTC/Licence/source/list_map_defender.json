@@ -1,0 +1,500 @@
+{
+    "Defender_for_Business": [
+        {
+            "title": "Attack Surface Reduction (enhanced)",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-attack-surface-reduction"
+        },
+        {
+            "title": "Cross-Platform Support",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-defender-endpoint"
+        },
+        {
+            "title": "Defender for Business",
+            "url": "https://learn.microsoft.com/defender-business/"
+        },
+        {
+            "title": "Tamper Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection"
+        },
+        {
+            "title": "Block at First Sight",
+            "url": "https://learn.microsoft.com/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus"
+        },
+        {
+            "title": "Web Content Filtering",
+            "url": "https://learn.microsoft.com/defender-endpoint/web-content-filtering"
+        },
+        {
+            "title": "Endpoint Detection & Response",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-endpoint-detection-response"
+        },
+        {
+            "title": "Threat Analytics",
+            "url": "https://learn.microsoft.com/defender-xdr/threat-analytics"
+        },
+        {
+            "title": "Mobile Threat Defence",
+            "url": "https://learn.microsoft.com/defender-endpoint/mtd"
+        },
+        {
+            "title": "Next Gen Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/next-generation-protection"
+        },
+        {
+            "title": "Automated Investigations",
+            "url": "https://learn.microsoft.com/defender-endpoint/automated-investigations"
+        },
+        {
+            "title": "Defender Vulnerability Management (core)",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/defender-vulnerability-management-capabilities"
+        },
+        {
+            "title": "Centralized Management",
+            "url": "https://learn.microsoft.com/defender-endpoint/defender-endpoint-plan-1#centralized-management"
+        }
+    ],
+    "Defender_for_Cloud_Apps": [
+        {
+            "title": "Entra ID Plan 1",
+            "url": "https://www.microsoft.com/security/business/microsoft-entra-pricing"
+        },
+        {
+            "title": "Defender for Cloud Apps",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/concept-cloud-security-posture-management"
+        },
+        {
+            "title": "Office 365 E5",
+            "url": "https://www.microsoft.com/microsoft-365/enterprise/office365-plans-and-pricing"
+        },
+        {
+            "title": "Cloud App Discovery",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/set-up-cloud-discovery"
+        },
+        {
+            "title": "Cloud App Policies",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/control-cloud-apps-with-policies"
+        },
+        {
+            "title": "Conditional Access App Control",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/proxy-intro-aad"
+        },
+        {
+            "title": "Information Protection Policies",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/tutorial-dlp"
+        },
+        {
+            "title": "Office 365 Cloud App Security",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/editions-cloud-app-security-o365"
+        },
+        {
+            "title": "Posture Management (SSPM)",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/posture-overview"
+        },
+        {
+            "title": "User & Entity Behavioural Analytics",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/tutorial-suspicious-activity"
+        },
+        {
+            "title": "Microsoft 365 App Governance",
+            "url": "https://learn.microsoft.com/defender-cloud-apps/app-governance-manage-app-governance"
+        }
+    ],
+    "Defender_for_Endpoint": [
+        {
+            "title": "Defender for Endpoint Plan 2",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-defender-endpoint"
+        },
+        {
+            "title": "Defender for Endpoint Plan 1",
+            "url": "https://learn.microsoft.com/defender-endpoint/defender-endpoint-plan-1"
+        },
+        {
+            "title": "Attack Surface Reduction (enhanced)",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-attack-surface-reduction"
+        },
+        {
+            "title": "Tamper Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection"
+        },
+        {
+            "title": "Block at First Sight",
+            "url": "https://learn.microsoft.com/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus"
+        },
+        {
+            "title": "Web Content Filtering",
+            "url": "https://learn.microsoft.com/defender-endpoint/web-content-filtering"
+        },
+        {
+            "title": "Centralized Management",
+            "url": "https://learn.microsoft.com/defender-endpoint/defender-endpoint-plan-1#centralized-management"
+        },
+        {
+            "title": "Manual Response Actions",
+            "url": "https://learn.microsoft.com/defender-endpoint/defender-endpoint-plan-1#manual-response-actions"
+        },
+        {
+            "title": "Advanced Hunting",
+            "url": "https://learn.microsoft.com/defender-xdr/advanced-hunting-overview"
+        },
+        {
+            "title": "Endpoint Detection & Response",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-endpoint-detection-response"
+        },
+        {
+            "title": "Endpoint Attack Notifications (suspended)",
+            "url": "https://learn.microsoft.com/defender-endpoint/endpoint-attack-notifications"
+        },
+        {
+            "title": "Evaluation Lab",
+            "url": "https://learn.microsoft.com/defender-endpoint/evaluate-microsoft-defender-antivirus"
+        },
+        {
+            "title": "Threat Analytics",
+            "url": "https://learn.microsoft.com/defender-xdr/threat-analytics"
+        },
+        {
+            "title": "6-Months Searchable Data",
+            "url": "https://learn.microsoft.com/defender-endpoint/data-storage-privacy#how-long-will-microsoft-store-my-data-what-is-microsofts-data-retention-policy"
+        },
+        {
+            "title": "Defender for Cloud Apps Integration",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-cloud-app-security-integration"
+        },
+        {
+            "title": "Mobile Threat Defence",
+            "url": "https://learn.microsoft.com/defender-endpoint/mtd"
+        },
+        {
+            "title": "Next Gen Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/next-generation-protection"
+        },
+        {
+            "title": "Automated Investigations",
+            "url": "https://learn.microsoft.com/defender-endpoint/automated-investigations"
+        },
+        {
+            "title": "Defender Vulnerability Management (core)",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/defender-vulnerability-management-capabilities"
+        }
+    ],
+    "Defender_for_Office_365": [
+        {
+            "title": "Defender for Office 365 Plan 2",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans"
+        },
+        {
+            "title": "Threat Trackers",
+            "url": "https://learn.microsoft.com/defender-office-365/threat-trackers"
+        },
+        {
+            "title": "Attack Simulation Training",
+            "url": "https://learn.microsoft.com/defender-office-365/attack-simulation-training-get-started"
+        },
+        {
+            "title": "Threat Explorer",
+            "url": "https://learn.microsoft.com/defender-office-365/threat-explorer-real-time-detections-about"
+        },
+        {
+            "title": "Automated Investigation & Response",
+            "url": "https://learn.microsoft.com/defender-office-365/air-examples"
+        },
+        {
+            "title": "Compromised User Detection",
+            "url": "https://learn.microsoft.com/defender-office-365/address-compromised-users-quickly"
+        },
+        {
+            "title": "Campaign Views",
+            "url": "https://learn.microsoft.com/defender-office-365/campaigns"
+        },
+        {
+            "title": "Safe Links",
+            "url": "https://learn.microsoft.com/defender-office-365/safe-links-about"
+        },
+        {
+            "title": "Safe Attachments",
+            "url": "https://learn.microsoft.com/defender-office-365/safe-attachments-about"
+        },
+        {
+            "title": "Advanced Anti-Phishing",
+            "url": "https://learn.microsoft.com/defender-office-365/anti-phishing-policies-about"
+        },
+        {
+            "title": "Real-Time Reports",
+            "url": "https://learn.microsoft.com/defender-office-365/reports-defender-for-office-365"
+        },
+        {
+            "title": "Exchange Online Protection",
+            "url": "https://learn.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description"
+        },
+        {
+            "title": "Teams Message Quarantine",
+            "url": "https://learn.microsoft.com/defender-office-365/quarantine-admin-manage-messages-files#use-the-microsoft-defender-portal-to-manage-microsoft-teams-quarantined-messages"
+        },
+        {
+            "title": "Teams Message Entity Panel",
+            "url": "https://learn.microsoft.com/defender-office-365/teams-message-entity-panel"
+        }
+    ],
+    "Defender_for_Servers": [
+        {
+            "title": "Defender for Servers Plan 2",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/plan-defender-for-servers-select-plan"
+        },
+        {
+            "title": "Core Vulnerability Management for Servers",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/defender-vulnerability-management-capabilities#vulnerability-management-capabilities-for-servers"
+        },
+        {
+            "title": "Configuration Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-microsoft-secure-score-devices"
+        },
+        {
+            "title": "Risk Based Prioritization",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-security-recommendation"
+        },
+        {
+            "title": "Remediation Tracking",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-remediation"
+        },
+        {
+            "title": "Continuous Monitoring",
+            "url": "https://learn.microsoft.com/defender-endpoint/configure-vulnerability-email-notifications"
+        },
+        {
+            "title": "Software Inventory",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-software-inventory"
+        },
+        {
+            "title": "Vulnerability Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-weaknesses"
+        },
+        {
+            "title": "Software Usage Insights",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-usage-insights"
+        },
+        {
+            "title": "Security Baselines Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-security-baselines"
+        },
+        {
+            "title": "Digital Certificate Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-certificate-inventory"
+        },
+        {
+            "title": "Network Share Analysis",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-network-share-assessment"
+        },
+        {
+            "title": "Authenticated Scan For Windows",
+            "url": "https://learn.microsoft.com/defender-endpoint/network-devices"
+        },
+        {
+            "title": "Hardware & Firmware Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-hardware-and-firmware"
+        },
+        {
+            "title": "Qualys Vulnerability Assessment (deprecated)",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/deploy-vulnerability-assessment-vm"
+        },
+        {
+            "title": "Free Data Ingestion (500 MB)",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/data-ingestion-benefit"
+        },
+        {
+            "title": "Just-In-Time VM Access",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/just-in-time-access-overview"
+        },
+        {
+            "title": "File Integrity Monitoring",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/file-integrity-monitoring-overview"
+        },
+        {
+            "title": "Docker Host Hardening",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/harden-docker-hosts"
+        },
+        {
+            "title": "Network Map",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/protect-network-resources"
+        },
+        {
+            "title": "Agentless Scanning",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/concept-agentless-data-collection"
+        },
+        {
+            "title": "Additional OS-Level Threat Detections",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/alerts-reference#alerts-windows"
+        },
+        {
+            "title": "Defender for Endpoint Integration",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-cloud-app-security-integration"
+        },
+        {
+            "title": "Attack Surface Reduction (enhanced)",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-attack-surface-reduction"
+        },
+        {
+            "title": "Tamper Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection"
+        },
+        {
+            "title": "Block at First Sight",
+            "url": "https://learn.microsoft.com/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus"
+        },
+        {
+            "title": "Endpoint Detection & Response",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-endpoint-detection-response"
+        },
+        {
+            "title": "Threat Analytics",
+            "url": "https://learn.microsoft.com/defender-xdr/threat-analytics"
+        },
+        {
+            "title": "Defender for Endpoint Plan 2 Features",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/defender-vulnerability-management-capabilities"
+        },
+        {
+            "title": "Endpoint Attack Notifications (suspended)",
+            "url": "https://learn.microsoft.com/defender-endpoint/endpoint-attack-notifications"
+        },
+        {
+            "title": "Advanced Hunting",
+            "url": "https://learn.microsoft.com/defender-xdr/advanced-hunting-overview"
+        },
+        {
+            "title": "Custom Security Policies",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/create-custom-recommendations"
+        },
+        {
+            "title": "Web Content Filtering",
+            "url": "https://learn.microsoft.com/defender-endpoint/web-content-filtering"
+        },
+        {
+            "title": "Next Gen Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/next-generation-protection"
+        },
+        {
+            "title": "Automated Investigations",
+            "url": "https://learn.microsoft.com/defender-endpoint/automated-investigations"
+        },
+        {
+            "title": "Browser Extensions Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-browser-extensions"
+        },
+        {
+            "title": "Kubernetes Node Protection",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/kubernetes-nodes-overview"
+        },
+        {
+            "title": "Azure Update Manager",
+            "url": "https://learn.microsoft.com/azure/update-manager/overview"
+        }
+    ],
+    "Defender_CSPM": [
+        {
+            "title": "Defender CSPM",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/concept-cloud-security-posture-management"
+        },
+        {
+            "title": "Attack Path Analysis",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/how-to-manage-attack-path"
+        },
+        {
+            "title": "Regulatory Compliance",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/assign-regulatory-compliance-standards"
+        },
+        {
+            "title": "Security Recs",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/review-security-recommendations"
+        },
+        {
+            "title": "Cloud Security Explorer",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/how-to-manage-cloud-security-explorer"
+        },
+        {
+            "title": "Continuous Assesment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-microsoft-secure-score-devices"
+        },
+        {
+            "title": "Cloud Secure Score",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/secure-score-security-controls"
+        },
+        {
+            "title": "Cloud Security Benchmark",
+            "url": "https://learn.microsoft.com/defender-endpoint/configure-vulnerability-email-notifications"
+        },
+        {
+            "title": "Agentless Scanning",
+            "url": "https://learn.microsoft.com/azure/defender-for-cloud/concept-agentless-data-collection"
+        }
+    ],
+    "Defender_Vulnerability_Management": [
+        {
+            "title": "Defender Vulnerability Management (premium)",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/defender-vulnerability-management-capabilities"
+        },
+        {
+            "title": "Block Vulnerable Applications",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-block-vuln-apps"
+        },
+        {
+            "title": "Security Baselines Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-security-baselines"
+        },
+        {
+            "title": "Digital Certificate Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-certificate-inventory"
+        },
+        {
+            "title": "Network Share Analysis",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-network-share-assessment"
+        },
+        {
+            "title": "Device Discovery",
+            "url": "https://learn.microsoft.com/defender-endpoint/device-discovery"
+        },
+        {
+            "title": "Browser Extensions Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-browser-extensions"
+        },
+        {
+            "title": "Configuration Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-microsoft-secure-score-devices"
+        },
+        {
+            "title": "Risk Based Prioritization",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-security-recommendation"
+        },
+        {
+            "title": "Remediation Tracking",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-remediation"
+        },
+        {
+            "title": "Device Inventory",
+            "url": "https://learn.microsoft.com/defender-endpoint/machines-view-overview"
+        },
+        {
+            "title": "Continuous Monitoring",
+            "url": "https://learn.microsoft.com/defender-endpoint/configure-vulnerability-email-notifications"
+        },
+        {
+            "title": "Software Inventory",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-software-inventory"
+        },
+        {
+            "title": "Vulnerability Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-weaknesses"
+        },
+        {
+            "title": "Software Usage Insights",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-usage-insights"
+        },
+        {
+            "title": "Authenticated Scan For Windows",
+            "url": "https://learn.microsoft.com/defender-endpoint/network-devices"
+        },
+        {
+            "title": "Hardware & Firmware Assessment",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/tvm-hardware-and-firmware"
+        }
+    ]
+}

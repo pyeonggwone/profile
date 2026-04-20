@@ -1,0 +1,614 @@
+{
+    "Windows_Enterprise": [
+        {
+            "title": "Windows Enterprise E3",
+            "url": "https://www.microsoft.com/microsoft-365/windows/windows-11-enterprise"
+        },
+        {
+            "title": "Defender for Endpoint Plan 2",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-defender-endpoint"
+        },
+        {
+            "title": "Attack Surface Reduction (enhanced)",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-attack-surface-reduction"
+        },
+        {
+            "title": "Tamper Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection"
+        },
+        {
+            "title": "Block at First Sight",
+            "url": "https://learn.microsoft.com/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus"
+        },
+        {
+            "title": "Web Content Filtering",
+            "url": "https://learn.microsoft.com/defender-endpoint/web-content-filtering"
+        },
+        {
+            "title": "Centralized Management",
+            "url": "https://learn.microsoft.com/defender-endpoint/defender-endpoint-plan-1#centralized-management"
+        },
+        {
+            "title": "Manual Response Actions",
+            "url": "https://learn.microsoft.com/defender-endpoint/defender-endpoint-plan-1#manual-response-actions"
+        },
+        {
+            "title": "Advanced Hunting",
+            "url": "https://learn.microsoft.com/defender-xdr/advanced-hunting-overview"
+        },
+        {
+            "title": "Endpoint Detection & Response",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-endpoint-detection-response"
+        },
+        {
+            "title": "Endpoint Attack Notifications (suspended)",
+            "url": "https://learn.microsoft.com/defender-endpoint/endpoint-attack-notifications"
+        },
+        {
+            "title": "Evaluation Lab",
+            "url": "https://learn.microsoft.com/defender-endpoint/evaluate-microsoft-defender-antivirus"
+        },
+        {
+            "title": "Defender Vulnerability Management (core)",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/defender-vulnerability-management-capabilities"
+        },
+        {
+            "title": "Threat Analytics",
+            "url": "https://learn.microsoft.com/defender-xdr/threat-analytics"
+        },
+        {
+            "title": "6-Months Searchable Data",
+            "url": "https://learn.microsoft.com/defender-endpoint/data-storage-privacy#how-long-will-microsoft-store-my-data-what-is-microsofts-data-retention-policy"
+        },
+        {
+            "title": "Defender for Cloud Apps Integration",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-cloud-app-security-integration"
+        },
+        {
+            "title": "Attack Surface Reduction",
+            "url": "https://learn.microsoft.com/defender-endpoint/attack-surface-reduction"
+        },
+        {
+            "title": "Windows Conditional Access",
+            "url": "https://learn.microsoft.com/windows-server/identity/ad-fs/operations/configure-device-based-conditional-access-on-premises"
+        },
+        {
+            "title": "Windows Update for Business",
+            "url": "https://learn.microsoft.com/windows/deployment/update/waas-manage-updates-wufb"
+        },
+        {
+            "title": "Windows Hello for Business",
+            "url": "https://learn.microsoft.com/windows/security/identity-protection/hello-for-business/deploy/"
+        },
+        {
+            "title": "Domain Join",
+            "url": "https://support.microsoft.com/account-billing/ef4d6adb-5095-4e51-829e-5457430f3973"
+        },
+        {
+            "title": "Defender Antivirus",
+            "url": "https://www.microsoft.com/windows/comprehensive-security"
+        },
+        {
+            "title": "AppLocker",
+            "url": "https://learn.microsoft.com/windows/security/application-security/application-control/app-control-for-business/applocker/applocker-overview"
+        },
+        {
+            "title": "Windows Virtualization Rights",
+            "url": "https://learn.microsoft.com/windows/deployment/vda-subscription-activation"
+        },
+        {
+            "title": "DirectAccess (deprecated)",
+            "url": "https://learn.microsoft.com/windows-server/remote/remote-access/directaccess/directaccess"
+        },
+        {
+            "title": "BranchCache",
+            "url": "https://learn.microsoft.com/windows-server/networking/branchcache/branchcache"
+        },
+        {
+            "title": "MDOP (retiring)",
+            "url": "https://learn.microsoft.com/microsoft-desktop-optimization-pack/"
+        },
+        {
+            "title": "Credential Guard",
+            "url": "https://learn.microsoft.com/windows/security/identity-protection/credential-guard/"
+        },
+        {
+            "title": "Long Term Servicing Channel",
+            "url": "https://learn.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel"
+        },
+        {
+            "title": "Always On VPN",
+            "url": "https://learn.microsoft.com/Windows-server/remote/remote-access/overview-always-on-vpn"
+        },
+        {
+            "title": "Universal Print",
+            "url": "https://learn.microsoft.com/universal-print/"
+        },
+        {
+            "title": "App Assure",
+            "url": "https://learn.microsoft.com/microsoft-365/fasttrack/windows-365-and-app-assure#app-assure"
+        },
+        {
+            "title": "BitLocker",
+            "url": "https://learn.microsoft.com/windows/security/operating-system-security/data-protection/bitlocker/"
+        },
+        {
+            "title": "Windows Firewall",
+            "url": "https://learn.microsoft.com/windows/security/operating-system-security/network-security/windows-firewall/"
+        },
+        {
+            "title": "Application Control",
+            "url": "https://learn.microsoft.com/windows/security/application-security/application-control/app-control-for-business/appcontrol"
+        },
+        {
+            "title": "Resilient File System (ReFS)",
+            "url": "https://learn.microsoft.com/windows-server/storage/refs/refs-overview"
+        },
+        {
+            "title": "SMB Direct",
+            "url": "https://learn.microsoft.com/windows-server/storage/file-server/smb-direct"
+        },
+        {
+            "title": "Unified Write Filter",
+            "url": "https://learn.microsoft.com/windows/configuration/unified-write-filter/"
+        },
+        {
+            "title": "Persistent Memory",
+            "url": "https://learn.microsoft.com/windows-server/storage/storage-spaces/deploy-persistent-memory"
+        },
+        {
+            "title": "Manage by MDM",
+            "url": "https://learn.microsoft.com/windows/client-management/mdm-overview"
+        },
+        {
+            "title": "Power Automate Attended Desktop Flows",
+            "url": "https://go.microsoft.com/fwlink/?linkid=2085130"
+        },
+        {
+            "title": "Windows Autopatch",
+            "url": "https://learn.microsoft.com/windows/deployment/windows-autopatch/overview/windows-autopatch-overview"
+        },
+        {
+            "title": "Edge for Business",
+            "url": "https://www.microsoft.com/edge/business"
+        },
+        {
+            "title": "Custom Logon",
+            "url": "https://learn.microsoft.com/windows/configuration/custom-logon/"
+        },
+        {
+            "title": "Keyboard Filter",
+            "url": "https://learn.microsoft.com/windows/configuration/keyboard-filter/"
+        },
+        {
+            "title": "Custom Shell",
+            "url": "https://learn.microsoft.com/windows/configuration/shell-launcher/"
+        },
+        {
+            "title": "Unbranded Boot",
+            "url": "https://learn.microsoft.com/windows/configuration/unbranded-boot/"
+        },
+        {
+            "title": "36 months support for Windows 11",
+            "url": "https://learn.microsoft.com/windows/whats-new/windows-11-plan#servicing-and-support"
+        },
+        {
+            "title": "Assigned Access",
+            "url": "https://learn.microsoft.com/windows/configuration/assigned-access/"
+        },
+        {
+            "title": "Entra ID Join",
+            "url": "https://learn.microsoft.com/entra/identity/devices/concept-directory-join"
+        },
+        {
+            "title": "BitLocker to Go",
+            "url": "https://learn.microsoft.com/windows/security/operating-system-security/data-protection/bitlocker/faq"
+        },
+        {
+            "title": "Mobile Threat Defence",
+            "url": "https://learn.microsoft.com/defender-endpoint/mtd"
+        },
+        {
+            "title": "Next Gen Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/next-generation-protection"
+        },
+        {
+            "title": "Automated Investigations",
+            "url": "https://learn.microsoft.com/defender-endpoint/automated-investigations"
+        },
+        {
+            "title": "LAPS",
+            "url": "https://techcommunity.microsoft.com/blog/windows-itpro-blog/by-popular-demand-windows-laps-available-now/3788747"
+        },
+        {
+            "title": "Copilot in Windows",
+            "url": "https://support.microsoft.com/windows/675708af-8c16-4675-afeb-85a5a476ccb0"
+        }
+    ],
+    "Windows_Pro": [
+        {
+            "title": "Windows Pro",
+            "url": "https://www.microsoft.com/windows/business/windows-11-pro"
+        },
+        {
+            "title": "Manage by MDM",
+            "url": "https://learn.microsoft.com/windows/client-management/mdm-overview"
+        },
+        {
+            "title": "Windows Conditional Access",
+            "url": "https://learn.microsoft.com/windows-server/identity/ad-fs/operations/configure-device-based-conditional-access-on-premises"
+        },
+        {
+            "title": "Windows Update for Business",
+            "url": "https://learn.microsoft.com/windows/deployment/update/waas-manage-updates-wufb"
+        },
+        {
+            "title": "Windows Hello for Business",
+            "url": "https://learn.microsoft.com/windows/security/identity-protection/hello-for-business/deploy/"
+        },
+        {
+            "title": "Edge for Business",
+            "url": "https://www.microsoft.com/edge/business"
+        },
+        {
+            "title": "Defender Antivirus",
+            "url": "https://www.microsoft.com/windows/comprehensive-security"
+        },
+        {
+            "title": "Windows Firewall",
+            "url": "https://learn.microsoft.com/windows/security/operating-system-security/network-security/windows-firewall/"
+        },
+        {
+            "title": "Application Control",
+            "url": "https://learn.microsoft.com/windows/security/application-security/application-control/app-control-for-business/appcontrol"
+        },
+        {
+            "title": "Power Automate Attended Desktop Flows",
+            "url": "https://go.microsoft.com/fwlink/?linkid=2085130"
+        },
+        {
+            "title": "Unbranded Boot",
+            "url": "https://learn.microsoft.com/windows/configuration/unbranded-boot/"
+        },
+        {
+            "title": "24 months support for Windows 11",
+            "url": "https://learn.microsoft.com/windows/whats-new/windows-11-plan#servicing-and-support"
+        },
+        {
+            "title": "AppLocker",
+            "url": "https://learn.microsoft.com/windows/security/application-security/application-control/app-control-for-business/applocker/applocker-overview"
+        },
+        {
+            "title": "Assigned Access",
+            "url": "https://learn.microsoft.com/windows/configuration/assigned-access/"
+        },
+        {
+            "title": "Domain Join",
+            "url": "https://support.microsoft.com/account-billing/ef4d6adb-5095-4e51-829e-5457430f3973"
+        },
+        {
+            "title": "BitLocker",
+            "url": "https://learn.microsoft.com/windows/security/operating-system-security/data-protection/bitlocker/"
+        },
+        {
+            "title": "Entra ID Join",
+            "url": "https://learn.microsoft.com/entra/identity/devices/concept-directory-join"
+        },
+        {
+            "title": "BitLocker to Go",
+            "url": "https://learn.microsoft.com/windows/security/operating-system-security/data-protection/bitlocker/faq"
+        },
+        {
+            "title": "LAPS",
+            "url": "https://techcommunity.microsoft.com/blog/windows-itpro-blog/by-popular-demand-windows-laps-available-now/3788747"
+        },
+        {
+            "title": "Copilot in Windows",
+            "url": "https://support.microsoft.com/windows/675708af-8c16-4675-afeb-85a5a476ccb0"
+        }
+    ],
+    "Windows_Volume_Licensing": [
+        {
+            "title": "Windows Enterprise E3",
+            "url": "https://www.microsoft.com/microsoft-365/windows/windows-11-enterprise"
+        },
+        {
+            "title": "Windows Pro",
+            "url": "https://www.microsoft.com/windows/business/windows-11-pro"
+        },
+        {
+            "title": "Defender for Endpoint Plan 2",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-defender-endpoint"
+        },
+        {
+            "title": "Attack Surface Reduction (enhanced)",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-attack-surface-reduction"
+        },
+        {
+            "title": "Tamper Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/prevent-changes-to-security-settings-with-tamper-protection"
+        },
+        {
+            "title": "Block at First Sight",
+            "url": "https://learn.microsoft.com/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus"
+        },
+        {
+            "title": "Web Content Filtering",
+            "url": "https://learn.microsoft.com/defender-endpoint/web-content-filtering"
+        },
+        {
+            "title": "Centralized Management",
+            "url": "https://learn.microsoft.com/defender-endpoint/defender-endpoint-plan-1#centralized-management"
+        },
+        {
+            "title": "Manual Response Actions",
+            "url": "https://learn.microsoft.com/defender-endpoint/defender-endpoint-plan-1#manual-response-actions"
+        },
+        {
+            "title": "Advanced Hunting",
+            "url": "https://learn.microsoft.com/defender-xdr/advanced-hunting-overview"
+        },
+        {
+            "title": "Endpoint Detection & Response",
+            "url": "https://learn.microsoft.com/defender-endpoint/overview-endpoint-detection-response"
+        },
+        {
+            "title": "Endpoint Attack Notifications (suspended)",
+            "url": "https://learn.microsoft.com/defender-endpoint/endpoint-attack-notifications"
+        },
+        {
+            "title": "Evaluation Lab",
+            "url": "https://learn.microsoft.com/defender-endpoint/evaluate-microsoft-defender-antivirus"
+        },
+        {
+            "title": "Threat Analytics",
+            "url": "https://learn.microsoft.com/defender-xdr/threat-analytics"
+        },
+        {
+            "title": "6-Months Searchable Data",
+            "url": "https://learn.microsoft.com/defender-endpoint/data-storage-privacy#how-long-will-microsoft-store-my-data-what-is-microsofts-data-retention-policy"
+        },
+        {
+            "title": "Defender for Cloud Apps Integration",
+            "url": "https://learn.microsoft.com/defender-endpoint/microsoft-cloud-app-security-integration"
+        },
+        {
+            "title": "AppLocker",
+            "url": "https://learn.microsoft.com/windows/security/application-security/application-control/app-control-for-business/applocker/applocker-overview"
+        },
+        {
+            "title": "Windows Virtualization Rights",
+            "url": "https://learn.microsoft.com/windows/deployment/vda-subscription-activation"
+        },
+        {
+            "title": "DirectAccess (deprecated)",
+            "url": "https://learn.microsoft.com/windows-server/remote/remote-access/directaccess/directaccess"
+        },
+        {
+            "title": "BranchCache",
+            "url": "https://learn.microsoft.com/windows-server/networking/branchcache/branchcache"
+        },
+        {
+            "title": "MDOP (retiring)",
+            "url": "https://learn.microsoft.com/microsoft-desktop-optimization-pack/"
+        },
+        {
+            "title": "Credential Guard",
+            "url": "https://learn.microsoft.com/windows/security/identity-protection/credential-guard/"
+        },
+        {
+            "title": "Long Term Servicing Channel",
+            "url": "https://learn.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel"
+        },
+        {
+            "title": "Always On VPN",
+            "url": "https://learn.microsoft.com/Windows-server/remote/remote-access/overview-always-on-vpn"
+        },
+        {
+            "title": "Universal Print",
+            "url": "https://learn.microsoft.com/universal-print/"
+        },
+        {
+            "title": "App Assure",
+            "url": "https://learn.microsoft.com/microsoft-365/fasttrack/windows-365-and-app-assure#app-assure"
+        },
+        {
+            "title": "Resilient File System (ReFS)",
+            "url": "https://learn.microsoft.com/windows-server/storage/refs/refs-overview"
+        },
+        {
+            "title": "SMB Direct",
+            "url": "https://learn.microsoft.com/windows-server/storage/file-server/smb-direct"
+        },
+        {
+            "title": "Unified Write Filter",
+            "url": "https://learn.microsoft.com/windows/configuration/unified-write-filter/"
+        },
+        {
+            "title": "Persistent Memory",
+            "url": "https://learn.microsoft.com/windows-server/storage/storage-spaces/deploy-persistent-memory"
+        },
+        {
+            "title": "Attack Surface Reduction",
+            "url": "https://learn.microsoft.com/defender-endpoint/attack-surface-reduction"
+        },
+        {
+            "title": "Custom Logon",
+            "url": "https://learn.microsoft.com/windows/configuration/custom-logon/"
+        },
+        {
+            "title": "Custom Shell",
+            "url": "https://learn.microsoft.com/windows/configuration/shell-launcher/"
+        },
+        {
+            "title": "Windows Autopatch",
+            "url": "https://learn.microsoft.com/windows/deployment/windows-autopatch/overview/windows-autopatch-overview"
+        },
+        {
+            "title": "Keyboard Filter",
+            "url": "https://learn.microsoft.com/windows/configuration/keyboard-filter/"
+        },
+        {
+            "title": "36 months support for Windows 11",
+            "url": "https://learn.microsoft.com/windows/whats-new/windows-11-plan#servicing-and-support"
+        },
+        {
+            "title": "Manage by MDM",
+            "url": "https://learn.microsoft.com/windows/client-management/mdm-overview"
+        },
+        {
+            "title": "Windows Conditional Access",
+            "url": "https://learn.microsoft.com/windows-server/identity/ad-fs/operations/configure-device-based-conditional-access-on-premises"
+        },
+        {
+            "title": "Windows Update for Business",
+            "url": "https://learn.microsoft.com/windows/deployment/update/waas-manage-updates-wufb"
+        },
+        {
+            "title": "Windows Hello for Business",
+            "url": "https://learn.microsoft.com/windows/security/identity-protection/hello-for-business/deploy/"
+        },
+        {
+            "title": "Edge for Business",
+            "url": "https://www.microsoft.com/edge/business"
+        },
+        {
+            "title": "Defender Antivirus",
+            "url": "https://www.microsoft.com/windows/comprehensive-security"
+        },
+        {
+            "title": "Windows Firewall",
+            "url": "https://learn.microsoft.com/windows/security/operating-system-security/network-security/windows-firewall/"
+        },
+        {
+            "title": "Application Control",
+            "url": "https://learn.microsoft.com/windows/security/application-security/application-control/app-control-for-business/appcontrol"
+        },
+        {
+            "title": "Power Automate Attended Desktop Flows",
+            "url": "https://go.microsoft.com/fwlink/?linkid=2085130"
+        },
+        {
+            "title": "Unbranded Boot",
+            "url": "https://learn.microsoft.com/windows/configuration/unbranded-boot/"
+        },
+        {
+            "title": "Assigned Access",
+            "url": "https://learn.microsoft.com/windows/configuration/assigned-access/"
+        },
+        {
+            "title": "Domain Join",
+            "url": "https://support.microsoft.com/account-billing/ef4d6adb-5095-4e51-829e-5457430f3973"
+        },
+        {
+            "title": "BitLocker",
+            "url": "https://learn.microsoft.com/windows/security/operating-system-security/data-protection/bitlocker/"
+        },
+        {
+            "title": "Entra ID Join",
+            "url": "https://learn.microsoft.com/entra/identity/devices/concept-directory-join"
+        },
+        {
+            "title": "BitLocker to Go",
+            "url": "https://learn.microsoft.com/windows/security/operating-system-security/data-protection/bitlocker/faq"
+        },
+        {
+            "title": "Mobile Threat Defence",
+            "url": "https://learn.microsoft.com/defender-endpoint/mtd"
+        },
+        {
+            "title": "Next Gen Protection",
+            "url": "https://learn.microsoft.com/defender-endpoint/next-generation-protection"
+        },
+        {
+            "title": "Automated Investigations",
+            "url": "https://learn.microsoft.com/defender-endpoint/automated-investigations"
+        },
+        {
+            "title": "LAPS",
+            "url": "https://techcommunity.microsoft.com/blog/windows-itpro-blog/by-popular-demand-windows-laps-available-now/3788747"
+        },
+        {
+            "title": "Copilot in Windows",
+            "url": "https://support.microsoft.com/windows/675708af-8c16-4675-afeb-85a5a476ccb0"
+        },
+        {
+            "title": "Defender Vulnerability Management (core)",
+            "url": "https://learn.microsoft.com/defender-vulnerability-management/defender-vulnerability-management-capabilities"
+        }
+    ],
+    "Windows_365": [
+        {
+            "title": "Windows 365 Configurations",
+            "url": "https://www.microsoft.com/windows-365/enterprise/all-pricing"
+        },
+        {
+            "title": "Windows 365 Business",
+            "url": "https://www.microsoft.com/windows-365/business"
+        },
+        {
+            "title": "Windows 365 Enterprise and Frontline",
+            "url": "https://www.microsoft.com/windows-365/enterprise"
+        },
+        {
+            "title": "Maximum 300 users",
+            "url": "https://learn.microsoft.com/windows-365/business-enterprise-comparison#purchasing-and-licensing-comparisons"
+        },
+        {
+            "title": "Cloud-only management",
+            "url": "https://learn.microsoft.com/windows-365/business-enterprise-comparison#administrative-comparisons"
+        },
+        {
+            "title": "Entra ID joined",
+            "url": "https://learn.microsoft.com/windows-365/business-enterprise-comparison#general-comparisons"
+        },
+        {
+            "title": "Supports custom images",
+            "url": "https://learn.microsoft.com/windows-365/enterprise/device-images"
+        },
+        {
+            "title": "Requires qualifying licenses",
+            "url": "https://www.microsoft.com/windows-365/faq#coreui-collapsibledrawer-ktzkldz"
+        },
+        {
+            "title": "Optional BYO licenses",
+            "url": "https://www.microsoft.com/windows-365/faq#coreui-collapsibledrawer-w56p8sc"
+        },
+        {
+            "title": "Either connect to Azure vNet or monthly outbound data cap",
+            "url": "https://azure.microsoft.com/pricing/details/bandwidth/"
+        },
+        {
+            "title": "User roles are configurable",
+            "url": "https://learn.microsoft.com/windows-365/business-enterprise-comparison#end-user-comparisons"
+        },
+        {
+            "title": "Supports Windows 10 & 11",
+            "url": "https://www.microsoft.com/windows-365/faq#coreui-collapsibledrawer-v0ol5e1-collapsible-drawer10"
+        },
+        {
+            "title": "Universal print integration",
+            "url": "https://learn.microsoft.com/windows-365/enterprise/app-overview#universal-print"
+        },
+        {
+            "title": "Windows 365 Boot (Enterprise)",
+            "url": "https://learn.microsoft.com/windows-365/enterprise/windows-365-boot-overview"
+        },
+        {
+            "title": "Standard",
+            "url": "https://www.microsoft.com/windows-365/enterprise/all-pricing#sku-card-oc231f"
+        },
+        {
+            "title": "Super",
+            "url": "https://www.microsoft.com/windows-365/enterprise/all-pricing#sku-card-ocac04"
+        },
+        {
+            "title": "Max",
+            "url": "https://www.microsoft.com/windows-365/enterprise/all-pricing#sku-card-oc6e58"
+        },
+        {
+            "title": "Windows 365 Reserve (Preview)",
+            "url": "https://techcommunity.microsoft.com/blog/windows-itpro-blog/enhancing-business-continuity-windows-365-reserve-is-now-in-limited-public-previ/4441669"
+        }
+    ]
+}

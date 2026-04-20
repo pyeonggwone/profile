@@ -1,0 +1,709 @@
+{
+    "bookmarks": [
+        {
+            "category": "PTC",
+            "items": [
+                {
+                    "title": "PTC",
+                    "url": "https://onesupport.crm.dynamics.com/main.aspx?appid=101acb62-8d00-eb11-a813-000d3a8b3117"
+                },
+                {
+                    "title": "Closed Cases",
+                    "url": "https://onesupport.crm.dynamics.com/main.aspx?appid=101acb62-8d00-eb11-a813-000d3a8b3117&pagetype=entitylist&etn=incident&viewid=08077832-bce6-e911-a81e-000d3a6e7fe2&viewType=1039&lid=1775588320820"
+                },
+                {
+                    "title": "All Cases",
+                    "url": "https://onesupport.crm.dynamics.com/main.aspx?appid=101acb62-8d00-eb11-a813-000d3a8b3117&pagetype=entitylist&etn=incident&viewid=66e6366c-a927-ef11-840b-000d3a17d578&viewType=4230&lid=1775588403292"
+                }
+            ]
+        },
+        {
+            "category": "Quick Access",
+            "items": [
+                {
+                    "title": "OneDrive",
+                    "url": "https://microsoftapc-my.sharepoint.com/my"
+                },
+                {
+                    "title": "ISV (Success Centre)",
+                    "url": "https://successcentre.crm.dynamics.com/main.aspx?appid=76148cc8-d163-ed11-9562-000d3a5bcabd&forceUCI=1&pagetype=dashboard&id=ecc99df0-c6c9-ee11-9079-00224802ab57&type=system&_canOverride=true"
+                },
+                {
+                    "title": "Partner Center (PC)",
+                    "url": "https://partner.microsoft.com/en-us/dashboard/home"
+                },
+                {
+                    "title": "Prose",
+                    "url": "https://partner.microsoft.com/en-us/internal/tools/prose/home"
+                },
+                {
+                    "title": "Google Translate",
+                    "url": "https://translate.google.com/?sl=auto&tl=en&op=translate"
+                },
+                {
+                    "title": "Microsoft Translator (한국어)",
+                    "url": "https://www.bing.com/translator?setlang=ko"
+                },
+                {
+                    "title": "GitHub Copilot",
+                    "url": "https://github.com/copilot"
+                },
+                {
+                    "title": "Microsoft 365 Copilot Chat (AI)",
+                    "url": "https://m365.cloud.microsoft/chat/?fromCode=cmcv2&redirectId=D9BFA146D28F46CFB34FCF8357EF6D94&internalredirect=CCM&auth=2"
+                },
+                {
+                    "title": "MyWorkspace",
+                    "url": "https://myworkspace.microsoft.com/authenticated"
+                },
+                {
+                    "title": "draw.io",
+                    "url": "https://www.drawio.com/"
+                },
+                {
+                    "title": "Microsoft Whiteboard",
+                    "url": "https://whiteboard.cloud.microsoft/me/whiteboards/p/c3BvOmh0dHBzOi8vbWljcm9zb2Z0LW15LnNoYXJlcG9pbnQuY29tL3BlcnNvbmFsL3Yta2ltcHlfbWljcm9zb2Z0X2NvbQ%3D%3D/b!SY-nbvzkgE6ZJEkc9XuEmvKXvCox21BMpz9FpwAbepJvAl8XgeiZTYl7dyA7kLZx/012VIJ76TKSKRVQ6YMANHKGPYKRE3QHC4Z?ring=preview"
+                }
+            ]
+        },
+        {
+            "category": "PTC-learn",
+            "items": [
+                {
+                    "title": "PTC Onboarding and Offboarding Procedure",
+                    "url": "https://internal.evergreen.microsoft.com/en-us/topic/311bed6f-d24e-40e8-89d9-2a32b39afbc0"
+                },
+                {
+                    "title": "Case Wellness - TPD Supplier (Power BI)",
+                    "url": "https://msit.powerbi.com/groups/me/reports/c0607955-6139-4479-8ac5-8be5f7e9bf1d/ReportSectionafd4378a72563e52a61b?experience=power-bi"
+                },
+                {
+                    "title": "WfM Tool User Guide",
+                    "url": "https://internal.evergreen.microsoft.com/en-us/topic/d1304b87-fb9a-47ab-8ef0-0522314d3d16"
+                },
+                {
+                    "title": "PTC Create Case",
+                    "url": "https://partner.microsoft.com/dashboard/v2/benefits/technicalpresales"
+                },
+                {
+                    "title": "Technical Presales and Deployment (Learn)",
+                    "url": "https://learn.microsoft.com/en-us/partner-center/benefits/technical-benefits"
+                },
+                {
+                    "title": "Technical Presales and Deployment Services",
+                    "url": "https://partner.microsoft.com/en-us/training/technical-presales-deployment-services"
+                },
+                {
+                    "title": "Partners List.xlsx",
+                    "url": "https://onedrive.cloud.microsoft/:x:/a@y7cn7wr2/r/_layouts/15/Doc.aspx?sourcedoc=%7BDB896747-50F2-4E55-B761-2FEDC969741C%7D&file=Partners%20List.xlsx&action=default&mobileredirect=true&share=IQFHZ4nb8lBVTrdhL-3JaXQcATnPQ30O08duuWpYOIl28H0"
+                },
+                {
+                    "title": "CSP Readiness FY24",
+                    "url": "https://microsoftapc.sharepoint.com/teams/CSPCommunity/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FCSPCommunity%2FShared%20Documents%2FGeneral%2FCSP%20Readiness%20%2D%20FY24&p=true&ct=1767920270625&or=Teams%2DHL&ga=1&LOF=1"
+                },
+                {
+                    "title": "TP&D Field Request PROD (Power Apps)",
+                    "url": "https://apps.powerapps.com/play/e/2992bdec-1901-ed1e-8a55-6e1798817d11/a/330fe364-1c10-4e18-889f-61c4d6dddf4a?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&hint=f487b519-9a5d-4d4f-adb1-7dca2d74b028&sourcetime=1717131634172&source=portal"
+                },
+                {
+                    "title": "TPD Handbook - Follow-up",
+                    "url": "https://microsoft.sharepoint.com/teams/TPDAll/ReadOnlyShare/_layouts/15/Doc.aspx?sourcedoc={4f0b52f1-685a-4cba-9e8c-f247f863518d}&action=view&wd=target%28Technical%20Consultation%2FClosure.one%7C260cd001-b098-477f-9224-439634b483e5%2FPost%20Case%20Closure%20Follow-up%7C0fd88155-bef2-4b05-bdf2-707de1a09cb3%2F%29&wdorigin=NavigationUrl"
+                },
+                {
+                    "title": "Fabric Readiness and Enablement Resources",
+                    "url": "https://partner.microsoft.com/en-us/marketing-center/assets/collection/fabric-readiness-and-enablement-resources#/"
+                },
+                {
+                    "title": "Services Hub",
+                    "url": "https://serviceshub.microsoft.com/databoard?workspaceId=8ca25bc4-4e21-470b-9456-810dcc00bdde"
+                },
+                {
+                    "title": "라이센스 (Office 365 Subscriptions)",
+                    "url": "https://portal.office.com/account/#subscriptions"
+                }
+            ]
+        },
+        {
+            "category": "ISV-learn",
+            "items": [
+                {
+                    "title": "ISV 성공과 함께 빌드 및 퍼블리싱",
+                    "url": "https://learn.microsoft.com/en-us/partner-center/membership/isv-success"
+                },
+                {
+                    "title": "Choose your Azure marketplace offer type",
+                    "url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/select-offer-type/"
+                }
+            ]
+        },
+        {
+            "category": "work",
+            "items": [
+                {
+                    "title": "AI Expanded Benefits Hygiene.xlsx",
+                    "url": "https://microsoftapc-my.sharepoint.com/:x:/g/personal/v-sujaj_microsoft_com/IQANrtQ7n3x-QLlx52TkT5SFATHMD6dCFA0_YH9XfyvgjKc?e=AAQF5j&wdOrigin=TEAMS-MAGLEV.null_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1766477642071&web=1"
+                },
+                {
+                    "title": "Enterprise User Access (Prose)",
+                    "url": "https://euaaccessportal.microsoft.com/request/access/Prose"
+                },
+                {
+                    "title": "ACSM for Data & AI",
+                    "url": "https://microsoft.sharepoint.com/teams/ACM-MSM/SitePages/ACSM-for-Data.aspx"
+                },
+                {
+                    "title": "WfM Dashboard",
+                    "url": "https://azwfm24prdis01.redmond.corp.microsoft.com/WFO/WFMCOMMERCIAL/Home/Dashboard"
+                }
+            ]
+        },
+        {
+            "category": "work > Sandbox",
+            "items": [
+                {
+                    "title": "MyWorkspace",
+                    "url": "https://myworkspace.microsoft.com/authenticated"
+                },
+                {
+                    "title": "Microsoft Dev Box",
+                    "url": "https://devbox.microsoft.com/"
+                }
+            ]
+        },
+        {
+            "category": "work > News",
+            "items": [
+                {
+                    "title": "Microsoft 365 Roadmap",
+                    "url": "https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=0734104bfb4e6ec7105e06f5fafe6fdc"
+                },
+                {
+                    "title": "Recent News - Stories (Microsoft)",
+                    "url": "https://news.microsoft.com/recent-news/"
+                },
+                {
+                    "title": "The Official Microsoft Blog",
+                    "url": "https://blogs.microsoft.com/"
+                },
+                {
+                    "title": "Korea - Source Asia",
+                    "url": "https://news.microsoft.com/source/asia/region/korea/?lang=ko"
+                },
+                {
+                    "title": "Windows Blog",
+                    "url": "https://blogs.windows.com/"
+                },
+                {
+                    "title": "Microsoft Korea",
+                    "url": "https://www.microsoft.com/ko-kr"
+                },
+                {
+                    "title": "Microsoft 365 Blog",
+                    "url": "https://www.microsoft.com/en-us/microsoft-365/blog/"
+                },
+                {
+                    "title": "Azure updates",
+                    "url": "https://azure.microsoft.com/en-us/updates/?msockid=0734104bfb4e6ec7105e06f5fafe6fdc"
+                },
+                {
+                    "title": "Search Customer Success Stories",
+                    "url": "https://www.microsoft.com/en-sg/customers/search"
+                },
+                {
+                    "title": "Microsoft Organization Chart & Leadership Structure",
+                    "url": "https://teamchart.io/microsoft-org-chart/"
+                }
+            ]
+        },
+        {
+            "category": "work > PC-learn",
+            "items": [
+                {
+                    "title": "Roles, Permissions, and Workspace Access (Partner Center)",
+                    "url": "https://learn.microsoft.com/en-us/partner-center/account-settings/permissions-overview"
+                },
+                {
+                    "title": "Get Help and Contact Support (Partner Center)",
+                    "url": "https://learn.microsoft.com/en-us/partner-center/support/report-problems-with-partner-center#contact-support-using-partner-center-ai-assistant"
+                },
+                {
+                    "title": "장점 (Benefits)",
+                    "url": "https://partner.microsoft.com/dashboard/v2/benefits/marketing"
+                },
+                {
+                    "title": "Manage Membership (Partner Center)",
+                    "url": "https://learn.microsoft.com/en-us/partner-center/membership/mpn-overview"
+                },
+                {
+                    "title": "Partner Center Price List",
+                    "url": "https://partner.microsoft.com/en-us/dashboard/pricing/pricelist"
+                }
+            ]
+        },
+        {
+            "category": "Prosci",
+            "items": [
+                {
+                    "title": "Webinars (Video)",
+                    "url": "https://microsoft.sharepoint.com/teams/MS-PROSCI/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FMS%2DPROSCI%2FShared%20Documents%2FWebinars&viewid=c3e2a101%2D5750%2D4082%2Db8e4%2D82e9fc2f5199"
+                },
+                {
+                    "title": "ADKAR (Prosci Books)",
+                    "url": "https://microsoft.sharepoint.com/teams/MS-PROSCI/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FMS%2DPROSCI%2FShared%20Documents%2FProsci%20Books&viewid=c3e2a101%2D5750%2D4082%2Db8e4%2D82e9fc2f5199"
+                },
+                {
+                    "title": "Viva Engage - Feed",
+                    "url": "https://engage.cloud.microsoft/main/feed"
+                },
+                {
+                    "title": "Prosci IP (Class Materials OneNote)",
+                    "url": "https://microsoft.sharepoint.com/teams/Prosci/_layouts/15/Doc.aspx?sourcedoc={4e7f6222-ae15-46a9-9020-2f06b810aa79}&action=view&wd=target%28Prosci%20Class%20Materials.one%7C61914d22-365b-431c-8443-6f946b2943c7%2FRemote%203-day%20CM%20Practitioner%20%28Global%202021%5C%29%7Ccf78d331-5cd0-4f1c-999b-1cd452cafd6c%2F%29&wdorigin=NavigationUrl"
+                },
+                {
+                    "title": "Prosci IP-real (3-day CM Certification)",
+                    "url": "https://microsoft.sharepoint.com/teams/MS-PROSCI/_layouts/15/Doc.aspx?sourcedoc={7293bcc7-bcbb-4aa8-8e00-0112ecb13234}&action=view&wd=target%28Prosci%20Class%20Materials.one%7C61914d22-365b-431c-8443-6f946b2943c7%2F3-day%20CM%20Certification%20Program%7Ccf78d331-5cd0-4f1c-999b-1cd452cafd6c%2F%29&wdorigin=NavigationUrl"
+                },
+                {
+                    "title": "Microsoft Prosci Partnership - Class Brochures",
+                    "url": "https://microsoft.sharepoint.com/teams/MS-PROSCI/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FMS-PROSCI%2FShared%20Documents%2FClass%20Brochures&share=cgoLp6aT7EBHQ7D8VOT5eLTtEgUCougFmP3TDbKw67dH81PuXA"
+                }
+            ]
+        },
+        {
+            "category": "pre-learn",
+            "items": [
+                {
+                    "title": "About Beta Certification Exams",
+                    "url": "https://learn.microsoft.com/en-us/credentials/support/about-beta-exams"
+                },
+                {
+                    "title": "December 2025 Certification Updates.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/teams/RoleBasedCertificationsforWWL/_layouts/15/Doc.aspx?sourcedoc=%7BE5D8866A-7A5C-4C0E-BA7F-FAF90B580162%7D&file=December%202025%20Updates.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&share=IQFqhtjlXHoOTLp_-vkLWAFiAeCvroXBk1uou-WASN2gXtY"
+                },
+                {
+                    "title": "New Certification: Agentic AI Business Solutions Architect (Tech Community Blog)",
+                    "url": "https://techcommunity.microsoft.com/blog/skills-hub-blog/new-certification-for-architects-of-agentic-ai-business-solutions/4428968"
+                },
+                {
+                    "title": "Viva Engage - Search (AB-731)",
+                    "url": "https://engage.cloud.microsoft/main/search?search=AB-731&type=threads"
+                }
+            ]
+        },
+        {
+            "category": "pre-learn > AI-300",
+            "items": [
+                {
+                    "title": "Study Guide for Exam AI-300",
+                    "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300"
+                },
+                {
+                    "title": "Microsoft Certified: Operationalizing Machine Learning and Generative AI Solutions",
+                    "url": "https://learn.microsoft.com/en-us/credentials/certifications/operationalizing-machine-learning-and-generative-ai-solutions/?practice-assessment-type=certification"
+                }
+            ]
+        },
+        {
+            "category": "pre-learn > AB-100",
+            "items": [
+                {
+                    "title": "AB-100 Guide (Word Doc)",
+                    "url": "https://microsoft-my.sharepoint.com/:w:/r/personal/v-kimpy_microsoft_com/_layouts/15/Doc.aspx?sourcedoc=%7B9DFA9AF2-90F3-44A4-AB78-293D8F0C773C%7D&file=Document.docx&action=editNew&mobileredirect=true"
+                },
+                {
+                    "title": "Study Guide for Exam AB-100: Agentic AI Business Solutions Architect",
+                    "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100"
+                },
+                {
+                    "title": "Microsoft Certified: Agentic AI Business Solutions Architect",
+                    "url": "https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-business-solutions-architect/?practice-assessment-type=certification"
+                }
+            ]
+        },
+        {
+            "category": "pre-learn > AI-102",
+            "items": [
+                {
+                    "title": "Microsoft Certified: Azure AI Engineer Associate",
+                    "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification"
+                },
+                {
+                    "title": "Perplexity: Microsoft Certified Agentic AI",
+                    "url": "https://www.perplexity.ai/search/microsoft-certified-agentic-ai-ty5uTOxOQWSGxny0fPDKsQ"
+                }
+            ]
+        },
+        {
+            "category": "pre-learn > PL-400",
+            "items": [
+                {
+                    "title": "Microsoft Certified: Power Platform Developer Associate",
+                    "url": "https://learn.microsoft.com/en-us/credentials/certifications/power-platform-developer-associate/?practice-assessment-type=certification"
+                }
+            ]
+        },
+        {
+            "category": "Azure (Agent & AI Resources)",
+            "items": [
+                {
+                    "title": "Standard vs Priority Access - Microsoft 365 Copilot Chat",
+                    "url": "https://support.microsoft.com/en-us/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f"
+                },
+                {
+                    "title": "GPT-5.3 Instant in Microsoft 365 Copilot (Blog)",
+                    "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-3-instant-in-microsoft-365-copilot/4496567"
+                },
+                {
+                    "title": "Agent Template Hub",
+                    "url": "https://agenttemplatehub.azurewebsites.net/"
+                },
+                {
+                    "title": "Agent Launchpad Module 1 - Mindset in Motion.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/AIAgentLaunchpad/_layouts/15/Doc.aspx?sourcedoc=%7B300E47A9-97BB-4153-A85F-B6834189A500%7D&file=Module%201%20Mindset%20in%20Motion_Agent%20Launchpad%20Self%20Paced%20Experience.pptx&action=edit&mobileredirect=true"
+                },
+                {
+                    "title": "What's Next in Copilot Newsletter",
+                    "url": "https://outlook.office.com/newsletters/newsletters/145eb5aaaa519741943d868c21116b7523#7f434d4c-188c-707b-1ef3-e65af19eb938"
+                },
+                {
+                    "title": "What's New in Microsoft 365 Copilot - February 2026 (Blog)",
+                    "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--february-2026/4496489"
+                },
+                {
+                    "title": "Agent Builder New Experience Guide.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/Microsoft365Builders/_layouts/15/Doc.aspx?sourcedoc=%7B93A0EBBB-1075-4C01-BB7B-E70FC1490D75%7D&file=Agent%20Builder%20New%20Experience%20Guide.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1"
+                },
+                {
+                    "title": "AI Agent Launchpad.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/AIAgentLaunchpad/_layouts/15/Doc.aspx?sourcedoc=%7B843B023F-96BA-46C4-AA8D-857DA562C983%7D&file=AI_Agent_Launchpad_.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1"
+                },
+                {
+                    "title": "Agent Launchpad Module 3 - Discover before you Build.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/AIAgentLaunchpad/_layouts/15/Doc.aspx?sourcedoc=%7B43D6A953-5B1A-41A7-AA3C-793670E4CAC5%7D&file=Agent%20Launchpad%20Module%203%20-%20Discover%20before%20you%20Build.pptx&action=edit&mobileredirect=true"
+                },
+                {
+                    "title": "Agent Launchpad Module 2: Intro to Agents",
+                    "url": "https://microsoft.sharepoint.com/sites/AIAgentLaunchpad/SitePages/Module%202%20Intro%20to%20agents.aspx"
+                },
+                {
+                    "title": "Agent Launchpad Module 1: Awareness & Mindset Shift",
+                    "url": "https://microsoft.sharepoint.com/sites/AIAgentLaunchpad/SitePages/Module%201%20Mindset%20in%20motion.aspx"
+                },
+                {
+                    "title": "Viva Engage (Agent Launchpad)",
+                    "url": "https://engage.cloud.microsoft/main/articles/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzc1Mjk4MzQ0NDA4Njc4NCJ9"
+                },
+                {
+                    "title": "Agent Builder Demo v1.0.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/CopilotAdoptionFramework/_layouts/15/doc2.aspx?sourcedoc=%7B72192C83-8B87-453A-AA5C-E8216D0A00BF%7D&file=Agent%20Builder%20Demo%20v1.0.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1"
+                },
+                {
+                    "title": "Agentic Launchpad Cohort Announcement (UK Blog)",
+                    "url": "https://www.microsoft.com/en-gb/industry/blog/cross-industry/2025/12/18/agentic-launchpad-cohort/"
+                },
+                {
+                    "title": "M365 Maps",
+                    "url": "https://m365maps.com/"
+                },
+                {
+                    "title": "Fabric Data Agent Creation (Learn)",
+                    "url": "https://learn.microsoft.com/en-us/fabric/data-science/concept-data-agent"
+                },
+                {
+                    "title": "M365 Compliance Licensing Comparison (PDF)",
+                    "url": "https://learn.microsoft.com/en-us/office365/servicedescriptions/downloads/microsoft-365-compliance-licensing-comparison.pdf"
+                },
+                {
+                    "title": "Microsoft Purview Suite License Value Overview (Seismic)",
+                    "url": "https://microsoft.seismic.com/apps/doccenter/ac87b24f-8f93-43d4-be30-469d80d63c18/doc/%2Fddede3166e-02c7-9b96-dd45-fabc8e27d5f4%2FdfYTZjNDRiZDMtMzEwZS1kNWZkLTNjOGEtNjliYWJjMjhmMmUw%2CPT0%3D%2CUHJvZHVjdCBQaXRjaCBEZWNr%2Flfad219edd-9eb2-4f06-b8b8-729c745772e1//?mode=view"
+                },
+                {
+                    "title": "AgentOps - End-to-End Lifecycle Management (Blog)",
+                    "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/from-zero-to-hero-agentops---end-to-end-lifecycle-management-for-production-ai-a/4484922"
+                },
+                {
+                    "title": "AI Red Teaming Playground Labs (GitHub)",
+                    "url": "https://github.com/microsoft/AI-Red-Teaming-Playground-Labs"
+                },
+                {
+                    "title": "AI Agent Launchpad - All Documents",
+                    "url": "https://microsoft.sharepoint.com/sites/AIAgentLaunchpad/Shared%20Documents/Forms/AllItems.aspx?viewid=535a767f%2D5cca%2D495e%2Da97a%2Db933ce0908fc"
+                }
+            ]
+        },
+        {
+            "category": "Azure > AI Transformation",
+            "items": [
+                {
+                    "title": "Lorraine Bardeen (LinkedIn)",
+                    "url": "https://www.linkedin.com/in/lorraine-bardeen/"
+                },
+                {
+                    "title": "Daniel Bertrand (LinkedIn)",
+                    "url": "https://www.linkedin.com/in/danielbertrand/"
+                },
+                {
+                    "title": "AI for MCAPS",
+                    "url": "https://microsoft.sharepoint.com/teams/MCAPS/SitePages/AI-for-MCAPS.aspx?csf=1&web=1"
+                },
+                {
+                    "title": "Enterprise Solution Engineer (AIX)",
+                    "url": "https://microsoft.sharepoint.com/sites/AIX/SitePages/Solution-Engineer.aspx"
+                },
+                {
+                    "title": "AI Transformation Office (AITO)",
+                    "url": "https://microsoft.sharepoint.com/sites/AITransformationOffice/"
+                },
+                {
+                    "title": "MCAPS Copilot Role Hub",
+                    "url": "https://microsoft.sharepoint.com/sites/EDOTDigitalEnablement/SitePages/MCAPS-Copilot-Rol.aspx"
+                },
+                {
+                    "title": "AI Transformation Role Hub (AIX)",
+                    "url": "https://microsoft.sharepoint.com/sites/AIX/SitePages/AIT-Role-Hub.aspx"
+                },
+                {
+                    "title": "AI Business Solutions Landing Hub - Documents",
+                    "url": "https://microsoft.sharepoint.com/sites/ABSFieldHub/Shared%20Documents/Forms/AllItems.aspx?viewid=9ca24ba7%2D9a51%2D492c%2Dbdf8%2D88b198e5bca9"
+                }
+            ]
+        },
+        {
+            "category": "Copilot",
+            "items": [
+                {
+                    "title": "Customize How Microsoft 365 Copilot Responds",
+                    "url": "https://support.microsoft.com/en-us/topic/customize-how-microsoft-365-copilot-responds-to-you-8b826c0d-eb78-493e-a30d-4490ec1c4b9e"
+                },
+                {
+                    "title": "The Copilot Team Blog",
+                    "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/author/the-copilot-team/"
+                },
+                {
+                    "title": "Microsoft Copilot Tasks Preview",
+                    "url": "https://copilot.microsoft.com/tasks/preview"
+                },
+                {
+                    "title": "Powering Frontier Transformation with Copilot and Agents (Blog)",
+                    "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/"
+                },
+                {
+                    "title": "Copilot Cowork: A New Way of Getting Work Done (Blog)",
+                    "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
+                },
+                {
+                    "title": "Copilot Day in the Life.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/s/EDOTDigitalEnablement/ES7KXsO32BhElw-TN-uw7IUBvKHdjt4NiSQ_A-9lGCf3vg?e=j9KBiu"
+                },
+                {
+                    "title": "Viva Engage (Copilot)",
+                    "url": "https://engage.cloud.microsoft/main/articles/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzYyMTU2NjAwMjA0NDkyOCJ9"
+                },
+                {
+                    "title": "Copilot Tasks: From Answers to Actions (Blog)",
+                    "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/2026/02/26/copilot-tasks-from-answers-to-actions/"
+                },
+                {
+                    "title": "Copilot + Agents Tech Talk FY26 March 9.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/ABSFieldHub/_layouts/15/Doc.aspx?sourcedoc=%7BC8B0C35B-5338-48C5-870F-BCA22FF4B79F%7D&file=Copilot%20%2B%20Agents%20Tech%20Talk_FY26_March%209_Frontier%20Transformation.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1"
+                },
+                {
+                    "title": "Frontier Transformation (Seismic)",
+                    "url": "https://microsoft.seismic.com/apps/doccenter/a5266a70-9230-4c1e-a553-c5bddcb7a896/doc/%252Fdde0caec0e-9236-f21b-2991-5868e63d3984%252FdfYTZjNDRiZDMtMzEwZS1kNWZkLTNjOGEtNjliYWJjMjhmMmUw%252CPT0%253D%252CUmVzb3VyY2UgUGFnZQ%253D%253D%252Flf3c6dc030-ec63-454a-a675-b1d21ee8ab74/grid/?anchorId=60540769-6c7a-474d-8ee2-7f3496bcf584"
+                }
+            ]
+        },
+        {
+            "category": "Copilot > Copilot Studio",
+            "items": [
+                {
+                    "title": "Building Agents in Copilot Studio (Self-Service)",
+                    "url": "https://microsoft.sharepoint.com/sites/Microsoft365Builders/SitePages/Copilot-Studio-Agents-SS.aspx"
+                },
+                {
+                    "title": "Office of Responsible AI - Home",
+                    "url": "https://microsoft.sharepoint.com/sites/ResponsibleAI/SitePages/Home.aspx"
+                },
+                {
+                    "title": "Responsible AI - Sensitive Uses",
+                    "url": "https://microsoft.sharepoint.com/sites/ResponsibleAI/SitePages/Report-Sensitive-Uses.aspx"
+                },
+                {
+                    "title": "Builders Central - Extending Copilot for M365",
+                    "url": "https://microsoft.sharepoint.com/sites/Microsoft365Builders/SitePages/Copilot.aspx#requirements-and-usage-guidelines"
+                },
+                {
+                    "title": "Viva Engage - Agents at Microsoft | Builders' Lounge",
+                    "url": "https://engage.cloud.microsoft/main/org/microsoft.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMzMwMjY0NzgwODAifQ/all"
+                },
+                {
+                    "title": "TechWorkshop: Copilot 스튜디오와 에이전트들의 작업 (소개)",
+                    "url": "https://microsoft.github.io/L400-Copilot-and-Agents-at-work/"
+                }
+            ]
+        },
+        {
+            "category": "MS (Internal)",
+            "items": [
+                {
+                    "title": "Responsible AI Principles",
+                    "url": "https://microsoft.sharepoint.com/sites/ResponsibleAI/SitePages/Principles.aspx"
+                },
+                {
+                    "title": "AI Business Solutions Landing Hub - Home",
+                    "url": "https://microsoft.sharepoint.com/sites/ABSFieldHub/SitePages/ABS%20Home.aspx?web=1"
+                },
+                {
+                    "title": "AI Business Solutions Enablement (ATU)",
+                    "url": "https://microsoft.sharepoint.com/teams/ATU/SitePages/AI-Business-Solutions-Enablement.aspx?web=1"
+                },
+                {
+                    "title": "Job Postings (US Sales Tech Sales)",
+                    "url": "https://microsoft.sharepoint.com/teams/AlwaysOnRecruiting-USSalesTechSales/SitePages/Job-Postings.aspx?web=1"
+                },
+                {
+                    "title": "FY26 Interviewer Readiness.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/teams/UniversityRecruitingHub/_layouts/15/Doc.aspx?sourcedoc=%7B2C92782C-6903-4EBD-83DE-54992494FBE0%7D&file=FY26%20Interviewer%20Readiness.pptx&action=edit&mobileredirect=true"
+                },
+                {
+                    "title": "Nadella EU Tour 2026.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/presentations/_layouts/15/Doc.aspx?sourcedoc=%7B6982D108-34D9-4D4E-98B8-F1449332B70C%7D&file=Nadella_02242026_EUTour_POSTSHOW.pptx&action=edit&mobileredirect=true"
+                },
+                {
+                    "title": "Nadella India Tour 2025.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/presentations/_layouts/15/Doc.aspx?sourcedoc=%7B4F280395-B533-4FAE-91E3-A0AF86382AA9%7D&file=Nadella_12102025_IndiaTour_POSTSHOW.pptx&action=edit&mobileredirect=true"
+                },
+                {
+                    "title": "Nadella Asia Tour 2025.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/presentations/_layouts/15/Doc.aspx?sourcedoc=%7B479F25ED-447F-4F5F-9297-7CA89E922071%7D&file=Nadella_03272025_AsiaTour_POSTSHOW.pptx&action=edit&mobileredirect=true"
+                },
+                {
+                    "title": "BRK251 MCAPSTechConnect2026.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/sites/presentations/_layouts/15/Doc.aspx?sourcedoc=%7BB5924790-BC6E-456D-8F6C-71FD5A463215%7D&file=BRK251%2002112026%20MCAPSTechConnect2026.pptx&action=edit&mobileredirect=true"
+                },
+                {
+                    "title": "Storytelling and Presenting Resources",
+                    "url": "https://microsoft.sharepoint.com/sites/MicrosoftDigitalCustomerEngagementContent/Community%20Sourced%20Content/Forms/AllItems.aspx?id=%2Fsites%2FMicrosoftDigitalCustomerEngagementContent%2FCommunity%20Sourced%20Content%2FStorytelling%20and%20presenting%20resources"
+                },
+                {
+                    "title": "Presentations - Featured Presentations",
+                    "url": "https://microsoft.sharepoint.com/sites/presentations/FeaturedPresentations"
+                },
+                {
+                    "title": "Microsoft Copilot Studio (Seismic)",
+                    "url": "https://microsoft.seismic.com/apps/doccenter/063a38f4-06e8-404d-bcfb-362e97a9acc3/doc/%252Fdd75d82158-cdba-b738-2498-b80d66095039%252FdfYTZjNDRiZDMtMzEwZS1kNWZkLTNjOGEtNjliYWJjMjhmMmUw%252CPT0%253D%252CUHJvZHVjdCBQYWdl%252Flf4d3a9746-56db-4d35-a968-5e04e7bb5bdf//?anchorId=ca4ad807-7a1f-4fbd-a0af-012d18f6d3fc"
+                },
+                {
+                    "title": "NEWS (Seismic Resource Page)",
+                    "url": "https://microsoft.seismic.com/apps/doccenter/a5266a70-9230-4c1e-a553-c5bddcb7a896/doc/%252Fdde0caec0e-9236-f21b-2991-5868e63d3984%252FdfYTZjNDRiZDMtMzEwZS1kNWZkLTNjOGEtNjliYWJjMjhmMmUw%252CPT0%253D%252CUmVzb3VyY2UgUGFnZQ%253D%253D%252Flf3c6dc030-ec63-454a-a675-b1d21ee8ab74/grid/?anchorId=6c02dc59-5404-4063-bc9e-61737db4ea65"
+                },
+                {
+                    "title": "Americas Enterprise Partner Solutions - PDM Skilling",
+                    "url": "https://microsoft.sharepoint.com/sites/AmericasEPS/PDM%20Skilling/Forms/AllItems.aspx?viewid=a54f29fe%2D5503%2D4002%2D9656%2D115d54e43ae4"
+                },
+                {
+                    "title": "Power Platform (Seismic)",
+                    "url": "https://microsoft.seismic.com/apps/doccenter/063a38f4-06e8-404d-bcfb-362e97a9acc3/doc/%252Fdd75d82158-cdba-b738-2498-b80d66095039%252FdfYTZjNDRiZDMtMzEwZS1kNWZkLTNjOGEtNjliYWJjMjhmMmUw%252CPT0%253D%252CUHJvZHVjdCBQYWdl%252Flf54949ebd-90ef-40bb-b9e9-5a84cd7dedff//?anchorId=1b759255-e1b4-4366-8143-8076e6633723"
+                },
+                {
+                    "title": "Azure Data CAT - Recordings",
+                    "url": "https://microsoft.sharepoint.com/teams/PBICATs/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FPBICATs%2FShared%20Documents%2FGeneral%2FRecordings&viewid=5c608234%2D21ca%2D44e6%2Da242%2Da4ab7b96d08b"
+                },
+                {
+                    "title": "EngOps PRIMO Docs - Vision Document",
+                    "url": "https://microsoft.sharepoint.com/teams/AzureCXPPRIMOTeam/Shared%20Documents/Forms/AllItems.aspx?web=1&id=%2Fteams%2FAzureCXPPRIMOTeam%2FShared%20Documents%2FPRIMO%20Product%20Artifacts%2FCrisis%20%2B%20Comms%2FSpecs%2FOutage%20Hub%2FVision%20Document"
+                },
+                {
+                    "title": "CAR - Microsoft Company Templates",
+                    "url": "https://microsofteur.sharepoint.com/sites/car/Office%20Template%20Library?id=%2Fsites%2Fcar%2FOffice%20Template%20Library%2FMicrosoft%20company%20templates&viewid=701f4721%2D5abe%2D4707%2Db3d1%2D991491fa6524"
+                },
+                {
+                    "title": "MCAPS Academy Tech Connect",
+                    "url": "https://microsoft.sharepoint.com/teams/MCAPSAcademy/SitePages/MCAPS-Academy-Tech-Connect.aspx"
+                },
+                {
+                    "title": "AI Transformation Customer Zero Content (AITO)",
+                    "url": "https://microsoft.sharepoint.com/sites/AITransformationOffice/DocumentsOnThisSite/Forms/AllItems.aspx?id=%2Fsites%2FAITransformationOffice%2FDocumentsOnThisSite%2FAI%20Transformation%20Customer%20Zero%20content"
+                },
+                {
+                    "title": "TOC Notebook (E-D, MAI)",
+                    "url": "https://microsoft.sharepoint.com/teams/EDHiring452/_layouts/15/Doc.aspx?sourcedoc={2969f544-675e-4c5e-ba3d-ed640a63c35b}&action=edit&wd=target%28Training%20Resources.one%7C7fbb11ab-2de5-4070-8ebe-1dd57136b13d%2FLevels%5C%2FCareer%20Stages%5C%2FTiles%7C250f56e6-2ca6-45b8-adcc-4046c06a0d5e%2F%29&wdorigin=NavigationUrl"
+                },
+                {
+                    "title": "Microsoft Global Hackathon 2026 - Executive Challenges",
+                    "url": "https://microsoft.sharepoint.com/sites/MicrosoftGlobalHackathon2026/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FMicrosoftGlobalHackathon2026%2FShared%20Documents%2FExecutive%20Challenges"
+                },
+                {
+                    "title": "Microsoft Digital Customer Engagement Content - Community Sourced",
+                    "url": "https://microsoft.sharepoint.com/sites/MicrosoftDigitalCustomerEngagementContent/Community%20Sourced%20Content/Forms/AllItems.aspx?id=%2Fsites%2FMicrosoftDigitalCustomerEngagementContent%2FCommunity%20Sourced%20Content"
+                },
+                {
+                    "title": "SE&O Asia - Site Pages",
+                    "url": "https://microsoft.sharepoint.com/sites/SEOAsia/SitePages/Forms/AllPages.aspx?id=%2Fsites%2FSEOAsia%2FSitePages"
+                },
+                {
+                    "title": "Seismic DocCenter (Cloud and AI Platforms)",
+                    "url": "https://microsoft.seismic.com/apps/doccenter/a5266a70-9230-4c1e-a553-c5bddcb7a896/profileview-landing"
+                },
+                {
+                    "title": "Google 번역",
+                    "url": "https://translate.google.co.kr/"
+                }
+            ]
+        },
+        {
+            "category": "MS > 한국지사",
+            "items": [
+                {
+                    "title": "Microsoft Digital Defense Report 2025 KR.pptx",
+                    "url": "https://microsoftapc.sharepoint.com/:p:/r/teams/AsiaSEOLocalisationteam/_layouts/15/Doc.aspx?sourcedoc=%7BBD18ED82-81FF-4191-B78F-279BBB7A54D8%7D&file=Microsoft-Digital-Defense-Report-2025_KR.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1"
+                },
+                {
+                    "title": "Asia SE&O Localisation - Korean Documents",
+                    "url": "https://microsoftapc.sharepoint.com/teams/AsiaSEOLocalisationteam/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FAsiaSEOLocalisationteam%2FShared%20Documents%2FGeneral%2FFY24%20Translation%20and%20Interpretation%20Requirement%2FAPPul%2FS25100002%5Fsangjp%2FDelivery%2FKorean"
+                },
+                {
+                    "title": "RE&F Service - Business Card.pptx",
+                    "url": "https://microsoftapc.sharepoint.com/:p:/r/teams/REFKoreaSR/_layouts/15/Doc.aspx?sourcedoc=%7B5355947E-41E2-4356-AD56-7B4FF10ED397%7D&file=RE%26F%20Service%20-%20Business%20Card.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1"
+                },
+                {
+                    "title": "Azure Accelerate To Partner Pitch Deck FY26 KO-KR.pptx",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/teams/CloudEnablementDeskGlobal/_layouts/15/Doc.aspx?sourcedoc=%7BC79EBAA1-3025-4F78-A6D9-5CB39D500F04%7D&file=Azure%20Accelerate%20To%20Partner%20Pitch%20Deck%20FY26_Concierge_KO-KR.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1"
+                },
+                {
+                    "title": "Modern Work Licensing FAQ (한국어).docx",
+                    "url": "https://microsoft.sharepoint.com/:w:/r/teams/CopilotVBD-ROIandUseCaseDiscovery/_layouts/15/doc2.aspx?sourcedoc=%7B859E2B84-1959-4239-AFEF-5D8A8C5F15E5%7D&file=Modern%20Work%20Licensing%20FAQ%20Oct%20(April1)%20-%20%ED%95%9C%EA%B5%AD%EC%96%B4.docx&action=default&mobileredirect=true&DefaultItemOpen=1"
+                },
+                {
+                    "title": "Unified CSA SharePoint Online Overview V2 KO.pptx",
+                    "url": "https://microsoftapc.sharepoint.com/:p:/r/teams/AsiaSEOLocalisationteam/_layouts/15/doc2.aspx?sourcedoc=%7B4D5FE32A-7D39-410B-8F3B-C145741976CA%7D&file=Unified%20CSA_SharePoint%20Online%20Overview_V2_KO.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1"
+                },
+                {
+                    "title": "Asia SE&O Localisation - E25030016_saburok",
+                    "url": "https://microsoftapc.sharepoint.com/teams/AsiaSEOLocalisationteam/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FAsiaSEOLocalisationteam%2FShared%20Documents%2FGeneral%2FFY24%20Translation%20and%20Interpretation%20Requirement%2FAPPul%2FE25030016%5Fsaburok"
+                },
+                {
+                    "title": "MS Korea NEXUS - Marketing Calendar & eDM",
+                    "url": "https://microsoftapc.sharepoint.com/teams/ProjectNEXUS/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FProjectNEXUS%2FShared%20Documents%2F06%2E%20Marketing%20Calendar%20%26%20eDM&p=true&ga=1"
+                }
+            ]
+        },
+        {
+            "category": "MS > [Exam]",
+            "items": [
+                {
+                    "title": "PL-400 Practice Assessment (Learn)",
+                    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-400/practice/assessment?assessment-type=practice&assessmentId=66"
+                },
+                {
+                    "title": "Power Platform Training + Certification Guide.pptx (WWL)",
+                    "url": "https://microsoft.sharepoint.com/:p:/r/teams/WWL/_layouts/15/Doc.aspx?sourcedoc=%7B976A7ADE-42BB-4768-A3FA-533EF0F29689%7D&file=Power%20Platform%20Training%20%2B%20Certification%20Guide.pptx&action=edit&mobileredirect=true"
+                },
+                {
+                    "title": "Global Skilling - Microsoft Learn Business Applications",
+                    "url": "https://microsoft.sharepoint.com/teams/WWL/MicrosoftLearnBusiness%20Applications"
+                }
+            ]
+        }
+    ]
+}
