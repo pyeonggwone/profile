@@ -1,826 +1,994 @@
 {
-  "project": "MedicalAI AiTiA ECO CENTER",
-  "services": [
-    {
-      "service": "Azure VPN Gateway",
-      "subscription": "Hub Subscription",
-      "features": {
-        "site_to_site_vpn": {
-          "config_key": "VirtualNetworkGateway",
-          "required_fields": {
-            "gatewaySku": "VpnGw2",
-            "gatewayType": "Vpn",
-            "vpnType": "RouteBased",
-            "localNetworkGateway": {
-              "localAddressPrefix": "192.168.10.0/24",
-              "gatewayIpAddress": "<Hospital-A-온프레미스-공인IP>"
-            },
-            "connection": {
-              "connectionType": "IPsec",
-              "sharedKey": "<Key Vault 주입: vpn-psk>",
-              "enableBgp": true,
-              "bgpSettings": {
-                "asn_onpremise": 65001,
-                "asn_azure": 65515
-              }
-            },
-            "vnetCidr": "10.1.0.0/16"
-          }
+    "project": "MedicalAI AiTiA ECO CENTER",
+    "services": [
+        {
+            "service": "Azure VPN Gateway",
+            "subscription": "Hub Subscription",
+            "features": {
+                "site_to_site_vpn": {
+                    "config_key": "VirtualNetworkGateway",
+                    "required_fields": {
+                        "gatewaySku": "VpnGw2",
+                        "gatewayType": "Vpn",
+                        "vpnType": "RouteBased",
+                        "localNetworkGateway": {
+                            "localAddressPrefix": "192.168.10.0/24",
+                            "gatewayIpAddress": "<Hospital-A-온프레미스-공인IP>"
+                        },
+                        "connection": {
+                            "connectionType": "IPsec",
+                            "sharedKey": "<Key Vault 주입: vpn-psk>",
+                            "enableBgp": true,
+                            "bgpSettings": {
+                                "asn_onpremise": 65001,
+                                "asn_azure": 65515
+                            }
+                        },
+                        "vnetCidr": "10.1.0.0/16"
+                    }
+                },
+                "monitoring": {
+                    "config_key": "DiagnosticSettings + AlertRule",
+                    "required_fields": {
+                        "metric": "TunnelEgressBytes",
+                        "alertCondition": "== 0",
+                        "windowSizeMinutes": 1,
+                        "actionGroup": "pagerduty-p1"
+                    }
+                }
+            }
         },
-        "monitoring": {
-          "config_key": "DiagnosticSettings + AlertRule",
-          "required_fields": {
-            "metric": "TunnelEgressBytes",
-            "alertCondition": "== 0",
-            "windowSizeMinutes": 1,
-            "actionGroup": "pagerduty-p1"
-          }
+        {
+            "service": "Azure ExpressRoute",
+            "subscription": "Hub Subscription",
+            "features": {
+                "circuit": {
+                    "config_key": "ExpressRouteCircuit",
+                    "required_fields": {
+                        "serviceProvider": "KT",
+                        "peeringLocation": "Seoul2",
+                        "bandwidthInMbps": 1000,
+                        "sku": {
+                            "tier": "Standard",
+                            "family": "MeteredData"
+                        }
+                    }
+                },
+                "private_peering": {
+                    "config_key": "ExpressRouteCircuitPeering",
+                    "required_fields": {
+                        "peeringType": "AzurePrivatePeering",
+                        "primaryPeerAddressPrefix": "172.16.0.0/30",
+                        "secondaryPeerAddressPrefix": "172.16.0.4/30",
+                        "azurePeerIp": "172.16.0.1",
+                        "onPremPeerIp": "172.16.0.2",
+                        "vlanId": 200,
+                        "peerAsn": 65001
+                    }
+                },
+                "failover": {
+                    "config_key": "BGP Route Priority",
+                    "required_fields": {
+                        "expressRouteWeight": 0,
+                        "vpnGatewayWeight": 100,
+                        "note": "ExpressRoute AS Path가 짧으므로 정상 시 항상 우선 선택. 장애 시 VPN으로 자동 전환."
+                    }
+                }
+            }
+        },
+        {
+            "service": "Microsoft Entra ID",
+            "subscription": "모든 Subscription 공통",
+            "features": {
+                "tenant": {
+                    "config_key": "Entra ID Tenant",
+                    "required_fields": {
+                        "tenantDomain": "medicalai.onmicrosoft.com",
+                        "directoryId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                        "linkedSubscriptions": [
+                            "Hub",
+                            "Shared",
+                            "AI",
+                            "SW"
+                        ]
+                    }
+                },
+                "users_and_groups": {
+                    "config_key": "Users / Groups",
+                    "required_fields": [
+                        {
+                            "upn": "dr.kim@hospitalA.com",
+                            "type": "Guest (B2B)",
+                            "role": "ECG 분석 결과 조회 전용"
+                        },
+                        {
+                            "upn": "ops-team@medicalai.com",
+                            "type": "Group",
+                            "role": "AKS Contributor"
+                        },
+                        {
+                            "upn": "ai-engineer@medicalai.com",
+                            "type": "Member",
+                            "role": "AI Subscription Contributor"
+                        },
+                        {
+                            "upn": "billing-admin@medicalai.com",
+                            "type": "Member",
+                            "role": "MySQL Flexible Server Reader"
+                        }
+                    ]
+                },
+                "app_registration": {
+                    "config_key": "App Registration",
+                    "required_fields": {
+                        "appName": "HospitalA-ECG-Client",
+                        "clientId": "11112222-3333-4444-5555-666677778888",
+                        "tenantId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                        "scope": "api://medicalai-ecg-api/.default",
+                        "grantType": "client_credentials",
+                        "secretExpiry": "1년 (자동 롤오버 필요)"
+                    }
+                },
+                "conditional_access": {
+                    "config_key": "Conditional Access Policy",
+                    "required_fields": [
+                        {
+                            "policyName": "Require-MFA-Ops",
+                            "targetGroup": "ops-team",
+                            "targetApp": "Azure Portal",
+                            "control": "MFA 필수"
+                        },
+                        {
+                            "policyName": "Block-NonKorea",
+                            "namedLocation": "KR 외 모든 국가",
+                            "control": "차단"
+                        },
+                        {
+                            "policyName": "Compliant-Device-AI",
+                            "targetUser": "ai-engineer@medicalai.com",
+                            "targetApp": "AI Subscription",
+                            "control": "Intune 준수 디바이스만 허용"
+                        }
+                    ]
+                },
+                "rbac": {
+                    "config_key": "Role Assignment",
+                    "required_fields": [
+                        {
+                            "scope": "AI Subscription",
+                            "principal": "ai-engineer@medicalai.com",
+                            "role": "Contributor"
+                        },
+                        {
+                            "scope": "AI Subscription",
+                            "principal": "ops-team@medicalai.com",
+                            "role": "Reader"
+                        },
+                        {
+                            "scope": "SW Subscription",
+                            "principal": "ops-team@medicalai.com",
+                            "role": "AKS Cluster Admin (커스텀)"
+                        },
+                        {
+                            "scope": "SW Subscription / MySQL",
+                            "principal": "billing-admin@medicalai.com",
+                            "role": "MySQL Flexible Server Reader"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "service": "Azure Key Vault",
+            "subscription": "Shared Subscription",
+            "features": {
+                "secrets": {
+                    "config_key": "Secret",
+                    "required_fields": [
+                        {
+                            "name": "ecg-db-connection-string",
+                            "value": "<MongoDB 연결 URL>",
+                            "accessPrincipal": "AKS Workload Identity (Managed Identity)"
+                        },
+                        {
+                            "name": "mysql-password",
+                            "value": "<MySQL Flexible Server 비밀번호>",
+                            "accessPrincipal": "AKS Workload Identity (Managed Identity)"
+                        },
+                        {
+                            "name": "rabbitmq-broker-password",
+                            "value": "<RabbitMQ 인증 비밀번호>",
+                            "accessPrincipal": "AKS, Azure VM"
+                        },
+                        {
+                            "name": "pii-masking-aes-key",
+                            "value": "<AES-256 키 (Base64)>",
+                            "accessPrincipal": "온프레미스 PII Masking Container"
+                        },
+                        {
+                            "name": "ssl-cert-api-gateway",
+                            "value": "<TLS 인증서 PFX>",
+                            "accessPrincipal": "AKS Ingress Controller"
+                        },
+                        {
+                            "name": "vpn-psk",
+                            "value": "<VPN 공유 키>",
+                            "accessPrincipal": "Hub Subscription 자동화 스크립트"
+                        }
+                    ]
+                },
+                "access_policy": {
+                    "config_key": "Key Vault Access Policy (또는 RBAC)",
+                    "required_fields": {
+                        "enableRbac": true,
+                        "networkAcl": {
+                            "defaultAction": "Deny",
+                            "allowedVnets": [
+                                "Hub VNet",
+                                "Shared VNet",
+                                "SW VNet",
+                                "AI VNet"
+                            ]
+                        },
+                        "softDelete": true,
+                        "purgeProtection": true
+                    }
+                },
+                "workload_identity_injection": {
+                    "config_key": "AKS + Workload Identity",
+                    "required_fields": {
+                        "federatedCredential": "<AKS ServiceAccount OIDC URL>",
+                        "managedIdentityClientId": "<Managed Identity Client ID>",
+                        "keyVaultUri": "https://medicalai-kv.vault.azure.net/",
+                        "secretProviderClass": "azure-kvname-medicalai"
+                    }
+                }
+            }
+        },
+        {
+            "service": "Azure Kubernetes Service (AKS)",
+            "subscription": "SW Subscription / AI Subscription",
+            "features": {
+                "cluster_config": {
+                    "config_key": "ManagedCluster",
+                    "required_fields": {
+                        "sw_aks": {
+                            "nodePoolSku": "Standard_D4s_v3",
+                            "nodeCount": 3,
+                            "autoscale": {
+                                "min": 3,
+                                "max": 10
+                            },
+                            "networkPlugin": "azure",
+                            "privateCluster": true,
+                            "osDiskType": "Managed"
+                        },
+                        "platform_aks_controller": {
+                            "nodePoolSku": "Standard_D8s_v3",
+                            "nodeCount": 2,
+                            "autoscale": {
+                                "min": 2,
+                                "max": 6
+                            },
+                            "networkPlugin": "azure",
+                            "privateCluster": true
+                        }
+                    }
+                },
+                "microservices": {
+                    "config_key": "Kubernetes Deployment",
+                    "required_fields": [
+                        {
+                            "name": "ecg-ingest-service",
+                            "image": "medicalai.azurecr.io/ecg-ingest:v2.1.0",
+                            "replicas": 3,
+                            "resources": {
+                                "cpu_request": "500m",
+                                "memory_request": "512Mi"
+                            },
+                            "role": "ECG 데이터 수신 및 큐 분류"
+                        },
+                        {
+                            "name": "ecg-result-service",
+                            "image": "medicalai.azurecr.io/ecg-result:v1.8.3",
+                            "replicas": 2,
+                            "role": "AI 분석 결과 조회 API"
+                        },
+                        {
+                            "name": "user-management-service",
+                            "image": "medicalai.azurecr.io/user-mgmt:v3.0.1",
+                            "replicas": 2,
+                            "role": "사용자·기관 관리"
+                        }
+                    ]
+                },
+                "ingress": {
+                    "config_key": "Ingress (NGINX / AGIC)",
+                    "required_fields": {
+                        "host": "api.medicalai.com",
+                        "tlsSecret": "ssl-cert-api-gateway",
+                        "routes": [
+                            {
+                                "path": "/ecg/upload",
+                                "backend": "ecg-ingest-service:8080"
+                            },
+                            {
+                                "path": "/ecg/result",
+                                "backend": "ecg-result-service:8080"
+                            },
+                            {
+                                "path": "/auth",
+                                "backend": "user-management-service:8080"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "service": "Azure Container Apps (ACA)",
+            "subscription": "AI Subscription",
+            "features": {
+                "environment": {
+                    "config_key": "ContainerAppsEnvironment",
+                    "required_fields": {
+                        "name": "aca-env-medicalai-ai",
+                        "subnetCidr": "10.2.3.0/24",
+                        "internalOnly": true,
+                        "logAnalyticsWorkspaceId": "<Log Analytics Workspace ID>"
+                    }
+                },
+                "ai_analysis_app": {
+                    "config_key": "ContainerApp",
+                    "required_fields": {
+                        "name": "ecg-ai-analysis",
+                        "image": "medicalai.azurecr.io/ecg-ai:v4.2.0",
+                        "minReplicas": 1,
+                        "maxReplicas": 10,
+                        "scaleRule": {
+                            "type": "rabbitmq",
+                            "queueName": "ecg.analysis.queue",
+                            "messageThreshold": 50
+                        },
+                        "env": [
+                            {
+                                "name": "MONGODB_URI",
+                                "secretRef": "ecg-db-connection-string"
+                            },
+                            {
+                                "name": "MODEL_PATH",
+                                "value": "/mnt/models/ecg-classifier-v4"
+                            }
+                        ],
+                        "volumes": [
+                            {
+                                "name": "model-volume",
+                                "storageType": "AzureFile",
+                                "storageName": "medicalai-models"
+                            }
+                        ]
+                    }
+                },
+                "private_endpoint": {
+                    "config_key": "Private Endpoint",
+                    "required_fields": {
+                        "targetResource": "aca-env-medicalai-ai",
+                        "subnetId": "<AI Subscription Private Subnet ID>",
+                        "privateDnsZone": "privatelink.azurecontainerapps.io"
+                    }
+                }
+            }
+        },
+        {
+            "service": "RabbitMQ (Azure VM)",
+            "subscription": "SW Subscription",
+            "features": {
+                "cluster_config": {
+                    "config_key": "Azure VM + RabbitMQ 설치",
+                    "required_fields": {
+                        "vmSku": "Standard_D4s_v3",
+                        "nodeCount": 3,
+                        "rabbitmqVersion": "3.13.x",
+                        "mirrorPolicy": "ha-all",
+                        "ports": {
+                            "amqp": 5672,
+                            "management": 15672,
+                            "allowedFrom": "VNet 내부만"
+                        },
+                        "authPassword": "<Key Vault: rabbitmq-broker-password>"
+                    }
+                },
+                "queues": {
+                    "config_key": "Queue 정의",
+                    "required_fields": [
+                        {
+                            "name": "ecg.realtime.queue",
+                            "durable": true,
+                            "producer": "온프레미스 RabbitMQ Producer",
+                            "consumer": "ecg-ingest-service",
+                            "type": "realtime"
+                        },
+                        {
+                            "name": "ecg.batch.queue",
+                            "durable": true,
+                            "producer": "File Format Container (온프레미스)",
+                            "consumer": "ecg-ingest-service",
+                            "type": "batch"
+                        },
+                        {
+                            "name": "ecg.analysis.queue",
+                            "durable": true,
+                            "producer": "ecg-ingest-service",
+                            "consumer": "ACA AI Analysis Module",
+                            "type": "ai_trigger"
+                        },
+                        {
+                            "name": "ecg.result.queue",
+                            "durable": true,
+                            "producer": "ACA AI Analysis Module",
+                            "consumer": "ecg-result-service",
+                            "type": "result_delivery"
+                        }
+                    ]
+                },
+                "message_schema": {
+                    "config_key": "Message Payload (ecg.analysis.queue)",
+                    "required_fields": {
+                        "messageId": "msg-20260420-0923-00187",
+                        "patientToken": "anon-7f3a9b2c",
+                        "recordedAt": "2026-04-20T09:21:00Z",
+                        "format": "XML",
+                        "storageRef": "mongodb://ecg-data/records/anon-7f3a9b2c",
+                        "priority": "normal"
+                    }
+                }
+            }
+        },
+        {
+            "service": "Azure Cosmos DB (MongoDB API)",
+            "subscription": "SW Subscription",
+            "features": {
+                "account_config": {
+                    "config_key": "DatabaseAccount",
+                    "required_fields": {
+                        "kind": "MongoDB",
+                        "mongoVersion": "4.2",
+                        "defaultConsistencyLevel": "Session",
+                        "locations": [
+                            {
+                                "locationName": "Korea Central",
+                                "failoverPriority": 0,
+                                "isZoneRedundant": true
+                            },
+                            {
+                                "locationName": "Korea South",
+                                "failoverPriority": 1,
+                                "isZoneRedundant": false
+                            }
+                        ],
+                        "autoscaleMaxThroughput": 10000,
+                        "publicNetworkAccess": "Disabled",
+                        "privateEndpoint": true
+                    }
+                },
+                "collections": {
+                    "config_key": "Collection 정의",
+                    "required_fields": [
+                        {
+                            "database": "ecg-platform",
+                            "name": "ecg_records",
+                            "shardKey": "tenantId",
+                            "indexes": [
+                                "patientToken",
+                                "recordedAt"
+                            ]
+                        },
+                        {
+                            "database": "ecg-platform",
+                            "name": "analysis_results",
+                            "shardKey": "recordId",
+                            "indexes": [
+                                "analyzedAt",
+                                "riskLevel"
+                            ]
+                        },
+                        {
+                            "database": "ecg-platform",
+                            "name": "audit_logs",
+                            "shardKey": "tenantId",
+                            "ttlSeconds": 7776000
+                        }
+                    ]
+                },
+                "document_schema": {
+                    "config_key": "Document 스키마",
+                    "required_fields": {
+                        "ecg_records": {
+                            "_id": "rec-20260420-000187",
+                            "patientToken": "anon-7f3a9b2c",
+                            "tenantId": "hospital-a",
+                            "recordedAt": "2026-04-20T09:21:00Z",
+                            "format": "XML",
+                            "leads": 12,
+                            "durationSeconds": 30,
+                            "rawDataRef": "/ecg-data/anon-7f3a9b2c/20260420-000187.xml",
+                            "piiMasked": true,
+                            "uploadedAt": "2026-04-20T09:23:47Z"
+                        },
+                        "analysis_results": {
+                            "_id": "result-20260420-000187",
+                            "recordId": "rec-20260420-000187",
+                            "analyzedAt": "2026-04-20T09:24:12Z",
+                            "modelVersion": "ecg-classifier-v4",
+                            "findings": [
+                                {
+                                    "label": "Atrial Fibrillation",
+                                    "confidence": 0.94
+                                },
+                                {
+                                    "label": "Normal Sinus Rhythm",
+                                    "confidence": 0.04
+                                }
+                            ],
+                            "riskLevel": "high",
+                            "reportRef": "/aca-volumes/reports/result-20260420-000187.pdf"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "service": "Azure Database for MySQL Flexible Server",
+            "subscription": "SW Subscription",
+            "features": {
+                "server_config": {
+                    "config_key": "FlexibleServer",
+                    "required_fields": {
+                        "sku": "Standard_D4ds_v4",
+                        "mysqlVersion": "8.0",
+                        "backupRetentionDays": 35,
+                        "highAvailability": {
+                            "mode": "ZoneRedundant",
+                            "standbyZone": "2"
+                        },
+                        "privateAccess": true,
+                        "delegatedSubnet": "<SW Subscription MySQL 서브넷 ID>",
+                        "privateDnsZone": "privatelink.mysql.database.azure.com"
+                    }
+                },
+                "tables": {
+                    "config_key": "스키마 정의",
+                    "required_fields": {
+                        "organizations": {
+                            "org_id": "VARCHAR(36) PK",
+                            "name": "VARCHAR(200)",
+                            "tier": "ENUM('standard','enterprise')",
+                            "region": "VARCHAR(50)",
+                            "created_at": "DATETIME"
+                        },
+                        "billing_records": {
+                            "bill_id": "VARCHAR(36) PK",
+                            "org_id": "VARCHAR(36) FK → organizations",
+                            "period": "VARCHAR(7)",
+                            "ecg_count": "INT",
+                            "amount_krw": "DECIMAL(12,0)",
+                            "status": "ENUM('pending','paid','overdue')"
+                        }
+                    }
+                },
+                "sample_data": {
+                    "config_key": "초기 데이터",
+                    "required_fields": {
+                        "organizations": [
+                            {
+                                "org_id": "hospital-a",
+                                "name": "A대학교병원",
+                                "tier": "enterprise",
+                                "region": "KR-Seoul"
+                            },
+                            {
+                                "org_id": "hospital-b",
+                                "name": "B의원",
+                                "tier": "standard",
+                                "region": "KR-Busan"
+                            }
+                        ],
+                        "billing_records": [
+                            {
+                                "bill_id": "bill-2026-04-ha",
+                                "org_id": "hospital-a",
+                                "period": "2026-04",
+                                "ecg_count": 4823,
+                                "amount_krw": 2411500,
+                                "status": "pending"
+                            },
+                            {
+                                "bill_id": "bill-2026-04-hb",
+                                "org_id": "hospital-b",
+                                "period": "2026-04",
+                                "ecg_count": 312,
+                                "amount_krw": 156000,
+                                "status": "paid"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "service": "Azure Monitor + Grafana",
+            "subscription": "Shared Subscription",
+            "features": {
+                "alert_rules": {
+                    "config_key": "MetricAlertRule",
+                    "required_fields": [
+                        {
+                            "metricName": "cpuUsage",
+                            "resource": "SW AKS",
+                            "threshold": "> 80%",
+                            "windowMinutes": 5,
+                            "actionGroup": "ops-team-slack"
+                        },
+                        {
+                            "metricName": "ecg.analysis.queue depth",
+                            "resource": "RabbitMQ VM",
+                            "threshold": "> 500건",
+                            "actionGroup": "ops-team-pagerduty"
+                        },
+                        {
+                            "metricName": "TotalRequestUnits",
+                            "resource": "Cosmos DB",
+                            "threshold": "> 9000 RU/s",
+                            "actionGroup": "ops-team-email"
+                        },
+                        {
+                            "metricName": "TunnelConnectionStatus",
+                            "resource": "VPN Gateway",
+                            "threshold": "== Disconnected",
+                            "severity": 1,
+                            "actionGroup": "pagerduty-p1"
+                        },
+                        {
+                            "metricName": "CircuitBitsInPerSecond",
+                            "resource": "ExpressRoute",
+                            "threshold": "== NotProvisioned",
+                            "severity": 1,
+                            "actionGroup": "pagerduty-p1"
+                        },
+                        {
+                            "metricName": "ReplicationLagSec",
+                            "resource": "MySQL Flexible Server",
+                            "threshold": "> 30s",
+                            "actionGroup": "dba-team-email"
+                        },
+                        {
+                            "metricName": "errorRate",
+                            "resource": "ACA ecg-ai-analysis",
+                            "threshold": "> 1%",
+                            "actionGroup": "ai-engineer-email"
+                        }
+                    ]
+                },
+                "log_analytics": {
+                    "config_key": "Log Analytics Workspace + KQL",
+                    "required_fields": {
+                        "workspaceName": "medicalai-law",
+                        "retentionDays": 90,
+                        "sample_query": {
+                            "title": "ACA 분석 오류 추적",
+                            "kql": "ContainerLog | where TimeGenerated > ago(1h) | where ContainerName == 'ecg-ai-analysis' | where LogEntry contains 'ERROR' | summarize ErrorCount = count() by bin(TimeGenerated, 5m) | order by TimeGenerated desc"
+                        }
+                    }
+                },
+                "grafana_dashboards": {
+                    "config_key": "Grafana Dashboard",
+                    "required_fields": [
+                        {
+                            "panel": "Network Health",
+                            "datasource": "Azure Monitor",
+                            "metrics": [
+                                "VPN 터널 상태",
+                                "ExpressRoute 회로 상태"
+                            ]
+                        },
+                        {
+                            "panel": "AKS Workloads",
+                            "datasource": "Azure Monitor",
+                            "metrics": [
+                                "Pod 수",
+                                "CPU 사용률",
+                                "Memory 사용률"
+                            ]
+                        },
+                        {
+                            "panel": "Message Queue",
+                            "datasource": "RabbitMQ Exporter",
+                            "metrics": [
+                                "큐별 메시지 수",
+                                "처리 속도(msg/s)"
+                            ]
+                        },
+                        {
+                            "panel": "AI Analysis",
+                            "datasource": "Azure Monitor",
+                            "metrics": [
+                                "분석 처리량",
+                                "응답 지연",
+                                "오류율"
+                            ]
+                        },
+                        {
+                            "panel": "Database",
+                            "datasource": "Azure Monitor",
+                            "metrics": [
+                                "CosmosDB RU",
+                                "MySQL QPS"
+                            ]
+                        },
+                        {
+                            "panel": "Tenant Usage",
+                            "datasource": "Log Analytics",
+                            "metrics": [
+                                "tenantId별 ECG 업로드 건수",
+                                "분석 완료 건수"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "service": "Azure Storage Account",
+            "subscription": "Shared Subscription",
+            "features": {
+                "account_config": {
+                    "config_key": "StorageAccount",
+                    "required_fields": {
+                        "accountName": "medicalaistorage",
+                        "sku": "Standard_ZRS",
+                        "kind": "StorageV2",
+                        "publicNetworkAccess": "Disabled",
+                        "privateEndpoint": true,
+                        "blobSoftDelete": {
+                            "enabled": true,
+                            "retentionDays": 30
+                        }
+                    }
+                },
+                "containers": {
+                    "config_key": "Blob Container / File Share",
+                    "required_fields": [
+                        {
+                            "name": "ai-models",
+                            "type": "blob",
+                            "accessTier": "Hot",
+                            "allowedPrincipal": "ACA Managed Identity"
+                        },
+                        {
+                            "name": "ecg-reports",
+                            "type": "blob",
+                            "accessTier": "Hot",
+                            "allowedPrincipal": "AKS ecg-result-service Managed Identity"
+                        },
+                        {
+                            "name": "diag-logs",
+                            "type": "blob",
+                            "accessTier": "Cool",
+                            "allowedPrincipal": "Azure Monitor"
+                        },
+                        {
+                            "name": "ecg-batch-sync",
+                            "type": "fileshare",
+                            "quota_GiB": 1024,
+                            "allowedPrincipal": "Azure File Sync Agent, ADF"
+                        }
+                    ]
+                },
+                "file_sync": {
+                    "config_key": "Azure File Sync",
+                    "required_fields": {
+                        "syncGroupName": "medicalai-ecg-sync",
+                        "cloudEndpoint": "medicalaistorage / ecg-batch-sync",
+                        "serverEndpoint": "\\\\fileserver\\ecg-export (Hospital A)",
+                        "agentVersion": "v16.x",
+                        "tieringPolicy": {
+                            "volumeFreeSpacePercent": 20
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "service": "Azure Arc",
+            "subscription": "Shared Subscription (관리 평면)",
+            "features": {
+                "arc_enabled_servers": {
+                    "config_key": "Arc-enabled Server",
+                    "required_fields": [
+                        {
+                            "resourceName": "hospitalA-ecg-vm",
+                            "os": "Windows Server 2022",
+                            "location": "서울 데이터센터",
+                            "extensions": [
+                                "MicrosoftMonitoringAgent",
+                                "WindowsPatchExtension"
+                            ],
+                            "tags": {
+                                "hospital": "hospital-a",
+                                "env": "prod"
+                            }
+                        }
+                    ]
+                },
+                "arc_enabled_kubernetes": {
+                    "config_key": "Arc-enabled Kubernetes",
+                    "required_fields": [
+                        {
+                            "clusterName": "hospitalB-k3s",
+                            "distribution": "K3S",
+                            "location": "부산 의원 내부",
+                            "gitopsConfig": {
+                                "repoUrl": "https://github.com/medicalai/k3s-config",
+                                "branch": "hospital-b",
+                                "syncPath": "./k3s/hospital-b/",
+                                "intervalMinutes": 5
+                            }
+                        },
+                        {
+                            "clusterName": "hospitalC-k3s",
+                            "distribution": "K3S",
+                            "location": "대구 의원 내부",
+                            "gitopsConfig": {
+                                "repoUrl": "https://github.com/medicalai/k3s-config",
+                                "branch": "hospital-c",
+                                "syncPath": "./k3s/hospital-c/",
+                                "intervalMinutes": 5
+                            }
+                        }
+                    ]
+                },
+                "azure_policy": {
+                    "config_key": "Policy Assignment (Arc)",
+                    "required_fields": [
+                        {
+                            "policyName": "Windows 보안 패치 자동 설치",
+                            "scope": "Arc-enabled Servers",
+                            "effect": "DeployIfNotExists"
+                        },
+                        {
+                            "policyName": "TLS 1.2 이상 강제",
+                            "scope": "모든 Arc 리소스",
+                            "effect": "Audit",
+                            "complianceAlert": true
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "service": "PII Masking Pipeline (온프레미스)",
+            "subscription": "온프레미스 (Hospital A/B/C/D)",
+            "features": {
+                "containers": {
+                    "config_key": "Docker Container 구성",
+                    "required_fields": {
+                        "baseOs": "Medical AI와 동일 OS 환경",
+                        "realtime_container": {
+                            "name": "realtime-data-container",
+                            "role": "실시간 ECG 스트리밍 수신",
+                            "inputProtocol": "AMQP / HL7 MLLP"
+                        },
+                        "file_container": {
+                            "name": "file-format-data-container",
+                            "role": "배치 파일(XML, DICOM, PDF) 수신",
+                            "inputProtocol": "FTP / SFTP / HTTP"
+                        },
+                        "pii_masking_container": {
+                            "name": "pii-masking-container",
+                            "language": [
+                                "Python",
+                                "Java"
+                            ],
+                            "aesKey": "<Key Vault: pii-masking-aes-key>",
+                            "rules": [
+                                {
+                                    "field": "PatientName",
+                                    "action": "SHA-256 토큰화 → patientToken"
+                                },
+                                {
+                                    "field": "BirthDate",
+                                    "action": "연도만 보존"
+                                },
+                                {
+                                    "field": "SSN",
+                                    "action": "완전 삭제"
+                                },
+                                {
+                                    "field": "HospitalCode",
+                                    "action": "내부 tenantId로 매핑"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "rabbitmq_producer": {
+                    "config_key": "RabbitMQ Producer 설정",
+                    "required_fields": {
+                        "brokerHost": "<Azure RabbitMQ VM 로드밸런서 IP>",
+                        "port": 5672,
+                        "password": "<Key Vault: rabbitmq-broker-password>",
+                        "realtimeQueue": "ecg.realtime.queue",
+                        "batchQueue": "ecg.batch.queue",
+                        "tlsEnabled": true
+                    }
+                },
+                "input_output_schema": {
+                    "config_key": "입출력 데이터 스키마",
+                    "required_fields": {
+                        "input_xml_header": {
+                            "Name": "홍길동",
+                            "BirthDate": "1985-03-22",
+                            "SSN": "850322-1234567",
+                            "HospitalCode": "42601234"
+                        },
+                        "output_xml_header": {
+                            "PatientToken": "anon-7f3a9b2c",
+                            "BirthYear": "1985",
+                            "TenantId": "hospital-a"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "service": "멀티클라우드 연동 (DataSync / ADF / File Sync)",
+            "subscription": "SW Subscription / Shared Subscription",
+            "features": {
+                "aws_datasync": {
+                    "config_key": "AWS DataSync Task",
+                    "required_fields": {
+                        "source": {
+                            "type": "S3",
+                            "bucket": "hospital-d-ecg-raw",
+                            "region": "ap-northeast-2"
+                        },
+                        "destination": {
+                            "type": "Azure Blob",
+                            "storageAccount": "medicalaistorage",
+                            "container": "ecg-batch-sync"
+                        },
+                        "transferPath": "VPN Gateway (AWS VGW ↔ Azure VPN GW)",
+                        "schedule": "매일 02:00 KST",
+                        "estimatedDailyGB": 15
+                    }
+                },
+                "azure_data_factory": {
+                    "config_key": "ADF Pipeline",
+                    "required_fields": [
+                        {
+                            "pipelineName": "gcp-ecg-import",
+                            "source": "GCP Cloud Storage: hospital-e-ecg",
+                            "sink": "Azure Blob: ecg-batch-sync",
+                            "trigger": "매시간",
+                            "linkedService": "GCP Storage Linked Service"
+                        },
+                        {
+                            "pipelineName": "oracle-billing-sync",
+                            "source": "Oracle DB (병원 내부 HIS)",
+                            "sink": "MySQL: billing_records",
+                            "trigger": "매일 01:00 KST",
+                            "linkedService": "Oracle Linked Service"
+                        },
+                        {
+                            "pipelineName": "mssql-patient-token",
+                            "source": "Azure SQL DB (외부 연계 시스템)",
+                            "sink": "MongoDB: ecg_records",
+                            "trigger": "실시간 (Change Event Trigger)",
+                            "linkedService": "Azure SQL Linked Service"
+                        }
+                    ]
+                }
+            }
         }
-      }
-    },
-    {
-      "service": "Azure ExpressRoute",
-      "subscription": "Hub Subscription",
-      "features": {
-        "circuit": {
-          "config_key": "ExpressRouteCircuit",
-          "required_fields": {
-            "serviceProvider": "KT",
-            "peeringLocation": "Seoul2",
-            "bandwidthInMbps": 1000,
-            "sku": {
-              "tier": "Standard",
-              "family": "MeteredData"
-            }
-          }
-        },
-        "private_peering": {
-          "config_key": "ExpressRouteCircuitPeering",
-          "required_fields": {
-            "peeringType": "AzurePrivatePeering",
-            "primaryPeerAddressPrefix": "172.16.0.0/30",
-            "secondaryPeerAddressPrefix": "172.16.0.4/30",
-            "azurePeerIp": "172.16.0.1",
-            "onPremPeerIp": "172.16.0.2",
-            "vlanId": 200,
-            "peerAsn": 65001
-          }
-        },
-        "failover": {
-          "config_key": "BGP Route Priority",
-          "required_fields": {
-            "expressRouteWeight": 0,
-            "vpnGatewayWeight": 100,
-            "note": "ExpressRoute AS Path가 짧으므로 정상 시 항상 우선 선택. 장애 시 VPN으로 자동 전환."
-          }
-        }
-      }
-    },
-    {
-      "service": "Microsoft Entra ID",
-      "subscription": "모든 Subscription 공통",
-      "features": {
-        "tenant": {
-          "config_key": "Entra ID Tenant",
-          "required_fields": {
-            "tenantDomain": "medicalai.onmicrosoft.com",
-            "directoryId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-            "linkedSubscriptions": ["Hub", "Shared", "AI", "SW"]
-          }
-        },
-        "users_and_groups": {
-          "config_key": "Users / Groups",
-          "required_fields": [
-            {
-              "upn": "dr.kim@hospitalA.com",
-              "type": "Guest (B2B)",
-              "role": "ECG 분석 결과 조회 전용"
-            },
-            {
-              "upn": "ops-team@medicalai.com",
-              "type": "Group",
-              "role": "AKS Contributor"
-            },
-            {
-              "upn": "ai-engineer@medicalai.com",
-              "type": "Member",
-              "role": "AI Subscription Contributor"
-            },
-            {
-              "upn": "billing-admin@medicalai.com",
-              "type": "Member",
-              "role": "MySQL Flexible Server Reader"
-            }
-          ]
-        },
-        "app_registration": {
-          "config_key": "App Registration",
-          "required_fields": {
-            "appName": "HospitalA-ECG-Client",
-            "clientId": "11112222-3333-4444-5555-666677778888",
-            "tenantId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-            "scope": "api://medicalai-ecg-api/.default",
-            "grantType": "client_credentials",
-            "secretExpiry": "1년 (자동 롤오버 필요)"
-          }
-        },
-        "conditional_access": {
-          "config_key": "Conditional Access Policy",
-          "required_fields": [
-            {
-              "policyName": "Require-MFA-Ops",
-              "targetGroup": "ops-team",
-              "targetApp": "Azure Portal",
-              "control": "MFA 필수"
-            },
-            {
-              "policyName": "Block-NonKorea",
-              "namedLocation": "KR 외 모든 국가",
-              "control": "차단"
-            },
-            {
-              "policyName": "Compliant-Device-AI",
-              "targetUser": "ai-engineer@medicalai.com",
-              "targetApp": "AI Subscription",
-              "control": "Intune 준수 디바이스만 허용"
-            }
-          ]
-        },
-        "rbac": {
-          "config_key": "Role Assignment",
-          "required_fields": [
-            {
-              "scope": "AI Subscription",
-              "principal": "ai-engineer@medicalai.com",
-              "role": "Contributor"
-            },
-            {
-              "scope": "AI Subscription",
-              "principal": "ops-team@medicalai.com",
-              "role": "Reader"
-            },
-            {
-              "scope": "SW Subscription",
-              "principal": "ops-team@medicalai.com",
-              "role": "AKS Cluster Admin (커스텀)"
-            },
-            {
-              "scope": "SW Subscription / MySQL",
-              "principal": "billing-admin@medicalai.com",
-              "role": "MySQL Flexible Server Reader"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "service": "Azure Key Vault",
-      "subscription": "Shared Subscription",
-      "features": {
-        "secrets": {
-          "config_key": "Secret",
-          "required_fields": [
-            {
-              "name": "ecg-db-connection-string",
-              "value": "<MongoDB 연결 URL>",
-              "accessPrincipal": "AKS Workload Identity (Managed Identity)"
-            },
-            {
-              "name": "mysql-password",
-              "value": "<MySQL Flexible Server 비밀번호>",
-              "accessPrincipal": "AKS Workload Identity (Managed Identity)"
-            },
-            {
-              "name": "rabbitmq-broker-password",
-              "value": "<RabbitMQ 인증 비밀번호>",
-              "accessPrincipal": "AKS, Azure VM"
-            },
-            {
-              "name": "pii-masking-aes-key",
-              "value": "<AES-256 키 (Base64)>",
-              "accessPrincipal": "온프레미스 PII Masking Container"
-            },
-            {
-              "name": "ssl-cert-api-gateway",
-              "value": "<TLS 인증서 PFX>",
-              "accessPrincipal": "AKS Ingress Controller"
-            },
-            {
-              "name": "vpn-psk",
-              "value": "<VPN 공유 키>",
-              "accessPrincipal": "Hub Subscription 자동화 스크립트"
-            }
-          ]
-        },
-        "access_policy": {
-          "config_key": "Key Vault Access Policy (또는 RBAC)",
-          "required_fields": {
-            "enableRbac": true,
-            "networkAcl": {
-              "defaultAction": "Deny",
-              "allowedVnets": ["Hub VNet", "Shared VNet", "SW VNet", "AI VNet"]
-            },
-            "softDelete": true,
-            "purgeProtection": true
-          }
-        },
-        "workload_identity_injection": {
-          "config_key": "AKS + Workload Identity",
-          "required_fields": {
-            "federatedCredential": "<AKS ServiceAccount OIDC URL>",
-            "managedIdentityClientId": "<Managed Identity Client ID>",
-            "keyVaultUri": "https://medicalai-kv.vault.azure.net/",
-            "secretProviderClass": "azure-kvname-medicalai"
-          }
-        }
-      }
-    },
-    {
-      "service": "Azure Kubernetes Service (AKS)",
-      "subscription": "SW Subscription / AI Subscription",
-      "features": {
-        "cluster_config": {
-          "config_key": "ManagedCluster",
-          "required_fields": {
-            "sw_aks": {
-              "nodePoolSku": "Standard_D4s_v3",
-              "nodeCount": 3,
-              "autoscale": { "min": 3, "max": 10 },
-              "networkPlugin": "azure",
-              "privateCluster": true,
-              "osDiskType": "Managed"
-            },
-            "platform_aks_controller": {
-              "nodePoolSku": "Standard_D8s_v3",
-              "nodeCount": 2,
-              "autoscale": { "min": 2, "max": 6 },
-              "networkPlugin": "azure",
-              "privateCluster": true
-            }
-          }
-        },
-        "microservices": {
-          "config_key": "Kubernetes Deployment",
-          "required_fields": [
-            {
-              "name": "ecg-ingest-service",
-              "image": "medicalai.azurecr.io/ecg-ingest:v2.1.0",
-              "replicas": 3,
-              "resources": { "cpu_request": "500m", "memory_request": "512Mi" },
-              "role": "ECG 데이터 수신 및 큐 분류"
-            },
-            {
-              "name": "ecg-result-service",
-              "image": "medicalai.azurecr.io/ecg-result:v1.8.3",
-              "replicas": 2,
-              "role": "AI 분석 결과 조회 API"
-            },
-            {
-              "name": "user-management-service",
-              "image": "medicalai.azurecr.io/user-mgmt:v3.0.1",
-              "replicas": 2,
-              "role": "사용자·기관 관리"
-            }
-          ]
-        },
-        "ingress": {
-          "config_key": "Ingress (NGINX / AGIC)",
-          "required_fields": {
-            "host": "api.medicalai.com",
-            "tlsSecret": "ssl-cert-api-gateway",
-            "routes": [
-              { "path": "/ecg/upload", "backend": "ecg-ingest-service:8080" },
-              { "path": "/ecg/result", "backend": "ecg-result-service:8080" },
-              { "path": "/auth",       "backend": "user-management-service:8080" }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "service": "Azure Container Apps (ACA)",
-      "subscription": "AI Subscription",
-      "features": {
-        "environment": {
-          "config_key": "ContainerAppsEnvironment",
-          "required_fields": {
-            "name": "aca-env-medicalai-ai",
-            "subnetCidr": "10.2.3.0/24",
-            "internalOnly": true,
-            "logAnalyticsWorkspaceId": "<Log Analytics Workspace ID>"
-          }
-        },
-        "ai_analysis_app": {
-          "config_key": "ContainerApp",
-          "required_fields": {
-            "name": "ecg-ai-analysis",
-            "image": "medicalai.azurecr.io/ecg-ai:v4.2.0",
-            "minReplicas": 1,
-            "maxReplicas": 10,
-            "scaleRule": {
-              "type": "rabbitmq",
-              "queueName": "ecg.analysis.queue",
-              "messageThreshold": 50
-            },
-            "env": [
-              { "name": "MONGODB_URI",  "secretRef": "ecg-db-connection-string" },
-              { "name": "MODEL_PATH",   "value": "/mnt/models/ecg-classifier-v4" }
-            ],
-            "volumes": [
-              {
-                "name": "model-volume",
-                "storageType": "AzureFile",
-                "storageName": "medicalai-models"
-              }
-            ]
-          }
-        },
-        "private_endpoint": {
-          "config_key": "Private Endpoint",
-          "required_fields": {
-            "targetResource": "aca-env-medicalai-ai",
-            "subnetId": "<AI Subscription Private Subnet ID>",
-            "privateDnsZone": "privatelink.azurecontainerapps.io"
-          }
-        }
-      }
-    },
-    {
-      "service": "RabbitMQ (Azure VM)",
-      "subscription": "SW Subscription",
-      "features": {
-        "cluster_config": {
-          "config_key": "Azure VM + RabbitMQ 설치",
-          "required_fields": {
-            "vmSku": "Standard_D4s_v3",
-            "nodeCount": 3,
-            "rabbitmqVersion": "3.13.x",
-            "mirrorPolicy": "ha-all",
-            "ports": {
-              "amqp": 5672,
-              "management": 15672,
-              "allowedFrom": "VNet 내부만"
-            },
-            "authPassword": "<Key Vault: rabbitmq-broker-password>"
-          }
-        },
-        "queues": {
-          "config_key": "Queue 정의",
-          "required_fields": [
-            {
-              "name": "ecg.realtime.queue",
-              "durable": true,
-              "producer": "온프레미스 RabbitMQ Producer",
-              "consumer": "ecg-ingest-service",
-              "type": "realtime"
-            },
-            {
-              "name": "ecg.batch.queue",
-              "durable": true,
-              "producer": "File Format Container (온프레미스)",
-              "consumer": "ecg-ingest-service",
-              "type": "batch"
-            },
-            {
-              "name": "ecg.analysis.queue",
-              "durable": true,
-              "producer": "ecg-ingest-service",
-              "consumer": "ACA AI Analysis Module",
-              "type": "ai_trigger"
-            },
-            {
-              "name": "ecg.result.queue",
-              "durable": true,
-              "producer": "ACA AI Analysis Module",
-              "consumer": "ecg-result-service",
-              "type": "result_delivery"
-            }
-          ]
-        },
-        "message_schema": {
-          "config_key": "Message Payload (ecg.analysis.queue)",
-          "required_fields": {
-            "messageId": "msg-20260420-0923-00187",
-            "patientToken": "anon-7f3a9b2c",
-            "recordedAt": "2026-04-20T09:21:00Z",
-            "format": "XML",
-            "storageRef": "mongodb://ecg-data/records/anon-7f3a9b2c",
-            "priority": "normal"
-          }
-        }
-      }
-    },
-    {
-      "service": "Azure Cosmos DB (MongoDB API)",
-      "subscription": "SW Subscription",
-      "features": {
-        "account_config": {
-          "config_key": "DatabaseAccount",
-          "required_fields": {
-            "kind": "MongoDB",
-            "mongoVersion": "4.2",
-            "defaultConsistencyLevel": "Session",
-            "locations": [
-              { "locationName": "Korea Central", "failoverPriority": 0, "isZoneRedundant": true },
-              { "locationName": "Korea South",   "failoverPriority": 1, "isZoneRedundant": false }
-            ],
-            "autoscaleMaxThroughput": 10000,
-            "publicNetworkAccess": "Disabled",
-            "privateEndpoint": true
-          }
-        },
-        "collections": {
-          "config_key": "Collection 정의",
-          "required_fields": [
-            {
-              "database": "ecg-platform",
-              "name": "ecg_records",
-              "shardKey": "tenantId",
-              "indexes": ["patientToken", "recordedAt"]
-            },
-            {
-              "database": "ecg-platform",
-              "name": "analysis_results",
-              "shardKey": "recordId",
-              "indexes": ["analyzedAt", "riskLevel"]
-            },
-            {
-              "database": "ecg-platform",
-              "name": "audit_logs",
-              "shardKey": "tenantId",
-              "ttlSeconds": 7776000
-            }
-          ]
-        },
-        "document_schema": {
-          "config_key": "Document 스키마",
-          "required_fields": {
-            "ecg_records": {
-              "_id": "rec-20260420-000187",
-              "patientToken": "anon-7f3a9b2c",
-              "tenantId": "hospital-a",
-              "recordedAt": "2026-04-20T09:21:00Z",
-              "format": "XML",
-              "leads": 12,
-              "durationSeconds": 30,
-              "rawDataRef": "/ecg-data/anon-7f3a9b2c/20260420-000187.xml",
-              "piiMasked": true,
-              "uploadedAt": "2026-04-20T09:23:47Z"
-            },
-            "analysis_results": {
-              "_id": "result-20260420-000187",
-              "recordId": "rec-20260420-000187",
-              "analyzedAt": "2026-04-20T09:24:12Z",
-              "modelVersion": "ecg-classifier-v4",
-              "findings": [
-                { "label": "Atrial Fibrillation", "confidence": 0.94 },
-                { "label": "Normal Sinus Rhythm", "confidence": 0.04 }
-              ],
-              "riskLevel": "high",
-              "reportRef": "/aca-volumes/reports/result-20260420-000187.pdf"
-            }
-          }
-        }
-      }
-    },
-    {
-      "service": "Azure Database for MySQL Flexible Server",
-      "subscription": "SW Subscription",
-      "features": {
-        "server_config": {
-          "config_key": "FlexibleServer",
-          "required_fields": {
-            "sku": "Standard_D4ds_v4",
-            "mysqlVersion": "8.0",
-            "backupRetentionDays": 35,
-            "highAvailability": {
-              "mode": "ZoneRedundant",
-              "standbyZone": "2"
-            },
-            "privateAccess": true,
-            "delegatedSubnet": "<SW Subscription MySQL 서브넷 ID>",
-            "privateDnsZone": "privatelink.mysql.database.azure.com"
-          }
-        },
-        "tables": {
-          "config_key": "스키마 정의",
-          "required_fields": {
-            "organizations": {
-              "org_id": "VARCHAR(36) PK",
-              "name": "VARCHAR(200)",
-              "tier": "ENUM('standard','enterprise')",
-              "region": "VARCHAR(50)",
-              "created_at": "DATETIME"
-            },
-            "billing_records": {
-              "bill_id": "VARCHAR(36) PK",
-              "org_id": "VARCHAR(36) FK → organizations",
-              "period": "VARCHAR(7)",
-              "ecg_count": "INT",
-              "amount_krw": "DECIMAL(12,0)",
-              "status": "ENUM('pending','paid','overdue')"
-            }
-          }
-        },
-        "sample_data": {
-          "config_key": "초기 데이터",
-          "required_fields": {
-            "organizations": [
-              { "org_id": "hospital-a", "name": "A대학교병원", "tier": "enterprise", "region": "KR-Seoul" },
-              { "org_id": "hospital-b", "name": "B의원",       "tier": "standard",   "region": "KR-Busan" }
-            ],
-            "billing_records": [
-              { "bill_id": "bill-2026-04-ha", "org_id": "hospital-a", "period": "2026-04", "ecg_count": 4823, "amount_krw": 2411500, "status": "pending" },
-              { "bill_id": "bill-2026-04-hb", "org_id": "hospital-b", "period": "2026-04", "ecg_count": 312,  "amount_krw": 156000,  "status": "paid"    }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "service": "Azure Monitor + Grafana",
-      "subscription": "Shared Subscription",
-      "features": {
-        "alert_rules": {
-          "config_key": "MetricAlertRule",
-          "required_fields": [
-            {
-              "metricName": "cpuUsage",
-              "resource": "SW AKS",
-              "threshold": "> 80%",
-              "windowMinutes": 5,
-              "actionGroup": "ops-team-slack"
-            },
-            {
-              "metricName": "ecg.analysis.queue depth",
-              "resource": "RabbitMQ VM",
-              "threshold": "> 500건",
-              "actionGroup": "ops-team-pagerduty"
-            },
-            {
-              "metricName": "TotalRequestUnits",
-              "resource": "Cosmos DB",
-              "threshold": "> 9000 RU/s",
-              "actionGroup": "ops-team-email"
-            },
-            {
-              "metricName": "TunnelConnectionStatus",
-              "resource": "VPN Gateway",
-              "threshold": "== Disconnected",
-              "severity": 1,
-              "actionGroup": "pagerduty-p1"
-            },
-            {
-              "metricName": "CircuitBitsInPerSecond",
-              "resource": "ExpressRoute",
-              "threshold": "== NotProvisioned",
-              "severity": 1,
-              "actionGroup": "pagerduty-p1"
-            },
-            {
-              "metricName": "ReplicationLagSec",
-              "resource": "MySQL Flexible Server",
-              "threshold": "> 30s",
-              "actionGroup": "dba-team-email"
-            },
-            {
-              "metricName": "errorRate",
-              "resource": "ACA ecg-ai-analysis",
-              "threshold": "> 1%",
-              "actionGroup": "ai-engineer-email"
-            }
-          ]
-        },
-        "log_analytics": {
-          "config_key": "Log Analytics Workspace + KQL",
-          "required_fields": {
-            "workspaceName": "medicalai-law",
-            "retentionDays": 90,
-            "sample_query": {
-              "title": "ACA 분석 오류 추적",
-              "kql": "ContainerLog | where TimeGenerated > ago(1h) | where ContainerName == 'ecg-ai-analysis' | where LogEntry contains 'ERROR' | summarize ErrorCount = count() by bin(TimeGenerated, 5m) | order by TimeGenerated desc"
-            }
-          }
-        },
-        "grafana_dashboards": {
-          "config_key": "Grafana Dashboard",
-          "required_fields": [
-            { "panel": "Network Health",  "datasource": "Azure Monitor", "metrics": ["VPN 터널 상태", "ExpressRoute 회로 상태"] },
-            { "panel": "AKS Workloads",   "datasource": "Azure Monitor", "metrics": ["Pod 수", "CPU 사용률", "Memory 사용률"] },
-            { "panel": "Message Queue",   "datasource": "RabbitMQ Exporter", "metrics": ["큐별 메시지 수", "처리 속도(msg/s)"] },
-            { "panel": "AI Analysis",     "datasource": "Azure Monitor", "metrics": ["분석 처리량", "응답 지연", "오류율"] },
-            { "panel": "Database",        "datasource": "Azure Monitor", "metrics": ["CosmosDB RU", "MySQL QPS"] },
-            { "panel": "Tenant Usage",    "datasource": "Log Analytics", "metrics": ["tenantId별 ECG 업로드 건수", "분석 완료 건수"] }
-          ]
-        }
-      }
-    },
-    {
-      "service": "Azure Storage Account",
-      "subscription": "Shared Subscription",
-      "features": {
-        "account_config": {
-          "config_key": "StorageAccount",
-          "required_fields": {
-            "accountName": "medicalaistorage",
-            "sku": "Standard_ZRS",
-            "kind": "StorageV2",
-            "publicNetworkAccess": "Disabled",
-            "privateEndpoint": true,
-            "blobSoftDelete": { "enabled": true, "retentionDays": 30 }
-          }
-        },
-        "containers": {
-          "config_key": "Blob Container / File Share",
-          "required_fields": [
-            { "name": "ai-models",    "type": "blob",       "accessTier": "Hot",  "allowedPrincipal": "ACA Managed Identity" },
-            { "name": "ecg-reports",  "type": "blob",       "accessTier": "Hot",  "allowedPrincipal": "AKS ecg-result-service Managed Identity" },
-            { "name": "diag-logs",    "type": "blob",       "accessTier": "Cool", "allowedPrincipal": "Azure Monitor" },
-            { "name": "ecg-batch-sync", "type": "fileshare", "quota_GiB": 1024,   "allowedPrincipal": "Azure File Sync Agent, ADF" }
-          ]
-        },
-        "file_sync": {
-          "config_key": "Azure File Sync",
-          "required_fields": {
-            "syncGroupName": "medicalai-ecg-sync",
-            "cloudEndpoint": "medicalaistorage / ecg-batch-sync",
-            "serverEndpoint": "\\\\fileserver\\ecg-export (Hospital A)",
-            "agentVersion": "v16.x",
-            "tieringPolicy": { "volumeFreeSpacePercent": 20 }
-          }
-        }
-      }
-    },
-    {
-      "service": "Azure Arc",
-      "subscription": "Shared Subscription (관리 평면)",
-      "features": {
-        "arc_enabled_servers": {
-          "config_key": "Arc-enabled Server",
-          "required_fields": [
-            {
-              "resourceName": "hospitalA-ecg-vm",
-              "os": "Windows Server 2022",
-              "location": "서울 데이터센터",
-              "extensions": ["MicrosoftMonitoringAgent", "WindowsPatchExtension"],
-              "tags": { "hospital": "hospital-a", "env": "prod" }
-            }
-          ]
-        },
-        "arc_enabled_kubernetes": {
-          "config_key": "Arc-enabled Kubernetes",
-          "required_fields": [
-            {
-              "clusterName": "hospitalB-k3s",
-              "distribution": "K3S",
-              "location": "부산 의원 내부",
-              "gitopsConfig": {
-                "repoUrl": "https://github.com/medicalai/k3s-config",
-                "branch": "hospital-b",
-                "syncPath": "./k3s/hospital-b/",
-                "intervalMinutes": 5
-              }
-            },
-            {
-              "clusterName": "hospitalC-k3s",
-              "distribution": "K3S",
-              "location": "대구 의원 내부",
-              "gitopsConfig": {
-                "repoUrl": "https://github.com/medicalai/k3s-config",
-                "branch": "hospital-c",
-                "syncPath": "./k3s/hospital-c/",
-                "intervalMinutes": 5
-              }
-            }
-          ]
-        },
-        "azure_policy": {
-          "config_key": "Policy Assignment (Arc)",
-          "required_fields": [
-            {
-              "policyName": "Windows 보안 패치 자동 설치",
-              "scope": "Arc-enabled Servers",
-              "effect": "DeployIfNotExists"
-            },
-            {
-              "policyName": "TLS 1.2 이상 강제",
-              "scope": "모든 Arc 리소스",
-              "effect": "Audit",
-              "complianceAlert": true
-            }
-          ]
-        }
-      }
-    },
-    {
-      "service": "PII Masking Pipeline (온프레미스)",
-      "subscription": "온프레미스 (Hospital A/B/C/D)",
-      "features": {
-        "containers": {
-          "config_key": "Docker Container 구성",
-          "required_fields": {
-            "baseOs": "Medical AI와 동일 OS 환경",
-            "realtime_container": {
-              "name": "realtime-data-container",
-              "role": "실시간 ECG 스트리밍 수신",
-              "inputProtocol": "AMQP / HL7 MLLP"
-            },
-            "file_container": {
-              "name": "file-format-data-container",
-              "role": "배치 파일(XML, DICOM, PDF) 수신",
-              "inputProtocol": "FTP / SFTP / HTTP"
-            },
-            "pii_masking_container": {
-              "name": "pii-masking-container",
-              "language": ["Python", "Java"],
-              "aesKey": "<Key Vault: pii-masking-aes-key>",
-              "rules": [
-                { "field": "PatientName",   "action": "SHA-256 토큰화 → patientToken" },
-                { "field": "BirthDate",     "action": "연도만 보존" },
-                { "field": "SSN",           "action": "완전 삭제" },
-                { "field": "HospitalCode",  "action": "내부 tenantId로 매핑" }
-              ]
-            }
-          }
-        },
-        "rabbitmq_producer": {
-          "config_key": "RabbitMQ Producer 설정",
-          "required_fields": {
-            "brokerHost": "<Azure RabbitMQ VM 로드밸런서 IP>",
-            "port": 5672,
-            "password": "<Key Vault: rabbitmq-broker-password>",
-            "realtimeQueue": "ecg.realtime.queue",
-            "batchQueue": "ecg.batch.queue",
-            "tlsEnabled": true
-          }
-        },
-        "input_output_schema": {
-          "config_key": "입출력 데이터 스키마",
-          "required_fields": {
-            "input_xml_header": {
-              "Name": "홍길동",
-              "BirthDate": "1985-03-22",
-              "SSN": "850322-1234567",
-              "HospitalCode": "42601234"
-            },
-            "output_xml_header": {
-              "PatientToken": "anon-7f3a9b2c",
-              "BirthYear": "1985",
-              "TenantId": "hospital-a"
-            }
-          }
-        }
-      }
-    },
-    {
-      "service": "멀티클라우드 연동 (DataSync / ADF / File Sync)",
-      "subscription": "SW Subscription / Shared Subscription",
-      "features": {
-        "aws_datasync": {
-          "config_key": "AWS DataSync Task",
-          "required_fields": {
-            "source": {
-              "type": "S3",
-              "bucket": "hospital-d-ecg-raw",
-              "region": "ap-northeast-2"
-            },
-            "destination": {
-              "type": "Azure Blob",
-              "storageAccount": "medicalaistorage",
-              "container": "ecg-batch-sync"
-            },
-            "transferPath": "VPN Gateway (AWS VGW ↔ Azure VPN GW)",
-            "schedule": "매일 02:00 KST",
-            "estimatedDailyGB": 15
-          }
-        },
-        "azure_data_factory": {
-          "config_key": "ADF Pipeline",
-          "required_fields": [
-            {
-              "pipelineName": "gcp-ecg-import",
-              "source": "GCP Cloud Storage: hospital-e-ecg",
-              "sink": "Azure Blob: ecg-batch-sync",
-              "trigger": "매시간",
-              "linkedService": "GCP Storage Linked Service"
-            },
-            {
-              "pipelineName": "oracle-billing-sync",
-              "source": "Oracle DB (병원 내부 HIS)",
-              "sink": "MySQL: billing_records",
-              "trigger": "매일 01:00 KST",
-              "linkedService": "Oracle Linked Service"
-            },
-            {
-              "pipelineName": "mssql-patient-token",
-              "source": "Azure SQL DB (외부 연계 시스템)",
-              "sink": "MongoDB: ecg_records",
-              "trigger": "실시간 (Change Event Trigger)",
-              "linkedService": "Azure SQL Linked Service"
-            }
-          ]
-        }
-      }
-    }
-  ]
+    ]
 }
