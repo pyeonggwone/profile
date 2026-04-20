@@ -1,138 +1,138 @@
 {
-  "offer_type": "SaaS Offer",
-  "description": "Microsoft Commercial Marketplace를 통해 판매되는 SaaS 솔루션 오퍼. Microsoft가 트랜잭션을 처리하며 거래 금액의 3% standard store service fee가 부과됨.",
-  "marketplace_fee": "3%",
-  "policy_reference": "Commercial marketplace certification policies",
-  "sections": [
-    {
-      "id": "transactable_offer",
-      "title": "Transactable Offer 전환",
-      "description": "Published 상태의 SaaS 애플리케이션을 Microsoft가 트랜잭션을 직접 처리하는 Transactable Offer로 전환하는 절차.",
-      "items": [
+    "offer_type": "SaaS Offer",
+    "description": "Microsoft Commercial Marketplace를 통해 판매되는 SaaS 솔루션 오퍼. Microsoft가 트랜잭션을 처리하며 거래 금액의 3% standard store service fee가 부과됨.",
+    "marketplace_fee": "3%",
+    "policy_reference": "Commercial marketplace certification policies",
+    "sections": [
         {
-          "title": "Offer Setup",
-          "description": "Offer setup 탭의 Setup details에서 'Yes'를 선택하여 Transactable Offer를 활성화.",
-          "reference": "Create a SaaS offer in the commercial marketplace - Marketplace publisher | Microsoft Learn"
+            "id": "transactable_offer",
+            "title": "Transactable Offer 전환",
+            "description": "Published 상태의 SaaS 애플리케이션을 Microsoft가 트랜잭션을 직접 처리하는 Transactable Offer로 전환하는 절차.",
+            "items": [
+                {
+                    "title": "Offer Setup",
+                    "description": "Offer setup 탭의 Setup details에서 'Yes'를 선택하여 Transactable Offer를 활성화.",
+                    "reference": "Create a SaaS offer in the commercial marketplace - Marketplace publisher | Microsoft Learn"
+                },
+                {
+                    "title": "Preview Audience",
+                    "description": "오퍼가 공개(live) 되기 전에 미리 검토할 수 있는 Preview Audience를 정의.",
+                    "reference": "Add a preview audience for a SaaS offer in Azure Marketplace - Marketplace publisher | Microsoft Learn"
+                },
+                {
+                    "title": "Supplemental Content",
+                    "description": "SaaS 오퍼의 기능 및 구조 정보를 제출. Marketplace 팀이 오퍼가 Azure 기반이며 listing 정책을 준수하는지 검증하는 데 사용됨.",
+                    "reference": "SaaS offer policies"
+                }
+            ]
         },
         {
-          "title": "Preview Audience",
-          "description": "오퍼가 공개(live) 되기 전에 미리 검토할 수 있는 Preview Audience를 정의.",
-          "reference": "Add a preview audience for a SaaS offer in Azure Marketplace - Marketplace publisher | Microsoft Learn"
+            "id": "technical_configuration",
+            "title": "Technical Configuration",
+            "description": "Commercial Marketplace가 SaaS 애플리케이션과 통신하기 위해 필요한 기술 설정 항목.",
+            "items": [
+                {
+                    "title": "Landing Page URL",
+                    "description": "고객이 오퍼를 구매한 후 이동하는 SaaS 사이트 URL. 신규 구매 및 구독 설정 알림의 유일한 수신 경로이므로 24/7 운영이 필수.",
+                    "reference": "Build the landing page for your transactable SaaS offer in the commercial marketplace - Marketplace publisher | Microsoft Learn"
+                },
+                {
+                    "title": "Connection Webhook",
+                    "description": "Microsoft가 비동기 이벤트(예: 구독 취소)를 전송하는 URL. 24/7 수신 대기 필수. Microsoft는 8시간 동안 최대 500회 재시도하며, 응답 실패 시 해당 작업이 Microsoft 측에서 실패 처리됨.",
+                    "reference": "Implementing a webhook on the SaaS service"
+                },
+                {
+                    "title": "SaaS Fulfillment APIs",
+                    "description": "SaaS 구독의 전체 생명주기(활성화, 사용, 업데이트, 취소)를 관리. Transactable SaaS Offer 게시를 위한 필수 통합 요소.",
+                    "reference": "SaaS Fulfillment APIs - Marketplace publisher | Microsoft Learn"
+                },
+                {
+                    "title": "Azure Active Directory 설정",
+                    "description": "Technical Configuration에 필요한 Azure Active Directory Tenant ID 및 Application ID.",
+                    "reference": "Microsoft Entra ID configuration for your SaaS offer"
+                }
+            ]
         },
         {
-          "title": "Supplemental Content",
-          "description": "SaaS 오퍼의 기능 및 구조 정보를 제출. Marketplace 팀이 오퍼가 Azure 기반이며 listing 정책을 준수하는지 검증하는 데 사용됨.",
-          "reference": "SaaS offer policies"
+            "id": "pricing_models",
+            "title": "Pricing Models",
+            "description": "동일 오퍼 내 모든 플랜은 동일한 Pricing Model을 사용해야 함. 가격은 USD로 입력되며 저장 시점의 환율로 현지 통화로 변환됨. 게시 후 Pricing Model 변경 불가.",
+            "items": [
+                {
+                    "title": "Flat Rate",
+                    "description": "월별 또는 연간 단일 정액 가격 (site-based pricing). Marketplace Metering Service API를 통해 정액 이외의 사용량에 대한 종량제 플랜을 선택적으로 추가 가능."
+                },
+                {
+                    "title": "Per User",
+                    "description": "오퍼에 액세스할 수 있는 사용자 수 기반 가격. 플랜별 최소/최대 사용자 수 설정 가능. 여러 플랜으로 사용자 구간별 가격 구성 가능. 미설정 시 사용자 수 제한 없음으로 해석됨."
+                },
+                {
+                    "title": "Custom Meter Dimensions (소비 기반)",
+                    "description": "Flat Rate 가격 모델에서만 사용 가능. 대역폭, 티켓, 처리된 이메일 수 등 사용자 정의 청구 단위를 설정. 고객은 소비량에 따라 과금되며, 게시자가 Metering Service API로 청구 이벤트를 Microsoft에 보고."
+                },
+                {
+                    "title": "Free Trial",
+                    "description": "플랜별로 1개월 무료 체험을 설정 가능. Marketplace Metering Service를 사용하는 플랜에는 적용 불가."
+                }
+            ]
+        },
+        {
+            "id": "landing_page_options",
+            "title": "Landing Page 및 Webhook 구현 옵션",
+            "description": "Landing Page와 Webhook 구현을 위한 두 가지 접근 방식.",
+            "items": [
+                {
+                    "title": "Option 1: SaaS Accelerator",
+                    "description": "Landing Page, 구독 변경 Webhook, 게시자용 Admin Portal을 포함한 커뮤니티 기반 SaaS 참조 구현체. 며칠이 아닌 몇 시간 내에 Marketplace 게시 가능.",
+                    "components": [
+                        "Landing Page (C#, ASP.NET MVC)",
+                        "Connection Webhook",
+                        "Admin Portal (게시자용 구독 모니터링)",
+                        "Commercial Marketplace SaaS API Emulator (로컬 테스트용)"
+                    ],
+                    "reference": "Mastering the SaaS Accelerator - Mastering the Marketplace (microsoft.github.io)"
+                },
+                {
+                    "title": "Option 2: Custom Landing Page",
+                    "description": "Entra ID App Registration을 포함한 커스텀 Landing Page를 직접 구현. Microsoft 가이드에 따라 Landing Page, Webhook, Fulfillment API를 개별 구성.",
+                    "components": [
+                        "Landing Page with Entra ID App Registration",
+                        "Connection Webhook",
+                        "SaaS Fulfillment API 연동"
+                    ],
+                    "reference": "Build the landing page for your transactable SaaS offer in the commercial marketplace - Marketplace publisher | Microsoft Learn"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "technical_configuration",
-      "title": "Technical Configuration",
-      "description": "Commercial Marketplace가 SaaS 애플리케이션과 통신하기 위해 필요한 기술 설정 항목.",
-      "items": [
+    ],
+    "resources": [
         {
-          "title": "Landing Page URL",
-          "description": "고객이 오퍼를 구매한 후 이동하는 SaaS 사이트 URL. 신규 구매 및 구독 설정 알림의 유일한 수신 경로이므로 24/7 운영이 필수.",
-          "reference": "Build the landing page for your transactable SaaS offer in the commercial marketplace - Marketplace publisher | Microsoft Learn"
+            "title": "Mastering SaaS Offers",
+            "url": "Mastering SaaS offers - Mastering the Marketplace (microsoft.github.io)"
         },
         {
-          "title": "Connection Webhook",
-          "description": "Microsoft가 비동기 이벤트(예: 구독 취소)를 전송하는 URL. 24/7 수신 대기 필수. Microsoft는 8시간 동안 최대 500회 재시도하며, 응답 실패 시 해당 작업이 Microsoft 측에서 실패 처리됨.",
-          "reference": "Implementing a webhook on the SaaS service"
+            "title": "Mastering SaaS Offers for Developers",
+            "url": "Mastering SaaS offers for developers - Mastering the Marketplace (microsoft.github.io)"
         },
         {
-          "title": "SaaS Fulfillment APIs",
-          "description": "SaaS 구독의 전체 생명주기(활성화, 사용, 업데이트, 취소)를 관리. Transactable SaaS Offer 게시를 위한 필수 통합 요소.",
-          "reference": "SaaS Fulfillment APIs - Marketplace publisher | Microsoft Learn"
+            "title": "SaaS Accelerator (GitHub Repository)",
+            "url": "Azure/Commercial-Marketplace-SaaS-Accelerator (GitHub)"
         },
         {
-          "title": "Azure Active Directory 설정",
-          "description": "Technical Configuration에 필요한 Azure Active Directory Tenant ID 및 Application ID.",
-          "reference": "Microsoft Entra ID configuration for your SaaS offer"
+            "title": "Commercial Marketplace SaaS API Emulator (GitHub)",
+            "url": "microsoft/Commercial-Marketplace-SaaS-API-Emulator (GitHub)"
+        },
+        {
+            "title": "SaaS Samples with Metered Engine",
+            "url": "commercial-marketplace-solutions/saas-samples/saas-with-metered-engine (GitHub)"
+        },
+        {
+            "title": "Marketplace API용 Postman Collections",
+            "url": "commercial-marketplace-solutions/saas-samples/saas-with-metered-engine/Postman (GitHub)"
+        },
+        {
+            "title": "Microsoft Commercial Marketplace Transact Capabilities",
+            "url": "Microsoft commercial marketplace transact capabilities - Marketplace publisher | Microsoft Learn"
         }
-      ]
-    },
-    {
-      "id": "pricing_models",
-      "title": "Pricing Models",
-      "description": "동일 오퍼 내 모든 플랜은 동일한 Pricing Model을 사용해야 함. 가격은 USD로 입력되며 저장 시점의 환율로 현지 통화로 변환됨. 게시 후 Pricing Model 변경 불가.",
-      "items": [
-        {
-          "title": "Flat Rate",
-          "description": "월별 또는 연간 단일 정액 가격 (site-based pricing). Marketplace Metering Service API를 통해 정액 이외의 사용량에 대한 종량제 플랜을 선택적으로 추가 가능."
-        },
-        {
-          "title": "Per User",
-          "description": "오퍼에 액세스할 수 있는 사용자 수 기반 가격. 플랜별 최소/최대 사용자 수 설정 가능. 여러 플랜으로 사용자 구간별 가격 구성 가능. 미설정 시 사용자 수 제한 없음으로 해석됨."
-        },
-        {
-          "title": "Custom Meter Dimensions (소비 기반)",
-          "description": "Flat Rate 가격 모델에서만 사용 가능. 대역폭, 티켓, 처리된 이메일 수 등 사용자 정의 청구 단위를 설정. 고객은 소비량에 따라 과금되며, 게시자가 Metering Service API로 청구 이벤트를 Microsoft에 보고."
-        },
-        {
-          "title": "Free Trial",
-          "description": "플랜별로 1개월 무료 체험을 설정 가능. Marketplace Metering Service를 사용하는 플랜에는 적용 불가."
-        }
-      ]
-    },
-    {
-      "id": "landing_page_options",
-      "title": "Landing Page 및 Webhook 구현 옵션",
-      "description": "Landing Page와 Webhook 구현을 위한 두 가지 접근 방식.",
-      "items": [
-        {
-          "title": "Option 1: SaaS Accelerator",
-          "description": "Landing Page, 구독 변경 Webhook, 게시자용 Admin Portal을 포함한 커뮤니티 기반 SaaS 참조 구현체. 며칠이 아닌 몇 시간 내에 Marketplace 게시 가능.",
-          "components": [
-            "Landing Page (C#, ASP.NET MVC)",
-            "Connection Webhook",
-            "Admin Portal (게시자용 구독 모니터링)",
-            "Commercial Marketplace SaaS API Emulator (로컬 테스트용)"
-          ],
-          "reference": "Mastering the SaaS Accelerator - Mastering the Marketplace (microsoft.github.io)"
-        },
-        {
-          "title": "Option 2: Custom Landing Page",
-          "description": "Entra ID App Registration을 포함한 커스텀 Landing Page를 직접 구현. Microsoft 가이드에 따라 Landing Page, Webhook, Fulfillment API를 개별 구성.",
-          "components": [
-            "Landing Page with Entra ID App Registration",
-            "Connection Webhook",
-            "SaaS Fulfillment API 연동"
-          ],
-          "reference": "Build the landing page for your transactable SaaS offer in the commercial marketplace - Marketplace publisher | Microsoft Learn"
-        }
-      ]
-    }
-  ],
-  "resources": [
-    {
-      "title": "Mastering SaaS Offers",
-      "url": "Mastering SaaS offers - Mastering the Marketplace (microsoft.github.io)"
-    },
-    {
-      "title": "Mastering SaaS Offers for Developers",
-      "url": "Mastering SaaS offers for developers - Mastering the Marketplace (microsoft.github.io)"
-    },
-    {
-      "title": "SaaS Accelerator (GitHub Repository)",
-      "url": "Azure/Commercial-Marketplace-SaaS-Accelerator (GitHub)"
-    },
-    {
-      "title": "Commercial Marketplace SaaS API Emulator (GitHub)",
-      "url": "microsoft/Commercial-Marketplace-SaaS-API-Emulator (GitHub)"
-    },
-    {
-      "title": "SaaS Samples with Metered Engine",
-      "url": "commercial-marketplace-solutions/saas-samples/saas-with-metered-engine (GitHub)"
-    },
-    {
-      "title": "Marketplace API용 Postman Collections",
-      "url": "commercial-marketplace-solutions/saas-samples/saas-with-metered-engine/Postman (GitHub)"
-    },
-    {
-      "title": "Microsoft Commercial Marketplace Transact Capabilities",
-      "url": "Microsoft commercial marketplace transact capabilities - Marketplace publisher | Microsoft Learn"
-    }
-  ]
+    ]
 }

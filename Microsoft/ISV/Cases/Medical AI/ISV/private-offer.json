@@ -1,102 +1,102 @@
 {
-  "offer_type": "Private Offer",
-  "description": "특정 고객에게 맞춤형 가격과 조건을 제공하는 Private Offer. 기존 게시된 Public Offer를 기반으로 생성하며 Partner Center에서 관리.",
-  "sections": [
-    {
-      "id": "steps",
-      "title": "Private Offer 생성 단계",
-      "description": "Microsoft Commercial Marketplace에서 Private Offer를 생성하고 고객이 구매까지 완료하는 전체 프로세스.",
-      "steps": [
+    "offer_type": "Private Offer",
+    "description": "특정 고객에게 맞춤형 가격과 조건을 제공하는 Private Offer. 기존 게시된 Public Offer를 기반으로 생성하며 Partner Center에서 관리.",
+    "sections": [
         {
-          "step": 1,
-          "title": "계정 준비",
-          "description": "Private Offer 생성 전 아래 사전 요건을 확인.",
-          "actions": [
-            "Billing Account ID가 올바르게 설정되어 있는지 확인.",
-            "필요한 역할 및 권한 보유 여부 확인 (Marketplace developer, manager, or account owner).",
-            "오퍼가 Partner Center에 이미 게시(Published)되어 Transactable 상태인지 확인.",
-            "Azure Portal의 Private Offer Management 대시보드를 통해 오퍼를 추적 및 관리 가능."
-          ],
-          "reference": "Manage ISV-to-customer private offers - Marketplace publisher | Microsoft Learn"
+            "id": "steps",
+            "title": "Private Offer 생성 단계",
+            "description": "Microsoft Commercial Marketplace에서 Private Offer를 생성하고 고객이 구매까지 완료하는 전체 프로세스.",
+            "steps": [
+                {
+                    "step": 1,
+                    "title": "계정 준비",
+                    "description": "Private Offer 생성 전 아래 사전 요건을 확인.",
+                    "actions": [
+                        "Billing Account ID가 올바르게 설정되어 있는지 확인.",
+                        "필요한 역할 및 권한 보유 여부 확인 (Marketplace developer, manager, or account owner).",
+                        "오퍼가 Partner Center에 이미 게시(Published)되어 Transactable 상태인지 확인.",
+                        "Azure Portal의 Private Offer Management 대시보드를 통해 오퍼를 추적 및 관리 가능."
+                    ],
+                    "reference": "Manage ISV-to-customer private offers - Marketplace publisher | Microsoft Learn"
+                },
+                {
+                    "step": 2,
+                    "title": "Private Offer 생성",
+                    "description": "Partner Center에서 고객별 맞춤 가격 및 조건으로 Private Offer를 생성.",
+                    "actions": [
+                        "Partner Center에 로그인하여 Marketplace Offers Workspace로 이동.",
+                        "좌측 메뉴에서 'Private Offers'를 선택.",
+                        "'+ New Private Offer'를 클릭.",
+                        "고객을 선택하고 설명적인 이름을 입력.",
+                        "오퍼 유형 선택: 기존 Public Offer의 가격 맞춤화 / 새로운 맞춤 플랜 생성 (SaaS 또는 Professional Services) / VM 소프트웨어 예약 (1년 또는 3년).",
+                        "가격(절대값 또는 비율 할인), 미터링 단위, 사용자 제한, 시작/종료일, 법적 조건 (선택 사항, PDF 첨부)을 정의."
+                    ],
+                    "reference": "Manage ISV-to-customer private offers - Marketplace publisher | Microsoft Learn"
+                },
+                {
+                    "step": 3,
+                    "title": "Private Offer 수락",
+                    "description": "고객이 오퍼를 수락하면 게시자와 고객 간의 구속력 있는 계약이 체결됨.",
+                    "actions": [
+                        "고객이 이메일을 수신하거나 Azure Portal에 접속.",
+                        "Private Offer Management 대시보드를 통해 오퍼를 수락."
+                    ],
+                    "reference": "Step 2 - Accept the private offer - Marketplace customer documentation"
+                },
+                {
+                    "step": 4,
+                    "title": "구매 및 구독",
+                    "description": "고객이 Azure Marketplace에서 구매를 완료하고 구독을 활성화.",
+                    "actions": [
+                        "고객이 Azure Marketplace에서 구매를 완료.",
+                        "구매를 구독 및 리소스 그룹에 할당.",
+                        "SaaS 오퍼의 경우 사용 시작을 위해 제품을 활성화(Activate)해야 함."
+                    ],
+                    "reference": "Step 3 - Purchase and Subscribe to the Private Offer - Marketplace customer documentation"
+                }
+            ]
         },
         {
-          "step": 2,
-          "title": "Private Offer 생성",
-          "description": "Partner Center에서 고객별 맞춤 가격 및 조건으로 Private Offer를 생성.",
-          "actions": [
-            "Partner Center에 로그인하여 Marketplace Offers Workspace로 이동.",
-            "좌측 메뉴에서 'Private Offers'를 선택.",
-            "'+ New Private Offer'를 클릭.",
-            "고객을 선택하고 설명적인 이름을 입력.",
-            "오퍼 유형 선택: 기존 Public Offer의 가격 맞춤화 / 새로운 맞춤 플랜 생성 (SaaS 또는 Professional Services) / VM 소프트웨어 예약 (1년 또는 3년).",
-            "가격(절대값 또는 비율 할인), 미터링 단위, 사용자 제한, 시작/종료일, 법적 조건 (선택 사항, PDF 첨부)을 정의."
-          ],
-          "reference": "Manage ISV-to-customer private offers - Marketplace publisher | Microsoft Learn"
-        },
-        {
-          "step": 3,
-          "title": "Private Offer 수락",
-          "description": "고객이 오퍼를 수락하면 게시자와 고객 간의 구속력 있는 계약이 체결됨.",
-          "actions": [
-            "고객이 이메일을 수신하거나 Azure Portal에 접속.",
-            "Private Offer Management 대시보드를 통해 오퍼를 수락."
-          ],
-          "reference": "Step 2 - Accept the private offer - Marketplace customer documentation"
-        },
-        {
-          "step": 4,
-          "title": "구매 및 구독",
-          "description": "고객이 Azure Marketplace에서 구매를 완료하고 구독을 활성화.",
-          "actions": [
-            "고객이 Azure Marketplace에서 구매를 완료.",
-            "구매를 구독 및 리소스 그룹에 할당.",
-            "SaaS 오퍼의 경우 사용 시작을 위해 제품을 활성화(Activate)해야 함."
-          ],
-          "reference": "Step 3 - Purchase and Subscribe to the Private Offer - Marketplace customer documentation"
+            "id": "additional_considerations",
+            "title": "추가 고려 사항",
+            "description": "Private Offer 생성 및 운영 시 주의해야 할 사항.",
+            "items": [
+                {
+                    "title": "중복 오퍼 방지",
+                    "description": "동일 고객, 동일 플랜, 동일 Billing Account ID에 대해 중복된 Private Offer가 존재하지 않도록 확인. 중복 감지 시 제출이 차단됨."
+                },
+                {
+                    "title": "준비 상태 체크리스트",
+                    "description": "Marketplace Private Offer 체크리스트를 참고하여 Billing 설정, 역할 확인, 오퍼 수락 및 구매 흐름을 사전에 검토.",
+                    "reference": "Marketplace private offer checklist"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "additional_considerations",
-      "title": "추가 고려 사항",
-      "description": "Private Offer 생성 및 운영 시 주의해야 할 사항.",
-      "items": [
+    ],
+    "resources": [
         {
-          "title": "중복 오퍼 방지",
-          "description": "동일 고객, 동일 플랜, 동일 Billing Account ID에 대해 중복된 Private Offer가 존재하지 않도록 확인. 중복 감지 시 제출이 차단됨."
+            "title": "ISV-to-Customer Private Offers 관리",
+            "url": "Manage ISV-to-customer private offers - Marketplace publisher | Microsoft Learn"
         },
         {
-          "title": "준비 상태 체크리스트",
-          "description": "Marketplace Private Offer 체크리스트를 참고하여 Billing 설정, 역할 확인, 오퍼 수락 및 구매 흐름을 사전에 검토.",
-          "reference": "Marketplace private offer checklist"
+            "title": "Private Offer 수락 (고객 가이드)",
+            "url": "Step 2 - Accept the private offer - Marketplace customer documentation"
+        },
+        {
+            "title": "Private Offer 구매 및 구독 (고객 가이드)",
+            "url": "Step 3 - Purchase and Subscribe to the Private Offer - Marketplace customer documentation"
+        },
+        {
+            "title": "ISV-to-Customer Private Offers FAQ",
+            "url": "Frequently asked questions about ISV-to-customer private offers - Marketplace publisher | Microsoft Learn"
+        },
+        {
+            "title": "Marketplace Private Offer 체크리스트",
+            "url": "Marketplace private offer checklist"
+        },
+        {
+            "title": "Private Offers 개요 (고객 문서)",
+            "url": "Private offers overview - Marketplace customer documentation"
         }
-      ]
-    }
-  ],
-  "resources": [
-    {
-      "title": "ISV-to-Customer Private Offers 관리",
-      "url": "Manage ISV-to-customer private offers - Marketplace publisher | Microsoft Learn"
-    },
-    {
-      "title": "Private Offer 수락 (고객 가이드)",
-      "url": "Step 2 - Accept the private offer - Marketplace customer documentation"
-    },
-    {
-      "title": "Private Offer 구매 및 구독 (고객 가이드)",
-      "url": "Step 3 - Purchase and Subscribe to the Private Offer - Marketplace customer documentation"
-    },
-    {
-      "title": "ISV-to-Customer Private Offers FAQ",
-      "url": "Frequently asked questions about ISV-to-customer private offers - Marketplace publisher | Microsoft Learn"
-    },
-    {
-      "title": "Marketplace Private Offer 체크리스트",
-      "url": "Marketplace private offer checklist"
-    },
-    {
-      "title": "Private Offers 개요 (고객 문서)",
-      "url": "Private offers overview - Marketplace customer documentation"
-    }
-  ]
+    ]
 }
