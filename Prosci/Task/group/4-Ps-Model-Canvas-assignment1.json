@@ -1,0 +1,141 @@
+{
+    "canvas": "4 P's Model Canvas",
+    "subtitle": "Connecting People to Success",
+    "source": "Prosci, Inc.",
+    "project": {
+        "label": "Project",
+        "question": "What is the project?",
+        "content": {
+            "title": "Structured Microsoft 365 Copilot Adoption",
+            "description": "An internal team (~30 people) is moving from occasional, self-directed use of Microsoft 365 Copilot to a structured, team-wide adoption where Copilot becomes the default tool for common daily work tasks.",
+            "initiative_type": "Internal behavioral change initiative — no new technology deployment",
+            "scope": "One team, ~30 people",
+            "timeline": "3 months",
+            "sponsor": "Department Manager",
+            "delivery_leads": "Team Leads",
+            "tools_in_scope": [
+                "Microsoft 365 Copilot (already licensed and deployed)",
+                "Microsoft Teams",
+                "SharePoint (shared prompt library)"
+            ],
+            "adoption_challenge": {
+                "question": "What percentage of project outcomes depends on people doing their job differently?",
+                "answer": "100%",
+                "rationale": "The technology is already available. The entire outcome depends on whether team members change their daily work habits and use Copilot consistently for routine tasks."
+            }
+        }
+    },
+    "purpose": {
+        "label": "Purpose",
+        "question": "Why are we changing?",
+        "content": {
+            "business_drivers": [
+                "Productivity pressure: team is overloaded and Copilot reduces 20-40 min/day of low-value writing and summarizing tasks",
+                "Wasted license investment: licenses are deployed but usage is below 20%; investment not realized",
+                "Inconsistent output quality: meeting notes, status reports, and emails vary widely across team members",
+                "Credibility gap: a team advising on AI adoption must visibly practice AI use itself",
+                "Future readiness: teams that embed AI habits now build durable productivity advantages"
+            ],
+            "risk_of_not_changing": "Team continues at manual capacity; license spend is sunk with no return; employees fall progressively behind peers who are building AI fluency",
+            "desired_outcomes": [
+                {
+                    "dimension": "Individual",
+                    "outcome": "Each team member saves 20-40 min/day on routine writing and summarizing tasks"
+                },
+                {
+                    "dimension": "Team",
+                    "outcome": "Consistent, higher-quality meeting documentation, status reports, and internal communications"
+                },
+                {
+                    "dimension": "Organizational",
+                    "outcome": "Realized return on Copilot license investment; team positioned as AI-capable for future initiatives"
+                },
+                {
+                    "dimension": "Career",
+                    "outcome": "Team members develop AI fluency that is increasingly expected across all roles"
+                }
+            ]
+        }
+    },
+    "particulars": {
+        "label": "Particulars",
+        "question": "What are we changing?",
+        "content": {
+            "what_is_changing": [
+                {
+                    "task": "Email drafting",
+                    "before": "Written from scratch; often delayed",
+                    "after": "Copilot drafts from bullet points; person reviews and adjusts before sending"
+                },
+                {
+                    "task": "Meeting recap (Teams)",
+                    "before": "Rarely written; notes informal and incomplete",
+                    "after": "Copilot in Teams auto-generates recap and action items; team member reviews and distributes"
+                },
+                {
+                    "task": "Weekly status update",
+                    "before": "Manual write-up each week; repetitive effort",
+                    "after": "Copilot summarizes from emails and notes; person edits and confirms"
+                },
+                {
+                    "task": "Internal document prep",
+                    "before": "Blank-page writing; inconsistent format",
+                    "after": "Copilot generates first draft with structure; person completes and tailors"
+                },
+                {
+                    "task": "Product/feature research",
+                    "before": "Browser search; fragmented reading",
+                    "after": "Copilot summarizes key points from documents and release notes"
+                }
+            ],
+            "what_is_not_changing": [
+                "Individuals remain fully accountable for all content they send or submit",
+                "No AI output goes to external stakeholders without human review",
+                "Personal work style differences are respected — minimum expectation is 3 Copilot-assisted tasks per week"
+            ],
+            "minimum_expectation": "Every team member uses Copilot as their default for at least 3 recurring work tasks within 3 months",
+            "shared_assets_to_build": [
+                "Prompt library (top 5 task types) — shared on SharePoint",
+                "Validation norm: Copilot drafts, human reviews and approves"
+            ]
+        }
+    },
+    "people": {
+        "label": "People",
+        "question": "Who will be changing?",
+        "content": {
+            "groups": [
+                {
+                    "group": "Team Members (~30)",
+                    "current_behavior": "Write emails, recap meetings, and draft reports manually as default",
+                    "required_new_behavior": "Use Copilot first for routine writing tasks; review output and send",
+                    "wiifm": "Reduce daily cognitive load; save 20-40 min/day; stop rewriting the same report every week",
+                    "adkar_starting_point": "Awareness exists; Desire is the gap — most have tried Copilot once but not committed to changing their routine",
+                    "key_resistance_risk": "Too busy with current work; first experience was not useful"
+                },
+                {
+                    "group": "Team Leads (~4)",
+                    "current_behavior": "Work alongside team without differentiating on tool use",
+                    "required_new_behavior": "Use Copilot openly in team settings; share prompts that worked; ask what others tried",
+                    "wiifm": "Build credibility as AI-capable leads; accelerate team performance without extra effort",
+                    "adkar_starting_point": "Generally positive; Ability may vary — some leads more comfortable with AI tools than others",
+                    "key_resistance_risk": "Uncomfortable demonstrating something they have not fully mastered yet"
+                },
+                {
+                    "group": "Department Manager (1)",
+                    "current_behavior": "Verbally supportive of Copilot adoption; no formal communication or governance action",
+                    "required_new_behavior": "Make adoption an explicit team goal; mention it in 1:1s; recognize early adopters; model personal use",
+                    "wiifm": "Demonstrate AI-first leadership; improve team output quality and bandwidth",
+                    "adkar_starting_point": "High Awareness and Desire; Knowledge and Ability gap in active sponsorship behaviors",
+                    "key_resistance_risk": "Limited time; may deprioritize sponsorship actions under competing management demands"
+                }
+            ],
+            "total_impacted": "~35 people",
+            "highest_impact_group": "Team Members (~30) — full behavioral change required in daily work habits",
+            "key_influencers": [
+                "Team Leads — closest to team members; most credible peer role models",
+                "2-3 identified early adopters — to be engaged before team-wide launch"
+            ]
+        }
+    }
+}
