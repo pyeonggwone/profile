@@ -6,7 +6,7 @@
 ## 목적
 
 영어 PPTX 파일을 LLM으로 분석하여 문서 성격을 파악하고, 한글 번역 파일을 자동 생성한다. 다른 PPTX 파일에도 반복 적용 가능한 범용 구조로 설계한다.
-설명자료 생성(STEP 4)은 구현은 되어 있으나 기본 실행에서 제외하며, STEP 1~3 완성을 1차 목표로 한다.
+설명자료 생성(STEP 5)은 구현은 되어 있으나 기본 실행에서 제외하며, STEP 1~4 완성을 1차 목표로 한다.
 
 ---
 
@@ -28,30 +28,29 @@ tqdm==4.67.1
 ## 전체 파이프라인
 
 ```
-[STEP 1] PPTX 로드 + 슬라이드 클리어
+[STEP 1] PPTX 로드
     └─ 원본 파일을 kr/ 경로에 복사하여 번역 작업본 생성
-    └─ kr/ 작업본의 각 슬라이드 내 모든 Shape 제거 (슬라이드 구조는 유지, 재생성 시 중복 방지)
 
-[STEP 2] 슬라이드별 컴포넌트 직렬화 (extractor.py + font_analyzer.py)
-    └─ 원본 PPTX에서 슬라이드별 모든 Shape를 순서대로 순회하여 상태 추출
-    └─ 텍스트 Shape: id, 위치, 크기, paragraphs(텍스트·폰트·bold/italic/size/color)
-    └─ 이미지 Shape: id, 위치, 크기 → work/img/{파일명}/slide_{N}/ 에 .jpg로 저장, 경로 기록
-    └─ 표(Table): id, 위치, 크기, rows(셀별 텍스트·서식)
-    └─ SmartArt·차트: id, 위치, 크기, shape_type만 기록 (내용 직렬화 생략)
-    └─ 슬라이드 노트: 텍스트 추출하여 notes 필드에 저장
-    └─ 출력: work/components/{파일명}/slide_{N}_component.json + slide_{N}_font.json
+[STEP 2] 슬라이드별 컴포넌트 직렬화
+    └─ extractor.py: 슬라이드별로 모든 Shape(텍스트박스·이미지·표 등) 순서대로 순회
+    └─ 각 Shape의 위치·크기·폰트·텍스트·이미지 등 상태를 슬라이드별 JSON으로 저장
+    └─ font_analyzer.py: eng 폰트 수집 → font.json 대조/신규 폰트 LLM 선택 후 저장
 
-[STEP 3] 슬라이드별 JSON 기반 번역 + 재생성
-    └─ translator.py: STEP 2 JSON을 입력으로 슬라이드를 루프로 1장씩 처리
-        3.1 component JSON에서 텍스트 Shape 목록 추출 → 슬라이드 단위 LLM 1회 호출로 일괄 번역
-        3.2 JSON 항목을 순서대로 kr/ 슬라이드에 Shape 삽입, 완료 항목을 상태 JSON에 기록
-        3.3 이미지 → STEP 2에서 저장한 img_path 경로에서 로드하여 삽입
-        3.4 SmartArt·차트 → 동일 위치·크기의 사각형 Shape로 대체 (미구현 placeholder)
-        3.5 슬라이드 완료 시 dict_manager.py로 별도 LLM 호출, 신규 용어 추출 → 사전 업데이트
-        3.6 모든 슬라이드 완료 후 구현 상태 JSON 검증 (미처리 항목 리스트 출력)
+[STEP 3] LLM 문서 성격 분석
+    └─ llm_analyzer.py: 작업본의 슬라이드를 루프로 1장씩 독립 LLM 호출
+    └─ 각 슬라이드 분석 결과를 슬라이드별로 개별 저장 (합치지 않음)
+    └─ 저장 경로: work/analysis/{파일명}/slide_{N}.json
+
+[STEP 4] 슬라이드별 삭제 → 재생성 (번역 포함)
+    └─ translator.py: 작업본의 슬라이드를 루프로 1장씩 처리
+        4.1 해당 슬라이드의 모든 Shape를 순서대로 삭제하고 상태 보관
+        4.2 삭제한 순서대로 Shape를 하나씩 재생성
+        4.3 텍스트 포함 Shape → LLM으로 한글 번역 후 삽입 (사전 참조)
+        4.4 이미지·표 등 비텍스트 Shape → 저장된 상태 그대로 복원
+        4.5 슬라이드 완료 시 dict_manager.py로 별도 LLM 호출, 신규 용어 추출 → 사전 업데이트
     └─ 모든 슬라이드 완료 후 작업본을 _KO.pptx로 저장
 
-[STEP 4] 설명자료 PPTX 생성 (구현 완료, 기본 실행 제외)
+[STEP 5] 설명자료 PPTX 생성 (구현 완료, 기본 실행 제외)
     └─ doc_generator.py: 템플릿 .pptx 기반, LLM이 슬라이드 내용 JSON 생성 → python-pptx로 삽입
     └─ 출력: {원본파일명}_GUIDE.pptx
 ```
@@ -82,22 +81,22 @@ ppt_EN_to_KR/
 ├── font.json                      # 영어→한글 폰트 1:1 대응 누적 저장
 ├── template_guide.pptx            # 설명자료 생성용 템플릿 (STEP 5 전용)
 ├── library/
-│   ├── handler_pptx.py            # .pptx 파일 처리 진입점 (STEP 1~3 순차 호출)
+│   ├── handler_pptx.py            # .pptx 파일 처리 진입점 (STEP 2~5 순차 호출)
 │   ├── handler_ppt.py             # .ppt 파일 처리 진입점 (LibreOffice → temp/ 변환 후 handler_pptx 위임)
-│   ├── extractor.py               # 슬라이드별 컴포넌트 직렬화, slide_{N}_component.json 저장 (STEP 2)
-│   ├── font_analyzer.py           # eng 폰트 수집 + slide_{N}_font.json 저장 (STEP 2 보조)
-│   ├── translator.py              # STEP 2 JSON 기반 LLM 번역 + kr/ 슬라이드 재생성 (STEP 3)
-│   ├── dict_manager.py            # 번역 사전 로드/업데이트, 별도 LLM 호출 (STEP 3 보조)
-│   ├── doc_generator.py           # 설명자료 PPTX 생성 (STEP 4, 기본 실행 제외)
+│   ├── extractor.py               # 텍스트 추출 및 .txt 저장 (STEP 2)
+│   ├── font_analyzer.py           # eng 폰트 수집 + font.json 관리 (STEP 2 보조)
+│   ├── llm_analyzer.py            # LLM 문서 성격 분석, 슬라이드별 독립 호출 후 집계 (STEP 3)
+│   ├── translator.py              # LLM 번역, 슬라이드별 JSON 응답 (STEP 4)
+│   ├── dict_manager.py            # 번역 사전 로드/업데이트, 별도 LLM 호출 (STEP 4 보조)
+│   ├── doc_generator.py           # 설명자료 PPTX 생성 (STEP 5, 기본 실행 제외)
 │   └── progress_manager.py        # 전체 과정 기록용 progress.json 저장/로드
 ├── temp/                          # 임시 파일 경로 (.ppt → .pptx 변환 등, 처리 완료 후 자동 삭제)
 ├── eng/                           # 번역 대상 원본 파일 보관 (.pptx / .ppt)
 ├── kr/                            # 번역 완료 파일 저장 (_KO.pptx)
 ├── done/                          # 번역 완료 후 원본 이동 (eng → done)
 └── work/
-    ├── components/                # STEP 2 출력 ({파일명}/slide_{N}_component.json, slide_{N}_font.json)
-    ├── img/                       # STEP 2 이미지 파일 ({파일명}/slide_{N}/*.jpg)
-    ├── translated/                # STEP 3 구현 상태 .json (슬라이드별)
+    ├── extracted_text/            # STEP 2 출력 .txt (파일별)
+    ├── analysis/                  # STEP 3 분석 결과 .json (파일별)
     └── progress/                  # 파일별 전체 과정 기록 .json
 ```
 
@@ -109,9 +108,10 @@ ppt_EN_to_KR/
 
 | 모듈 | 함수 | 입력 (경로) | 출력 (경로) |
 |------|------|------------|------------|
-| `extractor` | `extract(pptx_path, work_dir)` | 원본 .pptx 경로, work/ 경로 | slide_{N}_component.json, slide_{N}_font.json 저장 |
-| `font_analyzer` | `analyze(pptx_path, font_json_path)` | 원본 .pptx 경로, font.json 경로 | font.json 파일 직접 업데이트 |
-| `translator` | `translate(kr_pptx_path, work_dir, dict_path, font_json_path)` | kr/ 작업본 경로, work/ 경로, 사전 경로, 폰트맵 경로 | kr/ 작업본 파일 직접 수정 |
+| `extractor` | `extract(pptx_path, work_dir)` | 작업본 .pptx 경로, work/ 경로 | 슬라이드별 상태 JSON 저장 경로 |
+| `font_analyzer` | `analyze(pptx_path, font_json_path)` | 작업본 .pptx 경로, font.json 경로 | font.json 파일 직접 업데이트 |
+| `llm_analyzer` | `analyze(pptx_path, work_dir)` | 작업본 .pptx 경로, work/ 경로 | 슬라이드별 분석 JSON 저장 경로 |
+| `translator` | `translate(pptx_path, work_dir, dict_path, font_json_path)` | 작업본 .pptx 경로, work/ 경로, 사전 경로, 폰트맵 경로 | 번역 완료 작업본 파일 직접 수정 |
 | `dict_manager` | `update(original_text, translated_text, dict_path)` | 원문, 번역문, 사전 경로 | translation_dict.json 파일 직접 업데이트 |
 | `progress_manager` | `save(progress_path, data)` / `load(progress_path)` | progress 경로 | progress.json 파일 직접 업데이트 / Dict |
 
@@ -160,10 +160,9 @@ TEMP_DIR=./temp
 ## STEP 2: 텍스트 추출 + 폰트 분석
 
 ### extractor.py
-- python-pptx 라이브러리로 슬라이드별 로드 가능한 모든 컴포넌트를 추출
-- JSON에 컴포넌트 종류별 사전 정의 템플릿 기반으로 배열 저장
-- 해당 슬라이드에 존재하는 컴포넌트만 포함, 없는 컴포넌트 키는 제거
-- 저장 경로: `work/extracted_text/{파일명}/slide_{N}.json`
+- 슬라이드별 텍스트박스, 제목, 표, 노트에서 텍스트 추출
+- 각 텍스트에 ID 부여 (s{N}_shape{N}_para{N})
+- `work/extracted_text/{파일명}.txt` 저장
 
 ### font_analyzer.py
 - python-pptx로 각 Shape의 Run 폰트명 수집
@@ -199,106 +198,79 @@ TEMP_DIR=./temp
 
 ---
 
-## STEP 3: 슬라이드 컴포넌트 직렬화 (llm_analyzer.py)
+## STEP 3: LLM 문서 성격 분석 (llm_analyzer.py)
 
-- LLM 미사용. python-pptx 라이브러리로 슬라이드별 모든 컴포넌트를 추출
-- JSON에 컴포넌트 종류별 사전 정의 템플릿이 존재하며, 컴포넌트 이름별 배열로 저장
-- 해당 슬라이드에 존재하는 컴포넌트만 저장, 없는 컴포넌트 키는 제거
+- 슬라이드 1장 = pptx/ppt의 실제 슬라이드 1장
+- 파일의 전체 슬라이드 수를 먼저 파악 후 루프로 1장씩 순차 처리
+- 각 슬라이드를 **독립 LLM 호출**로 분석 (컨텍스트 초과 방지)
+- 슬라이드별 분석 결과를 **개별 파일로 저장** — 합치지 않음
 - 저장 경로: `work/analysis/{파일명}/slide_{N}.json`
 
 ```json
 // work/analysis/Microsoft Databases narrative L100/slide_1.json
 {
   "slide_num": 1,
-  "text_boxes": [
-    {
-      "id": "s1_shape1",
-      "left": 100, "top": 50, "width": 600, "height": 80,
-      "paragraphs": [
-        {"text": "Cloud Database Modernization", "font": "Calibri", "bold": true, "size": 28, "color": "#000000"}
-      ]
-    }
-  ],
-  "images": [
-    {"id": "s1_shape2", "left": 400, "top": 200, "width": 300, "height": 200}
-  ],
-  "tables": [],
-  "notes": ""
+  "ppt_type": "제품 설명 / 마케팅",
+  "domain": "클라우드, 데이터베이스",
+  "tone": "설명적/설득적",
+  "key_terms": ["database modernization", "Azure SQL"]
 }
 ```
 
 ---
 
-## STEP 3: 슬라이드별 JSON 기반 번역 + 재생성 (translator.py + dict_manager.py)
+## STEP 4: 슬라이드별 삭제 → 재생성 번역 (translator.py + dict_manager.py)
 
 ### 처리 흐름
 
-STEP 2 JSON을 입력으로, STEP 1에서 클리어된 kr/ 슬라이드에 Shape를 삽입한다.
+작업본 파일을 직접 수정. 슬라이드를 루프로 1장씩 처리.
 
 ```
-[전제] STEP 1에서 kr/ 슬라이드 Shape 클리어 완료
-       STEP 2에서 슬라이드별 component JSON 추출 완료
-
 슬라이드 루프 (slide_1 → slide_N):
-  1. slide_{N}_component.json, slide_{N}_font.json 로드
-  2. component JSON의 텍스트 Shape 목록 전체를 슬라이드 단위로 LLM 1회 호출하여 일괄 번역
-     - LLM에 텍스트 Shape 목록을 JSON 배열로 전달 → 번역된 JSON 배열 반환
-     - translation_dict.json entries를 prompt에 참조 포함
-     - protected_terms 번역 제외
-     - 영어 단어가 하나라도 있으면 번역 (LLM이 판단)
-  3. JSON 항목을 순서대로 하나씩 kr/ 슬라이드에 Shape 삽입 (python-pptx):
-     - 텍스트 Shape → 번역된 텍스트 삽입, slide_{N}_font.json 대응 한글 폰트 적용
-     - 이미지 Shape → img_path 경로에서 이미지 로드 후 삽입
-     - 표(Table) → 번역된 셀 텍스트로 표 재생성
-     - 슬라이드 노트 → 번역된 텍스트 삽입
-     - SmartArt·차트 → 동일 위치·크기의 사각형 Shape로 대체 (미구현 placeholder)
-     - 각 항목 완료 시 구현 상태를 work/translated/{파일명}/slide_{N}.json에 기록
+  1. 현재 슬라이드의 모든 Shape를 순서대로 순회하며 상태 기록
+     - 텍스트 Shape: 위치, 크기, 텍스트, 폰트, bold/italic/size/color
+     - 이미지 Shape: 위치, 크기, 이미지 바이너리
+     - 표/기타: 위치, 크기, 원본 XML
+  2. 기록한 순서대로 Shape를 슬라이드에서 삭제
+  3. 기록한 순서대로 Shape를 하나씩 재생성:
+     - 텍스트 포함 Shape이고 영어 텍스트인 경우
+         → LLM 호출 (translation_dict.json 참조) → 한글 번역문으로 삽입
+         → 폰트명은 font.json 대응 한글 폰트로 교체 (None이면 __default__ 사용)
+     - 이미지·표·SmartArt·차트 등 비텍스트 Shape
+         → 저장된 상태 그대로 복원 (번역 없음)
   4. 슬라이드 완료 시 dict_manager.py 호출:
-     - translation_dict.json의 key 목록 추출
-     - 원문 + key 목록을 prompt에 포함
-     - LLM 지시: 리스트에 없는 단어가 있으면 key로 사전에 추가
+     - 해당 슬라이드 원문 + 번역문 전달
+     - LLM이 신규 전문 용어 추출 → translation_dict.json 업데이트
 다음 슬라이드로 이동 → 전체 슬라이드 완료까지 반복
-
-[검증] 모든 슬라이드 완료 후:
-  - work/translated/ 구현 상태 JSON과 STEP 2 component JSON 비교
-  - 미처리 항목(누락 Shape 등) 리스트 출력
 ```
 
 ### LLM 번역 호출 단위
 
-- 입력: slide_{N}_component.json (STEP 2 추출 결과)
-- **슬라이드 1개 = LLM 1회 호출** (텍스트 Shape 전체를 JSON 배열로 일괄 전달)
-- LLM 지시: "영어를 한국어로 번역하라" (단순 번역 명령)
-- LLM이 번역된 텍스트를 JSON 배열로 반환 → python-pptx로 kr/ 슬라이드에 삽입
-- 번역 품질 향상을 위해 `translation_dict.json` entries를 prompt에 참조 포함
-- `protected_terms` 목록 용어는 번역 제외하도록 지시
-
-### 영어 텍스트 판별 기준
-
-- 영어 단어가 **하나라도** 있으면 번역 대상
-- 별도 필터링 없이 LLM이 판단하여 번역
+- 텍스트 Shape 1개 = LLM 1회 호출 (Paragraph 합산 텍스트를 하나의 문자열로)
+- system prompt에 포함: 해당 슬라이드 STEP 3 분석 결과 + translation_dict.json entries + protected_terms
+- LLM이 `protected_terms` 목록의 용어는 번역하지 않도록 지시
 
 ### 번역 처리 범위
 
 | 요소 | 처리 방식 |
 |------|----------|
-| 텍스트 박스 / 제목 | 번역된 텍스트로 Shape 삽입, slide_{N}_font.json 대응 한글 폰트 적용 |
-| 표(Table) 셀 | 번역된 셀 텍스트로 표 재생성 |
-| 슬라이드 노트(Notes) | 번역된 텍스트 삽입 |
-| 이미지 | STEP 2에서 저장한 img_path 경로로 이미지 로드 후 삽입 |
-| SmartArt | 동일 위치·크기의 사각형 Shape로 대체 (placeholder, 미구현) |
-| 차트 | 동일 위치·크기의 사각형 Shape로 대체 (placeholder, 미구현) |
+| 텍스트 박스 / 제목 | 삭제 후 한글 번역문으로 재생성, 서식 유지 |
+| 표(Table) 셀 | 같은 방식, 셀별 처리 |
+| 슬라이드 노트(Notes) | 동일 |
+| 이미지 | 저장된 바이너리 그대로 복원 |
+| SmartArt | 삭제하지 않고 원본 XML 그대로 복원 |
+| 차트 | 삭제하지 않고 원본 XML 그대로 복원 |
 
 ---
 
-## STEP 4: 설명자료 PPTX 생성 (doc_generator.py)
+## STEP 5: 설명자료 PPTX 생성 (doc_generator.py)
 
 > **기본 실행에서 제외. 구현은 완료된 상태로 유지.**
 
 - `template_guide.pptx` 없으면 자동 스킵
 - 템플릿 파일 존재 시:
   1. 템플릿 PPTX 레이아웃/테마 정보를 LLM에 전달
-  2. STEP 2 component JSON (슬라이드 내용) 함께 전달
+  2. STEP 3 분석 결과 함께 전달
   3. LLM이 슬라이드 구성 및 내용을 JSON으로 반환:
      ```json
      {"slides": [{"layout_index": 1, "title": "개요", "body": "..."}, ...]}
@@ -320,6 +292,7 @@ STEP 2 JSON을 입력으로, STEP 1에서 클리어된 kr/ 슬라이드에 Shape
   "steps": {
     "extract": "done",
     "font_analysis": "done",
+    "llm_analysis": "done",
     "translation": "in_progress",
     "dict_update": "pending"
   },
@@ -333,18 +306,18 @@ STEP 2 JSON을 입력으로, STEP 1에서 클리어된 kr/ 슬라이드에 Shape
 ## 실행 방식
 
 ```bash
-# 기본 실행 (STEP 1~3, eng/ 내 모든 PPT/PPTX 자동 처리)
+# 기본 실행 (STEP 1~4, eng/ 내 모든 PPT/PPTX 자동 처리)
 python main.py
 
-# 컴포넌트 추출 재사용 (work/components/ 에 결과가 이미 있는 경우)
-python main.py --skip-extract
+# 분석 재사용 (work/analysis/ 에 결과가 이미 있는 경우)
+python main.py --skip-analysis
 ```
 
 | 옵션 | 설명 |
 |------|------|
-| `--skip-extract` | STEP 2 스킵 (component JSON이 이미 있는 경우) |
+| `--skip-analysis` | STEP 3 스킵 (분석 결과 json이 이미 있는 경우) |
 
-> STEP 4는 기본 실행에서 제외. 별도 플래그 추가 후 호출 가능하도록 구현만 완료.
+> STEP 5는 기본 실행에서 제외. 별도 플래그 추가 후 호출 가능하도록 구현만 완료.
 
 ---
 
@@ -354,11 +327,11 @@ python main.py --skip-extract
 2. 확장자 분기:
    - `.pptx` → `handler_pptx.py` 직접 호출
    - `.ppt` → `handler_ppt.py`: LibreOffice CLI로 `temp/`에 `.pptx` 변환 후 `handler_pptx.py` 위임, 처리 완료 후 `temp/` 파일 삭제
-3. 각 파일에 대해 STEP 1~3 순차 실행 (중단 없이 처음부터 끝까지)
+3. 각 파일에 대해 STEP 1~4 순차 실행 (중단 없이 처음부터 끝까지)
 4. 번역 완료 파일 → `kr/` 저장
 5. 모든 파일 처리 완료 후 `eng/` 내 원본 파일 → `done/` 이동
 
-> **TODO**: API 오류 처리 (rate limit, timeout, JSON 파싱 실패 시 retry 및 fallback 정책) — STEP 1~3 번역 성공 확인 후 구현 예정
+> **TODO**: API 오류 처리 (rate limit, timeout, JSON 파싱 실패 시 retry 및 fallback 정책) — STEP 1~4 번역 성공 확인 후 구현 예정
 
 FONT_MAP_PATH=./font.json
 GUIDE_TEMPLATE_PATH=./template_guide.pptx
@@ -390,10 +363,9 @@ WORK_DIR=./work
 
 ---
 
-## STEP 2: 컴포넌트 추출 및 폰트 분석 (extractor.py + font_analyzer.py)
+## STEP 2: 텍스트 추출 + 폰트 분석 (extractor.py + font_analyzer.py)
 
-- python-pptx 라이브러리로 슬라이드별 로드 가능한 모든 컴포넌트를 추출
-- JSON에 컴포넌트 종류별 사전 정의 템플릿 기반으로 배열 저장 (없는 컴포넌트 키 제거)
+- 슬라이드별로 텍스트박스, 제목, 표, 노트에서 텍스트 추출 → `work/extracted_text/{파일명}.txt` 저장
 - `font_analyzer.py`가 python-pptx로 직접 각 Shape의 Run 폰트명을 수집
   - 추출한 eng 폰트 목록을 `font.json`과 대조
   - 이미 대응 kr 폰트가 등록된 경우 → 해당 매핑 사용
@@ -428,27 +400,19 @@ WORK_DIR=./work
 
 ---
 
-## STEP 3: 슬라이드 컴포넌트 직렬화 (llm_analyzer.py)
+## STEP 3: LLM 문서 성격 분석 (llm_analyzer.py)
 
-- LLM 미사용. python-pptx 라이브러리로 슬라이드별 모든 컴포넌트를 추출
-- 슬라이드 수만큼 순차 처리, 슬라이드별 개별 JSON 파일로 저장
-- 저장 경로: `work/analysis/{파일명}/slide_{N}.json`
+- 컨텍스트 초과 방지: 전체 슬라이드 텍스트를 **한 번에 전달하지 않음**
+- **슬라이드 1개씩** 순차적으로 LLM에 전달하여 분석 누적
+- 최종 분석 결과를 JSON으로 저장: `work/analysis/{파일명}.json`
 
 ```json
 {
-  "slide_num": 1,
-  "text_boxes": [
-    {
-      "id": "s1_shape1",
-      "left": 100, "top": 50, "width": 600, "height": 80,
-      "paragraphs": [
-        {"text": "Cloud Database Modernization", "font": "Calibri", "bold": true, "size": 28, "color": "#000000"}
-      ]
-    }
-  ],
-  "images": [],
-  "tables": [],
-  "notes": ""
+  "ppt_type": "제품 설명 / 마케팅",
+  "domain": "클라우드, 데이터베이스",
+  "tone": "설명적/설득적",
+  "key_terms": ["database modernization", "AI workload", "Azure SQL"],
+  "slide_count": 44
 }
 ```
 
@@ -458,17 +422,12 @@ WORK_DIR=./work
 
 ### 번역 처리 방식
 
-- 입력: 슬라이드별 JSON (STEP 3 추출 결과)
-- **슬라이드 1개 = LLM 1회 호출** (텍스트 Shape 전체를 JSON 배열로 일괄 전달)
-- LLM 지시: "영어를 한국어로 번역하라" (단순 번역 명령)
-- LLM이 번역된 JSON 배열 반환 → python-pptx로 PPTX에 적용
-- 번역 품질 향상을 위해 `translation_dict.json` entries를 prompt에 참조 포함
-- 보호 용어 목록(`protected_terms`) 번역 제외
-
-### 영어 텍스트 판별 기준
-
-- 영어 단어가 **하나라도** 있으면 번역 대상
-- 별도 필터링 없이 LLM이 판단하여 번역
+- 처리 단위: **슬라이드 1개씩** LLM 호출 (컨텍스트 초과 방지)
+- LLM system prompt에 포함되는 context:
+  - STEP 3 분석 결과 (문서 성격, 도메인, 톤)
+  - 번역 사전 (`translation_dict.json` 전체)
+  - 보호 용어 목록 (번역 금지)
+- 번역 대상: 영어 텍스트만 (숫자, URL, 기호, 이미 한국어인 텍스트 원문 유지)
 
 ### Run 병합 및 서식 처리 방식
 
@@ -485,11 +444,8 @@ Paragraph 내 여러 Run의 서식이 혼재하는 문제를 아래 방식으로
 ### 번역 사전 자동 업데이트
 
 - 슬라이드 번역 완료 후 **별도 LLM 호출**로 신규 용어 추출
-- 처리 흐름:
-  1. `translation_dict.json`의 key만 추출하여 리스트업
-  2. 원문 + key 리스트를 prompt에 포함
-  3. LLM 지시: "[용어 리스트] 안에 존재하지 않는 단어가 있다면 해당 단어를 key로 사전에 추가"
-- 추출된 용어를 `translation_dict.json`에 병합 저장
+- 요청 내용: "이 번역에서 사전에 추가할 만한 전문 용어 쌍을 JSON으로 반환"
+- 반환된 용어를 `translation_dict.json`에 병합 저장
 - 기존 `entries`와 충돌 시 기존 값 유지 (덮어쓰기 금지)
 
 ### 번역 처리 범위
@@ -500,9 +456,9 @@ Paragraph 내 여러 Run의 서식이 혼재하는 문제를 아래 방식으로
 | 슬라이드 제목 | 동일 |
 | 표(Table) 셀 | 셀별 동일 처리 |
 | 슬라이드 노트(Notes) | 동일 |
-| 이미지 | work/img/ 디렉토리에 .jpg로 저장, 경로를 JSON에 기록 후 복원 |
-| SmartArt | 동일 위치·크기의 사각형 Shape로 대체 (placeholder, 미구현) |
-| 차트 | 동일 위치·크기의 사각형 Shape로 대체 (placeholder, 미구현) |
+| 이미지 | 원위치 유지 (스킵) |
+| SmartArt 텍스트 | 스킵 |
+| 차트 레이블 | 스킵 |
 
 ---
 
@@ -511,7 +467,7 @@ Paragraph 내 여러 Run의 서식이 혼재하는 문제를 아래 방식으로
 - `template_guide.pptx` 파일이 없으면 이 단계 전체 스킵
 - 템플릿 파일이 존재하면:
   1. 템플릿 PPTX의 레이아웃, 테마, 슬라이드 구성을 LLM에 전달
-  2. STEP 2 component JSON (슬라이드 내용)도 함께 전달
+  2. STEP 3 분석 결과(문서 성격, 도메인, 톤)도 함께 전달
   3. LLM이 템플릿 성격과 원본 PPT 내용을 종합하여 설명자료 슬라이드 구성 및 내용을 직접 판단·생성
   4. 생성된 내용을 템플릿 레이아웃에 삽입하여 `{파일명}_GUIDE.pptx` 저장
 
