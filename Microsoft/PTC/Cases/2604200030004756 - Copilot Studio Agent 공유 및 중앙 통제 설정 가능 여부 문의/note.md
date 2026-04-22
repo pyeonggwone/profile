@@ -1,0 +1,120 @@
+# PTC Case Note
+
+## 1. Basic Information
+
+- Person Name: 김지향
+- Case Name: Copilot Studio Agent 공유 및 중앙 통제 설정 가능 여부 문의
+- Support Area: TPD (Proactive Services ONLY)/Business Applications/Accelerate Innovation with Low Code/Microsoft Copilot Studio/Microsoft Copilot Studio
+- Customer Statement: 개별 사용자가 생성한 Agent의 공유 범위와 관리 방식에 대해 중앙 통제가 가능한 설정 또는 권장 운영 방안 문의. 개인 및 팀/부서 단위 공유는 허용하되, 전사 범위 공유는 중앙 IT 승인 하에 통제하고자 하며, Agent 공유 범위 제한 정책 설정·관리 기능·관리자 승인 기반 배포 아키텍처에 대한 자문을 요청함.
+- Priority / Due Date:
+- Current Status:
+
+## 2. Pre-scoping
+#pre-scoping
+- In scope: Agent sharing scope configuration (user/group level), admin controls to restrict or disable org-wide sharing, admin-approval–based deployment architecture.
+- Out of scope: Custom workflow development beyond native Power Platform capabilities, third-party governance tool integration, agent content or conversation design review.
+- Assumptions:
+  - The customer's tenant uses Power Platform with Copilot Studio (Microsoft 365, Dynamics 365, or standalone Copilot Studio license).
+  - Microsoft Entra ID is used for identity and group-based access management.
+  - A Power Platform admin or Global admin is available to configure environment and DLP policies.
+- Dependencies:
+  - Teams admin policies apply if agents are published to the Microsoft Teams channel.
+  - Managed Environments feature may require Power Platform Premium licensing.
+- Risks / Unknowns:
+  - Not confirmed whether the customer uses the default environment or multiple purpose-segregated environments.
+  - Org-wide distribution channel (Teams vs. direct sharing) has not been clarified.
+  - Current licensing tier has not been verified.
+
+## 3. Scoping
+#Scoping
+### Publishing and Sharing Controls
+
+- Copilot Studio agents can be shared with specific users or Microsoft Entra security groups within a Power Platform environment.
+- Org-wide sharing can be restricted using Managed Environments: the sharing limits feature allows admins to restrict sharing to specific groups rather than the entire organization.
+- Teams app permission policies in the Teams Admin Center can restrict which users or groups can install or use Teams-published agents, including blocking org-wide availability.
+
+### Environment Strategy for Tiered Access
+
+- Recommended pattern: separate environments for personal/team use and for org-wide production deployment.
+- Only admin-approved agents promoted to the production environment are accessible org-wide.
+- Power Platform pipelines support approval gates between environments, enabling admin-approval–based promotion.
+
+### Admin Governance Tools
+
+- Power Platform Admin Center: Controls environment creation, maker access, DLP policies, and tenant-level sharing restrictions.
+- Managed Environments: Enables sharing limits, maker welcome content, and solution checker enforcement. Requires Power Platform Premium licensing.
+- CoE Starter Kit: Provides governance dashboards, usage monitoring, and lifecycle management across all Power Platform assets including Copilot Studio agents.
+
+### Constraints and Additional Validation Needed
+
+- Confirm whether the customer's licensing tier supports Managed Environments (Power Platform Premium or qualifying Dynamics 365 licenses).
+- Clarify whether agents are deployed via Microsoft Teams or other channels to determine which admin controls apply.
+- Verify the current environment structure before recommending an environment strategy.
+
+## 4. Requirement Evaluation
+
+- 핵심 이슈 1: Copilot Studio Agent의 사용자 및 그룹 수준 공유 범위 제한 방법
+- 핵심 이슈 2: 조직 전체(전사) 공유를 제한하거나 비활성화하는 관리 기능 존재 여부
+- 핵심 이슈 3: 관리자 승인 기반 Agent 배포 프로세스를 위한 권장 아키텍처
+- 추가 확인 필요: 현재 사용 라이선스 및 환경 구성 확인 (Managed Environments 사용 가능 여부)
+
+## 5. IR Message Draft
+#IR message
+안녕하세요, TPD 김지향 담당자님!
+
+Microsoft 기술 사전 판매 및 배포 서비스팀에 문의해 주셔서 감사합니다.
+
+PTC의 CSS 파트너 지원 김평권입니다. 함께 검토하게 되어 반갑습니다. 😀
+
+전달해 주신 내용을 바탕으로 현재 사례를 검토 중이며, 아래 항목 중심으로 브리핑 형식의 정보를 정리해 드릴 예정입니다.
+
+제품 / 영역:
+TPD (Proactive Services ONLY)/Business Applications/Accelerate Innovation with Low Code/Microsoft Copilot Studio/Microsoft Copilot Studio
+
+요청 내용:
+개별 사용자가 생성한 Agent의 공유 범위와 관리 방식에 대해 중앙 통제가 가능한 설정 또는 권장 운영 방안 문의. 개인 및 팀/부서 단위 공유는 허용하되, 전사 범위 공유는 중앙 IT 승인 하에 통제하고자 하며, Agent 공유 범위 제한 정책 설정, 조직 전체 공유 비활성화 기능, 관리자 승인 기반 배포 아키텍처에 대한 자문을 요청함.
+
+요구 사항 평가:
+- 핵심 이슈 1: Copilot Studio Agent의 사용자 및 그룹 수준 공유 범위 제한 방법
+- 핵심 이슈 2: 조직 전체(전사) 공유를 제한하거나 비활성화하는 관리 기능 존재 여부
+- 핵심 이슈 3: 관리자 승인 기반 Agent 배포 프로세스를 위한 권장 아키텍처
+- 추가 확인 필요: 현재 사용 라이선스 및 환경 구성 확인 (Managed Environments 사용 가능 여부)
+
+티켓은 정상 접수되었으며 현재 내용을 검토 중입니다. 검토 결과는 순차적으로 안내드리겠습니다.
+
+필요한 경우 Teams에서 연락드리겠습니다. :)
+
+좋은 하루 보내세요. 감사합니다!
+
+김평권 드림
+
+## 6. Research Notes
+#Research
+### 1. Inquiry Summary
+
+The customer wants to centrally control how individually created Copilot Studio agents are shared — allowing personal and team-level sharing while enforcing admin-approval–based controls for org-wide distribution.
+
+### 2. Confirmed Facts
+
+- Copilot Studio agents can be shared with specific users or Microsoft Entra security groups within a Power Platform environment via the Admin Center or the Copilot Studio portal.
+- Managed Environments provides a "sharing limits" feature that allows admins to restrict sharing of agents and apps to specific security groups, preventing unrestricted org-wide distribution.
+- Power Platform pipelines support approval-gated promotion across environments (dev → test → production), providing an admin-approval–based deployment workflow.
+- Teams Admin Center app permission policies allow IT admins to control which users or groups can install and use Teams-deployed agents, including blocking org-wide availability.
+- The CoE Starter Kit provides governance dashboards, lifecycle management, and compliance workflows for all Power Platform assets including Copilot Studio agents.
+- Managed Environments requires Power Platform Premium (per user or per app) or qualifying Dynamics 365 licenses.
+
+### 3. Items Requiring Further Confirmation
+
+- Are agents published to Teams, direct web channels, or other channels? (Determines which admin controls are applicable.)
+- Does the customer's current plan include Managed Environments (Power Platform Premium or Dynamics 365 Enterprise)?
+- What is the current environment structure — single default environment or multiple purpose-segregated environments?
+- Are there existing Microsoft Entra ID security groups available for scoping sharing policy?
+
+### 4. References
+
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-share-bots
+https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-overview
+https://learn.microsoft.com/en-us/power-platform/admin/managed-environment-sharing-limits
+https://learn.microsoft.com/en-us/power-platform/alm/pipelines
+https://learn.microsoft.com/en-us/microsoftteams/manage-apps
+https://learn.microsoft.com/en-us/power-platform/guidance/coe/starter-kit
