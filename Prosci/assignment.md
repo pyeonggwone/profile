@@ -1,7 +1,7 @@
-# Group Prework Assignment – Prosci Change Management Certification
+# Group Prework Assignment - Prosci Change Management Certification
 
 **Class**: Prosci Change Management Certification (Asia)
-**Class Dates**: May 19–21, 2026
+**Class Dates**: May 19-21, 2026
 **Group Submission Deadline**: Per instructor schedule
 
 ---
@@ -9,50 +9,49 @@
 ## 1. Project Summary
 
 ### Project Title
-**Microsoft 365 Copilot Enterprise-Wide Adoption**
+**Structured Microsoft 365 Copilot Adoption - Microsoft PTC Asia Team**
 
 ### What is the change?
-The organization is deploying Microsoft 365 Copilot across all business units, transitioning from traditional knowledge work to AI-assisted workflows. Employees will be expected to use Copilot as their primary AI assistant within Microsoft 365 apps (Teams, Word, Excel, Outlook, PowerPoint, Loop) to enhance productivity, accelerate decision-making, and reduce repetitive manual tasks.
+The Microsoft PTC (Technical Presales and Consulting) Asia team (~35 engineers) is introducing a structured, team-wide adoption of Microsoft 365 Copilot as a standard part of daily work.
 
-This is not simply a technology rollout — it represents a fundamental shift in how individuals and teams are expected to work. The change touches daily habits, information-handling behaviors, and assumptions about job performance.
+Copilot licenses are already available to all team members, but usage today is entirely individual, informal, and inconsistent. Some engineers use it occasionally; most do not use it in any regular way. The change is to move from optional and personal to structured and expected: the team will adopt a common set of Copilot habits for everyday work tasks such as drafting emails, summarizing meetings, preparing internal reports, and staying current on product updates.
+
+This is not a technology rollout - the technology is already there. The change is behavioral: building new habits, shifting the default way of working, and embedding Copilot into team routines that currently happen manually.
 
 ### Why is the change needed?
-- **Competitive pressure**: Peer organizations are already gaining productivity advantages through AI tooling.
-- **Cost efficiency**: Reducing time spent on low-value tasks (e.g., manual summarization, report drafting, inbox triage) allows resources to focus on higher-value output.
-- **Strategic alignment**: This initiative is part of the organization's FY26 digital transformation strategy, aligned with the Microsoft AI transformation journey.
-- **License investment recovery**: Enterprise-wide Copilot licenses have been procured; driving actual usage is critical to realizing ROI.
-- **Risk of not changing**: Employees who do not develop AI proficiency will be progressively disadvantaged relative to peers who do. Organizational productivity gaps will widen.
+- **Capacity**: Every engineer on the team is overloaded. Copilot reduces time spent on repetitive writing, searching, and summarizing tasks, freeing time for higher-value customer work.
+- **Credibility gap**: The PTC team advises customers on AI adoption. If the team itself does not use Copilot in daily work, that gap undermines their credibility.
+- **License utilization**: Microsoft has invested in Copilot licenses across the organization. Low internal usage is both a wasted investment and a missed signal.
+- **Skill development**: Engineers who build Copilot fluency now will be better positioned to advise customers on real-world adoption challenges, based on direct experience.
+- **Risk of not changing**: The team continues to operate at manual capacity. Peer teams and customers who are actively using Copilot will outpace the PTC team in productivity and knowledge depth.
 
 ### Who is affected?
 | Affected Group | Nature of Impact |
 |----------------|-----------------|
-| All employees (~5,000) | New tools, new workflows, behavioral habits must change |
-| Managers / Team Leads | Must model usage, coach their teams, and report on adoption |
-| IT / Help Desk | New support requests, tenant configuration, license management |
-| HR & L&D | Training curriculum redesign, onboarding updates |
-| Compliance & Legal | Policy review for AI-generated content and data handling |
-| Senior Leadership | Sponsorship responsibilities, communication, resource decisions |
+| PTC Engineers (~35) | Must shift daily habits: use Copilot for emails, meeting summaries, internal reports |
+| Team Leads / Sr. CSAs (~5) | Model Copilot usage visibly; guide the team; share examples |
+| CSA Managers (2) | Active sponsor role; communicate priority; define and track success |
 
 ### Scope and Complexity
-- **Scale**: Organization-wide (~5,000 employees across multiple regions and time zones)
-- **Timeline**: 6-month phased rollout (Pilot → Wave 1 → Full Deployment)
-- **System changes**: M365 tenant configuration, policy changes, data governance updates
-- **Process changes**: Meeting documentation, email handling, document creation, reporting workflows
-- **Behavioral changes**: Prompt writing, AI-output validation, privacy-conscious use habits
-- **Complexity factors**: Multi-generational workforce, varied digital literacy, multiple languages, union considerations in some regions
+- **Scale**: ~35 people, one regional team (Asia)
+- **Timeline**: 3 months (FY26 Q4)
+- **Tool**: Microsoft 365 Copilot (already licensed and accessible)
+- **Process changes**: Email drafting, meeting summaries (Teams), weekly status updates, internal document preparation
+- **Behavioral changes**: Shift from manual default to Copilot-first default for writing tasks
+- **Complexity**: Low-to-moderate. No budget, no compliance blockers, no system changes required. Main challenge is habit formation under a busy workload.
 
 ---
 
 ## 2. 4Ps Activity
 
-> The 4Ps framework surfaces the human side of change: Project, Purpose, Particulars, and People.
-
 ### Project
 **What is the initiative?**
 
-This is a strategic enterprise AI adoption program deploying Microsoft 365 Copilot across the full organization. The initiative is sponsored by the Chief Digital Officer and is integrated into the organization's broader FY26 transformation agenda. The three-phase rollout spans six months: a pilot phase (Month 1–2) targeting 200 early adopters, Wave 1 expansion (Month 3–4) to 1,500 users, and full deployment (Month 5–6) to all 5,000 employees.
+This is an internally driven team initiative, sponsored by the CSA Managers and led by Team Leads within the Microsoft PTC Asia organization. There is no external dependency, no procurement, and no IT change required. The initiative uses only what already exists: active Copilot licenses and the team's existing Teams and SharePoint environment.
 
-The project is jointly managed by IT (responsible for deployment and governance), HR/L&D (responsible for training), and a newly formed Change Management function (responsible for adoption outcomes and people readiness).
+The goal is simple: within 3 months, every engineer on the team uses Copilot as their default tool for at least 3 recurring work tasks (e.g., email drafting, meeting recap, weekly summary). The team will build a shared library of prompts that work, and team leads will model usage openly.
+
+This is a grassroots adoption drive within a small, high-skill team. The structure is lightweight. The expectation level is real.
 
 ---
 
@@ -61,265 +60,220 @@ The project is jointly managed by IT (responsible for deployment and governance)
 
 | Dimension | Detail |
 |-----------|--------|
-| **Business outcome** | 20% reduction in time spent on low-value tasks (based on benchmark data from similar deployments) |
-| **Individual outcome** | Each employee gains capacity of ~30–60 min/day through AI-assisted work |
-| **Strategic outcome** | Position the organization as an AI-first enterprise capable of scaling AI use into customer-facing operations |
-| **Risk of not changing** | Widening productivity gap vs. competitors; sunk license costs with no realized value; employee frustration due to under-supported transformation |
-
-The underlying purpose is not "to use Copilot" — it is to enable people to do their best work faster, and to free human judgment for higher-value thinking.
+| **Individual outcome** | Each engineer saves 20-30 min/day on routine writing and summarizing tasks |
+| **Team outcome** | Consistent, higher-quality internal communications and documentation without extra effort |
+| **Strategic outcome** | PTC team builds genuine Copilot fluency, credibly demonstrating what they recommend to customers |
+| **Career outcome** | Engineers develop a differentiated AI skill profile at a time when it matters most |
+| **Risk of not changing** | Team stays overloaded on manual tasks; loses credibility when customers ask do you use it yourself; falls behind peer teams already building AI habits |
 
 ---
 
 ### Particulars
-**What specifically is changing? What are the details of the change?**
+**What specifically is changing?**
 
-| Category | Before State | After State |
-|----------|-------------|------------|
-| Meeting notes | Manual note-taking or no documentation | Copilot in Teams auto-generates summaries and action items |
-| Email handling | Manual reading, drafting, and triaging | Copilot drafts replies, summarizes threads, flags priorities |
-| Document creation | Blank-page drafting, manual formatting | Copilot scaffolds first drafts in Word/PowerPoint |
-| Data analysis | Manual pivot tables, formula writing | Copilot in Excel generates analysis and explains insights |
-| Information retrieval | Search-and-browse | Copilot answers questions from organizational knowledge bases |
-| Job performance definition | Output measured by volume of activity | Output measured by quality and impact of AI-augmented work |
+| Task | Before | After |
+|------|--------|-------|
+| Email drafting | Written from scratch | Copilot drafts from bullet points; engineer reviews and sends |
+| Meeting recap (Teams) | Not written, or manual notes after the fact | Copilot in Teams generates summary and action items; engineer reviews |
+| Weekly status update | Manual write-up each week | Copilot summarizes from notes and emails; engineer edits |
+| Internal document prep | Blank-page writing | Copilot scaffolds structure and first draft |
+| Product/feature research | Browser search + personal notes | Copilot summarizes relevant docs and release notes |
 
-**Key policy changes:**
-- Employees must review and validate all AI-generated outputs before external publication or formal submission.
-- Copilot is governed under the organization's existing data classification policy — no input of Confidential data into General Copilot prompts.
-- Managers will receive monthly Copilot usage analytics dashboards.
+**What is NOT changing:**
+- Engineers remain fully accountable for all content sent to customers or used in decisions
+- No Copilot output is used externally without human review
+- Individual work styles are not mandated beyond the shared minimum (3 tasks using Copilot)
 
 ---
 
 ### People
-**Who has to do something differently, and what does "differently" look like for them?**
+**Who has to do something differently?**
 
-| Group | Current Behavior | Required New Behavior | WIIFM (What's in it for me?) |
-|-------|-----------------|----------------------|------------------------------|
-| Individual Contributors | Work independently using traditional apps | Prompt Copilot, validate output, integrate into workflow | Save 30–60 min/day; reduce tedious work; improve output quality |
-| Managers | Review team outputs manually | Use Copilot to synthesize team updates; coach through example | Faster status awareness; more time for coaching and strategy |
-| HR / L&D | Deliver content-heavy training via slides | Redesign training as 20-min scenario-based modules using Copilot | Modernize L&D brand; demonstrate AI-first culture |
-| IT / Help Desk | Respond to traditional software issues | Support AI-specific issues: prompt guidance, data policy questions | Build new expertise; grow influence as AI enablement champions |
-| Senior Leaders | Delegate AI matters to IT | Actively communicate, participate in Copilot use cases on camera | Lead visible transformation; accelerate team adoption through modeling |
+| Group | Current Behavior | Required New Behavior | WIIFM |
+|-------|-----------------|----------------------|-------|
+| PTC Engineers | Write emails, recap meetings, and draft reports manually | Use Copilot first for these tasks; review and finalize | Save time on tasks that are already happening; reduce cognitive load |
+| Team Leads / Sr. CSAs | Work the same as engineers | Use Copilot visibly in team settings; share prompts that worked; normalize AI-assisted work | Demonstrate leadership in AI fluency; accelerate team performance |
+| CSA Managers | Informally supportive of Copilot | Send clear team communication; ask about it in 1:1s; recognize early adopters | Show AI-first leadership; improve team capacity and satisfaction |
 
 ---
 
 ## 3. PCT Assessment (Prosci Change Triangle)
 
-> The PCT Model assesses whether the three essential elements — Leadership/Sponsorship, Project Management, and Change Management — are sufficiently present and aligned to drive successful outcomes.
-
 ### PCT Summary Scores
 
-| Element | Current Strength (1–5) | Notes |
+| Element | Current Strength (1-5) | Notes |
 |---------|----------------------|-------|
-| Leadership / Sponsorship | 3 | CDO is an active sponsor; middle management alignment is inconsistent |
-| Project Management | 4 | IT-led project is well-scoped with clear milestones; Change integration could be stronger |
-| Change Management | 2 | Formally established but under-resourced; no dedicated CM budget initially |
-| **Overall PCT Health** | **3 / 5** | Risk of adoption failure without dedicated CM resources and mid-management engagement |
+| Leadership / Sponsorship | 3 | Managers support the idea but have not made it an explicit team priority |
+| Project Management | 2 | No plan, no milestones, no tracking - currently just an informal expectation |
+| Change Management | 1 | No ADKAR thinking applied; no structured support for habit change |
+| **Overall PCT Health** | **2 / 5** | High risk of plateau without active sponsorship and change structure |
 
 ---
 
 ### Leadership / Sponsorship Assessment
 
 **Strengths**
-- C-suite sponsorship is confirmed (CDO is primary sponsor)
-- Executive messaging has been included in the program kick-off communication
-- The initiative appears in the company-wide transformation narrative
+- Both CSA Managers are personally interested in Copilot and see the value
+- Microsoft corporate direction strongly supports AI adoption
+- Team leads are curious and technically capable
 
 **Gaps**
-- Middle managers have not received structured sponsorship coaching — many do not know what "active and visible sponsorship" looks like in practice
-- The executive sponsor has not yet conducted a targeted communication specifically for frontline employees
-- No formal sponsor coalition has been built (beyond the CDO)
+- No manager has sent an explicit message stating this is the team priority this quarter
+- Managers have not modeled Copilot usage in any visible way (e.g., sharing a summary they generated in a team meeting)
+- There is no VP-level signal cascading to the team - this currently sits only at manager level
 
 **Required Leadership Decisions**
 | Decision | Status |
 |----------|--------|
-| Scope of rollout (phased vs. full) | ✅ Decided: Phased |
-| Resource allocation for Change Management | ⚠️ Partial: budget is limited |
-| Timeline commitment | ✅ Decided: 6 months |
+| Copilot adoption is an explicit Q4 team priority | Implied but not communicated |
+| Engineers are permitted to spend time building the habit | Not decided; engineers assume it competes with SLAs |
+| What good looks like at end of 3 months | Not defined |
 
 **Required Leadership Actions**
 | Action | Status |
 |--------|--------|
-| Communicate the "why" to all employees | ⚠️ In progress |
-| Build and activate sponsor coalition (VP-level) | ❌ Not started |
-| Remain active and visible throughout the project lifecycle | ❌ Not formally planned |
+| Send a team-wide message stating adoption as a Q4 goal | Not done |
+| Share personal Copilot use example in a team meeting | Not done |
+| Recognize and highlight early adopters publicly | Not done |
+| Ask about Copilot usage in monthly 1:1s | Not done |
 
 ---
 
 ### Project Management Assessment
 
 **Strengths**
-- Clear phased rollout plan with defined milestones
-- IT project team is experienced with M365 deployments
-- Governance structure includes weekly steering committee
+- No budget needed, no procurement, no system change
+- Timeline is short and manageable
+- Team has strong collaboration habits via Teams
 
 **Gaps**
-- Change Management activities are not yet integrated into the project plan
-- No formal Go/No-Go criteria that include adoption readiness (only technical readiness)
-- Training delivery timeline is not synchronized with deployment waves
+- No project plan or milestone timeline exists
+- No shared prompt library has been created
+- No success criteria or tracking mechanism defined
+- No one owns the initiative formally
 
-**Deliverables Planned**
-- Technical deployment plan ✅
-- Training curriculum ⚠️ (in design)
-- Change Management plan ❌ (not yet created)
-- Communications plan ❌ (not yet created)
+**Minimal Plan Needed**
+| Milestone | Target |
+|-----------|--------|
+| Manager communication sent | Week 1 |
+| Shared prompt library published (top 5 tasks) | Week 2 |
+| Each engineer tries Copilot for 1 task | Week 2-3 |
+| First wins shared in team channel | Week 3-4 |
+| Mid-point check-in (qualitative) | Week 6 |
+| End-of-quarter summary | Week 12 |
 
 ---
 
 ### Change Management Assessment
 
 **Strengths**
-- A Change Management practitioner has been assigned (part-time)
-- Awareness of the ADKAR model exists within the CM function
-- Early pilot group is willing to participate in feedback loops
+- Team is technically sophisticated - not intimidated by new tools
+- Small team size makes change management highly manageable
+- Strong collegial culture; peer influence works well
 
 **Gaps**
-- CM resources are insufficient relative to the scale of the change
-- No formal ADKAR assessments have been conducted on impacted groups
-- Resistance management plan does not yet exist
-- Success metrics for adoption are not yet defined
+- No ADKAR assessment has been done - nobody knows where each engineer actually is
+- Most engineers are likely stuck at the Awareness to Desire gap: they know Copilot exists, but have not personally decided it is worth changing their routine
+- No resistance has been explicitly discussed or planned for
+- No reinforcement structure exists after initial push
 
-**Change Management Activities Needed**
-| Activity | Phase | Status |
-|----------|-------|--------|
-| Stakeholder analysis | Phase 1 | ❌ Not started |
-| Change impact assessment | Phase 1 | ⚠️ Partial |
-| Change Management strategy | Phase 1 | ❌ Not started |
-| Sponsor roadmap | Phase 1 | ❌ Not started |
-| Communications plan | Phase 2 | ❌ Not started |
-| Training plan | Phase 2 | ⚠️ In progress (IT-led) |
-| ADKAR status assessments | Phase 2–3 | ❌ Not started |
-| Resistance management | Phase 2 | ❌ Not started |
-| Adoption tracking dashboard | Phase 2–3 | ❌ Not started |
-| Sustainment plan | Phase 3 | ❌ Not started |
+**CM Activities Needed**
+| Activity | Status |
+|----------|--------|
+| Informal ADKAR check (1:1 or quick form) | Not started |
+| Sponsor communication drafted and sent | Not started |
+| Peer role model (early adopter) identified | Not started |
+| Prompt library created for top tasks | Not started |
+| Monthly wins-sharing ritual established | Not started |
 
 ---
 
 ## 4. Risk Assessment
 
-> Identify key risks to successful adoption and define mitigation strategies.
-
 ### Risk Register
 
-| # | Risk | Category | Likelihood (H/M/L) | Impact (H/M/L) | Overall | Mitigation Strategy |
-|---|------|----------|-------------------|----------------|---------|---------------------|
-| 1 | Employees do not see personal value ("WIIFM is unclear") | Awareness / Desire | H | H | **Critical** | Develop targeted role-based communication that articulates concrete time-savings and job-specific use cases before rollout |
-| 2 | Managers do not model Copilot use, undermining adoption | Desire / Sponsorship | H | H | **Critical** | Deliver manager-specific Copilot enablement sessions; create Manager Sponsor Roadmap; measure manager adoption separately |
-| 3 | Employees lack basic prompt-writing skills and give up after early frustration | Knowledge / Ability | H | M | **High** | Provide just-in-time scenario-based training (not one-time event); create prompt libraries by role; ensure help desk readiness |
-| 4 | Data privacy concerns cause employees to avoid Copilot | Awareness / Desire | M | H | **High** | Proactive communication about data boundaries; clear policy guidance; FAQ published before rollout |
-| 5 | Change fatigue from concurrent transformation initiatives | Desire | M | H | **High** | Map this initiative against other ongoing changes; adjust timing of deployment waves where feasible; coordinate messaging |
-| 6 | IT support not equipped to handle Copilot-specific questions | Ability | M | M | **Medium** | Train Help Desk specifically on Copilot; create internal KB articles; escalation path to CM team for adoption issues |
-| 7 | Usage plateaus after initial excitement without reinforcement | Reinforcement | M | H | **High** | Establish monthly recognitions; embed Copilot use in team rituals (standups, retros); track usage metrics and act on dips |
-| 8 | Inconsistent rollout pace creates equity concerns across regions | Project Management | M | M | **Medium** | Communicate phased approach clearly; prioritize high-impact groups in Wave 1; ensure all regions have a defined timeline |
-| 9 | No clear measure of success makes progress invisible | Change Management | L | H | **Medium** | Define adoption KPIs early (e.g., WAU, % employees with 5+ sessions/month, satisfaction score); publish dashboards |
-| 10 | Employees with limited digital literacy are left behind | Ability | M | M | **Medium** | Identify low-digital-literacy segments; provide additional support cohorts; assign buddy system from pilot group |
+| # | Risk | Category | Likelihood | Impact | Overall | Mitigation |
+|---|------|----------|-----------|--------|---------|------------|
+| 1 | I am too busy to try something new right now | Desire / Competing priorities | H | H | **Critical** | Managers explicitly protect 1 hr/week for ramp-up; Copilot must be positioned as saving time, not adding a task |
+| 2 | First experience is poor - generic prompts produce generic output | Ability | H | H | **Critical** | Provide pre-built, PTC-relevant prompts before launch; do not ask engineers to discover use cases on their own |
+| 3 | No peer modeling - nobody sees colleagues using it | Desire / Social norm | H | M | **High** | Team leads go first and share examples; rotate who posts in team channel each week |
+| 4 | Usage spikes then disappears after 2 weeks | Reinforcement | M | H | **High** | Build adoption into existing team rituals; managers mention it in 1:1s; share wins monthly |
+| 5 | I do not trust the output - engineers avoid using it for anything real | Knowledge | M | M | **Medium** | Normalize the review habit: Copilot drafts, engineer approves. Accountability stays with the person. |
+| 6 | No visibility into whether adoption is actually happening | Project Management | M | M | **Medium** | Monthly qualitative check-in: each person shares one thing they tried |
 
 ### Top 3 Risks Requiring Immediate Attention
 
-1. **Employees don't understand WIIFM** – Without a compelling personal reason to adopt, no training or mandate will drive sustainable behavior change.
-2. **Manager sponsorship gap** – Managers are the closest influencers of employee behavior. If they are not actively modeling and coaching, adoption will stall at team level.
-3. **Post-launch reinforcement absent** – Initial curiosity peaks and drops off within 4–6 weeks without structured reinforcement. Absence of a sustainment plan is the most common cause of failed Copilot adoption.
+1. **Too busy** - Without explicit manager permission and protected time, engineers will rationally deprioritize habit-building. This must be solved before anything else.
+2. **Bad first experience** - The first time someone tries Copilot with a vague prompt and gets a useless result, they stop. Pre-built, task-specific prompts are non-negotiable.
+3. **No reinforcement** - New habits formed without reinforcement decay within 2-3 weeks. Structure must be built into existing team rhythms, not added as something extra.
 
 ---
 
 ## 5. Best Practices Research
 
-> Summary of organizational change management best practices relevant to enterprise AI adoption (Copilot deployment context).
+### Best Practice 1: The First Prompt Must Work
+
+**Source**: Prosci Best Practices in Change Management; Microsoft Copilot Adoption Playbook
+
+**Finding**: The single most reliable predictor of continued tool adoption is whether the first experience is useful. For busy professionals, one bad experience is enough to create permanent avoidance. The key is not training - it is removing the cold-start problem by giving people prompts that work immediately for real tasks they already do.
+
+**Application**:
+- Compile and validate 5 prompts for tasks the PTC team does every week: email reply drafting, Teams meeting summary, weekly status report, product update summary, customer Q&A prep
+- Ask 2 early adopters to test and refine the prompts before distributing
+- Share via a brief 2-minute live demo in team stand-up - not a deck, not a training session
 
 ---
 
-### Best Practice 1: Lead with WIIFM, Not Features
+### Best Practice 2: Active Sponsorship Changes Behavior; Passive Support Does Not
 
-**Source**: Prosci Best Practices in Change Management research; Microsoft CCX Adoption Framework
+**Source**: Prosci Best Practices in Change Management (11th edition) - #1 factor in change success
 
-**Finding**: The single most common reason enterprise technology adoption fails is that employees never internalize a personal reason to change. Feature demonstrations and mandatory training do not create Desire. The "What's in it for me?" must be specific to role, team, and daily workflow — not generic.
+**Finding**: Over 20 years of Prosci research consistently identifies active and visible executive sponsorship as the single greatest predictor of successful change. Supportive managers who never visibly act on their support are effectively neutral. Employees read silence as deprioritization.
 
-**Application to this project**:
-- Create role-based Copilot use case libraries for the top 5 job families
-- Embed WIIFM messaging in all manager communication templates
-- First-wave communications must lead with outcomes (saved time, reduced stress, better output), not feature names
-
----
-
-### Best Practice 2: Sponsorship is the #1 Predictor of Success
-
-**Source**: Prosci Best Practices in Change Management (11th edition); Prosci PCT Model research
-
-**Finding**: In over two decades of Prosci research, active and visible executive sponsorship is consistently the #1 contributor to change success. "Active" means the sponsor communicates directly to impacted employees. "Visible" means they are seen using the new way of working.
-
-**Application to this project**:
-- Schedule CDO "Copilot in Action" video series — 3-minute weekly use-case videos sent company-wide
-- Conduct VP-level sponsor coalition workshop to cascade sponsorship responsibilities
-- Include Copilot adoption status in monthly executive business reviews
+**Application**:
+- CSA Managers send one explicit team message: what the goal is, why it matters, and what they personally will try
+- Managers share their own Copilot output (even one email they drafted) in a team meeting
+- Adoption is on the agenda in monthly 1:1s - not as surveillance, but as genuine curiosity: What did you try? What worked?
 
 ---
 
-### Best Practice 3: Build a Sponsor Coalition, Not a Single Champion
+### Best Practice 3: Peer Modeling Is the Most Efficient Adoption Mechanism
 
-**Source**: Prosci Sponsor Roadmap methodology
+**Source**: Prosci resistance management research; social proof theory
 
-**Finding**: A single executive sponsor cannot reach all impacted employees directly. Effective change requires a coalition of sponsors at each hierarchical level, each communicating within their own teams.
+**Finding**: People adopt new behaviors primarily because they see peers - not seniors - doing it successfully. Top-down instruction creates compliance under observation; peer modeling creates internalized adoption.
 
-**Application to this project**:
-- Identify 10–15 VP/Director-level coalition sponsors across all business units
-- Provide each sponsor with a personal roadmap: what to say, when to say it, and how to show up
-- Create a sponsor check-in cadence (monthly 30-min alignment call) throughout the 6-month rollout
-
----
-
-### Best Practice 4: Train Managers Separately and First
-
-**Source**: Prosci People Manager role in change; Microsoft AI adoption research
-
-**Finding**: Managers influence ~70% of the variance in employee adoption outcomes. They need to be trained before employees — both on the tool and on their role as adoption coaches. Generic training with employees undermines manager authority and leaves them unprepared to answer questions.
-
-**Application to this project**:
-- Run Managers-First Copilot workshop 2–3 weeks before each Wave's employee rollout
-- Provide managers with: FAQ for common team concerns, coaching conversation guide, usage metrics for their own team
-- Recognize managers whose teams hit adoption milestones
+**Application**:
+- Identify the 2-3 engineers who are already curious about Copilot and ask them to post one example per week in the team channel (informal: used this today, saved 15 min)
+- Rotate who shares so it distributes across the team and does not feel like one person evangelizing
+- Keep it low-pressure: a Teams message, not a presentation
 
 ---
 
-### Best Practice 5: Measure ADKAR, Not Just Usage Metrics
+### Best Practice 4: Measure Behavior Change, Not Tool Metrics
 
-**Source**: Prosci ADKAR methodology; Change practitioner diagnostics
+**Source**: Prosci ADKAR Ability and Reinforcement elements; Microsoft adoption analytics guidance
 
-**Finding**: Usage data (weekly active users, sessions per user) tells you *what is happening* but not *why* adoption is stalling. Regularly measuring ADKAR status reveals the bottleneck. If employees have Awareness and Desire but not Knowledge, more communications won't help — you need different training. If they have Knowledge but not Ability, they need coaching, not workshops.
+**Finding**: Usage dashboards (sessions, prompts sent) measure activity, not behavior change. A person who opened Copilot once is counted the same as someone who changed how they work. The relevant question is: Has this person actually changed a recurring task? That requires a human conversation, not an analytics report.
 
-**Application to this project**:
-- Conduct ADKAR pulse checks at: post-pilot (Month 2), mid-Wave 1 (Month 3), and post-Wave 1 (Month 4)
-- Share results with managers (aggregate, not individual)
-- Build adaptive response protocols: if Desire score < 3, trigger targeted sponsorship actions; if Ability score < 3, trigger coaching sprints
-
----
-
-### Best Practice 6: Reinforcement Must Be Planned, Not Assumed
-
-**Source**: Prosci Phase 3 – Sustain Outcomes; Microsoft Copilot adoption playbook
-
-**Finding**: Adoption that is not reinforced reverts to prior behavior within weeks. Reinforcement must be active, multi-channel, and tied to recognition. It is not passive (e.g., "we'll send reminder emails").
-
-**Application to this project**:
-- Design a 90-day post-go-live reinforcement calendar per Wave
-- Recognize early adopters publicly in quarterly all-hands; share success stories
-- Embed Copilot habits into existing team rituals (weekly standups, retrospectives, 1:1 check-ins)
-- Surface manager-level usage dashboards monthly with suggested coaching prompts
+**Application**:
+- Monthly check-in question to each engineer: Name one task you now do differently because of Copilot.
+- If they cannot name one, that is the signal - not a low usage number
+- Managers use the answer to diagnose where the person is in ADKAR and respond accordingly
 
 ---
 
-### Best Practice 7: Address Resistance Proactively, Not Reactively
+### Best Practice 5: Reinforce the New Behavior Before the Old One Returns
 
-**Source**: Prosci Resistance Management methodology
+**Source**: Prosci Phase 3 - Sustain Outcomes; ADKAR Reinforcement element
 
-**Finding**: Resistance is a natural and predictable human response to change. It does not represent failure — unmanaged resistance does. Identifying the likely sources and forms of resistance in advance allows the CM team to prepare specific responses rather than improvise.
+**Finding**: Reinforcement is the most consistently neglected phase of change management. New behaviors without reinforcement revert to prior defaults - especially when the prior behavior is deeply practiced and the new behavior requires extra cognitive effort. For Copilot adoption, usage peaks around weeks 2-3 and decays within 30 days without active reinforcement.
 
-**Likely Resistance Profiles for Copilot Adoption**:
-| Resistance Type | Likely Driver | Response Strategy |
-|----------------|--------------|------------------|
-| "I don't trust AI output" | Awareness / Knowledge gap | Provide validation framework; clarify human remains responsible |
-| "This will replace my job" | Fear / Desire gap | Direct, honest messaging from leadership; reframe as augmentation |
-| "I don't have time to learn this" | Competing priorities | Micro-learning (10-min sessions); just-in-time format; manager support |
-| "It didn't work when I tried it" | Ability gap / poor prompt skills | Prompt libraries; buddy program with pilot group; Help Desk escalation |
-| "My team doesn't use it, so why should I?" | Social norm / Desire | Manager modeling; team adoption tracking; peer recognition programs |
+**Application**:
+- Week 1-4: Share one team win per week in the channel, no matter how small
+- Month 2: Each engineer names one task that is now permanently Copilot-assisted - this becomes a team norm
+- Month 3: Team lead runs a 15-minute retrospective: what we kept, what did not stick, what we will keep going
+- Manager recognition: Most useful prompt this month - just a Teams shoutout, but it matters
 
 ---
 
@@ -327,14 +281,14 @@ The underlying purpose is not "to use Copilot" — it is to enable people to do 
 
 | Task | Owner | Status | Due |
 |------|-------|--------|-----|
-| Project Summary Submission | Group Lead | ✅ Complete | Apr 21, 2026 |
-| Instructor Approval of Project | Instructor | ⏳ Pending | After Apr 21 |
-| 4Ps Activity | All members | ✅ Complete | Apr 28, 2026 |
-| PCT Assessment | All members | ✅ Complete | Apr 28, 2026 |
-| Risk Assessment | All members | ✅ Complete | Apr 28, 2026 |
+| Project Summary Submission | Group Lead | Complete | Apr 21, 2026 |
+| Instructor Approval of Project | Instructor | Pending | After Apr 21 |
+| 4Ps Activity | All members | Complete | Apr 28, 2026 |
+| PCT Assessment | All members | Complete | Apr 28, 2026 |
+| Risk Assessment | All members | Complete | Apr 28, 2026 |
 | Instructor Check-in Call | All members | Scheduled | Week of Apr 27 |
-| Best Practices Research | All members | ✅ Complete | May 5, 2026 |
-| Class Participation (3 days) | All members | — | May 19–21, 2026 |
+| Best Practices Research | All members | Complete | May 5, 2026 |
+| Class Participation (3 days) | All members | - | May 19-21, 2026 |
 
 ---
 
