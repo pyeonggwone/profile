@@ -13,3 +13,15 @@ Copilot / Copilot Studio - Copilot 관련 블로그, 가이드, Seismic
 MS > 한국지사 - 한국 로컬라이제이션 자료
 MS > [Exam] - PL-400 연습 시험, WWL 자료
 
+---
+
+## PPTX 번역 도구
+
+| 디렉토리 | 상태 | 비고 |
+|---|---|---|
+| [ppt-translate-v3/](ppt-translate-v3/) | **기본 (사용 권장)** | PowerPoint COM + uv 단일 스크립트. 완성 |
+| [ppt-translate-v2/](ppt-translate-v2/) | deprecated | OOXML/Docker PoC. 사용하지 않음 |
+| [ppt_EN_to_KR/](ppt_EN_to_KR/) | legacy | python-pptx 기반 초기 구현 |
+
+신규 작업은 **ppt-translate-v3** 사용. 매뉴얼: [ppt-translate-v3/MANUAL.md](ppt-translate-v3/MANUAL.md), 파일별 요구사항: [ppt-translate-v3/docs/REQUIREMENTS.md](ppt-translate-v3/docs/REQUIREMENTS.md).
+
