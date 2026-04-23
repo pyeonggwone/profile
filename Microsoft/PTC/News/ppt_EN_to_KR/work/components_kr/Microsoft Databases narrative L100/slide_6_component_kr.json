@@ -1,0 +1,81 @@
+{
+  "slide_num": 6,
+  "text_boxes": [
+    {
+      "id": "s6_shape7",
+      "left": 588963,
+      "top": 1136285,
+      "width": 11017250,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "레거시 앱을 현대화하고 ",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            },
+            {
+              "text": "및",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": true,
+              "size": 20,
+              "color": null
+            },
+            {
+              "text": " 급격히 변화하는 데이터 요구사항을 충족하는 운영 데이터",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "레거시 앱을 현대화하고 및 급격히 변화하는 데이터 요구사항을 충족하는 운영 데이터"
+        }
+      ]
+    },
+    {
+      "id": "s6_shape13",
+      "left": 574815,
+      "top": 510988,
+      "width": 10602701,
+      "height": 615553,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "2. 확장성과 민첩성을 위한 레거시 탈피",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "2. 확장성과 민첩성을 위한 레거시 탈피"
+        }
+      ]
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s6_shape3",
+      "left": 1225642,
+      "top": 1952600,
+      "width": 9740716,
+      "height": 4260334,
+      "shape_type": 6
+    }
+  ],
+  "notes": "Why is data so important to AI transformation? It’s because data fuels AI models, insights, and apps, and that’s changed our requirements:\n\nTraining AI requires lots of data; models need access to older data as well as the newest data\nfresh data comes in real time, and at high volumes.  Think about the prompts and responses from an AI chat or the amount of data points that must be analyzed to detect fraud – this real-time data is coming in massive quantities\nReal-time data comes in quickly, and responding to it also requires speed.  This means that access to data must happen quickly.\nAI models and apps require vector support and the ability to perform complex search over huge amounts of data\nAI apps and advanced analytics often rely on multiple data sources to get transactional and analytical data\nData privacy and compliance continue to be a big concern, especially when using that data to train AI models or to build AI apps \n\nWhat do these shifts mean for our databases?",
+  "tables": []
+}

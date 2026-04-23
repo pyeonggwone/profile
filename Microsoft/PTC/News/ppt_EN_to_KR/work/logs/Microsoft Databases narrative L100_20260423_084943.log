@@ -1,0 +1,95 @@
+08:49:43 [INFO] 로그 파일: /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/logs/Microsoft Databases narrative L100_20260423_084943.log
+08:50:02 [INFO] [STEP 3-1] slide_1/43 번역 시작
+08:50:02 [DEBUG]   slide_1 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 3, tables: 1
+08:50:26 [DEBUG]   slide_1 LLM 응답 (4451 chars): {
+  "text_boxes": [
+    {
+      "id": "s1_shape12",
+      "left": 578552,
+      "top": 1274236,
+      "width": 11028232,
+      "height": 5075193,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s1_shape27",
+      "left": -977428,...
+08:50:29 [INFO] [STEP 3-1] slide_2/43 번역 시작
+08:50:29 [DEBUG]   slide_2 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 1, tables: 0
+08:50:34 [DEBUG]   slide_2 LLM 응답 (594 chars): {"text_boxes": [{"id": "s2_shape5", "left": 584199, "top": 2286000, "width": 6642173, "height": 886397, "paragraphs": [{"runs": [{"text": "Microsoft 데이터베이스", "font": "Segoe Sans Text Semibold", "bold": false, "italic": false, "underline": false, "size": 36, "color": "#0078D4"}, {"text": "에지부터 PaaS, ...
+08:50:35 [INFO] [STEP 3-1] slide_3/43 번역 시작
+08:50:35 [DEBUG]   slide_3 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 7, tables: 0
+08:50:48 [DEBUG]   slide_3 LLM 응답 (3817 chars): {
+  "text_boxes": [
+    {
+      "id": "s3_shape5",
+      "left": 8285564,
+      "top": 2251906,
+      "width": 2320579,
+      "height": 2328262,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s3_shape6",
+      "left": 4962217,
+ ...
+08:50:50 [INFO] [STEP 3-1] slide_4/43 번역 시작
+08:50:50 [DEBUG]   slide_4 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 2, tables: 0
+08:50:58 [DEBUG]   slide_4 LLM 응답 (1434 chars): {"text_boxes": [{"id": "s4_shape2", "left": 574816, "top": 510988, "width": 5208618, "height": 624913, "paragraphs": [{"runs": [{"text": "지금 현대화가 필요한 이유", "font": null, "bold": true, "italic": null, "underline": null, "size": 40, "color": null}], "text": "지금 현대화가 필요한 이유"}]}, {"id": "s4_shape20", "le...
+08:50:59 [INFO] [STEP 3-1] slide_5/43 번역 시작
+08:50:59 [DEBUG]   slide_5 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 29, tables: 0
+08:52:03 [DEBUG]   slide_5 LLM 응답 (14228 chars): {
+  "text_boxes": [
+    {
+      "id": "s5_shape8",
+      "left": 571500,
+      "top": 2017712,
+      "width": 5433059,
+      "height": 4344987,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape9",
+      "left": 6187439,
+  ...
+08:52:04 [INFO] [STEP 3-1] slide_6/43 번역 시작
+08:52:04 [DEBUG]   slide_6 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 2, tables: 0
+08:52:12 [DEBUG]   slide_6 LLM 응답 (1454 chars): {"text_boxes": [{"id": "s6_shape7", "left": 588963, "top": 1136285, "width": 11017250, "height": 307777, "paragraphs": [{"runs": [{"text": "레거시 애플리케이션 현대화 ", "font": "Segoe UI", "bold": false, "italic": false, "underline": false, "size": 20, "color": null}, {"text": "및", "font": "Segoe UI", "bold": ...
+08:52:13 [INFO]   slide_1 XML 치환 완료 (text_box 3, table 1)
+08:52:13 [INFO]   slide_2 XML 치환 완료 (text_box 1, table 0)
+08:52:13 [INFO]   slide_3 XML 치환 완료 (text_box 7, table 0)
+08:52:13 [INFO]   slide_4 XML 치환 완료 (text_box 2, table 0)
+08:52:13 [INFO]   slide_5 XML 치환 완료 (text_box 29, table 0)
+08:52:13 [INFO]   slide_6 XML 치환 완료 (text_box 2, table 0)
+08:52:13 [WARNING]   slide_4 노트 XML 치환 실패: All strings must be XML compatible: Unicode or ASCII, no NULL bytes or control characters
+08:52:17 [INFO] [STEP 3-2 OOXML] 저장 완료 → /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/kr/Microsoft Databases narrative L100_KO.pptx
+08:52:17 [INFO]   slide_1 완료 — 성공: 4, 실패: 0
+08:52:17 [INFO]   slide_2 완료 — 성공: 1, 실패: 0
+08:52:17 [INFO]   slide_3 완료 — 성공: 7, 실패: 0
+08:52:17 [INFO]   slide_4 완료 — 성공: 2, 실패: 0
+08:52:17 [INFO]   slide_5 완료 — 성공: 29, 실패: 0
+08:52:17 [INFO]   slide_6 완료 — 성공: 2, 실패: 0
+08:52:17 [INFO] [STEP 3] 저장 완료 → /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/kr/Microsoft Databases narrative L100_KO.pptx
+08:52:17 [INFO] 
+[STEP 3] 검증 시작
+08:52:17 [WARNING] [STEP 3] 미처리 항목:
+08:52:17 [WARNING]   - slide_1: 미처리 {'s1_shape6'}
+08:52:17 [WARNING]   - slide_3: 미처리 {'s3_shape21', 's3_shape22'}
+08:52:17 [WARNING]   - slide_4: 미처리 {'s4_shape30', 's4_shape32', 's4_shape3', 's4_shape33'}
+08:52:17 [WARNING]   - slide_5: 미처리 {'s5_shape42', 's5_shape41', 's5_shape25', 's5_shape32', 's5_shape24', 's5_shape26'}
+08:52:17 [WARNING]   - slide_6: 미처리 {'s6_shape3'}

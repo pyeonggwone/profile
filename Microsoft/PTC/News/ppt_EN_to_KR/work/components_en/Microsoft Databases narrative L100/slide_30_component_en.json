@@ -1,0 +1,28 @@
+{
+  "slide_num": 30,
+  "text_boxes": [
+    {
+      "id": "s30_shape4",
+      "left": 585216,
+      "top": 2980408,
+      "width": 5383784,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer stories",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 36,
+              "color": null
+            }
+          ],
+          "text": "Customer stories"
+        }
+      ]
+    }
+  ]
+}

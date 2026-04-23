@@ -1,0 +1,114 @@
+{
+  "slide_num": 16,
+  "text_boxes": [
+    {
+      "id": "s16_shape11",
+      "left": -2552,
+      "top": 0,
+      "width": 4917863,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s16_shape21",
+      "left": 0,
+      "top": 325535,
+      "width": 4604249,
+      "height": 1967300,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Access trusted experts",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 36,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Access trusted experts"
+        }
+      ]
+    },
+    {
+      "id": "s16_shape3",
+      "left": 5008871,
+      "top": 344375,
+      "width": 7015257,
+      "height": 6169249,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s16_shape6",
+      "left": 6514892,
+      "top": 6501101,
+      "width": 5528654,
+      "height": 323165,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "*Deployment assistance is offered at no cost to customers; however, eligibility is subject to meeting specific conditions. Availability may vary by region and engagement type..",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "*Deployment assistance is offered at no cost to customers; however, eligibility is subject to meeting specific conditions. Availability may vary by region and engagement type.."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s16_shape61",
+      "left": -1,
+      "top": 0,
+      "width": 4770169,
+      "height": 6858000,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_16/image_14.jpg"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s16_shape5",
+      "left": 5222819,
+      "top": 2682312,
+      "width": 6520629,
+      "height": 1606046,
+      "shape_type": 6
+    },
+    {
+      "id": "s16_shape4",
+      "left": 5222819,
+      "top": 4591094,
+      "width": 6520629,
+      "height": 1309557,
+      "shape_type": 6
+    },
+    {
+      "id": "s16_shape2",
+      "left": 5210105,
+      "top": 672507,
+      "width": 6408154,
+      "height": 1606046,
+      "shape_type": 6
+    }
+  ],
+  "notes": "https://azure.microsoft.com/en-us/solutions/azure-accelerate#Cloud-Accelerate-Factory \nDetails about Factory offer: https://techcommunity.microsoft.com/blog/azuremigrationblog/introducing-cloud-accelerate-factory-unlock-zero-cost-deployment-assistance-for-/4409779\nDeployment assistance is offered at no additional cost to customers; however, eligibility is subject to meeting specific conditions including project scope, timing, and alignment with Factory-supported workloads. Availability may vary by region and engagement type.."
+}

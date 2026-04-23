@@ -1,0 +1,204 @@
+{
+  "slide_num": 1,
+  "text_boxes": [
+    {
+      "id": "s1_shape12",
+      "left": 578552,
+      "top": 1274236,
+      "width": 11028232,
+      "height": 5075193,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s1_shape27",
+      "left": -977428,
+      "top": 2852395,
+      "width": 5064149,
+      "height": 1929917,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s1_shape5",
+      "left": 1174750,
+      "top": 457200,
+      "width": 11017250,
+      "height": 554038,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "발표자 가이드",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "발표자 가이드"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s1_shape6",
+      "left": 2,
+      "top": 6397083,
+      "width": 2969150,
+      "height": 460915,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_1/image_14.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "s1_shape7",
+      "left": 617688,
+      "top": 1282892,
+      "width": 11025187,
+      "height": 4902708,
+      "rows": [
+        [
+          {
+            "text": "버전",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "V2 - 2026년 4월 최신 업데이트 (새로운 현대화 메시징 및 Azure 가속화 데이터베이스 프로그램 발표)",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "제목",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "Microsoft 데이터베이스 ",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "요약",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "고객이 데이터베이스가 인공지능 목표에 왜 중요한지 이해하도록 돕고, Microsoft 데이터베이스를 탐색합니다.",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "주요 대상",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "최고 데이터 책임자/최고 정보 책임자, 기술 개발 관리자, 데이터 도메인 관리자",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "발표자",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "전문가 팀원 (솔루션 전문가, 시스템 엔지니어, 클라우드 솔루션 아키텍트, 고객 성공 관리자) ",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "내용 수준",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "외부 및 내부용 100단계 – 고객 1:1, 1:소수, 1:다수",
+            "font": "+mn-lt",
+            "bold": null,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "문서 소유자",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "Jesse Sullivan, Nikisha Reyes-Grange",
+            "font": "+mn-lt",
+            "bold": null,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "사용 지침",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "이 피치는 Microsoft 데이터베이스 개요와 데이터베이스 현대화 및 신규 구축을 통해 고객의 인공지능 목표를 지원하는 방법을 제공하기 위한 것입니다.\n고객이 데이터베이스 포트폴리오를 더 깊이 이해하거나 특정 서비스를 탐색하고자 할 경우 https://aka.ms/databasesbom 의 내용을 사용하십시오.\n슬라이드는 특정 청중 상황에 맞게 조정되어야 하며, 고객과 적합하다고 생각되는 슬라이드는 순서를 변경하거나 숨길 수 있습니다.\n중요: 이 슬라이드를 고객 또는 파트너와 공유하는 경우 파일 크기를 줄이고 노트가 보이거나 접근되지 않도록 PDF로 공유해 주십시오.",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ]
+      ]
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,14 @@
+07:52:59 [INFO] 로그 파일: /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/logs/Microsoft Databases narrative L100_20260423_075259.log
+07:52:59 [ERROR] [main] Microsoft Databases narrative L100.PPTX 처리 중 오류: [Errno 13] Permission denied: '/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/kr/Microsoft Databases narrative L100_KO.pptx'
+Traceback (most recent call last):
+  File "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/main.py", line 79, in _process_file
+    step1_clear.run(pptx_path, cfg, stem)
+  File "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/library/step1_clear.py", line 30, in run
+    _copy(pptx_path, kr_path)
+  File "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/library/step1_clear.py", line 45, in _copy
+    shutil.copy2(src, dst)
+  File "/usr/lib64/python3.9/shutil.py", line 444, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib64/python3.9/shutil.py", line 266, in copyfile
+    with open(dst, 'wb') as fdst:
+PermissionError: [Errno 13] Permission denied: '/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/kr/Microsoft Databases narrative L100_KO.pptx'

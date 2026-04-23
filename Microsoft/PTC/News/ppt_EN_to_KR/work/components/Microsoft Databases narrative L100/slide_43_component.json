@@ -1,0 +1,296 @@
+{
+  "slide_num": 43,
+  "text_boxes": [
+    {
+      "id": "s43_shape92",
+      "left": 293688,
+      "top": 0,
+      "width": 3181350,
+      "height": 6230904,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s43_shape77",
+      "left": 1483936,
+      "top": 4624723,
+      "width": 415932,
+      "height": 2430670,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s43_shape78",
+      "left": 527400,
+      "top": 5674249,
+      "width": 330134,
+      "height": 331618,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s43_shape90",
+      "left": 612571,
+      "top": 6309519,
+      "width": 399288,
+      "height": 365125,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": "43"
+        }
+      ]
+    },
+    {
+      "id": "s43_shape91",
+      "left": 1011859,
+      "top": 6309519,
+      "width": 2078736,
+      "height": 365125,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Fabric",
+              "font": "Segoe Sans Small Semilight",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 8,
+              "color": "#225B61"
+            }
+          ],
+          "text": "Microsoft Fabric"
+        }
+      ]
+    },
+    {
+      "id": "s43_shape76",
+      "left": 476567,
+      "top": 2033028,
+      "width": 2622233,
+      "height": 1846659,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "AP Pension revolutionizes its data governance and analytics with Microsoft Fabric",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "AP Pension revolutionizes its data governance and analytics with Microsoft Fabric"
+        }
+      ]
+    },
+    {
+      "id": "s43_shape79",
+      "left": 908367,
+      "top": 5732336,
+      "width": 1570943,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Read full story here",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "size": 14,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Read full story here"
+        }
+      ]
+    },
+    {
+      "id": "s43_shape85",
+      "left": 3657917,
+      "top": 2651934,
+      "width": 8241983,
+      "height": 815608,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": " My team manages all the General Data Protection Regulation or personally identifiable information data. In Fabric we anonymize the data at ingestion time so our stakeholders can proceed without worrying about compliance. This frees up domain experts to work in their areas of expertise.”",
+              "font": null,
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": " My team manages all the General Data Protection Regulation or personally identifiable information data. In Fabric we anonymize the data at ingestion time so our stakeholders can proceed without worrying about compliance. This frees up domain experts to work in their areas of expertise.”"
+        },
+        {
+          "runs": [
+            {
+              "text": "Jacob Rønnow Jensen, Head of Data Platform, AP Pension",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Jacob Rønnow Jensen, Head of Data Platform, AP Pension"
+        }
+      ]
+    },
+    {
+      "id": "s43_shape86",
+      "left": 3657917,
+      "top": 3574158,
+      "width": 3965482,
+      "height": 1959511,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Situation",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#225B62"
+            }
+          ],
+          "text": "Situation"
+        },
+        {
+          "runs": [
+            {
+              "text": "AP Pension had decades worth of line-of-business data from disparate sources and connections. The company's data management and operating-system processes were siloed and burdened with technical debt, hindering the efficiency and flexibility needed in a rapidly evolving financial landscape. The firm was on a cloud migration journey. However, the setup did not have the desired flexibility or efficiency to meet the needs of their users as the company’s demands and offerings evolved.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "AP Pension had decades worth of line-of-business data from disparate sources and connections. The company's data management and operating-system processes were siloed and burdened with technical debt, hindering the efficiency and flexibility needed in a rapidly evolving financial landscape. The firm was on a cloud migration journey. However, the setup did not have the desired flexibility or efficiency to meet the needs of their users as the company’s demands and offerings evolved."
+        }
+      ]
+    },
+    {
+      "id": "s43_shape87",
+      "left": 7934417,
+      "top": 3574158,
+      "width": 3845535,
+      "height": 2564805,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#225B62"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "AP Pension adopted Microsoft Fabric to unify decades of siloed data and build a secure, scalable analytics foundation. With Fabric, the company streamlined data ingestion using Mirroring, implemented a centralized medallion architecture, and automated metadata management across 40+ workspaces.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "AP Pension adopted Microsoft Fabric to unify decades of siloed data and build a secure, scalable analytics foundation. With Fabric, the company streamlined data ingestion using Mirroring, implemented a centralized medallion architecture, and automated metadata management across 40+ workspaces."
+        },
+        {
+          "runs": [
+            {
+              "text": "Built-in security and governance features including data anonymization at ingestion, role-based access, and audit trails ensure compliance while empowering teams to collaborate confidently. Now, AP Pension can deliver timely insights, drive responsible investment decisions, and stay agile in a regulated, data-driven world.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Built-in security and governance features including data anonymization at ingestion, role-based access, and audit trails ensure compliance while empowering teams to collaborate confidently. Now, AP Pension can deliver timely insights, drive responsible investment decisions, and stay agile in a regulated, data-driven world."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s43_shape80",
+      "left": 3475038,
+      "top": 3,
+      "width": 8713276,
+      "height": 2285858,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_43/image_17.png"
+    },
+    {
+      "id": "s43_shape2050",
+      "left": 476566,
+      "top": 627096,
+      "width": 914083,
+      "height": 431333,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_43/image_18.jpg"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s43_shape81",
+      "left": 3475038,
+      "top": 2285861,
+      "width": 8716962,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s43_shape82",
+      "left": 3657917,
+      "top": 2032776,
+      "width": 506171,
+      "height": 506171,
+      "shape_type": 6
+    },
+    {
+      "id": "s43_shape88",
+      "left": 7778909,
+      "top": 3574158,
+      "width": 0,
+      "height": 2899213,
+      "shape_type": 9
+    }
+  ],
+  "notes": "Flora Food Group is a Netherlands-based, plant-based food company serving over 100 countries with well-known brands like Flora, Rama, Violife, and Country Crock. As their operations expanded, so did the complexity of their data environment. They were already using several Microsoft tools—Azure Synapse, Azure Data Factory, Power BI—but managing them separately was creating inefficiencies, driving up costs, and making it harder to scale sustainably.\n\nTo simplify and modernize their analytics stack, Flora Food Group transitioned to Microsoft Fabric. This move allowed them to consolidate their reporting, engineering, data science, and security under one umbrella—eliminating the need for multiple systems and better aligning their data practices with sustainability goals. Their team implemented a medallion architecture on OneLake, giving them a unified foundation for more consistent and timely insights across finance and supply chain.\n\nThis transition had a big impact. By leveraging Direct Lake mode, they no longer need to schedule report refreshes—granular, near real-time data is always available. That’s been especially valuable in operational areas like supply chain, where speed and accuracy are critical. Developers are seeing productivity gains from better orchestration and transformation workflows, and business users can drill into lower-level data without complex querying.\n\nFlora Food Group also benefits from improved resource utilization. Their compute workloads are now more cost-efficient, and built-in AI and governance tools help reduce data duplication and strengthen security. In short, Fabric has helped Flora Food Group simplify architecture, reduce costs, and support more agile decision-making—while setting the stage for future AI innovation through tools like Fabric Copilot."
+}

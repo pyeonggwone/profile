@@ -1,0 +1,235 @@
+{
+  "slide_num": 13,
+  "text_boxes": [
+    {
+      "id": "s13_shape23",
+      "left": 588962,
+      "top": 2024234,
+      "width": 11017250,
+      "height": 4338466,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s13_shape26",
+      "left": 1777664,
+      "top": 3392735,
+      "width": 1964087,
+      "height": 1015663,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "900B",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 48,
+              "color": null
+            },
+            {
+              "text": " ",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": "#0078D4"
+            },
+            {
+              "text": "daily transactions",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "900B \u000bdaily transactions"
+        }
+      ]
+    },
+    {
+      "id": "s13_shape27",
+      "left": 5115543,
+      "top": 3392735,
+      "width": 1964087,
+      "height": 1015663,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "42PB",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 48,
+              "color": null
+            },
+            {
+              "text": " ",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": "#0078D4"
+            },
+            {
+              "text": "database size",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "42PB \u000bdatabase size"
+        }
+      ]
+    },
+    {
+      "id": "s13_shape28",
+      "left": 8453423,
+      "top": 3392735,
+      "width": 1964087,
+      "height": 1015663,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": ">7x ",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 48,
+              "color": null
+            },
+            {
+              "text": "YoY growth",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": ">7x \u000bYoY growth"
+        }
+      ]
+    },
+    {
+      "id": "s13_shape6",
+      "left": 8593931,
+      "top": 8098631,
+      "width": 65,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s13_shape3",
+      "left": 8240233,
+      "top": 6496493,
+      "width": 3365784,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "800M ChatGPT MAUs vs ~30M Claude/DeepSeek MAUs",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "size": 9,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "800M ChatGPT MAUs vs ~30M Claude/DeepSeek MAUs"
+        }
+      ]
+    },
+    {
+      "id": "s13_shape19",
+      "left": 588263,
+      "top": 457200,
+      "width": 11018520,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "World’s #1 AI chatbot runs on Azure Databases",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "World’s #1 AI chatbot runs on Azure Databases"
+        }
+      ]
+    },
+    {
+      "id": "s13_shape22",
+      "left": 588963,
+      "top": 1136285,
+      "width": 11017250,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "AI-powered apps at any scale",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "AI-powered apps at any scale"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s13_shape4",
+      "left": 4512014,
+      "top": 2292734,
+      "width": 3167972,
+      "height": 882183,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_13/image_9.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s13_shape31",
+      "left": 722653,
+      "top": 4626216,
+      "width": 10749869,
+      "height": 1599589,
+      "shape_type": 6
+    }
+  ],
+  "notes": "ChatGPT, the worlds #1 AI chatbot (as defined by monthly active users, which ChatGPT has 1 billion of as of March 2026 compared to Anthropic Claude’s 910 million monthly active users) runs on Azure Databases, using Azure Cosmos DB to power user chats and history, and Azure Database for PostgreSQL to support user authentication and billing.  \nWith over 800 million monthly users, ChatGPT runs 900 billion daily transactions, has 42 petabytes of database size, growing over 7 times year over year."
+}

@@ -1,0 +1,754 @@
+{
+  "slide_num": 24,
+  "text_boxes": [
+    {
+      "id": "s24_shape2",
+      "left": 0,
+      "top": 0,
+      "width": 12192000,
+      "height": 1158240,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape5",
+      "left": 1402080,
+      "top": 190375,
+      "width": 10119360,
+      "height": 792480,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Hybrid Benefit for SQL Server (AHB)",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 32,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Azure Hybrid Benefit for SQL Server (AHB)"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape6",
+      "left": 609600,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 2682240,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape7",
+      "left": 609600,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 73152,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape8",
+      "left": 914400,
+      "top": 1645920,
+      "width": 4267200,
+      "height": 512064,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "What It Is",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "What It Is"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape10",
+      "left": 1182624,
+      "top": 2316480,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Reuse existing SQL Server licenses with active SA",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Reuse existing SQL Server licenses with active SA"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape12",
+      "left": 1182624,
+      "top": 2706624,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Applies to Azure SQL MI, Azure SQL Database, and SQL Server on VMs",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Applies to Azure SQL MI, Azure SQL Database, and SQL Server on VMs"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape14",
+      "left": 1182624,
+      "top": 3096768,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Covers license cost — customer only pays compute",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Covers license cost — customer only pays compute"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape16",
+      "left": 1182624,
+      "top": 3486912,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Can be combined with RIs for deeper savings",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Can be combined with RIs for deeper savings"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape17",
+      "left": 6339840,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 2682240,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape18",
+      "left": 6339840,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 73152,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape19",
+      "left": 6644640,
+      "top": 1645920,
+      "width": 4632960,
+      "height": 512064,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Why It Matters to the Customer",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Why It Matters to the Customer"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape21",
+      "left": 6912864,
+      "top": 2316480,
+      "width": 4570924,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Allows reuse of existing licenses and pay only for base compute",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Allows reuse of existing licenses and pay only for base compute"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape23",
+      "left": 6912864,
+      "top": 2706624,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "AHB includes dual‑use rights during migration",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "AHB includes dual‑use rights during migration"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape25",
+      "left": 6912864,
+      "top": 3096768,
+      "width": 4570924,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customers can modernize to PaaS without losing license value",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Customers can modernize to PaaS without losing license value"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape27",
+      "left": 6912864,
+      "top": 3486912,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Reduces total migration cost from day one",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Reduces total migration cost from day one"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape28",
+      "left": 609600,
+      "top": 4389120,
+      "width": 3474720,
+      "height": 1121664,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape29",
+      "left": 609600,
+      "top": 4413504,
+      "width": 3474720,
+      "height": 585216,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "up to 55%",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "up to 55%"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape30",
+      "left": 792480,
+      "top": 5023104,
+      "width": 3108960,
+      "height": 414528,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Savings",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            },
+            {
+              "text": "1",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            },
+            {
+              "text": " with ",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            },
+            {
+              "text": "Azure Hybrid Benefit",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "Savings1 with \u000bAzure Hybrid Benefit"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape31",
+      "left": 4450080,
+      "top": 4389120,
+      "width": 3474720,
+      "height": 1121664,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape32",
+      "left": 4450080,
+      "top": 4413504,
+      "width": 3474720,
+      "height": 585216,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "$0",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "$0"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape33",
+      "left": 4632960,
+      "top": 5023104,
+      "width": 3108960,
+      "height": 414528,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Additional license",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "Additional license"
+        },
+        {
+          "runs": [
+            {
+              "text": "cost to customer on Azure",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "cost to customer on Azure"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape34",
+      "left": 8290560,
+      "top": 4389120,
+      "width": 3474720,
+      "height": 1121664,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape35",
+      "left": 8290560,
+      "top": 4413504,
+      "width": 3474720,
+      "height": 585216,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Day 1",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "Day 1"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape36",
+      "left": 8473440,
+      "top": 5023104,
+      "width": 3108960,
+      "height": 414528,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Savings start",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "Savings start"
+        },
+        {
+          "runs": [
+            {
+              "text": "immediately",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "immediately"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape37",
+      "left": 609600,
+      "top": 5730240,
+      "width": 10972800,
+      "height": 548640,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape39",
+      "left": 1219200,
+      "top": 5730240,
+      "width": 10119360,
+      "height": 548640,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Hybrid Benefit lets you reuse your existing Windows Server and SQL Server licenses on Azure to significantly lower cloud costs while accelerating migration and modernization.",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": "#323130"
+            }
+          ],
+          "text": "Azure Hybrid Benefit lets you reuse your existing Windows Server and SQL Server licenses on Azure to significantly lower cloud costs while accelerating migration and modernization."
+        }
+      ]
+    },
+    {
+      "id": "s24_shape40",
+      "left": 0,
+      "top": 6400800,
+      "width": 12192000,
+      "height": 457200,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape41",
+      "left": 609600,
+      "top": 6425184,
+      "width": 6096000,
+      "height": 402336,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Azure",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Microsoft Azure"
+        }
+      ]
+    },
+    {
+      "id": "s24_shape3",
+      "left": 0,
+      "top": 1072896,
+      "width": 12192000,
+      "height": 85344,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s24_shape46",
+      "left": 8961120,
+      "top": 6400800,
+      "width": 3390452,
+      "height": 402336,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "1. ",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            },
+            {
+              "text": "Save on Azure SQL with Azure Hybrid Benefit",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "1. Save on Azure SQL with Azure Hybrid Benefit"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s24_shape4",
+      "left": 609600,
+      "top": 243840,
+      "width": 609600,
+      "height": 609600,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_131.png"
+    },
+    {
+      "id": "s24_shape9",
+      "left": 914400,
+      "top": 2389632,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_132.png"
+    },
+    {
+      "id": "s24_shape11",
+      "left": 914400,
+      "top": 2779776,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_133.png"
+    },
+    {
+      "id": "s24_shape13",
+      "left": 914400,
+      "top": 3169920,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_134.png"
+    },
+    {
+      "id": "s24_shape15",
+      "left": 914400,
+      "top": 3560064,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_135.png"
+    },
+    {
+      "id": "s24_shape20",
+      "left": 6644640,
+      "top": 2389632,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_136.png"
+    },
+    {
+      "id": "s24_shape22",
+      "left": 6644640,
+      "top": 2779776,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_137.png"
+    },
+    {
+      "id": "s24_shape24",
+      "left": 6644640,
+      "top": 3169920,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_138.png"
+    },
+    {
+      "id": "s24_shape26",
+      "left": 6644640,
+      "top": 3560064,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_139.png"
+    },
+    {
+      "id": "s24_shape38",
+      "left": 792480,
+      "top": 5827776,
+      "width": 316992,
+      "height": 316992,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_24/image_140.png"
+    }
+  ]
+}

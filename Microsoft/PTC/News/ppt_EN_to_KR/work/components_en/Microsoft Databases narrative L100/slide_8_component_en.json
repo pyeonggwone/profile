@@ -1,0 +1,163 @@
+{
+  "slide_num": 8,
+  "text_boxes": [
+    {
+      "id": "s8_shape7",
+      "left": 588963,
+      "top": 1136285,
+      "width": 11017250,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "We are invested in your modernization success more than",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            },
+            {
+              "text": " ever",
+              "font": "Segoe UI",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "We are invested in your modernization success more than ever"
+        }
+      ]
+    },
+    {
+      "id": "s8_shape13",
+      "left": 1828460,
+      "top": 4254960,
+      "width": 1806972,
+      "height": 600164,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Use Microsoft service delivery, or partner of your choice",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 13,
+              "color": "#000000"
+            }
+          ],
+          "text": "Use Microsoft service delivery, or partner of your choice"
+        }
+      ]
+    },
+    {
+      "id": "s8_shape19",
+      "left": 4889495,
+      "top": 4254960,
+      "width": 2159698,
+      "height": 600164,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Free migration and modernization services* with Cloud Accelerate Factory",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 13,
+              "color": "#000000"
+            }
+          ],
+          "text": "Free migration and modernization services* with Cloud Accelerate Factory"
+        }
+      ]
+    },
+    {
+      "id": "s8_shape21",
+      "left": 8079262,
+      "top": 4259345,
+      "width": 2533322,
+      "height": 600164,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Investment funds for your delivery partner of choice to augment Cloud Accelerate Factory",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 13,
+              "color": "#000000"
+            }
+          ],
+          "text": "Investment funds for your delivery partner of choice to augment Cloud Accelerate Factory"
+        }
+      ]
+    },
+    {
+      "id": "s8_shape27",
+      "left": 574815,
+      "top": 510988,
+      "width": 10602701,
+      "height": 615553,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "4. Execute with confidence",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "4. Execute with confidence"
+        }
+      ]
+    },
+    {
+      "id": "s8_shape8",
+      "left": 6514892,
+      "top": 6501101,
+      "width": 5528654,
+      "height": 323165,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "*Deployment assistance is offered at no cost to customers; however, eligibility is subject to meeting specific conditions. Availability may vary by region and engagement type..",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "*Deployment assistance is offered at no cost to customers; however, eligibility is subject to meeting specific conditions. Availability may vary by region and engagement type.."
+        }
+      ]
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s8_shape3",
+      "left": 1153599,
+      "top": 2413016,
+      "width": 9740716,
+      "height": 2807822,
+      "shape_type": 6
+    }
+  ],
+  "notes": "Finally, let’s talk about execution assistance.  \nYou can access expert support with Microsoft services or the partner of your choice\nCloud Accelerate Factory offers migration and modernization services free\nPlus, you and your partners can access funding from Microsoft\n\nWe will explore these in more detail later on"
+}

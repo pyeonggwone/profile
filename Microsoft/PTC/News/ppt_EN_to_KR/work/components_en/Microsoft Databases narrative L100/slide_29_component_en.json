@@ -1,0 +1,28 @@
+{
+  "slide_num": 29,
+  "text_boxes": [
+    {
+      "id": "s29_shape2",
+      "left": 517525,
+      "top": 3121025,
+      "width": 5578475,
+      "height": 615950,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Thank you",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Thank you"
+        }
+      ]
+    }
+  ]
+}

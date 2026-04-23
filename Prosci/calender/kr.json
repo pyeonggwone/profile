@@ -1,0 +1,95 @@
+{
+    "pageTitle": "Prosci 학습 캘린더",
+    "header": {
+        "title": "Prosci 학습 캘린더",
+        "subtitle": "Change Management Practitioner Program · 2026"
+    },
+    "langBtn": "English",
+    "milestones": [
+        {
+            "date": {
+                "month": "Apr",
+                "day": "14"
+            },
+            "state": "done",
+            "week": "Week −4",
+            "badge": "완료",
+            "title": "팀 리드 선정",
+            "tasks": [
+                "그룹 멤버 간 연락 및 연결",
+                "Team Lead 선정",
+                "Teams Group 채널에 Team Lead 공지"
+            ]
+        },
+        {
+            "date": {
+                "month": "Apr",
+                "day": "21"
+            },
+            "state": "done",
+            "week": "Week −3",
+            "badge": "완료",
+            "title": "프로젝트 요약 제출",
+            "tasks": [
+                "실습할 실제 변화 프로젝트 선정",
+                "프로젝트 요약 작성 후 강사에게 제출",
+                "강사 승인 대기"
+            ]
+        },
+        {
+            "date": {
+                "month": "Apr",
+                "day": "28"
+            },
+            "state": "active",
+            "week": "Week −2",
+            "badge": "진행 중",
+            "title": "PCT · 리스크 평가 · 4Ps 완료 + 강사 체크인 콜",
+            "tasks": [
+                "4Ps Activity 완료",
+                "PCT 평가 (Prosci Change Triangle Assessment) 완료",
+                "리스크 평가 완료",
+                "강사 체크인 콜 참석 (4월 27일 주)"
+            ]
+        },
+        {
+            "date": {
+                "month": "May",
+                "day": "5"
+            },
+            "state": "",
+            "week": "Week −1",
+            "badge": "예정",
+            "title": "Best Practices Research 완료",
+            "tasks": [
+                "Best Practices Research (우수 사례 연구 요약) 완료",
+                "Teams 환경에서 그룹 협업"
+            ]
+        },
+        {
+            "date": {
+                "month": "May",
+                "day": "12"
+            },
+            "state": "",
+            "week": "수업 주간",
+            "badge": "예정",
+            "title": "수업 참여 및 그룹 프로젝트 발표 (5/12 – 5/14)",
+            "classGrid": [
+                {
+                    "label": "Day 1 – 5/12 (화)",
+                    "time": "08:00 – 17:00 PDT"
+                },
+                {
+                    "label": "Day 2 – 5/13 (수)",
+                    "time": "08:00 – 17:30 PDT"
+                },
+                {
+                    "label": "Day 3 – 5/14 (목)",
+                    "time": "08:00 – 15:30 PDT"
+                }
+            ]
+        }
+    ],
+    "footer": "Prosci Change Management Practitioner · Donaid · 2026"
+}

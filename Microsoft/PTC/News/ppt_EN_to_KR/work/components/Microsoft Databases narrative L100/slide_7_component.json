@@ -1,0 +1,245 @@
+{
+  "slide_num": 7,
+  "text_boxes": [
+    {
+      "id": "s7_shape7",
+      "left": 588963,
+      "top": 1136285,
+      "width": 10795318,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Cloud m",
+              "font": "Segoe UI",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            },
+            {
+              "text": "anaged service model can offer cost efficiency to your operational data estate",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Cloud managed service model can offer cost efficiency to your operational data estate"
+        }
+      ]
+    },
+    {
+      "id": "s7_shape13",
+      "left": 1357406,
+      "top": 4254959,
+      "width": 2622600,
+      "height": 600164,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Take out ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 13,
+              "color": "#000000"
+            },
+            {
+              "text": "fixed cost of self managed and pay for what you use (variable cost). ",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 13,
+              "color": "#000000"
+            },
+            {
+              "text": "Up to 58% lower TCO",
+              "font": "+mj-lt",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 13,
+              "color": "#000000"
+            },
+            {
+              "text": "1",
+              "font": "+mj-lt",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 13,
+              "color": "#000000"
+            }
+          ],
+          "text": "Take out fixed cost of self managed and pay for what you use (variable cost). Up to 58% lower TCO1"
+        }
+      ]
+    },
+    {
+      "id": "s7_shape19",
+      "left": 4889495,
+      "top": 4254960,
+      "width": 2159698,
+      "height": 600164,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Save CAPEX to optimize OPEX ",
+              "font": "+mj-lt",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 13,
+              "color": "#000000"
+            },
+            {
+              "text": "with a flexible ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 13,
+              "color": "#000000"
+            },
+            {
+              "text": "and simple savings",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 13,
+              "color": "#000000"
+            },
+            {
+              "text": " plan",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 13,
+              "color": "#000000"
+            }
+          ],
+          "text": "Save CAPEX to optimize OPEX with a flexible and simple savings plan"
+        }
+      ]
+    },
+    {
+      "id": "s7_shape21",
+      "left": 8333646,
+      "top": 4254960,
+      "width": 2028482,
+      "height": 600164,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Turning our ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 13,
+              "color": "#000000"
+            },
+            {
+              "text": "economies of scale ",
+              "font": "+mj-lt",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 13,
+              "color": "#000000"
+            },
+            {
+              "text": "into your financial benefit ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 13,
+              "color": "#000000"
+            }
+          ],
+          "text": "Turning our economies of scale into your financial benefit "
+        }
+      ]
+    },
+    {
+      "id": "s7_shape27",
+      "left": 574815,
+      "top": 510988,
+      "width": 10602701,
+      "height": 615553,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "3. Reduce cost, reinvest in growth",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "3. Reduce cost, reinvest in growth"
+        }
+      ]
+    },
+    {
+      "id": "s7_shape30",
+      "left": 4651542,
+      "top": 6496370,
+      "width": 7088275,
+      "height": 153888,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "1. Economic Validation from Informa TechTarget’s Enterprise Strategy Group of Azure SQL Managed Instance ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "1. Economic Validation from Informa TechTarget’s Enterprise Strategy Group of Azure SQL Managed Instance "
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s7_shape11",
+      "left": 9116682,
+      "top": 2841602,
+      "width": 462410,
+      "height": 462410,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_7/image_9.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s7_shape3",
+      "left": 1153599,
+      "top": 2413016,
+      "width": 9740716,
+      "height": 2807822,
+      "shape_type": 6
+    }
+  ],
+  "notes": "Cost is a big driver of modernization\nWith cloud services, you can gain efficiencies over your operational databases\nThis includes lowering TCO, optimizing your OpEx, and using economies of scale to your benefit"
+}

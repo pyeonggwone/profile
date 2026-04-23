@@ -1,0 +1,280 @@
+{
+  "slide_num": 15,
+  "text_boxes": [
+    {
+      "id": "s15_shape6",
+      "left": -27142,
+      "top": 0,
+      "width": 12191999,
+      "height": 6529137,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s15_shape3",
+      "left": 439701,
+      "top": 391225,
+      "width": 11555013,
+      "height": 966485,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Accelerate for Databases",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            },
+            {
+              "text": "Modernize data for AI with experts and investments",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "Azure Accelerate for Databases\u000bModernize data for AI with experts and investments"
+        }
+      ]
+    },
+    {
+      "id": "s15_shape8",
+      "left": 1661754,
+      "top": 2017556,
+      "width": 1023582,
+      "height": 70062,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s15_shape10",
+      "left": 5570058,
+      "top": 2029984,
+      "width": 1023582,
+      "height": 70062,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s15_shape16",
+      "left": 9381523,
+      "top": 1994953,
+      "width": 1023582,
+      "height": 70062,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s15_shape5",
+      "left": 534108,
+      "top": 6094977,
+      "width": 11073881,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "1",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            },
+            {
+              "text": "Deployment assistance is offered at no additional cost to customers; approval is subject to meeting eligibility criteria.",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            }
+          ],
+          "text": "1Deployment assistance is offered at no additional cost to customers; approval is subject to meeting eligibility criteria."
+        },
+        {
+          "runs": [
+            {
+              "text": "2",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            },
+            {
+              "text": "Savings based on 1-year commitment vs PAYG list pricing. Actual savings may vary based on usage. ",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            },
+            {
+              "text": "3",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            },
+            {
+              "text": "Subject to approval and availability.",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            }
+          ],
+          "text": "2Savings based on 1-year commitment vs PAYG list pricing. Actual savings may vary based on usage. \u000b3Subject to approval and availability."
+        },
+        {
+          "runs": [
+            {
+              "text": "4",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            },
+            {
+              "text": "Skilling benefits are",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            },
+            {
+              "text": " subject ",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            },
+            {
+              "text": "to eligibility, approval, and availability",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            },
+            {
+              "text": ".",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 9,
+              "color": "#000000"
+            }
+          ],
+          "text": "4Skilling benefits are subject to eligibility, approval, and availability."
+        }
+      ]
+    },
+    {
+      "id": "s15_shape23",
+      "left": 8334106,
+      "top": 6242256,
+      "width": 3152473,
+      "height": 276999,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "aka.ms/modernizedatabases",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "aka.ms/modernizedatabases"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s15_shape4",
+      "left": 1,
+      "top": 0,
+      "width": 12191999,
+      "height": 6858000,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_15/image_14.jpg"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s15_shape11",
+      "left": 439701,
+      "top": 1927273,
+      "width": 3475104,
+      "height": 3905390,
+      "shape_type": 6
+    },
+    {
+      "id": "s15_shape29",
+      "left": 4343159,
+      "top": 2011754,
+      "width": 3475105,
+      "height": 3820912,
+      "shape_type": 6
+    },
+    {
+      "id": "s15_shape30",
+      "left": 8194982,
+      "top": 2011752,
+      "width": 3510428,
+      "height": 3820911,
+      "shape_type": 6
+    },
+    {
+      "id": "s15_shape20",
+      "left": 8100480,
+      "top": 6094974,
+      "width": 3475105,
+      "height": 597930,
+      "shape_type": 6
+    }
+  ],
+  "notes": "Advance your project through delivery funding. \nLower initial costs with Azure credits."
+}

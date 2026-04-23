@@ -1,0 +1,478 @@
+{
+  "slide_num": 20,
+  "text_boxes": [
+    {
+      "id": "s20_shape57",
+      "left": 1000125,
+      "top": 1217120,
+      "width": 10191750,
+      "height": 495639,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Leaders from a variety of industries ",
+              "font": null,
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "have completed one or more Factory engagements",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Leaders from a variety of industries have completed one or more Factory engagements"
+        }
+      ]
+    },
+    {
+      "id": "s20_shape2",
+      "left": 588263,
+      "top": 457200,
+      "width": 11018520,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customers modernizing with Factory",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Customers modernizing with Factory"
+        }
+      ]
+    },
+    {
+      "id": "s20_shape4",
+      "left": 571500,
+      "top": 1714546,
+      "width": 11049000,
+      "height": 4714145,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s20_shape5",
+      "left": 2565457,
+      "top": 3155426,
+      "width": 1293102,
+      "height": 471034,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_638.png"
+    },
+    {
+      "id": "s20_shape6",
+      "left": 745040,
+      "top": 3227210,
+      "width": 1344780,
+      "height": 327466,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_639.png"
+    },
+    {
+      "id": "s20_shape8",
+      "left": 9138975,
+      "top": 3264486,
+      "width": 905138,
+      "height": 252914,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_640.png"
+    },
+    {
+      "id": "s20_shape14",
+      "left": 4334196,
+      "top": 3178510,
+      "width": 1359570,
+      "height": 424866,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_641.png"
+    },
+    {
+      "id": "s20_shape18",
+      "left": 7780548,
+      "top": 3255750,
+      "width": 872346,
+      "height": 270386,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_642.png"
+    },
+    {
+      "id": "s20_shape21",
+      "left": 6171688,
+      "top": 3269456,
+      "width": 1130938,
+      "height": 242974,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_643.png"
+    },
+    {
+      "id": "s20_shape45",
+      "left": 10530196,
+      "top": 3236063,
+      "width": 931882,
+      "height": 309760,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_644.png"
+    },
+    {
+      "id": "s20_shape26",
+      "left": 10792058,
+      "top": 1857934,
+      "width": 670020,
+      "height": 350574,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_645.png"
+    },
+    {
+      "id": "s20_shape9",
+      "left": 2696034,
+      "top": 1962794,
+      "width": 1129352,
+      "height": 140854,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_646.png"
+    },
+    {
+      "id": "s20_shape20",
+      "left": 745040,
+      "top": 1906599,
+      "width": 1601988,
+      "height": 253244,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_647.png"
+    },
+    {
+      "id": "s20_shape22",
+      "left": 8528784,
+      "top": 1824252,
+      "width": 1914268,
+      "height": 417938,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_648.png"
+    },
+    {
+      "id": "s20_shape30",
+      "left": 4174392,
+      "top": 1922216,
+      "width": 2251350,
+      "height": 222010,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_649.png"
+    },
+    {
+      "id": "s20_shape46",
+      "left": 6774748,
+      "top": 1883075,
+      "width": 1405030,
+      "height": 300292,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_650.png"
+    },
+    {
+      "id": "s20_shape11",
+      "left": 5808001,
+      "top": 4787291,
+      "width": 417196,
+      "height": 422808,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_651.png"
+    },
+    {
+      "id": "s20_shape15",
+      "left": 3740291,
+      "top": 4695483,
+      "width": 714718,
+      "height": 606424,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_652.png"
+    },
+    {
+      "id": "s20_shape24",
+      "left": 7773323,
+      "top": 4685828,
+      "width": 622178,
+      "height": 625734,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_653.png"
+    },
+    {
+      "id": "s20_shape25",
+      "left": 6651175,
+      "top": 4843342,
+      "width": 696170,
+      "height": 310706,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_654.png"
+    },
+    {
+      "id": "s20_shape31",
+      "left": 9763759,
+      "top": 4712679,
+      "width": 580926,
+      "height": 572032,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_655.png"
+    },
+    {
+      "id": "s20_shape34",
+      "left": 10770660,
+      "top": 4771873,
+      "width": 691418,
+      "height": 453644,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_656.png"
+    },
+    {
+      "id": "s20_shape40",
+      "left": 4880987,
+      "top": 4772114,
+      "width": 501036,
+      "height": 453162,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_657.png"
+    },
+    {
+      "id": "s20_shape44",
+      "left": 2572881,
+      "top": 4711091,
+      "width": 741432,
+      "height": 575208,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_658.png"
+    },
+    {
+      "id": "s20_shape47",
+      "left": 745040,
+      "top": 4650766,
+      "width": 428625,
+      "height": 695858,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_659.png"
+    },
+    {
+      "id": "s20_shape49",
+      "left": 1599643,
+      "top": 4723791,
+      "width": 547260,
+      "height": 549808,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_660.png"
+    },
+    {
+      "id": "s20_shape51",
+      "left": 8821479,
+      "top": 4731729,
+      "width": 516302,
+      "height": 533932,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_661.png"
+    },
+    {
+      "id": "s20_shape7",
+      "left": 5346378,
+      "top": 3977073,
+      "width": 1208944,
+      "height": 323080,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_662.png"
+    },
+    {
+      "id": "s20_shape17",
+      "left": 745040,
+      "top": 3899202,
+      "width": 1260348,
+      "height": 478822,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_663.png"
+    },
+    {
+      "id": "s20_shape32",
+      "left": 4103940,
+      "top": 3974647,
+      "width": 839224,
+      "height": 327932,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_664.png"
+    },
+    {
+      "id": "s20_shape36",
+      "left": 9738186,
+      "top": 3966392,
+      "width": 695426,
+      "height": 344442,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_665.png"
+    },
+    {
+      "id": "s20_shape41",
+      "left": 6958536,
+      "top": 3949881,
+      "width": 929472,
+      "height": 377464,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_666.png"
+    },
+    {
+      "id": "s20_shape43",
+      "left": 2408602,
+      "top": 3945242,
+      "width": 1292124,
+      "height": 386742,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_667.png"
+    },
+    {
+      "id": "s20_shape50",
+      "left": 8291222,
+      "top": 3972173,
+      "width": 1043750,
+      "height": 332880,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_668.png"
+    },
+    {
+      "id": "s20_shape52",
+      "left": 10836826,
+      "top": 3841297,
+      "width": 625252,
+      "height": 594632,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_669.png"
+    },
+    {
+      "id": "s20_shape13",
+      "left": 745040,
+      "top": 5591347,
+      "width": 1148054,
+      "height": 668892,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_670.png"
+    },
+    {
+      "id": "s20_shape16",
+      "left": 7511690,
+      "top": 5686547,
+      "width": 771876,
+      "height": 478492,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_671.png"
+    },
+    {
+      "id": "s20_shape19",
+      "left": 3214348,
+      "top": 5719091,
+      "width": 930494,
+      "height": 413404,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_672.png"
+    },
+    {
+      "id": "s20_shape23",
+      "left": 2243287,
+      "top": 5561462,
+      "width": 620868,
+      "height": 728662,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_673.png"
+    },
+    {
+      "id": "s20_shape29",
+      "left": 4495035,
+      "top": 5666226,
+      "width": 521896,
+      "height": 519134,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_674.png"
+    },
+    {
+      "id": "s20_shape33",
+      "left": 6261501,
+      "top": 5640231,
+      "width": 899996,
+      "height": 571124,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_675.png"
+    },
+    {
+      "id": "s20_shape37",
+      "left": 10766806,
+      "top": 5829422,
+      "width": 695272,
+      "height": 192742,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_676.png"
+    },
+    {
+      "id": "s20_shape39",
+      "left": 8633759,
+      "top": 5788147,
+      "width": 651742,
+      "height": 275292,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_677.png"
+    },
+    {
+      "id": "s20_shape48",
+      "left": 5367124,
+      "top": 5746244,
+      "width": 544184,
+      "height": 359098,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_678.png"
+    },
+    {
+      "id": "s20_shape53",
+      "left": 9635694,
+      "top": 5779076,
+      "width": 780920,
+      "height": 293434,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_679.png"
+    },
+    {
+      "id": "s20_shape10",
+      "left": 6211225,
+      "top": 2494974,
+      "width": 1130776,
+      "height": 407668,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_680.png"
+    },
+    {
+      "id": "s20_shape27",
+      "left": 745040,
+      "top": 2564099,
+      "width": 1084270,
+      "height": 269418,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_681.png"
+    },
+    {
+      "id": "s20_shape28",
+      "left": 4194208,
+      "top": 2457027,
+      "width": 1573946,
+      "height": 483562,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_682.png"
+    },
+    {
+      "id": "s20_shape35",
+      "left": 9087763,
+      "top": 2531973,
+      "width": 1004848,
+      "height": 333670,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_683.png"
+    },
+    {
+      "id": "s20_shape38",
+      "left": 2272381,
+      "top": 2486612,
+      "width": 1478756,
+      "height": 424392,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_684.png"
+    },
+    {
+      "id": "s20_shape42",
+      "left": 7785072,
+      "top": 2593744,
+      "width": 859620,
+      "height": 210128,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_685.png"
+    },
+    {
+      "id": "s20_shape12",
+      "left": 10535680,
+      "top": 2508191,
+      "width": 926398,
+      "height": 381234,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_20/image_686.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s20_shape58",
+      "left": 1588,
+      "top": 1588,
+      "width": 1588,
+      "height": 1588,
+      "shape_type": 7
+    }
+  ],
+  "notes": "Factory has been used by leading companies across industries and geographies."
+}

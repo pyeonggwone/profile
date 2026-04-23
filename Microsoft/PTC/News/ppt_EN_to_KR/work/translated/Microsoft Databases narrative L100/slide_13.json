@@ -1,0 +1,55 @@
+{
+  "slide_num": 13,
+  "items": [
+    {
+      "id": "s13_shape23",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s13_shape26",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s13_shape27",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s13_shape28",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s13_shape6",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s13_shape3",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s13_shape19",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s13_shape22",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s13_shape4",
+      "type": "image",
+      "ok": true
+    },
+    {
+      "id": "s13_shape31",
+      "type": "smartart_placeholder",
+      "ok": true
+    }
+  ]
+}

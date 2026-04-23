@@ -1,0 +1,335 @@
+{
+  "slide_num": 19,
+  "items": [
+    {
+      "id": "s19_shape2",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape13",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape5",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape6",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape7",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape8",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape9",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape12",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape14",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape15",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape16",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape17",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape19",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape20",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape21",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape22",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape24",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape41",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape42",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape55",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape56",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape57",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape58",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape63",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape64",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape65",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape66",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape67",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape68",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape69",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape70",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape71",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape72",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape73",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape74",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape75",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape77",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape79",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape80",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape82",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape100",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape101",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape103",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape104",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape105",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape108",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s19_shape99",
+      "type": "image",
+      "ok": true
+    },
+    {
+      "id": "s19_shape18",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape59",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape60",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape61",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape62",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape76",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape78",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape81",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape83",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape84",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape87",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape90",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape93",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape96",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape97",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape98",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape102",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape106",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s19_shape107",
+      "type": "smartart_placeholder",
+      "ok": true
+    }
+  ]
+}

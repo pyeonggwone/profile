@@ -1,0 +1,1143 @@
+{
+  "slides": {
+    "1": {
+      "text_boxes": [
+        {
+          "id": "s1_shape12",
+          "left": 578552,
+          "top": 1274236,
+          "width": 11028232,
+          "height": 5075193,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s1_shape27",
+          "left": -977428,
+          "top": 2852395,
+          "width": 5064149,
+          "height": 1929917,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s1_shape5",
+          "left": 1174750,
+          "top": 457200,
+          "width": 11017250,
+          "height": 554038,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "발표자 가이드",
+                  "font": null,
+                  "bold": null,
+                  "italic": null,
+                  "underline": null,
+                  "size": null,
+                  "color": null
+                }
+              ],
+              "text": "발표자 가이드"
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "s1_shape7",
+          "left": 617688,
+          "top": 1282892,
+          "width": 11025187,
+          "height": 4902708,
+          "rows": [
+            [
+              {
+                "text": "버전",
+                "font": "+mj-lt",
+                "bold": false,
+                "size": 14,
+                "color": null
+              },
+              {
+                "text": "V2 - 2026년 4월 최신 업데이트 (새로운 현대화 메시징 및 Azure 가속화 데이터베이스 프로그램 발표)",
+                "font": "+mn-lt",
+                "bold": false,
+                "size": 12,
+                "color": null
+              }
+            ],
+            [
+              {
+                "text": "제목",
+                "font": "+mj-lt",
+                "bold": false,
+                "size": 14,
+                "color": null
+              },
+              {
+                "text": "Microsoft 데이터베이스 ",
+                "font": "+mn-lt",
+                "bold": false,
+                "size": 12,
+                "color": null
+              }
+            ],
+            [
+              {
+                "text": "요약",
+                "font": "+mj-lt",
+                "bold": false,
+                "size": 14,
+                "color": null
+              },
+              {
+                "text": "고객이 데이터베이스가 인공지능 목표에 왜 중요한지 이해하도록 돕고, Microsoft 데이터베이스를 탐색합니다.",
+                "font": "+mn-lt",
+                "bold": false,
+                "size": 12,
+                "color": null
+              }
+            ],
+            [
+              {
+                "text": "주요 대상",
+                "font": "+mj-lt",
+                "bold": false,
+                "size": 14,
+                "color": null
+              },
+              {
+                "text": "최고 데이터 책임자/최고 정보 책임자, 기술 개발 관리자, 데이터 도메인 관리자",
+                "font": "+mn-lt",
+                "bold": false,
+                "size": 12,
+                "color": null
+              }
+            ],
+            [
+              {
+                "text": "발표자",
+                "font": "+mj-lt",
+                "bold": false,
+                "size": 14,
+                "color": null
+              },
+              {
+                "text": "전문가 팀원 (솔루션 전문가, 시스템 엔지니어, 클라우드 솔루션 아키텍트, 고객 성공 관리자) ",
+                "font": "+mn-lt",
+                "bold": false,
+                "size": 12,
+                "color": null
+              }
+            ],
+            [
+              {
+                "text": "내용 수준",
+                "font": "+mj-lt",
+                "bold": false,
+                "size": 14,
+                "color": null
+              },
+              {
+                "text": "외부 및 내부용 100단계 – 고객 1:1, 1:소수, 1:다수",
+                "font": "+mn-lt",
+                "bold": null,
+                "size": 12,
+                "color": null
+              }
+            ],
+            [
+              {
+                "text": "문서 소유자",
+                "font": "+mj-lt",
+                "bold": false,
+                "size": 14,
+                "color": null
+              },
+              {
+                "text": "Jesse Sullivan, Nikisha Reyes-Grange",
+                "font": "+mn-lt",
+                "bold": null,
+                "size": 12,
+                "color": null
+              }
+            ],
+            [
+              {
+                "text": "사용 지침",
+                "font": "+mj-lt",
+                "bold": false,
+                "size": 14,
+                "color": null
+              },
+              {
+                "text": "이 피치는 Microsoft 데이터베이스 개요와 데이터베이스 현대화 및 신규 구축을 통해 고객의 인공지능 목표를 지원하는 방법을 제공하기 위한 것입니다.\n고객이 데이터베이스 포트폴리오를 더 깊이 이해하거나 특정 서비스를 탐색하고자 할 경우 https://aka.ms/databasesbom 의 내용을 사용하십시오.\n슬라이드는 특정 청중 상황에 맞게 조정되어야 하며, 고객과 적합하다고 생각되는 슬라이드는 순서를 변경하거나 숨길 수 있습니다.\n중요: 이 슬라이드를 고객 또는 파트너와 공유하는 경우 파일 크기를 줄이고 노트가 보이거나 접근되지 않도록 PDF로 공유해 주십시오.",
+                "font": "+mn-lt",
+                "bold": false,
+                "size": 12,
+                "color": null
+              }
+            ]
+          ]
+        }
+      ],
+      "notes": ""
+    },
+    "2": {
+      "text_boxes": [
+        {
+          "id": "s2_shape5",
+          "left": 584199,
+          "top": 2286000,
+          "width": 6642173,
+          "height": 886397,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "Microsoft 데이터베이스",
+                  "font": "Segoe Sans Text Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 36,
+                  "color": "#0078D4"
+                },
+                {
+                  "text": "에지에서 PaaS, SaaS까지",
+                  "font": "Segoe Sans Text Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 28,
+                  "color": "#000000"
+                }
+              ],
+              "text": "Microsoft 데이터베이스\u000b에지에서 PaaS, SaaS까지"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "notes": "Welcome to this session on Azure databases\nMy name is <name> and I work as <job title/role>"
+    },
+    "3": {
+      "text_boxes": [
+        {
+          "id": "s3_shape5",
+          "left": 8285564,
+          "top": 2251906,
+          "width": 2320579,
+          "height": 2328262,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s3_shape6",
+          "left": 4962217,
+          "top": 2251906,
+          "width": 2320579,
+          "height": 2328262,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s3_shape7",
+          "left": 1613259,
+          "top": 2251906,
+          "width": 2320579,
+          "height": 2328262,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s3_shape13",
+          "left": 1729494,
+          "top": 3046705,
+          "width": 2088107,
+          "height": 738664,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "왜 ",
+                  "font": "Segoe Sans Text Semibold",
+                  "bold": null,
+                  "italic": null,
+                  "underline": null,
+                  "size": 24,
+                  "color": null
+                }
+              ],
+              "text": "왜 "
+            },
+            {
+              "runs": [
+                {
+                  "text": "지금 현대화해야 하는가",
+                  "font": "Segoe Sans Text Semibold",
+                  "bold": null,
+                  "italic": null,
+                  "underline": null,
+                  "size": 24,
+                  "color": null
+                }
+              ],
+              "text": "지금 현대화해야 하는가"
+            }
+          ]
+        },
+        {
+          "id": "s3_shape8",
+          "left": 5051946,
+          "top": 3059668,
+          "width": 2088107,
+          "height": 738664,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "우리가 ",
+                  "font": "Segoe Sans Text Semibold",
+                  "bold": null,
+                  "italic": null,
+                  "underline": null,
+                  "size": 24,
+                  "color": null
+                }
+              ],
+              "text": "우리가 "
+            },
+            {
+              "runs": [
+                {
+                  "text": "제공하는 것",
+                  "font": "Segoe Sans Text Semibold",
+                  "bold": null,
+                  "italic": null,
+                  "underline": null,
+                  "size": 24,
+                  "color": null
+                }
+              ],
+              "text": "제공하는 것"
+            }
+          ]
+        },
+        {
+          "id": "s3_shape9",
+          "left": 8374399,
+          "top": 3059668,
+          "width": 2088107,
+          "height": 738664,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "어떻게 ",
+                  "font": "Segoe Sans Text Semibold",
+                  "bold": null,
+                  "italic": null,
+                  "underline": null,
+                  "size": 24,
+                  "color": null
+                }
+              ],
+              "text": "어떻게 "
+            },
+            {
+              "runs": [
+                {
+                  "text": "도움이 될 수 있나",
+                  "font": "Segoe Sans Text Semibold",
+                  "bold": null,
+                  "italic": null,
+                  "underline": null,
+                  "size": 24,
+                  "color": null
+                }
+              ],
+              "text": "도움이 될 수 있나"
+            }
+          ]
+        },
+        {
+          "id": "s3_shape11",
+          "left": 574816,
+          "top": 520348,
+          "width": 8569184,
+          "height": 615553,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "Microsoft와 함께 현대화하세요",
+                  "font": null,
+                  "bold": true,
+                  "italic": null,
+                  "underline": null,
+                  "size": null,
+                  "color": null
+                }
+              ],
+              "text": "Microsoft와 함께 현대화하세요"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "notes": "You've got big ambitions:\nAI innovation\nFaster time-to-market\nBusiness insights\nIncreased operational efficiency\n...and more"
+    },
+    "4": {
+      "text_boxes": [
+        {
+          "id": "s4_shape2",
+          "left": 574816,
+          "top": 510988,
+          "width": 5208618,
+          "height": 624913,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "지금 현대화해야 하는 이유",
+                  "font": null,
+                  "bold": true,
+                  "italic": null,
+                  "underline": null,
+                  "size": 40,
+                  "color": null
+                }
+              ],
+              "text": "지금 현대화해야 하는 이유"
+            }
+          ]
+        },
+        {
+          "id": "s4_shape20",
+          "left": 574816,
+          "top": 1249684,
+          "width": 6742738,
+          "height": 400110,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "반복되는 최고 경영진 우선순위 및 우려사항",
+                  "font": "Segoe Sans Display",
+                  "bold": true,
+                  "italic": false,
+                  "underline": false,
+                  "size": 20,
+                  "color": null
+                }
+              ],
+              "text": "반복되는 최고 경영진 우선순위 및 우려사항"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "notes": "What we hear (the 4 pressures): earn empathy + get them talking.\n\n\n“These are the four pressures we consistently hear. Before we go any further — which of these matters most for you right now?”\n\n\nSet context\u000b“When we step back, we consistently hear the same themes from leaders like you.” Pause.\u000b“These are not assumptions. This is what CIOs tell us directly.” You may be dealing with one or all of these at the same time.“ Pause.\n\n\nWalk through the four pressures:\n\n“First, AI readiness.” - “Strong interest, but the data foundation is not ready yet.” \"You need to get your systems ready for what's coming next, including AI.“ Pause.\n\n“Second, legacy data center.” “Systems that are getting more expensive and risky the longer they stay.” Pause.\n\n“Third, cost.” - “Not just reducing spend, but optimizing it in a way that funds what comes next.” Pause.\n\n“And Fourth, help that actually executes.” \"You need hands-on help; not another framework or assessment.“ Pause.\n\n\nAnchor the shift “What’s changed is not the pressures.” “What’s changed is that these no longer need to be four separate initiatives.” Pause.\n\nLand the takeaway “One journey, not four projects.” Pause.\n\nSeller discipline\u000b“These are observations, not a pitch.”\u000b“Stop talking here.”\u000b“Ask which of these resonates most.”\u000b“Let the CIO lead the conversation.”"
+    },
+    "5": {
+      "text_boxes": [
+        {
+          "id": "s5_shape8",
+          "left": 571500,
+          "top": 2017712,
+          "width": 5433059,
+          "height": 4344987,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape9",
+          "left": 6187439,
+          "top": 2017712,
+          "width": 5433059,
+          "height": 4344987,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape10",
+          "left": 588963,
+          "top": 1136285,
+          "width": 11017250,
+          "height": 307777,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "에이전틱 AI는 모든 비즈니스 프로세스를 변화시킬 것이며, 데이터 또한 변화해야 합니다",
+                  "font": "+mn-lt",
+                  "bold": null,
+                  "italic": null,
+                  "underline": null,
+                  "size": null,
+                  "color": null
+                }
+              ],
+              "text": "에이전틱 AI는 모든 비즈니스 프로세스를 변화시킬 것이며, 데이터 또한 변화해야 합니다"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape12",
+          "left": 754380,
+          "top": 2525486,
+          "width": 5067299,
+          "height": 3654333,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape13",
+          "left": 6370319,
+          "top": 2525486,
+          "width": 5067299,
+          "height": 3654333,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape14",
+          "left": 754380,
+          "top": 1748258,
+          "width": 5067299,
+          "height": 607354,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "비즈니스는 ",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 18,
+                  "color": "#FFFFFF"
+                },
+                {
+                  "text": "데이터베이스",
+                  "font": "Segoe UI Semibold",
+                  "bold": null,
+                  "italic": null,
+                  "underline": null,
+                  "size": 18,
+                  "color": "#FFFFFF"
+                }
+              ],
+              "text": "비즈니스는 데이터베이스로 구동됩니다"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape15",
+          "left": 6370319,
+          "top": 1748258,
+          "width": 5067299,
+          "height": 607354,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "오늘 에이전틱 AI를 확장하면 무엇이 무너지나요?",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 18,
+                  "color": "#FFFFFF"
+                }
+              ],
+              "text": "오늘 에이전틱 AI를 확장하면 무엇이 무너지나요?"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape16",
+          "left": 909412,
+          "top": 3141779,
+          "width": 1103571,
+          "height": 646331,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "임직원 경험",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 14,
+                  "color": null
+                }
+              ],
+              "text": "임직원 경험"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape17",
+          "left": 1299421,
+          "top": 2706585,
+          "width": 323552,
+          "height": 275015,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape18",
+          "left": 2137585,
+          "top": 3141779,
+          "width": 1103571,
+          "height": 646331,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "고객 참여 재구성",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 14,
+                  "color": null
+                }
+              ],
+              "text": "고객 참여 재구성"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape19",
+          "left": 2527594,
+          "top": 2698920,
+          "width": 323552,
+          "height": 290344,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape20",
+          "left": 3365758,
+          "top": 3141779,
+          "width": 1103571,
+          "height": 646331,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "비즈니스 프로세스 재구성",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 14,
+                  "color": null
+                }
+              ],
+              "text": "비즈니스 프로세스 재구성"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape21",
+          "left": 3771040,
+          "top": 2691515,
+          "width": 293007,
+          "height": 305155,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape22",
+          "left": 4593932,
+          "top": 3141779,
+          "width": 1103571,
+          "height": 646331,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "혁신의 ",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 14,
+                  "color": null
+                },
+                {
+                  "text": "곡선 조정",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 14,
+                  "color": null
+                }
+              ],
+              "text": "혁신의 곡선 조정"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape23",
+          "left": 5032262,
+          "top": 2687614,
+          "width": 226910,
+          "height": 312957,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape34",
+          "left": 6588638,
+          "top": 2834118,
+          "width": 434037,
+          "height": 365760,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape37",
+          "left": 7232731,
+          "top": 2770777,
+          "width": 4022457,
+          "height": 492443,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "지연 시간 및 처리량: ",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 16,
+                  "color": null
+                },
+                {
+                  "text": "에이전트가 시스템을 과부하시키고 사용자 불평, 프로세스 지연",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 16,
+                  "color": null
+                }
+              ],
+              "text": "지연 시간 및 처리량: 에이전트가 시스템을 과부하시키고 사용자 불평, 프로세스 지연"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape35",
+          "left": 6659353,
+          "top": 3700305,
+          "width": 292606,
+          "height": 365760,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape38",
+          "left": 7212410,
+          "top": 3636964,
+          "width": 4022457,
+          "height": 492443,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "동시성 및 데이터 무결성: ",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 16,
+                  "color": null
+                },
+                {
+                  "text": "에이전트가 경쟁 조건 생성, 트랜잭션 실패",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 16,
+                  "color": null
+                }
+              ],
+              "text": "동시성 및 데이터 무결성: 에이전트가 경쟁 조건 생성, 트랜잭션 실패"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape36",
+          "left": 6577057,
+          "top": 5488876,
+          "width": 457198,
+          "height": 365760,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape39",
+          "left": 7245363,
+          "top": 5425535,
+          "width": 4022457,
+          "height": 492443,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "보안 및 거버넌스 ",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 16,
+                  "color": null
+                },
+                {
+                  "text": "에이전트를 위해 설계되지 않음: 감사, 접근, 가시성 격차",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 16,
+                  "color": null
+                }
+              ],
+              "text": "보안 및 거버넌스 에이전트를 위해 설계되지 않음: 감사, 접근, 가시성 격차"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape7",
+          "left": 7232731,
+          "top": 4531251,
+          "width": 4122454,
+          "height": 492443,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "정확성 및 신뢰성: ",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 16,
+                  "color": null
+                },
+                {
+                  "text": "레거시 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 16,
+                  "color": null
+                }
+              ],
+              "text": "정확성 및 신뢰성: 레거시 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape43",
+          "left": 754380,
+          "top": 3969206,
+          "width": 5067299,
+          "height": 2210612,
+          "paragraphs": [
+            {
+              "runs": [],
+              "text": ""
+            }
+          ]
+        },
+        {
+          "id": "s5_shape44",
+          "left": 3526680,
+          "top": 4224666,
+          "width": 1562346,
+          "height": 215444,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "독립 소프트웨어 공급자 애플리케이션",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 14,
+                  "color": null
+                }
+              ],
+              "text": "독립 소프트웨어 공급자 애플리케이션"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape45",
+          "left": 2500813,
+          "top": 5044638,
+          "width": 1729888,
+          "height": 215444,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "미들웨어",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 14,
+                  "color": null
+                }
+              ],
+              "text": "미들웨어"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape46",
+          "left": 1461197,
+          "top": 4200038,
+          "width": 1729888,
+          "height": 215444,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "내부 애플리케이션",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 14,
+                  "color": null
+                }
+              ],
+              "text": "내부 애플리케이션"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape47",
+          "left": 2277632,
+          "top": 5466333,
+          "width": 2176251,
+          "height": 430887,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "데이터베이스",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 28,
+                  "color": null
+                }
+              ],
+              "text": "데이터베이스"
+            }
+          ]
+        },
+        {
+          "id": "s5_shape48",
+          "left": 2354464,
+          "top": 4646314,
+          "width": 2022586,
+          "height": 215444,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "라인오브비즈니스 애플리케이션, 전사적 자원 관리, 고객 관계 관리, 사물인터넷 ",
+                  "font": "Segoe UI Semibold",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 14,
+                  "color": null
+                }
+              ],
+              "text": "라인오브비즈니스 애플리케이션, 전사적 자원 관리, 고객 관계 관리, 사물인터넷 "
+            }
+          ]
+        },
+        {
+          "id": "s5_shape2",
+          "left": 574815,
+          "top": 510988,
+          "width": 8036921,
+          "height": 615553,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "1. AI 대규모 적용 준비하기",
+                  "font": null,
+                  "bold": true,
+                  "italic": null,
+                  "underline": null,
+                  "size": 40,
+                  "color": null
+                }
+              ],
+              "text": "1. AI 대규모 적용 준비하기"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "notes": "When we talk about Agentic AI today, many customers still think of it primarily as chatbots — systems that provide information or answer questions.\n \nBut the reality is that for Agentic AI to truly transform business processes or customer experiences, agents need to take action. That means interacting directly with the systems that run the business — the applications and databases behind every process.\n\nAgents will:\nAutomate and execute workflows in HR, finance, and operations\nAct in real time across CRM, ordering, and service systems\nCoordinate decisions and transactions across systems of record\nClose the loop from insight to action on live operational data\n\n \nThis includes a wide range of systems in the back-end: ERP, CRM, line-of-business applications, databases, middleware, and more.\n \nCustomers may not yet know exactly which agentic capabilities they’ll implement to reinvent a specific process. \n \nBut there’s one thing they can know today: if AI agents start interacting with their stack as it exists right now, three things are likely to happen.\nFirst, it won’t scale. You’ll see latency and performance issues, and users will start to complain.\nSecond, data integrity becomes a risk. Transactions collide, processes fail, and reliability breaks down.\nThird, identity and governance fall short. Most systems were designed for human users — not autonomous agents acting at machine speed.\n \nSo the question becomes:  Do you prepare now — or do you wait until agents show up and expose that you’re not ready? \n\n\n\n--\nAnd further than that, if you think about Agentic AI, it's going to disrupt every part of your business. So because of the fact that it doesn't just work on the data you want it to, it works on all your live business systems. It's critical that you upgrade your internal database systems to get the latency and throughput you need, the concurrency and data integrity, the accuracy. Seeing reliability in the security and governance."
+    },
+    "6": {
+      "text_boxes": [
+        {
+          "id": "s6_shape7",
+          "left": 588963,
+          "top": 1136285,
+          "width": 11017250,
+          "height": 307777,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "레거시 앱을 현대화하고 ",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 20,
+                  "color": null
+                },
+                {
+                  "text": "및",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": true,
+                  "size": 20,
+                  "color": null
+                },
+                {
+                  "text": " 급격히 변화하는 데이터 요구사항을 충족하는 운영 데이터",
+                  "font": "Segoe UI",
+                  "bold": false,
+                  "italic": false,
+                  "underline": false,
+                  "size": 20,
+                  "color": null
+                }
+              ],
+              "text": "레거시 앱을 현대화하고 및 급격히 변화하는 데이터 요구사항을 충족하는 운영 데이터"
+            }
+          ]
+        },
+        {
+          "id": "s6_shape13",
+          "left": 574815,
+          "top": 510988,
+          "width": 10602701,
+          "height": 615553,
+          "paragraphs": [
+            {
+              "runs": [
+                {
+                  "text": "2. 확장성과 민첩성을 위한 레거시 탈피",
+                  "font": null,
+                  "bold": true,
+                  "italic": null,
+                  "underline": null,
+                  "size": 40,
+                  "color": null
+                }
+              ],
+              "text": "2. 확장성과 민첩성을 위한 레거시 탈피"
+            }
+          ]
+        }
+      ],
+      "tables": [],
+      "notes": "Why is data so important to AI transformation? It’s because data fuels AI models, insights, and apps, and that’s changed our requirements:\n\nTraining AI requires lots of data; models need access to older data as well as the newest data\nfresh data comes in real time, and at high volumes.  Think about the prompts and responses from an AI chat or the amount of data points that must be analyzed to detect fraud – this real-time data is coming in massive quantities\nReal-time data comes in quickly, and responding to it also requires speed.  This means that access to data must happen quickly.\nAI models and apps require vector support and the ability to perform complex search over huge amounts of data\nAI apps and advanced analytics often rely on multiple data sources to get transactional and analytical data\nData privacy and compliance continue to be a big concern, especially when using that data to train AI models or to build AI apps \n\nWhat do these shifts mean for our databases?"
+    }
+  }
+}

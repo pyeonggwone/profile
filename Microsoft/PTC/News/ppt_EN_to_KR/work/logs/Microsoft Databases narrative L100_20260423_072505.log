@@ -1,0 +1,70 @@
+07:25:05 [INFO] 로그 파일: /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/logs/Microsoft Databases narrative L100_20260423_072505.log
+07:25:34 [INFO] [STEP 3-1] slide_1/43 번역 시작
+07:25:34 [DEBUG]   slide_1 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 3, tables: 1
+07:25:51 [DEBUG]   slide_1 LLM 응답 (4469 chars): {
+  "text_boxes": [
+    {
+      "id": "s1_shape12",
+      "left": 578552,
+      "top": 1274236,
+      "width": 11028232,
+      "height": 5075193,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s1_shape27",
+      "left": -977428,...
+07:25:52 [INFO] [STEP 3-1] slide_2/43 번역 시작
+07:25:52 [DEBUG]   slide_2 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 1, tables: 0
+07:25:56 [DEBUG]   slide_2 LLM 응답 (602 chars): {"text_boxes": [{"id": "s2_shape5", "left": 584199, "top": 2286000, "width": 6642173, "height": 886397, "paragraphs": [{"runs": [{"text": "Microsoft 데이터베이스", "font": "Segoe Sans Text Semibold", "bold": false, "italic": false, "underline": false, "size": 36, "color": "#0078D4"}, {"text": "엣지에서 PaaS, ...
+07:25:57 [INFO] [STEP 3-1] slide_3/43 번역 시작
+07:25:57 [DEBUG]   slide_3 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 7, tables: 0
+07:26:09 [DEBUG]   slide_3 LLM 응답 (3811 chars): {
+  "text_boxes": [
+    {
+      "id": "s3_shape5",
+      "left": 8285564,
+      "top": 2251906,
+      "width": 2320579,
+      "height": 2328262,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s3_shape6",
+      "left": 4962217,
+ ...
+07:26:10 [INFO] [STEP 3-2] slide_1/43 삽입 시작
+07:26:10 [DEBUG]     ✓ text_box s1_shape12
+07:26:10 [DEBUG]     ✓ text_box s1_shape27
+07:26:10 [DEBUG]     ✓ text_box s1_shape5
+07:26:10 [DEBUG]     ✓ image s1_shape6
+07:26:10 [DEBUG]     ✓ table s1_shape7
+07:26:10 [INFO]   slide_1 완료 — 성공: 5, 실패: 0
+07:26:10 [INFO] [STEP 3-2] slide_2/43 삽입 시작
+07:26:10 [DEBUG]     ✓ text_box s2_shape5
+07:26:10 [INFO]   slide_2 완료 — 성공: 1, 실패: 0
+07:26:10 [INFO] [STEP 3-2] slide_3/43 삽입 시작
+07:26:10 [DEBUG]     ✓ text_box s3_shape5
+07:26:10 [DEBUG]     ✓ text_box s3_shape6
+07:26:10 [DEBUG]     ✓ text_box s3_shape7
+07:26:10 [DEBUG]     ✓ text_box s3_shape13
+07:26:10 [DEBUG]     ✓ text_box s3_shape8
+07:26:10 [DEBUG]     ✓ text_box s3_shape9
+07:26:10 [DEBUG]     ✓ text_box s3_shape11
+07:26:10 [DEBUG]     ✓ image s3_shape22
+07:26:10 [DEBUG]     ✓ image s3_shape21
+07:26:10 [INFO]   slide_3 완료 — 성공: 9, 실패: 0
+07:26:17 [INFO] [STEP 3] 저장 완료 → /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/kr/Microsoft Databases narrative L100_KO.pptx
+07:26:17 [INFO] 
+[STEP 3] 검증 시작
+07:26:17 [INFO] [STEP 3] 모든 슬라이드 정상 처리 완료

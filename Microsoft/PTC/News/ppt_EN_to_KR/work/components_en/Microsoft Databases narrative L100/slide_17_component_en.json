@@ -1,0 +1,450 @@
+{
+  "slide_num": 17,
+  "text_boxes": [
+    {
+      "id": "s17_shape6",
+      "left": 1967637,
+      "top": 3191688,
+      "width": 977934,
+      "height": 75388,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape56",
+      "left": 588263,
+      "top": 457200,
+      "width": 11018520,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Cloud Accelerate Factory",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Cloud Accelerate Factory"
+        }
+      ]
+    },
+    {
+      "id": "s17_shape62",
+      "left": 588963,
+      "top": 318701,
+      "width": 11017250,
+      "height": 169277,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Accelerate",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 11,
+              "color": "#000000"
+            }
+          ],
+          "text": "Azure Accelerate"
+        }
+      ]
+    },
+    {
+      "id": "s17_shape64",
+      "left": 588963,
+      "top": 1098900,
+      "width": 10688637,
+      "height": 276999,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Jumpstart Azure projects with zero-cost deployment from Microsoft experts",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Jumpstart Azure projects with zero-cost deployment from Microsoft experts"
+        }
+      ]
+    },
+    {
+      "id": "s17_shape65",
+      "left": 571500,
+      "top": 1752600,
+      "width": 11036300,
+      "height": 4533900,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape68",
+      "left": 708660,
+      "top": 3267076,
+      "width": 3495887,
+      "height": 2882264,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape69",
+      "left": 4341707,
+      "top": 3267076,
+      "width": 3495887,
+      "height": 2882264,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape70",
+      "left": 7831879,
+      "top": 3195639,
+      "width": 3495887,
+      "height": 2882264,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape71",
+      "left": 1030332,
+      "top": 3526690,
+      "width": 2852544,
+      "height": 632460,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Get zero cost deployment assistance",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Get zero cost deployment assistance"
+        }
+      ]
+    },
+    {
+      "id": "s17_shape73",
+      "left": 4663379,
+      "top": 3526690,
+      "width": 2852544,
+      "height": 632460,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Accelerate with industry best practices",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Accelerate with industry best practices"
+        }
+      ]
+    },
+    {
+      "id": "s17_shape74",
+      "left": 8296426,
+      "top": 3526690,
+      "width": 2852544,
+      "height": 632460,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Unlock and scale",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            },
+            {
+              "text": "your resource",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Unlock and scale\u000byour resource"
+        }
+      ]
+    },
+    {
+      "id": "s17_shape76",
+      "left": 8144723,
+      "top": 4239845,
+      "width": 3155950,
+      "height": 1477328,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Prioritize your funding and skilled resources for the more advanced components or projects to boost ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "business impact",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Prioritize your funding and skilled resources for the more advanced components or projects to boost \u000bbusiness impact"
+        }
+      ]
+    },
+    {
+      "id": "s17_shape78",
+      "left": 4511676,
+      "top": 4239845,
+      "width": 3155950,
+      "height": 1477328,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Leverage proven strategies developed over thousands of customer engagements to complete deployments quickly",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Leverage proven strategies developed over thousands of customer engagements to complete deployments quickly"
+        }
+      ]
+    },
+    {
+      "id": "s17_shape79",
+      "left": 878629,
+      "top": 4239845,
+      "width": 3155950,
+      "height": 1477328,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Get Microsoft assistance to accelerate",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": " modernization journey ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "via joint delivery with an Azure partner no matter the project size",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "*",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Get Microsoft assistance to accelerate modernization journey via joint delivery with an Azure partner no matter the project size*"
+        }
+      ]
+    },
+    {
+      "id": "s17_shape80",
+      "left": 2026392,
+      "top": 2052691,
+      "width": 860424,
+      "height": 861858,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape81",
+      "left": 5659439,
+      "top": 2052691,
+      "width": 860424,
+      "height": 861858,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape82",
+      "left": 9292486,
+      "top": 2052691,
+      "width": 860424,
+      "height": 861858,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape11",
+      "left": 2215268,
+      "top": 2265459,
+      "width": 482672,
+      "height": 436322,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape12",
+      "left": 5873752,
+      "top": 2267708,
+      "width": 431798,
+      "height": 431824,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape13",
+      "left": 9551783,
+      "top": 2256005,
+      "width": 341830,
+      "height": 455230,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape7",
+      "left": 5600684,
+      "top": 3191688,
+      "width": 977934,
+      "height": 75388,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape8",
+      "left": 9233731,
+      "top": 3191688,
+      "width": 977934,
+      "height": 75388,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s17_shape2",
+      "left": 6400800,
+      "top": 6283539,
+      "width": 5205413,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "*Deployment assistance is offered at no cost to customers; however, eligibility is subject to meeting specific conditions. Availability may vary by region and engagement type.",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "*Deployment assistance is offered at no cost to customers; however, eligibility is subject to meeting specific conditions. Availability may vary by region and engagement type."
+        }
+      ]
+    }
+  ],
+  "notes": "Cloud Accelerate Factory is a benefit within Azure Accelerate designed to help you jumpstart your Azure projects with zero-cost deployment support from Microsoft experts. This benefit is all about helping you move faster, maximize your investments, and scale your cloud journey with confidence.\n\nCloud Accelerate Factory provides value in three main ways: \nFirst, and maybe most important, Microsoft experts can assist in deploying over 30 Azure services at zero cost. \nSecond, it is built on insights, patterns, and best practices from thousands of customer deployments bringing proven, repeatable frameworks to projects. \nThird, it helps maximize investments by offloading repeatable and predictable technical tasks to Factory experts, teams can stay focused on high value, strategic work. \n \nWe say ”jumpstart” intentionally — because that’s exactly what the Factory enables. Whether it’s rehosting, refactoring, or migrating workloads, it gives you the hands-on support to scale your Azure projects further and faster.\n\nhttps://azure.microsoft.com/en-us/solutions/azure-accelerate#Cloud-Accelerate-Factory\n\n-------\n\nDetails about Factory offer: https://techcommunity.microsoft.com/blog/azuremigrationblog/introducing-cloud-accelerate-factory-unlock-zero-cost-deployment-assistance-for-/4409779\nDeployment assistance is offered at no additional cost to customers; however, eligibility is subject to meeting specific conditions including project scope, timing, and alignment with Factory-supported workloads. Availability may vary by region and engagement type.."
+}

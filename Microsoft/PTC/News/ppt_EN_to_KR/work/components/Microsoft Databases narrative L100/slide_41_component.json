@@ -1,0 +1,296 @@
+{
+  "slide_num": 41,
+  "text_boxes": [
+    {
+      "id": "s41_shape93",
+      "left": 293688,
+      "top": 0,
+      "width": 3181350,
+      "height": 6230904,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s41_shape77",
+      "left": 1483936,
+      "top": 4624723,
+      "width": 415932,
+      "height": 2430670,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s41_shape78",
+      "left": 527400,
+      "top": 5674249,
+      "width": 330134,
+      "height": 331618,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s41_shape91",
+      "left": 612571,
+      "top": 6309519,
+      "width": 399288,
+      "height": 365125,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": "41"
+        }
+      ]
+    },
+    {
+      "id": "s41_shape92",
+      "left": 1011859,
+      "top": 6309519,
+      "width": 2078736,
+      "height": 365125,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Fabric",
+              "font": "Segoe Sans Small Semilight",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 8,
+              "color": "#225B61"
+            }
+          ],
+          "text": "Microsoft Fabric"
+        }
+      ]
+    },
+    {
+      "id": "s41_shape76",
+      "left": 476567,
+      "top": 2116155,
+      "width": 2884752,
+      "height": 1107996,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "NTT Data drives AI innovation with Fabric and Azure AI",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "NTT Data drives AI innovation with Fabric and Azure AI"
+        }
+      ]
+    },
+    {
+      "id": "s41_shape79",
+      "left": 908367,
+      "top": 5732336,
+      "width": 1570943,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Read full story here",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "size": 14,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Read full story here"
+        }
+      ]
+    },
+    {
+      "id": "s41_shape85",
+      "left": 3657917,
+      "top": 2651934,
+      "width": 8241983,
+      "height": 630942,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "“Microsoft Fabric data agents form the conversational layer. Using Fabric and Azure AI Agent Service we've built agents that allow us to talk to our data, ask personalized questions, and uncover insights based on role or function.”",
+              "font": null,
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "“Microsoft Fabric data agents form the conversational layer. Using Fabric and Azure AI Agent Service we've built agents that allow us to talk to our data, ask personalized questions, and uncover insights based on role or function.”"
+        },
+        {
+          "runs": [
+            {
+              "text": "Maureen Tan, Head of AI Center of Excellence, NTT DATA",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Maureen Tan, Head of AI Center of Excellence, NTT DATA"
+        }
+      ]
+    },
+    {
+      "id": "s41_shape86",
+      "left": 3657917,
+      "top": 3574158,
+      "width": 3965482,
+      "height": 1774845,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Situation",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#225B62"
+            }
+          ],
+          "text": "Situation"
+        },
+        {
+          "runs": [
+            {
+              "text": "NTT DATA, a global technology and services provider, was seeking a better way to unlock insights from its expansive enterprise data. Static dashboards and rigid reporting tools weren’t delivering the speed, flexibility, or intelligence needed to support real-time decision-making. The company wanted to reduce friction, accelerate productivity, and enable both technical and non-technical teams to interact with data more naturally using AI.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "NTT DATA, a global technology and services provider, was seeking a better way to unlock insights from its expansive enterprise data. Static dashboards and rigid reporting tools weren’t delivering the speed, flexibility, or intelligence needed to support real-time decision-making. The company wanted to reduce friction, accelerate productivity, and enable both technical and non-technical teams to interact with data more naturally using AI."
+        }
+      ]
+    },
+    {
+      "id": "s41_shape87",
+      "left": 7934418,
+      "top": 3574158,
+      "width": 3965482,
+      "height": 2934137,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#225B62"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "By adopting Microsoft Fabric and Azure AI Agent Service, NTT DATA built conversational AI agents capable of querying enterprise data in natural language. Using Fabric data agents to ground AI in trusted, role-specific data, the company designed agents that support HR, sales, and operational use cases—surfacing real-time insights, automating actions, and enhancing decision support across teams.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "By adopting Microsoft Fabric and Azure AI Agent Service, NTT DATA built conversational AI agents capable of querying enterprise data in natural language. Using Fabric data agents to ground AI in trusted, role-specific data, the company designed agents that support HR, sales, and operational use cases—surfacing real-time insights, automating actions, and enhancing decision support across teams."
+        },
+        {
+          "runs": [
+            {
+              "text": "This new approach helped NTT DATA reduce time to market by 50%, replace rigid dashboards with intuitive agent experiences, and scale data-driven decisions across the enterprise. The company continues to evolve its agentic AI strategy using Microsoft’s integrated toolset for advanced automation and orchestration.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "This new approach helped NTT DATA reduce time to market by 50%, replace rigid dashboards with intuitive agent experiences, and scale data-driven decisions across the enterprise. The company continues to evolve its agentic AI strategy using Microsoft’s integrated toolset for advanced automation and orchestration."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s41_shape80",
+      "left": 3475038,
+      "top": 3,
+      "width": 8716962,
+      "height": 2285858,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_41/image_17.jpg"
+    },
+    {
+      "id": "s41_shape90",
+      "left": 476567,
+      "top": 627096,
+      "width": 2002743,
+      "height": 293249,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_41/image_18.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s41_shape81",
+      "left": 3475038,
+      "top": 2285861,
+      "width": 8716962,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s41_shape82",
+      "left": 3657917,
+      "top": 2032776,
+      "width": 506171,
+      "height": 506171,
+      "shape_type": 6
+    },
+    {
+      "id": "s41_shape88",
+      "left": 7778909,
+      "top": 3574158,
+      "width": 0,
+      "height": 2899213,
+      "shape_type": 9
+    }
+  ],
+  "notes": "Flora Food Group is a Netherlands-based, plant-based food company serving over 100 countries with well-known brands like Flora, Rama, Violife, and Country Crock. As their operations expanded, so did the complexity of their data environment. They were already using several Microsoft tools—Azure Synapse, Azure Data Factory, Power BI—but managing them separately was creating inefficiencies, driving up costs, and making it harder to scale sustainably.\n\nTo simplify and modernize their analytics stack, Flora Food Group transitioned to Microsoft Fabric. This move allowed them to consolidate their reporting, engineering, data science, and security under one umbrella—eliminating the need for multiple systems and better aligning their data practices with sustainability goals. Their team implemented a medallion architecture on OneLake, giving them a unified foundation for more consistent and timely insights across finance and supply chain.\n\nThis transition had a big impact. By leveraging Direct Lake mode, they no longer need to schedule report refreshes—granular, near real-time data is always available. That’s been especially valuable in operational areas like supply chain, where speed and accuracy are critical. Developers are seeing productivity gains from better orchestration and transformation workflows, and business users can drill into lower-level data without complex querying.\n\nFlora Food Group also benefits from improved resource utilization. Their compute workloads are now more cost-efficient, and built-in AI and governance tools help reduce data duplication and strengthen security. In short, Fabric has helped Flora Food Group simplify architecture, reduce costs, and support more agile decision-making—while setting the stage for future AI innovation through tools like Fabric Copilot."
+}

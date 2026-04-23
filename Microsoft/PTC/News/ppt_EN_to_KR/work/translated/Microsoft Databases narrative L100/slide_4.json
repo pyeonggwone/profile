@@ -1,0 +1,15 @@
+{
+  "slide_num": 4,
+  "items": [
+    {
+      "id": "s4_shape2",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s4_shape20",
+      "type": "text_box",
+      "ok": true
+    }
+  ]
+}

@@ -2,3 +2,5 @@
 *.PPTX
 *.ppt
 *.PPT
+.env
+.old

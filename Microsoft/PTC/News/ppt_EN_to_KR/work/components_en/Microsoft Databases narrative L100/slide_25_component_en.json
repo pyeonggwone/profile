@@ -1,0 +1,491 @@
+{
+  "slide_num": 25,
+  "text_boxes": [
+    {
+      "id": "s25_shape2",
+      "left": 0,
+      "top": 0,
+      "width": 12192000,
+      "height": 1158240,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s25_shape3",
+      "left": 0,
+      "top": 1072896,
+      "width": 12192000,
+      "height": 85344,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s25_shape5",
+      "left": 1402080,
+      "top": 182880,
+      "width": 10119360,
+      "height": 792480,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Frontier Offer (AFO)",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 32,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Azure Frontier Offer (AFO)"
+        }
+      ]
+    },
+    {
+      "id": "s25_shape6",
+      "left": 609600,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 3039804,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s25_shape7",
+      "left": 609600,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 73152,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s25_shape8",
+      "left": 914400,
+      "top": 1645920,
+      "width": 4267200,
+      "height": 512064,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "What It Is",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "What It Is"
+        }
+      ]
+    },
+    {
+      "id": "s25_shape10",
+      "left": 1182624,
+      "top": 2316480,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Post-sales funding to accelerate migration & AI adoption",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Post-sales funding to accelerate migration & AI adoption"
+        }
+      ]
+    },
+    {
+      "id": "s25_shape12",
+      "left": 1182623,
+      "top": 2798832,
+      "width": 4541981,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "End Customer Investment Funds (ECIF)",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": "1",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": ": ",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": "Microsoft funding for services delivered by a partner to you.",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "End Customer Investment Funds (ECIF)1: Microsoft funding for services delivered by a partner to you."
+        }
+      ]
+    },
+    {
+      "id": "s25_shape14",
+      "left": 1182624,
+      "top": 3488652,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Credit Offer (ACO)",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": "2",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": ": ",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": "Azure credits to support you during periods like dual‑run or initial ramp‑up on Azure.",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Azure Credit Offer (ACO)2: Azure credits to support you during periods like dual‑run or initial ramp‑up on Azure."
+        }
+      ]
+    },
+    {
+      "id": "s25_shape16",
+      "left": 1182624,
+      "top": 4093948,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Extension of Azure Accelerate",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Extension of Azure Accelerate"
+        }
+      ]
+    },
+    {
+      "id": "s25_shape17",
+      "left": 6339840,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 3039804,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s25_shape18",
+      "left": 6339840,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 73152,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s25_shape19",
+      "left": 6644640,
+      "top": 1645920,
+      "width": 4632960,
+      "height": 512064,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "What It Covers",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "What It Covers"
+        }
+      ]
+    },
+    {
+      "id": "s25_shape37",
+      "left": 609600,
+      "top": 4831212,
+      "width": 10972800,
+      "height": 548640,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s25_shape39",
+      "left": 1219200,
+      "top": 4831212,
+      "width": 10119360,
+      "height": 548640,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Frontier Offer accelerates your move to a modern Data and AI platform by co‑funding migrations and adoption, reducing execution risk while helping you displace legacy or competing platforms",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": "#323130"
+            }
+          ],
+          "text": "Azure Frontier Offer accelerates your move to a modern Data and AI platform by co‑funding migrations and adoption, reducing execution risk while helping you displace legacy or competing platforms"
+        }
+      ]
+    },
+    {
+      "id": "s25_shape40",
+      "left": 0,
+      "top": 6400800,
+      "width": 12192000,
+      "height": 457200,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s25_shape41",
+      "left": 609600,
+      "top": 6425184,
+      "width": 6096000,
+      "height": 402336,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Azure",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Microsoft Azure"
+        }
+      ]
+    },
+    {
+      "id": "s25_shape35",
+      "left": 520594,
+      "top": 5522462,
+      "width": 11061806,
+      "height": 807913,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "1. ECIF is subject to Microsoft approval and funding availability. Not all opportunities qualify, and approval is evaluated case by case. Funding amounts and structure may vary based on scope and business case.",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "1. ECIF is subject to Microsoft approval and funding availability. Not all opportunities qualify, and approval is evaluated case by case. Funding amounts and structure may vary based on scope and business case."
+        },
+        {
+          "runs": [
+            {
+              "text": "2. Azure credits apply only to eligible Azure consumption. Azure credits are subject to eligibility, approval, and expiration. Credits may have usage restrictions, caps, and time limits. Credits are not guaranteed and may change based on Microsoft policy. Unused credits expire and cannot be carried forward.",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "2. Azure credits apply only to eligible Azure consumption. Azure credits are subject to eligibility, approval, and expiration. Credits may have usage restrictions, caps, and time limits. Credits are not guaranteed and may change based on Microsoft policy. Unused credits expire and cannot be carried forward."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s25_shape4",
+      "left": 609600,
+      "top": 243840,
+      "width": 609600,
+      "height": 609600,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_25/image_79.png"
+    },
+    {
+      "id": "s25_shape9",
+      "left": 914400,
+      "top": 2389632,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_25/image_80.png"
+    },
+    {
+      "id": "s25_shape11",
+      "left": 914400,
+      "top": 2871984,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_25/image_81.png"
+    },
+    {
+      "id": "s25_shape13",
+      "left": 914400,
+      "top": 3561804,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_25/image_82.png"
+    },
+    {
+      "id": "s25_shape15",
+      "left": 914400,
+      "top": 4167100,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_25/image_83.png"
+    },
+    {
+      "id": "s25_shape38",
+      "left": 792480,
+      "top": 4928748,
+      "width": 316992,
+      "height": 316992,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_25/image_84.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s25_shape42",
+      "left": 6644640,
+      "top": 2316480,
+      "width": 4596384,
+      "height": 341376,
+      "shape_type": 6
+    },
+    {
+      "id": "s25_shape36",
+      "left": 6644640,
+      "top": 2908969,
+      "width": 4596384,
+      "height": 341376,
+      "shape_type": 6
+    },
+    {
+      "id": "s25_shape44",
+      "left": 6644640,
+      "top": 3501458,
+      "width": 4596384,
+      "height": 341376,
+      "shape_type": 6
+    },
+    {
+      "id": "s25_shape45",
+      "left": 6644640,
+      "top": 4093948,
+      "width": 4693920,
+      "height": 341376,
+      "shape_type": 6
+    }
+  ]
+}

@@ -1,0 +1,893 @@
+{
+  "slide_num": 27,
+  "text_boxes": [
+    {
+      "id": "s27_shape78",
+      "left": 5557235,
+      "top": 3537821,
+      "width": 1077528,
+      "height": 1129732,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape18",
+      "left": 567634,
+      "top": 1968140,
+      "width": 4975224,
+      "height": 4352076,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape24",
+      "left": 721217,
+      "top": 2169904,
+      "width": 2286000,
+      "height": 1860968,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape33",
+      "left": 3134217,
+      "top": 2169904,
+      "width": 2286000,
+      "height": 1860968,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape34",
+      "left": 737782,
+      "top": 4107303,
+      "width": 2310848,
+      "height": 2076940,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape35",
+      "left": 3134217,
+      "top": 4107303,
+      "width": 2277718,
+      "height": 2076940,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape43",
+      "left": 5753098,
+      "top": 3751035,
+      "width": 685802,
+      "height": 685800,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape2",
+      "left": 584200,
+      "top": 426363,
+      "width": 11023600,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Organization skill-building options",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Organization skill-building options"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape12",
+      "left": 567033,
+      "top": 1051590,
+      "width": 11023600,
+      "height": 276999,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Designed for IT pros, developers, and business users",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Designed for IT pros, developers, and business users"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape31",
+      "left": 736600,
+      "top": 1538288,
+      "width": 4668234,
+      "height": 423862,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Scaled skill-building for everyone",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Scaled skill-building for everyone"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape22",
+      "left": 921734,
+      "top": 2291824,
+      "width": 1884966,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Self-paced digital",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Self-paced digital"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape54",
+      "left": 817472,
+      "top": 2705685,
+      "width": 2093491,
+      "height": 1338828,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Learn for Organizations",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Microsoft Learn for Organizations"
+        },
+        {
+          "runs": [
+            {
+              "text": "Official Plans on ",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": "Microsoft Learn",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Official Plans on \u000bMicrosoft Learn"
+        },
+        {
+          "runs": [
+            {
+              "text": "AI Skills Navigator",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "AI Skills Navigator"
+        },
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape51",
+      "left": 916330,
+      "top": 4278918,
+      "width": 1895775,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Credentials",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Microsoft Credentials"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape53",
+      "left": 817472,
+      "top": 4692779,
+      "width": 2093491,
+      "height": 1154162,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Certifications",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Microsoft Certifications"
+        },
+        {
+          "runs": [
+            {
+              "text": "Microsoft Applied Skills",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Microsoft Applied Skills"
+        },
+        {
+          "runs": [
+            {
+              "text": "Practice Assessments on Microsoft Learn",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Practice Assessments on Microsoft Learn"
+        },
+        {
+          "runs": [
+            {
+              "text": "Exam Readiness Zone",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Exam Readiness Zone"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape57",
+      "left": 3258534,
+      "top": 2291824,
+      "width": 2037366,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Events and workshops",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Events and workshops"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape62",
+      "left": 3230472,
+      "top": 2705685,
+      "width": 2093491,
+      "height": 1154162,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Virtual",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": "Training Days",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": " ",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Microsoft Virtual\u000bTraining Days "
+        },
+        {
+          "runs": [
+            {
+              "text": "Microsoft Learn Challenges",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#000000"
+            }
+          ],
+          "text": "Microsoft Learn Challenges"
+        },
+        {
+          "runs": [
+            {
+              "text": "Technical Workshops",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#000000"
+            }
+          ],
+          "text": "Technical Workshops"
+        },
+        {
+          "runs": [
+            {
+              "text": "Hackathons",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#000000"
+            }
+          ],
+          "text": "Hackathons"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape59",
+      "left": 3979860,
+      "top": 4278918,
+      "width": 594714,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Videos",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Videos"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape61",
+      "left": 3230472,
+      "top": 4692779,
+      "width": 2093491,
+      "height": 1261884,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Course Videos on Microsoft Learn",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Course Videos on Microsoft Learn"
+        },
+        {
+          "runs": [
+            {
+              "text": "Microsoft Learn on YouTube",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": " ",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": "for flexible learning",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#000000"
+            }
+          ],
+          "text": "Microsoft Learn on YouTube for flexible learning"
+        },
+        {
+          "runs": [
+            {
+              "text": "Microsoft Reactor \"Azure Decoded\" Video Series",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Microsoft Reactor \"Azure Decoded\" Video Series"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape3",
+      "left": 6634762,
+      "top": 1968141,
+      "width": 4973036,
+      "height": 4352231,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape4",
+      "left": 6714271,
+      "top": 2169905,
+      "width": 4670246,
+      "height": 4006212,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s27_shape5",
+      "left": 6715277,
+      "top": 1567043,
+      "width": 4668234,
+      "height": 423862,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Premium skill-building options",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Premium skill-building options"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape6",
+      "left": 6851951,
+      "top": 2343707,
+      "width": 4394886,
+      "height": 738664,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Skilling plan ",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "support across the Microsoft skill-building ecosystem",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": " via Training Program Managers (TPMs)",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Skilling plan support across the Microsoft skill-building ecosystem via Training Program Managers (TPMs)"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape7",
+      "left": 6851983,
+      "top": 3298444,
+      "width": 4388594,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Instructor-led training (ILT) ",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "via Microsoft Technical Trainers (MTTs)",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Instructor-led training (ILT) via Microsoft Technical Trainers (MTTs)"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape8",
+      "left": 6851983,
+      "top": 4006960,
+      "width": 4388594,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Training Services Partner credits ",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "(TSPc)",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Training Services Partner credits (TSPc)"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape9",
+      "left": 6851983,
+      "top": 4469254,
+      "width": 4388594,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Portals",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": " ",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "(Learner Experience Portal [",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "LxP",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "] and ",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "Customer Experience Portal [",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "CxP",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "])",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Portals (Learner Experience Portal [LxP] and \u000bCustomer Experience Portal [CxP])"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape10",
+      "left": 6858211,
+      "top": 5054659,
+      "width": 4388594,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Discounts on ",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "Microsoft",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": " ",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "Data & AI Certifications*",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Discounts on Microsoft Data & AI Certifications*"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape11",
+      "left": 6851983,
+      "top": 5640064,
+      "width": 4388594,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "24x7 Skilling Support ",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            },
+            {
+              "text": "for questions",
+              "font": "Segoe Sans Display",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "24x7 Skilling Support for questions"
+        }
+      ]
+    },
+    {
+      "id": "s27_shape13",
+      "left": 8434063,
+      "top": 6459501,
+      "width": 3048001,
+      "height": 153888,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "* ",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            },
+            {
+              "text": "subject to availability.",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "* subject to availability."
+        }
+      ]
+    }
+  ],
+  "notes": "The ubiquity of AI across the organization requires a rethinking of skill-building initiatives. \nFrom leadership to IT to dev to line-of-business users, everyone in the organization plays an essential role in AI adoption. \nSimply upskilling the IT team is no longer enough; to help develop, deploy, and make use of new AI solutions, organizations must upskill their entire workforce in AI. \nBy taking a skills-first approach to data and AI, you can empower your business leaders to have the knowledge to design effective AI strategies, provide your technical teams with the skills to prepare your IT systems and build powerful AI solutions, and equip business users to put AI into action with their daily tasks.\n\nPRESENTER NOTES: See hidden slides in appendix for more examples of commercial skilling benefits"
+}

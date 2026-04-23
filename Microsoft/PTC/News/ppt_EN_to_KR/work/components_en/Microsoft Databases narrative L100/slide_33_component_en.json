@@ -1,0 +1,401 @@
+{
+  "slide_num": 33,
+  "text_boxes": [
+    {
+      "id": "s33_shape18",
+      "left": 1,
+      "top": 0,
+      "width": 7185024,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s33_shape27",
+      "left": 2774738,
+      "top": 2221834,
+      "width": 1345034,
+      "height": 6894514,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s33_shape2",
+      "left": 7689286,
+      "top": 3726888,
+      "width": 320056,
+      "height": 284406,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s33_shape41",
+      "left": 588263,
+      "top": 457200,
+      "width": 6146366,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "NBA boosts AI innovation by migrating to Azure for security, scalability, and speed",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "NBA boosts AI innovation by migrating to Azure for security, scalability, and speed"
+        }
+      ]
+    },
+    {
+      "id": "s33_shape23",
+      "left": 571501,
+      "top": 2397125,
+      "width": 6163128,
+      "height": 1215717,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Challenge",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Challenge"
+        },
+        {
+          "runs": [
+            {
+              "text": "The NBA needed to unify data and scale infrastructure to support global fan engagement and advanced AI features",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "The NBA needed to unify data and scale infrastructure to support global fan engagement and advanced AI features"
+        },
+        {
+          "runs": [
+            {
+              "text": "Required a secure, agile platform to support peak traffic and real-time digital experiences",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Required a secure, agile platform to support peak traffic and real-time digital experiences"
+        },
+        {
+          "runs": [
+            {
+              "text": "Sought to leverage AI to deliver more personalized content and insights",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Sought to leverage AI to deliver more personalized content and insights"
+        }
+      ]
+    },
+    {
+      "id": "s33_shape24",
+      "left": 571498,
+      "top": 3601356,
+      "width": 6400800,
+      "height": 1215717,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "Migrated IT estate to Azure, modernizing apps and data across the organization",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Migrated IT estate to Azure, modernizing apps and data across the organization"
+        },
+        {
+          "runs": [
+            {
+              "text": "Delivered AI-powered features like localized highlights and player insights across 200+ countries ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Delivered AI-powered features like localized highlights and player insights across 200+ countries "
+        },
+        {
+          "runs": [
+            {
+              "text": "Enabled personalized fan experiences in 60 languages",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Enabled personalized fan experiences in 60 languages"
+        }
+      ]
+    },
+    {
+      "id": "s33_shape28",
+      "left": 571500,
+      "top": 5170010,
+      "width": 2676641,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure products used:",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Azure products used:"
+        }
+      ]
+    },
+    {
+      "id": "s33_shape34",
+      "left": 917659,
+      "top": 5608364,
+      "width": 1188720,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure SQL Database",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure SQL Database"
+        }
+      ]
+    },
+    {
+      "id": "s33_shape32",
+      "left": 2500056,
+      "top": 5607645,
+      "width": 1005840,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Blob Storage",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Blob Storage"
+        }
+      ]
+    },
+    {
+      "id": "s33_shape33",
+      "left": 917659,
+      "top": 5972656,
+      "width": 1188720,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure App Service",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure App Service"
+        }
+      ]
+    },
+    {
+      "id": "s33_shape4",
+      "left": 2500056,
+      "top": 5972655,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Defender",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Microsoft Defender"
+        }
+      ]
+    },
+    {
+      "id": "s33_shape35",
+      "left": 8150218,
+      "top": 3733306,
+      "width": 3470281,
+      "height": 1871282,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "On Azure, our teams are capturing, storing, and analyzing data to build products and distribute statistics and analytics throughout our entire ecosystem, including the NBA App, insights for coaches and players, and our direct-to-consumer platform and products..",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "On Azure, our teams are capturing, storing, and analyzing data to build products and distribute statistics and analytics throughout our entire ecosystem, including the NBA App, insights for coaches and players, and our direct-to-consumer platform and products.."
+        },
+        {
+          "runs": [
+            {
+              "text": "Ken DeGennaro",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Ken DeGennaro"
+        },
+        {
+          "runs": [
+            {
+              "text": "SVP",
+              "font": null,
+              "bold": false,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": "Media Operations and Technology, NBA",
+              "font": null,
+              "bold": false,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "SVP\u000bMedia Operations and Technology, NBA"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s33_shape3",
+      "left": 8149025,
+      "top": 5708037,
+      "width": 635436,
+      "height": 363611,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_33/image_27.png"
+    },
+    {
+      "id": "s33_shape5",
+      "left": 2185602,
+      "top": 5933726,
+      "width": 228601,
+      "height": 228601,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_33/image_28.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s33_shape30",
+      "left": 7185025,
+      "top": 0,
+      "width": 5006975,
+      "height": 3475038,
+      "shape_type": 14
+    }
+  ],
+  "notes": "Full customer story here: NBA boosts AI innovation by migrating to Azure for security, scalability, and speed | Microsoft Customer Stories\n\nChallenge\nCelebrating the game of basketball through many channels, including events and broadcasts, the NBA needed a better way to access data, moving onto a unified platform to scale on demand and use AI-driven capabilities, such as high performance.\nNeeded to unify data and scale infrastructure to support global fan engagement and advanced AI featureS\nRequired a secure, agile platform to support peak traffic and real-time digital experiences\nSought to leverage AI to deliver more personalized content and insights\n\nSolution\nThe NBA chose Microsoft Azure as its trusted cloud platform, providing advanced security, scalability, and speed to drive innovation. \nThe migration involved modernizing its code and data using Windows Server on Azure, Azure Blob Storage, Azure App Service, and Azure SQL Database, boosting productivity and scalability.\nBuilt a unified cloud platform to colocate data, apps, and AI models for faster innovation\n\nImpact \nAzure is transforming how the NBA plans and builds new solutions, making the business more resilient and propelling it forward. Since migrating to Azure, the NBA has experienced numerous positive outcomes. \nThe unified platform supports efficient resource management, empowering developers to use AI solutions more securely and quickly.\nThe NBA’s collaboration with Microsoft gave the league the agility to scale resources on demand during major events, ensuring smooth performance during peak times. If viewership spikes on any platform, the NBA can quickly pivot, providing fans with uninterrupted access to real-time action. \nThe NBA’s technology investments are future-proof, driving continuous innovation throughout the organization."
+}

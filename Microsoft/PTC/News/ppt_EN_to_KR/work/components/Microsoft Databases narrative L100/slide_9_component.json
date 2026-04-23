@@ -1,0 +1,234 @@
+{
+  "slide_num": 9,
+  "text_boxes": [
+    {
+      "id": "s9_shape16",
+      "left": 588263,
+      "top": 1739900,
+      "width": 11021126,
+      "height": 4622800,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s9_shape17",
+      "left": 2821238,
+      "top": 2280294,
+      "width": 4208093,
+      "height": 3898797,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s9_shape25",
+      "left": 7225164,
+      "top": 2280294,
+      "width": 4208093,
+      "height": 3898797,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s9_shape27",
+      "left": 760566,
+      "top": 2840816,
+      "width": 2060671,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Industry Leading",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Industry Leading"
+        }
+      ]
+    },
+    {
+      "id": "s9_shape28",
+      "left": 760566,
+      "top": 4434364,
+      "width": 1419072,
+      "height": 923330,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Open source-compatible",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Open source-compatible"
+        }
+      ]
+    },
+    {
+      "id": "s9_shape89",
+      "left": 4067094,
+      "top": 1848860,
+      "width": 1716381,
+      "height": 383496,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Relational",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Relational"
+        }
+      ]
+    },
+    {
+      "id": "s9_shape90",
+      "left": 8717898,
+      "top": 1848860,
+      "width": 1222624,
+      "height": 383496,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "NoSQL",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "NoSQL"
+        }
+      ]
+    },
+    {
+      "id": "s9_shape6",
+      "left": 588263,
+      "top": 457200,
+      "width": 11018520,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft offers a comprehensive databases portfolio",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Microsoft offers a comprehensive databases portfolio"
+        }
+      ]
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s9_shape30",
+      "left": 588263,
+      "top": 3673937,
+      "width": 10835640,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s9_shape12",
+      "left": 7513843,
+      "top": 2745754,
+      "width": 2542947,
+      "height": 497902,
+      "shape_type": 6
+    },
+    {
+      "id": "s9_shape11",
+      "left": 3103027,
+      "top": 2742103,
+      "width": 1783617,
+      "height": 505204,
+      "shape_type": 6
+    },
+    {
+      "id": "s9_shape13",
+      "left": 7513843,
+      "top": 3911325,
+      "width": 2921809,
+      "height": 497901,
+      "shape_type": 6
+    },
+    {
+      "id": "s9_shape15",
+      "left": 3103027,
+      "top": 3831655,
+      "width": 3647567,
+      "height": 553998,
+      "shape_type": 6
+    },
+    {
+      "id": "s9_shape20",
+      "left": 3103027,
+      "top": 4701091,
+      "width": 3647567,
+      "height": 497902,
+      "shape_type": 6
+    },
+    {
+      "id": "s9_shape21",
+      "left": 3136488,
+      "top": 5514431,
+      "width": 2794588,
+      "height": 430980,
+      "shape_type": 6
+    },
+    {
+      "id": "s9_shape22",
+      "left": 3103027,
+      "top": 4543372,
+      "width": 3647567,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s9_shape23",
+      "left": 3103027,
+      "top": 5356712,
+      "width": 3647567,
+      "height": 0,
+      "shape_type": 9
+    }
+  ],
+  "notes": "Microsoft has a comprehensive portfolio across relational and NoSQL databases. You've got industry leading solutions like Azure SQL and Azure Cosmos Database, and open-source solutions with Postgres, MySQL, the new Azure DocumentDB and Azure HorizonDB."
+}

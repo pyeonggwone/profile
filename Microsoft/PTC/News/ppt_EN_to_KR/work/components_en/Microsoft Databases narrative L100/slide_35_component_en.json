@@ -1,0 +1,398 @@
+{
+  "slide_num": 35,
+  "text_boxes": [
+    {
+      "id": "s35_shape18",
+      "left": 1,
+      "top": 0,
+      "width": 7185024,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s35_shape41",
+      "left": 588263,
+      "top": 457200,
+      "width": 6146366,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Medigold Health boosts clinician retention by 58% with automation ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Medigold Health boosts clinician retention by 58% with automation "
+        }
+      ]
+    },
+    {
+      "id": "s35_shape23",
+      "left": 571501,
+      "top": 2397125,
+      "width": 6163128,
+      "height": 954107,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Challenge",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Challenge"
+        },
+        {
+          "runs": [
+            {
+              "text": "Medigold Health faced increasing client demand while managing limited clinician resources.",
+              "font": "Segoe Sans Text Light",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Medigold Health faced increasing client demand while managing limited clinician resources."
+        },
+        {
+          "runs": [
+            {
+              "text": "Clinicians spent excessive time on administrative tasks, including report writing, which reduced time for patient care.",
+              "font": "Segoe Sans Text Light",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Clinicians spent excessive time on administrative tasks, including report writing, which reduced time for patient care."
+        }
+      ]
+    },
+    {
+      "id": "s35_shape24",
+      "left": 571498,
+      "top": 3601356,
+      "width": 6400800,
+      "height": 1292662,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "Azure SQL Database stores AI-generated responses, making them accessible to clinicians",
+              "font": "Segoe Sans Text Light",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Azure SQL Database stores AI-generated responses, making them accessible to clinicians"
+        },
+        {
+          "runs": [
+            {
+              "text": "AI-powered reporting generates medical reports in 15 seconds, saving hours of admin work",
+              "font": "Segoe Sans Text Light",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "AI-powered reporting generates medical reports in 15 seconds, saving hours of admin work"
+        },
+        {
+          "runs": [
+            {
+              "text": "Improved clinician work-life balance and job satisfaction",
+              "font": "Segoe Sans Text Light",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Improved clinician work-life balance and job satisfaction"
+        },
+        {
+          "runs": [
+            {
+              "text": "58% increase in clinician retention",
+              "font": "Segoe Sans Text Light",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "58% increase in clinician retention"
+        }
+      ]
+    },
+    {
+      "id": "s35_shape27",
+      "left": 2774738,
+      "top": 2221834,
+      "width": 1345034,
+      "height": 6894514,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s35_shape28",
+      "left": 571500,
+      "top": 5170010,
+      "width": 2676641,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure products used:",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Azure products used:"
+        }
+      ]
+    },
+    {
+      "id": "s35_shape31",
+      "left": 901373,
+      "top": 5565058,
+      "width": 1716602,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Cosmos DB",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Cosmos DB"
+        }
+      ]
+    },
+    {
+      "id": "s35_shape34",
+      "left": 2594442,
+      "top": 5565058,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure SQL Database",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure SQL Database"
+        }
+      ]
+    },
+    {
+      "id": "s35_shape32",
+      "left": 885952,
+      "top": 5929350,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Foundry",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Microsoft Foundry"
+        }
+      ]
+    },
+    {
+      "id": "s35_shape33",
+      "left": 2579021,
+      "top": 5929350,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure App Service",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure App Service"
+        }
+      ]
+    },
+    {
+      "id": "s35_shape35",
+      "left": 8150219,
+      "top": 3965534,
+      "width": 3279782,
+      "height": 1871282,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Cosmos DB and SQL Database were critical for our technical migration. They provided a highly secure, scalable, and performance-oriented database solution suited to our ongoing vision for innovative health service offerings.",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Azure Cosmos DB and SQL Database were critical for our technical migration. They provided a highly secure, scalable, and performance-oriented database solution suited to our ongoing vision for innovative health service offerings."
+        },
+        {
+          "runs": [
+            {
+              "text": "Alex Goldsmith",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Alex Goldsmith"
+        },
+        {
+          "runs": [
+            {
+              "text": "CEO",
+              "font": "Segoe Sans Text Light",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "CEO"
+        },
+        {
+          "runs": [
+            {
+              "text": "Medigold Health",
+              "font": "Segoe Sans Text Light",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Medigold Health"
+        }
+      ]
+    },
+    {
+      "id": "s35_shape40",
+      "left": 7778909,
+      "top": 3921734,
+      "width": 320056,
+      "height": 284406,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s35_shape49",
+      "left": 8153871,
+      "top": 5939774,
+      "width": 1266424,
+      "height": 395032,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_35/image_14.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s35_shape30",
+      "left": 7185025,
+      "top": 0,
+      "width": 5006975,
+      "height": 3475038,
+      "shape_type": 14
+    }
+  ],
+  "notes": "Facing the challenge of increasing client demand and limited clinician resources, Medigold Health wanted to find ways to reduce administrative burdens on clinicians so they can focus more on patient care—and have better work-life balance.\n\nWith Microsoft Azure as a foundation, the Medigold team migrated their applications and use Azure SQL Database for data storage. Azure SQL Database is the main persistence layer for storing AI-generated responses and making them accessible to clinicians through Medigold's internal application.\n \nAutomated processes, especially with report generation, are saving clinicians time, leading to a 58% rise in clinician retention and greater job satisfaction.\n\nhttps://www.microsoft.com/en/customers/story/19709-medigold-health-consultancy-azure"
+}

@@ -1,0 +1,203 @@
+{
+  "slide_num": 1,
+  "text_boxes": [
+    {
+      "id": "s1_shape12",
+      "left": 578552,
+      "top": 1274236,
+      "width": 11028232,
+      "height": 5075193,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s1_shape27",
+      "left": -977428,
+      "top": 2852395,
+      "width": 5064149,
+      "height": 1929917,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s1_shape5",
+      "left": 1174750,
+      "top": 457200,
+      "width": 11017250,
+      "height": 554038,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Presenter guide",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Presenter guide"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s1_shape6",
+      "left": 2,
+      "top": 6397083,
+      "width": 2969150,
+      "height": 460915,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_1/image_14.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "s1_shape7",
+      "left": 617688,
+      "top": 1282892,
+      "width": 11025187,
+      "height": 4902708,
+      "rows": [
+        [
+          {
+            "text": "Version",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "V2 - Last updated April 2026 (new Modernization messaging, and Azure Accelerate for Databases program announcement)",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "Title",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "Microsoft Databases ",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "Summary",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "Help customers understand why databases are so important to their AI ambitions and explore Microsoft Databases.",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "Primary audience",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "CDO/CIO, TDM, DDM",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "Delivered By",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "Specialist Team Member (SSP, SE, CSA, CSM) ",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "Content Level",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "Level 100 for external & internal use – Customer 1:1, 1:few, 1:many",
+            "font": "+mn-lt",
+            "bold": null,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "Deck Owner",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "Jesse Sullivan, Nikisha Reyes-Grange",
+            "font": "+mn-lt",
+            "bold": null,
+            "size": 12,
+            "color": null
+          }
+        ],
+        [
+          {
+            "text": "Usage Guidance",
+            "font": "+mj-lt",
+            "bold": false,
+            "size": 14,
+            "color": null
+          },
+          {
+            "text": "This pitch is intended to provide an overview of Microsoft Databases, and how they support customers’ AI ambitions through database modernization and new build\nIf customers wish to go deeper into our Databases portfolio or explore specific services, use the content on https://aka.ms/databasesbom \nSlides should be adaptive to the specific audience situation – feel free to reorder slides, hide slides, etc. that you feel fit with your customer\nIMPORTANT: If you share these slides with a customer or partner, please share as PDF to reduce the file size and ensure notes are not visible/accessible",
+            "font": "+mn-lt",
+            "bold": false,
+            "size": 12,
+            "color": null
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "slide_num": 11,
+  "text_boxes": [
+    {
+      "id": "s11_shape26",
+      "left": 588962,
+      "top": 5314379,
+      "width": 11244449,
+      "height": 1011237,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s11_shape30",
+      "left": 683419,
+      "top": 5400105,
+      "width": 11055536,
+      "height": 839786,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s11_shape31",
+      "left": 808679,
+      "top": 5542999,
+      "width": 3267025,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Enterprise Grade Security, Compliance, and Governance",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": "#000000"
+            }
+          ],
+          "text": "Enterprise Grade Security, Compliance, and Governance"
+        }
+      ]
+    },
+    {
+      "id": "s11_shape37",
+      "left": 5302537,
+      "top": 5573777,
+      "width": 1074355,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Microsoft"
+        },
+        {
+          "runs": [
+            {
+              "text": "Purview",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Purview"
+        }
+      ]
+    },
+    {
+      "id": "s11_shape40",
+      "left": 7911567,
+      "top": 5573777,
+      "width": 1074355,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Microsoft"
+        },
+        {
+          "runs": [
+            {
+              "text": "Defender",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Defender"
+        }
+      ]
+    },
+    {
+      "id": "s11_shape42",
+      "left": 10400864,
+      "top": 5573777,
+      "width": 1074355,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Microsoft"
+        },
+        {
+          "runs": [
+            {
+              "text": "Sentinel",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#000000"
+            }
+          ],
+          "text": "Sentinel"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s11_shape36",
+      "left": 4631275,
+      "top": 5551383,
+      "width": 590073,
+      "height": 537231,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_11/image_40.png"
+    },
+    {
+      "id": "s11_shape39",
+      "left": 7283805,
+      "top": 5542999,
+      "width": 546573,
+      "height": 545614,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_11/image_41.png"
+    },
+    {
+      "id": "s11_shape43",
+      "left": 9892834,
+      "top": 5551383,
+      "width": 426840,
+      "height": 537231,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_11/image_42.jpg"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s11_shape45",
+      "left": -1655296,
+      "top": 4580865,
+      "width": 15502592,
+      "height": 9625889,
+      "shape_type": 6
+    },
+    {
+      "id": "s11_shape38",
+      "left": 588963,
+      "top": 1127045,
+      "width": 11017250,
+      "height": 3843770,
+      "shape_type": 6
+    },
+    {
+      "id": "s11_shape41",
+      "left": 4181475,
+      "top": 5503919,
+      "width": 0,
+      "height": 632158,
+      "shape_type": 9
+    }
+  ],
+  "notes": "And what's even better is with Microsoft databases, you've got options on the edge, in Paas (Platform as a Service) and SaaS (Software as a Service), all built on enterprise grade security, compliance and governance from tools like Sentinel, Defender, and Purview\n\nAnd if needed, your data sovereignty goals can be met with Microsoft Databases in the Microsoft Sovereign Cloud."
+}

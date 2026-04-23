@@ -1,0 +1,502 @@
+06:53:47 [INFO] 로그 파일: /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/logs/Microsoft Databases narrative L100_20260423_065347.log
+06:54:16 [INFO] [STEP 3] slide_1/43 번역 시작
+06:54:16 [DEBUG]   slide_1 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 3, tables: 1
+06:54:41 [DEBUG]   slide_1 LLM 응답 (4471 chars): {
+  "text_boxes": [
+    {
+      "id": "s1_shape12",
+      "left": 578552,
+      "top": 1274236,
+      "width": 11028232,
+      "height": 5075193,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s1_shape27",
+      "left": -977428,...
+06:54:41 [DEBUG]     ✓ text_box s1_shape12
+06:54:41 [DEBUG]     ✓ text_box s1_shape27
+06:54:41 [DEBUG]     ✓ text_box s1_shape5
+06:54:41 [DEBUG]     ✓ image s1_shape6
+06:54:41 [DEBUG]     ✓ table s1_shape7
+06:54:41 [INFO]   slide_1 완료 — 성공: 5, 실패: 0
+06:54:43 [INFO] [STEP 3] slide_2/43 번역 시작
+06:54:43 [DEBUG]   slide_2 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 1, tables: 0
+06:54:47 [DEBUG]   slide_2 LLM 응답 (947 chars): {
+  "text_boxes": [
+    {
+      "id": "s2_shape5",
+      "left": 584199,
+      "top": 2286000,
+      "width": 6642173,
+      "height": 886397,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft 데이터베이스",
+              "font": "Segoe Sans Text Semibold",...
+06:54:47 [DEBUG]     ✓ text_box s2_shape5
+06:54:47 [INFO]   slide_2 완료 — 성공: 1, 실패: 0
+06:54:48 [INFO] [STEP 3] slide_3/43 번역 시작
+06:54:49 [DEBUG]   slide_3 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 7, tables: 0
+06:55:15 [DEBUG]   slide_3 LLM 응답 (3812 chars): {
+  "text_boxes": [
+    {
+      "id": "s3_shape5",
+      "left": 8285564,
+      "top": 2251906,
+      "width": 2320579,
+      "height": 2328262,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s3_shape6",
+      "left": 4962217,
+ ...
+06:55:15 [DEBUG]     ✓ text_box s3_shape5
+06:55:15 [DEBUG]     ✓ text_box s3_shape6
+06:55:15 [DEBUG]     ✓ text_box s3_shape7
+06:55:15 [DEBUG]     ✓ text_box s3_shape13
+06:55:15 [DEBUG]     ✓ text_box s3_shape8
+06:55:15 [DEBUG]     ✓ text_box s3_shape9
+06:55:15 [DEBUG]     ✓ text_box s3_shape11
+06:55:15 [DEBUG]     ✓ image s3_shape22
+06:55:15 [DEBUG]     ✓ image s3_shape21
+06:55:15 [INFO]   slide_3 완료 — 성공: 9, 실패: 0
+06:55:16 [INFO] [STEP 3] slide_4/43 번역 시작
+06:55:16 [DEBUG]   slide_4 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 2, tables: 0
+06:55:28 [DEBUG]   slide_4 LLM 응답 (1893 chars): {
+  "text_boxes": [
+    {
+      "id": "s4_shape2",
+      "left": 574816,
+      "top": 510988,
+      "width": 5208618,
+      "height": 624913,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "지금 현대화해야 하는 이유",
+              "font": null,
+              "bold": tr...
+06:55:28 [DEBUG]     ✓ text_box s4_shape2
+06:55:28 [DEBUG]     ✓ text_box s4_shape20
+06:55:28 [INFO]   slide_4 완료 — 성공: 6, 실패: 0
+06:55:28 [INFO] [STEP 3] slide_5/43 번역 시작
+06:55:28 [DEBUG]   slide_5 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 29, tables: 0
+06:56:29 [DEBUG]   slide_5 LLM 응답 (8440 chars): {"text_boxes": [{"id": "s5_shape8", "left": 571500, "top": 2017712, "width": 5433059, "height": 4344987, "paragraphs": [{"runs": [], "text": ""}]}, {"id": "s5_shape9", "left": 6187439, "top": 2017712, "width": 5433059, "height": 4344987, "paragraphs": [{"runs": [], "text": ""}]}, {"id": "s5_shape10"...
+06:56:29 [DEBUG]     ✓ text_box s5_shape8
+06:56:29 [DEBUG]     ✓ text_box s5_shape9
+06:56:29 [DEBUG]     ✓ text_box s5_shape10
+06:56:29 [DEBUG]     ✓ text_box s5_shape12
+06:56:29 [DEBUG]     ✓ text_box s5_shape13
+06:56:29 [DEBUG]     ✓ text_box s5_shape14
+06:56:29 [DEBUG]     ✓ text_box s5_shape15
+06:56:29 [DEBUG]     ✓ text_box s5_shape16
+06:56:29 [DEBUG]     ✓ text_box s5_shape17
+06:56:29 [DEBUG]     ✓ text_box s5_shape18
+06:56:29 [DEBUG]     ✓ text_box s5_shape19
+06:56:29 [DEBUG]     ✓ text_box s5_shape20
+06:56:29 [DEBUG]     ✓ text_box s5_shape21
+06:56:29 [DEBUG]     ✓ text_box s5_shape22
+06:56:29 [DEBUG]     ✓ text_box s5_shape23
+06:56:29 [DEBUG]     ✓ text_box s5_shape34
+06:56:29 [DEBUG]     ✓ text_box s5_shape37
+06:56:29 [DEBUG]     ✓ text_box s5_shape35
+06:56:29 [DEBUG]     ✓ text_box s5_shape38
+06:56:29 [DEBUG]     ✓ text_box s5_shape36
+06:56:29 [DEBUG]     ✓ text_box s5_shape39
+06:56:29 [DEBUG]     ✓ text_box s5_shape7
+06:56:29 [DEBUG]     ✓ text_box s5_shape43
+06:56:29 [DEBUG]     ✓ text_box s5_shape44
+06:56:29 [DEBUG]     ✓ text_box s5_shape45
+06:56:29 [DEBUG]     ✓ text_box s5_shape46
+06:56:29 [DEBUG]     ✓ text_box s5_shape47
+06:56:29 [DEBUG]     ✓ text_box s5_shape48
+06:56:29 [DEBUG]     ✓ text_box s5_shape2
+06:56:29 [INFO]   slide_5 완료 — 성공: 35, 실패: 0
+06:56:30 [INFO] [STEP 3] slide_6/43 번역 시작
+06:56:30 [DEBUG]   slide_6 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 2, tables: 0
+06:56:41 [DEBUG]   slide_6 LLM 응답 (1461 chars): {"text_boxes": [{"id": "s6_shape7", "left": 588963, "top": 1136285, "width": 11017250, "height": 307777, "paragraphs": [{"runs": [{"text": "레거시 애플리케이션 현대화 ", "font": "Segoe UI", "bold": false, "italic": false, "underline": false, "size": 20, "color": null}, {"text": "및", "font": "Segoe UI", "bold": ...
+06:56:41 [DEBUG]     ✓ text_box s6_shape7
+06:56:41 [DEBUG]     ✓ text_box s6_shape13
+06:56:41 [INFO]   slide_6 완료 — 성공: 3, 실패: 0
+06:56:41 [INFO] [STEP 3] slide_7/43 번역 시작
+06:56:41 [DEBUG]   slide_7 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 6, tables: 0
+06:57:04 [DEBUG]   slide_7 LLM 응답 (5493 chars): {
+  "text_boxes": [
+    {
+      "id": "s7_shape7",
+      "left": 588963,
+      "top": 1136285,
+      "width": 10795318,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "클라우드 m",
+              "font": "Segoe UI",
+              "bold": nu...
+06:57:04 [DEBUG]     ✓ text_box s7_shape7
+06:57:04 [DEBUG]     ✓ text_box s7_shape13
+06:57:04 [DEBUG]     ✓ text_box s7_shape19
+06:57:04 [DEBUG]     ✓ text_box s7_shape21
+06:57:04 [DEBUG]     ✓ text_box s7_shape27
+06:57:04 [DEBUG]     ✓ text_box s7_shape30
+06:57:04 [DEBUG]     ✓ image s7_shape11
+06:57:04 [INFO]   slide_7 완료 — 성공: 8, 실패: 0
+06:57:05 [INFO] [STEP 3] slide_8/43 번역 시작
+06:57:05 [DEBUG]   slide_8 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 6, tables: 0
+06:57:22 [DEBUG]   slide_8 LLM 응답 (2369 chars): {"text_boxes": [{"id": "s8_shape7", "left": 588963, "top": 1136285, "width": 11017250, "height": 307777, "paragraphs": [{"runs": [{"text": "우리는 당신의 현대화 성공에", "font": "Segoe UI", "bold": false, "italic": false, "underline": false, "size": 20, "color": null}, {"text": " 그 어느 때보다", "font": "Segoe UI", ...
+06:57:22 [DEBUG]     ✓ text_box s8_shape7
+06:57:22 [DEBUG]     ✓ text_box s8_shape13
+06:57:22 [DEBUG]     ✓ text_box s8_shape19
+06:57:22 [DEBUG]     ✓ text_box s8_shape21
+06:57:22 [DEBUG]     ✓ text_box s8_shape27
+06:57:22 [DEBUG]     ✓ text_box s8_shape8
+06:57:22 [INFO]   slide_8 완료 — 성공: 7, 실패: 0
+06:57:23 [INFO] [STEP 3] slide_9/43 번역 시작
+06:57:23 [DEBUG]   slide_9 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 8, tables: 0
+06:57:37 [DEBUG]   slide_9 LLM 응답 (3400 chars): {
+  "text_boxes": [
+    {
+      "id": "s9_shape16",
+      "left": 588263,
+      "top": 1739900,
+      "width": 11021126,
+      "height": 4622800,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s9_shape17",
+      "left": 2821238,...
+06:57:37 [DEBUG]     ✓ text_box s9_shape16
+06:57:37 [DEBUG]     ✓ text_box s9_shape17
+06:57:37 [DEBUG]     ✓ text_box s9_shape25
+06:57:37 [DEBUG]     ✓ text_box s9_shape27
+06:57:37 [DEBUG]     ✓ text_box s9_shape28
+06:57:37 [DEBUG]     ✓ text_box s9_shape89
+06:57:37 [DEBUG]     ✓ text_box s9_shape90
+06:57:37 [DEBUG]     ✓ text_box s9_shape6
+06:57:37 [INFO]   slide_9 완료 — 성공: 17, 실패: 0
+06:57:38 [INFO] [STEP 3] slide_10/43 번역 시작
+06:57:38 [DEBUG]   slide_10 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 12, tables: 0
+06:58:11 [DEBUG]   slide_10 LLM 응답 (3810 chars): {"text_boxes": [{"id": "s10_shape10", "left": 4378517, "top": 5827963, "width": 3440618, "height": 756745, "paragraphs": [{"runs": [{"text": "모든 데이터가 OneLake에 제공됨", "font": "Segoe UI Semibold", "bold": false, "italic": false, "underline": false, "size": 14, "color": "#FFFFFF"}], "text": "모든 데이터가 One...
+06:58:11 [DEBUG]     ✓ text_box s10_shape10
+06:58:11 [DEBUG]     ✓ text_box s10_shape13
+06:58:11 [DEBUG]     ✓ text_box s10_shape8
+06:58:11 [DEBUG]     ✓ text_box s10_shape9
+06:58:11 [DEBUG]     ✓ text_box s10_shape20
+06:58:11 [DEBUG]     ✓ text_box s10_shape21
+06:58:11 [DEBUG]     ✓ text_box s10_shape22
+06:58:11 [DEBUG]     ✓ text_box s10_shape23
+06:58:11 [DEBUG]     ✓ text_box s10_shape24
+06:58:11 [DEBUG]     ✓ text_box s10_shape63
+06:58:11 [DEBUG]     ✓ text_box s10_shape77
+06:58:11 [DEBUG]     ✓ text_box s10_shape80
+06:58:11 [DEBUG]     ✓ image s10_shape78
+06:58:11 [INFO]   slide_10 완료 — 성공: 23, 실패: 0
+06:58:12 [INFO] [STEP 3] slide_11/43 번역 시작
+06:58:12 [DEBUG]   slide_11 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 6, tables: 0
+06:58:23 [DEBUG]   slide_11 LLM 응답 (2181 chars): {"text_boxes": [{"id": "s11_shape26", "left": 588962, "top": 5314379, "width": 11244449, "height": 1011237, "paragraphs": [{"runs": [], "text": ""}]}, {"id": "s11_shape30", "left": 683419, "top": 5400105, "width": 11055536, "height": 839786, "paragraphs": [{"runs": [], "text": ""}]}, {"id": "s11_sha...
+06:58:23 [DEBUG]     ✓ text_box s11_shape26
+06:58:23 [DEBUG]     ✓ text_box s11_shape30
+06:58:23 [DEBUG]     ✓ text_box s11_shape31
+06:58:23 [DEBUG]     ✓ text_box s11_shape37
+06:58:23 [DEBUG]     ✓ text_box s11_shape40
+06:58:23 [DEBUG]     ✓ text_box s11_shape42
+06:58:23 [DEBUG]     ✓ image s11_shape36
+06:58:23 [DEBUG]     ✓ image s11_shape39
+06:58:23 [DEBUG]     ✓ image s11_shape43
+06:58:23 [INFO]   slide_11 완료 — 성공: 12, 실패: 0
+06:58:23 [INFO] [STEP 3] slide_12/43 번역 시작
+06:58:23 [DEBUG]   slide_12 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 2, tables: 0
+06:58:37 [DEBUG]   slide_12 LLM 응답 (2048 chars): {"text_boxes": [{"id": "s12_shape11", "left": 588962, "top": 1436688, "width": 11017250, "height": 4926012, "paragraphs": [{"runs": [], "text": ""}]}, {"id": "s12_shape3", "left": 588263, "top": 457200, "width": 11018520, "height": 553998, "paragraphs": [{"runs": [{"text": "Microsoft 데이터베이스가 고객 성과를 ...
+06:58:37 [DEBUG]     ✓ text_box s12_shape11
+06:58:37 [DEBUG]     ✓ text_box s12_shape3
+06:58:37 [DEBUG]     ✓ image s12_shape5
+06:58:37 [DEBUG]     ✓ image s12_shape6
+06:58:37 [DEBUG]     ✓ image s12_shape8
+06:58:37 [DEBUG]     ✓ image s12_shape9
+06:58:37 [INFO]   slide_12 완료 — 성공: 6, 실패: 0
+06:58:46 [INFO] [STEP 3] slide_13/43 번역 시작
+06:58:46 [DEBUG]   slide_13 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 8, tables: 0
+06:59:03 [DEBUG]   slide_13 LLM 응답 (3194 chars): {"text_boxes": [{"id": "s13_shape23", "left": 588962, "top": 2024234, "width": 11017250, "height": 4338466, "paragraphs": [{"runs": [], "text": ""}]}, {"id": "s13_shape26", "left": 1777664, "top": 3392735, "width": 1964087, "height": 1015663, "paragraphs": [{"runs": [{"text": "900B", "font": "Segoe ...
+06:59:03 [DEBUG]     ✓ text_box s13_shape23
+06:59:03 [DEBUG]     ✓ text_box s13_shape26
+06:59:03 [DEBUG]     ✓ text_box s13_shape27
+06:59:03 [DEBUG]     ✓ text_box s13_shape28
+06:59:03 [DEBUG]     ✓ text_box s13_shape6
+06:59:03 [DEBUG]     ✓ text_box s13_shape3
+06:59:03 [DEBUG]     ✓ text_box s13_shape19
+06:59:03 [DEBUG]     ✓ text_box s13_shape22
+06:59:03 [DEBUG]     ✓ image s13_shape4
+06:59:03 [INFO]   slide_13 완료 — 성공: 10, 실패: 0
+06:59:04 [INFO] [STEP 3] slide_14/43 번역 시작
+06:59:04 [DEBUG]   slide_14 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 2, tables: 0
+06:59:10 [DEBUG]   slide_14 LLM 응답 (1174 chars): {"text_boxes": [{"id": "s14_shape3", "left": 0, "top": -665966, "width": 11018520, "height": 553998, "paragraphs": [{"runs": [{"text": "GitHub 코파일럿 – 앱 현대화 데모", "font": null, "bold": null, "italic": null, "underline": null, "size": null, "color": null}], "text": "GitHub 코파일럿 – 앱 현대화 데모"}]}, {"id": "...
+06:59:10 [DEBUG]     ✓ text_box s14_shape3
+06:59:10 [DEBUG]     ✓ text_box s14_shape7
+06:59:10 [INFO]   slide_14 완료 — 성공: 4, 실패: 0
+06:59:11 [INFO] [STEP 3] slide_15/43 번역 시작
+06:59:11 [DEBUG]   slide_15 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 7, tables: 0
+06:59:34 [DEBUG]   slide_15 LLM 응답 (3201 chars): {"text_boxes": [{"id": "s15_shape6", "left": -27142, "top": 0, "width": 12191999, "height": 6529137, "paragraphs": [{"runs": [], "text": ""}]}, {"id": "s15_shape3", "left": 439701, "top": 391225, "width": 11555013, "height": 966485, "paragraphs": [{"runs": [{"text": "Azure 가속화 for 데이터베이스", "font": "...
+06:59:34 [DEBUG]     ✓ text_box s15_shape6
+06:59:34 [DEBUG]     ✓ text_box s15_shape3
+06:59:34 [DEBUG]     ✓ text_box s15_shape8
+06:59:34 [DEBUG]     ✓ text_box s15_shape10
+06:59:34 [DEBUG]     ✓ text_box s15_shape16
+06:59:34 [DEBUG]     ✓ text_box s15_shape5
+06:59:34 [DEBUG]     ✓ text_box s15_shape23
+06:59:34 [DEBUG]     ✓ image s15_shape4
+06:59:34 [INFO]   slide_15 완료 — 성공: 12, 실패: 0
+06:59:34 [INFO] [STEP 3] slide_16/43 번역 시작
+06:59:35 [DEBUG]   slide_16 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 4, tables: 0
+06:59:42 [DEBUG]   slide_16 LLM 응답 (1512 chars): {"text_boxes": [{"id": "s16_shape11", "left": -2552, "top": 0, "width": 4917863, "height": 6858000, "paragraphs": [{"runs": [], "text": ""}]}, {"id": "s16_shape21", "left": 0, "top": 325535, "width": 4604249, "height": 1967300, "paragraphs": [{"runs": [{"text": "신뢰할 수 있는 전문가에 접근", "font": "Segoe UI ...
+06:59:42 [DEBUG]     ✓ text_box s16_shape11
+06:59:42 [DEBUG]     ✓ text_box s16_shape21
+06:59:42 [DEBUG]     ✓ text_box s16_shape3
+06:59:42 [DEBUG]     ✓ text_box s16_shape6
+06:59:42 [DEBUG]     ✓ image s16_shape61
+06:59:42 [INFO]   slide_16 완료 — 성공: 8, 실패: 0
+06:59:43 [INFO] [STEP 3] slide_17/43 번역 시작
+06:59:43 [DEBUG]   slide_17 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 23, tables: 0
+07:00:43 [DEBUG]   slide_17 LLM 응답 (6624 chars): {"text_boxes": [{"id": "s17_shape6", "left": 1967637, "top": 3191688, "width": 977934, "height": 75388, "paragraphs": [{"runs": [], "text": ""}]}, {"id": "s17_shape56", "left": 588263, "top": 457200, "width": 11018520, "height": 553998, "paragraphs": [{"runs": [{"text": "클라우드 가속 팩토리", "font": null, ...
+07:00:43 [DEBUG]     ✓ text_box s17_shape6
+07:00:43 [DEBUG]     ✓ text_box s17_shape56
+07:00:43 [DEBUG]     ✓ text_box s17_shape62
+07:00:43 [DEBUG]     ✓ text_box s17_shape64
+07:00:43 [DEBUG]     ✓ text_box s17_shape65
+07:00:43 [DEBUG]     ✓ text_box s17_shape68
+07:00:43 [DEBUG]     ✓ text_box s17_shape69
+07:00:43 [DEBUG]     ✓ text_box s17_shape70
+07:00:43 [DEBUG]     ✓ text_box s17_shape71
+07:00:43 [DEBUG]     ✓ text_box s17_shape73
+07:00:43 [DEBUG]     ✓ text_box s17_shape74
+07:00:43 [DEBUG]     ✓ text_box s17_shape76
+07:00:43 [DEBUG]     ✓ text_box s17_shape78
+07:00:43 [DEBUG]     ✓ text_box s17_shape79
+07:00:43 [DEBUG]     ✓ text_box s17_shape80
+07:00:43 [DEBUG]     ✓ text_box s17_shape81
+07:00:43 [DEBUG]     ✓ text_box s17_shape82
+07:00:43 [DEBUG]     ✓ text_box s17_shape11
+07:00:43 [DEBUG]     ✓ text_box s17_shape12
+07:00:43 [DEBUG]     ✓ text_box s17_shape13
+07:00:43 [DEBUG]     ✓ text_box s17_shape7
+07:00:43 [DEBUG]     ✓ text_box s17_shape8
+07:00:43 [DEBUG]     ✓ text_box s17_shape2
+07:00:43 [INFO]   slide_17 완료 — 성공: 23, 실패: 0
+07:00:44 [INFO] [STEP 3] slide_18/43 번역 시작
+07:00:44 [DEBUG]   slide_18 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 24, tables: 0
+07:01:44 [DEBUG]   slide_18 LLM 응답 (7965 chars): {"text_boxes": [{"id": "s18_shape15", "left": 588263, "top": 457200, "width": 11018520, "height": 553998, "paragraphs": [{"runs": [{"text": "차별화된 혁신 + 전달", "font": null, "bold": null, "italic": null, "underline": null, "size": null, "color": null}], "text": "차별화된 혁신 + 전달"}]}, {"id": "s18_shape16", "...
+07:01:44 [DEBUG]     ✓ text_box s18_shape15
+07:01:44 [DEBUG]     ✓ text_box s18_shape16
+07:01:44 [DEBUG]     ✓ text_box s18_shape17
+07:01:44 [DEBUG]     ✓ text_box s18_shape29
+07:01:44 [DEBUG]     ✓ text_box s18_shape30
+07:01:44 [DEBUG]     ✓ text_box s18_shape55
+07:01:44 [DEBUG]     ✓ text_box s18_shape56
+07:01:44 [DEBUG]     ✓ text_box s18_shape59
+07:01:44 [DEBUG]     ✓ text_box s18_shape60
+07:01:44 [DEBUG]     ✓ text_box s18_shape61
+07:01:44 [DEBUG]     ✓ text_box s18_shape62
+07:01:44 [DEBUG]     ✓ text_box s18_shape65
+07:01:44 [DEBUG]     ✓ text_box s18_shape66
+07:01:44 [DEBUG]     ✓ text_box s18_shape69
+07:01:44 [DEBUG]     ✓ text_box s18_shape70
+07:01:44 [DEBUG]     ✓ text_box s18_shape12
+07:01:44 [DEBUG]     ✓ text_box s18_shape72
+07:01:44 [DEBUG]     ✓ text_box s18_shape84
+07:01:44 [DEBUG]     ✓ text_box s18_shape100
+07:01:44 [DEBUG]     ✓ text_box s18_shape76
+07:01:44 [DEBUG]     ✓ text_box s18_shape86
+07:01:44 [DEBUG]     ✓ text_box s18_shape87
+07:01:44 [DEBUG]     ✓ text_box s18_shape88
+07:01:44 [DEBUG]     ✓ text_box s18_shape89
+07:01:44 [DEBUG]     ✓ image s18_shape18
+07:01:44 [DEBUG]     ✓ image s18_shape71
+07:01:44 [INFO]   slide_18 완료 — 성공: 27, 실패: 0
+07:01:45 [INFO] [STEP 3] slide_19/43 번역 시작
+07:01:45 [DEBUG]   slide_19 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 46, tables: 0
+07:03:28 [DEBUG]   slide_19 LLM 응답 (22024 chars): {
+  "text_boxes": [
+    {
+      "id": "s19_shape2",
+      "left": 588263,
+      "top": 457200,
+      "width": 11018520,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "대규모 워크로드 현대화 추진",
+              "font": null,
+              "bold":...
+07:03:28 [DEBUG]     ✓ text_box s19_shape2
+07:03:28 [DEBUG]     ✓ text_box s19_shape13
+07:03:28 [DEBUG]     ✓ text_box s19_shape5
+07:03:28 [DEBUG]     ✓ text_box s19_shape6
+07:03:28 [DEBUG]     ✓ text_box s19_shape7
+07:03:28 [DEBUG]     ✓ text_box s19_shape8
+07:03:28 [DEBUG]     ✓ text_box s19_shape9
+07:03:28 [DEBUG]     ✓ text_box s19_shape12
+07:03:28 [DEBUG]     ✓ text_box s19_shape14
+07:03:28 [DEBUG]     ✓ text_box s19_shape15
+07:03:28 [DEBUG]     ✓ text_box s19_shape16
+07:03:28 [DEBUG]     ✓ text_box s19_shape17
+07:03:28 [DEBUG]     ✓ text_box s19_shape19
+07:03:28 [DEBUG]     ✓ text_box s19_shape20
+07:03:28 [DEBUG]     ✓ text_box s19_shape21
+07:03:28 [DEBUG]     ✓ text_box s19_shape22
+07:03:28 [DEBUG]     ✓ text_box s19_shape24
+07:03:28 [DEBUG]     ✓ text_box s19_shape41
+07:03:28 [DEBUG]     ✓ text_box s19_shape42
+07:03:28 [DEBUG]     ✓ text_box s19_shape55
+07:03:28 [DEBUG]     ✓ text_box s19_shape56
+07:03:28 [DEBUG]     ✓ text_box s19_shape57
+07:03:28 [DEBUG]     ✓ text_box s19_shape58
+07:03:28 [DEBUG]     ✓ text_box s19_shape63
+07:03:28 [DEBUG]     ✓ text_box s19_shape64
+07:03:28 [DEBUG]     ✓ text_box s19_shape65
+07:03:28 [DEBUG]     ✓ text_box s19_shape66
+07:03:28 [DEBUG]     ✓ text_box s19_shape67
+07:03:28 [DEBUG]     ✓ text_box s19_shape68
+07:03:28 [DEBUG]     ✓ text_box s19_shape69
+07:03:28 [DEBUG]     ✓ text_box s19_shape70
+07:03:28 [DEBUG]     ✓ text_box s19_shape71
+07:03:28 [DEBUG]     ✓ text_box s19_shape72
+07:03:28 [DEBUG]     ✓ text_box s19_shape73
+07:03:28 [DEBUG]     ✓ text_box s19_shape74
+07:03:28 [DEBUG]     ✓ text_box s19_shape75
+07:03:28 [DEBUG]     ✓ text_box s19_shape77
+07:03:28 [DEBUG]     ✓ text_box s19_shape79
+07:03:28 [DEBUG]     ✓ text_box s19_shape80
+07:03:28 [DEBUG]     ✓ text_box s19_shape82
+07:03:28 [DEBUG]     ✓ text_box s19_shape100
+07:03:28 [DEBUG]     ✓ text_box s19_shape101
+07:03:28 [DEBUG]     ✓ text_box s19_shape103
+07:03:28 [DEBUG]     ✓ text_box s19_shape104
+07:03:28 [DEBUG]     ✓ text_box s19_shape105
+07:03:28 [DEBUG]     ✓ text_box s19_shape108
+07:03:28 [DEBUG]     ✓ image s19_shape99
+07:03:28 [INFO]   slide_19 완료 — 성공: 66, 실패: 0
+07:03:35 [INFO] [STEP 3] slide_20/43 번역 시작
+07:03:35 [DEBUG]   slide_20 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 3, tables: 0
+07:03:47 [DEBUG]   slide_20 LLM 응답 (916 chars): {"text_boxes": [{"id": "s20_shape57", "left": 1000125, "top": 1217120, "width": 10191750, "height": 495639, "paragraphs": [{"runs": [{"text": "다양한 산업의 리더들이 ", "font": null, "bold": null, "italic": true, "underline": null, "size": 18, "color": null}, {"text": "하나 이상의 Factory 참여를 완료했습니다", "font": "Seg...
+07:03:47 [DEBUG]     ✓ text_box s20_shape57
+07:03:47 [DEBUG]     ✓ text_box s20_shape2
+07:03:47 [DEBUG]     ✓ text_box s20_shape4
+07:03:47 [DEBUG]     ✓ image s20_shape5
+07:03:47 [DEBUG]     ✓ image s20_shape6
+07:03:47 [DEBUG]     ✓ image s20_shape8
+07:03:47 [DEBUG]     ✓ image s20_shape14
+07:03:47 [DEBUG]     ✓ image s20_shape18
+07:03:47 [DEBUG]     ✓ image s20_shape21
+07:03:47 [DEBUG]     ✓ image s20_shape45
+07:03:47 [DEBUG]     ✓ image s20_shape26
+07:03:47 [DEBUG]     ✓ image s20_shape9
+07:03:47 [DEBUG]     ✓ image s20_shape20
+07:03:47 [DEBUG]     ✓ image s20_shape22
+07:03:47 [DEBUG]     ✓ image s20_shape30
+07:03:47 [DEBUG]     ✓ image s20_shape46
+07:03:47 [DEBUG]     ✓ image s20_shape11
+07:03:47 [DEBUG]     ✓ image s20_shape15
+07:03:47 [DEBUG]     ✓ image s20_shape24
+07:03:47 [DEBUG]     ✓ image s20_shape25
+07:03:47 [DEBUG]     ✓ image s20_shape31
+07:03:47 [DEBUG]     ✓ image s20_shape34
+07:03:47 [DEBUG]     ✓ image s20_shape40
+07:03:47 [DEBUG]     ✓ image s20_shape44
+07:03:47 [DEBUG]     ✓ image s20_shape47
+07:03:47 [DEBUG]     ✓ image s20_shape49
+07:03:47 [DEBUG]     ✓ image s20_shape51
+07:03:47 [DEBUG]     ✓ image s20_shape7
+07:03:47 [DEBUG]     ✓ image s20_shape17
+07:03:47 [DEBUG]     ✓ image s20_shape32
+07:03:47 [DEBUG]     ✓ image s20_shape36
+07:03:47 [DEBUG]     ✓ image s20_shape41
+07:03:47 [DEBUG]     ✓ image s20_shape43
+07:03:47 [DEBUG]     ✓ image s20_shape50
+07:03:47 [DEBUG]     ✓ image s20_shape52
+07:03:47 [DEBUG]     ✓ image s20_shape13
+07:03:47 [DEBUG]     ✓ image s20_shape16
+07:03:47 [DEBUG]     ✓ image s20_shape19
+07:03:47 [DEBUG]     ✓ image s20_shape23
+07:03:47 [DEBUG]     ✓ image s20_shape29
+07:03:47 [DEBUG]     ✓ image s20_shape33
+07:03:47 [DEBUG]     ✓ image s20_shape37
+07:03:47 [DEBUG]     ✓ image s20_shape39
+07:03:47 [DEBUG]     ✓ image s20_shape48
+07:03:47 [DEBUG]     ✓ image s20_shape53
+07:03:47 [DEBUG]     ✓ image s20_shape10
+07:03:47 [DEBUG]     ✓ image s20_shape27
+07:03:47 [DEBUG]     ✓ image s20_shape28
+07:03:47 [DEBUG]     ✓ image s20_shape35
+07:03:47 [DEBUG]     ✓ image s20_shape38
+07:03:47 [DEBUG]     ✓ image s20_shape42
+07:03:47 [DEBUG]     ✓ image s20_shape12
+07:03:47 [INFO]   slide_20 완료 — 성공: 53, 실패: 0
+07:03:49 [INFO] [STEP 3] slide_21/43 번역 시작
+07:03:49 [DEBUG]   slide_21 LLM 요청 — 모델: gpt-4.1-mini, text_boxes: 4, tables: 0
+07:03:59 [DEBUG]   slide_21 LLM 응답 (2494 chars): {
+  "text_boxes": [
+    {
+      "id": "s21_shape5",
+      "left": 0,
+      "top": -1,
+      "width": 4850824,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s21_shape2",
+      "left": 4955273,
+      "top...
+07:03:59 [DEBUG]     ✓ text_box s21_shape5
+07:03:59 [DEBUG]     ✓ text_box s21_shape2
+07:03:59 [DEBUG]     ✓ text_box s21_shape21
+07:03:59 [DEBUG]     ✓ text_box s21_shape3
+07:03:59 [ERROR] [main] Microsoft Databases narrative L100.PPTX 처리 중 오류: 'id'
+Traceback (most recent call last):
+  File "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/library/translator.py", line 164, in _insert_shapes
+    _insert_text_box(slide, tb, font_map)
+  File "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/library/translator.py", line 216, in _insert_text_box
+    Emu(tb["left"]), Emu(tb["top"]), Emu(tb["width"]), Emu(tb["height"])
+KeyError: 'left'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/main.py", line 89, in _process_file
+    step3_translate.run(cfg, stem, client)
+  File "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/library/step3_translate.py", line 35, in run
+    translator.translate(
+  File "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/library/translator.py", line 61, in translate
+    status = _insert_shapes(slide, translated_comp, font_map, slide_idx)
+  File "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/library/translator.py", line 168, in _insert_shapes
+    log.warning(f"    ✗ text_box {tb['id']} 삽입 실패: {e}")
+KeyError: 'id'

@@ -1,0 +1,1151 @@
+{
+  "slide_num": 19,
+  "text_boxes": [
+    {
+      "id": "s19_shape2",
+      "left": 588263,
+      "top": 457200,
+      "width": 11018520,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Driving workload modernization at scale",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Driving workload modernization at scale"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape13",
+      "left": 588963,
+      "top": 1091396,
+      "width": 11017250,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "From Legacy Monolith to Cloud Native with Agentic tools and Cloud Accelerate Factory",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": "#000000"
+            }
+          ],
+          "text": "From Legacy Monolith to Cloud Native with Agentic tools and Cloud Accelerate Factory"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape5",
+      "left": 588263,
+      "top": 1939547,
+      "width": 11032237,
+      "height": 3292853,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape6",
+      "left": 870793,
+      "top": 1759142,
+      "width": 3568376,
+      "height": 360812,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Joint delivery from discovery to production",
+              "font": "Segoe Sans Display Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Joint delivery from discovery to production"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape7",
+      "left": 6975025,
+      "top": 1759142,
+      "width": 3774831,
+      "height": 360812,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "An example of agentic modernization in action",
+              "font": "Segoe Sans Display Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "An example of agentic modernization in action"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape8",
+      "left": 588262,
+      "top": 5484816,
+      "width": 11032237,
+      "height": 794224,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape9",
+      "left": 3553428,
+      "top": 5484814,
+      "width": 8067073,
+      "height": 794225,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape12",
+      "left": 1017910,
+      "top": 2330843,
+      "width": 2208722,
+      "height": 276999,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Your team leads",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Your team leads"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape14",
+      "left": 1017910,
+      "top": 2734457,
+      "width": 1154379,
+      "height": 738664,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Drive architecture decisions and standards",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Drive architecture decisions and standards"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape15",
+      "left": 2405303,
+      "top": 2734457,
+      "width": 897295,
+      "height": 738664,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Set guardrails and quality bars",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Set guardrails and quality bars"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape16",
+      "left": 3582213,
+      "top": 2734457,
+      "width": 897707,
+      "height": 738664,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Review and approve PRs as work lands",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Review and approve PRs as work lands"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape17",
+      "left": 4712935,
+      "top": 2734457,
+      "width": 921042,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Perform final validation and sign-off",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Perform final validation and sign-off"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape19",
+      "left": 1017910,
+      "top": 3566304,
+      "width": 3268930,
+      "height": 276999,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Cloud Accelerate Factory scales",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Cloud Accelerate Factory scales"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape20",
+      "left": 1017910,
+      "top": 4494653,
+      "width": 832405,
+      "height": 338554,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Environment Readiness",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 11,
+              "color": null
+            }
+          ],
+          "text": "Environment Readiness"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape21",
+      "left": 2014380,
+      "top": 4494653,
+      "width": 778617,
+      "height": 338554,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Code Assessment",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 11,
+              "color": null
+            }
+          ],
+          "text": "Code Assessment"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape22",
+      "left": 2957062,
+      "top": 4494653,
+      "width": 778617,
+      "height": 338554,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Upgrade & Modernize",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 11,
+              "color": null
+            }
+          ],
+          "text": "Upgrade & Modernize"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape24",
+      "left": 3899744,
+      "top": 4494653,
+      "width": 886194,
+      "height": 338554,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Infrastructure as Code",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 11,
+              "color": null
+            }
+          ],
+          "text": "Infrastructure as Code"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape41",
+      "left": 4950002,
+      "top": 4494653,
+      "width": 832405,
+      "height": 338554,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Workload Deployment",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 11,
+              "color": null
+            }
+          ],
+          "text": "Workload Deployment"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape42",
+      "left": 1017909,
+      "top": 4080280,
+      "width": 276995,
+      "height": 276995,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape55",
+      "left": 2014380,
+      "top": 4080280,
+      "width": 276995,
+      "height": 276995,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape56",
+      "left": 2957062,
+      "top": 4080280,
+      "width": 276995,
+      "height": 276995,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape57",
+      "left": 3899744,
+      "top": 4080280,
+      "width": 276995,
+      "height": 276995,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape58",
+      "left": 4950002,
+      "top": 4080280,
+      "width": 276995,
+      "height": 276995,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape63",
+      "left": 940948,
+      "top": 5632629,
+      "width": 2840220,
+      "height": 498598,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Measured / expected acceleration*",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Measured / expected acceleration*"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape64",
+      "left": 6633165,
+      "top": 3260345,
+      "width": 1943946,
+      "height": 1144463,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape65",
+      "left": 6709879,
+      "top": 2287298,
+      "width": 1790519,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Legacy infrastructure",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Legacy infrastructure"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape66",
+      "left": 9460886,
+      "top": 2287298,
+      "width": 1317716,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Cloud Native",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Cloud Native"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape67",
+      "left": 7489694,
+      "top": 2629982,
+      "width": 230889,
+      "height": 207853,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape68",
+      "left": 10004300,
+      "top": 2629982,
+      "width": 230889,
+      "height": 207853,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape69",
+      "left": 7299672,
+      "top": 2882720,
+      "width": 610934,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "End users",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "End users"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape70",
+      "left": 9814277,
+      "top": 2882720,
+      "width": 610934,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "End users",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "End users"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape71",
+      "left": 7002663,
+      "top": 3507321,
+      "width": 1204950,
+      "height": 161583,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "UI Layer (ASP.NET)",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "UI Layer (ASP.NET)"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape72",
+      "left": 7002663,
+      "top": 3791322,
+      "width": 1204950,
+      "height": 161583,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Business Logic (BLL)",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "Business Logic (BLL)"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape73",
+      "left": 7002663,
+      "top": 4075324,
+      "width": 1204950,
+      "height": 161583,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Data Access (DAL)",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "Data Access (DAL)"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape74",
+      "left": 7528938,
+      "top": 4612367,
+      "width": 152400,
+      "height": 190500,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape75",
+      "left": 7299672,
+      "top": 4878574,
+      "width": 610934,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "SQL server",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "SQL server"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape77",
+      "left": 7144348,
+      "top": 3152703,
+      "width": 921581,
+      "height": 240406,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "IIS App Server",
+              "font": "Segoe Sans Display Semilight",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "IIS App Server"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape79",
+      "left": 9147771,
+      "top": 3260345,
+      "width": 1943946,
+      "height": 1144463,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape80",
+      "left": 9606257,
+      "top": 4878574,
+      "width": 1026976,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure SQL database",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure SQL database"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape82",
+      "left": 9460888,
+      "top": 3152703,
+      "width": 1317714,
+      "height": 240406,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Container Apps",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Azure Container Apps"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape100",
+      "left": 8759134,
+      "top": 3729269,
+      "width": 206614,
+      "height": 206614,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s19_shape101",
+      "left": 3906736,
+      "top": 5596977,
+      "width": 1478019,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "60-70%",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": " reduction in initial ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": "IaC",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": " creation time",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "60-70% reduction in initial IaC creation time"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape103",
+      "left": 5917473,
+      "top": 5596977,
+      "width": 1472198,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Up to",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": " ",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": "75%",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": " faster environment readiness",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Up to 75% faster environment readiness"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape104",
+      "left": 7922389,
+      "top": 5596977,
+      "width": 1409753,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Up to 50%",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": " reduction in rework during reviews",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Up to 50% reduction in rework during reviews"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape105",
+      "left": 9864860,
+      "top": 5596977,
+      "width": 1368629,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Reusable patterns established for future",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Reusable patterns established for future"
+        }
+      ]
+    },
+    {
+      "id": "s19_shape108",
+      "left": 10142482,
+      "top": 6345036,
+      "width": 1478019,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "*Outcomes vary",
+              "font": "Segoe Sans Display Semilight",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": "#000000"
+            }
+          ],
+          "text": "*Outcomes vary"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s19_shape99",
+      "left": 9986807,
+      "top": 4585487,
+      "width": 265877,
+      "height": 257898,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_19/image_14.x-wmf"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s19_shape18",
+      "left": 6104381,
+      "top": 2154587,
+      "width": 0,
+      "height": 2862773,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape59",
+      "left": 1294904,
+      "top": 4218777,
+      "width": 662944,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape60",
+      "left": 2268738,
+      "top": 4218777,
+      "width": 625633,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape61",
+      "left": 3190005,
+      "top": 4218777,
+      "width": 629827,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape62",
+      "left": 4111271,
+      "top": 4218777,
+      "width": 763071,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape76",
+      "left": 7605138,
+      "top": 3025742,
+      "width": 1,
+      "height": 126961,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape78",
+      "left": 7605138,
+      "top": 4414530,
+      "width": 1,
+      "height": 126961,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape81",
+      "left": 10119744,
+      "top": 3025742,
+      "width": 1,
+      "height": 126961,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape83",
+      "left": 10119744,
+      "top": 4414530,
+      "width": 1,
+      "height": 126961,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape84",
+      "left": 9814277,
+      "top": 3496984,
+      "width": 610934,
+      "height": 246045,
+      "shape_type": 6
+    },
+    {
+      "id": "s19_shape87",
+      "left": 9352310,
+      "top": 3935050,
+      "width": 284161,
+      "height": 307601,
+      "shape_type": 6
+    },
+    {
+      "id": "s19_shape90",
+      "left": 10459839,
+      "top": 3937748,
+      "width": 580033,
+      "height": 304903,
+      "shape_type": 6
+    },
+    {
+      "id": "s19_shape93",
+      "left": 9904734,
+      "top": 3996605,
+      "width": 419289,
+      "height": 246046,
+      "shape_type": 6
+    },
+    {
+      "id": "s19_shape96",
+      "left": 9835323,
+      "top": 3966202,
+      "width": 0,
+      "height": 314546,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape97",
+      "left": 10404165,
+      "top": 3966202,
+      "width": 0,
+      "height": 314546,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape98",
+      "left": 9277103,
+      "top": 3861125,
+      "width": 1685282,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape102",
+      "left": 5731013,
+      "top": 5597613,
+      "width": 0,
+      "height": 568627,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape106",
+      "left": 7735929,
+      "top": 5597613,
+      "width": 0,
+      "height": 568627,
+      "shape_type": 9
+    },
+    {
+      "id": "s19_shape107",
+      "left": 9678400,
+      "top": 5597613,
+      "width": 0,
+      "height": 568627,
+      "shape_type": 9
+    }
+  ],
+  "notes": "Let’s make this real with an example of how agentic tooling and the Cloud Accelerate Factory work together with your team on an actual modernization journey.\n\nThis journey started with a traditional monolithic application running on legacy infrastructure. The Cloud Accelerate Factory began by assessing the application and environment — looking at code structure & dependencies, to create a modernization plan moving to a microservices‑based architecture aligned with the customer’s standards.\n\nFrom there, the Factory drove the modernization loop —refactoring and upgrading application code, containerizing services, and validating changes against cloud native capabilities. Changes were reviewed and approved by the customer’s development team as they progressed, while the Factory managed execution, ran the iterations, and maintained delivery momentum.\n\nIn parallel, the Factory created repeatable infrastructure‑as‑code templates and deployment patterns, tailored to the customer’s environment so each environment started from a consistent, governed baseline.\nThe outcome was measurable acceleration: Faster environment readiness, less rework during reviews, and reusable patterns that could be applied across the rest of the portfolio.\n\nThis is joint delivery from discovery to production — Tools and agents can accelerate tasks. The Factory helps you turn that into a repeatable delivery motion — with expert capacity, structured execution, and reusable automation — so you can modernize faster and at scale."
+}

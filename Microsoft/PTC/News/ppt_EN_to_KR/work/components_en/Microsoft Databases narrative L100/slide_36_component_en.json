@@ -1,0 +1,370 @@
+{
+  "slide_num": 36,
+  "text_boxes": [
+    {
+      "id": "s36_shape18",
+      "left": 1,
+      "top": 0,
+      "width": 7185024,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s36_shape27",
+      "left": 2774738,
+      "top": 2221834,
+      "width": 1345034,
+      "height": 6894514,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s36_shape2",
+      "left": 7689286,
+      "top": 3959117,
+      "width": 320056,
+      "height": 284406,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s36_shape41",
+      "left": 588263,
+      "top": 457200,
+      "width": 6146366,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Thomson Reuters transforms tax prep for 7K businesses",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Thomson Reuters transforms tax prep for 7K businesses"
+        }
+      ]
+    },
+    {
+      "id": "s36_shape23",
+      "left": 571501,
+      "top": 2092324,
+      "width": 6163128,
+      "height": 954107,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Challenge",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Challenge"
+        },
+        {
+          "runs": [
+            {
+              "text": "Slow application response times and unreliable access during peak tax season frustrated users and put the company’s reputation at risk",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Slow application response times and unreliable access during peak tax season frustrated users and put the company’s reputation at risk"
+        },
+        {
+          "runs": [
+            {
+              "text": "Third-party cloud service couldn’t scale to meet growing customer demands",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Third-party cloud service couldn’t scale to meet growing customer demands"
+        }
+      ]
+    },
+    {
+      "id": "s36_shape24",
+      "left": 571498,
+      "top": 3296555,
+      "width": 6400800,
+      "height": 1400383,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "Seamless migration of 18K databases across 500+ TB of data with full SQL Server compatibility—no major code changes needed",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Seamless migration of 18K databases across 500+ TB of data with full SQL Server compatibility—no major code changes needed"
+        },
+        {
+          "runs": [
+            {
+              "text": "Boosted performance for 7K firms and 70K users",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Boosted performance for 7K firms and 70K users"
+        },
+        {
+          "runs": [
+            {
+              "text": "High availability and built-in disaster recovery capabilities across regions, supporting the company's global operations",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "High availability and built-in disaster recovery capabilities across regions, supporting the company's global operations"
+        }
+      ]
+    },
+    {
+      "id": "s36_shape28",
+      "left": 571500,
+      "top": 5170010,
+      "width": 2676641,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure products used:",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Azure products used:"
+        }
+      ]
+    },
+    {
+      "id": "s36_shape31",
+      "left": 901372,
+      "top": 5565058,
+      "width": 1530677,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure SQL Managed Instance",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure SQL Managed Instance"
+        }
+      ]
+    },
+    {
+      "id": "s36_shape34",
+      "left": 2985421,
+      "top": 5565058,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Virtual Desktop",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Virtual Desktop"
+        }
+      ]
+    },
+    {
+      "id": "s36_shape32",
+      "left": 885952,
+      "top": 5929350,
+      "width": 1005840,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Migrate",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Migrate"
+        }
+      ]
+    },
+    {
+      "id": "s36_shape33",
+      "left": 2985421,
+      "top": 5929350,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure NetApp Files",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure NetApp Files"
+        }
+      ]
+    },
+    {
+      "id": "s36_shape35",
+      "left": 8150218,
+      "top": 3965535,
+      "width": 3470281,
+      "height": 1298817,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Transitioning to a Microsoft fully managed platform as a service was a game changer. Azure SQL Managed Instance removed complexity, letting us focus on strategic growth.",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Transitioning to a Microsoft fully managed platform as a service was a game changer. Azure SQL Managed Instance removed complexity, letting us focus on strategic growth."
+        },
+        {
+          "runs": [
+            {
+              "text": "Ryan Schlagel",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Ryan Schlagel"
+        },
+        {
+          "runs": [
+            {
+              "text": "Architect, Thomson Reuters",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Architect, Thomson Reuters"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s36_shape3",
+      "left": 8150218,
+      "top": 5537082,
+      "width": 2225732,
+      "height": 307776,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_36/image_14.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s36_shape30",
+      "left": 7185025,
+      "top": 0,
+      "width": 5006975,
+      "height": 3475038,
+      "shape_type": 14
+    }
+  ],
+  "notes": "Thomson Reuters transforms tax prep for 7K businesses with Azure SQL Managed Instance | Microsoft Customer Stories\nhttps://www.microsoft.com/en/customers/story/24427-thomson-reuters-azure"
+}

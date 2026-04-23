@@ -1,0 +1,35 @@
+{
+  "slide_num": 12,
+  "items": [
+    {
+      "id": "s12_shape11",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s12_shape3",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s12_shape5",
+      "type": "image",
+      "ok": true
+    },
+    {
+      "id": "s12_shape6",
+      "type": "image",
+      "ok": true
+    },
+    {
+      "id": "s12_shape8",
+      "type": "image",
+      "ok": true
+    },
+    {
+      "id": "s12_shape9",
+      "type": "image",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "slide_num": 10,
+  "items": [
+    {
+      "id": "s10_shape10",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape13",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape8",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape9",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape20",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape21",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape22",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape23",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape24",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape63",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape77",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape80",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s10_shape78",
+      "type": "image",
+      "ok": true
+    },
+    {
+      "id": "s10_shape79",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s10_shape26",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s10_shape29",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s10_shape33",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s10_shape36",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s10_shape43",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s10_shape57",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s10_shape60",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s10_shape81",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s10_shape82",
+      "type": "smartart_placeholder",
+      "ok": true
+    }
+  ]
+}

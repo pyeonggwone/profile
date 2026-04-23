@@ -1,0 +1,280 @@
+{
+  "slide_num": 34,
+  "text_boxes": [
+    {
+      "id": "s34_shape18",
+      "left": 1,
+      "top": 0,
+      "width": 7185024,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s34_shape2",
+      "left": 7689286,
+      "top": 3959117,
+      "width": 320056,
+      "height": 284406,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s34_shape41",
+      "left": 588263,
+      "top": 457200,
+      "width": 6306249,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "KPMG sees huge productivity gains and drives new business with generative AI",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "KPMG sees huge productivity gains and drives new business with generative AI\u000b"
+        }
+      ]
+    },
+    {
+      "id": "s34_shape23",
+      "left": 571501,
+      "top": 2376953,
+      "width": 6163128,
+      "height": 1020792,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Challenge",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Challenge"
+        },
+        {
+          "runs": [
+            {
+              "text": "KPMG Australia wanted to develop a private, secure AI assistant with a conversational interface to help employees surface insights from unstructured data.",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "KPMG Australia wanted to develop a private, secure AI assistant with a conversational interface to help employees surface insights from unstructured data."
+        }
+      ]
+    },
+    {
+      "id": "s34_shape24",
+      "left": 571498,
+      "top": 3405873,
+      "width": 6400800,
+      "height": 1554272,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "KymChat",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": " is a generative AI assistant that automates mundane tasks and helps employees find data and documents fast.",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "KymChat is a generative AI assistant that automates mundane tasks and helps employees find data and documents fast."
+        },
+        {
+          "runs": [
+            {
+              "text": "KPMG Australia has seen a 50 percent jump in productivity across document drafting, communications, proposal development, and research.",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "KPMG Australia has seen a 50 percent jump in productivity across document drafting, communications, proposal development, and research."
+        },
+        {
+          "runs": [
+            {
+              "text": "KPMG clients can also use ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": "KymChat",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": " with their private organizational data.",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "KPMG clients can also use KymChat with their private organizational data."
+        }
+      ]
+    },
+    {
+      "id": "s34_shape35",
+      "left": 8150218,
+      "top": 3965535,
+      "width": 3470281,
+      "height": 1483483,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "The results of our adoption of (Azure DocumentDB) were startling. Search quality jumped from 50 to 91 percent, and our results were being delivered in under a second. ",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "The results of our adoption of (Azure DocumentDB) were startling. Search quality jumped from 50 to 91 percent, and our results were being delivered in under a second. "
+        },
+        {
+          "runs": [
+            {
+              "text": "Robert Finlayson",
+              "font": "Segoe Sans Text",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": "Senior Product Manager",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Robert Finlayson\u000bSenior Product Manager"
+        },
+        {
+          "runs": [
+            {
+              "text": "KPMG",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "KPMG"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s34_shape3",
+      "left": 8141505,
+      "top": 5748842,
+      "width": 1031338,
+      "height": 466953,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_34/image_17.png"
+    },
+    {
+      "id": "s34_shape39",
+      "left": 595833,
+      "top": 5523896,
+      "width": 225587,
+      "height": 250802,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_34/image_18.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s34_shape30",
+      "left": 7185025,
+      "top": 0,
+      "width": 5006975,
+      "height": 3475038,
+      "shape_type": 14
+    },
+    {
+      "id": "s34_shape50",
+      "left": -2,
+      "top": 4996574,
+      "width": 6894514,
+      "height": 1345034,
+      "shape_type": 6
+    }
+  ],
+  "notes": "KPMG delivers huge productivity gains and drives new business with generative AI | Microsoft Customer Stories\n\nOne customer that is benefitting from Azure DocumentDB already is KPMG\n\nEarly in 2023, KPMG Australia deployed the first version of its KymChat conversational AI assistant. \nTwo months later, the company added Azure DocumentDB, then called Azure Cosmos DB for MongoDB vCore to the solution, substantially increasing the quality and speed of its query responses. \nCentered on ease of use, the solution has also been made available to KPMG clients looking to improve their own generative AI adoption.\n\nSo far, 70 percent of the firm’s employees have adopted KymChat,. Even more impressive, the solution has led to as much as a 50 percent jump in productivity across workloads like document drafting, communications, sales proposal development, and research. KymChat has also unlocked new avenues for growth at KPMG Australia. Launched as a client-side market offering, the solution is helping the firm’s customers progress along their own generative AI adoption journeys."
+}

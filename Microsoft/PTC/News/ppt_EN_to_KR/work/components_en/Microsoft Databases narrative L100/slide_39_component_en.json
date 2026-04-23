@@ -1,0 +1,361 @@
+{
+  "slide_num": 39,
+  "text_boxes": [
+    {
+      "id": "s39_shape5",
+      "left": 1,
+      "top": 0,
+      "width": 7185024,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s39_shape36",
+      "left": 588263,
+      "top": 457200,
+      "width": 6306251,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Allscripts turns to SQL Server on Azure Virtual Machines for increased agility",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Allscripts turns to SQL Server on Azure Virtual Machines for increased agility"
+        }
+      ]
+    },
+    {
+      "id": "s39_shape16",
+      "left": 571501,
+      "top": 2333625,
+      "width": 5913119,
+      "height": 1400383,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Challenge",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Challenge"
+        },
+        {
+          "runs": [
+            {
+              "text": "A leading healthcare software provider, Allscripts aimed to stay competitive by transforming applications more frequently",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "A leading healthcare software provider, Allscripts aimed to stay competitive by transforming applications more frequently"
+        },
+        {
+          "runs": [
+            {
+              "text": "Dealing with sensitive patient data, the company couldn’t afford to sacrifice security and reliability",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Dealing with sensitive patient data, the company couldn’t afford to sacrifice security and reliability"
+        },
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s39_shape22",
+      "left": 571499,
+      "top": 3537856,
+      "width": 5913119,
+      "height": 1477328,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "Moved on-premises applications and legacy tools Microsoft Azure data services",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Moved on-premises applications and legacy tools Microsoft Azure data services"
+        },
+        {
+          "runs": [
+            {
+              "text": "Migrated dozens of acquired applications on 1,000+ VMs to Azure in just three weeks",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Migrated dozens of acquired applications on 1,000+ VMs to Azure in just three weeks"
+        },
+        {
+          "runs": [
+            {
+              "text": "Increased time-to-market gains and savings by using the Azure platform for development",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Increased time-to-market gains and savings by using the Azure platform for development"
+        },
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s39_shape23",
+      "left": 2774740,
+      "top": 2501234,
+      "width": 1345034,
+      "height": 6894514,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s39_shape24",
+      "left": 571502,
+      "top": 5449410,
+      "width": 2676641,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure products used:",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Azure products used:"
+        }
+      ]
+    },
+    {
+      "id": "s39_shape28",
+      "left": 867393,
+      "top": 5860470,
+      "width": 1986931,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "SQL",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            },
+            {
+              "text": " ",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": "#000000"
+            },
+            {
+              "text": "Server",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            },
+            {
+              "text": " on Azure Virtual Machines",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": "#000000"
+            }
+          ],
+          "text": "SQL Server on Azure Virtual Machines"
+        }
+      ]
+    },
+    {
+      "id": "s39_shape29",
+      "left": 8128000,
+      "top": 3965533,
+      "width": 3279782,
+      "height": 1677382,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "By moving our acquired applications to Azure, we were able to get them up, running, and adding value to the business in three weeks versus the three months needed to requisition servers and storage.",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "By moving our acquired applications to Azure, we were able to get them up, running, and adding value to the business in three weeks versus the three months needed to requisition servers and storage."
+        },
+        {
+          "runs": [
+            {
+              "text": "Peter Tomlinson",
+              "font": "Segoe Sans Text Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Peter Tomlinson"
+        },
+        {
+          "runs": [
+            {
+              "text": "Director of IS, Technology Operations, Allscripts",
+              "font": null,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Director of IS, Technology Operations, Allscripts"
+        },
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s39_shape3",
+      "left": 127000,
+      "top": -76200,
+      "width": 304800,
+      "height": 304800,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s39_shape2",
+      "left": 7689286,
+      "top": 3959117,
+      "width": 320056,
+      "height": 284406,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s39_shape9",
+      "left": 571499,
+      "top": 5826845,
+      "width": 202480,
+      "height": 202480,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_39/image_27.png"
+    },
+    {
+      "id": "s39_shape10",
+      "left": 8128000,
+      "top": 5782493,
+      "width": 1615405,
+      "height": 331996,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_39/image_28.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s39_shape30",
+      "left": 7185025,
+      "top": 0,
+      "width": 5006975,
+      "height": 3475038,
+      "shape_type": 14
+    }
+  ],
+  "notes": "https://customers.microsoft.com/en-us/story/allscripts-partner-professional-services-azure\n\n\n\"The second acquisition already had 16 Azure subscriptions, so the Allscripts team simply moved the subscriptions to the Allscripts Azure enrollment agreement. That company also had 600 on-premises VMs that still had to be moved to Azure, most of which ran older editions of Windows Server and SQL Server. For these, Allscripts took advantage of the Azure Hybrid Benefit, an offer that lets customers reuse their existing on-premises Windows Server and SQL Server licenses in Azure and realize licensing savings of up to 82 percent. \""
+}
