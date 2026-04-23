@@ -4,7 +4,9 @@ Prosci Change Management Practitioner 학습 일정을 시각화한 GitHub Pages
 
 **URL**: https://donaid.github.io/calender-prosci/  
 **Repository**: https://github.com/Donaid/calender-prosci
+https://microsoft.sharepoint.com/:f:/r/teams/ProsciClass438/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven&p=true&share=cgpuOxV6slzWTpa4OEVrI%5F5OEgUCT19pPbZ9rSBViRDDgvhTxQ
 
+https://portal.prosci.com/
 ---
 
 ## 파일 구조
