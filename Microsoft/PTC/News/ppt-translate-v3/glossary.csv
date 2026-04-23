@@ -1,0 +1,9 @@
+term,translation,protected
+Azure,Azure,true
+Microsoft,Microsoft,true
+Copilot,Copilot,true
+Fabric,Fabric,true
+SQL,SQL,true
+OpenAI,OpenAI,true
+database modernization,데이터베이스 현대화,false
+workload,워크로드,false
