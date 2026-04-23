@@ -1,20 +1,32 @@
 # Project Summary
 
-**Group Number:** Group 4
+## Group Number
+Group 4
 
-**Project Organisation:** HLS Partner Organization
+## Project Organisation
+HLS Partner Organization?
 
-**Project Name:** Structured Microsoft 365 Copilot Adoption
+## Project Name
+MCEM Agentic Transformation
 
-**Project description, background, scope and objectives:**
-A corporate operations team (~30 people) shifts from occasional, self-directed use of Microsoft 365 Copilot to structured, team-wide adoption. Copilot licenses are already deployed but usage is below 20%. The change is behavioral — establishing a shared standard for email drafting, meeting summarization, status reporting, and document preparation. Scope: ~30 people, 3 months, no additional budget or system change required. Objective: every team member regularly uses Copilot for at least 3 recurring tasks within 3 months.
+## Project Description, Background, Scope and Objectives
 
-**Areas or groups in the organization impacted by the change:**
-Team members (~30), Team leads (~4), Department manager (1), HR/L&D (supporting)
+Establish a trusted, role-relevant single source of truth by de-duplicating and restructuring MSEM content into a governed "unique facts" model (canon, exceptions, and guidance etc.) that can reliably power Copilot/agent experiences.
 
-**Project Management Methodology:** Iterative
+The scope includes content cleanup, taxonomy/metadata (e.g., roles impacted), and governance alignment across core and field stakeholders to improve readiness, adoption, and consistent seller/partner outcomes.
 
-**Primary sponsor:** Department Manager
+## Areas or Groups in the Organization Impacted by the Change
 
-**Key managers and stakeholders:**
-Department Manager (sponsor), Team Leads x4 (delivery), HR/L&D (support)
+Impacts all MCEM Council-aligned segments and roles across Enterprise, SMe&C, and SMB (e.g., ATU, STU, CSU, CSA, PSS, ISD, Services), as well as cross-cutting functions including RTIs, BSO, SEL, Core, and the MCEM Council itself—spanning both field execution and governance layers.
+
+## Project Management Methodology
+
+Sequential / Iterative / Hybrid *(delete as appropriate)*
+
+## Primary Sponsor
+
+Steven / Sarah / Alfredo?
+
+## Key Managers and Stakeholders
+
+?
