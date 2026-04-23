@@ -11,7 +11,7 @@
         {
           "runs": [
             {
-              "text": "레거시 앱을 현대화하고 ",
+              "text": "구식 애플리케이션과 ",
               "font": "Segoe UI",
               "bold": false,
               "italic": false,
@@ -29,7 +29,7 @@
               "color": null
             },
             {
-              "text": " 급격히 변화하는 데이터 요구사항을 충족하는 운영 데이터",
+              "text": " 빠르게 변화하는 데이터 요구 사항을 충족하기 위한 운영 데이터 현대화",
               "font": "Segoe UI",
               "bold": false,
               "italic": false,
@@ -38,7 +38,7 @@
               "color": null
             }
           ],
-          "text": "레거시 앱을 현대화하고 및 급격히 변화하는 데이터 요구사항을 충족하는 운영 데이터"
+          "text": "구식 애플리케이션과 및 빠르게 변화하는 데이터 요구 사항을 충족하기 위한 운영 데이터 현대화"
         }
       ]
     },
@@ -76,6 +76,6 @@
       "shape_type": 6
     }
   ],
-  "notes": "Why is data so important to AI transformation? It’s because data fuels AI models, insights, and apps, and that’s changed our requirements:\n\nTraining AI requires lots of data; models need access to older data as well as the newest data\nfresh data comes in real time, and at high volumes.  Think about the prompts and responses from an AI chat or the amount of data points that must be analyzed to detect fraud – this real-time data is coming in massive quantities\nReal-time data comes in quickly, and responding to it also requires speed.  This means that access to data must happen quickly.\nAI models and apps require vector support and the ability to perform complex search over huge amounts of data\nAI apps and advanced analytics often rely on multiple data sources to get transactional and analytical data\nData privacy and compliance continue to be a big concern, especially when using that data to train AI models or to build AI apps \n\nWhat do these shifts mean for our databases?",
+  "notes": "데이터가 AI 전환에 왜 그렇게 중요한가? 데이터가 AI 모델, 인사이트, 애플리케이션에 연료를 공급하기 때문이며, 이것이 우리의 요구 사항을 변화시켰습니다:\n\nAI 학습은 많은 데이터를 필요로 하며; 모델은 오래된 데이터뿐 아니라 최신 데이터에도 접근해야 합니다\n신선한 데이터는 실시간으로, 그리고 대용량으로 들어옵니다. AI 채팅의 프롬프트와 응답, 또는 사기를 감지하기 위해 분석해야 하는 데이터 포인트의 양을 생각해 보십시오 – 이 실시간 데이터는 엄청난 양으로 들어옵니다\n실시간 데이터는 빠르게 들어오며, 이에 대응하는 것도 속도를 요구합니다. 이는 데이터 접근도 신속해야 함을 의미합니다.\nAI 모델과 애플리케이션은 벡터 지원과 대량 데이터에 대한 복잡한 검색 수행 능력을 필요로 합니다\nAI 애플리케이션과 고급 분석은 거래 데이터와 분석 데이터를 얻기 위해 다수의 데이터 소스를 종종 사용합니다\n데이터 프라이버시와 컴플라이언스는 AI 모델 학습이나 AI 애플리케이션 구축 시 특히 큰 관심사로 계속 남아 있습니다\n\n이러한 변화는 우리의 데이터베이스에 무엇을 의미합니까?",
   "tables": []
 }

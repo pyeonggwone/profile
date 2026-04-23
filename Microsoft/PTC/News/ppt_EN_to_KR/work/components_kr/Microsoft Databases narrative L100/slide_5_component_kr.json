@@ -37,7 +37,7 @@
         {
           "runs": [
             {
-              "text": "에이전틱 AI는 모든 비즈니스 프로세스를 변화시킬 것이며, 데이터 또한 변화해야 합니다",
+              "text": "에이전틱 AI가 모든 비즈니스 프로세스를 변화시킬 예정이므로 데이터도 마찬가지로 변화해야 합니다",
               "font": "+mn-lt",
               "bold": null,
               "italic": null,
@@ -46,7 +46,7 @@
               "color": null
             }
           ],
-          "text": "에이전틱 AI는 모든 비즈니스 프로세스를 변화시킬 것이며, 데이터 또한 변화해야 합니다"
+          "text": "에이전틱 AI가 모든 비즈니스 프로세스를 변화시킬 예정이므로 데이터도 마찬가지로 변화해야 합니다"
         }
       ]
     },
@@ -118,7 +118,7 @@
         {
           "runs": [
             {
-              "text": "오늘 에이전틱 AI를 확장하면 무엇이 무너지나요?",
+              "text": "오늘 에이전틱 AI를 확장하면 무엇이 문제가 될까요?",
               "font": "Segoe UI Semibold",
               "bold": false,
               "italic": false,
@@ -127,7 +127,7 @@
               "color": "#FFFFFF"
             }
           ],
-          "text": "오늘 에이전틱 AI를 확장하면 무엇이 무너지나요?"
+          "text": "오늘 에이전틱 AI를 확장하면 무엇이 문제가 될까요?"
         }
       ]
     },
@@ -141,7 +141,7 @@
         {
           "runs": [
             {
-              "text": "임직원 경험",
+              "text": "직원 경험",
               "font": "Segoe UI",
               "bold": false,
               "italic": false,
@@ -150,7 +150,7 @@
               "color": null
             }
           ],
-          "text": "임직원 경험"
+          "text": "직원 경험 향상"
         }
       ]
     },
@@ -177,7 +177,7 @@
         {
           "runs": [
             {
-              "text": "고객 참여 재구성",
+              "text": "고객 참여 혁신",
               "font": "Segoe UI",
               "bold": false,
               "italic": false,
@@ -186,7 +186,7 @@
               "color": null
             }
           ],
-          "text": "고객 참여 재구성"
+          "text": "고객 참여 혁신"
         }
       ]
     },
@@ -258,7 +258,7 @@
               "color": null
             },
             {
-              "text": "곡선 조정",
+              "text": "커브 뒤틀기",
               "font": "Segoe UI",
               "bold": false,
               "italic": false,
@@ -267,7 +267,7 @@
               "color": null
             }
           ],
-          "text": "혁신의 곡선 조정"
+          "text": "혁신의 커브 뒤틀기"
         }
       ]
     },
@@ -316,7 +316,7 @@
               "color": null
             },
             {
-              "text": "에이전트가 시스템을 과부하시키고 사용자 불평, 프로세스 지연",
+              "text": "에이전트가 시스템을 압도하고; 사용자가 불평, 프로세스 지연",
               "font": "Segoe UI",
               "bold": false,
               "italic": false,
@@ -325,7 +325,7 @@
               "color": null
             }
           ],
-          "text": "지연 시간 및 처리량: 에이전트가 시스템을 과부하시키고 사용자 불평, 프로세스 지연"
+          "text": "지연 시간 및 처리량: 에이전트가 시스템을 압도하고; 사용자가 불평, 프로세스 지연"
         }
       ]
     },
@@ -361,7 +361,7 @@
               "color": null
             },
             {
-              "text": "에이전트가 경쟁 조건 생성, 트랜잭션 실패",
+              "text": "에이전트가 경합 조건을 생성하고, 트랜잭션 실패",
               "font": "Segoe UI",
               "bold": false,
               "italic": false,
@@ -370,7 +370,7 @@
               "color": null
             }
           ],
-          "text": "동시성 및 데이터 무결성: 에이전트가 경쟁 조건 생성, 트랜잭션 실패"
+          "text": "동시성 및 데이터 무결성: 에이전트가 경합 조건을 생성하고, 트랜잭션 실패"
         }
       ]
     },
@@ -406,7 +406,7 @@
               "color": null
             },
             {
-              "text": "에이전트를 위해 설계되지 않음: 감사, 접근, 가시성 격차",
+              "text": "에이전트에 맞게 설계되지 않음: 감사, 접근 및 가시성 격차",
               "font": "Segoe UI",
               "bold": false,
               "italic": false,
@@ -415,7 +415,7 @@
               "color": null
             }
           ],
-          "text": "보안 및 거버넌스 에이전트를 위해 설계되지 않음: 감사, 접근, 가시성 격차"
+          "text": "보안 및 거버넌스 에이전트에 맞게 설계되지 않음: 감사, 접근 및 가시성 격차"
         }
       ]
     },
@@ -438,7 +438,7 @@
               "color": null
             },
             {
-              "text": "레거시 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함",
+              "text": "구식 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함",
               "font": "Segoe UI",
               "bold": false,
               "italic": false,
@@ -447,7 +447,7 @@
               "color": null
             }
           ],
-          "text": "정확성 및 신뢰성: 레거시 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함"
+          "text": "정확성 및 신뢰성: 구식 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함"
         }
       ]
     },
@@ -589,7 +589,7 @@
         {
           "runs": [
             {
-              "text": "1. AI 대규모 적용 준비하기",
+              "text": "1. 대규모 AI 준비",
               "font": null,
               "bold": true,
               "italic": null,
@@ -598,7 +598,7 @@
               "color": null
             }
           ],
-          "text": "1. AI 대규모 적용 준비하기"
+          "text": "1. 대규모 AI 준비"
         }
       ]
     }
@@ -653,6 +653,6 @@
       "shape_type": 9
     }
   ],
-  "notes": "When we talk about Agentic AI today, many customers still think of it primarily as chatbots — systems that provide information or answer questions.\n \nBut the reality is that for Agentic AI to truly transform business processes or customer experiences, agents need to take action. That means interacting directly with the systems that run the business — the applications and databases behind every process.\n\nAgents will:\nAutomate and execute workflows in HR, finance, and operations\nAct in real time across CRM, ordering, and service systems\nCoordinate decisions and transactions across systems of record\nClose the loop from insight to action on live operational data\n\n \nThis includes a wide range of systems in the back-end: ERP, CRM, line-of-business applications, databases, middleware, and more.\n \nCustomers may not yet know exactly which agentic capabilities they’ll implement to reinvent a specific process. \n \nBut there’s one thing they can know today: if AI agents start interacting with their stack as it exists right now, three things are likely to happen.\nFirst, it won’t scale. You’ll see latency and performance issues, and users will start to complain.\nSecond, data integrity becomes a risk. Transactions collide, processes fail, and reliability breaks down.\nThird, identity and governance fall short. Most systems were designed for human users — not autonomous agents acting at machine speed.\n \nSo the question becomes:  Do you prepare now — or do you wait until agents show up and expose that you’re not ready? \n\n\n\n--\nAnd further than that, if you think about Agentic AI, it's going to disrupt every part of your business. So because of the fact that it doesn't just work on the data you want it to, it works on all your live business systems. It's critical that you upgrade your internal database systems to get the latency and throughput you need, the concurrency and data integrity, the accuracy. Seeing reliability in the security and governance.",
+  "notes": "오늘날 에이전틱 AI에 대해 이야기할 때, 많은 고객은 주로 챗봇 — 정보를 제공하거나 질문에 답하는 시스템으로 생각합니다.\n \n하지만 실제로 에이전틱 AI가 비즈니스 프로세스나 고객 경험을 진정으로 혁신하려면, 에이전트가 행동을 취해야 합니다. 이는 비즈니스를 운영하는 시스템 — 모든 프로세스 뒤의 애플리케이션과 데이터베이스와 직접 상호작용해야 함을 의미합니다.\n\n에이전트는:\nHR, 재무, 운영에서 워크플로우를 자동화하고 실행합니다\n고객 관계 관리, 주문 처리, 서비스 시스템 전반에서 실시간으로 작동합니다\n기록 시스템 전반에서 결정 및 트랜잭션을 조정합니다\n인사이트에서 실시간 운영 데이터에 대한 행동까지 완결합니다\n\n \n이는 ERP, 고객 관계 관리, 업무용 애플리케이션, 데이터베이스, 미들웨어 등 백엔드 시스템의 광범위한 범위를 포함합니다.\n \n고객은 아직 구체적인 프로세스를 혁신하기 위해 어떤 에이전틱 기능을 구현할지 알지 못할 수 있습니다.\n \n하지만 오늘날 알 수 있는 한 가지가 있습니다: AI 에이전트가 현재 존재하는 스택과 상호작용하기 시작한다면 세 가지 일이 일어날 가능성이 높습니다.\n첫째, 확장되지 않습니다. 지연 시간과 성능 문제가 발생하며, 사용자는 불평을 시작합니다.\n둘째, 데이터 무결성이 위험해집니다. 트랜잭션 충돌, 프로세스 실패, 신뢰성 저하가 발생합니다.\n셋째, 신원 및 거버넌스가 부족합니다. 대부분의 시스템은 인간 사용자를 위해 설계되었으며, 기계 속도로 작동하는 자율 에이전트를 위해 설계되지 않았습니다.\n \n그래서 질문이 됩니다: 지금 준비할 것인가 — 아니면 에이전트가 나타나 준비가 안 된 것을 드러내는 것을 기다릴 것인가?\n\n\n\n--\n더 나아가, 에이전틱 AI를 생각할 때, 이는 비즈니스의 모든 부분을 혼란시킬 것입니다. 따라서 원하는 데이터에만 작동하는 것이 아니라 모든 실시간 비즈니스 시스템에서 작동하기 때문에, 내부 데이터베이스 시스템을 업그레이드하여 필요한 지연 시간, 처리량, 동시성, 데이터 무결성 및 정확도, 그리고 보안과 거버넌스 신뢰성을 확보하는 것이 매우 중요합니다.",
   "tables": []
 }

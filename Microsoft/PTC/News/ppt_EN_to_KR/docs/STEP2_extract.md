@@ -1,6 +1,15 @@
 # STEP 2: 슬라이드별 컴포넌트 직렬화
 
-`extractor.py` + `font_analyzer.py`. LLM 미사용. python-pptx만 사용.
+`extractor.py` + `font_analyzer.py`. LLM 미사용.
+
+## 구현 모듈
+
+| 엔진 | 진입점 | extractor / font_analyzer | 내부 구현 |
+|------|--------|--------------------------|----------|
+| python-pptx (기본) | `library/step2_extract.py` | `extractor.py` / `font_analyzer.py` | `python-pptx` |
+| Microsoft 공식 | `library/step2_extract_microsoft.py` | `extractor_microsoft.py` / `font_analyzer_microsoft.py` | PowerPoint COM (`pywin32`) |
+
+두 엔진 모두 동일한 JSON 스키마/디렉토리 구조를 산출한다.
 
 ## extractor.py
 

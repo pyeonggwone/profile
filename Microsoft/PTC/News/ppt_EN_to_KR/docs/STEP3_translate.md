@@ -2,6 +2,15 @@
 
 `translator.py` + `dict_manager.py`. STEP 2 JSON을 입력으로, STEP 1에서 클리어된 `kr/` 슬라이드에 번역된 Shape를 삽입한다.
 
+## 구현 모듈
+
+| 엔진 | 진입점 | translator / 보조 | 내부 구현 |
+|------|--------|--------------------|----------|
+| python-pptx (기본) | `library/step3_translate.py` | `translator.py`, `ooxml_replacer.py` | `python-pptx` + OOXML |
+| Microsoft 공식 | `library/step3_translate_microsoft.py` | `translator_microsoft.py`, `com_app_microsoft.py`, `com_replacer_microsoft.py` | PowerPoint COM (`pywin32`) |
+
+`dict_manager.py`는 엔진과 무관하게 공용으로 사용된다.
+
 ## 처리 흐름
 
 ```

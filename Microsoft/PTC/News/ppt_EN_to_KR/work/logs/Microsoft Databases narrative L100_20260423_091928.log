@@ -1,0 +1,27 @@
+09:19:28 [INFO] 로그 파일: /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/logs/Microsoft Databases narrative L100_20260423_091928.log
+09:19:44 [INFO] [STEP 3-1] 배치 번역 시작: slides [1, 2, 3, 4, 5, 6]
+09:19:44 [DEBUG]   배치 LLM 요청 — 모델: gpt-4.1-mini, 슬라이드 수: 6
+09:21:10 [DEBUG]   배치 LLM 응답 (16637 chars)
+09:21:15 [INFO]   done.json 갱신 — 누적 슬라이드: ['1', '2', '3', '4', '5', '6']
+09:21:15 [INFO]   slide_1 XML 치환 완료 (text_box 3, table 1)
+09:21:15 [INFO]   slide_2 XML 치환 완료 (text_box 1, table 0)
+09:21:15 [INFO]   slide_3 XML 치환 완료 (text_box 7, table 0)
+09:21:15 [INFO]   slide_4 XML 치환 완료 (text_box 2, table 0)
+09:21:15 [INFO]   slide_5 XML 치환 완료 (text_box 29, table 0)
+09:21:15 [INFO]   slide_6 XML 치환 완료 (text_box 2, table 0)
+09:21:19 [INFO] [STEP 3-2 OOXML] 저장 완료 → /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/kr/Microsoft Databases narrative L100_KO.pptx
+09:21:20 [INFO]   slide_1 완료 — 성공: 4, 실패: 0
+09:21:20 [INFO]   slide_2 완료 — 성공: 1, 실패: 0
+09:21:20 [INFO]   slide_3 완료 — 성공: 7, 실패: 0
+09:21:20 [INFO]   slide_4 완료 — 성공: 2, 실패: 0
+09:21:20 [INFO]   slide_5 완료 — 성공: 29, 실패: 0
+09:21:20 [INFO]   slide_6 완료 — 성공: 2, 실패: 0
+09:21:20 [INFO] [STEP 3] 저장 완료 → /mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/kr/Microsoft Databases narrative L100_KO.pptx
+09:21:20 [INFO] 
+[STEP 3] 검증 시작
+09:21:20 [WARNING] [STEP 3] 미처리 항목:
+09:21:20 [WARNING]   - slide_1: 미처리 {'s1_shape6'}
+09:21:20 [WARNING]   - slide_3: 미처리 {'s3_shape22', 's3_shape21'}
+09:21:20 [WARNING]   - slide_4: 미처리 {'s4_shape32', 's4_shape30', 's4_shape33', 's4_shape3'}
+09:21:20 [WARNING]   - slide_5: 미처리 {'s5_shape42', 's5_shape41', 's5_shape26', 's5_shape25', 's5_shape32', 's5_shape24'}
+09:21:20 [WARNING]   - slide_6: 미처리 {'s6_shape3'}
