@@ -1,0 +1,423 @@
+{
+  "slide_num": 31,
+  "text_boxes": [
+    {
+      "id": "s31_shape5",
+      "left": 1,
+      "top": 0,
+      "width": 7185024,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s31_shape23",
+      "left": 2774738,
+      "top": 2221834,
+      "width": 1345034,
+      "height": 6894514,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s31_shape3",
+      "left": 127000,
+      "top": -76200,
+      "width": 304800,
+      "height": 304800,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s31_shape2",
+      "left": 7689286,
+      "top": 3959117,
+      "width": 320056,
+      "height": 284406,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s31_shape36",
+      "left": 588263,
+      "top": 457200,
+      "width": 6394428,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "BMW Group innovates with Azure for 10 times more efficient data delivery",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "BMW Group innovates with Azure for 10 times more efficient data delivery"
+        }
+      ]
+    },
+    {
+      "id": "s31_shape16",
+      "left": 571501,
+      "top": 2397125,
+      "width": 5913119,
+      "height": 1138773,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Challenge",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Challenge"
+        },
+        {
+          "runs": [
+            {
+              "text": "The development fleet of BMW Group relied on prototyping and troubleshooting.",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "The development fleet of BMW Group relied on prototyping and troubleshooting."
+        },
+        {
+          "runs": [
+            {
+              "text": "Engineers faced long wait times—s",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": "manual data transfers and on-premises processing, which delayed vehicle s",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": "ometimes up to days—for operational data needed to refine vehicle systems.",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Engineers faced long wait times—smanual data transfers and on-premises processing, which delayed vehicle sometimes up to days—for operational data needed to refine vehicle systems."
+        }
+      ]
+    },
+    {
+      "id": "s31_shape22",
+      "left": 571499,
+      "top": 3601356,
+      "width": 5913119,
+      "height": 1215717,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "Azure Database for PostgreSQL stores vectors, Retrieval-Augmented Generation (RAG) chat patterns interaction logging, conversations, and feedback ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Azure Database for PostgreSQL stores vectors, Retrieval-Augmented Generation (RAG) chat patterns interaction logging, conversations, and feedback "
+        },
+        {
+          "runs": [
+            {
+              "text": "10 times faster data delivery, and reduced wait times to hours or minutes",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "10 times faster data delivery, and reduced wait times to hours or minutes"
+        },
+        {
+          "runs": [
+            {
+              "text": "3,500 cars equipped with AI-powered data transmissions for real-time insights",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "3,500 cars equipped with AI-powered data transmissions for real-time insights"
+        }
+      ]
+    },
+    {
+      "id": "s31_shape24",
+      "left": 571500,
+      "top": 5170010,
+      "width": 2676641,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure products used:",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Azure products used:"
+        }
+      ]
+    },
+    {
+      "id": "s31_shape28",
+      "left": 867392,
+      "top": 5581070,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Database for PostgreSQL",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Database for PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": "s31_shape26",
+      "left": 2979684,
+      "top": 5581070,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Foundry",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Microsoft Foundry"
+        }
+      ]
+    },
+    {
+      "id": "s31_shape25",
+      "left": 854192,
+      "top": 5909835,
+      "width": 1716602,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Kubernetes Service",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Kubernetes Service"
+        }
+      ]
+    },
+    {
+      "id": "s31_shape27",
+      "left": 2989213,
+      "top": 5909835,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure App Service",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure App Service"
+        }
+      ]
+    },
+    {
+      "id": "s31_shape29",
+      "left": 8128000,
+      "top": 4256381,
+      "width": 3279782,
+      "height": 1095685,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure is the turbocharger for delivering the right data to the right person on a large scale.",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Azure is the turbocharger for delivering the right data to the right person on a large scale."
+        },
+        {
+          "runs": [
+            {
+              "text": "Christof Gebhart",
+              "font": "Segoe Sans Text Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Christof Gebhart"
+        },
+        {
+          "runs": [
+            {
+              "text": "MDR Co-Creator",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "MDR Co-Creator"
+        },
+        {
+          "runs": [
+            {
+              "text": "BMW Group",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "BMW Group"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s31_shape32",
+      "left": 532638,
+      "top": 5876419,
+      "width": 233611,
+      "height": 205330,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_31/image_17.png"
+    },
+    {
+      "id": "s31_shape4098",
+      "left": 8127023,
+      "top": 5572375,
+      "width": 943952,
+      "height": 492625,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_31/image_18.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s31_shape30",
+      "left": 7185025,
+      "top": 0,
+      "width": 5006975,
+      "height": 3475038,
+      "shape_type": 14
+    }
+  ],
+  "notes": "Before 2018, BMW Group’s development fleet relied on manual data transfer and on-premises data processing, significantly slowing vehicle development and prototype cycles.\n\nThe company created a mobile data recorder (MDR) solution, placing an IoT device in each development car to transmit data over a cellular connection to an Azure cloud platform, where Azure AI and data solutions facilitate efficient data analysis.\n\nThe MDR system and copilot fueled by Azure significantly enhances data accessibility, speeds prototypes and troubleshooting, and elevates development quality.\n\nhttps://www.microsoft.com/en/customers/story/19769-bmw-ag-azure-app-service"
+}

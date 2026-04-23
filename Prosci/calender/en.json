@@ -1,0 +1,95 @@
+{
+    "pageTitle": "Prosci Learning Calendar",
+    "header": {
+        "title": "Prosci Learning Calendar",
+        "subtitle": "Change Management Practitioner Program · 2026"
+    },
+    "langBtn": "한국어",
+    "milestones": [
+        {
+            "date": {
+                "month": "Apr",
+                "day": "14"
+            },
+            "state": "done",
+            "week": "Week −4",
+            "badge": "Completed",
+            "title": "Select Team Lead",
+            "tasks": [
+                "Connect with group members",
+                "Select Team Lead",
+                "Announce Team Lead in Teams Group channel"
+            ]
+        },
+        {
+            "date": {
+                "month": "Apr",
+                "day": "21"
+            },
+            "state": "done",
+            "week": "Week −3",
+            "badge": "Completed",
+            "title": "Submit Project Summary",
+            "tasks": [
+                "Select a real change project to practice with",
+                "Write project summary and submit to instructor",
+                "Wait for instructor approval"
+            ]
+        },
+        {
+            "date": {
+                "month": "Apr",
+                "day": "28"
+            },
+            "state": "active",
+            "week": "Week −2",
+            "badge": "In Progress",
+            "title": "Complete PCT · Risk Assessment · 4Ps + Instructor Check-in Call",
+            "tasks": [
+                "Complete 4Ps Activity",
+                "Complete PCT Assessment (Prosci Change Triangle Assessment)",
+                "Complete Risk Assessment",
+                "Attend instructor check-in call (week of Apr 27)"
+            ]
+        },
+        {
+            "date": {
+                "month": "May",
+                "day": "5"
+            },
+            "state": "",
+            "week": "Week −1",
+            "badge": "Upcoming",
+            "title": "Complete Best Practices Research",
+            "tasks": [
+                "Complete Best Practices Research summary",
+                "Group collaboration in Teams environment"
+            ]
+        },
+        {
+            "date": {
+                "month": "May",
+                "day": "12"
+            },
+            "state": "",
+            "week": "Class Week",
+            "badge": "Upcoming",
+            "title": "Class Participation & Group Project Presentation (May 12–14)",
+            "classGrid": [
+                {
+                    "label": "Day 1 – May 12 (Tue)",
+                    "time": "08:00 – 17:00 PDT"
+                },
+                {
+                    "label": "Day 2 – May 13 (Wed)",
+                    "time": "08:00 – 17:30 PDT"
+                },
+                {
+                    "label": "Day 3 – May 14 (Thu)",
+                    "time": "08:00 – 15:30 PDT"
+                }
+            ]
+        }
+    ],
+    "footer": "Prosci Change Management Practitioner · Donaid · 2026"
+}

@@ -1,0 +1,666 @@
+{
+  "slide_num": 5,
+  "text_boxes": [
+    {
+      "id": "s5_shape8",
+      "left": 571500,
+      "top": 2017712,
+      "width": 5433059,
+      "height": 4344987,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape9",
+      "left": 6187439,
+      "top": 2017712,
+      "width": 5433059,
+      "height": 4344987,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape10",
+      "left": 588963,
+      "top": 1136285,
+      "width": 11017250,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Agentic AI is set to change every business process, and so the data must as well",
+              "font": "+mn-lt",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Agentic AI is set to change every business process, and so the data must as well"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape12",
+      "left": 754380,
+      "top": 2525486,
+      "width": 5067299,
+      "height": 3654333,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape13",
+      "left": 6370319,
+      "top": 2525486,
+      "width": 5067299,
+      "height": 3654333,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape14",
+      "left": 754380,
+      "top": 1748258,
+      "width": 5067299,
+      "height": 607354,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Businesses are powered by ",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "databases",
+              "font": "Segoe UI Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Businesses are powered by databases"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape15",
+      "left": 6370319,
+      "top": 1748258,
+      "width": 5067299,
+      "height": 607354,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "What breaks if you scale agentic AI today?",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "What breaks if you scale agentic AI today?"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape16",
+      "left": 909412,
+      "top": 3141779,
+      "width": 1103571,
+      "height": 646331,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Enrich ",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": "employee experiences",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Enrich \u000bemployee experiences"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape17",
+      "left": 1299421,
+      "top": 2706585,
+      "width": 323552,
+      "height": 275015,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape18",
+      "left": 2137585,
+      "top": 3141779,
+      "width": 1103571,
+      "height": 646331,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Reinvent customer engagement",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Reinvent customer engagement"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape19",
+      "left": 2527594,
+      "top": 2698920,
+      "width": 323552,
+      "height": 290344,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape20",
+      "left": 3365758,
+      "top": 3141779,
+      "width": 1103571,
+      "height": 646331,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Reshape business processes",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Reshape business processes"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape21",
+      "left": 3771040,
+      "top": 2691515,
+      "width": 293007,
+      "height": 305155,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape22",
+      "left": 4593932,
+      "top": 3141779,
+      "width": 1103571,
+      "height": 646331,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Bend the ",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            },
+            {
+              "text": "curve on innovation",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Bend the \u000bcurve on innovation"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape23",
+      "left": 5032262,
+      "top": 2687614,
+      "width": 226910,
+      "height": 312957,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape34",
+      "left": 6588638,
+      "top": 2834118,
+      "width": 434037,
+      "height": 365760,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape37",
+      "left": 7232731,
+      "top": 2770777,
+      "width": 4022457,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Latency & throughput: ",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            },
+            {
+              "text": "Agents overwhelm systems; users complain, processes stall",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Latency & throughput: Agents overwhelm systems; users complain, processes stall"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape35",
+      "left": 6659353,
+      "top": 3700305,
+      "width": 292606,
+      "height": 365760,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape38",
+      "left": 7212410,
+      "top": 3636964,
+      "width": 4022457,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Concurrency & data integrity: ",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            },
+            {
+              "text": "Agents create race conditions, transactions fail",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Concurrency & data integrity: Agents create race conditions, transactions fail"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape36",
+      "left": 6577057,
+      "top": 5488876,
+      "width": 457198,
+      "height": 365760,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape39",
+      "left": 7245363,
+      "top": 5425535,
+      "width": 4022457,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Security & governance ",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            },
+            {
+              "text": "not designed for agents: audit, access, and visibility gaps",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Security & governance not designed for agents: audit, access, and visibility gaps"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape7",
+      "left": 7232731,
+      "top": 4531251,
+      "width": 4122454,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Accuracy & reliability: ",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            },
+            {
+              "text": "Legacy Databases lack vector retrieval and agent‑native capabilities",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Accuracy & reliability: Legacy Databases lack vector retrieval and agent‑native capabilities"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape43",
+      "left": 754380,
+      "top": 3969206,
+      "width": 5067299,
+      "height": 2210612,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s5_shape44",
+      "left": 3526680,
+      "top": 4224666,
+      "width": 1562346,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "ISV apps",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "ISV apps"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape45",
+      "left": 2500813,
+      "top": 5044638,
+      "width": 1729888,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Middleware",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Middleware"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape46",
+      "left": 1461197,
+      "top": 4200038,
+      "width": 1729888,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Internal apps",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Internal apps"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape47",
+      "left": 2277632,
+      "top": 5466333,
+      "width": 2176251,
+      "height": 430887,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Databases",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 28,
+              "color": null
+            }
+          ],
+          "text": "Databases"
+        }
+      ]
+    },
+    {
+      "id": "s5_shape48",
+      "left": 2354464,
+      "top": 4646314,
+      "width": 2022586,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "LoB apps, ERP, CRM, IoT ",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "LoB apps, ERP, CRM, IoT "
+        }
+      ]
+    },
+    {
+      "id": "s5_shape2",
+      "left": 574815,
+      "top": 510988,
+      "width": 8036921,
+      "height": 615553,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "1. Get ready for AI-at-scale",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "1. Get ready for AI-at-scale"
+        }
+      ]
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s5_shape24",
+      "left": 2075284,
+      "top": 2698920,
+      "width": 0,
+      "height": 1089190,
+      "shape_type": 9
+    },
+    {
+      "id": "s5_shape25",
+      "left": 3303457,
+      "top": 2698920,
+      "width": 0,
+      "height": 1089190,
+      "shape_type": 9
+    },
+    {
+      "id": "s5_shape26",
+      "left": 4531630,
+      "top": 2698920,
+      "width": 0,
+      "height": 1089190,
+      "shape_type": 9
+    },
+    {
+      "id": "s5_shape41",
+      "left": 7197657,
+      "top": 3450092,
+      "width": 4070163,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s5_shape42",
+      "left": 7197657,
+      "top": 5238663,
+      "width": 4070163,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s5_shape32",
+      "left": 7197657,
+      "top": 4316279,
+      "width": 4070163,
+      "height": 0,
+      "shape_type": 9
+    }
+  ],
+  "notes": "When we talk about Agentic AI today, many customers still think of it primarily as chatbots — systems that provide information or answer questions.\n \nBut the reality is that for Agentic AI to truly transform business processes or customer experiences, agents need to take action. That means interacting directly with the systems that run the business — the applications and databases behind every process.\n\nAgents will:\nAutomate and execute workflows in HR, finance, and operations\nAct in real time across CRM, ordering, and service systems\nCoordinate decisions and transactions across systems of record\nClose the loop from insight to action on live operational data\n\n \nThis includes a wide range of systems in the back-end: ERP, CRM, line-of-business applications, databases, middleware, and more.\n \nCustomers may not yet know exactly which agentic capabilities they’ll implement to reinvent a specific process. \n \nBut there’s one thing they can know today: if AI agents start interacting with their stack as it exists right now, three things are likely to happen.\nFirst, it won’t scale. You’ll see latency and performance issues, and users will start to complain.\nSecond, data integrity becomes a risk. Transactions collide, processes fail, and reliability breaks down.\nThird, identity and governance fall short. Most systems were designed for human users — not autonomous agents acting at machine speed.\n \nSo the question becomes:  Do you prepare now — or do you wait until agents show up and expose that you’re not ready? \n\n\n\n--\nAnd further than that, if you think about Agentic AI, it's going to disrupt every part of your business. So because of the fact that it doesn't just work on the data you want it to, it works on all your live business systems. It's critical that you upgrade your internal database systems to get the latency and throughput you need, the concurrency and data integrity, the accuracy. Seeing reliability in the security and governance."
+}

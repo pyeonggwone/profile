@@ -1,0 +1,387 @@
+{
+  "slide_num": 38,
+  "text_boxes": [
+    {
+      "id": "s38_shape5",
+      "left": 1,
+      "top": 0,
+      "width": 7185024,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s38_shape36",
+      "left": 588263,
+      "top": 457200,
+      "width": 6306251,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Mitsui Fudosan boosts employee communications with FACEWALL",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Mitsui Fudosan boosts employee communications with FACEWALL"
+        }
+      ]
+    },
+    {
+      "id": "s38_shape16",
+      "left": 571501,
+      "top": 2333625,
+      "width": 5913119,
+      "height": 954107,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Challenge",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Challenge"
+        },
+        {
+          "runs": [
+            {
+              "text": "Mask-wearing and hybrid work hindered the communication between departments",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Mask-wearing and hybrid work hindered the communication between departments"
+        },
+        {
+          "runs": [
+            {
+              "text": "The team was interested in a fully-managed solution but had little prior experience building PaaS environments",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "The team was interested in a fully-managed solution but had little prior experience building PaaS environments"
+        }
+      ]
+    },
+    {
+      "id": "s38_shape22",
+      "left": 571499,
+      "top": 3537856,
+      "width": 5913119,
+      "height": 1585049,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "Mitsui ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": "Fusosan",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": " developed FACEWALL, an internal employee directory to enhance employee connection and collaboration—especially for new or transferred staff",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Mitsui Fusosan developed FACEWALL, an internal employee directory to enhance employee connection and collaboration—especially for new or transferred staff"
+        },
+        {
+          "runs": [
+            {
+              "text": "Azure Database for MySQL helped reduced operational workload and improved security compared to IaaS systems",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Azure Database for MySQL helped reduced operational workload and improved security compared to IaaS systems"
+        },
+        {
+          "runs": [
+            {
+              "text": "Technical support from the Microsoft team made implementing Azure PaaS services seamless",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Technical support from the Microsoft team made implementing Azure PaaS services seamless"
+        }
+      ]
+    },
+    {
+      "id": "s38_shape23",
+      "left": 2774740,
+      "top": 2501234,
+      "width": 1345034,
+      "height": 6894514,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s38_shape24",
+      "left": 571502,
+      "top": 5449410,
+      "width": 2676641,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure products used:",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Azure products used:"
+        }
+      ]
+    },
+    {
+      "id": "s38_shape28",
+      "left": 867394,
+      "top": 5860470,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Database for MySQL",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Database for MySQL"
+        }
+      ]
+    },
+    {
+      "id": "s38_shape26",
+      "left": 2979686,
+      "top": 5860470,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Cache for Redis",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Cache for Redis"
+        }
+      ]
+    },
+    {
+      "id": "s38_shape25",
+      "left": 854194,
+      "top": 6189235,
+      "width": 1716602,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Virtual Network",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Virtual Network"
+        }
+      ]
+    },
+    {
+      "id": "s38_shape29",
+      "left": 8128000,
+      "top": 4062482,
+      "width": 3279782,
+      "height": 1483483,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Building FACEWALL in the PaaS environment in this project allowed us to really understand the advantages such as high maintainability and low operation/maintenance load.",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Building FACEWALL in the PaaS environment in this project allowed us to really understand the advantages such as high maintainability and low operation/maintenance load."
+        },
+        {
+          "runs": [
+            {
+              "text": "Naoya ",
+              "font": "Segoe Sans Text Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": "Henmi",
+              "font": "Segoe Sans Text Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Naoya Henmi"
+        },
+        {
+          "runs": [
+            {
+              "text": "Senior Technical Director/Executive Officer, RANA UNITED",
+              "font": null,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Senior Technical Director/Executive Officer, RANA UNITED"
+        }
+      ]
+    },
+    {
+      "id": "s38_shape3",
+      "left": 127000,
+      "top": -76200,
+      "width": 304800,
+      "height": 304800,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s38_shape2",
+      "left": 7689286,
+      "top": 3959117,
+      "width": 320056,
+      "height": 284406,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s38_shape4",
+      "left": 8145070,
+      "top": 5719569,
+      "width": 1495425,
+      "height": 471722,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_38/image_9.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s38_shape30",
+      "left": 7185025,
+      "top": 0,
+      "width": 5006975,
+      "height": 3475038,
+      "shape_type": 14
+    }
+  ],
+  "notes": "Employee register tool on Azure for lively inter-employee communication — Mitsui Fudosan’s approach shows best solution to PaaS utilization | Microsoft Customer Stories"
+}

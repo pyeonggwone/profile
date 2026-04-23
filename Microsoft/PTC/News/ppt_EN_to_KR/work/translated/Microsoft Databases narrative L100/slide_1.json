@@ -1,0 +1,25 @@
+{
+  "slide_num": 1,
+  "items": [
+    {
+      "id": "s1_shape12",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s1_shape27",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s1_shape5",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s1_shape7",
+      "type": "table",
+      "ok": true
+    }
+  ]
+}

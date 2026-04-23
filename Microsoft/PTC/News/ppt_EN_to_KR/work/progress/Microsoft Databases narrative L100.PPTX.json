@@ -1,0 +1,14 @@
+{
+  "filename": "Microsoft Databases narrative L100.PPTX",
+  "started_at": "2026-04-23T09:01:38.340454+00:00",
+  "completed_at": "2026-04-23T09:05:29.244450+00:00",
+  "total_slides": 0,
+  "steps": {
+    "extract": "done",
+    "font_analysis": "done",
+    "translation": "done",
+    "dict_update": "done"
+  },
+  "slides_translated": [],
+  "slides_total": 0
+}

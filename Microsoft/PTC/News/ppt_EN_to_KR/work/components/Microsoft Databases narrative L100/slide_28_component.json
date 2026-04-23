@@ -1,0 +1,389 @@
+{
+  "slide_num": 28,
+  "text_boxes": [
+    {
+      "id": "s28_shape5",
+      "left": 6583277,
+      "top": 1270304,
+      "width": 5019928,
+      "height": 4630893,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s28_shape2",
+      "left": 584200,
+      "top": 426363,
+      "width": 11023600,
+      "height": 492443,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Get Microsoft Certified: Turn Learning Into Recognized Skills",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Get Microsoft Certified: Turn Learning Into Recognized Skills"
+        },
+        {
+          "runs": [],
+          "text": ""
+        },
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s28_shape31",
+      "left": 492369,
+      "top": 1782519,
+      "width": 4961311,
+      "height": 482477,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Build Confidence and Credibility",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Build Confidence and Credibility"
+        }
+      ]
+    },
+    {
+      "id": "s28_shape53",
+      "left": 722729,
+      "top": 2742988,
+      "width": 5368394,
+      "height": 2462213,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Validate skills and credibility",
+              "font": "Segoe Sans Display",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Validate skills and credibility"
+        },
+        {
+          "runs": [
+            {
+              "text": "T",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": null
+            },
+            {
+              "text": "rusted, industry‑recognized way to prove real‑world skills and upskill your workforce.",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Trusted, industry‑recognized way to prove real‑world skills and upskill your workforce."
+        },
+        {
+          "runs": [],
+          "text": ""
+        },
+        {
+          "runs": [
+            {
+              "text": "More capable and confident teams",
+              "font": "Segoe Sans Display",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": null
+            },
+            {
+              "text": "Build shared standards and confidence to operate at scale.",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "More capable and confident teams\u000bBuild shared standards and confidence to operate at scale."
+        },
+        {
+          "runs": [],
+          "text": ""
+        },
+        {
+          "runs": [
+            {
+              "text": "Support business and customer outcomes",
+              "font": "Segoe Sans Display",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": null
+            },
+            {
+              "text": "Skills readiness drives adoption, governance, and time‑to‑value from your technology investments.",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": null
+            }
+          ],
+          "text": "Support business and customer outcomes\u000bSkills readiness drives adoption, governance, and time‑to‑value from your technology investments."
+        }
+      ]
+    },
+    {
+      "id": "s28_shape3",
+      "left": 6741734,
+      "top": 1370200,
+      "width": 4699000,
+      "height": 4435694,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Get 50% Discounts on Data & AI Certifications",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Get 50% Discounts on Data & AI Certifications"
+        },
+        {
+          "runs": [],
+          "text": ""
+        },
+        {
+          "runs": [
+            {
+              "text": "DP-900 Azure Data Fundamentals",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "DP-900 Azure Data Fundamentals"
+        },
+        {
+          "runs": [
+            {
+              "text": "DP-300 Database Administrator Associate",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "DP-300 Database Administrator Associate"
+        },
+        {
+          "runs": [
+            {
+              "text": "DP-420 Cosmos DB Developer Specialty",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "DP-420 Cosmos DB Developer Specialty"
+        },
+        {
+          "runs": [
+            {
+              "text": "DP-800 SQL AI Developer Associate",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            },
+            {
+              "text": " (Beta, March 2026)",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "DP-800 SQL AI Developer Associate (Beta, March 2026)"
+        },
+        {
+          "runs": [
+            {
+              "text": "DP-350 Solutions Architect Expert",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "DP-350 Solutions Architect Expert"
+        },
+        {
+          "runs": [
+            {
+              "text": "AI-900 AI Fundamentals",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "AI-900 AI Fundamentals"
+        },
+        {
+          "runs": [
+            {
+              "text": "AI-102 Azure AI Engineer Associate",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "AI-102 Azure AI Engineer Associate"
+        },
+        {
+          "runs": [
+            {
+              "text": "AI-200 Cloud AI Developer Associate (Beta, April 2026)",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "AI-200 Cloud AI Developer Associate (Beta, April 2026)"
+        },
+        {
+          "runs": [
+            {
+              "text": "AI-300 Operationalizing Machine Learning and Generative AI Solutions",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            },
+            {
+              "text": " (Now in beta)",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "AI-300 Operationalizing Machine Learning and Generative AI Solutions (Now in beta)"
+        },
+        {
+          "runs": [
+            {
+              "text": "Learn more about Microsoft Certifications.",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Learn more about Microsoft Certifications."
+        },
+        {
+          "runs": [],
+          "text": ""
+        },
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s28_shape6",
+      "left": 2094001,
+      "top": 6166197,
+      "width": 7997224,
+      "height": 482477,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Get your Team Started with Microsoft Learn for Organizations",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Get your Team Started with Microsoft Learn for Organizations"
+        }
+      ]
+    }
+  ],
+  "notes": "Certifications ensure your teams have validated, job‑ready skills to execute consistently at scale. This drives faster delivery, stronger adoption, and greater confidence across teams. Ultimately,  certification helps us maximize the value of your technology investments and accelerate business outcomes.”"
+}

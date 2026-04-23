@@ -1,0 +1,90 @@
+{
+  "slide_num": 9,
+  "items": [
+    {
+      "id": "s9_shape16",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s9_shape17",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s9_shape25",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s9_shape27",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s9_shape28",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s9_shape89",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s9_shape90",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s9_shape6",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s9_shape30",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s9_shape12",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s9_shape11",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s9_shape13",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s9_shape15",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s9_shape20",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s9_shape21",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s9_shape22",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s9_shape23",
+      "type": "smartart_placeholder",
+      "ok": true
+    }
+  ]
+}

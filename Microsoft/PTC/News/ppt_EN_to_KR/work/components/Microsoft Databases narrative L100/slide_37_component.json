@@ -1,0 +1,394 @@
+{
+  "slide_num": 37,
+  "text_boxes": [
+    {
+      "id": "s37_shape5",
+      "left": 1,
+      "top": 0,
+      "width": 7185024,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s37_shape36",
+      "left": 588263,
+      "top": 457200,
+      "width": 6306251,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "PTC improves operational efficiency with migration to Azure Database for PostgreSQL",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 35,
+              "color": null
+            }
+          ],
+          "text": "PTC improves operational efficiency with migration to Azure Database for PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": "s37_shape16",
+      "left": 571501,
+      "top": 2397125,
+      "width": 5913119,
+      "height": 1138773,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Challenge",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Challenge"
+        },
+        {
+          "runs": [
+            {
+              "text": "PTC needed greater standardization, scalability, and control over deployment automation",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "PTC needed greater standardization, scalability, and control over deployment automation"
+        },
+        {
+          "runs": [
+            {
+              "text": "Existing infrastructure limited ability to optimize performance and implement future AI innovation ",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Existing infrastructure limited ability to optimize performance and implement future AI innovation "
+        }
+      ]
+    },
+    {
+      "id": "s37_shape22",
+      "left": 571499,
+      "top": 3601356,
+      "width": 5913119,
+      "height": 1400383,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "Migrated 300+ customers to Azure Database for PostgreSQL and Azure Kubernetes Service (AKS)",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Migrated 300+ customers to Azure Database for PostgreSQL and Azure Kubernetes Service (AKS)"
+        },
+        {
+          "runs": [
+            {
+              "text": "Used Azure Database Migration Service for seamless transition from VM-based infrastructure",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Used Azure Database Migration Service for seamless transition from VM-based infrastructure"
+        },
+        {
+          "runs": [
+            {
+              "text": "Achieved superior performance, faster processing, and simplified deployments",
+              "font": "Segoe Sans Text",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Achieved superior performance, faster processing, and simplified deployments"
+        }
+      ]
+    },
+    {
+      "id": "s37_shape23",
+      "left": 2774740,
+      "top": 2516417,
+      "width": 1345034,
+      "height": 6894514,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s37_shape24",
+      "left": 571502,
+      "top": 5464593,
+      "width": 2676641,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure products used:",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Azure products used:"
+        }
+      ]
+    },
+    {
+      "id": "s37_shape28",
+      "left": 867394,
+      "top": 5875653,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Database for PostgreSQL",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Database for PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": "s37_shape26",
+      "left": 2979686,
+      "top": 5875653,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Defender",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Microsoft Defender"
+        }
+      ]
+    },
+    {
+      "id": "s37_shape25",
+      "left": 854194,
+      "top": 6204418,
+      "width": 1716602,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Kubernetes Service",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Kubernetes Service"
+        }
+      ]
+    },
+    {
+      "id": "s37_shape27",
+      "left": 2989215,
+      "top": 6204418,
+      "width": 1695962,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Monitor",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Monitor"
+        }
+      ]
+    },
+    {
+      "id": "s37_shape29",
+      "left": 8128000,
+      "top": 4154815,
+      "width": 3279782,
+      "height": 1298817,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Database for PostgreSQL gives us greater performance capabilities and flexibility, enabling smaller teams to do more—especially when managing large numbers of databases.",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Azure Database for PostgreSQL gives us greater performance capabilities and flexibility, enabling smaller teams to do more—especially when managing large numbers of databases."
+        },
+        {
+          "runs": [
+            {
+              "text": "Mike Jasperson",
+              "font": "Segoe Sans Text Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": "VP, IoT Software Operations and Support, PTC",
+              "font": null,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Mike Jasperson\u000bVP, IoT Software Operations and Support, PTC"
+        }
+      ]
+    },
+    {
+      "id": "s37_shape3",
+      "left": 127000,
+      "top": -76200,
+      "width": 304800,
+      "height": 304800,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s37_shape2",
+      "left": 7689286,
+      "top": 3959117,
+      "width": 320056,
+      "height": 284406,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s37_shape32",
+      "left": 532641,
+      "top": 6171002,
+      "width": 229528,
+      "height": 201741,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_37/image_25.png"
+    },
+    {
+      "id": "s37_shape4",
+      "left": 8128000,
+      "top": 5587868,
+      "width": 970003,
+      "height": 396084,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_37/image_26.png"
+    },
+    {
+      "id": "s37_shape6",
+      "left": 2665232,
+      "top": 5825807,
+      "width": 228601,
+      "height": 228601,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_37/image_27.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s37_shape30",
+      "left": 7185025,
+      "top": 0,
+      "width": 5006975,
+      "height": 3475038,
+      "shape_type": 14
+    }
+  ],
+  "notes": "Full customer story here: PTC improves operational efficiency with migration to Azure Database for PostgreSQL | Microsoft Customer Stories\n\nAs a global leader in product lifecycle management, PTC specializes in cutting-edge software that helps companies of all sizes transform how they design, manufacture, and maintain their products. Whether building planes, medical devices, wind turbines, or computers, businesses can rely on PTC’s portfolio of software as a solution (SaaS) and cloud-native solutions for innovation and efficiency. \n\nChallenge\nTo continue improvements in performance and scalability, better optimize database sizing and costs, and position itself for advanced innovation, PTC needed better standardization and control over its deployment automation.\nNeeded greater standardization, scalability, and control over deployment automation\nExisting infrastructure limited ability to optimize performance and cost at scale\nSought to support future AI innovation and enhance service continuity for critical customers\n\nSolution\nPTC moved more than 300 customers to Azure Database for PostgreSQL. It used Azure Database Migration Service to move from a virtual machine–based infrastructure to Azure Kubernetes Service (AKS), facilitating the process of delivering SaaS services.\nMigrated 300+ customers to Azure Database for PostgreSQL and Azure Kubernetes Service (AKS)\nUsed Azure Database Migration Service for seamless transition from VM-based infrastructure\nEnabled proactive service management with Azure Monitor and improved security via Microsoft Defender\n\nImpact \nThe migration simplifies deployment, enabling PTC to use telemetry data more effectively for proactive service management and continuity for customers. It also helps control costs and optimize resource usage while supporting PTC for continued AI innovation.\nAchieved superior performance, faster processing, and simplified deployments\nGained better control over resources, version upgrades, and operational costs\nPositioned for generative AI innovation and real-time insights through connected IoT platforms"
+}

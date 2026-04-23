@@ -1,0 +1,376 @@
+{
+  "slide_num": 10,
+  "text_boxes": [
+    {
+      "id": "s10_shape10",
+      "left": 4378517,
+      "top": 5827963,
+      "width": 3440618,
+      "height": 756745,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "All Data available in OneLake",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "All Data available in OneLake"
+        }
+      ]
+    },
+    {
+      "id": "s10_shape13",
+      "left": 588263,
+      "top": 457200,
+      "width": 11018520,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Built on a common foundation",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Built on a common foundation"
+        }
+      ]
+    },
+    {
+      "id": "s10_shape8",
+      "left": 588263,
+      "top": 5827963,
+      "width": 3440618,
+      "height": 756745,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Native AI capabilities:",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Native AI capabilities:"
+        },
+        {
+          "runs": [
+            {
+              "text": "Semantic Retrieval, Agentic Memory,",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#FFFFFF"
+            },
+            {
+              "text": "Integrated Models",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Semantic Retrieval, Agentic Memory,\u000bIntegrated Models"
+        }
+      ]
+    },
+    {
+      "id": "s10_shape9",
+      "left": 8168771,
+      "top": 5827963,
+      "width": 3440618,
+      "height": 756745,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Real-time integrations with Fabric RTI and Foundry",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 14,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Real-time integrations with Fabric RTI and Foundry"
+        }
+      ]
+    },
+    {
+      "id": "s10_shape20",
+      "left": 588263,
+      "top": 1739900,
+      "width": 11021126,
+      "height": 3610881,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s10_shape21",
+      "left": 2821238,
+      "top": 2280295,
+      "width": 4208093,
+      "height": 2879474,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s10_shape22",
+      "left": 7225164,
+      "top": 2280295,
+      "width": 4208093,
+      "height": 2879474,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s10_shape23",
+      "left": 760566,
+      "top": 2496568,
+      "width": 2060671,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Industry Leading",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Industry Leading"
+        }
+      ]
+    },
+    {
+      "id": "s10_shape24",
+      "left": 760566,
+      "top": 3692078,
+      "width": 1419072,
+      "height": 923330,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Open source-compatible",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Open source-compatible"
+        }
+      ]
+    },
+    {
+      "id": "s10_shape63",
+      "left": 4067094,
+      "top": 1848860,
+      "width": 1716381,
+      "height": 383496,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Relational",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Relational"
+        }
+      ]
+    },
+    {
+      "id": "s10_shape77",
+      "left": 8717898,
+      "top": 1848860,
+      "width": 1222624,
+      "height": 383496,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "NoSQL",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "NoSQL"
+        }
+      ]
+    },
+    {
+      "id": "s10_shape80",
+      "left": 588963,
+      "top": 1136285,
+      "width": 11017250,
+      "height": 307777,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "S",
+              "font": "Segoe UI",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            },
+            {
+              "text": "cale AI transformations safely and reliably",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Scale AI transformations safely and reliably"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s10_shape78",
+      "left": 5887407,
+      "top": 5666968,
+      "width": 422839,
+      "height": 365760,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_10/image_9.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s10_shape79",
+      "left": 1299906,
+      "top": 5275428,
+      "width": 9597840,
+      "height": 688720,
+      "shape_type": 6
+    },
+    {
+      "id": "s10_shape26",
+      "left": 588263,
+      "top": 3049989,
+      "width": 10835640,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s10_shape29",
+      "left": 7513843,
+      "top": 2401505,
+      "width": 2542947,
+      "height": 497902,
+      "shape_type": 6
+    },
+    {
+      "id": "s10_shape33",
+      "left": 3103027,
+      "top": 2397854,
+      "width": 1783617,
+      "height": 505204,
+      "shape_type": 6
+    },
+    {
+      "id": "s10_shape36",
+      "left": 7513843,
+      "top": 3158281,
+      "width": 3029387,
+      "height": 497901,
+      "shape_type": 6
+    },
+    {
+      "id": "s10_shape43",
+      "left": 3103027,
+      "top": 3151825,
+      "width": 3647567,
+      "height": 553998,
+      "shape_type": 6
+    },
+    {
+      "id": "s10_shape57",
+      "left": 3103027,
+      "top": 3894261,
+      "width": 3647567,
+      "height": 497902,
+      "shape_type": 6
+    },
+    {
+      "id": "s10_shape60",
+      "left": 3136488,
+      "top": 4580601,
+      "width": 2794588,
+      "height": 430980,
+      "shape_type": 6
+    },
+    {
+      "id": "s10_shape81",
+      "left": 3103027,
+      "top": 3800042,
+      "width": 3647567,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s10_shape82",
+      "left": 3103027,
+      "top": 4486382,
+      "width": 3647567,
+      "height": 0,
+      "shape_type": 9
+    }
+  ],
+  "notes": "And they're all built on common foundations to scale AI transformation safely and reliably. \n\nWith native mirroring to OneLake, all your data is available in our scalable, unified data lake, providing a single point to discover and explore your data. With OneLake storing your data in an open format, it unifies your  operational, analytical, structured and unstructured data in one open, connected foundation.  You get a delta lake version of your data with No ETL copy and no cost for the storage – a great way to integrate seamlessly into your existing unified data estate or jumpstart one if you don’t have one already.\n\nYou've also got native AI capabilities like semantic retrieval and agentic memory, plus model integration, and you've got real-time integrations with Fabric RTI (Real Time Intelligence) and Microsoft Foundry."
+}

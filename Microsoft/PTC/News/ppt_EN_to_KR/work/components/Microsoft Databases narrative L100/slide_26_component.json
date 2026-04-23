@@ -1,0 +1,313 @@
+{
+  "slide_num": 26,
+  "text_boxes": [
+    {
+      "id": "s26_shape11",
+      "left": -13910,
+      "top": 562,
+      "width": 4852207,
+      "height": 6858002,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s26_shape21",
+      "left": -13910,
+      "top": 4421587,
+      "width": 4671595,
+      "height": 1967300,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Empower skilled teams",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 36,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Empower skilled teams"
+        }
+      ]
+    },
+    {
+      "id": "s26_shape2",
+      "left": 4969112,
+      "top": 344375,
+      "width": 7015257,
+      "height": 6169249,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s26_shape51",
+      "left": 6195507,
+      "top": 642081,
+      "width": 5575758,
+      "height": 1729728,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Exclusive curated, org-wide skilling ",
+              "font": "Segoe Sans Display Semibold",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": "#000000"
+            }
+          ],
+          "text": "Exclusive curated, org-wide skilling "
+        },
+        {
+          "runs": [
+            {
+              "text": "Access on-demand, self-paced skilling plans, video, learning paths, and workshops to meet the individual needs of your organization.",
+              "font": "Segoe UI",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Access on-demand, self-paced skilling plans, video, learning paths, and workshops to meet the individual needs of your organization."
+        }
+      ]
+    },
+    {
+      "id": "s26_shape54",
+      "left": 5412955,
+      "top": 1203887,
+      "width": 350322,
+      "height": 350322,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s26_shape42",
+      "left": 6097184,
+      "top": 2551355,
+      "width": 5575758,
+      "height": 1783950,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Expert-led training",
+              "font": "Segoe Sans Display Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Expert-led training"
+        },
+        {
+          "runs": [
+            {
+              "text": "Empower your team with live",
+              "font": "Segoe UI",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            },
+            {
+              "text": ", instructor‑led training delivered by Microsoft Certified Trainers ",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "to get",
+              "font": "Segoe UI",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            },
+            {
+              "text": " interactive, hands‑on guidance and real‑time Q&A.",
+              "font": "Segoe UI",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Empower your team with live, instructor‑led training delivered by Microsoft Certified Trainers to get interactive, hands‑on guidance and real‑time Q&A."
+        },
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s26_shape47",
+      "left": 5401327,
+      "top": 3211312,
+      "width": 361950,
+      "height": 361950,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s26_shape12",
+      "left": 6146572,
+      "top": 4599233,
+      "width": 5624693,
+      "height": 1627445,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Data",
+              "font": "Segoe Sans Display Semibold",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": null
+            },
+            {
+              "text": " & AI certification discounts",
+              "font": "Segoe Sans Display Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Data & AI certification discounts"
+        },
+        {
+          "runs": [
+            {
+              "text": "Build more capable and confident teams - get a 50% discount* on data & AI certification exams.",
+              "font": "Segoe UI",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Build more capable and confident teams - get a 50% discount* on data & AI certification exams."
+        }
+      ]
+    },
+    {
+      "id": "s26_shape16",
+      "left": 5363801,
+      "top": 5119051,
+      "width": 399476,
+      "height": 340750,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s26_shape4",
+      "left": 8624941,
+      "top": 6580153,
+      "width": 3048001,
+      "height": 153888,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "*",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            },
+            {
+              "text": "subject to availability.",
+              "font": "Segoe Sans Display",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": null
+            }
+          ],
+          "text": "*subject to availability."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s26_shape61",
+      "left": -13909,
+      "top": 0,
+      "width": 4784078,
+      "height": 6858000,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_26/image_9.jpg"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s26_shape53",
+      "left": 5174621,
+      "top": 984766,
+      "width": 836878,
+      "height": 836876,
+      "shape_type": 6
+    },
+    {
+      "id": "s26_shape46",
+      "left": 5163863,
+      "top": 2973849,
+      "width": 836878,
+      "height": 836876,
+      "shape_type": 6
+    },
+    {
+      "id": "s26_shape15",
+      "left": 5141226,
+      "top": 4865987,
+      "width": 836878,
+      "height": 836876,
+      "shape_type": 6
+    }
+  ],
+  "notes": "Microsoft invests right alongside you with tailored, role-based skilling for your organization at no additional cost.\nWhy does this matter? Skilling across the organization is a critical enabler for AI transformation.\nAI puts innovation at everyone’s fingertips, and Agent Factory helps ensure every business user, IT pro, and developer knows how to use Microsoft technologies to build, scale, and use AI agents safely, at scale.\nFirst, our experts work with your organization to map out a tailored learning plan aligned to your business goals.\nThen we deliver live, expert‑led training and scalable webinars to help upskill your workforce at scale.\nEmployees can also demonstrate their expertise with industry-recognized certifications, while leadership demonstrates their investment in professional development.\nThe outcome: faster AI adoption, confident AI builders, and stronger ROI for your data and AI investments.\n\n(Incl. DP-900 Azure Data Fundamentals, DP-300 Database Admin, DP-420 Cosmos DB Developer Specialty,DP-800 SQL AI Developer, DP-350 Solutions Architect Expert, AI-900 AI Fundamentals, AI-200 Cloud AIDeveloper, AI-102 Azure AI Engineer Associate)"
+}

@@ -1,0 +1,197 @@
+{
+  "slide_num": 3,
+  "text_boxes": [
+    {
+      "id": "s3_shape5",
+      "left": 8285564,
+      "top": 2251906,
+      "width": 2320579,
+      "height": 2328262,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s3_shape6",
+      "left": 4962217,
+      "top": 2251906,
+      "width": 2320579,
+      "height": 2328262,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s3_shape7",
+      "left": 1613259,
+      "top": 2251906,
+      "width": 2320579,
+      "height": 2328262,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s3_shape13",
+      "left": 1729494,
+      "top": 3046705,
+      "width": 2088107,
+      "height": 738664,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Why ",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "Why "
+        },
+        {
+          "runs": [
+            {
+              "text": "modernize now",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "modernize now"
+        }
+      ]
+    },
+    {
+      "id": "s3_shape8",
+      "left": 5051946,
+      "top": 3059668,
+      "width": 2088107,
+      "height": 738664,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "What ",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "What "
+        },
+        {
+          "runs": [
+            {
+              "text": "we offer",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "we offer"
+        }
+      ]
+    },
+    {
+      "id": "s3_shape9",
+      "left": 8374399,
+      "top": 3059668,
+      "width": 2088107,
+      "height": 738664,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "How ",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "How "
+        },
+        {
+          "runs": [
+            {
+              "text": "can we help",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "can we help"
+        }
+      ]
+    },
+    {
+      "id": "s3_shape11",
+      "left": 574816,
+      "top": 520348,
+      "width": 8569184,
+      "height": 615553,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Modernize with Microsoft",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Modernize with Microsoft"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s3_shape22",
+      "left": -1258718,
+      "top": 4894562,
+      "width": 12534563,
+      "height": 3269134,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_3/image_17.png"
+    },
+    {
+      "id": "s3_shape21",
+      "left": 6096000,
+      "top": -395506,
+      "width": 6775182,
+      "height": 2146165,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_3/image_18.png"
+    }
+  ],
+  "notes": "You've got big ambitions:\nAI innovation\nFaster time-to-market\nBusiness insights\nIncreased operational efficiency\n...and more"
+}

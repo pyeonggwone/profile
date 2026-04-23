@@ -1,0 +1,737 @@
+{
+  "slide_num": 22,
+  "text_boxes": [
+    {
+      "id": "s22_shape2",
+      "left": 0,
+      "top": 0,
+      "width": 12192000,
+      "height": 1158240,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape3",
+      "left": 0,
+      "top": 1072896,
+      "width": 12192000,
+      "height": 85344,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape5",
+      "left": 1402080,
+      "top": 182880,
+      "width": 10119360,
+      "height": 792480,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Savings Plan for Databases (1-year)",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 32,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Savings Plan for Databases (1-year)"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape6",
+      "left": 609600,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 2682240,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape7",
+      "left": 609600,
+      "top": 1463040,
+      "width": 5242560,
+      "height": 73152,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape8",
+      "left": 914400,
+      "top": 1645920,
+      "width": 4267200,
+      "height": 512064,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "What It Is",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "What It Is"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape10",
+      "left": 1182624,
+      "top": 2316480,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "1-year flexible commitment across database services",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "1-year flexible commitment across database services"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape12",
+      "left": 1182624,
+      "top": 2706624,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Applies automatically across regions and tiers",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Applies automatically across regions and tiers"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape14",
+      "left": 1182624,
+      "top": 3096768,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "More flexible than Reserved Instance — no instance lock-in",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "More flexible than Reserved Instance — no instance lock-in"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape16",
+      "left": 1182624,
+      "top": 3530454,
+      "width": 4632960,
+      "height": 370986,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Covers Azure SQL Managed Instance, Azure Cosmos DB, Azure Database for PostgreSQL, & more",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Covers Azure SQL Managed Instance, Azure Cosmos DB, Azure Database for PostgreSQL, & more"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape17",
+      "left": 6339840,
+      "top": 1463040,
+      "width": 5425440,
+      "height": 2682240,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape18",
+      "left": 6339840,
+      "top": 1463040,
+      "width": 5425440,
+      "height": 73152,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape19",
+      "left": 6644640,
+      "top": 1645920,
+      "width": 4632960,
+      "height": 512064,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Savings by Database*",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Savings by Database*"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape21",
+      "left": 6912864,
+      "top": 2316480,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure SQL DB serverless compute: 35% savings",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Azure SQL DB serverless compute: 35% savings"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape23",
+      "left": 6912864,
+      "top": 2750166,
+      "width": 4669536,
+      "height": 256032,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure SQL Managed Instance, Azure SQL Database, Azure Database for PostgreSQL, Azure Database for MySQL: 20%",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Azure SQL Managed Instance, Azure SQL Database, Azure Database for PostgreSQL, Azure Database for MySQL: 20%"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape25",
+      "left": 6912864,
+      "top": 3096768,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Cosmos DB: 12% savings",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Azure Cosmos DB: 12% savings"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape27",
+      "left": 6912864,
+      "top": 3486912,
+      "width": 4328160,
+      "height": 341376,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Auto-applies to best available rate across portfolio",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": null
+            }
+          ],
+          "text": "Auto-applies to best available rate across portfolio"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape28",
+      "left": 609600,
+      "top": 4389120,
+      "width": 3474720,
+      "height": 1121664,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape29",
+      "left": 609600,
+      "top": 4413504,
+      "width": 3474720,
+      "height": 585216,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "35%",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "35%"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape30",
+      "left": 792480,
+      "top": 5023104,
+      "width": 3108960,
+      "height": 414528,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure SQL Database serverless compute",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "Azure SQL Database serverless compute"
+        },
+        {
+          "runs": [
+            {
+              "text": "savings*",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "savings*"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape31",
+      "left": 4450080,
+      "top": 4389120,
+      "width": 3474720,
+      "height": 1121664,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape32",
+      "left": 4450080,
+      "top": 4413504,
+      "width": 3474720,
+      "height": 585216,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "20%",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "20%"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape33",
+      "left": 4632960,
+      "top": 4965048,
+      "width": 3108960,
+      "height": 414528,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Savings on Azure SQL MI, Azure SQL Database, Azure Database for PostgreSQL and MySQL, Azure ",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            },
+            {
+              "text": "DocumentDB",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            },
+            {
+              "text": " with 1-yr commitment*",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "Savings on Azure SQL MI, Azure SQL Database, Azure Database for PostgreSQL and MySQL, Azure DocumentDB with 1-yr commitment*"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape34",
+      "left": 8290560,
+      "top": 4389120,
+      "width": 3474720,
+      "height": 1121664,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape35",
+      "left": 8290560,
+      "top": 4413504,
+      "width": 3474720,
+      "height": 585216,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "12%",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "12%"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape36",
+      "left": 8473440,
+      "top": 5023104,
+      "width": 3108960,
+      "height": 414528,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Cosmos DB",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "Azure Cosmos DB"
+        },
+        {
+          "runs": [
+            {
+              "text": "Savings*",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#605E5C"
+            }
+          ],
+          "text": "Savings*"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape37",
+      "left": 609600,
+      "top": 5730240,
+      "width": 10972800,
+      "height": 548640,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape39",
+      "left": 1219200,
+      "top": 5730240,
+      "width": 10119360,
+      "height": 548640,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Best for diverse database workloads or uncertain sizing: Commit a dollar amount, and savings apply automatically across SKUs.",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": "#323130"
+            }
+          ],
+          "text": "Best for diverse database workloads or uncertain sizing: Commit a dollar amount, and savings apply automatically across SKUs."
+        }
+      ]
+    },
+    {
+      "id": "s22_shape40",
+      "left": 0,
+      "top": 6400800,
+      "width": 12192000,
+      "height": 457200,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s22_shape41",
+      "left": 609600,
+      "top": 6425184,
+      "width": 6096000,
+      "height": 402336,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Azure",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Microsoft Azure"
+        }
+      ]
+    },
+    {
+      "id": "s22_shape42",
+      "left": 7455877,
+      "top": 6425184,
+      "width": 4126523,
+      "height": 402336,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "*Savings based on 1-year commitment vs PAYG list pricing. Actual savings may vary based on usage. ",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": true,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "*Savings based on 1-year commitment vs PAYG list pricing. Actual savings may vary based on usage. "
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s22_shape4",
+      "left": 609600,
+      "top": 243840,
+      "width": 609600,
+      "height": 609600,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_81.png"
+    },
+    {
+      "id": "s22_shape9",
+      "left": 914400,
+      "top": 2389632,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_82.png"
+    },
+    {
+      "id": "s22_shape11",
+      "left": 914400,
+      "top": 2779776,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_83.png"
+    },
+    {
+      "id": "s22_shape13",
+      "left": 914400,
+      "top": 3169920,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_84.png"
+    },
+    {
+      "id": "s22_shape15",
+      "left": 914400,
+      "top": 3560064,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_85.png"
+    },
+    {
+      "id": "s22_shape20",
+      "left": 6644640,
+      "top": 2389632,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_86.png"
+    },
+    {
+      "id": "s22_shape22",
+      "left": 6644640,
+      "top": 2779776,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_87.png"
+    },
+    {
+      "id": "s22_shape24",
+      "left": 6644640,
+      "top": 3169920,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_88.png"
+    },
+    {
+      "id": "s22_shape26",
+      "left": 6644640,
+      "top": 3560064,
+      "width": 195072,
+      "height": 195072,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_89.png"
+    },
+    {
+      "id": "s22_shape38",
+      "left": 792480,
+      "top": 5827776,
+      "width": 316992,
+      "height": 316992,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_22/image_90.png"
+    }
+  ],
+  "notes": "Customer:\u000bAnnouncement Blog\u000b\nSQLCon blog\u000b\nSavings Plan ACOM Page\u000b\nDatabase pricing pages on ACOM\u000b\nSavings Plan MS Learn Page\u000b\n\nPartner:\u000bPartner to customer deck in partner Center\u000b\nPartner FAQ in partner Center"
+}

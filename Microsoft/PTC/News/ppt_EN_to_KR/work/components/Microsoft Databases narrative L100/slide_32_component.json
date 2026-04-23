@@ -1,0 +1,456 @@
+{
+  "slide_num": 32,
+  "text_boxes": [
+    {
+      "id": "s32_shape40",
+      "left": 1,
+      "top": 0,
+      "width": 7185024,
+      "height": 6858000,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s32_shape61",
+      "left": 588263,
+      "top": 457200,
+      "width": 6306023,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "NFL Combine gains real-time insights for informed ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            },
+            {
+              "text": "draft-day decisions",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "NFL Combine gains real-time insights for informed \u000bdraft-day decisions"
+        }
+      ]
+    },
+    {
+      "id": "s32_shape42",
+      "left": 571499,
+      "top": 2397125,
+      "width": 6515101,
+      "height": 1031051,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Challenge",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Challenge"
+        },
+        {
+          "runs": [
+            {
+              "text": "Scouts and coaches at the NFL Combine lacked timely and actionable insights during live drills",
+              "font": null,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Scouts and coaches at the NFL Combine lacked timely and actionable insights during live drills"
+        },
+        {
+          "runs": [
+            {
+              "text": "Difficult to evaluate over 300 athletes and build accurate draft boards",
+              "font": null,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Difficult to evaluate over 300 athletes and build accurate draft boards"
+        },
+        {
+          "runs": [
+            {
+              "text": "Need to speed access to data and insights within the existing NFL Combine app",
+              "font": null,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Need to speed access to data and insights within the existing NFL Combine app"
+        }
+      ]
+    },
+    {
+      "id": "s32_shape43",
+      "left": 571499,
+      "top": 3601356,
+      "width": 6322787,
+      "height": 1215717,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "Azure Cosmos DB brought the speed and flexibility needed under real-world load",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Azure Cosmos DB brought the speed and flexibility needed under real-world load"
+        },
+        {
+          "runs": [
+            {
+              "text": "Able to ingest and process data to enable coaches and scouts to gain real-time insights about players, during live drills",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Able to ingest and process data to enable coaches and scouts to gain real-time insights about players, during live drills"
+        },
+        {
+          "runs": [
+            {
+              "text": "Transformed manual, tedious data retrieval into an automated, conversational experience ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Transformed manual, tedious data retrieval into an automated, conversational experience "
+        }
+      ]
+    },
+    {
+      "id": "s32_shape44",
+      "left": 7689286,
+      "top": 3959117,
+      "width": 320056,
+      "height": 284406,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s32_shape45",
+      "left": 2774738,
+      "top": 2221834,
+      "width": 1345034,
+      "height": 6894514,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s32_shape46",
+      "left": 571500,
+      "top": 5170010,
+      "width": 2676641,
+      "height": 246221,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure products used:",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Azure products used:"
+        }
+      ]
+    },
+    {
+      "id": "s32_shape48",
+      "left": 860220,
+      "top": 5581117,
+      "width": 946554,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Cosmos DB",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Cosmos DB"
+        }
+      ]
+    },
+    {
+      "id": "s32_shape50",
+      "left": 2383702,
+      "top": 5581117,
+      "width": 1005840,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft ",
+              "font": "Segoe Sans Text Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 9,
+              "color": null
+            },
+            {
+              "text": "Foundry",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Microsoft Foundry"
+        }
+      ]
+    },
+    {
+      "id": "s32_shape49",
+      "left": 3915345,
+      "top": 5581117,
+      "width": 1205090,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Container Apps",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Container Apps"
+        }
+      ]
+    },
+    {
+      "id": "s32_shape47",
+      "left": 854192,
+      "top": 5924558,
+      "width": 1188720,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure OpenAI Service",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure OpenAI Service"
+        }
+      ]
+    },
+    {
+      "id": "s32_shape59",
+      "left": 2367137,
+      "top": 5924558,
+      "width": 1083079,
+      "height": 138499,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Azure Monitor",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 9,
+              "color": null
+            }
+          ],
+          "text": "Azure Monitor"
+        }
+      ]
+    },
+    {
+      "id": "s32_shape52",
+      "left": 8128000,
+      "top": 4256381,
+      "width": 3406776,
+      "height": 1095685,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "We wanted to transform hours of tedious, manual effort into seconds of grab-and-go data.",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "We wanted to transform hours of tedious, manual effort into seconds of grab-and-go data."
+        },
+        {
+          "runs": [
+            {
+              "text": "Jeff Foster",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "Jeff Foster"
+        },
+        {
+          "runs": [
+            {
+              "text": "President, ",
+              "font": null,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            },
+            {
+              "text": "National Football Scouting",
+              "font": null,
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 12,
+              "color": "#0078D4"
+            }
+          ],
+          "text": "President, \u000bNational Football Scouting"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s32_shape5121",
+      "left": 7185025,
+      "top": 0,
+      "width": 5006975,
+      "height": 3467099,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_32/image_41.png"
+    },
+    {
+      "id": "s32_shape2050",
+      "left": 3495470,
+      "top": 5540352,
+      "width": 419101,
+      "height": 220028,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_32/image_42.png"
+    },
+    {
+      "id": "s32_shape2052",
+      "left": 1981885,
+      "top": 5883793,
+      "width": 419101,
+      "height": 220028,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_32/image_43.png"
+    },
+    {
+      "id": "s32_shape3",
+      "left": 8095096,
+      "top": 5536062,
+      "width": 483160,
+      "height": 664307,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_32/image_44.png"
+    },
+    {
+      "id": "s32_shape4",
+      "left": 1909820,
+      "top": 5489323,
+      "width": 629187,
+      "height": 359535,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_32/image_45.png"
+    }
+  ],
+  "notes": "The NFL, with Microsoft and SOUTHWORKS, enhanced draft-day decisions using a conversational AI assistant in the Combine app. Powered by Azure OpenAI, Cosmos DB, and Container Apps, it delivers real-time insights on 300+ athletes—transforming manual analysis into instant intelligence through natural language queries for scouts and coaches.\n\n\n\nhttps://www.microsoft.com/en/customers/story/23954-nfl-combine-azure-ai-foundry"
+}

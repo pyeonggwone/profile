@@ -1,0 +1,570 @@
+{
+  "slide_num": 23,
+  "text_boxes": [
+    {
+      "id": "s23_shape2",
+      "left": 0,
+      "top": 0,
+      "width": 12192000,
+      "height": 1158240,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s23_shape3",
+      "left": 0,
+      "top": 1072896,
+      "width": 12192000,
+      "height": 85344,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s23_shape5",
+      "left": 1402080,
+      "top": 182880,
+      "width": 10119360,
+      "height": 792480,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "How The Savings Plan for Databases Works",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 32,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "How The Savings Plan for Databases Works"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape40",
+      "left": 0,
+      "top": 6400800,
+      "width": 12192000,
+      "height": 457200,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s23_shape41",
+      "left": 609600,
+      "top": 6425184,
+      "width": 6096000,
+      "height": 402336,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Azure",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 10,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Microsoft Azure"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape42",
+      "left": 9144000,
+      "top": 6425184,
+      "width": 2438400,
+      "height": 402336,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Learn more →",
+              "font": "Calibri",
+              "bold": null,
+              "italic": null,
+              "underline": true,
+              "size": 12,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Learn more →"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape43",
+      "left": 609600,
+      "top": 1596887,
+      "width": 11369055,
+      "height": 405683,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Three simple steps to start saving",
+              "font": "Segoe UI Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "Three simple steps to start saving"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape44",
+      "left": 2046464,
+      "top": 2450327,
+      "width": 731520,
+      "height": 731520,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "1",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape45",
+      "left": 644384,
+      "top": 3364727,
+      "width": 3535680,
+      "height": 609600,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Choose ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Choose "
+        },
+        {
+          "runs": [
+            {
+              "text": "Your",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": " ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "Commitment",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Your Commitment"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape46",
+      "left": 827264,
+      "top": 4096247,
+      "width": 3169920,
+      "height": 1584960,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Select an hourly dollar amount based on your database baseline spend. Start conservative",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            },
+            {
+              "text": " and ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            },
+            {
+              "text": "you can always increase later.",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            }
+          ],
+          "text": "Select an hourly dollar amount based on your database baseline spend. Start conservative and you can always increase later."
+        }
+      ]
+    },
+    {
+      "id": "s23_shape47",
+      "left": 3841397,
+      "top": 2633207,
+      "width": 643467,
+      "height": 487680,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "▶",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 21,
+              "color": null
+            }
+          ],
+          "text": "▶"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape48",
+      "left": 5947904,
+      "top": 2450327,
+      "width": 731520,
+      "height": 731520,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "2",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape49",
+      "left": 4545824,
+      "top": 3364727,
+      "width": 3535680,
+      "height": 609600,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Apply",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "Savings Automatically",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Apply\u000bSavings Automatically"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape50",
+      "left": 4637264,
+      "top": 4096247,
+      "width": 3352800,
+      "height": 1584960,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "The Savings Plan mechanics ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            },
+            {
+              "text": "applies your commitment to eligible usage across all covered services, prioritizing the highest savings percentage first.",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            }
+          ],
+          "text": "The Savings Plan mechanics applies your commitment to eligible usage across all covered services, prioritizing the highest savings percentage first."
+        }
+      ]
+    },
+    {
+      "id": "s23_shape51",
+      "left": 7990064,
+      "top": 2633207,
+      "width": 596091,
+      "height": 487680,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "▶",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 21,
+              "color": null
+            }
+          ],
+          "text": "▶"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape52",
+      "left": 9798738,
+      "top": 2450327,
+      "width": 731520,
+      "height": 731520,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "3",
+              "font": "+mj-lt",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 20,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape53",
+      "left": 8396658,
+      "top": 3364727,
+      "width": 3535680,
+      "height": 609600,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Save ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Save "
+        },
+        {
+          "runs": [
+            {
+              "text": "And ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "Modernize Freely",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "And Modernize Freely"
+        }
+      ]
+    },
+    {
+      "id": "s23_shape54",
+      "left": 8417366,
+      "top": 4093430,
+      "width": 3494264,
+      "height": 1584960,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Change engines, adopt serverless, shift regions",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            },
+            {
+              "text": " and ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            },
+            {
+              "text": "your commitment flexes with you. Any usage above your commitment stays at ",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            },
+            {
+              "text": "pay-as-you-go",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            },
+            {
+              "text": " rates.",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 15,
+              "color": null
+            }
+          ],
+          "text": "Change engines, adopt serverless, shift regions and your commitment flexes with you. Any usage above your commitment stays at pay-as-you-go rates."
+        }
+      ]
+    },
+    {
+      "id": "s23_shape7",
+      "left": 609600,
+      "top": 5730240,
+      "width": 10972800,
+      "height": 548640,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s23_shape9",
+      "left": 1219200,
+      "top": 5730240,
+      "width": 10119360,
+      "height": 548640,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Simple monthly or upfront payment. No instance-level management. No hurdles to changing your architecture. Just a simple hourly commitment that grows with you.",
+              "font": "Calibri",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 14,
+              "color": "#323130"
+            }
+          ],
+          "text": "Simple monthly or upfront payment. No instance-level management. No hurdles to changing your architecture. Just a simple hourly commitment that grows with you."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s23_shape4",
+      "left": 609600,
+      "top": 243840,
+      "width": 609600,
+      "height": 609600,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_23/image_27.png"
+    },
+    {
+      "id": "s23_shape8",
+      "left": 792480,
+      "top": 5827776,
+      "width": 316992,
+      "height": 316992,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_23/image_28.png"
+    }
+  ]
+}

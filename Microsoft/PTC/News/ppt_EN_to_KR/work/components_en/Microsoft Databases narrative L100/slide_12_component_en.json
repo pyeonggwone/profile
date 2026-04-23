@@ -1,0 +1,76 @@
+{
+  "slide_num": 12,
+  "text_boxes": [
+    {
+      "id": "s12_shape11",
+      "left": 588962,
+      "top": 1436688,
+      "width": 11017250,
+      "height": 4926012,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s12_shape3",
+      "left": 588263,
+      "top": 457200,
+      "width": 11018520,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Databases fuel customer results",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "Microsoft Databases fuel customer results"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s12_shape5",
+      "left": 719479,
+      "top": 1570564,
+      "width": 5314608,
+      "height": 2265631,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_12/image_53.png"
+    },
+    {
+      "id": "s12_shape6",
+      "left": 6164604,
+      "top": 1570564,
+      "width": 5304743,
+      "height": 2265631,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_12/image_54.png"
+    },
+    {
+      "id": "s12_shape8",
+      "left": 719479,
+      "top": 3963195,
+      "width": 5314608,
+      "height": 2265631,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_12/image_55.png"
+    },
+    {
+      "id": "s12_shape9",
+      "left": 6157913,
+      "top": 3963195,
+      "width": 5311434,
+      "height": 2265631,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_12/image_56.png"
+    }
+  ],
+  "notes": "Customers are seeing great results with solutions fueled by Azure Databases\n\nBMW:\nBefore 2018, BMW Group’s development fleet relied on manual data transfer and on-premises data processing, significantly slowing vehicle development and prototype cycles.\n\nThe company created a mobile data recorder (MDR) solution, placing an IoT device in each development car to transmit data over a cellular connection to an Azure cloud platform, where Azure AI and data solutions facilitate efficient data analysis.\n\nThe MDR system and copilot fueled by Azure significantly enhances data accessibility, speeds prototypes and troubleshooting, and elevates development quality.\n\nhttps://www.microsoft.com/en/customers/story/19769-bmw-ag-azure-app-service\n\n\nNFL:\nThe NFL, with Microsoft and SOUTHWORKS, enhanced draft-day decisions using a conversational AI assistant in the Combine app. Powered by Azure OpenAI, Cosmos DB, and Container Apps, it delivers real-time insights on 300+ athletes—transforming manual analysis into instant intelligence through natural language queries for scouts and coaches.\n\nhttps://www.microsoft.com/en/customers/story/23954-nfl-combine-azure-ai-foundry \n\n\nMedigold Health:\nFacing the challenge of increasing client demand and limited clinician resources, Medigold Health wanted to find ways to reduce administrative burdens on clinicians so they can focus more on patient care—and have better work-life balance.\n\nWith Microsoft Azure as a foundation, the Medigold team migrated their applications and use Azure SQL Database for data storage. Azure SQL Database is the main persistence layer for storing AI-generated responses and making them accessible to clinicians through Medigold's internal application.\n \nAutomated processes, especially with report generation, are saving clinicians time, leading to a 58% rise in clinician retention and greater job satisfaction.\n\nhttps://www.microsoft.com/en/customers/story/19709-medigold-health-consultancy-azure \n\nThomson Reuters:\n… and Thomsom Reuters migrated 18K databases across 500+ TB of data to Azure Managed SQL with full SQL Server compatibility—no major code changes needed.\n\nThe move boosted performance for 7K firms and 70K users, while also supporting the company’s global operations with high availability and built-in disaster recovery capabilities across regions.\n\n\nThomson Reuters transforms tax prep for 7K businesses with Azure SQL Managed Instance | Microsoft Customer Stories\nhttps://www.microsoft.com/en/customers/story/24427-thomson-reuters-azure"
+}

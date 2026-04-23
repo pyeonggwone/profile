@@ -1,0 +1,45 @@
+{
+  "slide_num": 7,
+  "items": [
+    {
+      "id": "s7_shape7",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s7_shape13",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s7_shape19",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s7_shape21",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s7_shape27",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s7_shape30",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s7_shape11",
+      "type": "image",
+      "ok": true
+    },
+    {
+      "id": "s7_shape3",
+      "type": "smartart_placeholder",
+      "ok": true
+    }
+  ]
+}

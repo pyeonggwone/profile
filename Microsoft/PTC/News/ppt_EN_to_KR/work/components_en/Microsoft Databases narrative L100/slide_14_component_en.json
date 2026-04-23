@@ -1,0 +1,97 @@
+{
+  "slide_num": 14,
+  "text_boxes": [
+    {
+      "id": "s14_shape3",
+      "left": 0,
+      "top": -665966,
+      "width": 11018520,
+      "height": 553998,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "GitHub Copilot – App Modernization Demo",
+              "font": null,
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": null,
+              "color": null
+            }
+          ],
+          "text": "GitHub Copilot – App Modernization Demo"
+        }
+      ]
+    },
+    {
+      "id": "s14_shape7",
+      "left": 3586206,
+      "top": 6233051,
+      "width": 10978780,
+      "height": 276999,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Modernize your apps ",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "in days, not months",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": ", with ",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            },
+            {
+              "text": "Azure Migrate + GitHub Copilot ",
+              "font": "Segoe UI Semibold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 18,
+              "color": null
+            }
+          ],
+          "text": "Modernize your apps in days, not months, with Azure Migrate + GitHub Copilot "
+        }
+      ]
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s14_shape2",
+      "left": 0,
+      "top": 0,
+      "width": 12192000,
+      "height": 6858000,
+      "shape_type": 16
+    },
+    {
+      "id": "s14_shape13",
+      "left": 273050,
+      "top": 6151637,
+      "width": 3124200,
+      "height": 439829,
+      "shape_type": 6
+    }
+  ],
+  "notes": "Let’s take a look at the GitHub Copilot in action\n\nhttps://youtu.be/HCwaS4GX93Q?si=x_OxlAPZbFeQPth8"
+}

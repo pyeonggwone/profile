@@ -1,0 +1,323 @@
+{
+  "slide_num": 40,
+  "text_boxes": [
+    {
+      "id": "s40_shape8198",
+      "left": 293688,
+      "top": 0,
+      "width": 3181350,
+      "height": 6230904,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s40_shape8208",
+      "left": 1483936,
+      "top": 4624723,
+      "width": 415932,
+      "height": 2430670,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s40_shape8211",
+      "left": 527400,
+      "top": 5674249,
+      "width": 330134,
+      "height": 331618,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s40_shape68",
+      "left": 612571,
+      "top": 6309519,
+      "width": 399288,
+      "height": 365125,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": "40"
+        }
+      ]
+    },
+    {
+      "id": "s40_shape69",
+      "left": 1011859,
+      "top": 6309519,
+      "width": 2078736,
+      "height": 365125,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Fabric",
+              "font": "Segoe Sans Small Semilight",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 8,
+              "color": "#225B61"
+            }
+          ],
+          "text": "Microsoft Fabric"
+        }
+      ]
+    },
+    {
+      "id": "s40_shape77",
+      "left": 476567,
+      "top": 2009277,
+      "width": 2616690,
+      "height": 1846659,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Lumen unifies data, gains near real-time insights, saves 10,000 hours with Fabric",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "Lumen unifies data, gains near real-time insights, saves 10,000 hours with Fabric"
+        }
+      ]
+    },
+    {
+      "id": "s40_shape8212",
+      "left": 908367,
+      "top": 5732336,
+      "width": 1570943,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Read full story here",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "size": 14,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Read full story here"
+        }
+      ]
+    },
+    {
+      "id": "s40_shape8218",
+      "left": 3657917,
+      "top": 2651934,
+      "width": 8241983,
+      "height": 630942,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "“Fabric let us build on the familiarity, security, and scalability of Azure. It unites data flows, storage, analytics, and machine learning in a single experience.”",
+              "font": null,
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "“Fabric let us build on the familiarity, security, and scalability of Azure. It unites data flows, storage, analytics, and machine learning in a single experience.”"
+        },
+        {
+          "runs": [
+            {
+              "text": "Jerod Ridge, Director of Data Engineering, Lumen",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Jerod Ridge, Director of Data Engineering, Lumen"
+        }
+      ]
+    },
+    {
+      "id": "s40_shape8244",
+      "left": 3657917,
+      "top": 3574158,
+      "width": 3965482,
+      "height": 2144177,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Situation",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#225B62"
+            }
+          ],
+          "text": "Situation"
+        },
+        {
+          "runs": [
+            {
+              "text": "Lumen has long led in enterprise connectivity but now aims to help customers thrive in a multi-cloud, AI‑first world. Achieving this required transforming its own operations, which had grown fragmented over decades. Data was siloed across redundant systems with inconsistent definitions, slowing decision-making and innovation. To move forward, Lumen needed more than a new analytics platform. It required an end‑to‑end data and AI environment that centralized access, streamlined ingestion, and enabled cross‑functional collaboration.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Lumen has long led in enterprise connectivity but now aims to help customers thrive in a multi-cloud, AI‑first world. Achieving this required transforming its own operations, which had grown fragmented over decades. Data was siloed across redundant systems with inconsistent definitions, slowing decision-making and innovation. To move forward, Lumen needed more than a new analytics platform. It required an end‑to‑end data and AI environment that centralized access, streamlined ingestion, and enabled cross‑functional collaboration."
+        }
+      ]
+    },
+    {
+      "id": "s40_shape8245",
+      "left": 7934418,
+      "top": 3574158,
+      "width": 3965482,
+      "height": 2749471,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#225B62"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "By adopting Microsoft Fabric, Lumen unified decades of fragmented tools into a single platform on Azure—part of its shift toward AI‑driven, cloud‑first operations. Marketing data from dozens of sources now flows into ",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": "OneLake",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": ", eliminating redundancy and enabling real‑time insights in Power BI. ",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "By adopting Microsoft Fabric, Lumen unified decades of fragmented tools into a single platform on Azure—part of its shift toward AI‑driven, cloud‑first operations. Marketing data from dozens of sources now flows into OneLake, eliminating redundancy and enabling real‑time insights in Power BI. "
+        },
+        {
+          "runs": [
+            {
+              "text": "Features like shortcuts, mirroring, and Spark notebooks accelerate data work, while Copilot speeds coding and analysis. Governance is centralized through GitHub, ensuring consistency and control. The result was nearly 10,000 manual hours saved in a single year, faster campaign insights, stronger lead targeting, and higher ROI, while avoiding costly hardware and license renewals",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": ".",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": "#D2D2D2"
+            }
+          ],
+          "text": "Features like shortcuts, mirroring, and Spark notebooks accelerate data work, while Copilot speeds coding and analysis. Governance is centralized through GitHub, ensuring consistency and control. The result was nearly 10,000 manual hours saved in a single year, faster campaign insights, stronger lead targeting, and higher ROI, while avoiding costly hardware and license renewals."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s40_shape8213",
+      "left": 3475038,
+      "top": 3,
+      "width": 8716962,
+      "height": 2285858,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_40/image_27.png"
+    },
+    {
+      "id": "s40_shape8253",
+      "left": 476567,
+      "top": 627096,
+      "width": 2430670,
+      "height": 360439,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_40/image_28.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s40_shape8215",
+      "left": 3475038,
+      "top": 2285861,
+      "width": 8716962,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s40_shape8230",
+      "left": 3657917,
+      "top": 2032776,
+      "width": 506171,
+      "height": 506171,
+      "shape_type": 6
+    },
+    {
+      "id": "s40_shape8251",
+      "left": 7778909,
+      "top": 3574158,
+      "width": 0,
+      "height": 2899213,
+      "shape_type": 9
+    }
+  ],
+  "notes": "Flora Food Group is a Netherlands-based, plant-based food company serving over 100 countries with well-known brands like Flora, Rama, Violife, and Country Crock. As their operations expanded, so did the complexity of their data environment. They were already using several Microsoft tools—Azure Synapse, Azure Data Factory, Power BI—but managing them separately was creating inefficiencies, driving up costs, and making it harder to scale sustainably.\n\nTo simplify and modernize their analytics stack, Flora Food Group transitioned to Microsoft Fabric. This move allowed them to consolidate their reporting, engineering, data science, and security under one umbrella—eliminating the need for multiple systems and better aligning their data practices with sustainability goals. Their team implemented a medallion architecture on OneLake, giving them a unified foundation for more consistent and timely insights across finance and supply chain.\n\nThis transition had a big impact. By leveraging Direct Lake mode, they no longer need to schedule report refreshes—granular, near real-time data is always available. That’s been especially valuable in operational areas like supply chain, where speed and accuracy are critical. Developers are seeing productivity gains from better orchestration and transformation workflows, and business users can drill into lower-level data without complex querying.\n\nFlora Food Group also benefits from improved resource utilization. Their compute workloads are now more cost-efficient, and built-in AI and governance tools help reduce data duplication and strengthen security. In short, Fabric has helped Flora Food Group simplify architecture, reduce costs, and support more agile decision-making—while setting the stage for future AI innovation through tools like Fabric Copilot."
+}

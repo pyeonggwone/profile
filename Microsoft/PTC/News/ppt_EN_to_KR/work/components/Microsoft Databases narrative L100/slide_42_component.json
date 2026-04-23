@@ -1,0 +1,328 @@
+{
+  "slide_num": 42,
+  "text_boxes": [
+    {
+      "id": "s42_shape5150",
+      "left": 293688,
+      "top": 0,
+      "width": 3181350,
+      "height": 6230904,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s42_shape5133",
+      "left": 1483936,
+      "top": 4624723,
+      "width": 415932,
+      "height": 2430670,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s42_shape5134",
+      "left": 527400,
+      "top": 5674249,
+      "width": 330134,
+      "height": 331618,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "s42_shape5148",
+      "left": 612571,
+      "top": 6309519,
+      "width": 399288,
+      "height": 365125,
+      "paragraphs": [
+        {
+          "runs": [],
+          "text": "42"
+        }
+      ]
+    },
+    {
+      "id": "s42_shape5149",
+      "left": 1011859,
+      "top": 6309519,
+      "width": 2078736,
+      "height": 365125,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Fabric",
+              "font": "Segoe Sans Small Semilight",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 8,
+              "color": "#225B61"
+            }
+          ],
+          "text": "Microsoft Fabric"
+        }
+      ]
+    },
+    {
+      "id": "s42_shape5132",
+      "left": 476567,
+      "top": 2009278,
+      "width": 2622233,
+      "height": 1846659,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Iceland Foods makes decisions at the speed of business with Microsoft Fabric",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 24,
+              "color": null
+            }
+          ],
+          "text": "Iceland Foods makes decisions at the speed of business with Microsoft Fabric"
+        }
+      ]
+    },
+    {
+      "id": "s42_shape5135",
+      "left": 908367,
+      "top": 5732336,
+      "width": 1570943,
+      "height": 215444,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Read full story here",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "size": 14,
+              "color": "#FFFFFF"
+            }
+          ],
+          "text": "Read full story here"
+        }
+      ]
+    },
+    {
+      "id": "s42_shape5141",
+      "left": 3657917,
+      "top": 2651934,
+      "width": 8241983,
+      "height": 630942,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "“Fabric pulls everything into one place: big data capabilities, SQL database capabilities, real-time intelligence. It massively reduces data movement and preparation, and data is easily shared across different platforms.”",
+              "font": null,
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "“Fabric pulls everything into one place: big data capabilities, SQL database capabilities, real-time intelligence. It massively reduces data movement and preparation, and data is easily shared across different platforms.”"
+        },
+        {
+          "runs": [
+            {
+              "text": "Stuart Bickley, Head of Development, Iceland Foods",
+              "font": "Segoe Sans Display Semibold",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Stuart Bickley, Head of Development, Iceland Foods"
+        }
+      ]
+    },
+    {
+      "id": "s42_shape5142",
+      "left": 3657917,
+      "top": 3574158,
+      "width": 3965482,
+      "height": 2749471,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Situation",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#225B62"
+            }
+          ],
+          "text": "Situation"
+        },
+        {
+          "runs": [
+            {
+              "text": "With shopping habits shifting rapidly and customers seeking speed and value, grocery chains are under pressure to run leaner operations and deliver a better shopping experience. ",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "With shopping habits shifting rapidly and customers seeking speed and value, grocery chains are under pressure to run leaner operations and deliver a better shopping experience. "
+        },
+        {
+          "runs": [
+            {
+              "text": "Iceland Foods, a leading UK grocer with over 960 stores and a major online presence, faces this challenge daily. “The UK food retail sector is fast-paced and dynamic,” says Stuart Bickley, Head of Development. “To stay competitive, we must be agile and respond quickly to market conditions and consumer trends.” Transactional data plays a central role in this effort, helping the company track sales, measure promotions, identify traffic patterns, and optimize inventory and staffing.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Iceland Foods, a leading UK grocer with over 960 stores and a major online presence, faces this challenge daily. “The UK food retail sector is fast-paced and dynamic,” says Stuart Bickley, Head of Development. “To stay competitive, we must be agile and respond quickly to market conditions and consumer trends.” Transactional data plays a central role in this effort, helping the company track sales, measure promotions, identify traffic patterns, and optimize inventory and staffing."
+        }
+      ]
+    },
+    {
+      "id": "s42_shape5143",
+      "left": 7934417,
+      "top": 3574158,
+      "width": 3992851,
+      "height": 2934137,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Customer-reported outcomes",
+              "font": "Segoe Sans Display Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 16,
+              "color": "#225B62"
+            }
+          ],
+          "text": "Customer-reported outcomes"
+        },
+        {
+          "runs": [
+            {
+              "text": "Iceland Foods adopted Microsoft Fabric with Real-Time Intelligence to replace slow, preparation-heavy analytics and gain instant insights from streaming transactional data. By centralizing data in ",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": "OneLake",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            },
+            {
+              "text": " and enabling live reporting in Power BI, the company eliminated delays from transfers and refresh cycles and reduced operational overhead.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Iceland Foods adopted Microsoft Fabric with Real-Time Intelligence to replace slow, preparation-heavy analytics and gain instant insights from streaming transactional data. By centralizing data in OneLake and enabling live reporting in Power BI, the company eliminated delays from transfers and refresh cycles and reduced operational overhead."
+        },
+        {
+          "runs": [
+            {
+              "text": "Teams now track sales trends, adjust promotions, and optimize inventory and staffing in near real time. This agility improves responsiveness to customer needs and market shifts while strengthening governance and laying the foundation for AI-driven forecasting and analysis. Iceland is actively migrating additional data to Fabric as it becomes the company’s core reporting and decision-making platform.",
+              "font": "Segoe Sans Text",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "size": 12,
+              "color": null
+            }
+          ],
+          "text": "Teams now track sales trends, adjust promotions, and optimize inventory and staffing in near real time. This agility improves responsiveness to customer needs and market shifts while strengthening governance and laying the foundation for AI-driven forecasting and analysis. Iceland is actively migrating additional data to Fabric as it becomes the company’s core reporting and decision-making platform."
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "s42_shape5136",
+      "left": 3475038,
+      "top": 3,
+      "width": 8713734,
+      "height": 2285858,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_42/image_17.png"
+    },
+    {
+      "id": "s42_shape5147",
+      "left": 476567,
+      "top": 627096,
+      "width": 2262210,
+      "height": 360439,
+      "img_path": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/ppt_EN_to_KR/work/img/Microsoft Databases narrative L100/slide_42/image_18.png"
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s42_shape5137",
+      "left": 3475038,
+      "top": 2285861,
+      "width": 8716962,
+      "height": 0,
+      "shape_type": 9
+    },
+    {
+      "id": "s42_shape5138",
+      "left": 3657917,
+      "top": 2032776,
+      "width": 506171,
+      "height": 506171,
+      "shape_type": 6
+    },
+    {
+      "id": "s42_shape5144",
+      "left": 7778909,
+      "top": 3574158,
+      "width": 0,
+      "height": 2899213,
+      "shape_type": 9
+    }
+  ],
+  "notes": "Flora Food Group is a Netherlands-based, plant-based food company serving over 100 countries with well-known brands like Flora, Rama, Violife, and Country Crock. As their operations expanded, so did the complexity of their data environment. They were already using several Microsoft tools—Azure Synapse, Azure Data Factory, Power BI—but managing them separately was creating inefficiencies, driving up costs, and making it harder to scale sustainably.\n\nTo simplify and modernize their analytics stack, Flora Food Group transitioned to Microsoft Fabric. This move allowed them to consolidate their reporting, engineering, data science, and security under one umbrella—eliminating the need for multiple systems and better aligning their data practices with sustainability goals. Their team implemented a medallion architecture on OneLake, giving them a unified foundation for more consistent and timely insights across finance and supply chain.\n\nThis transition had a big impact. By leveraging Direct Lake mode, they no longer need to schedule report refreshes—granular, near real-time data is always available. That’s been especially valuable in operational areas like supply chain, where speed and accuracy are critical. Developers are seeing productivity gains from better orchestration and transformation workflows, and business users can drill into lower-level data without complex querying.\n\nFlora Food Group also benefits from improved resource utilization. Their compute workloads are now more cost-efficient, and built-in AI and governance tools help reduce data duplication and strengthen security. In short, Fabric has helped Flora Food Group simplify architecture, reduce costs, and support more agile decision-making—while setting the stage for future AI innovation through tools like Fabric Copilot."
+}

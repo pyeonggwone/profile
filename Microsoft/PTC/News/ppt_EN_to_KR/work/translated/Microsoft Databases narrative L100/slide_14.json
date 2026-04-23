@@ -1,0 +1,25 @@
+{
+  "slide_num": 14,
+  "items": [
+    {
+      "id": "s14_shape3",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s14_shape7",
+      "type": "text_box",
+      "ok": true
+    },
+    {
+      "id": "s14_shape2",
+      "type": "smartart_placeholder",
+      "ok": true
+    },
+    {
+      "id": "s14_shape13",
+      "type": "smartart_placeholder",
+      "ok": true
+    }
+  ]
+}

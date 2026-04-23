@@ -1,0 +1,86 @@
+{
+  "slide_num": 4,
+  "text_boxes": [
+    {
+      "id": "s4_shape2",
+      "left": 574816,
+      "top": 510988,
+      "width": 5208618,
+      "height": 624913,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Why Modernize Now",
+              "font": null,
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "size": 40,
+              "color": null
+            }
+          ],
+          "text": "Why Modernize Now"
+        }
+      ]
+    },
+    {
+      "id": "s4_shape20",
+      "left": 574816,
+      "top": 1249684,
+      "width": 6742738,
+      "height": 400110,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Recurring CxO Priorities and Concerns",
+              "font": "Segoe Sans Display",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "size": 20,
+              "color": null
+            }
+          ],
+          "text": "Recurring CxO Priorities and Concerns"
+        }
+      ]
+    }
+  ],
+  "smartarts": [
+    {
+      "id": "s4_shape33",
+      "left": 685140,
+      "top": 1884127,
+      "width": 10737240,
+      "height": 950976,
+      "shape_type": 6
+    },
+    {
+      "id": "s4_shape32",
+      "left": 697920,
+      "top": 4180067,
+      "width": 10241280,
+      "height": 950976,
+      "shape_type": 6
+    },
+    {
+      "id": "s4_shape30",
+      "left": 697920,
+      "top": 5411459,
+      "width": 11434920,
+      "height": 950976,
+      "shape_type": 6
+    },
+    {
+      "id": "s4_shape3",
+      "left": 697920,
+      "top": 3031334,
+      "width": 10241280,
+      "height": 950976,
+      "shape_type": 6
+    }
+  ],
+  "notes": "What we hear (the 4 pressures): earn empathy + get them talking.\n\n\n“These are the four pressures we consistently hear. Before we go any further — which of these matters most for you right now?”\n\n\nSet context\u000b“When we step back, we consistently hear the same themes from leaders like you.” Pause.\u000b“These are not assumptions. This is what CIOs tell us directly.” You may be dealing with one or all of these at the same time.“ Pause.\n\n\nWalk through the four pressures:\n\n“First, AI readiness.” - “Strong interest, but the data foundation is not ready yet.” \"You need to get your systems ready for what's coming next, including AI.“ Pause.\n\n“Second, legacy data center.” “Systems that are getting more expensive and risky the longer they stay.” Pause.\n\n“Third, cost.” - “Not just reducing spend, but optimizing it in a way that funds what comes next.” Pause.\n\n“And Fourth, help that actually executes.” \"You need hands-on help; not another framework or assessment.“ Pause.\n\n\nAnchor the shift “What’s changed is not the pressures.” “What’s changed is that these no longer need to be four separate initiatives.” Pause.\n\nLand the takeaway “One journey, not four projects.” Pause.\n\nSeller discipline\u000b“These are observations, not a pitch.”\u000b“Stop talking here.”\u000b“Ask which of these resonates most.”\u000b“Let the CIO lead the conversation.”"
+}

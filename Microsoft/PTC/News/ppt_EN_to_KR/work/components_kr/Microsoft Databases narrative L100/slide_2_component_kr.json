@@ -1,0 +1,39 @@
+{
+  "slide_num": 2,
+  "text_boxes": [
+    {
+      "id": "s2_shape5",
+      "left": 584199,
+      "top": 2286000,
+      "width": 6642173,
+      "height": 886397,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft 데이터베이스",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 36,
+              "color": "#0078D4"
+            },
+            {
+              "text": "에지에서 PaaS, SaaS까지",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 28,
+              "color": "#000000"
+            }
+          ],
+          "text": "Microsoft 데이터베이스\u000b에지에서 PaaS, SaaS까지"
+        }
+      ]
+    }
+  ],
+  "notes": "Welcome to this session on Azure databases\nMy name is <name> and I work as <job title/role>",
+  "tables": []
+}

@@ -1,0 +1,38 @@
+{
+  "slide_num": 2,
+  "text_boxes": [
+    {
+      "id": "s2_shape5",
+      "left": 584199,
+      "top": 2286000,
+      "width": 6642173,
+      "height": 886397,
+      "paragraphs": [
+        {
+          "runs": [
+            {
+              "text": "Microsoft Databases",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 36,
+              "color": "#0078D4"
+            },
+            {
+              "text": "From edge to PaaS to SaaS",
+              "font": "Segoe Sans Text Semibold",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "size": 28,
+              "color": "#000000"
+            }
+          ],
+          "text": "Microsoft Databases\u000bFrom edge to PaaS to SaaS"
+        }
+      ]
+    }
+  ],
+  "notes": "Welcome to this session on Azure databases\nMy name is <name> and I work as <job title/role>"
+}
