@@ -11,7 +11,7 @@
         {
           "runs": [
             {
-              "text": "지금 현대화해야 하는 이유",
+              "text": "왜 지금 현대화해야 하는가",
               "font": null,
               "bold": true,
               "italic": null,
@@ -20,7 +20,7 @@
               "color": null
             }
           ],
-          "text": "지금 현대화해야 하는 이유"
+          "text": "왜 지금 현대화해야 하는가"
         }
       ]
     },
@@ -34,7 +34,7 @@
         {
           "runs": [
             {
-              "text": "반복되는 최고 경영진 우선순위 및 우려사항",
+              "text": "반복되는 최고 경영진 우선 순위 및 우려 사항",
               "font": "Segoe Sans Display",
               "bold": true,
               "italic": false,
@@ -43,7 +43,7 @@
               "color": null
             }
           ],
-          "text": "반복되는 최고 경영진 우선순위 및 우려사항"
+          "text": "반복되는 최고 경영진 우선 순위 및 우려 사항"
         }
       ]
     }
@@ -82,6 +82,6 @@
       "shape_type": 6
     }
   ],
-  "notes": "What we hear (the 4 pressures): earn empathy + get them talking.\n\n\n“These are the four pressures we consistently hear. Before we go any further — which of these matters most for you right now?”\n\n\nSet context\u000b“When we step back, we consistently hear the same themes from leaders like you.” Pause.\u000b“These are not assumptions. This is what CIOs tell us directly.” You may be dealing with one or all of these at the same time.“ Pause.\n\n\nWalk through the four pressures:\n\n“First, AI readiness.” - “Strong interest, but the data foundation is not ready yet.” \"You need to get your systems ready for what's coming next, including AI.“ Pause.\n\n“Second, legacy data center.” “Systems that are getting more expensive and risky the longer they stay.” Pause.\n\n“Third, cost.” - “Not just reducing spend, but optimizing it in a way that funds what comes next.” Pause.\n\n“And Fourth, help that actually executes.” \"You need hands-on help; not another framework or assessment.“ Pause.\n\n\nAnchor the shift “What’s changed is not the pressures.” “What’s changed is that these no longer need to be four separate initiatives.” Pause.\n\nLand the takeaway “One journey, not four projects.” Pause.\n\nSeller discipline\u000b“These are observations, not a pitch.”\u000b“Stop talking here.”\u000b“Ask which of these resonates most.”\u000b“Let the CIO lead the conversation.”",
+  "notes": "우리가 듣는 것들 (4가지 압박): 공감 얻기 + 대화 시작하기.\n\n\n“다음은 우리가 일관되게 듣는 네 가지 압박입니다. 더 진행하기 전에 — 지금 당신에게 가장 중요한 것은 무엇인가요?”\n\n\n맥락 설정\u000b“한 걸음 물러서 보면, 우리는 당신과 같은 리더들로부터 동일한 주제를 꾸준히 듣습니다.” 잠시 멈춤.\u000b“이것은 가정이 아닙니다. 이것은 최고 정보 책임자들이 직접 말씀하신 내용입니다.” 당신은 한 가지 또는 모두를 동시에 다루고 있을 수 있습니다.“ 잠시 멈춤.\n\n\n네 가지 압박 설명:\n\n“첫째, AI 준비 상태.” - “강한 관심이 있으나 데이터 기반이 아직 준비되지 않았습니다.” \"앞으로 올 AI를 포함해 시스템 준비가 필요합니다.“ 잠시 멈춤.\n\n“둘째, 레거시 데이터 센터.” “오래될수록 더 비싸고 위험한 시스템.” 잠시 멈춤.\n\n“셋째, 비용.” - “단순히 지출 감소가 아니라 다음 단계에 자금을 지원하는 최적화.” 잠시 멈춤.\n\n“넷째, 실제 실행하는 지원.” \"또 다른 프레임워크나 평가가 아니라 실질적 지원이 필요합니다.“ 잠시 멈춤.\n\n\n변화의 중심 “변화한 것은 압박 그 자체가 아닙니다.” “변화한 것은 더 이상 이 네 가지가 별도의 이니셔티브일 필요가 없다는 것입니다.” 잠시 멈춤.\n\n핵심 요약 “한 번의 여정, 네 개의 프로젝트가 아닙니다.” 잠시 멈춤.\n\n판매자 태도\u000b“이것들은 관찰사항이지 판매용 피치가 아닙니다.”\u000b“여기서 말하기를 멈추세요.”\u000b“가장 공감하는 것이 무엇인지 물어보세요.”\u000b“최고 정보 책임자가 대화를 주도하게 하세요.”",
   "tables": []
 }

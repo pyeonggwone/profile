@@ -20,7 +20,7 @@
               "color": "#0078D4"
             },
             {
-              "text": "에지에서 PaaS, SaaS까지",
+              "text": "에지부터 PaaS, SaaS까지",
               "font": "Segoe Sans Text Semibold",
               "bold": false,
               "italic": false,
@@ -29,11 +29,11 @@
               "color": "#000000"
             }
           ],
-          "text": "Microsoft 데이터베이스\u000b에지에서 PaaS, SaaS까지"
+          "text": "Microsoft 데이터베이스\u000b에지부터 PaaS, SaaS까지"
         }
       ]
     }
   ],
-  "notes": "Welcome to this session on Azure databases\nMy name is <name> and I work as <job title/role>",
+  "notes": "Azure 데이터베이스 세션에 오신 것을 환영합니다\n제 이름은 <name>이고 직함/역할은 <job title/role>입니다",
   "tables": []
 }

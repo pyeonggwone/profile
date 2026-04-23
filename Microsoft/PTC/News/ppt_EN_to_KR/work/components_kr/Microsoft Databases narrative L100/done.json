@@ -69,7 +69,7 @@
                 "color": null
               },
               {
-                "text": "V2 - 2026년 4월 최신 업데이트 (새로운 현대화 메시징 및 Azure 가속화 데이터베이스 프로그램 발표)",
+                "text": "V2 - 2026년 4월 마지막 업데이트 (새로운 현대화 메시지와 Azure 가속화를 통한 데이터베이스 프로그램 발표)",
                 "font": "+mn-lt",
                 "bold": false,
                 "size": 12,
@@ -101,7 +101,7 @@
                 "color": null
               },
               {
-                "text": "고객이 데이터베이스가 인공지능 목표에 왜 중요한지 이해하도록 돕고, Microsoft 데이터베이스를 탐색합니다.",
+                "text": "고객이 데이터베이스가 그들의 인공지능 목표에 왜 중요한지 이해하도록 지원하고 Microsoft 데이터베이스를 탐색하도록 돕습니다.",
                 "font": "+mn-lt",
                 "bold": false,
                 "size": 12,
@@ -126,14 +126,14 @@
             ],
             [
               {
-                "text": "발표자",
+                "text": "전달자",
                 "font": "+mj-lt",
                 "bold": false,
                 "size": 14,
                 "color": null
               },
               {
-                "text": "전문가 팀원 (솔루션 전문가, 시스템 엔지니어, 클라우드 솔루션 아키텍트, 고객 성공 관리자) ",
+                "text": "전문가 팀 구성원 (솔루션 전문가, 시스템 엔지니어, 클라우드 솔루션 아키텍트, 고객 성공 관리자) ",
                 "font": "+mn-lt",
                 "bold": false,
                 "size": 12,
@@ -142,14 +142,14 @@
             ],
             [
               {
-                "text": "내용 수준",
+                "text": "콘텐츠 수준",
                 "font": "+mj-lt",
                 "bold": false,
                 "size": 14,
                 "color": null
               },
               {
-                "text": "외부 및 내부용 100단계 – 고객 1:1, 1:소수, 1:다수",
+                "text": "외부 및 내부 사용을 위한 레벨 100 – 고객 1:1, 1:소수, 1:대규모",
                 "font": "+mn-lt",
                 "bold": null,
                 "size": 12,
@@ -158,7 +158,7 @@
             ],
             [
               {
-                "text": "문서 소유자",
+                "text": "데크 소유자",
                 "font": "+mj-lt",
                 "bold": false,
                 "size": 14,
@@ -181,7 +181,7 @@
                 "color": null
               },
               {
-                "text": "이 피치는 Microsoft 데이터베이스 개요와 데이터베이스 현대화 및 신규 구축을 통해 고객의 인공지능 목표를 지원하는 방법을 제공하기 위한 것입니다.\n고객이 데이터베이스 포트폴리오를 더 깊이 이해하거나 특정 서비스를 탐색하고자 할 경우 https://aka.ms/databasesbom 의 내용을 사용하십시오.\n슬라이드는 특정 청중 상황에 맞게 조정되어야 하며, 고객과 적합하다고 생각되는 슬라이드는 순서를 변경하거나 숨길 수 있습니다.\n중요: 이 슬라이드를 고객 또는 파트너와 공유하는 경우 파일 크기를 줄이고 노트가 보이거나 접근되지 않도록 PDF로 공유해 주십시오.",
+                "text": "이 피치는 Microsoft 데이터베이스의 개요와 데이터베이스 현대화 및 신규 구축을 통해 고객의 인공지능 목표를 지원하는 방법을 제공합니다.\n고객이 데이터베이스 포트폴리오를 더 깊게 탐색하거나 특정 서비스를 탐색하고자 하는 경우 https://aka.ms/databasesbom의 콘텐츠를 사용하십시오.\n슬라이드는 특정 고객 상황에 적합하도록 유연하게 조정하세요 — 필요에 따라 슬라이드 순서를 변경하거나 숨길 수 있습니다.\n중요: 고객 또는 파트너와 이 슬라이드를 공유할 경우, 파일 크기를 줄이고 노트가 보이거나 접근되지 않도록 PDF 형식으로 공유하십시오.",
                 "font": "+mn-lt",
                 "bold": false,
                 "size": 12,
@@ -214,7 +214,7 @@
                   "color": "#0078D4"
                 },
                 {
-                  "text": "에지에서 PaaS, SaaS까지",
+                  "text": "에지부터 PaaS, SaaS까지",
                   "font": "Segoe Sans Text Semibold",
                   "bold": false,
                   "italic": false,
@@ -223,13 +223,13 @@
                   "color": "#000000"
                 }
               ],
-              "text": "Microsoft 데이터베이스\u000b에지에서 PaaS, SaaS까지"
+              "text": "Microsoft 데이터베이스\u000b에지부터 PaaS, SaaS까지"
             }
           ]
         }
       ],
       "tables": [],
-      "notes": "Welcome to this session on Azure databases\nMy name is <name> and I work as <job title/role>"
+      "notes": "Azure 데이터베이스 세션에 오신 것을 환영합니다\n제 이름은 <name>이고 직함/역할은 <job title/role>입니다"
     },
     "3": {
       "text_boxes": [
@@ -370,7 +370,7 @@
             {
               "runs": [
                 {
-                  "text": "도움이 될 수 있나",
+                  "text": "도울 수 있을까",
                   "font": "Segoe Sans Text Semibold",
                   "bold": null,
                   "italic": null,
@@ -379,7 +379,7 @@
                   "color": null
                 }
               ],
-              "text": "도움이 될 수 있나"
+              "text": "도울 수 있을까"
             }
           ]
         },
@@ -408,7 +408,7 @@
         }
       ],
       "tables": [],
-      "notes": "You've got big ambitions:\nAI innovation\nFaster time-to-market\nBusiness insights\nIncreased operational efficiency\n...and more"
+      "notes": "당신은 큰 목표를 가지고 있습니다:\n인공지능 혁신\n더 빠른 출시 시간\n비즈니스 인사이트\n운영 효율성 증가\n...그리고 더 많은 것들"
     },
     "4": {
       "text_boxes": [
@@ -422,7 +422,7 @@
             {
               "runs": [
                 {
-                  "text": "지금 현대화해야 하는 이유",
+                  "text": "왜 지금 현대화해야 하는가",
                   "font": null,
                   "bold": true,
                   "italic": null,
@@ -431,7 +431,7 @@
                   "color": null
                 }
               ],
-              "text": "지금 현대화해야 하는 이유"
+              "text": "왜 지금 현대화해야 하는가"
             }
           ]
         },
@@ -445,7 +445,7 @@
             {
               "runs": [
                 {
-                  "text": "반복되는 최고 경영진 우선순위 및 우려사항",
+                  "text": "반복되는 최고 경영진 우선 순위 및 우려 사항",
                   "font": "Segoe Sans Display",
                   "bold": true,
                   "italic": false,
@@ -454,13 +454,13 @@
                   "color": null
                 }
               ],
-              "text": "반복되는 최고 경영진 우선순위 및 우려사항"
+              "text": "반복되는 최고 경영진 우선 순위 및 우려 사항"
             }
           ]
         }
       ],
       "tables": [],
-      "notes": "What we hear (the 4 pressures): earn empathy + get them talking.\n\n\n“These are the four pressures we consistently hear. Before we go any further — which of these matters most for you right now?”\n\n\nSet context\u000b“When we step back, we consistently hear the same themes from leaders like you.” Pause.\u000b“These are not assumptions. This is what CIOs tell us directly.” You may be dealing with one or all of these at the same time.“ Pause.\n\n\nWalk through the four pressures:\n\n“First, AI readiness.” - “Strong interest, but the data foundation is not ready yet.” \"You need to get your systems ready for what's coming next, including AI.“ Pause.\n\n“Second, legacy data center.” “Systems that are getting more expensive and risky the longer they stay.” Pause.\n\n“Third, cost.” - “Not just reducing spend, but optimizing it in a way that funds what comes next.” Pause.\n\n“And Fourth, help that actually executes.” \"You need hands-on help; not another framework or assessment.“ Pause.\n\n\nAnchor the shift “What’s changed is not the pressures.” “What’s changed is that these no longer need to be four separate initiatives.” Pause.\n\nLand the takeaway “One journey, not four projects.” Pause.\n\nSeller discipline\u000b“These are observations, not a pitch.”\u000b“Stop talking here.”\u000b“Ask which of these resonates most.”\u000b“Let the CIO lead the conversation.”"
+      "notes": "우리가 듣는 것들 (4가지 압박): 공감 얻기 + 대화 시작하기.\n\n\n“다음은 우리가 일관되게 듣는 네 가지 압박입니다. 더 진행하기 전에 — 지금 당신에게 가장 중요한 것은 무엇인가요?”\n\n\n맥락 설정\u000b“한 걸음 물러서 보면, 우리는 당신과 같은 리더들로부터 동일한 주제를 꾸준히 듣습니다.” 잠시 멈춤.\u000b“이것은 가정이 아닙니다. 이것은 최고 정보 책임자들이 직접 말씀하신 내용입니다.” 당신은 한 가지 또는 모두를 동시에 다루고 있을 수 있습니다.“ 잠시 멈춤.\n\n\n네 가지 압박 설명:\n\n“첫째, AI 준비 상태.” - “강한 관심이 있으나 데이터 기반이 아직 준비되지 않았습니다.” \"앞으로 올 AI를 포함해 시스템 준비가 필요합니다.“ 잠시 멈춤.\n\n“둘째, 레거시 데이터 센터.” “오래될수록 더 비싸고 위험한 시스템.” 잠시 멈춤.\n\n“셋째, 비용.” - “단순히 지출 감소가 아니라 다음 단계에 자금을 지원하는 최적화.” 잠시 멈춤.\n\n“넷째, 실제 실행하는 지원.” \"또 다른 프레임워크나 평가가 아니라 실질적 지원이 필요합니다.“ 잠시 멈춤.\n\n\n변화의 중심 “변화한 것은 압박 그 자체가 아닙니다.” “변화한 것은 더 이상 이 네 가지가 별도의 이니셔티브일 필요가 없다는 것입니다.” 잠시 멈춤.\n\n핵심 요약 “한 번의 여정, 네 개의 프로젝트가 아닙니다.” 잠시 멈춤.\n\n판매자 태도\u000b“이것들은 관찰사항이지 판매용 피치가 아닙니다.”\u000b“여기서 말하기를 멈추세요.”\u000b“가장 공감하는 것이 무엇인지 물어보세요.”\u000b“최고 정보 책임자가 대화를 주도하게 하세요.”"
     },
     "5": {
       "text_boxes": [
@@ -500,7 +500,7 @@
             {
               "runs": [
                 {
-                  "text": "에이전틱 AI는 모든 비즈니스 프로세스를 변화시킬 것이며, 데이터 또한 변화해야 합니다",
+                  "text": "에이전틱 AI가 모든 비즈니스 프로세스를 변화시킬 예정이므로 데이터도 마찬가지로 변화해야 합니다",
                   "font": "+mn-lt",
                   "bold": null,
                   "italic": null,
@@ -509,7 +509,7 @@
                   "color": null
                 }
               ],
-              "text": "에이전틱 AI는 모든 비즈니스 프로세스를 변화시킬 것이며, 데이터 또한 변화해야 합니다"
+              "text": "에이전틱 AI가 모든 비즈니스 프로세스를 변화시킬 예정이므로 데이터도 마찬가지로 변화해야 합니다"
             }
           ]
         },
@@ -581,7 +581,7 @@
             {
               "runs": [
                 {
-                  "text": "오늘 에이전틱 AI를 확장하면 무엇이 무너지나요?",
+                  "text": "오늘 에이전틱 AI를 확장하면 무엇이 문제가 될까요?",
                   "font": "Segoe UI Semibold",
                   "bold": false,
                   "italic": false,
@@ -590,7 +590,7 @@
                   "color": "#FFFFFF"
                 }
               ],
-              "text": "오늘 에이전틱 AI를 확장하면 무엇이 무너지나요?"
+              "text": "오늘 에이전틱 AI를 확장하면 무엇이 문제가 될까요?"
             }
           ]
         },
@@ -604,7 +604,7 @@
             {
               "runs": [
                 {
-                  "text": "임직원 경험",
+                  "text": "직원 경험",
                   "font": "Segoe UI",
                   "bold": false,
                   "italic": false,
@@ -613,7 +613,7 @@
                   "color": null
                 }
               ],
-              "text": "임직원 경험"
+              "text": "직원 경험 향상"
             }
           ]
         },
@@ -640,7 +640,7 @@
             {
               "runs": [
                 {
-                  "text": "고객 참여 재구성",
+                  "text": "고객 참여 혁신",
                   "font": "Segoe UI",
                   "bold": false,
                   "italic": false,
@@ -649,7 +649,7 @@
                   "color": null
                 }
               ],
-              "text": "고객 참여 재구성"
+              "text": "고객 참여 혁신"
             }
           ]
         },
@@ -721,7 +721,7 @@
                   "color": null
                 },
                 {
-                  "text": "곡선 조정",
+                  "text": "커브 뒤틀기",
                   "font": "Segoe UI",
                   "bold": false,
                   "italic": false,
@@ -730,7 +730,7 @@
                   "color": null
                 }
               ],
-              "text": "혁신의 곡선 조정"
+              "text": "혁신의 커브 뒤틀기"
             }
           ]
         },
@@ -779,7 +779,7 @@
                   "color": null
                 },
                 {
-                  "text": "에이전트가 시스템을 과부하시키고 사용자 불평, 프로세스 지연",
+                  "text": "에이전트가 시스템을 압도하고; 사용자가 불평, 프로세스 지연",
                   "font": "Segoe UI",
                   "bold": false,
                   "italic": false,
@@ -788,7 +788,7 @@
                   "color": null
                 }
               ],
-              "text": "지연 시간 및 처리량: 에이전트가 시스템을 과부하시키고 사용자 불평, 프로세스 지연"
+              "text": "지연 시간 및 처리량: 에이전트가 시스템을 압도하고; 사용자가 불평, 프로세스 지연"
             }
           ]
         },
@@ -824,7 +824,7 @@
                   "color": null
                 },
                 {
-                  "text": "에이전트가 경쟁 조건 생성, 트랜잭션 실패",
+                  "text": "에이전트가 경합 조건을 생성하고, 트랜잭션 실패",
                   "font": "Segoe UI",
                   "bold": false,
                   "italic": false,
@@ -833,7 +833,7 @@
                   "color": null
                 }
               ],
-              "text": "동시성 및 데이터 무결성: 에이전트가 경쟁 조건 생성, 트랜잭션 실패"
+              "text": "동시성 및 데이터 무결성: 에이전트가 경합 조건을 생성하고, 트랜잭션 실패"
             }
           ]
         },
@@ -869,7 +869,7 @@
                   "color": null
                 },
                 {
-                  "text": "에이전트를 위해 설계되지 않음: 감사, 접근, 가시성 격차",
+                  "text": "에이전트에 맞게 설계되지 않음: 감사, 접근 및 가시성 격차",
                   "font": "Segoe UI",
                   "bold": false,
                   "italic": false,
@@ -878,7 +878,7 @@
                   "color": null
                 }
               ],
-              "text": "보안 및 거버넌스 에이전트를 위해 설계되지 않음: 감사, 접근, 가시성 격차"
+              "text": "보안 및 거버넌스 에이전트에 맞게 설계되지 않음: 감사, 접근 및 가시성 격차"
             }
           ]
         },
@@ -901,7 +901,7 @@
                   "color": null
                 },
                 {
-                  "text": "레거시 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함",
+                  "text": "구식 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함",
                   "font": "Segoe UI",
                   "bold": false,
                   "italic": false,
@@ -910,7 +910,7 @@
                   "color": null
                 }
               ],
-              "text": "정확성 및 신뢰성: 레거시 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함"
+              "text": "정확성 및 신뢰성: 구식 데이터베이스는 벡터 검색과 에이전트 고유 기능이 부족함"
             }
           ]
         },
@@ -1052,7 +1052,7 @@
             {
               "runs": [
                 {
-                  "text": "1. AI 대규모 적용 준비하기",
+                  "text": "1. 대규모 AI 준비",
                   "font": null,
                   "bold": true,
                   "italic": null,
@@ -1061,13 +1061,13 @@
                   "color": null
                 }
               ],
-              "text": "1. AI 대규모 적용 준비하기"
+              "text": "1. 대규모 AI 준비"
             }
           ]
         }
       ],
       "tables": [],
-      "notes": "When we talk about Agentic AI today, many customers still think of it primarily as chatbots — systems that provide information or answer questions.\n \nBut the reality is that for Agentic AI to truly transform business processes or customer experiences, agents need to take action. That means interacting directly with the systems that run the business — the applications and databases behind every process.\n\nAgents will:\nAutomate and execute workflows in HR, finance, and operations\nAct in real time across CRM, ordering, and service systems\nCoordinate decisions and transactions across systems of record\nClose the loop from insight to action on live operational data\n\n \nThis includes a wide range of systems in the back-end: ERP, CRM, line-of-business applications, databases, middleware, and more.\n \nCustomers may not yet know exactly which agentic capabilities they’ll implement to reinvent a specific process. \n \nBut there’s one thing they can know today: if AI agents start interacting with their stack as it exists right now, three things are likely to happen.\nFirst, it won’t scale. You’ll see latency and performance issues, and users will start to complain.\nSecond, data integrity becomes a risk. Transactions collide, processes fail, and reliability breaks down.\nThird, identity and governance fall short. Most systems were designed for human users — not autonomous agents acting at machine speed.\n \nSo the question becomes:  Do you prepare now — or do you wait until agents show up and expose that you’re not ready? \n\n\n\n--\nAnd further than that, if you think about Agentic AI, it's going to disrupt every part of your business. So because of the fact that it doesn't just work on the data you want it to, it works on all your live business systems. It's critical that you upgrade your internal database systems to get the latency and throughput you need, the concurrency and data integrity, the accuracy. Seeing reliability in the security and governance."
+      "notes": "오늘날 에이전틱 AI에 대해 이야기할 때, 많은 고객은 주로 챗봇 — 정보를 제공하거나 질문에 답하는 시스템으로 생각합니다.\n \n하지만 실제로 에이전틱 AI가 비즈니스 프로세스나 고객 경험을 진정으로 혁신하려면, 에이전트가 행동을 취해야 합니다. 이는 비즈니스를 운영하는 시스템 — 모든 프로세스 뒤의 애플리케이션과 데이터베이스와 직접 상호작용해야 함을 의미합니다.\n\n에이전트는:\nHR, 재무, 운영에서 워크플로우를 자동화하고 실행합니다\n고객 관계 관리, 주문 처리, 서비스 시스템 전반에서 실시간으로 작동합니다\n기록 시스템 전반에서 결정 및 트랜잭션을 조정합니다\n인사이트에서 실시간 운영 데이터에 대한 행동까지 완결합니다\n\n \n이는 ERP, 고객 관계 관리, 업무용 애플리케이션, 데이터베이스, 미들웨어 등 백엔드 시스템의 광범위한 범위를 포함합니다.\n \n고객은 아직 구체적인 프로세스를 혁신하기 위해 어떤 에이전틱 기능을 구현할지 알지 못할 수 있습니다.\n \n하지만 오늘날 알 수 있는 한 가지가 있습니다: AI 에이전트가 현재 존재하는 스택과 상호작용하기 시작한다면 세 가지 일이 일어날 가능성이 높습니다.\n첫째, 확장되지 않습니다. 지연 시간과 성능 문제가 발생하며, 사용자는 불평을 시작합니다.\n둘째, 데이터 무결성이 위험해집니다. 트랜잭션 충돌, 프로세스 실패, 신뢰성 저하가 발생합니다.\n셋째, 신원 및 거버넌스가 부족합니다. 대부분의 시스템은 인간 사용자를 위해 설계되었으며, 기계 속도로 작동하는 자율 에이전트를 위해 설계되지 않았습니다.\n \n그래서 질문이 됩니다: 지금 준비할 것인가 — 아니면 에이전트가 나타나 준비가 안 된 것을 드러내는 것을 기다릴 것인가?\n\n\n\n--\n더 나아가, 에이전틱 AI를 생각할 때, 이는 비즈니스의 모든 부분을 혼란시킬 것입니다. 따라서 원하는 데이터에만 작동하는 것이 아니라 모든 실시간 비즈니스 시스템에서 작동하기 때문에, 내부 데이터베이스 시스템을 업그레이드하여 필요한 지연 시간, 처리량, 동시성, 데이터 무결성 및 정확도, 그리고 보안과 거버넌스 신뢰성을 확보하는 것이 매우 중요합니다."
     },
     "6": {
       "text_boxes": [
@@ -1081,7 +1081,7 @@
             {
               "runs": [
                 {
-                  "text": "레거시 앱을 현대화하고 ",
+                  "text": "구식 애플리케이션과 ",
                   "font": "Segoe UI",
                   "bold": false,
                   "italic": false,
@@ -1099,7 +1099,7 @@
                   "color": null
                 },
                 {
-                  "text": " 급격히 변화하는 데이터 요구사항을 충족하는 운영 데이터",
+                  "text": " 빠르게 변화하는 데이터 요구 사항을 충족하기 위한 운영 데이터 현대화",
                   "font": "Segoe UI",
                   "bold": false,
                   "italic": false,
@@ -1108,7 +1108,7 @@
                   "color": null
                 }
               ],
-              "text": "레거시 앱을 현대화하고 및 급격히 변화하는 데이터 요구사항을 충족하는 운영 데이터"
+              "text": "구식 애플리케이션과 및 빠르게 변화하는 데이터 요구 사항을 충족하기 위한 운영 데이터 현대화"
             }
           ]
         },
@@ -1137,7 +1137,7 @@
         }
       ],
       "tables": [],
-      "notes": "Why is data so important to AI transformation? It’s because data fuels AI models, insights, and apps, and that’s changed our requirements:\n\nTraining AI requires lots of data; models need access to older data as well as the newest data\nfresh data comes in real time, and at high volumes.  Think about the prompts and responses from an AI chat or the amount of data points that must be analyzed to detect fraud – this real-time data is coming in massive quantities\nReal-time data comes in quickly, and responding to it also requires speed.  This means that access to data must happen quickly.\nAI models and apps require vector support and the ability to perform complex search over huge amounts of data\nAI apps and advanced analytics often rely on multiple data sources to get transactional and analytical data\nData privacy and compliance continue to be a big concern, especially when using that data to train AI models or to build AI apps \n\nWhat do these shifts mean for our databases?"
+      "notes": "데이터가 AI 전환에 왜 그렇게 중요한가? 데이터가 AI 모델, 인사이트, 애플리케이션에 연료를 공급하기 때문이며, 이것이 우리의 요구 사항을 변화시켰습니다:\n\nAI 학습은 많은 데이터를 필요로 하며; 모델은 오래된 데이터뿐 아니라 최신 데이터에도 접근해야 합니다\n신선한 데이터는 실시간으로, 그리고 대용량으로 들어옵니다. AI 채팅의 프롬프트와 응답, 또는 사기를 감지하기 위해 분석해야 하는 데이터 포인트의 양을 생각해 보십시오 – 이 실시간 데이터는 엄청난 양으로 들어옵니다\n실시간 데이터는 빠르게 들어오며, 이에 대응하는 것도 속도를 요구합니다. 이는 데이터 접근도 신속해야 함을 의미합니다.\nAI 모델과 애플리케이션은 벡터 지원과 대량 데이터에 대한 복잡한 검색 수행 능력을 필요로 합니다\nAI 애플리케이션과 고급 분석은 거래 데이터와 분석 데이터를 얻기 위해 다수의 데이터 소스를 종종 사용합니다\n데이터 프라이버시와 컴플라이언스는 AI 모델 학습이나 AI 애플리케이션 구축 시 특히 큰 관심사로 계속 남아 있습니다\n\n이러한 변화는 우리의 데이터베이스에 무엇을 의미합니까?"
     }
   }
 }
