@@ -105,6 +105,12 @@ def open_presentation(app, path: Path, read_only: bool = False):
         WithWindow=False,
         ReadOnly=read_only,
     )
+    # Mark as Final 해제 시도 (Save 거부 방지)
+    if not read_only:
+        try:
+            pres.Final = False
+        except com_error:
+            pass
     try:
         yield pres
     finally:
@@ -112,6 +118,31 @@ def open_presentation(app, path: Path, read_only: bool = False):
             pres.Close()
         except com_error:
             pass
+
+
+def _unblock_file(path: Path) -> None:
+    """Mark-of-the-Web (Zone.Identifier ADS) 제거 → 보호된 보기 진입 방지.
+
+    NTFS 대체 데이터 스트림 `<file>:Zone.Identifier` 를 삭제.
+    실패해도 무시 (원본 이미 unblocked 이거나 권한 없으면 파워셰 로도 다시 시도)."""
+    try:
+        ads = Path(f"{path}:Zone.Identifier")
+        if ads.exists():
+            ads.unlink()
+    except OSError:
+        pass
+
+
+def _kill_stray_powerpoint() -> None:
+    """좌비 POWERPNT.EXE 프로세스 정리 (이전 실패 장아 제거)."""
+    try:
+        import subprocess
+        subprocess.run(
+            ["taskkill", "/F", "/IM", "POWERPNT.EXE", "/T"],
+            check=False, capture_output=True, timeout=10,
+        )
+    except (OSError, subprocess.SubprocessError):
+        pass
 
 
 # ────────────────────────────────────────────────
@@ -1078,6 +1109,9 @@ def apply(src_pptx: Path, translated: list[dict], out_pptx: Path) -> None:
     if src_pptx != out_pptx:
         shutil.copyfile(src_pptx, out_pptx)
 
+    # MOTW 해제 (보호된 보기 방지)
+    _unblock_file(out_pptx)
+
     by_slide: dict[int, list[dict]] = {}
     for item in translated:
         by_slide.setdefault(item["slide"], []).append(item)
@@ -1141,7 +1175,25 @@ def apply(src_pptx: Path, translated: list[dict], out_pptx: Path) -> None:
                 except com_error:
                     pass
 
-        pres.Save()
+        # Save 시도. "Presentation cannot be modified" 에러 발생 시 SaveAs 폴백.
+        try:
+            pres.Save()
+        except com_error as e:
+            console.log(f"[yellow]Save 실패, SaveAs 재시도: {e}[/yellow]")
+            tmp_out = out_pptx.with_name(f"{out_pptx.stem}.tmp{out_pptx.suffix}")
+            try:
+                # ppSaveAsOpenXMLPresentation = 24
+                pres.SaveAs(str(tmp_out), 24)
+                # 닫고 교체
+                try:
+                    pres.Close()
+                except com_error:
+                    pass
+                shutil.move(str(tmp_out), str(out_pptx))
+            except com_error as e2:
+                raise RuntimeError(
+                    f"Save/SaveAs 모두 실패: {e2}. 원본이 IRM/암호보호 되었을 수 있음."
+                ) from e2
 
 
 # ────────────────────────────────────────────────
@@ -1222,6 +1274,8 @@ def _run_directory(directory: Path, *, move_done: bool, verify: bool) -> None:
     if not files:
         console.print(f"[yellow]대상 파일 없음:[/yellow] {directory}")
         return
+    # 좌비 PowerPoint 프로세스 정리 (이전 실패 장아 제거)
+    _kill_stray_powerpoint()
     console.print(f"[bold cyan]배치 실행: {len(files)}건[/bold cyan]")
     ok = 0
     failed: list[tuple[Path, str]] = []
@@ -1233,6 +1287,8 @@ def _run_directory(directory: Path, *, move_done: bool, verify: bool) -> None:
         except Exception as e:
             console.print(f"[red]실패:[/red] {f.name} ({e})")
             failed.append((f, str(e)))
+            # 실패 시 좌비 PowerPoint 정리 후 다음 파일 진행
+            _kill_stray_powerpoint()
     console.rule("배치 종료")
     console.print(f"[green]성공 {ok}/{len(files)}[/green]")
     if failed:
@@ -1244,6 +1300,9 @@ def _run_directory(directory: Path, *, move_done: bool, verify: bool) -> None:
 def _run_one(pptx: Path, *, output: Path | None, move_done: bool, verify: bool) -> None:
     work = settings.work_dir / pptx.stem
     work.mkdir(parents=True, exist_ok=True)
+
+    # 원본 MOTW 해제 (보호된 보기 방지)
+    _unblock_file(pptx)
 
     if output is None:
         out_dir = pptx.parent.parent / "output" if pptx.parent.name.lower() == "input" else pptx.parent
