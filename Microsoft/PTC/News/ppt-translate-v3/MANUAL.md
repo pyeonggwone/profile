@@ -2,7 +2,7 @@
 # MANUAL — ppt-translate-v3
 
 PowerPoint COM 기반 PPTX 영문→한국어 번역 도구의 운영 매뉴얼.
-
+uv run --script ppt_translate.py run input
 ---
 
 ## 1. 사전 준비 (최초 1회)
