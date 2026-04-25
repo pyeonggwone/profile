@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: medicalai-data-pv
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteMany
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: medicalai-hostpath
+  hostPath:
+    path: ${HOST_VOLUME_ROOT}
+    type: DirectoryOrCreate
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: medicalai-data-pvc
+  namespace: medical-ai-test
+spec:
+  accessModes:
+    - ReadWriteMany
+  storageClassName: medicalai-hostpath
+  resources:
+    requests:
+      storage: 20Gi

@@ -1,0 +1,4 @@
+generated/
+*.log
+*.tar
+*.kubeconfig

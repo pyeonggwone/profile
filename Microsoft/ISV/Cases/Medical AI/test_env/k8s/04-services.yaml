@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pii-processor
+  namespace: medical-ai-test
+spec:
+  selector:
+    app: pii-processor
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pii-processor-nodeport
+  namespace: medical-ai-test
+spec:
+  type: NodePort
+  selector:
+    app: pii-processor
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+      nodePort: 30080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: data-sender
+  namespace: medical-ai-test
+spec:
+  selector:
+    app: data-sender
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
