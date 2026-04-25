@@ -1,0 +1,4 @@
+_work/
+output/*.exe
+output/*.log
+output/*.tmp

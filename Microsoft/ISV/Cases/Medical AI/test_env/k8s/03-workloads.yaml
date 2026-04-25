@@ -1,0 +1,100 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pii-processor
+  namespace: medical-ai-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pii-processor
+  template:
+    metadata:
+      labels:
+        app: pii-processor
+    spec:
+      containers:
+        - name: pii-processor
+          image: localhost/medicalai/pii-processor:0.1.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: medicalai-runtime-config
+            - secretRef:
+                name: medicalai-azure-config
+          volumeMounts:
+            - name: medicalai-data
+              mountPath: /var/medicalai/data
+      volumes:
+        - name: medicalai-data
+          persistentVolumeClaim:
+            claimName: medicalai-data-pvc
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-sender
+  namespace: medical-ai-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: data-sender
+  template:
+    metadata:
+      labels:
+        app: data-sender
+    spec:
+      containers:
+        - name: data-sender
+          image: localhost/medicalai/data-sender:0.1.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: medicalai-runtime-config
+            - secretRef:
+                name: medicalai-azure-config
+          volumeMounts:
+            - name: medicalai-data
+              mountPath: /var/medicalai/data
+      volumes:
+        - name: medicalai-data
+          persistentVolumeClaim:
+            claimName: medicalai-data-pvc
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: remote-update-agent
+  namespace: medical-ai-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: remote-update-agent
+  template:
+    metadata:
+      labels:
+        app: remote-update-agent
+    spec:
+      serviceAccountName: remote-update-agent
+      containers:
+        - name: remote-update-agent
+          image: localhost/medicalai/remote-update-agent:0.1.0
+          imagePullPolicy: IfNotPresent
+          envFrom:
+            - configMapRef:
+                name: medicalai-runtime-config
+            - secretRef:
+                name: medicalai-azure-config
+          volumeMounts:
+            - name: medicalai-data
+              mountPath: /var/medicalai/data
+      volumes:
+        - name: medicalai-data
+          persistentVolumeClaim:
+            claimName: medicalai-data-pvc
