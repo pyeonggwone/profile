@@ -2,7 +2,17 @@
     "pageTitle": "Prosci 학습 캘린더",
     "header": {
         "title": "Prosci 학습 캘린더",
-        "subtitle": "Change Management Practitioner Program · 2026"
+        "subtitle": "Change Management Practitioner Program · 2026",
+        "links": [
+            {
+                "label": "그룹 SharePoint",
+                "url": "https://microsoft.sharepoint.com/:f:/r/teams/ProsciClass438/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven&p=true&share=cgpuOxV6slzWTpa4OEVrI%5F5OEgUCT19pPbZ9rSBViRDDgvhTxQ"
+            },
+            {
+                "label": "Prosci Portal",
+                "url": "https://portal.prosci.com/"
+            }
+        ]
     },
     "langBtn": "English",
     "milestones": [
@@ -24,7 +34,7 @@
         {
             "date": {
                 "month": "Apr",
-                "day": "21"
+                "day": "24"
             },
             "state": "done",
             "week": "Week −3",
@@ -32,38 +42,87 @@
             "title": "프로젝트 요약 제출",
             "tasks": [
                 "실습할 실제 변화 프로젝트 선정",
-                "프로젝트 요약 작성 후 강사에게 제출",
+                {
+                    "text": "프로젝트 요약 작성 후 강사에게 제출",
+                    "url": "https://teams.microsoft.com/l/message/19:e7d310e818664273aa153c38824785df@thread.tacv2/1776983511516?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&groupId=18d03f76-9f6a-4450-9b18-72fb39846830&parentMessageId=1776983511516&teamName=Prosci%20Cert%3A%2012-14%20May%202026%2C%20PDT&channelName=Group%203%20-%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven&createdTime=1776983511516"
+                },
                 "강사 승인 대기"
             ]
         },
         {
             "date": {
                 "month": "Apr",
-                "day": "28"
+                "day": "30"
             },
             "state": "active",
             "week": "Week −2",
             "badge": "진행 중",
-            "title": "PCT · 리스크 평가 · 4Ps 완료 + 강사 체크인 콜",
+            "title": "ADKAR · PCT · 리스크 평가 · 4Ps 완료 + 강사 체크인 콜",
             "tasks": [
-                "4Ps Activity 완료",
-                "PCT 평가 (Prosci Change Triangle Assessment) 완료",
+                {
+                    "text": "ADKAR eLearning training 완료",
+                    "url": "https://portal.prosci.com/"
+                },
+                {
+                    "text": "4Ps Activity 완료",
+                    "url": "https://microsoft.sharepoint.com/:b:/r/teams/ProsciClass438/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven%2F4%2DPs%2DModel%2DCanvas%2DFillable508%2Epdf&parent=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven&p=true&share=cQoCOqboEfVaRbWb4SZy09v8EgUCl1TQNLljA2CSBfYuS9zOng"
+                },
+                {
+                    "text": "PCT 평가 (Prosci Change Triangle Assessment) 완료",
+                    "url": "https://microsoft.sharepoint.com/:x:/t/ProsciClass438/cQq_-fl7jKfQQrk17M_MNFc6EgUCM033zLZLc5L7Qy-F4YM-ow"
+                },
+                {
+                    "text": "PCT 평가 예시 확인",
+                    "url": "https://microsoft.sharepoint.com/:x:/t/ProsciClass438/cQpl1YYiF7mLSI--OrMfhoyYEgUCqQU_Q4M8arbOpIYILC2lAg"
+                },
                 "리스크 평가 완료",
-                "강사 체크인 콜 참석 (4월 27일 주)"
+                {
+                    "text": "강사 체크인 콜 참석 (4월 27일 주)",
+                    "url": "https://teams.microsoft.com/meet/286280714150101?p=7s7g0L2oxYQyJw1gJ5"
+                }
             ]
         },
         {
             "date": {
                 "month": "May",
-                "day": "5"
+                "day": "7"
             },
             "state": "",
             "week": "Week −1",
             "badge": "예정",
             "title": "Best Practices Research 완료",
             "tasks": [
-                "Best Practices Research (우수 사례 연구 요약) 완료",
+                {
+                    "text": "Best Practices Research 마감: 2026년 5월 7일 목요일",
+                    "url": "https://microsoft.sharepoint.com/:p:/t/ProsciClass438/cQpDoCZlJa0dRZwXYiWxif3vEgUCrhEQ-GUHkCtKjFFqaZFlFQ"
+                },
                 "Teams 환경에서 그룹 협업"
+            ]
+        },
+        {
+            "date": {
+                "month": "May",
+                "day": "11"
+            },
+            "state": "",
+            "week": "수업 전",
+            "badge": "예정",
+            "title": "필수 개인 과제 완료",
+            "tasks": [
+                "강사의 Teams 초대 수락 및 토론 환경 참여",
+                "수업 OneNote 자료 다운로드 및 동기화",
+                "Partnership Overview 웹캐스트 3개 시청",
+                {
+                    "text": "Prosci Portal에서 ADKAR eLearning training 완료",
+                    "url": "https://portal.prosci.com/"
+                },
+                "선택 사항: ADKAR 1-9장 읽기 또는 오디오북 청취",
+                "ADKAR Personal Assessment Worksheet 다운로드 및 작성",
+                "Teams에서 학습 목표 작성",
+                {
+                    "text": "Prosci Portal 등록 및 리소스 확인",
+                    "url": "https://portal.prosci.com/"
+                }
             ]
         },
         {
@@ -78,18 +137,21 @@
             "classGrid": [
                 {
                     "label": "Day 1 – 5/12 (화)",
-                    "time": "08:00 – 17:00 PDT"
+                    "time": "08:00 – 17:00 PDT",
+                    "url": "https://microsoft.sharepoint.com/:p:/t/ProsciClass438/cQqHmAieeS-0Qaaquwl2bwD6EgUCMiMnJ6oupuICbip-g_fWoQ"
                 },
                 {
                     "label": "Day 2 – 5/13 (수)",
-                    "time": "08:00 – 17:30 PDT"
+                    "time": "08:00 – 17:30 PDT",
+                    "url": "https://microsoft.sharepoint.com/:p:/t/ProsciClass438/cQrGqthkFUaRT74bkIpG209-EgUC1oZdK_JxMGtnZ_lAvt0BYA"
                 },
                 {
                     "label": "Day 3 – 5/14 (목)",
-                    "time": "08:00 – 15:30 PDT"
+                    "time": "08:00 – 15:30 PDT",
+                    "url": "https://microsoft.sharepoint.com/:p:/t/ProsciClass438/cQqTqZzHF-l0S7ZWPDkpA01jEgUCAFo_o_J3qJ4y_4Qfi2L7kQ"
                 }
             ]
         }
     ],
-    "footer": "Prosci Change Management Practitioner · Donaid · 2026"
+    "footer": "Prosci Change Management Practitioner · pyeonggwone · 2026"
 }
