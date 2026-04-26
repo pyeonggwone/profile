@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prosci Learning Calendar</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -18,7 +23,7 @@
       top: 1rem;
       left: 1rem;
       z-index: 100;
-      background: rgba(255,255,255,0.92);
+      background: rgba(255, 255, 255, 0.92);
       border: 1.5px solid #cbd5e1;
       border-radius: 8px;
       padding: 5px 14px;
@@ -27,10 +32,13 @@
       color: #1e3a5f;
       cursor: pointer;
       backdrop-filter: blur(4px);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       transition: background 0.15s;
     }
-    #lang-btn:hover { background: #e2e8f0; }
+
+    #lang-btn:hover {
+      background: #e2e8f0;
+    }
 
     header {
       background: #1e3a5f;
@@ -38,8 +46,42 @@
       padding: 2.5rem 1rem;
       text-align: center;
     }
-    header h1 { font-size: 1.75rem; font-weight: 700; }
-    header p  { margin-top: 0.4rem; opacity: 0.75; font-size: 0.95rem; }
+
+    header h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 0.4rem;
+      opacity: 0.75;
+      font-size: 0.95rem;
+    }
+
+    .header-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .header-links a {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 999px;
+      padding: 5px 12px;
+      color: white;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .header-links a:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
 
     .timeline {
       max-width: 760px;
@@ -54,19 +96,31 @@
       border-radius: 12px;
       padding: 1.25rem 1.5rem;
       margin-bottom: 1.25rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
       border-left: 5px solid #94a3b8;
     }
-    .milestone.done   { border-left-color: #22c55e; }
-    .milestone.active { border-left-color: #f59e0b; }
 
-    .date-col { min-width: 56px; text-align: center; flex-shrink: 0; }
+    .milestone.done {
+      border-left-color: #22c55e;
+    }
+
+    .milestone.active {
+      border-left-color: #f59e0b;
+    }
+
+    .date-col {
+      min-width: 56px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
     .date-col .month {
       font-size: 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       color: #94a3b8;
     }
+
     .date-col .day {
       font-size: 2rem;
       font-weight: 800;
@@ -74,7 +128,10 @@
       color: #1e3a5f;
     }
 
-    .info { flex: 1; }
+    .info {
+      flex: 1;
+    }
+
     .info .top {
       display: flex;
       align-items: center;
@@ -98,15 +155,56 @@
       font-size: 0.72rem;
       font-weight: 700;
     }
-    .badge.done     { background: #dcfce7; color: #16a34a; }
-    .badge.active   { background: #fef3c7; color: #b45309; }
-    .badge.upcoming { background: #f1f5f9; color: #64748b; }
 
-    .info h3 { font-size: 0.95rem; font-weight: 600; color: #1a202c; margin-bottom: 0.2rem; }
+    .badge.done {
+      background: #dcfce7;
+      color: #16a34a;
+    }
 
-    .tasks { list-style: none; margin-top: 0.6rem; }
-    .tasks li { font-size: 0.83rem; color: #4a5568; padding: 3px 0; }
-    .tasks li::before { content: "  "; color: #a0aec0; }
+    .badge.active {
+      background: #fef3c7;
+      color: #b45309;
+    }
+
+    .badge.upcoming {
+      background: #f1f5f9;
+      color: #64748b;
+    }
+
+    .info h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #1a202c;
+      margin-bottom: 0.2rem;
+    }
+
+    .tasks {
+      list-style: none;
+      margin-top: 0.6rem;
+    }
+
+    .tasks li {
+      font-size: 0.83rem;
+      color: #4a5568;
+      padding: 3px 0;
+    }
+
+    .tasks li::before {
+      content: "  ";
+      color: #a0aec0;
+    }
+
+    .tasks a,
+    .class-day a {
+      color: #2563eb;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .tasks a:hover,
+    .class-day a:hover {
+      text-decoration: underline;
+    }
 
     .class-grid {
       display: grid;
@@ -114,14 +212,25 @@
       gap: 0.5rem;
       margin-top: 0.75rem;
     }
+
     .class-day {
       background: #f8fafc;
       border: 1px solid #e2e8f0;
       border-radius: 8px;
       padding: 0.6rem 0.75rem;
     }
-    .class-day .label { font-size: 0.72rem; font-weight: 700; color: #1e3a5f; }
-    .class-day .time  { font-size: 0.78rem; color: #64748b; margin-top: 2px; }
+
+    .class-day .label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #1e3a5f;
+    }
+
+    .class-day .time {
+      font-size: 0.78rem;
+      color: #64748b;
+      margin-top: 2px;
+    }
 
     footer {
       text-align: center;
@@ -131,6 +240,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <button id="lang-btn" onclick="toggleLang()">한국어</button>
@@ -138,28 +248,42 @@
   <header>
     <h1 id="header-title"></h1>
     <p id="header-subtitle"></p>
+    <div class="header-links" id="header-links"></div>
   </header>
 
   <div class="timeline" id="timeline"></div>
 
-  <footer><p id="footer-text"></p></footer>
+  <footer>
+    <p id="footer-text"></p>
+  </footer>
 
   <script>
     let currentLang = 'en';
     const cache = {};
+    const assetVersion = '20260426-remove-adkar-progress';
 
     async function loadLang(lang) {
       if (cache[lang]) return cache[lang];
-      const res = await fetch(lang === 'en' ? 'en.json' : 'kr.json');
+      const file = lang === 'en' ? 'en.json' : 'kr.json';
+      const res = await fetch(`${file}?v=${assetVersion}`);
       const data = await res.json();
       cache[lang] = data;
       return data;
     }
 
     function badgeClass(state) {
-      if (state === 'done')   return 'done';
+      if (state === 'done') return 'done';
       if (state === 'active') return 'active';
       return 'upcoming';
+    }
+
+    function externalLink(url, label) {
+      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+    }
+
+    function renderTask(task) {
+      if (typeof task === 'string') return `<li>${task}</li>`;
+      return `<li>${task.url ? externalLink(task.url, task.text) : task.text}</li>`;
     }
 
     function renderMilestone(m) {
@@ -170,13 +294,13 @@
       if (m.classGrid) {
         const days = m.classGrid.map(d =>
           `<div class="class-day">
-            <div class="label">${d.label}</div>
+            <div class="label">${d.url ? externalLink(d.url, d.label) : d.label}</div>
             <div class="time">${d.time}</div>
           </div>`
         ).join('');
         body = `<div class="class-grid">${days}</div>`;
       } else {
-        const items = m.tasks.map(t => `<li>${t}</li>`).join('');
+        const items = m.tasks.map(renderTask).join('');
         body = `<ul class="tasks">${items}</ul>`;
       }
 
@@ -206,6 +330,9 @@
       document.getElementById('header-subtitle').textContent = data.header.subtitle;
       document.getElementById('lang-btn').textContent = data.langBtn;
       document.getElementById('footer-text').textContent = data.footer;
+      document.getElementById('header-links').innerHTML = (data.header.links || [])
+        .map(link => externalLink(link.url, link.label))
+        .join('');
       document.getElementById('timeline').innerHTML =
         data.milestones.map(renderMilestone).join('');
     }
@@ -219,4 +346,5 @@
   </script>
 
 </body>
+
 </html>
