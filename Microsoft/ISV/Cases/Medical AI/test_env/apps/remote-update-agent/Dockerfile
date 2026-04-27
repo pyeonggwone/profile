@@ -1,4 +1,5 @@
-FROM python:3.11
+ARG PYTHON_BASE_IMAGE=python:3.11.14-bookworm
+FROM ${PYTHON_BASE_IMAGE}
 
 WORKDIR /app
 
