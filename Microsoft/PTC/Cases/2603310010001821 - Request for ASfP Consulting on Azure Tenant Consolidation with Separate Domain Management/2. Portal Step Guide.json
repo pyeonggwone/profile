@@ -1,0 +1,638 @@
+{
+    "title": "Azure Tenant Consolidation 및 회사별 Domain 분리 운영 포털 작업 가이드",
+    "sections": [
+        {
+            "section_no": 1,
+            "title": "Microsoft Entra ID",
+            "portal_url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView",
+            "docs_url": "https://learn.microsoft.com/ko-kr/entra/fundamentals/how-to-find-tenant",
+            "tasks": [
+                {
+                    "title": "통합 기준 tenant baseline",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Overview",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Target tenant baseline",
+                            "fields": {
+                                "Tenant name": "Korea Enterprise Group Unified Tenant",
+                                "Tenant ID": "8f3c2a9e-5d41-4c7a-9b28-6e1f0d3a72c4",
+                                "Primary domain": "kegroup.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Existing affiliated tenant baseline",
+                            "fields": {
+                                "Tenant name": "Korea Enterprise Manufacturing",
+                                "Tenant ID": "4c9a7d20-6f82-45e1-9c34-0b7e6d219f5a",
+                                "Primary domain": "keg-manufacturing.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "New Azure adoption entity baseline",
+                            "fields": {
+                                "Entity name": "Korea Enterprise Logistics",
+                                "Planned domain": "keg-logistics.co.kr",
+                                "Identity source": "Cloud-only users"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 2,
+            "title": "Microsoft Entra ID - Custom domain names",
+            "portal_url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/CustomDomainNames",
+            "docs_url": "https://learn.microsoft.com/ko-kr/entra/fundamentals/add-custom-domain",
+            "tasks": [
+                {
+                    "title": "회사별 identity domain 추가",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Settings > Domain names",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Add custom domain",
+                            "fields": {
+                                "Custom domain name": "keg-manufacturing.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Add custom domain",
+                            "fields": {
+                                "Custom domain name": "keg-logistics.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "Add custom domain",
+                            "fields": {
+                                "Custom domain name": "keg-retail.co.kr"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Domain ownership 검증",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Settings > Domain names",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "keg-manufacturing.co.kr > DNS record values",
+                            "fields": {
+                                "Record type": "TXT",
+                                "Alias or host name": "@",
+                                "Destination or points to address": "MS=ms47283916"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "keg-logistics.co.kr > DNS record values",
+                            "fields": {
+                                "Record type": "TXT",
+                                "Alias or host name": "@",
+                                "Destination or points to address": "MS=ms68190427"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "keg-retail.co.kr > DNS record values",
+                            "fields": {
+                                "Record type": "TXT",
+                                "Alias or host name": "@",
+                                "Destination or points to address": "MS=ms39572084"
+                            }
+                        },
+                        {
+                            "step_no": 5,
+                            "text": "Verify",
+                            "fields": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 3,
+            "title": "Microsoft Entra ID - Users",
+            "portal_url": "https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers",
+            "docs_url": "https://learn.microsoft.com/ko-kr/entra/fundamentals/how-to-manage-users",
+            "tasks": [
+                {
+                    "title": "회사별 사용자 naming 및 domain suffix",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Users > All users",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "New user > Create new user",
+                            "fields": {
+                                "User principal name": "minjun.kim@keg-manufacturing.co.kr",
+                                "Display name": "Minjun Kim",
+                                "Mail nickname": "minjun.kim",
+                                "Company name": "Korea Enterprise Manufacturing",
+                                "Department": "Plant Operations"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "New user > Create new user",
+                            "fields": {
+                                "User principal name": "seoyeon.park@keg-logistics.co.kr",
+                                "Display name": "Seoyeon Park",
+                                "Mail nickname": "seoyeon.park",
+                                "Company name": "Korea Enterprise Logistics",
+                                "Department": "Logistics Operations"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "회사별 사용자 속성 표준화",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Users > All users",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "minjun.kim@keg-manufacturing.co.kr > Properties",
+                            "fields": {
+                                "Company name": "Korea Enterprise Manufacturing",
+                                "Department": "Plant Operations",
+                                "Usage location": "Korea"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "seoyeon.park@keg-logistics.co.kr > Properties",
+                            "fields": {
+                                "Company name": "Korea Enterprise Logistics",
+                                "Department": "Logistics Operations",
+                                "Usage location": "Korea"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "Save",
+                            "fields": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 4,
+            "title": "Microsoft Entra ID - Groups",
+            "portal_url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups",
+            "docs_url": "https://learn.microsoft.com/ko-kr/entra/fundamentals/how-to-manage-groups",
+            "tasks": [
+                {
+                    "title": "회사별 governance group 생성",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Groups > All groups",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "New group",
+                            "fields": {
+                                "Group type": "Security",
+                                "Group name": "KEG Manufacturing Users",
+                                "Membership type": "Assigned",
+                                "Members": "minjun.kim@keg-manufacturing.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "New group",
+                            "fields": {
+                                "Group type": "Security",
+                                "Group name": "KEG Logistics Users",
+                                "Membership type": "Assigned",
+                                "Members": "seoyeon.park@keg-logistics.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "New group",
+                            "fields": {
+                                "Group type": "Security",
+                                "Group name": "KEG Manufacturing Admins",
+                                "Membership type": "Assigned",
+                                "Members": "identity-admin-mfg@kegroup.co.kr"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 5,
+            "title": "Microsoft Entra ID - Administrative units",
+            "portal_url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AdministrativeUnitsMenuBlade/~/AllAdministrativeUnits",
+            "docs_url": "https://learn.microsoft.com/ko-kr/entra/identity/role-based-access-control/administrative-units",
+            "tasks": [
+                {
+                    "title": "회사별 administrative boundary 생성",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Roles & admins > Admin units",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Add",
+                            "fields": {
+                                "Name": "AU-KEG-Manufacturing",
+                                "Description": "Administrative unit for Korea Enterprise Manufacturing identities"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Add",
+                            "fields": {
+                                "Name": "AU-KEG-Logistics",
+                                "Description": "Administrative unit for Korea Enterprise Logistics identities"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Administrative unit member 구성",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Roles & admins > Admin units",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "AU-KEG-Manufacturing > Users > Add members",
+                            "fields": {
+                                "Members": "minjun.kim@keg-manufacturing.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "AU-KEG-Manufacturing > Groups > Add members",
+                            "fields": {
+                                "Members": "KEG Manufacturing Users"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "AU-KEG-Logistics > Users > Add members",
+                            "fields": {
+                                "Members": "seoyeon.park@keg-logistics.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 5,
+                            "text": "AU-KEG-Logistics > Groups > Add members",
+                            "fields": {
+                                "Members": "KEG Logistics Users"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "회사별 delegated administration",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Roles & admins > Admin units",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "AU-KEG-Manufacturing > Roles and administrators",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Add assignments",
+                            "fields": {
+                                "Role": "User Administrator",
+                                "Select member": "identity-admin-mfg@kegroup.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "AU-KEG-Logistics > Roles and administrators",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 5,
+                            "text": "Add assignments",
+                            "fields": {
+                                "Role": "User Administrator",
+                                "Select member": "identity-admin-logistics@kegroup.co.kr"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 6,
+            "title": "Microsoft Entra ID - Roles and administrators",
+            "portal_url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles",
+            "docs_url": "https://learn.microsoft.com/ko-kr/entra/identity/role-based-access-control/manage-roles-portal",
+            "tasks": [
+                {
+                    "title": "중앙 tenant administrator role 구성",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > Roles & admins > Roles & admins",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Global Administrator > Assignments",
+                            "fields": {
+                                "Member": "tenant-platform-admin@kegroup.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Security Administrator > Assignments",
+                            "fields": {
+                                "Member": "security-admin@kegroup.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "Conditional Access Administrator > Assignments",
+                            "fields": {
+                                "Member": "ca-admin@kegroup.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 5,
+                            "text": "User Administrator > Assignments",
+                            "fields": {
+                                "Member": "identity-operations@kegroup.co.kr"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 7,
+            "title": "Microsoft Entra ID - Conditional Access",
+            "portal_url": "https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies",
+            "docs_url": "https://learn.microsoft.com/ko-kr/entra/identity/conditional-access/concept-conditional-access-policies",
+            "tasks": [
+                {
+                    "title": "회사별 administrator authentication policy",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Protection > Conditional Access > Policies",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "New policy",
+                            "fields": {
+                                "Name": "CA-KEG-Manufacturing-Admins-Require-MFA",
+                                "Users": "KEG Manufacturing Admins",
+                                "Target resources": "All cloud apps",
+                                "Grant": "Require multifactor authentication",
+                                "Enable policy": "Report-only"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Create",
+                            "fields": {}
+                        }
+                    ]
+                },
+                {
+                    "title": "회사별 user authentication policy",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Protection > Conditional Access > Policies",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "New policy",
+                            "fields": {
+                                "Name": "CA-KEG-Logistics-Users-Require-Compliant-Device",
+                                "Users": "KEG Logistics Users",
+                                "Target resources": "Office 365",
+                                "Grant": "Require device to be marked as compliant",
+                                "Enable policy": "Report-only"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Create",
+                            "fields": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 8,
+            "title": "Microsoft 365 admin center - Domains",
+            "portal_url": "https://admin.microsoft.com/Adminportal/Home#/Domains",
+            "docs_url": "https://learn.microsoft.com/ko-kr/microsoft-365/admin/setup/add-domain",
+            "tasks": [
+                {
+                    "title": "회사별 email domain 추가",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft 365 admin center > Settings > Domains",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Add domain",
+                            "fields": {
+                                "Domain name": "keg-manufacturing.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Add domain",
+                            "fields": {
+                                "Domain name": "keg-logistics.co.kr"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "Add domain",
+                            "fields": {
+                                "Domain name": "keg-retail.co.kr"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "회사별 email service DNS 구성",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft 365 admin center > Settings > Domains",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "keg-manufacturing.co.kr > DNS records",
+                            "fields": {
+                                "MX": "keg-manufacturing-co-kr.mail.protection.outlook.com",
+                                "TXT": "v=spf1 include:spf.protection.outlook.com -all",
+                                "CNAME": "autodiscover.outlook.com"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "keg-logistics.co.kr > DNS records",
+                            "fields": {
+                                "MX": "keg-logistics-co-kr.mail.protection.outlook.com",
+                                "TXT": "v=spf1 include:spf.protection.outlook.com -all",
+                                "CNAME": "autodiscover.outlook.com"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 9,
+            "title": "Microsoft Entra External ID",
+            "portal_url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CrossTenantAccessSettings.ReactView",
+            "docs_url": "https://learn.microsoft.com/ko-kr/entra/external-id/cross-tenant-access-settings-b2b-collaboration",
+            "tasks": [
+                {
+                    "title": "기존 tenant 단계적 공존 조직 추가",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > External Identities > Cross-tenant access settings > Organizational settings",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Add organization",
+                            "fields": {
+                                "Search by domain name or tenant ID": "4c9a7d20-6f82-45e1-9c34-0b7e6d219f5a"
+                            }
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Add",
+                            "fields": {}
+                        }
+                    ]
+                },
+                {
+                    "title": "기존 tenant inbound collaboration scope",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Entra admin center > Identity > External Identities > Cross-tenant access settings > Organizational settings",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Korea Enterprise Manufacturing > Inbound access > B2B collaboration",
+                            "fields": {}
+                        },
+                        {
+                            "step_no": 3,
+                            "text": "Users and groups",
+                            "fields": {
+                                "Access status": "Allow access",
+                                "Applies to": "Select users and groups",
+                                "External users and groups": "KEG Manufacturing Migration Pilot Users"
+                            }
+                        },
+                        {
+                            "step_no": 4,
+                            "text": "Applications",
+                            "fields": {
+                                "Access status": "Allow access",
+                                "Applies to": "Select applications",
+                                "Applications": "Microsoft Office 365"
+                            }
+                        },
+                        {
+                            "step_no": 5,
+                            "text": "Save",
+                            "fields": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 10,
+            "title": "설정값 입력값",
+            "portal_url": "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView",
+            "docs_url": "https://learn.microsoft.com/ko-kr/entra/fundamentals/how-to-find-tenant",
+            "tasks": [
+                {
+                    "title": "설정값 입력값",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "env",
+                            "fields": {
+                                "TARGET_TENANT_NAME": "Korea Enterprise Group Unified Tenant",
+                                "TARGET_TENANT_ID": "8f3c2a9e-5d41-4c7a-9b28-6e1f0d3a72c4",
+                                "TARGET_PRIMARY_DOMAIN": "kegroup.co.kr",
+                                "EXISTING_AFFILIATE_TENANT_NAME": "Korea Enterprise Manufacturing",
+                                "EXISTING_AFFILIATE_TENANT_ID": "4c9a7d20-6f82-45e1-9c34-0b7e6d219f5a",
+                                "MANUFACTURING_DOMAIN": "keg-manufacturing.co.kr",
+                                "LOGISTICS_DOMAIN": "keg-logistics.co.kr",
+                                "RETAIL_DOMAIN": "keg-retail.co.kr",
+                                "MANUFACTURING_ADMIN_UNIT": "AU-KEG-Manufacturing",
+                                "LOGISTICS_ADMIN_UNIT": "AU-KEG-Logistics",
+                                "MANUFACTURING_USERS_GROUP": "KEG Manufacturing Users",
+                                "LOGISTICS_USERS_GROUP": "KEG Logistics Users",
+                                "MANUFACTURING_ADMINS_GROUP": "KEG Manufacturing Admins",
+                                "TENANT_PLATFORM_ADMIN": "tenant-platform-admin@kegroup.co.kr",
+                                "SECURITY_ADMIN": "security-admin@kegroup.co.kr",
+                                "CONDITIONAL_ACCESS_ADMIN": "ca-admin@kegroup.co.kr",
+                                "MANUFACTURING_SAMPLE_USER": "minjun.kim@keg-manufacturing.co.kr",
+                                "LOGISTICS_SAMPLE_USER": "seoyeon.park@keg-logistics.co.kr"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
