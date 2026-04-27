@@ -14,6 +14,8 @@ https://portal.prosci.com/
 ```
 calender/
 ├── index.html   # 페이지 본체 (JS로 JSON 로드 후 렌더링)
+├── style.css    # 페이지 스타일
+├── script.js    # JSON 로드 및 렌더링 로직
 ├── en.json      # 영어 텍스트
 ├── kr.json      # 한국어 텍스트
 └── README.md    # 이 파일
@@ -28,7 +30,7 @@ calender/
 ## 콘텐츠 수정
 
 텍스트 수정 시 `en.json` / `kr.json` 만 편집하면 된다.  
-HTML 구조나 스타일 변경은 `index.html` 편집.
+HTML 구조는 `index.html`, 스타일은 `style.css`, 동작 로직은 `script.js` 편집.
 
 각 milestone 객체 구조:
 ```json
