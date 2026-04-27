@@ -1,0 +1,868 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#   "pywin32>=306 ; sys_platform == 'win32'",
+#   "litellm>=1.50",
+#   "openai>=1.40",
+#   "pydantic-settings>=2.5",
+#   "typer>=0.12",
+#   "rich>=13.8",
+# ]
+# ///
+"""ppt-translate-v3 — PowerPoint COM 기반 PPTX 번역 도구.
+
+WindowsPowerShell 7+ + Windows native Python 에서 실행한다.
+PowerPoint 데스크톱 앱이 설치되어 있어야 한다.
+"""
+from __future__ import annotations
+
+import csv
+import hashlib
+import json
+import re
+import shutil
+import sqlite3
+import sys
+from contextlib import contextmanager
+from pathlib import Path
+
+import typer
+from pydantic_settings import BaseSettings, SettingsConfigDict
+from rich.console import Console
+
+# ────────────────────────────────────────────────
+# 플랫폼 가드
+# ────────────────────────────────────────────────
+if sys.platform != "win32":
+    raise SystemExit("ppt-translate-v3 는 Windows native Python 전용입니다 (WSL 불가).")
+
+import win32com.client  # noqa: E402
+from pywintypes import com_error  # noqa: E402
+
+console = Console()
+
+
+# ────────────────────────────────────────────────
+# 설정
+# ────────────────────────────────────────────────
+class Settings(BaseSettings):
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+
+    openai_api_key: str = ""
+    openai_model: str = "gpt-4o-mini"
+    azure_openai_api_key: str = ""
+    azure_openai_endpoint: str = ""
+    azure_openai_api_version: str = "2024-08-01-preview"
+    azure_openai_deployment: str = ""
+
+    source_lang: str = "en"
+    target_lang: str = "ko"
+
+    work_dir: Path = Path("work")
+    tm_db_path: Path = Path("work/tm.sqlite")
+    glossary_path: Path = Path("glossary.csv")
+    kr_font: str = "맑은 고딕"
+
+    @property
+    def llm_model(self) -> str:
+        if self.azure_openai_deployment:
+            return f"azure/{self.azure_openai_deployment}"
+        return self.openai_model
+
+
+settings = Settings()
+
+# LiteLLM 이 os.environ 에서 직접 키를 읽으므로 pydantic 값을 환경변수에 반영
+import os  # noqa: E402
+
+if settings.openai_api_key:
+    os.environ["OPENAI_API_KEY"] = settings.openai_api_key
+if settings.azure_openai_api_key:
+    os.environ["AZURE_API_KEY"] = settings.azure_openai_api_key
+if settings.azure_openai_endpoint:
+    os.environ["AZURE_API_BASE"] = settings.azure_openai_endpoint
+if settings.azure_openai_api_version:
+    os.environ["AZURE_API_VERSION"] = settings.azure_openai_api_version
+
+
+# ────────────────────────────────────────────────
+# PowerPoint COM 컨텍스트
+# ────────────────────────────────────────────────
+@contextmanager
+def powerpoint():
+    """PowerPoint Application 인스턴스 (WithWindow=False)."""
+    app = win32com.client.DispatchEx("PowerPoint.Application")
+    try:
+        yield app
+    finally:
+        try:
+            app.Quit()
+        except com_error:
+            pass
+
+
+@contextmanager
+def open_presentation(app, path: Path, read_only: bool = False):
+    pres = app.Presentations.Open(
+        str(Path(path).resolve()),
+        WithWindow=False,
+        ReadOnly=read_only,
+    )
+    try:
+        yield pres
+    finally:
+        try:
+            pres.Close()
+        except com_error:
+            pass
+
+
+# ────────────────────────────────────────────────
+# Shape 텍스트 순회
+# ────────────────────────────────────────────────
+# placeholder 분류
+_TITLE_PH_TYPES = {13, 15}      # ppPlaceholderTitle, ppPlaceholderCenterTitle
+_SUBTITLE_PH_TYPES = {4}        # ppPlaceholderSubtitle
+
+
+def _shape_category(shape) -> str:
+    """shape 를 title/subtitle/body 로 분류. placeholder 아니면 None."""
+    try:
+        if shape.Type == 14:  # msoPlaceholder
+            ph_type = shape.PlaceholderFormat.Type
+            if ph_type in _TITLE_PH_TYPES:
+                return "title"
+            if ph_type in _SUBTITLE_PH_TYPES:
+                return "subtitle"
+            return "body"
+    except com_error:
+        pass
+    # Name 기반 fallback (그룹 내부 등 placeholder 속성 접근 불가)
+    name = (getattr(shape, "Name", "") or "").lower()
+    if "subtitle" in name:
+        return "subtitle"
+    if "title" in name:
+        return "title"
+    return ""
+
+def _yield_runs(text_range, path_prefix: list):
+    """TextRange 의 Runs 를 yield. Runs 가 비어있으면 TextRange 자체를 1개 run 으로 처리."""
+    runs = text_range.Runs()
+    count = 0
+    for ri, run in enumerate(runs, start=1):
+        count += 1
+        yield path_prefix + [ri], run
+    if count == 0:
+        # Runs() 가 0건이지만 텍스트가 있는 경우 → TextRange 자체 사용
+        yield path_prefix + [1], text_range
+
+
+def _iter_text_runs(shape, path: list):
+    """Shape 안의 모든 텍스트 Run 을 (path, run) 으로 yield."""
+    # 그룹: 재귀
+    if shape.Type == 6:  # msoGroup
+        for i, child in enumerate(shape.GroupItems, start=1):
+            yield from _iter_text_runs(child, path + [i])
+        return
+
+    # SmartArt: AllNodes 순회 (TextFrame2)
+    if getattr(shape, "HasSmartArt", 0) == -1:
+        try:
+            nodes = shape.SmartArt.AllNodes
+            for ni in range(1, nodes.Count + 1):
+                node = nodes.Item(ni)
+                try:
+                    tr = node.TextFrame2.TextRange
+                except com_error:
+                    continue
+                if not (tr.Text or "").strip():
+                    continue
+                yield from _yield_runs(tr, path + ["smartart", ni])
+        except com_error:
+            pass
+        return
+
+    # 표
+    if shape.HasTable:
+        table = shape.Table
+        for r in range(1, table.Rows.Count + 1):
+            for c in range(1, table.Columns.Count + 1):
+                cell_shape = table.Cell(r, c).Shape
+                if cell_shape.HasTextFrame and cell_shape.TextFrame.HasText:
+                    yield from _yield_runs(
+                        cell_shape.TextFrame.TextRange, path + [r, c]
+                    )
+        return
+
+    # 텍스트 프레임
+    if getattr(shape, "HasTextFrame", False) and shape.TextFrame.HasText:
+        yield from _yield_runs(shape.TextFrame.TextRange, path)
+
+
+def _collect_slide_segments(slide, slide_no: int) -> list[dict]:
+    out: list[dict] = []
+    for sh_idx, shape in enumerate(slide.Shapes, start=1):
+        category = _shape_category(shape)
+        for path, run in _iter_text_runs(shape, [sh_idx]):
+            text = run.Text or ""
+            if not text.strip():
+                continue
+            seg = {
+                "slide": slide_no,
+                "path": path,
+                "text": text,
+            }
+            if category:
+                seg["category"] = category
+            out.append(seg)
+
+    # 노트 슬라이드
+    try:
+        notes_tf = slide.NotesPage.Shapes.Placeholders(2).TextFrame.TextRange
+        for ri, run in enumerate(notes_tf.Runs(), start=1):
+            text = run.Text or ""
+            if text.strip():
+                out.append({"slide": slide_no, "path": ["notes", ri], "text": text})
+    except com_error:
+        pass
+
+    return out
+
+
+# ────────────────────────────────────────────────
+# EXTRACT
+# ────────────────────────────────────────────────
+def extract(pptx_path: Path) -> list[dict]:
+    segments: list[dict] = []
+    with powerpoint() as app, open_presentation(app, pptx_path, read_only=True) as pres:
+        for i, slide in enumerate(pres.Slides, start=1):
+            segments.extend(_collect_slide_segments(slide, i))
+    return segments
+
+
+# ────────────────────────────────────────────────
+# TM (SQLite)
+# ────────────────────────────────────────────────
+def _hash(text: str) -> str:
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def _tm_connect() -> sqlite3.Connection:
+    settings.tm_db_path.parent.mkdir(parents=True, exist_ok=True)
+    conn = sqlite3.connect(settings.tm_db_path)
+    conn.execute(
+        """CREATE TABLE IF NOT EXISTS tm (
+            src_hash TEXT PRIMARY KEY,
+            src TEXT NOT NULL,
+            tgt TEXT NOT NULL,
+            model TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )"""
+    )
+    return conn
+
+
+def tm_lookup(src: str) -> str | None:
+    with _tm_connect() as conn:
+        row = conn.execute("SELECT tgt FROM tm WHERE src_hash=?", (_hash(src),)).fetchone()
+        return row[0] if row else None
+
+
+def tm_store(src: str, tgt: str, model: str = "") -> None:
+    with _tm_connect() as conn:
+        conn.execute(
+            "INSERT OR IGNORE INTO tm (src_hash, src, tgt, model) VALUES (?, ?, ?, ?)",
+            (_hash(src), src, tgt, model),
+        )
+
+
+def tm_import_csv(csv_path: Path) -> int:
+    n = 0
+    with _tm_connect() as conn, csv_path.open(encoding="utf-8") as f:
+        for row in csv.reader(f):
+            if len(row) < 2:
+                continue
+            conn.execute(
+                "INSERT OR IGNORE INTO tm (src_hash, src, tgt) VALUES (?, ?, ?)",
+                (_hash(row[0]), row[0], row[1]),
+            )
+            n += 1
+    return n
+
+
+# ────────────────────────────────────────────────
+# 용어집
+# ────────────────────────────────────────────────
+def load_glossary() -> dict[str, dict]:
+    if not settings.glossary_path.exists():
+        return {}
+    out: dict[str, dict] = {}
+    with settings.glossary_path.open(encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            term = (row.get("term") or "").strip()
+            if not term:
+                continue
+            out[term] = {
+                "translation": (row.get("translation") or "").strip(),
+                "protected": (row.get("protected") or "").strip().lower() in ("1", "true", "yes"),
+            }
+    return out
+
+
+# ────────────────────────────────────────────────
+# TRANSLATE
+# ────────────────────────────────────────────────
+_BATCH = 10
+
+# 이전 버전 버그로 PPTX 에 들어간 dict-literal 잔재 패턴
+_DICT_LEAK_RE = re.compile(r"\{['\"]text['\"]\s*:\s*['\"](?P<inner>[^'\"]*)['\"]\}")
+
+
+def _sanitize_source(text: str) -> str:
+    """추출된 원문에 dict-literal 잔재가 있으면 inner 만 추출. 반복 적용."""
+    if not text:
+        return text
+    prev = None
+    cur = text
+    while prev != cur:
+        prev = cur
+        # {'text': 'XXX'} 또는 {"text": "XXX"} → XXX
+        cur = _DICT_LEAK_RE.sub(lambda m: m.group("inner"), cur)
+        # 잘린 형태 제거: 시작부의 {'text': ' 또는 끝의 따옴표/괄호
+        cur = re.sub(r"^\s*\{['\"]text['\"]\s*:\s*['\"]?", "", cur)
+        cur = re.sub(r"['\"]?\}\s*$", "", cur)
+    return cur.strip()
+
+
+def _is_corrupted(text: str) -> bool:
+    """sanitize 후에도 dict 조각이 남아있으면 오염으로 판정."""
+    if not text:
+        return False
+    return bool(re.search(r"\{['\"]text['\"]", text))
+
+
+def translate_segments(segments: list[dict]) -> list[dict]:
+    gloss = load_glossary()
+    results: list[dict] = []
+    pending: list[dict] = []
+
+    for seg in segments:
+        # 이전 실행에서 PPTX 에 잘못 들어간 dict-literal 잔재를 원래 텍스트로 복원
+        cleaned = _sanitize_source(seg["text"])
+        if _is_corrupted(cleaned):
+            # 복구 불가능한 경우 → 원문 유지하고 경고
+            console.log(f"[yellow]오염 세그먼트 건너뜀: {cleaned[:80]}[/yellow]")
+            results.append({**seg, "translated": cleaned})
+            continue
+        seg2 = {**seg, "text": cleaned}
+        cached = tm_lookup(cleaned)
+        if cached is not None and not _is_corrupted(cached):
+            results.append({**seg2, "translated": cached})
+        else:
+            if cached is not None and _is_corrupted(cached):
+                # 캐시에 오염 항목 있으면 제거
+                try:
+                    with _tm_connect() as conn:
+                        conn.execute("DELETE FROM tm WHERE src_hash=?", (_hash(cleaned),))
+                except sqlite3.Error:
+                    pass
+            pending.append(seg2)
+
+    total = len(pending)
+    done = 0
+    for i in range(0, total, _BATCH):
+        batch = pending[i : i + _BATCH]
+        translations = _translate_batch_with_retry(batch, gloss)
+        for seg, tgt in zip(batch, translations, strict=True):
+            tm_store(seg["text"], tgt, model=settings.llm_model)
+            results.append({**seg, "translated": tgt})
+        done += len(batch)
+        console.print(f"  [cyan]{done}/{total}[/cyan]")
+
+    results.sort(key=lambda x: (x["slide"], _path_key(x["path"])))
+    return results
+
+
+def _translate_batch_with_retry(batch: list[dict], gloss: dict[str, dict]) -> list[str]:
+    """실패 시 절반으로 분할해 재시도. 단일 항목까지 분할되면 원문 유지."""
+    try:
+        return _call_llm(batch, gloss)
+    except Exception as e:
+        if len(batch) == 1:
+            console.log(f"[yellow]번역 실패, 원문 유지: {batch[0]['text'][:60]}... ({e})[/yellow]")
+            return [batch[0]["text"]]
+        mid = len(batch) // 2
+        left = _translate_batch_with_retry(batch[:mid], gloss)
+        right = _translate_batch_with_retry(batch[mid:], gloss)
+        return left + right
+
+
+def _path_key(path: list) -> tuple:
+    return tuple(str(p) for p in path)
+
+
+def _call_llm(batch: list[dict], gloss: dict[str, dict]) -> list[str]:
+    from litellm import completion
+
+    glossary_lines = [
+        f"- {t}: {info['translation']}" + (" (protected)" if info["protected"] else "")
+        for t, info in gloss.items()
+    ]
+
+    # 제목/부제 제약 안내문 구성
+    constraint_lines: list[str] = []
+    for idx, seg in enumerate(batch):
+        cat = seg.get("category") or ""
+        if cat == "title":
+            limit = max(int(len(seg["text"]) * 1.0), 6)
+            constraint_lines.append(
+                f"  - index {idx}: TITLE. Output a NOUN PHRASE ending with a noun. "
+                f"≤ {limit} Korean characters. "
+                "Forbidden endings: 다/요/니다/합니다/입니다/하세요/되세요/십시오. "
+                "No trailing period or exclamation."
+            )
+        elif cat == "subtitle":
+            limit = max(int(len(seg["text"]) * 1.1), 6)
+            constraint_lines.append(
+                f"  - index {idx}: SUBTITLE. Concise phrase. ≤ {limit} Korean characters. "
+                "Prefer noun-style ending. No trailing period."
+            )
+
+    system = (
+        f"You translate {settings.source_lang} to {settings.target_lang}.\n"
+        "Input is a JSON array of plain strings. "
+        'Return ONLY: {"translations": ["...", "..."]} as a JSON array of plain strings, '
+        "same length and order as input. Each output element MUST be the translated string only — "
+        "never include JSON, brackets, dictionary syntax, or the original English mixed in.\n"
+        "Do not translate (protected) terms. Keep numbers, URLs, code unchanged.\n"
+        + ("Per-index rules:\n" + "\n".join(constraint_lines) + "\n" if constraint_lines else "")
+        + "Glossary:\n"
+        + ("\n".join(glossary_lines) if glossary_lines else "(none)")
+    )
+    user = json.dumps([seg["text"] for seg in batch], ensure_ascii=False)
+
+    resp = completion(
+        model=settings.llm_model,
+        messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
+        response_format={"type": "json_object"},
+        temperature=0,
+        max_tokens=4096,
+    )
+    content = resp["choices"][0]["message"]["content"]
+    parsed = json.loads(content)
+    if isinstance(parsed, dict):
+        for v in parsed.values():
+            if isinstance(v, list):
+                parsed = v
+                break
+    if not isinstance(parsed, list) or len(parsed) != len(batch):
+        # 단일 입력에 대해 여러 조각으로 응답한 경우 → 공백으로 조립
+        if isinstance(parsed, list) and len(batch) == 1:
+            joined = " ".join(str(x).strip() for x in parsed if str(x).strip())
+            if joined:
+                return [joined]
+        raise ValueError(
+            f"LLM 응답 길이 불일치 (expected={len(batch)}, got={len(parsed) if isinstance(parsed, list) else type(parsed).__name__}): {content[:200]}"
+        )
+
+    out: list[str] = []
+    for i, x in enumerate(parsed):
+        s = str(x).strip()
+        # 모델이 dict/JSON 조각을 넘긴 경우 감지 → 예외 발생 → 재시도
+        if s.startswith("{") or "{'text'" in s or '{"text"' in s:
+            raise ValueError(f"LLM 응답에 JSON 조각 포함(idx={i}): {s[:120]}")
+        out.append(s)
+    return out
+
+
+# ────────────────────────────────────────────────
+# APPLY (COM 으로 텍스트만 교체)
+# ────────────────────────────────────────────────
+def _pick_run(text_range, ri: int):
+    """Runs(ri) 가 비어있으면 TextRange 자체 반환 (extract 의 fallback 과 대칭)."""
+    if text_range.Runs().Count == 0:
+        return text_range
+    return text_range.Runs(ri)
+
+
+def _resolve_run(shape, path: list):
+    """path 를 따라 Shape → Run 까지 도달한다. 표/그룹/SmartArt/노트 처리."""
+    # 노트
+    if path and path[0] == "notes":
+        return None  # caller 가 별도 처리
+
+    p = list(path)
+    # 그룹 따라가기
+    while shape.Type == 6 and len(p) >= 2:
+        shape = shape.GroupItems(p.pop(0))
+
+    # SmartArt
+    if len(p) >= 3 and p[-3] == "smartart":
+        node = shape.SmartArt.AllNodes.Item(p[-2])
+        return _pick_run(node.TextFrame2.TextRange, p[-1])
+
+    # 표
+    if shape.HasTable and len(p) >= 3:
+        r, c, ri = p[-3], p[-2], p[-1]
+        cell_shape = shape.Table.Cell(r, c).Shape
+        return _pick_run(cell_shape.TextFrame.TextRange, ri)
+
+    # 일반 텍스트 프레임
+    if getattr(shape, "HasTextFrame", False) and p:
+        return _pick_run(shape.TextFrame.TextRange, p[-1])
+
+    return None
+
+
+def _snapshot_run_format(run) -> dict:
+    """Run 의 서식/하이퍼링크를 캐시. Run.Text 변경 후 복원용."""
+    snap: dict = {}
+    try:
+        f = run.Font
+        for attr in ("Bold", "Italic", "Underline", "Size"):
+            try:
+                snap[attr] = getattr(f, attr)
+            except com_error:
+                pass
+        try:
+            snap["ColorRGB"] = f.Color.RGB
+        except com_error:
+            pass
+    except com_error:
+        pass
+    # 하이퍼링크 (ActionSettings(1) = ppMouseClick)
+    try:
+        link = run.ActionSettings(1).Hyperlink
+        addr = link.Address or ""
+        sub = link.SubAddress or ""
+        if addr or sub:
+            snap["Hyperlink"] = (addr, sub)
+    except com_error:
+        pass
+    return snap
+
+
+def _restore_run_format(run, snap: dict) -> None:
+    if not snap:
+        return
+    try:
+        f = run.Font
+        for attr in ("Bold", "Italic", "Underline", "Size"):
+            if attr in snap:
+                try:
+                    setattr(f, attr, snap[attr])
+                except com_error:
+                    pass
+        if "ColorRGB" in snap:
+            try:
+                f.Color.RGB = snap["ColorRGB"]
+            except com_error:
+                pass
+    except com_error:
+        pass
+    if "Hyperlink" in snap:
+        addr, sub = snap["Hyperlink"]
+        try:
+            link = run.ActionSettings(1).Hyperlink
+            link.Address = addr
+            link.SubAddress = sub
+        except com_error:
+            pass
+
+
+def apply(src_pptx: Path, translated: list[dict], out_pptx: Path) -> None:
+    out_pptx = out_pptx.resolve()
+    src_pptx = Path(src_pptx).resolve()
+    out_pptx.parent.mkdir(parents=True, exist_ok=True)
+
+    # 원본 복사 (in-place 시 skip)
+    if src_pptx != out_pptx:
+        shutil.copyfile(src_pptx, out_pptx)
+
+    # slide → [(path, translated)]
+    by_slide: dict[int, list[tuple[list, str]]] = {}
+    for item in translated:
+        by_slide.setdefault(item["slide"], []).append((item["path"], item["translated"]))
+
+    with powerpoint() as app, open_presentation(app, out_pptx) as pres:
+        for slide_no, items in by_slide.items():
+            slide = pres.Slides(slide_no)
+            touched_shape_idx: set[int] = set()
+            for path, text in items:
+                try:
+                    if path and path[0] == "notes":
+                        notes_tf = slide.NotesPage.Shapes.Placeholders(2).TextFrame.TextRange
+                        run = notes_tf.Runs(path[1])
+                    else:
+                        shape = slide.Shapes(path[0])
+                        touched_shape_idx.add(path[0])
+                        run = _resolve_run(shape, path[1:])
+                    if run is None:
+                        continue
+                    snap = _snapshot_run_format(run)
+                    run.Text = text
+                    try:
+                        run.Font.Name = settings.kr_font
+                        run.Font.NameFarEast = settings.kr_font
+                    except com_error:
+                        pass
+                    _restore_run_format(run, snap)
+                except com_error as e:
+                    console.log(f"[yellow]skip slide{slide_no} path={path}: {e}[/yellow]")
+
+            # 제목/부제 shape 에 AutoSize 적용 (긴 한글 번역으로 인한 박스 넘침 방지)
+            for sh_idx in touched_shape_idx:
+                try:
+                    shape = slide.Shapes(sh_idx)
+                    if _shape_category(shape) in ("title", "subtitle"):
+                        if getattr(shape, "HasTextFrame", False):
+                            tf = shape.TextFrame
+                            try:
+                                tf.WordWrap = True
+                            except com_error:
+                                pass
+                            try:
+                                tf.AutoSize = 2  # ppAutoSizeTextToFitShape
+                            except com_error:
+                                pass
+                except com_error:
+                    pass
+        pres.Save()
+
+
+# ────────────────────────────────────────────────
+# CLI
+# ────────────────────────────────────────────────
+app = typer.Typer(help="PPTX 번역 (PowerPoint COM)")
+
+
+# ────────────────────────────────────────────────
+# 잔여 영문 검증 / 재번역
+# ────────────────────────────────────────────────
+_LATIN_RE = re.compile(r"[A-Za-z]")
+_LATIN_WORD_RE = re.compile(r"[A-Za-z]{3,}")
+
+
+def _is_mostly_english(text: str) -> bool:
+    """target_lang=ko 기준: 한글이 거의 없고 영문 단어가 있으면 미번역으로 간주."""
+    t = (text or "").strip()
+    if len(t) < 3:
+        return False
+    if not _LATIN_WORD_RE.search(t):
+        return False
+    hangul = sum(1 for ch in t if "\uac00" <= ch <= "\ud7a3")
+    latin = len(_LATIN_RE.findall(t))
+    # 한글이 라틴 문자보다 적고, 라틴 비율이 30% 이상이면 영문 잔존으로 판단
+    return hangul < latin and latin / max(len(t), 1) >= 0.3
+
+
+def verify_and_fix(pptx_path: Path, work: Path, max_passes: int = 2) -> int:
+    """출력물에서 잔여 영문 세그먼트를 찾아 재번역·재적용. 처리 건수 반환."""
+    total_fixed = 0
+    for pass_no in range(1, max_passes + 1):
+        console.print(f"[bold]VERIFY pass {pass_no}[/bold]")
+        current = extract(pptx_path)
+        leftover = [s for s in current if _is_mostly_english(s["text"])]
+        if not leftover:
+            console.print("  [green]잔여 영문 없음[/green]")
+            break
+        console.print(f"  잔여 {len(leftover)}건 재번역")
+        # TM 우회: 동일 영문이 캐시되어 동일 결과가 나오는 것을 방지
+        for seg in leftover:
+            try:
+                with _tm_connect() as conn:
+                    conn.execute("DELETE FROM tm WHERE src_hash=?", (_hash(seg["text"]),))
+            except sqlite3.Error:
+                pass
+        retranslated = translate_segments(leftover)
+        (work / f"verify_pass{pass_no}.json").write_text(
+            json.dumps(retranslated, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        # in-place: 입력=출력 동일 경로로 적용
+        apply(pptx_path, retranslated, pptx_path)
+        total_fixed += len(leftover)
+    return total_fixed
+
+
+# ────────────────────────────────────────────────
+# CLI
+# ────────────────────────────────────────────────
+
+
+def _move_to_done(pptx: Path) -> Path | None:
+    """input 디렉토리 안의 파일을 input/done/ 으로 이동."""
+    src = pptx.resolve()
+    if not src.exists():
+        return None
+    done_dir = src.parent / "done"
+    done_dir.mkdir(parents=True, exist_ok=True)
+    dst = done_dir / src.name
+    if dst.exists():
+        dst = done_dir / f"{src.stem}_{int(src.stat().st_mtime)}{src.suffix}"
+    shutil.move(str(src), str(dst))
+    return dst
+
+
+@app.command()
+def run(
+    pptx: Path,
+    output: Path | None = None,
+    move_done: bool = typer.Option(True, "--move-done/--no-move-done", help="성공 시 입력 파일을 done/ 으로 이동"),
+    verify: bool = typer.Option(True, "--verify/--no-verify", help="잔여 영문 검증·재번역"),
+) -> None:
+    """전체 파이프라인 실행. pptx 가 디렉토리면 안의 모든 .pptx/.ppt 를 순차 처리."""
+    pptx = Path(pptx)
+    if pptx.is_dir():
+        _run_directory(pptx, move_done=move_done, verify=verify)
+        return
+    _run_one(pptx, output=output, move_done=move_done, verify=verify)
+
+
+def _collect_input_files(directory: Path) -> list[Path]:
+    """디렉토리 안의 .pptx / .ppt 파일을 수집. done/ 하위, 임시 락 파일(~$) 제외."""
+    files: list[Path] = []
+    for p in sorted(directory.iterdir()):
+        if not p.is_file():
+            continue
+        if p.name.startswith("~$"):
+            continue
+        if p.suffix.lower() not in (".pptx", ".ppt"):
+            continue
+        files.append(p)
+    return files
+
+
+def _run_directory(directory: Path, *, move_done: bool, verify: bool) -> None:
+    files = _collect_input_files(directory)
+    if not files:
+        console.print(f"[yellow]대상 파일 없음:[/yellow] {directory}")
+        return
+    console.print(f"[bold cyan]배치 실행: {len(files)}건[/bold cyan]")
+    ok = 0
+    failed: list[tuple[Path, str]] = []
+    for i, f in enumerate(files, start=1):
+        console.rule(f"[{i}/{len(files)}] {f.name}")
+        try:
+            _run_one(f, output=None, move_done=move_done, verify=verify)
+            ok += 1
+        except Exception as e:
+            console.print(f"[red]실패:[/red] {f.name} ({e})")
+            failed.append((f, str(e)))
+    console.rule("배치 종료")
+    console.print(f"[green]성공 {ok}/{len(files)}[/green]")
+    if failed:
+        console.print(f"[red]실패 {len(failed)}건[/red]")
+        for f, msg in failed:
+            console.print(f"  - {f.name}: {msg}")
+
+
+def _run_one(
+    pptx: Path,
+    *,
+    output: Path | None,
+    move_done: bool,
+    verify: bool,
+) -> None:
+    work = settings.work_dir / pptx.stem
+    work.mkdir(parents=True, exist_ok=True)
+
+    # 출력 경로 결정: --output 미지정 시 input 과 같은 부모 옆 output/ 또는 동일 디렉토리
+    if output is None:
+        if pptx.parent.name.lower() == "input":
+            out_dir = pptx.parent.parent / "output"
+        else:
+            out_dir = pptx.parent
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out = out_dir / f"{pptx.stem}_{settings.target_lang.upper()}{pptx.suffix}"
+    else:
+        out = output
+
+    console.print("[bold]EXTRACT[/bold]")
+    segments = extract(pptx)
+    (work / "segments.json").write_text(
+        json.dumps(segments, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    console.print(f"  세그먼트 {len(segments)}건")
+
+    console.print("[bold]TRANSLATE[/bold]")
+    translated = translate_segments(segments)
+    (work / "translated.json").write_text(
+        json.dumps(translated, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    console.print("[bold]APPLY[/bold]")
+    apply(pptx, translated, out)
+    console.print(f"[green]적용 완료:[/green] {out}")
+
+    if verify:
+        fixed = verify_and_fix(out, work)
+        if fixed:
+            console.print(f"[green]잔여 영문 {fixed}건 재번역 적용[/green]")
+
+    if move_done:
+        moved = _move_to_done(pptx)
+        if moved:
+            console.print(f"[green]입력 이동:[/green] {moved}")
+
+
+@app.command()
+def extract_cmd(pptx: Path, out: Path = Path("work/segments.json")) -> None:
+    """EXTRACT 만 실행."""
+    out.parent.mkdir(parents=True, exist_ok=True)
+    segments = extract(pptx)
+    out.write_text(json.dumps(segments, ensure_ascii=False, indent=2), encoding="utf-8")
+    console.print(f"[green]저장:[/green] {out}")
+
+
+app.command(name="extract")(extract_cmd)
+
+
+@app.command()
+def translate(segments_path: Path, out: Path = Path("work/translated.json")) -> None:
+    """TRANSLATE 만 실행."""
+    out.parent.mkdir(parents=True, exist_ok=True)
+    segments = json.loads(segments_path.read_text(encoding="utf-8"))
+    translated = translate_segments(segments)
+    out.write_text(json.dumps(translated, ensure_ascii=False, indent=2), encoding="utf-8")
+    console.print(f"[green]저장:[/green] {out}")
+
+
+@app.command()
+def apply_cmd(pptx: Path, translated_path: Path, out: Path | None = None) -> None:
+    """APPLY 만 실행."""
+    translated = json.loads(translated_path.read_text(encoding="utf-8"))
+    out = out or pptx.with_stem(f"{pptx.stem}_{settings.target_lang.upper()}")
+    apply(pptx, translated, out)
+    console.print(f"[green]완료:[/green] {out}")
+
+
+app.command(name="apply")(apply_cmd)
+
+
+tm_app = typer.Typer(help="Translation Memory")
+app.add_typer(tm_app, name="tm")
+
+
+@tm_app.command("import")
+def tm_import(csv_path: Path) -> None:
+    """CSV (src,tgt) 를 TM 에 가져오기."""
+    n = tm_import_csv(csv_path)
+    console.print(f"[green]TM {n}건 추가[/green]")
+
+
+@tm_app.command("clean")
+def tm_clean() -> None:
+    """TM 에서 dict-literal 오염 항목 (`{'text':...`) 제거."""
+    if not settings.tm_db_path.exists():
+        console.print("[yellow]TM 없음[/yellow]")
+        return
+    with _tm_connect() as conn:
+        rows = conn.execute("SELECT src_hash, src, tgt FROM tm").fetchall()
+        bad = [h for h, s, t in rows if _is_corrupted(s) or _is_corrupted(t)]
+        for h in bad:
+            conn.execute("DELETE FROM tm WHERE src_hash=?", (h,))
+    console.print(f"[green]오염 항목 {len(bad)}건 제거[/green]")
+
+
+if __name__ == "__main__":
+    app()
