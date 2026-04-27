@@ -75,7 +75,10 @@
                     "text": "Review PCT Assessment example",
                     "url": "https://microsoft.sharepoint.com/:x:/t/ProsciClass438/cQpl1YYiF7mLSI--OrMfhoyYEgUCqQU_Q4M8arbOpIYILC2lAg"
                 },
-                "Complete Risk Assessment",
+                {
+                    "text": "Complete Risk Assessment",
+                    "url": "https://microsoft.sharepoint.com/:b:/r/teams/ProsciClass438/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven%2FRisk%2DAssessment%2Epdf&parent=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven&p=true&share=cQoxtryAtgCfSL4Qmu18f3HIEgUCjfJFcy95PH%5FoG%2DPPD75YQA"
+                },
                 {
                     "text": "Attend instructor check-in call (week of Apr 27)",
                     "url": "https://teams.microsoft.com/meet/286280714150101?p=7s7g0L2oxYQyJw1gJ5"
@@ -117,7 +120,10 @@
                     "url": "https://portal.prosci.com/"
                 },
                 "Optional: Read ADKAR chapters 1-9 or listen to the audio book",
-                "Download and complete the ADKAR Personal Assessment Worksheet",
+                {
+                    "text": "Download and complete the ADKAR Personal Assessment Worksheet",
+                    "url": "https://microsoft.sharepoint.com/:b:/r/teams/ProsciClass438/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven%2FPersonal%2DADKAR%2DAssessment%2Epdf&parent=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven&p=true&share=cQrJIWQsM%5FxsT5vNMDJUu4S6EgUCDQIyrj1H%2D%2DUEQ9L3btJJ1g"
+                },
                 "Complete your learning objectives in Teams",
                 {
                     "text": "Register for and review the Prosci Portal resources",

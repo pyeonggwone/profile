@@ -75,7 +75,10 @@
                     "text": "PCT 평가 예시 확인",
                     "url": "https://microsoft.sharepoint.com/:x:/t/ProsciClass438/cQpl1YYiF7mLSI--OrMfhoyYEgUCqQU_Q4M8arbOpIYILC2lAg"
                 },
-                "리스크 평가 완료",
+                {
+                    "text": "리스크 평가 완료",
+                    "url": "https://microsoft.sharepoint.com/:b:/r/teams/ProsciClass438/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven%2FRisk%2DAssessment%2Epdf&parent=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven&p=true&share=cQoxtryAtgCfSL4Qmu18f3HIEgUCjfJFcy95PH%5FoG%2DPPD75YQA"
+                },
                 {
                     "text": "강사 체크인 콜 참석 (4월 27일 주)",
                     "url": "https://teams.microsoft.com/meet/286280714150101?p=7s7g0L2oxYQyJw1gJ5"
@@ -117,7 +120,10 @@
                     "url": "https://portal.prosci.com/"
                 },
                 "선택 사항: ADKAR 1-9장 읽기 또는 오디오북 청취",
-                "ADKAR Personal Assessment Worksheet 다운로드 및 작성",
+                {
+                    "text": "ADKAR Personal Assessment Worksheet 다운로드 및 작성",
+                    "url": "https://microsoft.sharepoint.com/:b:/r/teams/ProsciClass438/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven%2FPersonal%2DADKAR%2DAssessment%2Epdf&parent=%2Fteams%2FProsciClass438%2FShared%20Documents%2FGroup%203%20%2D%20Charles%2C%20Kim%2C%20Nandie%2C%20Regina%2C%20Steven&p=true&share=cQrJIWQsM%5FxsT5vNMDJUu4S6EgUCDQIyrj1H%2D%2DUEQ9L3btJJ1g"
+                },
                 "Teams에서 학습 목표 작성",
                 {
                     "text": "Prosci Portal 등록 및 리소스 확인",
