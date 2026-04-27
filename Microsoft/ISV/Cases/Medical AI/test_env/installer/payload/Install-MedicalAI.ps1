@@ -102,7 +102,7 @@ function Start-InstallAfterHyperV {
         Copy-Item -Path $sourceVhdx -Destination $targetVhdx -Force
         New-VM -Name $vmName -Generation 2 -MemoryStartupBytes $memoryStartupBytes -SwitchName $switchName -Path $vmPath -VHDPath $targetVhdx | Out-Null
         Set-VMProcessor -VMName $vmName -Count $processorCount
-        Set-VMMemory -VMName $vmName -DynamicMemoryEnabled $true -MinimumBytes 2147483648 -StartupBytes $memoryStartupBytes -MaximumBytes 8589934592
+        Set-VMMemory -VMName $vmName -DynamicMemoryEnabled $true -MinimumBytes 2147483648 -StartupBytes $memoryStartupBytes -MaximumBytes 4294967296
         Set-VMFirmware -VMName $vmName -EnableSecureBoot On -SecureBootTemplate MicrosoftUEFICertificateAuthority
     }
 

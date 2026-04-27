@@ -84,7 +84,8 @@ Docs URL: https://learn.microsoft.com/azure/storage/common/storage-account-creat
 24. Review + assign
 25. Storage account > Data storage > Containers > `medicalai-test` > Upload
 26. Upload file: `release-manifest.json`
-27. `.env`의 `UPDATE_SOURCE_URL`: `https://<AZURE_STORAGE_ACCOUNT>.blob.core.windows.net/medicalai-test/release-manifest.json`
+27. 업로드된 `release-manifest.json` > Generate SAS > Permissions: `Read` > Generate SAS token and URL
+28. `.env`의 `UPDATE_SOURCE_URL`: 생성된 Blob SAS URL
 
 ## 5. Azure Event Hubs
 
@@ -145,5 +146,5 @@ AZURE_STORAGE_ACCOUNT=<Storage account name>
 AZURE_STORAGE_CONTAINER=medicalai-test
 AZURE_EVENTHUB_NAMESPACE=<Event Hubs namespace name>
 AZURE_EVENTHUB_NAME=evh-medicalai-pii-processed
-UPDATE_SOURCE_URL=https://<AZURE_STORAGE_ACCOUNT>.blob.core.windows.net/medicalai-test/release-manifest.json
+UPDATE_SOURCE_URL=<Blob SAS URL for release-manifest.json>
 ```

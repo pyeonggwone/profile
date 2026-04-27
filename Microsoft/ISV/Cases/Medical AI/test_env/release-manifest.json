@@ -1,0 +1,15 @@
+{
+    "version": "0.1.0",
+    "releasedAt": "2026-04-27T00:00:00Z",
+    "applyEnabled": false,
+    "images": {
+        "data-sender": "acrmedicalai2.azurecr.io/data-sender:0.1.0",
+        "pii-processor": "acrmedicalai2.azurecr.io/pii-processor:0.1.0",
+        "remote-update-agent": "acrmedicalai2.azurecr.io/remote-update-agent:0.1.0"
+    },
+    "rollout": {
+        "policy": "dry-run",
+        "apply": false
+    },
+    "notes": "Dry-run release manifest for Medical AI test_env."
+}

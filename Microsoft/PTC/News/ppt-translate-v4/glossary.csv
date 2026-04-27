@@ -1,0 +1,19 @@
+term,translation,protected
+Azure,Azure,true
+Microsoft,Microsoft,true
+Copilot,Copilot,true
+Fabric,Fabric,true
+SQL,SQL,true
+OpenAI,OpenAI,true
+database modernization,DB 현대화,false
+workload,워크로드,false
+Artificial Intelligence,AI,false
+Machine Learning,ML,false
+Database Administrator,DBA,false
+Infrastructure as a Service,IaaS,false
+Platform as a Service,PaaS,false
+Software as a Service,SaaS,false
+Generative AI,생성형 AI,false
+Large Language Model,LLM,false
+high availability,고가용성,false
+disaster recovery,재해 복구,false
