@@ -5,7 +5,7 @@ Assert-Administrator
 $envValues = Read-DotEnv
 $vmName = $envValues.WINDOWS_VM_NAME
 $vmPath = $envValues.WINDOWS_VM_PATH
-$isoPath = $envValues.ROCKY_ISO_PATH
+$isoPath = Resolve-TestEnvPath $envValues.ROCKY_ISO_PATH
 $switchName = $envValues.HYPERV_SWITCH_NAME
 $externalAdapterName = $envValues.HYPERV_EXTERNAL_NET_ADAPTER_NAME
 $memoryStartupBytes = [int64]$envValues.VM_MEMORY_STARTUP_BYTES
@@ -22,7 +22,11 @@ if (-not (Test-Path $isoPath)) {
 
 if (-not (Get-VMSwitch -Name $switchName -ErrorAction SilentlyContinue)) {
     if ([string]::IsNullOrWhiteSpace($externalAdapterName)) {
-        throw "Hyper-V switch '$switchName' does not exist. Set HYPERV_EXTERNAL_NET_ADAPTER_NAME in .env or use an existing switch name."
+        $availableAdapters = Get-NetAdapter -Physical -ErrorAction SilentlyContinue |
+            Where-Object { $_.Status -eq "Up" } |
+            Select-Object -ExpandProperty Name
+        $adapterList = if ($availableAdapters) { $availableAdapters -join ", " } else { "No active physical adapters found" }
+        throw "Hyper-V switch '$switchName' does not exist. Windows Server usually has no Default Switch. Set HYPERV_SWITCH_NAME to an existing switch, or set HYPERV_EXTERNAL_NET_ADAPTER_NAME in .env to create an external switch. Active adapters: $adapterList"
     }
     New-VMSwitch -Name $switchName -NetAdapterName $externalAdapterName -AllowManagementOS $true
 }
@@ -51,4 +55,4 @@ $dvd = Get-VMDvdDrive -VMName $vmName
 Set-VMFirmware -VMName $vmName -FirstBootDevice $dvd
 
 Write-Host "VM created: $vmName"
-Write-Host "Start the VM and install Rocky Linux 9.5 with the default server environment."
+Write-Host "Start the VM and install Rocky Linux 9 with the minimal environment."

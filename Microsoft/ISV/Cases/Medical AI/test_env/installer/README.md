@@ -222,6 +222,12 @@ installer/
 | 위치 | 필요 여부 | 설명 |
 |---|---|---|
 | `assets/rocky9/medicalai-rocky9-k3s.vhdx` | 필수 | Rocky Linux 9 + k3s 사전 구성 VM 이미지 |
+| `assets/iso/Rocky-9.7-x86_64-minimal.iso` | 준비용 | VHDX 생성에 사용한 Rocky 9.7 minimal ISO |
+| `assets/k3s/k3s` / `assets/k3s/install.sh` | 준비용 | k3s 설치 binary와 installer script |
+| `assets/rpms/*.rpm` | 준비용 | 준비 환경에서 수집한 RPM dependency |
+| `assets/versions.env` | 준비용 | 패키지에 포함된 주요 고정 버전 manifest |
+| `assets/logs/rpm-asset-files.txt` | 준비용 | 다운로드된 RPM dependency 파일명 목록 |
+| `assets/logs/python-base-image-digest.txt` | 준비용 | 빌드에 사용한 Python base image digest |
 | `assets/images/data-sender.tar` | 권장 | 오프라인 배포용 컨테이너 이미지 |
 | `assets/images/pii-processor.tar` | 권장 | 오프라인 배포용 컨테이너 이미지 |
 | `assets/images/remote-update-agent.tar` | 권장 | 오프라인 배포용 컨테이너 이미지 |
@@ -232,8 +238,10 @@ installer/
 ## 빌드 방법
 
 1. Inno Setup 6를 설치한다.
-2. 필요한 대형 payload를 `assets` 아래에 넣는다.
-3. 관리자 권한이 아닌 일반 PowerShell에서 아래를 실행한다.
+2. Windows 준비 환경에서 `scripts/windows/Prepare-InstallerAssets.ps1`로 현재 OS 프로파일을 감지하고 Rocky minimal ISO와 asset 디렉터리를 준비한다.
+3. Rocky VM 내부에서 `scripts/linux/prepare-online-assets.sh`를 실행해 k3s, RPM, image tar, 배포 로그를 `installer/assets` 아래에 저장한다.
+4. 준비된 VHDX를 `assets/rocky9/medicalai-rocky9-k3s.vhdx`에 넣는다.
+5. 관리자 권한이 아닌 일반 PowerShell에서 아래를 실행한다.
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
@@ -245,6 +253,14 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```text
 installer/output/MedicalAI-Installer.exe
 ```
+
+감지된 OS 프로파일은 다음 파일에 저장되고 installer payload에 포함된다.
+
+```text
+installer/assets/HostProfile.json
+```
+
+설치 시 현재 Windows OS 프로파일과 embedded `HostProfile.json`의 `packageProfileId`가 다르면 설치가 중단된다. 기준 OS가 Windows Server 2022이면 Windows Server 2022 준비 환경에서 최종 EXE를 만든다.
 
 ## 개발용 빌드
 

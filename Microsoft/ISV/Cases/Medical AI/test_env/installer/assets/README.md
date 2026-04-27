@@ -12,10 +12,18 @@ assets/rocky9/medicalai-rocky9-k3s.vhdx
 
 이 VHDX에는 다음 구성이 들어가는 것을 권장한다.
 
-- Rocky Linux 9.5 x86_64
+- Rocky Linux 9.7 x86_64 minimal
 - k3s v1.30.8+k3s1
 - `/opt/medicalai/data` 볼륨 루트
 - `sudo` 가능한 설치 계정 또는 SSH/guest command 실행 방식
+
+`assets/iso`에는 준비 환경에서 사용하는 Rocky minimal ISO를 보관한다.
+
+```text
+assets/iso/Rocky-9.7-x86_64-minimal.iso
+```
+
+`assets/k3s`, `assets/rpms`, `assets/logs`에는 인터넷 가능한 준비 환경에서 수집한 k3s binary, RPM dependency, 설치 로그를 보관한다. `assets/versions.env`와 `assets/logs/rpm-asset-files.txt`에는 최종 패키지에 포함된 주요 버전과 RPM 파일명이 기록된다.
 
 ## images
 

@@ -2,3 +2,12 @@ _work/
 output/*.exe
 output/*.log
 output/*.tmp
+assets/HostProfile.json
+assets/versions.env
+assets/images/
+assets/iso/
+assets/k3s/
+assets/logs/
+assets/rocky9/
+assets/rpms/
+assets/windows/

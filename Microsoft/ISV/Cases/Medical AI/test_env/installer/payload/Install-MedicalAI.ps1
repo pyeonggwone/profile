@@ -10,6 +10,7 @@ $StatePath = Join-Path $InstallRoot "install-state.json"
 $LogPath = Join-Path $InstallRoot "install.log"
 $EnvPath = Join-Path $PayloadRoot ".env"
 $AssetsRoot = Join-Path $PayloadRoot "assets"
+$HostProfilePath = Join-Path $AssetsRoot "HostProfile.json"
 
 function Write-InstallLog {
     param([string]$Message)
@@ -45,6 +46,93 @@ function Assert-Administrator {
     }
 }
 
+function Get-HostOsProfile {
+    $os = Get-CimInstance Win32_OperatingSystem
+    $computer = Get-CimInstance Win32_ComputerSystem
+    $caption = $os.Caption
+    $profileId = "unsupported-windows"
+    $isSupported = $false
+    $isServer = $os.ProductType -ne 1
+
+    if ($caption -match "Windows Server 2022") {
+        $profileId = "windows-server-2022"
+        $isSupported = $true
+    }
+    elseif ($caption -match "Windows Server 2019") {
+        $profileId = "windows-server-2019"
+        $isSupported = $true
+    }
+    elseif ($caption -match "Windows 11") {
+        $profileId = "windows-11"
+        $isSupported = $true
+    }
+
+    return [ordered]@{
+        profileId = $profileId
+        supported = $isSupported
+        isServer = $isServer
+        caption = $caption
+        version = $os.Version
+        buildNumber = $os.BuildNumber
+        architecture = $os.OSArchitecture
+        computerName = $computer.Name
+    }
+}
+
+function Assert-HostProfileMatchesPackage {
+    $currentProfile = Get-HostOsProfile
+    if (-not $currentProfile.supported) {
+        throw "Unsupported Windows host OS for Medical AI installer: $($currentProfile.caption) $($currentProfile.version)"
+    }
+
+    if (-not (Test-Path $HostProfilePath)) {
+        Write-InstallLog "Embedded HostProfile.json was not found. Continuing with current OS profile: $($currentProfile.profileId)."
+        return
+    }
+
+    $packageProfile = Get-Content -Path $HostProfilePath -Raw | ConvertFrom-Json
+    $packageProfileId = $packageProfile.packageProfileId
+    if ([string]::IsNullOrWhiteSpace($packageProfileId)) {
+        $packageProfileId = $packageProfile.hostProfile.profileId
+    }
+
+    Write-InstallLog "Current host OS profile: $($currentProfile.profileId) ($($currentProfile.caption) $($currentProfile.version))."
+    Write-InstallLog "Package host OS profile: $packageProfileId."
+
+    if ($packageProfileId -ne $currentProfile.profileId) {
+        throw "Installer package profile '$packageProfileId' does not match current host profile '$($currentProfile.profileId)'. Rebuild the installer on the target OS profile."
+    }
+}
+
+function Get-HyperVHostState {
+    param(
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Profile
+    )
+
+    $moduleAvailable = $null -ne (Get-Command Get-VM -ErrorAction SilentlyContinue)
+
+    if ($Profile.isServer -and (Get-Command Get-WindowsFeature -ErrorAction SilentlyContinue)) {
+        $role = Get-WindowsFeature -Name Hyper-V -ErrorAction SilentlyContinue
+        $powershellFeature = Get-WindowsFeature -Name Hyper-V-PowerShell -ErrorAction SilentlyContinue
+
+        return [ordered]@{
+            method = "WindowsFeature"
+            featureState = if ($role) { if ($role.Installed) { "Enabled" } else { "Disabled" } } else { "Unknown" }
+            managementToolsState = if ($powershellFeature) { if ($powershellFeature.Installed) { "Enabled" } else { "Disabled" } } else { "Unknown" }
+            moduleAvailable = $moduleAvailable
+        }
+    }
+
+    $optionalFeature = Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -ErrorAction Stop
+    return [ordered]@{
+        method = "WindowsOptionalFeature"
+        featureState = $optionalFeature.State.ToString()
+        managementToolsState = $optionalFeature.State.ToString()
+        moduleAvailable = $moduleAvailable
+    }
+}
+
 function Save-State {
     param([hashtable]$State)
     $State | ConvertTo-Json -Depth 8 | Set-Content -Path $StatePath -Encoding UTF8
@@ -59,14 +147,26 @@ function Register-ResumeTask {
 }
 
 function Enable-HyperVIfNeeded {
-    $feature = Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
-    if ($feature.State -eq "Enabled") {
-        Write-InstallLog "Hyper-V is already enabled."
+    $profile = Get-HostOsProfile
+    $state = Get-HyperVHostState -Profile $profile
+
+    if ($state.featureState -eq "Enabled" -and $state.moduleAvailable) {
+        Write-InstallLog "Hyper-V is already enabled and the Hyper-V PowerShell module is available."
         return $false
     }
 
     Write-InstallLog "Enabling Hyper-V. Reboot is required before continuing."
-    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -All -NoRestart | Out-Null
+    if ($state.method -eq "WindowsFeature") {
+        if ($state.featureState -eq "Enabled" -and -not $state.moduleAvailable) {
+            Install-WindowsFeature -Name Hyper-V-PowerShell | Out-Null
+        }
+        else {
+            Install-WindowsFeature -Name Hyper-V -IncludeManagementTools | Out-Null
+        }
+    }
+    else {
+        Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -All -NoRestart | Out-Null
+    }
     return $true
 }
 
@@ -124,6 +224,7 @@ function Start-InstallAfterHyperV {
 
 Assert-Administrator
 Write-InstallLog "Medical AI installation started."
+Assert-HostProfileMatchesPackage
 
 if (-not (Test-Path $EnvPath)) {
     throw "Embedded .env was not found: $EnvPath"
