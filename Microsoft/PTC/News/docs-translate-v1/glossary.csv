@@ -1,0 +1,17 @@
+term,translation,protected
+Azure,Azure,true
+Microsoft,Microsoft,true
+Copilot,Copilot,true
+Fabric,Fabric,true
+SQL,SQL,true
+OpenAI,OpenAI,true
+GitHub,GitHub,true
+Power Platform,Power Platform,true
+Power Apps,Power Apps,true
+Power Automate,Power Automate,true
+workload,워크로드,false
+high availability,고가용성,false
+disaster recovery,재해 복구,false
+database modernization,DB 현대화,false
+Generative AI,생성형 AI,false
+Large Language Model,LLM,false
