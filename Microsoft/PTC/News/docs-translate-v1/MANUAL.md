@@ -1,6 +1,6 @@
 # MANUAL — docs-translate-v1
 
-Markdown docs 번역 도구 운영 매뉴얼입니다.
+Markdown/Word docs 번역 도구 운영 매뉴얼입니다.
 
 ## 1. 준비
 
@@ -19,6 +19,7 @@ Pop-Location
 
 ```powershell
 uv run --script docs_translate.py run "input\sample.md" -in_lang en -out_lang kr
+uv run --script docs_translate.py run "input\sample.docx" -in_lang en -out_lang kr
 ```
 
 ### 디렉토리 배치
@@ -39,10 +40,11 @@ uv run --script docs_translate.py apply "input\sample.md" "work\input_sample\tra
 
 ## 4. 보존 규칙
 
-- fenced code block 은 번역 대상에서 제외
+- Markdown fenced code block 은 번역 대상에서 제외
 - inline code, URL, Markdown link URL, image path, Liquid/Jinja 변수, `${VAR}`, HTML tag 는 placeholder 로 보호
 - link text, heading, paragraph, list item, table cell, blockquote 는 번역 대상
 - `glossary.csv` 의 `protected=true` term 은 placeholder 로 보호
+- Word `.docx` 는 paragraph/table cell 단위로 번역하고 paragraph 스타일은 유지합니다.
 
 ## 5. 캐시 초기화
 

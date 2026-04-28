@@ -4,7 +4,7 @@
 
 | 항목 | 선택 | 이유 |
 |---|---|---|
-| 처리 대상 | Markdown `.md` | MVP 범위를 명확히 제한 |
+| 처리 대상 | Markdown `.md`, Word `.docx` | Markdown 중심 MVP에 Word 문서 입력을 추가 지원 |
 | 추출 방식 | line/path 기반 segment | 원문 line 구조를 보존하면서 APPLY 단순화 |
 | 보호 방식 | placeholder masking | 코드, URL, 변수, HTML tag 손상 방지 |
 | LLM | LiteLLM | OpenAI/Azure OpenAI 통합 |
@@ -14,7 +14,7 @@
 ## 파이프라인
 
 ```text
-input/foo.md
+input/foo.md or input/foo.docx
   │
   ▼ EXTRACT
 work/<key>/segments.json
@@ -31,10 +31,12 @@ output/foo_KR.md
 | 요소 | path 예 |
 |---|---|
 | Heading | `["line", 10, "heading"]` |
-| Paragraph | `["line", 12, "paragraph"]` |
+| Markdown Paragraph | `["line", 12, "paragraph"]` |
 | List item | `["line", 15, "list_item"]` |
 | Blockquote | `["line", 18, "blockquote"]` |
 | Table cell | `["line", 22, "table_cell", 2]` |
+| Word Paragraph | `["paragraph", 3]` |
+| Word Table cell | `["table", 0, 1, 2, 0]` |
 
 ## 보호 토큰
 

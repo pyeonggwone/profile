@@ -4,6 +4,7 @@
 #   "litellm>=1.50",
 #   "openai>=1.40",
 #   "pydantic-settings>=2.5",
+#   "python-docx>=1.1.2",
 #   "typer>=0.12",
 #   "rich>=13.8",
 # ]
@@ -35,12 +36,18 @@ try:
 except Exception:  # pragma: no cover - handled at runtime
     litellm = None
 
+try:
+    from docx import Document
+except Exception:  # pragma: no cover - handled at runtime
+    Document = None
+
 app = typer.Typer(no_args_is_help=True, add_completion=False)
 tm_app = typer.Typer(no_args_is_help=True, add_completion=False)
 app.add_typer(tm_app, name="tm")
 console = Console()
 
 SUPPORTED_LANGS = {"en", "kr", "ko", "ch", "zh", "jp", "ja"}
+SUPPORTED_EXTENSIONS = {".md", ".docx"}
 TARGET_SUFFIX = {"kr": "KR", "ko": "KR", "ch": "CH", "zh": "CH", "jp": "JP", "ja": "JP", "en": "EN"}
 LANG_NAME = {
     "en": "English",
@@ -368,6 +375,12 @@ def segment_for_line(
 
 
 def extract_segments(input_path: Path, cfg: Settings) -> dict[str, Any]:
+    if input_path.suffix.lower() == ".docx":
+        return extract_docx_segments(input_path, cfg)
+    return extract_markdown_segments(input_path, cfg)
+
+
+def extract_markdown_segments(input_path: Path, cfg: Settings) -> dict[str, Any]:
     glossary, protected_terms = load_glossary(Path(cfg.glossary_path))
     masker = TokenMasker(protected_terms)
     text = read_text(input_path)
@@ -404,6 +417,51 @@ def extract_segments(input_path: Path, cfg: Settings) -> dict[str, Any]:
 
     return {
         "version": 1,
+        "format": "markdown",
+        "source_file": str(input_path),
+        "source_lang": normalize_lang(cfg.source_lang),
+        "target_lang": normalize_lang(cfg.target_lang),
+        "glossary": glossary,
+        "segments": segments,
+    }
+
+
+def extract_docx_segments(input_path: Path, cfg: Settings) -> dict[str, Any]:
+    if Document is None:
+        raise RuntimeError(".docx 처리를 위해 python-docx 가 필요합니다.")
+    glossary, protected_terms = load_glossary(Path(cfg.glossary_path))
+    masker = TokenMasker(protected_terms)
+    document = Document(str(input_path))
+    segments: list[dict[str, Any]] = []
+
+    def add_segment(path: list[Any], segment_type: str, text: str) -> None:
+        clean = text.strip()
+        if not clean:
+            return
+        masked, tokens = masker.mask(clean)
+        segments.append({
+            "id": len(segments) + 1,
+            "file": str(input_path),
+            "path": path,
+            "type": segment_type,
+            "text": masked,
+            "raw_text": clean,
+            "tokens": tokens,
+            "context": {},
+        })
+
+    for paragraph_index, paragraph in enumerate(document.paragraphs):
+        add_segment(["paragraph", paragraph_index], "docx_paragraph", paragraph.text)
+
+    for table_index, table in enumerate(document.tables):
+        for row_index, row in enumerate(table.rows):
+            for cell_index, cell in enumerate(row.cells):
+                for paragraph_index, paragraph in enumerate(cell.paragraphs):
+                    add_segment(["table", table_index, row_index, cell_index, paragraph_index], "docx_table_cell", paragraph.text)
+
+    return {
+        "version": 1,
+        "format": "docx",
         "source_file": str(input_path),
         "source_lang": normalize_lang(cfg.source_lang),
         "target_lang": normalize_lang(cfg.target_lang),
@@ -569,6 +627,7 @@ def translate_payload(payload: dict[str, Any], cfg: Settings) -> dict[str, Any]:
 
     return {
         "version": payload.get("version", 1),
+        "format": payload.get("format", "markdown"),
         "source_file": payload.get("source_file"),
         "source_lang": source_lang,
         "target_lang": target_lang,
@@ -618,6 +677,12 @@ def replace_line_segment(line: str, segment: dict[str, Any], translated_text: st
 
 def apply_translations(input_path: Path, translated_path: Path, output_path: Path) -> dict[str, Any]:
     payload = read_json(translated_path)
+    if payload.get("format") == "docx" or input_path.suffix.lower() == ".docx":
+        return apply_docx_translations(input_path, payload, output_path)
+    return apply_markdown_translations(input_path, payload, output_path)
+
+
+def apply_markdown_translations(input_path: Path, payload: dict[str, Any], output_path: Path) -> dict[str, Any]:
     lines = read_text(input_path).splitlines(keepends=True)
     by_line: dict[int, list[dict[str, Any]]] = {}
     for segment in payload["segments"]:
@@ -644,6 +709,40 @@ def apply_translations(input_path: Path, translated_path: Path, output_path: Pat
     return verify_output(output_path)
 
 
+def set_paragraph_text(paragraph: Any, text: str) -> None:
+    if paragraph.runs:
+        paragraph.runs[0].text = text
+        for run in paragraph.runs[1:]:
+            run.text = ""
+    else:
+        paragraph.add_run(text)
+
+
+def apply_docx_translations(input_path: Path, payload: dict[str, Any], output_path: Path) -> dict[str, Any]:
+    if Document is None:
+        raise RuntimeError(".docx 처리를 위해 python-docx 가 필요합니다.")
+    document = Document(str(input_path))
+    for segment in payload["segments"]:
+        translated_text = segment.get("translated_text", segment.get("text", ""))
+        restored = restore_tokens(translated_text, segment.get("tokens", []))
+        path = segment["path"]
+        if path[0] == "paragraph":
+            paragraph_index = path[1]
+            if 0 <= paragraph_index < len(document.paragraphs):
+                set_paragraph_text(document.paragraphs[paragraph_index], restored)
+        elif path[0] == "table":
+            table_index, row_index, cell_index, paragraph_index = path[1:]
+            if table_index < len(document.tables):
+                table = document.tables[table_index]
+                if row_index < len(table.rows) and cell_index < len(table.rows[row_index].cells):
+                    cell = table.rows[row_index].cells[cell_index]
+                    if paragraph_index < len(cell.paragraphs):
+                        set_paragraph_text(cell.paragraphs[paragraph_index], restored)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    document.save(str(output_path))
+    return verify_docx_output(output_path)
+
+
 def verify_output(path: Path) -> dict[str, Any]:
     text = path.read_text(encoding="utf-8")
     issues: list[str] = []
@@ -652,6 +751,22 @@ def verify_output(path: Path) -> dict[str, Any]:
     fence_count = sum(1 for line in text.splitlines() if FENCE_RE.match(line))
     if fence_count % 2 != 0:
         issues.append("unbalanced_code_fence")
+    return {"ok": not issues, "issues": issues, "path": str(path)}
+
+
+def verify_docx_output(path: Path) -> dict[str, Any]:
+    if Document is None:
+        return {"ok": False, "issues": ["python_docx_unavailable"], "path": str(path)}
+    document = Document(str(path))
+    text_parts = [paragraph.text for paragraph in document.paragraphs]
+    for table in document.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                text_parts.extend(paragraph.text for paragraph in cell.paragraphs)
+    joined = "\n".join(text_parts)
+    issues: list[str] = []
+    if PLACEHOLDER_RE.search(joined):
+        issues.append("unrestored_placeholder")
     return {"ok": not issues, "issues": issues, "path": str(path)}
 
 
@@ -670,9 +785,11 @@ def default_output_path(input_path: Path, target_lang: str, base_input: Path | N
 
 def discover_inputs(path: Path) -> list[Path]:
     if path.is_file():
-        return [path]
+        return [path] if path.suffix.lower() in SUPPORTED_EXTENSIONS else []
     files = []
-    for item in path.rglob("*.md"):
+    for item in path.rglob("*"):
+        if not item.is_file() or item.suffix.lower() not in SUPPORTED_EXTENSIONS:
+            continue
         parts = {part.lower() for part in item.parts}
         if "done" in parts or "output" in parts or "work" in parts:
             continue
@@ -759,7 +876,7 @@ def run(
         cfg.target_lang = normalize_lang(out_lang or lang or cfg.target_lang)
     files = discover_inputs(input_path)
     if not files:
-        console.print("[yellow]처리할 .md 파일이 없습니다.[/yellow]")
+        console.print("[yellow]처리할 .md 또는 .docx 파일이 없습니다.[/yellow]")
         return
     failures: list[tuple[Path, str]] = []
     for index, source in enumerate(files, start=1):
