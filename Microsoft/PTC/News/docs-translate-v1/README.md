@@ -1,10 +1,10 @@
 # docs-translate-v1
 
-Markdown 문서를 구조 보존 방식으로 번역하는 도구입니다. `ppt-translate-v4`의 EXTRACT / TRANSLATE / APPLY 파이프라인을 문서 번역에 맞게 옮겼습니다.
+Markdown/Word 문서를 구조 보존 방식으로 번역하는 도구입니다. `ppt-translate-v4`의 EXTRACT / TRANSLATE / APPLY 파이프라인을 문서 번역에 맞게 옮겼습니다.
 
 ## 핵심 원칙
 
-- 원본 `.md` 파일은 직접 수정하지 않고 `output/` 에 결과를 생성
+- 원본 `.md` / `.docx` 파일은 직접 수정하지 않고 `output/` 에 결과를 생성
 - fenced code block, inline code, URL, template variable, HTML tag, protected glossary term 보존
 - Translation Memory(SQLite) 로 동일 문장 재번역 방지
 - `uv run --script` 기반 단일 Python 파일 실행
@@ -36,7 +36,7 @@ uv run --script docs_translate.py tm import legacy.csv
 ## 런타임 디렉토리
 
 ```text
-input/          # 번역할 .md 파일
+input/          # 번역할 .md / .docx 파일
 input/done/     # 성공 시 이동되는 원본
 output/         # 번역 결과
 work/           # segments.json, translated.json, tm.sqlite

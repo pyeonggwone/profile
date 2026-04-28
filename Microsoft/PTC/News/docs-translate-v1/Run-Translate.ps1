@@ -6,7 +6,7 @@
 
 .DESCRIPTION
   uv 가 설치되어 있으면 uv 로 실행, 아니면 시스템 python 으로 실행한다.
-  첫 인자가 .md 파일이면 run 명령으로 자동 라우팅한다.
+    첫 인자가 .md 또는 .docx 파일이면 run 명령으로 자동 라우팅한다.
 #>
 param(
     [Parameter(ValueFromRemainingArguments = $true)]
@@ -20,7 +20,7 @@ if (-not (Test-Path $script)) {
     throw "docs_translate.py 를 찾을 수 없음: $script"
 }
 
-if ($Args.Count -ge 1 -and $Args[0].ToLower().EndsWith('.md')) {
+if ($Args.Count -ge 1 -and ($Args[0].ToLower().EndsWith('.md') -or $Args[0].ToLower().EndsWith('.docx'))) {
     $Args = @('run') + $Args
 }
 
