@@ -1,0 +1,5 @@
+litellm>=1.50
+openai>=1.40
+pydantic-settings>=2.5
+typer>=0.12
+rich>=13.8
