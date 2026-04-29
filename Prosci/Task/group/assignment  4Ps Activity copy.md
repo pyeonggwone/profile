@@ -4,7 +4,11 @@
 
 ### Adoption Challenge
 
-A significant part of the project outcome depends on Core and field stakeholders adopting the governed MCEM unique facts model, taxonomy, metadata, and governance alignment needed to improve readiness, adoption, and consistent seller and partner outcomes.
+**What percentage of project outcomes depends on people doing their job differently?**
+
+**Approximately 80%.**
+
+The technical work of de-duplicating, restructuring, tagging, and publishing MCEM content is important, but most of the business outcome depends on people changing how they work. Core teams, SMEs, Sales Enablement Leads, Business Strategy & Operations, field leaders, and MCEM Council members must use the governed model instead of maintaining duplicated or role-specific content outside it. Field users must also trust and use the new Copilot and agent experiences as their source for MCEM guidance. If these behaviors do not change, the content model may exist technically but will not become the real source of truth. For that reason, approximately 80% of the project outcome depends on adoption and sustained behavior change.
 
 ---
 
@@ -12,7 +16,7 @@ A significant part of the project outcome depends on Core and field stakeholders
 
 **What is the project?**
 
-The project is the **MCEM Agentic Transformation** within **MCAPS** for **Group 3**. It uses a **Hybrid** project management methodology and is sponsored by **Alfredo Ramirez** and **Sarah Crowe**. The project will establish a trusted, role-relevant single source of truth by de-duplicating and restructuring MCEM content into a governed **unique facts** model that includes canon, exceptions, and guidance, so it can reliably power Copilot and Agent experiences.
+The project is the **MCEM Agentic Transformation** for Microsoft Customer Engagement Model content within MCAPS. It is a hybrid change initiative sponsored by Alfredo Ramirez and Sarah Crowe. The project will de-duplicate and restructure MCEM content into a governed **unique facts** model. This model will include canonical facts, approved exceptions, role-specific guidance, taxonomy, metadata, and governance processes. The transformed content layer will power Copilot and agent experiences so field and governance stakeholders can find trusted MCEM guidance at the right time.
 
 ---
 
@@ -20,7 +24,7 @@ The project is the **MCEM Agentic Transformation** within **MCAPS** for **Group 
 
 **Why are we changing?**
 
-The purpose is to create a trusted, role-relevant single source of truth for MCEM content. The project is intended to improve readiness, adoption, and consistent seller and partner outcomes by cleaning up content, aligning taxonomy and metadata, and aligning governance across Core and field stakeholders.
+MCEM content is currently fragmented and duplicated across segments, roles, and stakeholder groups. This creates inconsistent guidance, inefficient content maintenance, role confusion, and lower trust in future Copilot or agent experiences. The purpose of the change is to create one governed source of truth for MCEM facts, exceptions, and guidance. This will improve field readiness and consistency across Enterprise, SME&C, SMB, partner, customer success, services, and support roles. If the organization does not change, Copilot and agent experiences may surface outdated or conflicting answers, which would reduce field trust and limit adoption.
 
 ---
 
@@ -28,7 +32,7 @@ The purpose is to create a trusted, role-relevant single source of truth for MCE
 
 **What are we changing?**
 
-The project changes MCEM content by de-duplicating and restructuring it into a governed unique facts model. The scope includes content cleanup, taxonomy and metadata such as impacted roles, and governance alignment across Core and field stakeholders.
+The project changes the structure, ownership, governance, and usage of MCEM content. Today, MCEM guidance is duplicated across roles, decks, pages, and segment-specific assets. In the future state, content will be organized into a unique facts model that separates canonical facts, approved exceptions, and role-specific guidance. Taxonomy, metadata, ownership, review, and update processes will become more consistent and governed. MCEM will still remain the guiding model for customer engagement, and Copilot or agents will support access to guidance without replacing human ownership or governance accountability.
 
 ---
 
@@ -36,4 +40,4 @@ The project changes MCEM content by de-duplicating and restructuring it into a g
 
 **Who will be changing?**
 
-The change impacts all MCEM Council-aligned segments and roles across Enterprise, SME&C, and SMB, including ATU, STU, CSU, CSA, PSS, ISD, and Services. It also impacts cross-cutting functions including RTLs, BSO, SEL, Core, and the MCEM Council itself, spanning both field execution and governance layers.
+The change impacts both the governance layer and the field execution layer. MCEM Council members and executive leaders must actively sponsor the unique facts model, resolve cross-segment conflicts, and reinforce governance decisions. Core content teams and SMEs must convert and validate content as canonical facts, approved exceptions, reusable guidance, and governed metadata. Sales Enablement Leads, Business Strategy & Operations, and field roles must use the common taxonomy and help users shift from fragmented content sources to trusted role-relevant guidance. From an ADKAR perspective, the highest needs are Knowledge, Ability, and Reinforcement so stakeholders can consistently create, govern, and consume MCEM content through the new model.
