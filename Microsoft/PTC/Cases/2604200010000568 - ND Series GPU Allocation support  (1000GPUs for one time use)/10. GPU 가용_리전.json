@@ -1,0 +1,273 @@
+{
+  "Non Regional": [],
+  "South Africa North": [
+    "NDsr H100 v5-Series",
+    "NDsr H200 v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "South Africa West *": [],
+  "East Asia": [
+    "NVadsA10_v5-series"
+  ],
+  "Southeast Asia": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Australia Central": [
+    "NCas T4 v3-Series"
+  ],
+  "Australia Central 2 *": [
+    "NCas T4 v3-Series"
+  ],
+  "Australia East": [
+    "NCads A100 v4-Series",
+    "NCas T4 v3-Series",
+    "NDsr H100 v5-Series",
+    "NDsr H200 v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Australia Southeast": [],
+  "Austria East": [],
+  "USGov Arizona **": [
+    "NDsr H100 v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "USGov Texas": [],
+  "USGov Virginia": [
+    "NCas T4 v3-Series",
+    "NDasr A100 v4-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Belgium Central": [
+    "NCads A100 v4-Series",
+    "NDasr A100 v4-Series"
+  ],
+  "Brazil South": [
+    "NCads A100 v4-Series",
+    "NCas T4 v3-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Brazil Southeast": [],
+  "Canada Central": [
+    "NCads A100 v4-Series",
+    "NCas T4 v3-Series",
+    "NDsr MI300X v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Canada East": [],
+  "Chile Central": [],
+  "China East": [],
+  "China East 2": [],
+  "China East 3 *": [
+    "NCads A100 v4-Series"
+  ],
+  "China North": [],
+  "China North 2": [],
+  "China North 3": [
+    "NCas T4 v3-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Denmark East": [],
+  "North Europe": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NVadsA10_v5-series"
+  ],
+  "West Europe": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NCCadsH100_v5-series",
+    "NDamsr A100 v4-Series",
+    "NDasr A100 v4-Series",
+    "NDsr H100 v5-Series",
+    "NDv2-Series",
+    "NGads_V620_v1-series",
+    "NVads_V710_v5-series",
+    "NVadsA10_v5-series"
+  ],
+  "France Central": [
+    "NCads A100 v4-Series",
+    "NDsr H200 v5-Series",
+    "NDsr MI300X v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "France South *": [],
+  "Germany North *": [],
+  "Germany West Central": [
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Central India": [
+    "NCads A100 v4-Series",
+    "NCas T4 v3-Series",
+    "NVadsA10_v5-series"
+  ],
+  "South India": [
+    "NCas T4 v3-Series"
+  ],
+  "West India *": [],
+  "Indonesia Central": [
+    "NCadsH100_v5-series"
+  ],
+  "Israel Central": [],
+  "Italy North": [
+    "NCads A100 v4-Series",
+    "NCas T4 v3-Series",
+    "NDsr H200 v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Japan East": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NDsr H100 v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Japan West": [
+    "NCas T4 v3-Series",
+    "NDsr H200 v5-Series"
+  ],
+  "Korea Central": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NDsr H100 v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "Korea South *": [
+    "NDsr H200 v5-Series"
+  ],
+  "Malaysia West": [],
+  "Mexico Central": [
+    "NDsr H200 v5-Series"
+  ],
+  "New Zealand North": [],
+  "Norway East": [
+    "NDsr H200 v5-Series"
+  ],
+  "Norway West *": [],
+  "Poland Central": [],
+  "Qatar Central": [
+    "NVadsA10_v5-series"
+  ],
+  "Spain Central": [
+    "NCadsH100_v5-series",
+    "NDsr H200 v5-Series"
+  ],
+  "Sweden Central": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NDsr H100 v5-Series",
+    "NDsr MI300X v5-Series",
+    "NGads_V620_v1-series",
+    "NVadsA10_v5-series"
+  ],
+  "Sweden South *": [],
+  "Switzerland North": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NVadsA10_v5-series"
+  ],
+  "Switzerland West *": [],
+  "Taiwan North **": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NDsr H100 v5-Series"
+  ],
+  "UAE Central *": [],
+  "UAE North": [
+    "NDsr H100 v5-Series",
+    "NDsr H200 v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "UK South": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NDasr A100 v4-Series",
+    "NDsr H100 v5-Series",
+    "NDsr H200 v5-Series",
+    "NDsr MI300X v5-Series",
+    "NVadsA10_v5-series"
+  ],
+  "UK West": [
+    "NDsr H200 v5-Series"
+  ],
+  "Central US": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NCCadsH100_v5-series",
+    "NDsr H100 v5-Series"
+  ],
+  "East US": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NDasr A100 v4-Series",
+    "NDsr H100 v5-Series",
+    "NDv2-Series",
+    "NVads_V710_v5-series",
+    "NVadsA10_v5-series"
+  ],
+  "East US 2": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NCCadsH100_v5-series",
+    "NDamsr A100 v4-Series",
+    "NDsr H100 v5-Series",
+    "NDsr H200 v5-Series",
+    "NGads_V620_v1-series",
+    "NVadsA10_v5-series"
+  ],
+  "North Central US": [
+    "NCads A100 v4-Series",
+    "NCas T4 v3-Series",
+    "NDasr A100 v4-Series",
+    "NDsr H200 v5-Series",
+    "NVads_V710_v5-series",
+    "NVadsA10_v5-series"
+  ],
+  "South Central US": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NDamsr A100 v4-Series",
+    "NDasr A100 v4-Series",
+    "NDv2-Series",
+    "NVads_V710_v5-series",
+    "NVadsA10_v5-series"
+  ],
+  "West Central US": [],
+  "West US": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NDsr H100 v5-Series",
+    "NDsr MI300X v5-Series",
+    "NVads_V710_v5-series",
+    "NVadsA10_v5-series"
+  ],
+  "West US 2": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NDasr A100 v4-Series",
+    "NDv2-Series",
+    "NVadsA10_v5-series"
+  ],
+  "West US 3": [
+    "NCads A100 v4-Series",
+    "NCadsH100_v5-series",
+    "NCas T4 v3-Series",
+    "NDsr H200 v5-Series",
+    "NVadsA10_v5-series"
+  ]
+}
