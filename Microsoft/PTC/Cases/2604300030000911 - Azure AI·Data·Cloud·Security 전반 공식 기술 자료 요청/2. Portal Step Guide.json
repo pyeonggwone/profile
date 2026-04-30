@@ -1,0 +1,374 @@
+{
+    "title": "Microsoft/Azure 공식 기술 자료 인덱스 포털 작업 가이드",
+    "sections": [
+        {
+            "section_no": 1,
+            "title": "Microsoft Learn - Copilot 제품 자료",
+            "portal_url": "https://learn.microsoft.com/en-us/search/?terms=Microsoft%20365%20Copilot%20Copilot%20Studio%20Security%20Copilot",
+            "docs_url": "https://learn.microsoft.com/en-us/microsoft-365-copilot/",
+            "tasks": [
+                {
+                    "title": "제품 소개 자료 검색",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Learn > Search",
+                            "fields": {
+                                "Search terms": "Microsoft 365 Copilot Copilot Studio Security Copilot overview",
+                                "Content type": "Documentation",
+                                "Products": "Microsoft 365 Copilot, Copilot Studio, Microsoft Security Copilot"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Search results > Product documentation result",
+                            "fields": {
+                                "Resource list name": "KR-PTC-Copilot-Overview-Index",
+                                "Audience": "Business decision maker, Technical decision maker",
+                                "Usage scenario": "Customer proposal, seminar, internal enablement"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "기능 및 기술 자료 분류",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Learn > Search",
+                            "fields": {
+                                "Search terms": "Copilot extensibility agents connectors plugins admin guide",
+                                "Content type": "Documentation",
+                                "Resource type": "Concept, How-to, Architecture"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Resource index entry",
+                            "fields": {
+                                "Category": "Copilot technical guide",
+                                "Product scope": "Microsoft 365 Copilot, Copilot Studio, Security Copilot",
+                                "Fields": "Title, Product, URL, Level, Last updated, Usage scenario"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 2,
+            "title": "Microsoft Learn - Azure AI Foundry 및 Azure OpenAI",
+            "portal_url": "https://learn.microsoft.com/en-us/search/?terms=Azure%20AI%20Foundry%20Azure%20OpenAI%20RAG%20agent%20SDK",
+            "docs_url": "https://learn.microsoft.com/en-us/azure/ai-foundry/",
+            "tasks": [
+                {
+                    "title": "개발 가이드 자료 검색",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Learn > Search",
+                            "fields": {
+                                "Search terms": "Azure AI Foundry Azure OpenAI RAG agent SDK API",
+                                "Content type": "Documentation",
+                                "Products": "Azure AI Foundry, Azure OpenAI Service"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Search results > Developer documentation result",
+                            "fields": {
+                                "Resource list name": "KR-PTC-Azure-AI-Developer-Index",
+                                "Audience": "Developer, AI engineer, Technical decision maker",
+                                "Usage scenario": "PoC planning, demo build, technical review"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "구현 주제 분류",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Learn > Search",
+                            "fields": {
+                                "Search terms": "Azure OpenAI retrieval augmented generation agent orchestration content safety governance",
+                                "Resource type": "How-to, Tutorial, Concept"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Resource index entry",
+                            "fields": {
+                                "Category": "AI implementation guide",
+                                "Product scope": "Azure AI Foundry, Azure OpenAI Service, Azure AI Search",
+                                "Fields": "Title, Service, URL, Implementation topic, Required service, Security note"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 3,
+            "title": "Microsoft Learn - Microsoft Fabric 및 Power BI",
+            "portal_url": "https://learn.microsoft.com/en-us/search/?terms=Microsoft%20Fabric%20Power%20BI%20data%20platform%20governance%20capacity",
+            "docs_url": "https://learn.microsoft.com/en-us/fabric/",
+            "tasks": [
+                {
+                    "title": "Data Platform 자료 검색",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Learn > Search",
+                            "fields": {
+                                "Search terms": "Microsoft Fabric Power BI data platform capacity governance security",
+                                "Content type": "Documentation",
+                                "Products": "Microsoft Fabric, Power BI"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Search results > Data platform documentation result",
+                            "fields": {
+                                "Resource list name": "KR-PTC-Fabric-PowerBI-Index",
+                                "Audience": "Data engineer, BI developer, Technical decision maker",
+                                "Usage scenario": "Customer proposal, technical review, internal enablement"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "운영 및 확장 자료 분류",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Learn > Search",
+                            "fields": {
+                                "Search terms": "Microsoft Fabric administration monitoring capacity security governance",
+                                "Resource type": "Concept, How-to, Architecture"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Resource index entry",
+                            "fields": {
+                                "Category": "Fabric operations guide",
+                                "Product scope": "Microsoft Fabric, Power BI, OneLake",
+                                "Fields": "Title, Workload, URL, Admin area, Capacity topic, Governance topic"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 4,
+            "title": "Azure Architecture Center - Reference Architecture",
+            "portal_url": "https://learn.microsoft.com/en-us/azure/architecture/browse/",
+            "docs_url": "https://learn.microsoft.com/en-us/azure/architecture/",
+            "tasks": [
+                {
+                    "title": "아키텍처 자료 검색",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Azure Architecture Center > Browse architectures",
+                            "fields": {
+                                "Search terms": "Azure OpenAI Microsoft Fabric security data platform landing zone",
+                                "Products": "Azure OpenAI Service, Microsoft Fabric, Azure AI Search, Microsoft Sentinel, Microsoft Defender"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Architecture result > Reference architecture",
+                            "fields": {
+                                "Resource list name": "KR-PTC-Azure-Architecture-Index",
+                                "Audience": "Cloud architect, Security architect, Data architect",
+                                "Usage scenario": "Architecture review, customer workshop, PoC scope definition"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "설계 검토 자료 분류",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Azure Architecture Center > Browse architectures",
+                            "fields": {
+                                "Categories": "AI, Analytics, Security, Hybrid, Management and governance",
+                                "Filters": "Reference architecture, Solution idea, Example workload"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Resource index entry",
+                            "fields": {
+                                "Category": "Reference architecture",
+                                "Product scope": "Azure AI, Azure Data, Azure Security, Azure Cloud",
+                                "Fields": "Title, Architecture area, URL, Design pattern, Target workload, Review usage"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 5,
+            "title": "Microsoft Adoption - Copilot 및 AI Change Management",
+            "portal_url": "https://adoption.microsoft.com/en-us/copilot/",
+            "docs_url": "https://learn.microsoft.com/en-us/microsoft-365/admin/adoption/adoption-guide?view=o365-worldwide",
+            "tasks": [
+                {
+                    "title": "Adoption 자료 검색",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Adoption > Copilot",
+                            "fields": {
+                                "Search terms": "Copilot adoption change management user enablement training",
+                                "Content area": "Adoption, Training, End user enablement"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Adoption resource result",
+                            "fields": {
+                                "Resource list name": "KR-PTC-Copilot-Adoption-Index",
+                                "Audience": "Change manager, Business sponsor, Trainer",
+                                "Usage scenario": "User education, internal rollout, adoption planning"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "변화관리 자료 분류",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Adoption > Resources",
+                            "fields": {
+                                "Categories": "Adoption, Change management, Training, Communications",
+                                "Products": "Microsoft 365 Copilot, Copilot Studio"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Resource index entry",
+                            "fields": {
+                                "Category": "Change management and adoption",
+                                "Product scope": "Microsoft 365 Copilot, AI services",
+                                "Fields": "Title, URL, Audience, Rollout phase, Enablement usage"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 6,
+            "title": "Microsoft Security Documentation - Security 및 Governance",
+            "portal_url": "https://learn.microsoft.com/en-us/search/?terms=Zero%20Trust%20Defender%20Sentinel%20Entra%20AI%20governance%20Responsible%20AI",
+            "docs_url": "https://learn.microsoft.com/en-us/security/zero-trust/",
+            "tasks": [
+                {
+                    "title": "보안 및 거버넌스 자료 검색",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Learn > Search",
+                            "fields": {
+                                "Search terms": "Zero Trust Defender Sentinel Entra AI governance Responsible AI",
+                                "Content type": "Documentation",
+                                "Products": "Microsoft Defender, Microsoft Sentinel, Microsoft Entra, Azure AI"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Search results > Security documentation result",
+                            "fields": {
+                                "Resource list name": "KR-PTC-Security-Governance-Index",
+                                "Audience": "Security architect, Compliance owner, Technical decision maker",
+                                "Usage scenario": "Security review, governance briefing, customer proposal"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "보안 영역별 자료 분류",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Learn > Search",
+                            "fields": {
+                                "Search terms": "data security identity governance threat protection security operations responsible AI",
+                                "Resource type": "Concept, How-to, Architecture"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Resource index entry",
+                            "fields": {
+                                "Category": "Security and governance",
+                                "Product scope": "Microsoft Defender, Microsoft Sentinel, Microsoft Entra, Azure AI governance",
+                                "Fields": "Title, Security domain, URL, Product, Governance topic, Review usage"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_no": 7,
+            "title": "Microsoft AI Cloud Partner Program - CSP 및 Partner Center",
+            "portal_url": "https://partner.microsoft.com/en-us/partnership/cloud-solution-provider",
+            "docs_url": "https://learn.microsoft.com/en-us/partner-center/",
+            "tasks": [
+                {
+                    "title": "CSP 자료 검색",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft AI Cloud Partner Program > Cloud Solution Provider",
+                            "fields": {
+                                "Search terms": "CSP partner business customer lifecycle Partner Center licensing support",
+                                "Content area": "Cloud Solution Provider, Partner Center, Licensing, Customer management"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "CSP resource result",
+                            "fields": {
+                                "Resource list name": "KR-PTC-CSP-Partner-Index",
+                                "Audience": "Partner sales, Partner technical presales, Partner operations",
+                                "Usage scenario": "Partner enablement, customer proposal, post-sales growth support"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Partner Center 자료 분류",
+                    "steps": [
+                        {
+                            "step_no": 1,
+                            "text": "Microsoft Learn > Partner Center documentation",
+                            "fields": {
+                                "Categories": "Customers, Offers, Pricing, Billing, Support, SDK",
+                                "Partner role": "CSP direct bill partner, indirect provider, indirect reseller"
+                            }
+                        },
+                        {
+                            "step_no": 2,
+                            "text": "Resource index entry",
+                            "fields": {
+                                "Category": "CSP and Partner Center",
+                                "Product scope": "Partner Center, CSP, Microsoft AI Cloud Partner Program",
+                                "Fields": "Title, Partner motion, URL, Business topic, Technical topic, Access level"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
