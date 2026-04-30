@@ -1,0 +1,657 @@
+{
+    "NCads A100 v4-Series": {
+        "learn_series": "NC_A100_v4",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nca100v4-series",
+        "processor": "AMD EPYC 7V13 (Milan) [x86-64]",
+        "host_specifications": {
+            "vcpus": "24 - 96",
+            "memory_gib": "220 - 880",
+            "local_storage": "1 Temp Disk, 1 - 4 NVMe Disks; 64 - 256 GiB Temp Disk; 960 GiB NVMe Disks",
+            "remote_storage": "8 - 32 Disks; 30000 - 120000 IOPS; 1000 - 4000 MBps",
+            "network": "2 - 8 NICs; 20000 - 80000 Mbps",
+            "accelerators": "1 - 4 GPUs; NVIDIA PCIe A100 GPU (80GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA PCIe A100",
+            "memory_gib_each": 80
+        },
+        "sizes": [
+            {
+                "name": "Standard_NC24ads_A100_v4",
+                "vcpus": 24,
+                "memory_gib": 220,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 80
+            },
+            {
+                "name": "Standard_NC48ads_A100_v4",
+                "vcpus": 48,
+                "memory_gib": 440,
+                "accelerator_count": "2",
+                "accelerator_memory_gib": 160
+            },
+            {
+                "name": "Standard_NC96ads_A100_v4",
+                "vcpus": 96,
+                "memory_gib": 880,
+                "accelerator_count": "4",
+                "accelerator_memory_gib": 320
+            }
+        ]
+    },
+    "NCadsH100_v5-series": {
+        "learn_series": "NCads_H100_v5",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/ncadsh100v5-series",
+        "processor": "AMD EPYC (Genoa) [x86-64]",
+        "host_specifications": {
+            "vcpus": "40 - 80",
+            "memory_gib": "320 - 640",
+            "local_storage": "1 Disk; 3576 - 7152 GiB",
+            "remote_storage": "8 - 16 Disks; 100000 - 240000 IOPS; 3000 - 7000 MBps",
+            "network": "2 - 4 NICs; 40000 - 80000 Mbps; Interfaces: NetVSC, ConnectX",
+            "accelerators": "1 - 2 GPUs; NVIDIA PCIe H100 GPU (94GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA PCIe H100",
+            "memory_gib_each": 94
+        },
+        "sizes": [
+            {
+                "name": "Standard_NC40ads_H100_v5",
+                "vcpus": 40,
+                "memory_gib": 320,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 94
+            },
+            {
+                "name": "Standard_NC80adis_H100_v5",
+                "vcpus": 80,
+                "memory_gib": 640,
+                "accelerator_count": "2",
+                "accelerator_memory_gib": 188
+            }
+        ]
+    },
+    "NCas T4 v3-Series": {
+        "learn_series": "NCasT4_v3",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/ncast4v3-series",
+        "processor": "AMD EPYC 7V12 (Rome) [x86-64]",
+        "host_specifications": {
+            "vcpus": "4 - 64",
+            "memory_gib": "28 - 440",
+            "local_storage": "1 Disk; 176 - 2816 GiB",
+            "remote_storage": "8 - 32 Disks",
+            "network": "2 - 8 NICs; 8000 - 32000 Mbps",
+            "accelerators": "1 - 4 GPUs; NVIDIA Tesla T4 GPU (16GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA Tesla T4",
+            "memory_gib_each": 16
+        },
+        "sizes": [
+            {
+                "name": "Standard_NC4as_T4_v3",
+                "vcpus": 4,
+                "memory_gib": 28,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 16
+            },
+            {
+                "name": "Standard_NC8as_T4_v3",
+                "vcpus": 8,
+                "memory_gib": 56,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 16
+            },
+            {
+                "name": "Standard_NC16as_T4_v3",
+                "vcpus": 16,
+                "memory_gib": 110,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 16
+            },
+            {
+                "name": "Standard_NC64as_T4_v3",
+                "vcpus": 64,
+                "memory_gib": 440,
+                "accelerator_count": "4",
+                "accelerator_memory_gib": 64
+            }
+        ]
+    },
+    "NCCadsH100_v5-series": {
+        "learn_series": "NCCads_H100_v5",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nccadsh100v5-series",
+        "processor": "AMD EPYC (Genoa) [x86-64]",
+        "host_specifications": {
+            "vcpus": "40",
+            "memory_gib": "320",
+            "local_storage": "1 Disk; 800 GiB",
+            "remote_storage": "8 Disks; 100000 IOPS; 3000 MBps",
+            "network": "8 NICs; 40000 Mbps; Interfaces: NetVSC, ConnectX",
+            "accelerators": "1 GPU; NVIDIA H100 GPU (94GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA H100",
+            "memory_gib_each": 94
+        },
+        "sizes": [
+            {
+                "name": "Standard_NCC40ads_H100_v5",
+                "vcpus": 40,
+                "memory_gib": 320,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 94
+            }
+        ]
+    },
+    "NCv3-Series": {
+        "learn_series": "NCv3",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/ncv3-series",
+        "processor": "Intel Xeon E5-2690 v4 (Broadwell) [x86-64]",
+        "host_specifications": {
+            "vcpus": "6 - 24",
+            "memory_gib": "112 - 448",
+            "local_storage": "1 Disk; 736 - 2948 GiB",
+            "remote_storage": "12 - 32 Disks; 20000 - 80000 IOPS; 200 - 800 MBps",
+            "network": "4 - 8 NICs",
+            "accelerators": "1 - 4 GPUs; NVIDIA Tesla V100 GPU (16GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA Tesla V100",
+            "memory_gib_each": 16
+        },
+        "sizes": [
+            {
+                "name": "Standard_NC6s_v3",
+                "vcpus": 6,
+                "memory_gib": 112,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 16
+            },
+            {
+                "name": "Standard_NC12s_v3",
+                "vcpus": 12,
+                "memory_gib": 224,
+                "accelerator_count": "2",
+                "accelerator_memory_gib": 32
+            },
+            {
+                "name": "Standard_NC24s_v3",
+                "vcpus": 24,
+                "memory_gib": 448,
+                "accelerator_count": "4",
+                "accelerator_memory_gib": 64
+            },
+            {
+                "name": "Standard_NC24rs_v3",
+                "vcpus": 24,
+                "memory_gib": 448,
+                "accelerator_count": "4",
+                "accelerator_memory_gib": 64
+            }
+        ]
+    },
+    "NDamsr A100 v4-Series": {
+        "learn_series": "NDm_A100_v4",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/ndma100v4-series",
+        "processor": "AMD EPYC 7V12 (Rome) [x86-64]",
+        "host_specifications": {
+            "vcpus": "96",
+            "memory_gib": "1900",
+            "local_storage": "1 Disk; 6400 GiB",
+            "remote_storage": "32 Disks; 80000 IOPS; 800 MBps",
+            "network": "8 NICs; 24000 Mbps",
+            "accelerators": "8 GPUs; NVIDIA A100 GPU (80GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA A100",
+            "memory_gib_each": 80
+        },
+        "sizes": [
+            {
+                "name": "Standard_ND96amsr_A100_v4",
+                "vcpus": 96,
+                "memory_gib": 1900,
+                "accelerator_count": "8",
+                "accelerator_memory_gib": 640
+            }
+        ]
+    },
+    "NDasr A100 v4-Series": {
+        "learn_series": "ND_A100_v4",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/ndasra100v4-series",
+        "processor": "AMD EPYC 7V12 (Rome) [x86-64]",
+        "host_specifications": {
+            "vcpus": "96",
+            "memory_gib": "900",
+            "local_storage": "1 Disk; 6000 GiB",
+            "remote_storage": "32 Disks; 80000 IOPS; 800 MBps",
+            "network": "8 NICs; 24000 Mbps",
+            "accelerators": "8 GPUs; NVIDIA A100 GPU (40GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA A100",
+            "memory_gib_each": 40
+        },
+        "sizes": [
+            {
+                "name": "Standard_ND96asr_v4",
+                "vcpus": 96,
+                "memory_gib": 900,
+                "accelerator_count": "8",
+                "accelerator_memory_gib": 320
+            }
+        ]
+    },
+    "NDsr H100 v5-Series": {
+        "learn_series": "ND_H100_v5",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/ndh100v5-series",
+        "processor": "Intel Xeon (Sapphire Rapids) [x86-64]",
+        "host_specifications": {
+            "vcpus": "96",
+            "memory_gib": "1900",
+            "local_storage": "1 Disk; 1024 GiB",
+            "remote_storage": "32 Disks",
+            "network": "8 NICs",
+            "accelerators": "8 GPUs; NVIDIA H100 GPU (80GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA H100",
+            "memory_gib_each": 80
+        },
+        "sizes": [
+            {
+                "name": "Standard_ND96isr_H100_v5",
+                "vcpus": 96,
+                "memory_gib": 1900,
+                "accelerator_count": "8",
+                "accelerator_memory_gib": 640
+            }
+        ]
+    },
+    "NDsr H200 v5-Series": {
+        "learn_series": "ND_H200_v5",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nd-h200-v5-series",
+        "processor": "Intel Xeon (Sapphire Rapids) [x86-64]",
+        "host_specifications": {
+            "vcpus": "96",
+            "memory_gib": "1850",
+            "local_storage": "1 Disk; 1024 GiB",
+            "remote_storage": "16 Disks",
+            "network": "8 NICs",
+            "accelerators": "8 GPUs; NVIDIA H200 GPU (141GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA H200",
+            "memory_gib_each": 141
+        },
+        "sizes": [
+            {
+                "name": "Standard_ND96isr_H200_v5",
+                "vcpus": 96,
+                "memory_gib": 1850,
+                "accelerator_count": "8",
+                "accelerator_memory_gib": 1128
+            }
+        ]
+    },
+    "NDsr MI300X v5-Series": {
+        "learn_series": "ND_MI300X_v5",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/ndmi300xv5-series",
+        "processor": "Intel Xeon (Sapphire Rapids) [x86-64]",
+        "host_specifications": {
+            "vcpus": "96",
+            "memory_gib": "1850",
+            "local_storage": "1 Temp Disk, 8 NVMe Disks; 1000 GiB Temp Disk; 28000 GiB NVMe Disks",
+            "remote_storage": "16 Disks; 80000 IOPS; 1200 MBps",
+            "network": "8 NICs",
+            "accelerators": "8 GPUs; AMD Instinct MI300X GPU (192GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "AMD Instinct MI300X",
+            "memory_gib_each": 192
+        },
+        "sizes": [
+            {
+                "name": "Standard_ND96isr_MI300X_v5",
+                "vcpus": 96,
+                "memory_gib": 1850,
+                "accelerator_count": "8",
+                "accelerator_memory_gib": 1536
+            }
+        ]
+    },
+    "NDv2-Series": {
+        "learn_series": "NDv2",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/ndv2-series",
+        "processor": "Intel Xeon Platinum 8168 (Skylake) [x86-64]",
+        "host_specifications": {
+            "vcpus": "40",
+            "memory_gib": "672",
+            "local_storage": "1 Disk; 2948 GiB",
+            "remote_storage": "32 Disks; 80000 IOPS; 800 MBps",
+            "network": "8 NICs; 24000 Mbps",
+            "accelerators": "8 GPUs; NVIDIA Tesla V100 GPU (32GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA Tesla V100",
+            "memory_gib_each": 32
+        },
+        "sizes": [
+            {
+                "name": "Standard_ND40rs_v2",
+                "vcpus": 40,
+                "memory_gib": 672,
+                "accelerator_count": "8",
+                "accelerator_memory_gib": 256
+            }
+        ]
+    },
+    "NGads_V620_v1-series": {
+        "learn_series": "NGads_V620",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/ngadsv620-series",
+        "processor": "AMD EPYC 7763 (Milan) [x86-64]",
+        "host_specifications": {
+            "vcpus": "8 - 32",
+            "memory_gib": "16 - 176",
+            "local_storage": "1 Disk; 256 - 1024 GiB",
+            "remote_storage": "8 - 32 Disks; 12800 - 51200 IOPS; 200 - 768 MBps",
+            "network": "2 - 8 NICs; 10000 - 40000 Mbps",
+            "accelerators": "1/4 - 1 GPUs; AMD Radeon PRO V620 GPU (32GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "AMD Radeon PRO V620",
+            "memory_gib_each": 32
+        },
+        "sizes": [
+            {
+                "name": "Standard_NG8ads_V620_v1",
+                "vcpus": 8,
+                "memory_gib": 16,
+                "accelerator_count": "1/4",
+                "accelerator_memory_gib": 8
+            },
+            {
+                "name": "Standard_NG16ads_V620_v1",
+                "vcpus": 16,
+                "memory_gib": 32,
+                "accelerator_count": "1/2",
+                "accelerator_memory_gib": 16
+            },
+            {
+                "name": "Standard_NG32ads_V620_v1",
+                "vcpus": 32,
+                "memory_gib": 64,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 32
+            },
+            {
+                "name": "Standard_NG32adms_V620_v1",
+                "vcpus": 32,
+                "memory_gib": 176,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 32
+            }
+        ]
+    },
+    "NP-series": {
+        "learn_series": "NP",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/fpga-accelerated/np-series",
+        "processor": "Intel Xeon 8171M (Skylake) [x86-64]",
+        "host_specifications": {
+            "vcpus": "10 - 40",
+            "memory_gib": "168 - 672",
+            "local_storage": "1 Disk; 736 - 2948 GiB",
+            "remote_storage": "8 - 32 Disks",
+            "network": "1 - 4 NICs; 7500 - 30000 Mbps",
+            "accelerators": "1 - 4 FPGAs; AMD Alveo U250 FPGA (64GB)"
+        },
+        "accelerator": {
+            "type": "FPGA",
+            "model": "AMD Alveo U250",
+            "memory_gib_each": 64
+        },
+        "sizes": [
+            {
+                "name": "Standard_NP10s",
+                "vcpus": 10,
+                "memory_gib": 168,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 64
+            },
+            {
+                "name": "Standard_NP20s",
+                "vcpus": 20,
+                "memory_gib": 336,
+                "accelerator_count": "2",
+                "accelerator_memory_gib": 128
+            },
+            {
+                "name": "Standard_NP40s",
+                "vcpus": 40,
+                "memory_gib": 672,
+                "accelerator_count": "4",
+                "accelerator_memory_gib": 256
+            }
+        ]
+    },
+    "NVads_V710_v5-series": {
+        "learn_series": "NVads_V710_v5",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nvadsv710-v5-series",
+        "processor": "AMD EPYC 9V64 F (Genoa) [x86-64]",
+        "host_specifications": {
+            "vcpus": "4 - 28",
+            "memory_gib": "16 - 160",
+            "local_storage": "2 - 14 Disks; 256 - 1536 GiB",
+            "remote_storage": "2 - 14 Disks; 7600 - 53200 IOPS; 180 - 1260 MBps",
+            "network": "2 - 8 NICs; 3300 - 20000 Mbps",
+            "accelerators": "1/6 - 1 GPUs; AMD Radeon Pro V710 GPU (24GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "AMD Radeon Pro V710",
+            "memory_gib_each": 24
+        },
+        "sizes": [
+            {
+                "name": "Standard_NV4ads_V710_v5",
+                "vcpus": 4,
+                "memory_gib": 16,
+                "accelerator_count": "1/6",
+                "accelerator_memory_gib": 4
+            },
+            {
+                "name": "Standard_NV8ads_V710_v5",
+                "vcpus": 8,
+                "memory_gib": 32,
+                "accelerator_count": "1/3",
+                "accelerator_memory_gib": 8
+            },
+            {
+                "name": "Standard_NV12ads_V710_v5",
+                "vcpus": 12,
+                "memory_gib": 64,
+                "accelerator_count": "1/2",
+                "accelerator_memory_gib": 12
+            },
+            {
+                "name": "Standard_NV24ads_V710_v5",
+                "vcpus": 24,
+                "memory_gib": 128,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 24
+            },
+            {
+                "name": "Standard_NV28adms_V710_v5",
+                "vcpus": 28,
+                "memory_gib": 160,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 24
+            }
+        ]
+    },
+    "NVadsA10_v5-series": {
+        "learn_series": "NVadsA10_v5",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nvadsa10v5-series",
+        "processor": "AMD EPYC 74F3v (Milan) [x86-64]",
+        "host_specifications": {
+            "vcpus": "6 - 72",
+            "memory_gib": "55 - 880",
+            "local_storage": "1 Disk; 180 - 2880 GiB",
+            "remote_storage": "4 - 32 Disks; 6400 - 80000 IOPS; 100 - 1200 MBps",
+            "network": "1 - 8 NICs; 5000 - 80000 Mbps; Interfaces: NetVSC, ConnectX",
+            "accelerators": "1/6 - 2 GPUs; NVIDIA A10 GPU (24GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA A10",
+            "memory_gib_each": 24
+        },
+        "sizes": [
+            {
+                "name": "Standard_NV6ads_A10_v5",
+                "vcpus": 6,
+                "memory_gib": 55,
+                "accelerator_count": "1/6",
+                "accelerator_memory_gib": 4
+            },
+            {
+                "name": "Standard_NV12ads_A10_v5",
+                "vcpus": 12,
+                "memory_gib": 110,
+                "accelerator_count": "1/3",
+                "accelerator_memory_gib": 8
+            },
+            {
+                "name": "Standard_NV18ads_A10_v5",
+                "vcpus": 18,
+                "memory_gib": 220,
+                "accelerator_count": "1/2",
+                "accelerator_memory_gib": 12
+            },
+            {
+                "name": "Standard_NV36ads_A10_v5",
+                "vcpus": 36,
+                "memory_gib": 440,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 24
+            },
+            {
+                "name": "Standard_NV36adms_A10_v5",
+                "vcpus": 36,
+                "memory_gib": 880,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 24
+            },
+            {
+                "name": "Standard_NV72ads_A10_v5",
+                "vcpus": 72,
+                "memory_gib": 880,
+                "accelerator_count": "2",
+                "accelerator_memory_gib": 48
+            }
+        ]
+    },
+    "NVv3-Series": {
+        "learn_series": "NVv3",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nvv3-series",
+        "processor": "Intel Xeon E5-2690 v4 (Broadwell) [x86-64]",
+        "host_specifications": {
+            "vcpus": "12 - 48",
+            "memory_gib": "112 - 448",
+            "local_storage": "1 Disk; 320 - 1280 GiB",
+            "remote_storage": "12 - 32 Disks",
+            "network": "4 - 8 NICs; 6000 - 24000 Mbps",
+            "accelerators": "1 - 4 GPUs; NVIDIA Tesla M60 GPU (16GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "NVIDIA Tesla M60",
+            "memory_gib_each": 16
+        },
+        "sizes": [
+            {
+                "name": "Standard_NV12s_v3",
+                "vcpus": 12,
+                "memory_gib": 112,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 16
+            },
+            {
+                "name": "Standard_NV24s_v3",
+                "vcpus": 24,
+                "memory_gib": 224,
+                "accelerator_count": "2",
+                "accelerator_memory_gib": 32
+            },
+            {
+                "name": "Standard_NV48s_v3",
+                "vcpus": 48,
+                "memory_gib": 448,
+                "accelerator_count": "4",
+                "accelerator_memory_gib": 64
+            }
+        ]
+    },
+    "NVv4-Series": {
+        "learn_series": "NVv4",
+        "source_url": "https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/nvv4-series",
+        "processor": "AMD EPYC 7V12 (Rome) [x86-64]",
+        "host_specifications": {
+            "vcpus": "4 - 32",
+            "memory_gib": "14 - 112",
+            "local_storage": "1 Disk; 88 - 704 GiB",
+            "remote_storage": "4 - 32 Disks; 6400 - 51200 IOPS; 96 - 768 MBps",
+            "network": "2 - 8 NICs; 1000 - 8000 Mbps",
+            "accelerators": "1/8 - 1 GPUs; AMD Instinct MI25 GPU (16GB)"
+        },
+        "accelerator": {
+            "type": "GPU",
+            "model": "AMD Instinct MI25",
+            "memory_gib_each": 16
+        },
+        "sizes": [
+            {
+                "name": "Standard_NV4as_v4",
+                "vcpus": 4,
+                "memory_gib": 14,
+                "accelerator_count": "1/8",
+                "accelerator_memory_gib": 2
+            },
+            {
+                "name": "Standard_NV8as_v4",
+                "vcpus": 8,
+                "memory_gib": 28,
+                "accelerator_count": "1/4",
+                "accelerator_memory_gib": 4
+            },
+            {
+                "name": "Standard_NV16as_v4",
+                "vcpus": 16,
+                "memory_gib": 56,
+                "accelerator_count": "1/2",
+                "accelerator_memory_gib": 8
+            },
+            {
+                "name": "Standard_NV32as_v4",
+                "vcpus": 32,
+                "memory_gib": 112,
+                "accelerator_count": "1",
+                "accelerator_memory_gib": 16
+            }
+        ]
+    }
+}
