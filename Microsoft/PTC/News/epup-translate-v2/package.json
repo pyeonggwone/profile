@@ -1,0 +1,23 @@
+{
+    "name": "epup-translate-v2",
+    "version": "2.0.0",
+    "private": true,
+    "type": "module",
+    "description": "EPUB translator (Linux/AlmaLinux 9) using JSZip + cheerio, format-preserving in-place text replacement.",
+    "main": "epub_translate.mjs",
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "start": "node epub_translate.mjs"
+    },
+    "dependencies": {
+        "better-sqlite3": "^11.3.0",
+        "cheerio": "^1.0.0",
+        "commander": "^12.1.0",
+        "dotenv": "^16.4.5",
+        "jszip": "^3.10.1",
+        "openai": "^4.67.0",
+        "picocolors": "^1.1.0"
+    }
+}

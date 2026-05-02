@@ -1,0 +1,25 @@
+{
+    "name": "epup-translate-v1",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "EPUB translator using epub.js core, format-preserving in-place text replacement.",
+    "main": "epub_translate.mjs",
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "start": "node epub_translate.mjs"
+    },
+    "dependencies": {
+        "better-sqlite3": "^11.3.0",
+        "cheerio": "^1.0.0",
+        "commander": "^12.1.0",
+        "dotenv": "^16.4.5",
+        "epubjs": "^0.3.93",
+        "jsdom": "^25.0.1",
+        "jszip": "^3.10.1",
+        "openai": "^4.67.0",
+        "picocolors": "^1.1.0"
+    }
+}

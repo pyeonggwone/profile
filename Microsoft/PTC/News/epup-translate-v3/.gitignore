@@ -1,0 +1,7 @@
+node_modules/
+.env
+work/
+output/
+input/*.epub
+input/done/
+!input/.gitkeep
