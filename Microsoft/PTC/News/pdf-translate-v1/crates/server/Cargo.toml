@@ -1,0 +1,35 @@
+[package]
+name = "pdftr_server"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "pdftr-server"
+path = "src/main.rs"
+
+[dependencies]
+pdf_core = { workspace = true, features = ["serde"] }
+pdf_reader.workspace = true
+pdf_filters.workspace = true
+pdf_writer.workspace = true
+pdf_incremental = { workspace = true, features = ["serde"] }
+pdf_analysis = { workspace = true, features = ["serde"] }
+pdf_render_plan = { workspace = true, features = ["serde"] }
+
+tokio.workspace = true
+axum.workspace = true
+tower.workspace = true
+tower-http.workspace = true
+hyper.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+log.workspace = true
+env_logger.workspace = true
+thiserror.workspace = true
+sha2.workspace = true
+hex.workspace = true

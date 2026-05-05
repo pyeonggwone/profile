@@ -1,0 +1,25 @@
+[package]
+name = "pdf_incremental"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+pdf_core.workspace = true
+pdf_reader.workspace = true
+pdf_writer.workspace = true
+pdf_filters.workspace = true
+thiserror.workspace = true
+log.workspace = true
+base64.workspace = true
+serde = { workspace = true, optional = true }
+
+[features]
+default = ["serde"]
+serde = ["dep:serde", "pdf_core/serde"]
+
+[dev-dependencies]
+pdf_analysis.workspace = true
+pdf_render_plan.workspace = true

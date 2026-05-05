@@ -1,0 +1,17 @@
+[package]
+name = "pdf_render_plan"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+pdf_core.workspace = true
+pdf_reader.workspace = true
+pdf_analysis.workspace = true
+serde = { workspace = true, optional = true }
+
+[features]
+default = ["serde"]
+serde = ["dep:serde", "pdf_core/serde", "pdf_analysis/serde"]

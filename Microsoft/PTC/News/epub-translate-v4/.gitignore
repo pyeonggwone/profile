@@ -1,0 +1,10 @@
+.env
+node_modules/
+work/
+output/
+ebook-metadata/
+input/*
+!input/.gitkeep
+!input/done/
+input/done/*
+!input/done/.gitkeep

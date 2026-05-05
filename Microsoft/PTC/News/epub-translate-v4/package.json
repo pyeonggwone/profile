@@ -1,0 +1,26 @@
+{
+    "name": "epub-translate-v4",
+    "version": "4.0.0",
+    "private": true,
+    "type": "module",
+    "description": "Native multi-format ebook translator for EPUB, AZW3, MOBI, and KFX",
+    "main": "src/index.mjs",
+    "scripts": {
+        "start": "node src/index.mjs",
+        "translate": "node src/index.mjs"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "dependencies": {
+        "better-sqlite3": "^11.3.0",
+        "commander": "^12.1.0",
+        "csv-parse": "^5.5.6",
+        "dotenv": "^16.4.5",
+        "fast-xml-parser": "^4.5.0",
+        "jszip": "^3.10.1",
+        "openai": "^4.68.0",
+        "parse5": "^7.2.1",
+        "parse5-htmlparser2-tree-adapter": "^7.1.0"
+    }
+}
