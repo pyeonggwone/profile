@@ -1,0 +1,36 @@
+﻿,,회사 이름,회사 도메인(속성),주요 워크로드,기업 유형,특징
+CSP: ,라이선스 판매 + 구독 관리,MEGAZONE CLOUD,MSP / CSP,Azure,클라우드 MSP,국내 대형 클라우드 MSP
+MSP: ,클라우드 운영/관리 서비스,Bespin Global,MSP / CSP,Azure,클라우드 MSP,"글로벌 MSP, 운영 특화"
+SI: ,구축/컨설팅 중심,"DMOA Co.,Ltd",CSP / Distributor,Azure,유통 + 파트너 관리,Indirect CSP
+Distributor: ,총판,SPK Corp,SI / CSP,O365 / Azure,시스템 통합,공공/엔터프라이즈
+ISV: ,자체 제품/소프트웨어,S.Pin Technology,CSP / Distributor,Azure,총판 + 서비스,SCK + Bespin 합작
+Infra: ,DC/하드웨어/네트워크,Cnthoth,SI / Cloud,O365,시스템 통합,Modern Work 중심
+Training: ,교육 중심,Samsung SDS,SI / MSP,Azure,대기업 SI,그룹 IT
+,,LG CNS,SI / MSP,Azure,대기업 SI,대형 프로젝트
+,,SK(주),SI / MSP,Azure,대기업 SI,디지털 전환
+,,Kyndryl,Infra / MSP,Azure,글로벌 IT 서비스,IBM 분사
+,,DXC,SI / MSP,Azure,글로벌 IT 서비스,End-to-end 서비스
+,,ITEASY,CSP / SI,Azure,중소 SI,Azure 운영
+,,Tangunsoft,SI,O365,중소 SI,그룹웨어
+,,NETS,Security / SI,EMS,보안 IAM,인증/권한
+,,OpenSG,SI / Dev,Azure,개발/컨설팅,.NET 기반
+,,Trainocate,Training,Azure,교육,공인 교육
+,,Hewlett-Packard Korea,Hardware / Cloud,Azure,벤더,인프라
+,,OpenText,ISV,Dynamics,소프트웨어,EIM 솔루션
+,,AudioCodes,ISV / UC,Skype,통신 솔루션,음성/UC
+,,Equinix,DataCenter,Azure,인프라,DC / ExpressRoute
+,,Cloocus,MSP / CSP,Azure,클라우드 MSP,Azure 특화
+,,Maven Cloud Service,CSP / Training,O365,교육+서비스,교육센터 보유
+,,SoftwareONE,CSP / Licensing,Azure,글로벌 총판,라이선스
+,,Crayon,CSP / Distributor,Azure,총판,APAC 기반
+,,Goodmorning IT,SI / CSP,Azure,중소 SI,구축/컨설팅
+,,DB Inc.,SI / Cloud,Azure,IT 서비스,컨설팅+운영
+,,Gownet,SI,O365,통합 IT,Infra 구축
+,,Techdata,Distributor,Azure,총판,글로벌 유통
+,,Covision,ISV / SI,Exchange,그룹웨어,자체 SW
+,,HSO,SI / Consulting,Azure,컨설팅,비즈니스 솔루션
+,,YoungLimWon,ISV,ERP,ERP 벤더,자체 제품
+,,안랩클라우드메이트,MSP / Security,Azure,보안 + MSP,보안 특화
+,,TDI Play,BigData / SI,Azure,데이터,자체 기술
+,,코아인포메이션,CSP / SI,Azure,라이선스 + 구축,IT 솔루션
+,,MetanetX,SI / Cloud,Azure,금융 IT,시스템 구축
