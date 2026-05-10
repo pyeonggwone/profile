@@ -1,0 +1,13 @@
+.env
+node_modules/
+.venv/
+work/
+output/
+input/*
+!input/.gitkeep
+!input/done/
+input/done/*
+!input/done/.gitkeep
+__pycache__/
+*.pyc
+.DS_Store
