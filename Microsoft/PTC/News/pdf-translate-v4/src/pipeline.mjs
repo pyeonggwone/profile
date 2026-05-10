@@ -191,6 +191,8 @@ function flattenSegments(pages) {
                 segments.push({
                     id: segments.length,
                     page: page.page,
+                    pageWidth: page.width || 612,
+                    pageHeight: page.height || 792,
                     runIndex: visualLine.runs[0]?.index || 0,
                     x: line.x,
                     y: line.y,
@@ -348,28 +350,34 @@ async function translateSegments(segments, cfg, glossary) {
 
 function buildEdits(translatedSegments, cfg) {
     const edits = [];
+    const rebuildMode = (cfg.pdfBuildMode || 'rebuild') === 'rebuild';
     for (const segment of translatedSegments) {
         const text = segment.translated;
         if (text == null) continue;
-        if (text === segment.text && !cfg.keepOriginalLang) continue;
+        if (!rebuildMode && text === segment.text && !cfg.keepOriginalLang) continue;
         const baseSize = segment.fontSize || DEFAULT_FONT_SIZE;
-        const maxWidth = Math.max(24, Number(segment.maxWidth) || estimateTextWidth(segment.text, baseSize) || 160);
+        const pageWidth = Math.max(120, Number(segment.pageWidth) || 612);
+        const pageHeight = Math.max(120, Number(segment.pageHeight) || 792);
+        const top = Number.isFinite(segment.top) ? segment.top : segment.y - baseSize * 0.95;
+        const left = Number.isFinite(segment.left) ? segment.left : segment.x;
+        const right = Number.isFinite(segment.right) ? segment.right : segment.x + (Number(segment.maxWidth) || 160);
+        const sourceWidth = Math.max(8, right - left);
+        const maxWidth = Math.max(24, Number(segment.maxWidth) || estimateTextWidth(segment.text, baseSize) || sourceWidth || 160);
         const fontScale = ['kr', 'ch', 'jp'].includes(cfg.targetLang) ? cfg.pdfCjkSizeRatio : 1;
         const styleScale = segment.bold ? 0.98 : 1;
         const targetBaseSize = baseSize * fontScale * styleScale;
         const translatedWidth = estimateTextWidth(text, targetBaseSize);
-        const fitSize = translatedWidth > maxWidth
-            ? Math.max(cfg.pdfMinFontSize, Math.min(targetBaseSize, targetBaseSize * (maxWidth / translatedWidth)))
+        const rebuildMaxWidth = rebuildMode ? Math.max(maxWidth, Math.min(pageWidth - left - 8, translatedWidth * 0.72, maxWidth * 1.85)) : maxWidth;
+        const fitSize = translatedWidth > rebuildMaxWidth
+            ? Math.max(cfg.pdfMinFontSize, Math.min(targetBaseSize, targetBaseSize * (rebuildMaxWidth / translatedWidth)))
             : targetBaseSize;
-        const top = Number.isFinite(segment.top) ? segment.top : segment.y - baseSize * 0.95;
-        const left = Number.isFinite(segment.left) ? segment.left : segment.x;
-        const right = Number.isFinite(segment.right) ? segment.right : segment.x + maxWidth;
         const erasePadding = Math.max(0, Number(cfg.pdfErasePadding) || 0);
-        const rectHeight = Math.max(Number(segment.height) || 0, baseSize * 1.12, fitSize * 1.42);
+        const estimatedLines = rebuildMode ? Math.max(1, Math.ceil(translatedWidth / Math.max(24, rebuildMaxWidth))) : 1;
+        const rectHeight = Math.max(Number(segment.height) || 0, baseSize * 1.12, fitSize * 1.42, rebuildMode ? fitSize * 1.35 * estimatedLines : 0);
         const rectY = Math.max(0, top + erasePadding);
         const rectX = Math.max(0, left + erasePadding);
-        const rectWidth = Math.max(0, (right - left) - erasePadding * 2);
-        if ((cfg.pdfBuildMode || 'rebuild') !== 'rebuild') {
+        const rectWidth = Math.max(0, sourceWidth - erasePadding * 2);
+        if (!rebuildMode) {
             edits.push(addFilledRect({
                 page: segment.page,
                 x: rectX,
@@ -385,8 +393,8 @@ function buildEdits(translatedSegments, cfg) {
                 page: segment.page,
                 x: left,
                 y: Math.max(0, top),
-                width: Math.max(8, right - left),
-                height: Math.max(8, rectHeight + 1),
+                width: Math.max(8, rebuildMode ? rebuildMaxWidth : sourceWidth),
+                height: Math.max(8, Math.min(pageHeight - Math.max(0, top), rectHeight + fitSize * (rebuildMode ? 1.4 : 0.1))),
                 text,
                 fontPath,
                 fontName: segment.bold && cfg.pdfBoldFontPath ? 'PDFTrBold' : 'PDFTrRegular',

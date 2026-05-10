@@ -1,4 +1,4 @@
-# `glossary.csv` — pdf-translate-v3
+# `glossary.csv` — pdf-translate-v4
 
 LLM 번역 시 참조하는 용어집. system prompt 에 그대로 삽입되며, `protected=true` 인 용어는 placeholder 로 보호되어 LLM 응답에서도 원문 그대로 유지된다.
 

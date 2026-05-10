@@ -1,11 +1,11 @@
-# 런타임 디렉토리 — pdf-translate-v3
+# 런타임 디렉토리 — pdf-translate-v4
 
 `input/`, `output/`, `work/`, `input/done/` 의 역할과 lifecycle.
 
 ## 디렉토리 트리
 
 ```
-pdf-translate-v3/
+pdf-translate-v4/
 ├── input/                  # 사용자 입력 (.pdf)
 │   └── done/               # 번역 완료된 원본 자동 이동
 ├── output/                 # 번역 결과 (<stem>_KR.pdf)
@@ -24,7 +24,7 @@ pdf-translate-v3/
 - 일괄 모드(`./run-translate.sh`) 는 이 디렉토리를 스캔.
 - `~$*` 임시 파일은 자동 제외.
 - 디렉토리/심볼릭 링크는 무시 (`isFile()` 만 처리).
-- **읽기 전용 마인드**: APPLY 는 항상 incremental update 로 새 PDF 를 만들고, 원본은 변경하지 않는다.
+- **읽기 전용 마인드**: APPLY 는 원본을 변경하지 않고 `output/` 에 새 PDF 를 만든다.
 
 ## `input/done/`
 
@@ -53,7 +53,7 @@ pdf-translate-v3/
 - 한 파일 작업 단위. 파일명에서 확장자 제거 + 윈도우 금지 문자 `_` 치환.
 - `segments.json` (EXTRACT 산출) — 디버깅 / 재실행 가능.
 - `translated.json` (TRANSLATE 산출) — APPLY 직접 호출용.
-- `edits.json` (APPLY 직전 산출) — `EditOperation::AddText` 배열.
+- `edits.json` (APPLY 직전 산출) — 주로 `AddTextBoxEmbedded` 배열.
 - `error.json` (실패 시) — `{ source, reason, recordedAt }`.
 - 다음 실행 시 그대로 덮어씀 (보존 안 함).
 
@@ -79,14 +79,16 @@ Cargo.lock
 ```
 input/foo.pdf
   │
-  ▼  EXTRACT (pdftr text)
+  ▼  EXTRACT (PyMuPDF text)
 work/foo/segments.json
   │
   ▼  TRANSLATE (TM hit / miss + LLM batch)
 work/foo/translated.json   ←→  work/tm.sqlite
   │
-  ▼  APPLY (pdftr edit)
+  ▼  BUILD EDITS (AddTextBoxEmbedded)
 work/foo/edits.json    →    output/foo_KR.pdf
+  │                         ▲
+  │                         └─ REBUILD (새 PDF + image/vector drawing + translated text)
   │
   ▼  DONE
 input/done/foo.pdf
@@ -97,4 +99,4 @@ input/done/foo.pdf
 - 자동 정리(GC) 없음. `work/<stem>/` 는 사용자가 직접 관리.
 - 출력 파일 덮어쓰기 경고 없음 (overwrite).
 - 동시 실행 안전성 보장 안 함 (단일 사용자, 단일 프로세스 가정).
-- DRM / 암호 PDF 자동 우회 없음 (`from_bytes` 가 거부하면 EXTRACT 단계에서 실패).
+- DRM / 암호 PDF 자동 우회 없음 (PyMuPDF가 열 수 없으면 EXTRACT 단계에서 실패).

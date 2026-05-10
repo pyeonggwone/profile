@@ -1,0 +1,10 @@
+{
+  "jobId": "IDC-s-Worldwide-Personal-Computing-Device-Tracker-Taxonomy-2026-Update-1Q26---2026-Apr-20260510-121221",
+  "sourcePdf": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/pdf-translate-v6/input/IDC’s Worldwide Personal Computing Device Tracker Taxonomy, 2026 Update, 1Q26 - 2026 Apr.pdf",
+  "sourceLang": "en",
+  "targetLang": "kr",
+  "createdAt": "2026-05-10T12:12:21.944Z",
+  "updatedAt": "2026-05-10T12:12:24.312Z",
+  "status": "running",
+  "currentStep": "03_translate_text_objects"
+}

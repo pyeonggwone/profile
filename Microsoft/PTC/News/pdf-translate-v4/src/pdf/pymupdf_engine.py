@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import argparse
 import json
+import math
 import os
+import re
 import sys
 
 import fitz
@@ -259,12 +261,84 @@ def subset_fonts_if_possible(doc):
         return False
 
 
+def estimate_text_width(text, font_size):
+    units = 0.0
+    for char in str(text or ""):
+        if char == "\n":
+            continue
+        if char.isspace():
+            units += 0.33
+        elif re.match(r"[,.;:!?')\]}>]", char):
+            units += 0.28
+        elif ord(char) > 127:
+            units += 0.92
+        elif char in "ilI|":
+            units += 0.28
+        elif char in "mwMW":
+            units += 0.78
+        else:
+            units += 0.52
+    return units * font_size
+
+
+def wrap_text_to_width(text, width, font_size):
+    text = str(text or "")
+    if not text:
+        return ""
+    max_width = max(12.0, float(width) - 1.0)
+    token_pattern = re.compile(r"[A-Za-z0-9_./:%+\-]+|\s+|.", re.UNICODE)
+    wrapped_lines = []
+    for paragraph in text.splitlines() or [text]:
+        line = ""
+        for token in token_pattern.findall(paragraph):
+            if not token:
+                continue
+            if token.isspace():
+                token = " "
+            candidate = f"{line}{token}" if line else token.lstrip()
+            if line and estimate_text_width(candidate, font_size) > max_width:
+                wrapped_lines.append(line.rstrip())
+                line = token.lstrip()
+                while line and estimate_text_width(line, font_size) > max_width and len(line) > 1:
+                    chunk = ""
+                    for char in line:
+                        if chunk and estimate_text_width(chunk + char, font_size) > max_width:
+                            break
+                        chunk += char
+                    wrapped_lines.append(chunk.rstrip())
+                    line = line[len(chunk):].lstrip()
+            else:
+                line = candidate
+        wrapped_lines.append(line.rstrip())
+    return "\n".join(line for line in wrapped_lines if line != "")
+
+
+def text_rect_candidates(page, x, y, width, height, text, font_size):
+    page_width = float(page.rect.width)
+    page_height = float(page.rect.height)
+    max_width = max(8.0, page_width - x - 4.0)
+    max_height = max(8.0, page_height - y - 2.0)
+    natural_width = estimate_text_width(text, font_size)
+    line_height = max(5.0, font_size * 1.36)
+    expanded_width = min(max_width, max(width, natural_width * 0.72, width * 1.75))
+    line_count = max(1, math.ceil(natural_width / max(12.0, expanded_width)))
+    expanded_height = min(max_height, max(height, line_height * line_count + line_height * 0.65))
+    page_width_rect = min(max_width, max(expanded_width, natural_width * 0.9, width * 2.4))
+    page_line_count = max(1, math.ceil(natural_width / max(12.0, page_width_rect)))
+    page_height_rect = min(max_height, max(expanded_height, line_height * page_line_count + line_height))
+    return [
+        fitz.Rect(x, y, x + width, y + height),
+        fitz.Rect(x, y, x + expanded_width, y + expanded_height),
+        fitz.Rect(x, y, x + page_width_rect, y + page_height_rect),
+        fitz.Rect(x, y, x + max_width, y + max_height),
+    ]
+
+
 def insert_textbox(page, edit):
     x = float(edit.get("x") or 0)
     y = float(edit.get("y") or 0)
     width = max(8.0, float(edit.get("width") or 160))
     height = max(8.0, float(edit.get("height") or 20))
-    rect = fitz.Rect(x, y, x + width, y + height)
     text = str(edit.get("text") or "")
     size = max(4.0, float(edit.get("size") or 10.0))
     color = as_rgb(edit.get("color"), (0, 0, 0))
@@ -276,29 +350,36 @@ def insert_textbox(page, edit):
 
     current_size = size
     while current_size >= 4.0:
-        try:
-            result = page.insert_textbox(
-                rect,
-                text,
-                fontsize=current_size,
-                fontname=font_name,
-                color=color,
-                align=fitz.TEXT_ALIGN_LEFT,
-                overlay=True,
-                **font_args,
-            )
-        except Exception:
-            if font_args:
-                font_args = {}
-                font_name = "helv"
-                continue
-            raise
-        if result >= 0:
-            return current_size
+        for rect in text_rect_candidates(page, x, y, width, height, text, current_size):
+            wrapped_text = wrap_text_to_width(text, rect.width, current_size)
+            try:
+                result = page.insert_textbox(
+                    rect,
+                    wrapped_text,
+                    fontsize=current_size,
+                    fontname=font_name,
+                    color=color,
+                    align=fitz.TEXT_ALIGN_LEFT,
+                    overlay=True,
+                    **font_args,
+                )
+            except Exception:
+                if font_args:
+                    font_args = {}
+                    font_name = "helv"
+                    continue
+                raise
+            if result >= 0:
+                return current_size
         current_size -= 0.5
 
-    page.insert_text((x, y + size), text, fontsize=4.0, fontname=font_name, color=color, overlay=True, **font_args)
-    return 4.0
+    fallback_size = 4.0
+    line_height = fallback_size * 1.35
+    rect = fitz.Rect(x, y, page.rect.width - 4, page.rect.height - 2)
+    wrapped_text = wrap_text_to_width(text, rect.width, fallback_size)
+    for index, line in enumerate(wrapped_text.splitlines() or [text]):
+        page.insert_text((x, y + fallback_size + index * line_height), line, fontsize=fallback_size, fontname=font_name, color=color, overlay=True, **font_args)
+    return fallback_size
 
 
 def apply_edits(input_pdf, output_pdf, edits_path):

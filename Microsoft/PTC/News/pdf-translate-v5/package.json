@@ -1,0 +1,22 @@
+{
+    "name": "pdf-translate-v5",
+    "version": "5.0.0",
+    "private": true,
+    "type": "module",
+    "description": "Quality-first PDF translation pipeline design with per-feature PDF tools",
+    "scripts": {
+        "doctor": "bash run-v5.sh doctor",
+        "start": "bash run-v5.sh"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "dependencies": {
+        "better-sqlite3": "^11.3.0",
+        "commander": "^12.1.0",
+        "csv-parse": "^5.5.6",
+        "dotenv": "^16.4.5",
+        "openai": "^4.68.0",
+        "zod": "^3.23.8"
+    }
+}

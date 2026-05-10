@@ -1,4 +1,4 @@
-# `.env` / `.env.example` — pdf-translate-v3
+# `.env` / `.env.example` — pdf-translate-v4
 
 `dotenv` 가 자동 로드하는 환경 설정. `.env` 는 **gitignore 필수**, `.env.example` 은 키를 비운 템플릿으로 커밋.
 
@@ -44,9 +44,16 @@
 
 | 키 | 기본값 | 설명 |
 |---|---|---|
-| `PDF_ENGINE_BIN` | "" | `pdftr` 바이너리 경로. 비우면 `target/release/pdftr` 자동 탐색 |
-| `PDF_FONT_PATH` | "" | 한글 등 비-Latin 출력용 TrueType 폰트 경로 (현재 v1 CLI 가 미수신, TODO) |
-| `PDF_KEEP_ORIGINAL_LANG` | `false` | true 면 원본 위에 번역문을 덧씌움 (layout 정책 없음, 실험용) |
+| `PDF_ENGINE` | `pymupdf` | 기본 PDF 엔진. v4 기본값은 PyMuPDF rebuild |
+| `PDF_BUILD_MODE` | `rebuild` | `rebuild` 는 새 PDF 생성, `overlay` 는 v3식 원본 위 덧그림 |
+| `PYTHON_BIN` | platform 기본값 | PyMuPDF 엔진 실행용 Python |
+| `PDF_ENGINE_BIN` | "" | `PDF_ENGINE=pdftr` 일 때 사용할 fallback 바이너리 경로 |
+| `PDF_FONT_PATH` | 자동 탐색 | 한글 등 비-Latin 출력용 TrueType/OpenType 폰트 경로 |
+| `PDF_FONT_BOLD_PATH` | 자동 탐색 | bold text box 출력용 font 경로 |
+| `PDF_CJK_SIZE_RATIO` | `0.92` | CJK 글자 크기 보정 배율 |
+| `PDF_ERASE_PADDING` | `0.35` | overlay 모드에서 원문 덮기 padding. rebuild에서는 보조값 |
+| `PDF_MIN_FONT_SIZE` | `4.8` | text box fitting 중 줄일 수 있는 최소 글자 크기 |
+| `PDF_KEEP_ORIGINAL_LANG` | `false` | overlay 모드에서 원문 보존 여부. rebuild에서는 원본 text object를 복사하지 않음 |
 | `PDF_KEEP_INPUT` | `false` | true 면 input/ 의 원본을 done/ 으로 이동하지 않음 |
 
 ## 보안

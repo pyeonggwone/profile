@@ -1,0 +1,22 @@
+{
+    "name": "pdf-vision-translate-v1",
+    "version": "0.1.0",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "start": "node src/index.mjs",
+        "translate": "node src/index.mjs",
+        "render": "node src/index.mjs render",
+        "analyze": "node src/index.mjs analyze",
+        "compose": "node src/index.mjs compose"
+    },
+    "dependencies": {
+        "@pdf-lib/fontkit": "latest",
+        "better-sqlite3": "latest",
+        "commander": "latest",
+        "csv-parse": "latest",
+        "dotenv": "latest",
+        "openai": "latest",
+        "pdf-lib": "latest"
+    }
+}
