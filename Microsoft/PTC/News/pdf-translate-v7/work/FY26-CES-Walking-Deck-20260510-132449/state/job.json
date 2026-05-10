@@ -1,9 +1,0 @@
-{
-  "jobId": "FY26-CES-Walking-Deck-20260510-132449",
-  "sourcePdf": "/mnt/c/Users/v-kimpy/test/profile/Microsoft/PTC/News/pdf-translate-v7/input/FY26 CES Walking Deck.pdf",
-  "createdAt": "2026-05-10T13:24:49.493Z",
-  "updatedAt": "2026-05-10T13:24:49.536Z",
-  "status": "running",
-  "mode": "textless-structure-rebuild",
-  "currentStep": "02_extract_structure_manifest"
-}

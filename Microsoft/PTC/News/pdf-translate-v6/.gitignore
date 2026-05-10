@@ -11,3 +11,5 @@ input/done/*
 __pycache__/
 *.pyc
 .DS_Store
+.env
+.env
