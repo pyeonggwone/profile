@@ -1,0 +1,26 @@
+[package]
+name = "pdf_filters"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+pdf_core.workspace = true
+thiserror.workspace = true
+flate2.workspace = true
+log.workspace = true
+md-5.workspace = true
+sha2.workspace = true
+aes.workspace = true
+cbc.workspace = true
+jpeg-decoder.workspace = true
+fax.workspace = true
+
+[features]
+default = []
+# Enable when system has openjpeg / jbig2dec installed.
+jpx-openjpeg = []
+jbig2-jbig2dec = []
+mozjpeg-encode = []

@@ -1,0 +1,14 @@
+.env
+node_modules/
+work/
+output/
+input/*
+!input/.gitkeep
+!input/done/
+input/done/*
+!input/done/.gitkeep
+pdf-engine/target/
+pdf-engine/Cargo.lock
+crates/**/target/
+~$*
+*.log

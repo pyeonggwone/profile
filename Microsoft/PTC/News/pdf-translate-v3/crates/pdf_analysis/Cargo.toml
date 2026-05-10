@@ -1,0 +1,21 @@
+[package]
+name = "pdf_analysis"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+pdf_core.workspace = true
+pdf_reader.workspace = true
+pdf_filters.workspace = true
+thiserror.workspace = true
+log.workspace = true
+rustybuzz.workspace = true
+qcms.workspace = true
+serde = { workspace = true, optional = true }
+
+[features]
+default = ["serde"]
+serde = ["dep:serde", "pdf_core/serde"]

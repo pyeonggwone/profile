@@ -1,0 +1,76 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/pdf_core",
+    "crates/pdf_filters",
+    "crates/pdf_reader",
+    "crates/pdf_writer",
+    "crates/pdf_incremental",
+    "crates/pdf_analysis",
+    "crates/pdf_render_plan",
+    "crates/cli_tools",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.78"
+license = "MIT"
+publish = false
+
+[workspace.dependencies]
+# Local crates
+pdf_core = { path = "crates/pdf_core" }
+pdf_filters = { path = "crates/pdf_filters" }
+pdf_reader = { path = "crates/pdf_reader" }
+pdf_writer = { path = "crates/pdf_writer" }
+pdf_incremental = { path = "crates/pdf_incremental" }
+pdf_analysis = { path = "crates/pdf_analysis" }
+pdf_render_plan = { path = "crates/pdf_render_plan" }
+
+# External
+thiserror = "1.0"
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+# Pure-Rust zlib backend (miniz_oxide). Source-open standard implementation.
+# Production builds may swap this for the system `zlib 1.3.1` via the
+# `zlib-ng` or `zlib` features without changing the FilterAdapter API.
+flate2 = { version = "1.0", default-features = false, features = ["rust_backend"] }
+log = "0.4"
+env_logger = "0.11"
+tokio = { version = "1.37", features = ["full"] }
+axum = { version = "0.7", features = ["multipart", "macros"] }
+tower = "0.4"
+tower-http = { version = "0.5", features = ["cors", "fs", "trace"] }
+hyper = { version = "1.3" }
+uuid = { version = "1.8", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4.5", features = ["derive"] }
+sha2 = "0.10"
+hex = "0.4"
+base64 = "0.22"
+
+# RustCrypto primitives for PDF /Encrypt support (PDF spec §7.6)
+md-5 = "0.10"
+aes = "0.8"
+cbc = { version = "0.1", features = ["alloc"] }
+
+# JPEG decode (metadata + preview); encode via mozjpeg-sys behind feature
+jpeg-decoder = "0.3"
+
+# CCITT Group 3/4 fax codec (pure Rust, MIT, used by pdf-rs)
+fax = "0.2"
+
+# OpenType / shaping
+ttf-parser = "0.21"
+subsetter = "0.2"
+rustybuzz = "0.20"
+
+# ICC profile color management
+qcms = "0.3"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
