@@ -7,6 +7,11 @@ import sys
 import fitz
 
 
+def int_to_rgb(value):
+    number = int(value or 0)
+    return ((number >> 16) & 255, (number >> 8) & 255, number & 255)
+
+
 def as_rgb(value, default=(0, 0, 0)):
     if not isinstance(value, list) or len(value) != 3:
         return default
@@ -28,11 +33,61 @@ def span_text(span):
     return "".join(ch.get("c", "") for ch in chars)
 
 
+def sample_background(pix, bbox, text_color):
+    width = pix.width
+    height = pix.height
+    x0, y0, x1, y1 = [float(v) for v in bbox]
+    points = []
+    for x in (x0 + 1, (x0 + x1) / 2, x1 - 1):
+        points.append((x, y0 + 1))
+        points.append((x, y1 - 1))
+    for y in (y0 + 1, (y0 + y1) / 2, y1 - 1):
+        points.append((x0 + 1, y))
+        points.append((x1 - 1, y))
+
+    colors = []
+    for x, y in points:
+        px = int(round(x))
+        py = int(round(y))
+        if px < 0 or py < 0 or px >= width or py >= height:
+            continue
+        try:
+            color = pix.pixel(px, py)[:3]
+        except Exception:
+            continue
+        distance = sum(abs(int(color[i]) - int(text_color[i])) for i in range(3))
+        if distance > 48:
+            colors.append(tuple(int(c) for c in color))
+    if not colors:
+        return [1, 1, 1]
+
+    buckets = {}
+    for color in colors:
+        key = tuple(round(c / 16) * 16 for c in color)
+        buckets[key] = buckets.get(key, 0) + 1
+    dominant = max(buckets.items(), key=lambda item: item[1])[0]
+    return [round(max(0, min(255, c)) / 255, 4) for c in dominant]
+
+
+def style_from_span(span):
+    font = str(span.get("font") or "")
+    flags = int(span.get("flags") or 0)
+    lower = font.lower()
+    return {
+        "flags": flags,
+        "bold": bool(flags & 16) or "bold" in lower or "black" in lower or "semibold" in lower,
+        "italic": bool(flags & 2) or "italic" in lower or "oblique" in lower,
+        "serif": bool(flags & 4) or "serif" in lower or "times" in lower,
+        "monospace": bool(flags & 8) or "mono" in lower or "courier" in lower,
+    }
+
+
 def extract_pages(pdf_path):
     doc = fitz.open(pdf_path)
     pages = []
     flags = fitz.TEXT_PRESERVE_LIGATURES | fitz.TEXT_PRESERVE_WHITESPACE
     for page_index, page in enumerate(doc):
+        pix = page.get_pixmap(alpha=False)
         page_data = page.get_text("dict", flags=flags)
         runs = []
         for block_index, block in enumerate(page_data.get("blocks", [])):
@@ -47,6 +102,9 @@ def extract_pages(pdf_path):
                     bbox = span.get("bbox") or line_bbox
                     size = float(span.get("size") or max(1.0, bbox[3] - bbox[1]) or 10.0)
                     origin = span.get("origin") or [bbox[0], bbox[1] + size]
+                    color_int = int(span.get("color") or 0)
+                    color_rgb = int_to_rgb(color_int)
+                    style = style_from_span(span)
                     runs.append({
                         "text": text,
                         "x": float(origin[0]),
@@ -60,7 +118,10 @@ def extract_pages(pdf_path):
                         "font_size": size,
                         "font_resource": span.get("font", ""),
                         "font": span.get("font", ""),
-                        "color": int(span.get("color") or 0),
+                        "color": color_int,
+                        "color_rgb": [round(c / 255, 4) for c in color_rgb],
+                        "bg_color": sample_background(pix, bbox, color_rgb),
+                        **style,
                         "block": block_index,
                         "line": line_index,
                         "span": span_index,
@@ -111,10 +172,9 @@ def insert_textbox(page, edit):
     size = max(4.0, float(edit.get("size") or 10.0))
     color = as_rgb(edit.get("color"), (0, 0, 0))
     font_path = edit.get("fontPath") or edit.get("font_path") or ""
-    font_name = "helv"
+    font_name = str(edit.get("fontName") or edit.get("font_name") or "helv")
     font_args = {}
     if font_path:
-        font_name = "PDFTrFont"
         font_args["fontfile"] = font_path
 
     current_size = size

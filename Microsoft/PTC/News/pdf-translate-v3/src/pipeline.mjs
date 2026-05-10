@@ -69,6 +69,26 @@ function estimateTextWidth(text, fontSize) {
     return units * fontSize;
 }
 
+function rgbFromPdfInt(value, fallback = [0, 0, 0]) {
+    if (Array.isArray(value) && value.length === 3) return value.map((item) => Math.max(0, Math.min(1, Number(item) || 0)));
+    if (!Number.isFinite(Number(value))) return fallback;
+    const number = Number(value) >>> 0;
+    return [
+        ((number >> 16) & 255) / 255,
+        ((number >> 8) & 255) / 255,
+        (number & 255) / 255,
+    ].map((item) => Number(item.toFixed(4)));
+}
+
+function dominantBoolean(runs, key) {
+    return runs.filter((run) => !!run[key]).length >= Math.ceil(runs.length / 2);
+}
+
+function firstArray(runs, key, fallback) {
+    const found = runs.find((run) => Array.isArray(run[key]) && run[key].length === 3);
+    return found ? found[key].map((item) => Math.max(0, Math.min(1, Number(item) || 0))) : fallback;
+}
+
 function joinRuns(runs) {
     let out = '';
     let currentEnd = 0;
@@ -113,22 +133,34 @@ function splitVisualLine(runs, pageWidth) {
     if (current.length) groups.push(current);
     return groups.map((group) => {
         const x = Math.min(...group.map((run) => run.x));
+        const left = Math.min(...group.map((run) => Number.isFinite(run.left) ? run.left : run.x));
         const y = group.reduce((sum, run) => sum + run.y, 0) / group.length;
         const top = Math.min(...group.map((run) => Number.isFinite(run.top) ? run.top : run.y - (run.font_size || DEFAULT_FONT_SIZE)));
         const bottom = Math.max(...group.map((run) => Number.isFinite(run.bottom) ? run.bottom : run.y + 2));
+        const right = Math.max(...group.map((run) => Number.isFinite(run.right) ? run.right : run.x + estimateTextWidth(run.text, run.font_size || DEFAULT_FONT_SIZE)));
         const fontSize = Math.max(...group.map((run) => run.font_size || DEFAULT_FONT_SIZE));
         const estimatedEnd = Math.max(...group.map((run) => run.x + estimateTextWidth(run.text, run.font_size || fontSize)));
         const text = joinRuns(group);
         const naturalWidth = Math.max(estimateTextWidth(text, fontSize), estimatedEnd - x);
+        const bboxWidth = Math.max(0, right - left);
         return {
             x,
             y,
+            left,
+            right,
             top,
             bottom,
             height: Math.max(bottom - top, fontSize * 1.35),
             fontSize,
+            font: group[0]?.font || group[0]?.font_resource || '',
+            bold: dominantBoolean(group, 'bold'),
+            italic: dominantBoolean(group, 'italic'),
+            serif: dominantBoolean(group, 'serif'),
+            monospace: dominantBoolean(group, 'monospace'),
+            color: firstArray(group, 'color_rgb', rgbFromPdfInt(group[0]?.color)),
+            bgColor: firstArray(group, 'bg_color', [1, 1, 1]),
             text,
-            maxWidth: Math.max(24, Math.min(pageWidth - x - 24, naturalWidth + 6)),
+            maxWidth: Math.max(24, Math.min(pageWidth - x - 12, bboxWidth || naturalWidth + 2)),
             sourceRunCount: group.length,
         };
     }).filter((line) => line.text.trim());
@@ -162,7 +194,19 @@ function flattenSegments(pages) {
                     runIndex: visualLine.runs[0]?.index || 0,
                     x: line.x,
                     y: line.y,
+                    left: line.left,
+                    right: line.right,
+                    top: line.top,
+                    bottom: line.bottom,
+                    height: line.height,
                     fontSize: line.fontSize,
+                    font: line.font,
+                    bold: line.bold,
+                    italic: line.italic,
+                    serif: line.serif,
+                    monospace: line.monospace,
+                    color: line.color,
+                    bgColor: line.bgColor,
                     maxWidth: line.maxWidth,
                     sourceRunCount: line.sourceRunCount,
                     text: line.text,
@@ -310,31 +354,42 @@ function buildEdits(translatedSegments, cfg) {
         if (text === segment.text && !cfg.keepOriginalLang) continue;
         const baseSize = segment.fontSize || DEFAULT_FONT_SIZE;
         const maxWidth = Math.max(24, Number(segment.maxWidth) || estimateTextWidth(segment.text, baseSize) || 160);
-        const translatedWidth = estimateTextWidth(text, baseSize);
+        const fontScale = ['kr', 'ch', 'jp'].includes(cfg.targetLang) ? cfg.pdfCjkSizeRatio : 1;
+        const styleScale = segment.bold ? 0.98 : 1;
+        const targetBaseSize = baseSize * fontScale * styleScale;
+        const translatedWidth = estimateTextWidth(text, targetBaseSize);
         const fitSize = translatedWidth > maxWidth
-            ? Math.max(5.5, Math.min(baseSize, baseSize * (maxWidth / translatedWidth)))
-            : baseSize;
+            ? Math.max(cfg.pdfMinFontSize, Math.min(targetBaseSize, targetBaseSize * (maxWidth / translatedWidth)))
+            : targetBaseSize;
         const top = Number.isFinite(segment.top) ? segment.top : segment.y - baseSize * 0.95;
-        const rectHeight = Math.max(Number(segment.height) || 0, baseSize * 1.35, fitSize * 1.65);
-        const rectY = Math.max(0, top - 1.5);
+        const left = Number.isFinite(segment.left) ? segment.left : segment.x;
+        const right = Number.isFinite(segment.right) ? segment.right : segment.x + maxWidth;
+        const erasePadding = Math.max(0, Number(cfg.pdfErasePadding) || 0);
+        const rectHeight = Math.max(Number(segment.height) || 0, baseSize * 1.12, fitSize * 1.42);
+        const rectY = Math.max(0, top + erasePadding);
+        const rectX = Math.max(0, left + erasePadding);
+        const rectWidth = Math.max(0, (right - left) - erasePadding * 2);
         edits.push(addFilledRect({
             page: segment.page,
-            x: Math.max(0, segment.x - 1.5),
+            x: rectX,
             y: rectY,
-            width: maxWidth + 3,
-            height: rectHeight + 3,
+            width: rectWidth || maxWidth,
+            height: Math.max(0, rectHeight - erasePadding * 2),
+            color: segment.bgColor || [1, 1, 1],
         }));
         if ((cfg.pdfEngine || 'pymupdf') === 'pymupdf' && cfg.pdfFontPath) {
+            const fontPath = segment.bold && cfg.pdfBoldFontPath ? cfg.pdfBoldFontPath : cfg.pdfFontPath;
             edits.push(addTextBoxEmbedded({
                 page: segment.page,
-                x: segment.x,
-                y: rectY + 1,
-                width: maxWidth,
-                height: rectHeight + 2,
+                x: left,
+                y: Math.max(0, top),
+                width: Math.max(8, right - left),
+                height: Math.max(8, rectHeight + 1),
                 text,
-                fontPath: cfg.pdfFontPath,
+                fontPath,
+                fontName: segment.bold && cfg.pdfBoldFontPath ? 'PDFTrBold' : 'PDFTrRegular',
                 size: fitSize,
-                color: [0, 0, 0],
+                color: segment.color || [0, 0, 0],
             }));
             continue;
         }

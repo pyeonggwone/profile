@@ -124,10 +124,21 @@ pdf-translate-v3/
 
 v3 의 기본 엔진은 MuPDF/PyMuPDF 이다. 텍스트 bbox, font size, page geometry 를 PyMuPDF로 추출하고, 번역문은 원문 영역을 whiteout 한 뒤 `insert_textbox` 방식으로 같은 좌표 박스에 삽입한다.
 
+추출/적용 단계에서 다음 정보를 보존한다.
+
+- 원본 bbox (`left/right/top/bottom`) 기반 텍스트 박스 배치
+- 원본 글자색과 배경색 샘플링
+- bold/italic/serif/monospace font flags
+- 테이블/도형 경계선 침범을 줄이는 내부 erase padding
+- CJK 폰트 크기 보정 (`PDF_CJK_SIZE_RATIO`)
+
 ```env
 PDF_ENGINE=pymupdf
 PYTHON_BIN=python3
 PDF_FONT_PATH=/usr/share/fonts/truetype/nanum/NanumGothic.ttf
+PDF_FONT_BOLD_PATH=/usr/share/fonts/truetype/nanum/NanumGothicBold.ttf
+PDF_CJK_SIZE_RATIO=0.92
+PDF_ERASE_PADDING=0.35
 ```
 
 Windows venv에서 직접 실행할 때는 예를 들어:

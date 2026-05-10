@@ -20,7 +20,16 @@ PDF_FONT_PATH=/usr/share/fonts/truetype/nanum/NanumGothic.ttf
 
 EXTRACT 응답은 기존 `pdftr text` 와 호환되도록 `page`, `width`, `height`, `runs[]` 형태를 유지한다. PyMuPDF 엔진은 추가로 `top`, `bottom`, `left`, `right`, `width`, `height`, `font`, `color` 를 포함한다.
 
+현재 PyMuPDF 엔진은 span 별로 다음 스타일 정보를 추가한다.
+
+- `color_rgb`: 원본 글자색
+- `bg_color`: bbox 주변 픽셀 샘플 기반 배경색
+- `bold`, `italic`, `serif`, `monospace`: PyMuPDF font flags 및 font name 기반 스타일 추정
+- `flags`: PyMuPDF span flags 원본값
+
 APPLY 단계는 원문 영역을 `FillRect` 로 덮고, 번역문을 `AddTextBoxEmbedded` 로 같은 bbox 영역에 삽입한다. 텍스트가 박스에 들어가지 않으면 font size 를 0.5pt 단위로 줄인다.
+
+테이블과 도형 내부 텍스트는 원본 bbox보다 약간 안쪽만 지우도록 `PDF_ERASE_PADDING` 을 적용한다. 흰색 고정 배경 대신 `bg_color` 를 사용하므로 색상 박스/다이어그램 라벨의 시각적 이질감을 줄인다.
 
 ## fallback 엔진 — `pdftr` CLI
 

@@ -26,6 +26,16 @@ function firstExisting(paths) {
     return '';
 }
 
+function defaultPdfBoldFontPath(targetLang) {
+    if (!['kr', 'ch', 'jp'].includes(targetLang)) return '';
+    return firstExisting([
+        '/mnt/c/Windows/Fonts/malgunbd.ttf',
+        '/usr/share/fonts/truetype/nanum/NanumGothicBold.ttf',
+        '/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc',
+        '/usr/share/fonts/google-noto-cjk/NotoSansCJK-Bold.ttc',
+    ]);
+}
+
 function defaultPdfFontPath(targetLang) {
     if (!['kr', 'ch', 'jp'].includes(targetLang)) return '';
     return firstExisting([
@@ -65,6 +75,10 @@ export function loadConfig(options = {}) {
         pdfEngineBin: process.env.PDF_ENGINE_BIN || '',
         pythonBin: process.env.PYTHON_BIN || (process.platform === 'win32' ? 'python' : 'python3'),
         pdfFontPath: process.env.PDF_FONT_PATH || defaultPdfFontPath(targetLang),
+        pdfBoldFontPath: process.env.PDF_FONT_BOLD_PATH || defaultPdfBoldFontPath(targetLang),
+        pdfCjkSizeRatio: num(process.env.PDF_CJK_SIZE_RATIO, 0.92),
+        pdfErasePadding: num(process.env.PDF_ERASE_PADDING, 0.35),
+        pdfMinFontSize: num(process.env.PDF_MIN_FONT_SIZE, 4.8),
         keepOriginalLang: bool(process.env.PDF_KEEP_ORIGINAL_LANG, false),
         keepInput: bool(process.env.PDF_KEEP_INPUT, false) || !!options.keepInput,
         resetTm: !!options.resetTm,
