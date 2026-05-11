@@ -370,6 +370,13 @@ fn env_bool(key: &str) -> bool {
         .unwrap_or(false)
 }
 
+fn env_bool_or_default(key: &str, default: bool) -> bool {
+    std::env::var(key)
+        .ok()
+        .map(|value| matches!(value.trim().to_ascii_lowercase().as_str(), "1" | "true" | "yes" | "on"))
+        .unwrap_or(default)
+}
+
 fn env_usize_or_default(key: &str, default: usize) -> usize {
     std::env::var(key)
         .ok()
@@ -901,7 +908,13 @@ fn translate_part(
                     value
                 } else if allow_degraded_tools() {
                     chunk_report.status = "degraded".to_string();
-                    let mut items_by_id: BTreeMap<String, TranslationResultItem> = value.items.into_iter().map(|item| (item.id.clone(), item)).collect();
+                    let requested_ids: BTreeSet<String> = chunk.iter().map(|item| item.id.clone()).collect();
+                    let mut items_by_id: BTreeMap<String, TranslationResultItem> = value
+                        .items
+                        .into_iter()
+                        .filter(|item| requested_ids.contains(&item.id))
+                        .map(|item| (item.id.clone(), item))
+                        .collect();
                     for item in chunk {
                         items_by_id.entry(item.id.clone()).or_insert_with(|| TranslationResultItem { id: item.id.clone(), translated: item.text.clone() });
                     }
@@ -1189,6 +1202,13 @@ fn convert_pdf_input(paths: &Paths) -> Result<()> {
                                 .and_then(|cmap| pdf_cmap::encode_with_cmap(&translated, cmap).ok());
                             if let Some(value) = cmap_encoded {
                                 ("to-unicode-reverse-cmap".to_string(), "ok".to_string(), Some(value), Vec::new())
+                            } else if allow_degraded_tools() && env_or_default("ENCODE_UNSUPPORTED_POLICY", "preserve-original") == "preserve-original" {
+                                (
+                                    "preserve-original-unencodable".to_string(),
+                                    "ok".to_string(),
+                                    Some(run.text_payload.encoded_original.clone()),
+                                    vec![format!("ENCODE_UNSUPPORTED_PRESERVED_ORIGINAL: {err}")],
+                                )
                             } else {
                                 let fallback = font_fallback_encode_issue(&paths.root, &run, &translated, &err.to_string());
                                 (fallback.0, "failed".to_string(), None, vec![fallback.1])
@@ -1197,12 +1217,26 @@ fn convert_pdf_input(paths: &Paths) -> Result<()> {
                     }
                 };
                 run.text_payload.decoded_original = decoded_original;
-                run.text_payload.decoded_translated = Some(translated);
+                run.text_payload.decoded_translated = if method == "preserve-original-unencodable" {
+                    run.text_payload.decoded_original.clone()
+                } else {
+                    Some(translated)
+                };
                 run.text_payload.replacement_encoded = replacement_encoded;
                 encode_report.total += 1;
                 *encode_report.methods.entry(method.clone()).or_insert(0) += 1;
                 if status == "ok" {
                     encode_report.ok_count += 1;
+                    for issue in &issues {
+                        encode_report.issues.push(ReportIssue {
+                            id: Some(run.id.clone()),
+                            stage: Some("encode".to_string()),
+                            code: issue_code_from_message(issue),
+                            severity: "warning".to_string(),
+                            message: issue.clone(),
+                            recoverable: true,
+                        });
+                    }
                 } else {
                     encode_report.failed_count += 1;
                     encode_report.ok = false;
@@ -1581,15 +1615,28 @@ fn write_qdf_reference_report(paths: &Paths, raw: &RawPdfTextState) -> Result<()
 
 fn layout_info(source: &str, text_state: &TextState) -> LayoutInfo {
     let matrix = text_state.text_matrix;
-    let estimated_width = text_state.font_size.map(|font_size| {
+    let font_size = text_state.font_size.or(Some(env_f64_or_default("LAYOUT_DEFAULT_FONT_SIZE", 10.0)));
+    let horizontal_scaling = Some(text_state.horizontal_scaling);
+    let source_visual_units = Some(visual_units(source));
+    let spacing_visual_units = font_size.map(|font_size| spacing_visual_units(source, text_state, font_size));
+    let estimated_width = font_size.map(|font_size| {
         let scale = text_state.horizontal_scaling / 100.0;
-        source.chars().count() as f64 * font_size * 0.5 * scale
+        (source_visual_units.unwrap_or_default() + spacing_visual_units.unwrap_or_default()) * font_size * scale
     });
     let bbox = match (matrix, estimated_width, text_state.font_size) {
         (Some(matrix), Some(width), Some(height)) => Some([matrix[4], matrix[5], matrix[4] + width, matrix[5] + height]),
         _ => None,
     };
-    LayoutInfo { matrix, bbox, estimated_width }
+    LayoutInfo { matrix, bbox, estimated_width, font_size, horizontal_scaling, source_visual_units, spacing_visual_units }
+}
+
+fn spacing_visual_units(source: &str, text_state: &TextState, font_size: f64) -> f64 {
+    let scale = (text_state.horizontal_scaling / 100.0).max(0.01);
+    let chars = source.chars().count().saturating_sub(1) as f64;
+    let spaces = source.chars().filter(|ch| ch.is_whitespace()).count() as f64;
+    let char_spacing_units = if font_size > 0.0 { chars * text_state.char_spacing.max(0.0) / font_size / scale } else { 0.0 };
+    let word_spacing_units = if font_size > 0.0 { spaces * text_state.word_spacing.max(0.0) / font_size / scale } else { 0.0 };
+    char_spacing_units + word_spacing_units
 }
 
 fn write_feature_reports(paths: &Paths) -> Result<()> {

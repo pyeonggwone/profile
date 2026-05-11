@@ -7,23 +7,21 @@
   "validatedPdf": null,
   "rejectedPdf": "output/rejected/IDC’s Worldwide Personal Computing Device Tracker Taxonomy, 2026 Update, 1Q26 - 2026 Apr_V9.pdf",
   "sourceSha256": "7884527c3221c927062b33911892d55df959ef6cef35c9264728a3d7d038e9dd",
-  "outputSha256": "cc8b44a3fa522b22d87195dfddd972e291580a1f528bc3812becb59b925ca48f",
+  "outputSha256": "5630da6ed18b3f0e37f7c868270482887759a8819213bcdb6fea90241e888fef",
   "degraded": true,
   "translationError": true,
   "textRuns": 5769,
-  "changedTextRuns": 1460,
-  "unchangedTextRuns": 4309,
-  "encodeOk": 4742,
-  "encodeFailed": 1027,
+  "changedTextRuns": 1159,
+  "unchangedTextRuns": 4610,
+  "encodeOk": 5769,
+  "encodeFailed": 0,
   "rebuildOk": false,
-  "rebuildReplaced": 4704,
-  "rebuildFailed": 1065,
+  "rebuildReplaced": 1157,
+  "rebuildFailed": 2,
   "validationOk": false,
   "notes": [
     "OpenAI translation failed or was skipped; unchanged text may have been reused",
-    "1027 text run(s) could not be encoded with the original font/CMap",
     "rebuild report is not ok; degraded mode may have copied the source PDF",
-    "qpdf validation did not pass or was skipped",
-    "translation report has missing, duplicate, unknown, or fallback items"
+    "qpdf validation did not pass or was skipped"
   ]
 }

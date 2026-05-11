@@ -150,7 +150,7 @@ fn build_prompt(input: &TranslationInput, source_lang: &str, target_lang: &str) 
     let terms = serde_json::to_string_pretty(&input.terms).unwrap_or_else(|_| "[]".to_string());
     let items = serde_json::to_string_pretty(&input.items).unwrap_or_else(|_| "[]".to_string());
     format!(
-        "Translate from {source_lang} to {target_lang}. Preserve terms with mode=preserve. Fixed translations must be applied exactly.\nterms:\n{terms}\nitems:\n{items}\nReturn JSON object: {{\"items\":[{{\"id\":\"...\",\"translated\":\"...\"}}]}}"
+        "Translate from {source_lang} to {target_lang}. Preserve terms with mode=preserve. Fixed translations must be applied exactly. If an item includes layoutLimit, keep the translated text visually compact enough to fit maxVisualUnits; maxHangulChars is the rough Korean character budget for that PDF text line. Do not pad with repeated spaces.\nterms:\n{terms}\nitems:\n{items}\nReturn JSON object: {{\"items\":[{{\"id\":\"...\",\"translated\":\"...\"}}]}}"
     )
 }
 

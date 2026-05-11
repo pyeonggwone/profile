@@ -36,6 +36,9 @@ pub fn rebuild_pdf(source: &Path, input: &PdfInputTextState, output: &Path) -> R
                 continue;
             }
         };
+        if replacement == original {
+            continue;
+        }
         if range.end > content.len() || range.start >= range.end {
             report.ok = false;
             report.failed.push(issue(Some(run.id.clone()), "REBUILD_RANGE_OUT_OF_BOUNDS", "operandRange out of bounds"));
