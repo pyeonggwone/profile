@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import math
 import os
 import re
 import shutil
@@ -36,6 +37,7 @@ class Config:
     openai_model: str
     min_font_size: float
     max_shrink_steps: int
+    text_font_file: str
 
 
 def now_iso() -> str:
@@ -105,6 +107,7 @@ def load_config(base_dir: Path, args: argparse.Namespace) -> Config:
         openai_model=env("OPENAI_MODEL", "gpt-4.1-mini"),
         min_font_size=float(env("FIT_TEXT_MIN_FONT_SIZE", "4") or 4),
         max_shrink_steps=int(env("FIT_TEXT_MAX_SHRINK_STEPS", "16") or 16),
+        text_font_file=env("TEXT_FONT_FILE") or env("PDF_TEXT_FONT_FILE") or env("PDF_CJK_FONT_FILE"),
     )
 
 
@@ -144,6 +147,43 @@ def color_value(value: Any) -> list[float] | None:
     if isinstance(value, (list, tuple)):
         return [float(item) for item in value[:3]]
     return None
+
+
+def int_value(value: Any, default: int = 0) -> int:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def float_value(value: Any, default: float = 0.0) -> float:
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def line_rotation(direction: Any) -> int:
+    dx, dy = point_value(direction)
+    if abs(dx) < 1e-6 and abs(dy) < 1e-6:
+        return 0
+    angle = math.degrees(math.atan2(dy, dx)) % 360
+    cardinal = min((0, 90, 180, 270), key=lambda item: abs(((angle - item + 180) % 360) - 180))
+    if abs(((angle - cardinal + 180) % 360) - 180) <= 2.0:
+        return cardinal
+    return 0
+
+
+def text_from_chars(chars: list[dict[str, Any]]) -> str:
+    return "".join(str(char.get("c") or "") for char in chars)
+
+
+def serialize_char(char: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "c": str(char.get("c") or ""),
+        "origin": point_value(char.get("origin")),
+        "bbox": bbox_dict(char.get("bbox")),
+    }
 
 
 def serialize_path_item(item: Any) -> dict[str, Any]:
@@ -208,6 +248,7 @@ class Pipeline:
         self.pdf_dir = self.job_dir / "pdf"
         self.tm_path = config.work_dir / "tm.sqlite"
         self.job_path = self.state_dir / "job.json"
+        self._resolved_text_font_file: str | None = None
 
     def log(self, message: str) -> None:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}", flush=True)
@@ -317,15 +358,17 @@ class Pipeline:
 
     def extract_text_spans(self, page: Any, page_number: int) -> list[dict[str, Any]]:
         records = []
-        text_dict = page.get_text("dict") or {}
+        text_dict = page.get_text("rawdict") or {}
         for block_index, block in enumerate(text_dict.get("blocks", [])):
             if block.get("type") != 0:
                 continue
             for line_index, line in enumerate(block.get("lines", [])):
                 for span_index, span in enumerate(line.get("spans", [])):
-                    text = str(span.get("text") or "")
+                    chars = [serialize_char(char) for char in span.get("chars", []) if str(char.get("c") or "")]
+                    text = str(span.get("text") or text_from_chars(chars))
                     if not text.strip():
                         continue
+                    origin = point_value(span.get("origin") or (chars[0].get("origin") if chars else None))
                     records.append({
                         "type": "text",
                         "id": f"p{page_number:04d}-text-{len(records):05d}",
@@ -337,6 +380,16 @@ class Pipeline:
                         "font": str(span.get("font") or ""),
                         "fontSize": float(span.get("size") or 10),
                         "color": color_value(span.get("color")) or [0.0, 0.0, 0.0],
+                        "alpha": float_value(span.get("alpha"), 1.0),
+                        "origin": origin,
+                        "lineDirection": point_value(line.get("dir") or [1.0, 0.0]),
+                        "writingMode": int_value(line.get("wmode"), 0),
+                        "flags": int_value(span.get("flags"), 0),
+                        "charFlags": int_value(span.get("char_flags"), 0),
+                        "ascender": float_value(span.get("ascender"), 0.0),
+                        "descender": float_value(span.get("descender"), 0.0),
+                        "chars": chars,
+                        "writeStrategy": "state-origin",
                         "block": block_index,
                         "line": line_index,
                         "span": span_index,
@@ -485,24 +538,87 @@ class Pipeline:
             return
         page.insert_image(rect, filename=str(image_path), keep_proportion=False, overlay=True)
 
-    def draw_translated_text(self, page: Any, obj: dict[str, Any]) -> None:
+    def resolve_text_font_file(self) -> str:
+        if self._resolved_text_font_file is not None:
+            return self._resolved_text_font_file
+        candidates = []
+        if self.config.text_font_file:
+            configured = Path(self.config.text_font_file)
+            candidates.append(configured if configured.is_absolute() else self.config.base_dir / configured)
+        candidates.extend([
+            Path("/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"),
+            Path("/usr/share/fonts/google-noto-cjk/NotoSansCJK-Regular.ttc"),
+            Path("/usr/share/fonts/noto-cjk/NotoSansCJK-Regular.ttc"),
+            Path("/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc"),
+            Path("/mnt/c/Windows/Fonts/malgun.ttf"),
+            Path("C:/Windows/Fonts/malgun.ttf"),
+            Path("C:/Windows/Fonts/arial.ttf"),
+        ])
+        for candidate in candidates:
+            if candidate.exists():
+                self._resolved_text_font_file = str(candidate)
+                return self._resolved_text_font_file
+        self._resolved_text_font_file = ""
+        return self._resolved_text_font_file
+
+    def font_kwargs_for_text(self, obj: dict[str, Any], text: str) -> dict[str, Any]:
+        font_file = self.resolve_text_font_file()
+        if font_file and any(ord(char) > 0x7F for char in text):
+            return {"fontname": "v6text", "fontfile": font_file}
+        font = str(obj.get("font") or "").lower()
+        if "cour" in font or "mono" in font:
+            return {"fontname": "cour"}
+        if "times" in font or "georgia" in font or "serif" in font:
+            return {"fontname": "tiro"}
+        return {"fontname": "helv"}
+
+    def insert_text_state(self, page: Any, obj: dict[str, Any], point: list[float], text: str, font_size: float, rotate: int) -> bool:
         import fitz  # type: ignore
 
+        if not text:
+            return True
+        params: dict[str, Any] = {
+            "fontsize": font_size,
+            "color": tuple(obj.get("color") or [0, 0, 0]),
+            "rotate": rotate,
+            "overlay": True,
+        }
+        params.update(self.font_kwargs_for_text(obj, text))
+        alpha = float_value(obj.get("alpha"), 1.0)
+        if alpha < 1.0:
+            params["fill_opacity"] = alpha
+        try:
+            page.insert_text(fitz.Point(float(point[0]), float(point[1])), text, **params)
+            return True
+        except Exception:
+            params.pop("fontfile", None)
+            params["fontname"] = "helv"
+            try:
+                page.insert_text(fitz.Point(float(point[0]), float(point[1])), text, **params)
+                return True
+            except Exception:
+                return False
+
+    def draw_translated_text(self, page: Any, obj: dict[str, Any]) -> None:
         bbox = obj.get("bbox") or {}
-        rect = fitz.Rect(float(bbox.get("left") or 0), float(bbox.get("top") or 0), float(bbox.get("right") or 0), float(bbox.get("bottom") or 0))
-        if rect.is_empty:
-            return
         text = str(obj.get("translated") or obj.get("source") or "")
-        font_size, wrapped = self.fit_text_to_rect(text, rect, float(obj.get("fontSize") or 10))
-        page.insert_textbox(
-            rect,
-            "\n".join(wrapped),
-            fontsize=font_size,
-            fontname="helv",
-            color=tuple(obj.get("color") or [0, 0, 0]),
-            align=0,
-            overlay=True,
-        )
+        if not text:
+            return
+        font_size = max(self.config.min_font_size, float_value(obj.get("fontSize"), 10.0))
+        rotate = line_rotation(obj.get("lineDirection") or [1.0, 0.0])
+        source = str(obj.get("source") or "")
+        chars = obj.get("chars") if isinstance(obj.get("chars"), list) else []
+        if text == source and chars and text_from_chars(chars) == source:
+            for char in chars:
+                char_text = str(char.get("c") or "")
+                if not char_text:
+                    continue
+                self.insert_text_state(page, obj, point_value(char.get("origin")), char_text, font_size, rotate)
+            return
+        origin = point_value(obj.get("origin"))
+        if origin == [0.0, 0.0]:
+            origin = [float_value(bbox.get("left"), 0.0), float_value(bbox.get("bottom"), 0.0)]
+        self.insert_text_state(page, obj, origin, text, font_size, rotate)
 
     def fit_text_to_rect(self, text: str, rect: Any, base_font_size: float) -> tuple[float, list[str]]:
         font_size = max(self.config.min_font_size, base_font_size)

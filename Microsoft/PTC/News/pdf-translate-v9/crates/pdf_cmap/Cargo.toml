@@ -1,0 +1,9 @@
+[package]
+name = "pdf_cmap"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+hex.workspace = true
+pdf_models = { path = "../pdf_models" }

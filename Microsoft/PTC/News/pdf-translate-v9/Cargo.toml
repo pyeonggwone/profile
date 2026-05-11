@@ -1,0 +1,32 @@
+[workspace]
+members = [
+    "crates/pdf_cli",
+    "crates/pdf_cmap",
+    "crates/pdf_core",
+    "crates/pdf_models",
+    "crates/pdf_qpdf",
+    "crates/pdf_rebuild",
+    "crates/pdf_reports",
+    "crates/pdf_state_db",
+    "crates/pdf_terms",
+    "crates/pdf_text_state",
+    "crates/pdf_translate_openai",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+
+[workspace.dependencies]
+anyhow = "1"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4", features = ["derive"] }
+hex = "0.4"
+lopdf = "0.32"
+regex = "1"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+rusqlite = { version = "0.31", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"

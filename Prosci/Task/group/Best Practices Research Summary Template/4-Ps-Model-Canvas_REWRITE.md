@@ -1,48 +1,47 @@
-# Project Summary
-
-## Group Number
-Group 4
-
-## Project Organisation
-HLS Partner Organization?
-
->> Microsoft MCEM (Microsoft Customer Engagement Model) — Internal program led by the MCEM Council, spanning all customer-facing field segments.
-
-## Project Name
-MCEM Agentic Transformation
-
-## Project Description, Background, Scope and Objectives
-
-Establish a trusted, role-relevant single source of truth by de-duplicating and restructuring MSEM content into a governed "unique facts" model (canon, exceptions, and guidance etc.) that can reliably power Copilot/agent experiences.
-
-The scope includes content cleanup, taxonomy/metadata (e.g., roles impacted), and governance alignment across core and field stakeholders to improve readiness, adoption, and consistent seller/partner outcomes.
-
->> The change is fundamentally behavioral. Content creators (Core, SEL, BSO) must shift how they author and govern content. Field roles (ATU, STU, CSU) must shift how they find and consume content — moving from manual search to Copilot/agent-assisted retrieval. Without this behavioral change, the technical infrastructure will not deliver value.
-
-## Areas or Groups in the Organization Impacted by the Change
-
-Impacts all MCEM Council-aligned segments and roles across Enterprise, SMe&C, and SMB (e.g., ATU, STU, CSU, CSA, PSS, ISD, Services), as well as cross-cutting functions including RTIs, BSO, SEL, Core, and the MCEM Council itself—spanning both field execution and governance layers.
-
->> Primary impacted groups for change management focus:
->> - **Content authors** (Core, SEL, BSO): must adopt "unique facts" authoring model and governance workflow
->> - **Field roles** (ATU, STU, CSU): must shift to Copilot/agent-first content retrieval in daily selling and customer success motions
->> - **Governance participants** (MCEM Council, RTIs): must adopt new review and alignment processes
-
-## Project Management Methodology
-
-Sequential / Iterative / Hybrid *(delete as appropriate)*
-
->> **Hybrid** — Governance and content taxonomy design follows a sequential structure (defined milestones, staged rollout). Copilot/agent experience improvement is iterative (sprint-based, feedback-driven).
-
-## Primary Sponsor
-
-Steven / Sarah / Alfredo?
-
->> Recommend confirming a single executive sponsor at MCEM Council level with visible commitment — ideally the leader accountable for both field enablement and content governance (e.g., Alfredo as CBO-aligned). A single named sponsor is required for Prosci PCT model application.
-
-## Key Managers and Stakeholders
-
-?
-
->> - **Key Managers** (directly coach impacted employees through the change): Segment Leads (Enterprise, SMe&C, SMB), RTI Leads, SEL regional leads
->> - **Key Stakeholders** (influence or are affected by the outcome): MCEM Council members, BSO, Core Content team, ISD, CSU leadership
+4 P's Model Canvas — Rewrite
+Project: MCEM Agentic Transformation
+Author of rewrite: Nandie Oosthuizen
+Status: Full rewrite of teammate's draft using the broader MCEM context (political dynamics, R&R contention, governance ownership gap, landing accountability ambiguity, AI/agent enablement, FY27 Workers Council reinvention learnings, and the Prosci Change Triangle realities).
+Adoption Challenge
+Build sustained, accountable ownership of MCEM content governance and landing across an unaligned sponsor coalition and a Council whose members do not yet experience a personal need to own the change — so MCEM becomes a trusted single source of truth that reliably powers Copilot, agent experiences, and field execution.
+The technical and content workstreams (de-duplication, canon/exception/guidance restructuring, taxonomy alignment, AI grounding) are necessary but not sufficient. The dominant adoption challenge is the people side: shifting behavior from restating to linking, from inventory-driven intake to source-of-truth-driven intake, from "landing as an afterthought" to landing as planning discipline, and from diffuse Council/RTL/SEL/BSO accountability to clearly owned R&R.
+Project — What is the project?
+The MCEM Agentic Transformation (Group 3, MCAPS) re-architects how MCEM exists, is governed, lands in the field, and is consumed by humans and AI. It establishes a trusted, role-relevant single source of truth by de-duplicating and restructuring MCEM content into a governed "unique facts" model — canonical content, documented exceptions, and supporting guidance — with clear ownership, lifecycle management, and lineage. That governed model becomes the grounding layer for Copilot, the Landing agent, and other AI/agent experiences, and it underpins a redesigned landing motion that treats landing as part of planning and execution rather than as a downstream activity.
+The project is delivered using a Hybrid project-management methodology, sequenced against MCAPS planning, Workers Council, and FY27 landing milestones. It builds on three operating shifts already proven at smaller scale: (1) a connected intake model across taxonomy, HR, and business that replaced the legacy change inventory in FY27 Workers Council; (2) a behavioral shift from restating large bodies of content to linking to authoritative sources; and (3) AI-assisted views (post-intake change reconstruction, duplication/conflict detection, country-level visibility) that make a governed source of truth practically usable.
+Sponsorship status (must be explicit): the named sponsors today — Steven Ross, Alfredo Ramirez, and Sarah Crowe — are senior and visible, but they are not aligned on the operating model, on landing R&R, or on what "done" looks like. A precondition for adoption is naming a single primary sponsor (recommended: Steven Ross) and securing a written, signed-off MCEM operating model and landing R&R map across the three.
+Purpose — Why are we changing?
+Today MCEM content is duplicated across Core, segments, RTLs, SEL, BSO, and field channels; the same facts are restated in multiple decks, hubs, and tools, drift out of sync, and are slow to update. Council members do not feel accountable for content lifecycle. Landing is treated as a downstream task disconnected from planning, with contested R&R between Council members, RTLs, SEL, and BSO — which produces last-minute scrambles, low landing quality, and weak adoption signals at fiscal transition.
+This same fragmentation now blocks AI: Copilot and emerging agents (including the Landing agent) cannot ground reliably on MCEM content because the content lacks canonicality, governance, and lineage. Without a trusted single source of truth, AI surfaces inconsistent or stale answers, which erodes seller trust and limits the value of the broader AI investment.
+We are changing because:
+1.	Field outcomes: sellers, partners, and managers need consistent, current, role-relevant MCEM content to execute. Restated, drifting content is a tax on every seller motion and every fiscal transition.
+2.	AI readiness: Copilot and agent experiences require governed, canonical, lineage-aware content to ground on. The single largest lever for AI value in MCAPS is a trusted MCEM source of truth.
+3.	Landing effectiveness: treating landing as part of planning — with clear R&R between Council, RTLs, SEL, and BSO — reduces fiscal-transition delta and rework, and makes change actually stick.
+4.	Operating cost and risk: removing duplication reduces governance overhead, lowers the risk of conflicting guidance reaching the field, and shortens the time from decision to landed change.
+5.	Strategic coherence: MCEM is the connective tissue across taxonomy, Workers Council, planning, and landing. Without a governed model, every adjacent process pays the cost of MCEM fragmentation.
+Particulars — What are we changing?
+We are changing five connected things in parallel:
+6.	Content model and lifecycle. Replace duplicated, restated content with a governed three-layer model — canon (authoritative facts), exceptions (documented deviations with owners), and guidance (interpretive, role-relevant supporting content). Each layer has named owners, lifecycle states, review cadences, and deprecation rules.
+7.	Governance and R&R. Re-establish the MCEM Council as a working governance body with explicit accountability for canon ownership, exception adjudication, and lifecycle decisions. Resolve the contested R&R for landing between Council members, RTLs, SEL, and BSO with a written, signed-off landing R&R map.
+8.	Intake model. Move from a change-inventory-driven intake (which duplicated and restated decisions made elsewhere) to a source-of-truth-driven intake that pulls from approved strategic decisions, taxonomy, HR, and business — with AI-assisted reconstruction of structured change views, duplication and conflict detection, and country-level visibility. Builds on the FY27 Workers Council pilot.
+9.	Landing motion. Shift landing from a downstream activity to an integrated part of planning and execution. Use existing rhythms (segment leader / manager / IC cadences). Define landing accountability per role group. Reduce fiscal-transition delta by minimizing last-minute changes and rework.
+10.	AI-enabled experiences. Make canonical MCEM content the grounding layer for Copilot and agents. Continue contributing to the Landing agent. Use AI views (duplication, conflict, dependency, country-level visibility) to operate the source of truth at scale. Bring an AI-forward POV into the CM framework itself.
+We are deliberately not changing role taxonomy or compensation structures as part of this project — the change is in expectation and accountability for governance and landing, not in formal job design.
+People — Who will be changing?
+Impacts every MCEM Council-aligned segment and role across Enterprise, SME&C, and SMB, plus the cross-cutting governance layer. Below are the groups, ordered by adoption-criticality (how much project value depends on this group's behavior change):
+11.	MCEM Council Exec Members and SMEs. Highest behavior-change burden. Must own canon, exceptions, and lifecycle decisions; must consume and reinforce the governed model rather than restate it; must show up in coalition-building. Today, ownership is weak and inconsistent.
+12.	Sponsors (Steven Ross, Alfredo Ramirez, Sarah Crowe and their leadership chains). Must align on operating model, name a primary sponsor, sign off on landing R&R, and visibly back the change. Today, they are unaligned.
+13.	RTLs, SEL, and BSO. Must accept and operate within a clarified landing R&R that distinguishes their accountability from Council members'. Today, the ambiguity benefits them, so resistance is likely.
+14.	Core teams (taxonomy, HR partners, planning, transformation enablement). Must operate the connected intake model and the source-of-truth governance plumbing day-to-day.
+15.	Segment leaders and managers (CSU, STU, ATU, CSA, ISD, PSS, Services, SMB). Must consume governed content, link rather than restate, integrate landing into planning rhythms, and reinforce expectations downward.
+16.	Field ICs (sellers, CSAMs, CSAs, PSS, ISD delivery). Primary consumers. Behavior change is mostly passive (use governed content, surface gaps, trust AI-grounded answers), but their experience determines whether the change is judged a success.
+17.	AI/Copilot and agent product teams (incl. Landing agent). Must ground on canonical MCEM content; partner on lineage, freshness, and quality signals.
+18.	Workers Council, country leads, and HR. Continue operating in the connected intake model, including the structured Excel intake and AI-driven country-level views.
+Project Percentage — What % of project outcomes depends on people doing their job differently?
+~85%. The technical and content engineering work (de-duplication, restructuring, taxonomy alignment, agent grounding) is enabling, not value-producing. Value is realized only when sponsors align, Council members own canon, RTLs/SEL/BSO accept clarified landing R&R, segments link rather than restate, and field consumes the governed model with confidence. If we ship the technical model perfectly and behavior does not change, the project fails.
+Notes for the teammate (delta vs. your draft)
+•	Project box — added explicit sponsorship-alignment status because it is the single largest risk and any reader of this canvas needs to see it on page one.
+•	Project Percentage — your draft left this blank; recommend ~85% to anchor the conversation that this is fundamentally a people-side project.
+•	Purpose box — your draft was generic ("create trusted single source of truth"). Replaced with five concrete drivers: field outcomes, AI readiness, landing effectiveness, operating cost/risk, strategic coherence.
+•	Particulars box — your draft narrowed scope to content cleanup and taxonomy. Expanded to the five connected workstreams, including governance/R&R, the new intake model, the landing motion shift, and AI-enabled experiences.
+•	People box — your draft listed groups but did not rank by adoption-criticality. Re-ordered so the reader immediately sees that Council, sponsors, and RTLs/SEL/BSO are where the behavior-change risk concentrates.
+•	Adoption Challenge — your draft ("Adopt the governed MCEM content model across Core and field stakeholders") was too generic and did not name the political reality. Replaced with a specific, candid statement that names sponsor alignment, Council ownership, and R&R contention as the actual challenge.

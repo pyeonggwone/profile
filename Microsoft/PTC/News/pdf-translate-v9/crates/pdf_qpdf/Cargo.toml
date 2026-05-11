@@ -1,0 +1,8 @@
+[package]
+name = "pdf_qpdf"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+pdf_models = { path = "../pdf_models" }

@@ -1,0 +1,11 @@
+[package]
+name = "pdf_text_state"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+lopdf.workspace = true
+pdf_core = { path = "../pdf_core" }
+pdf_cmap = { path = "../pdf_cmap" }
+pdf_models = { path = "../pdf_models" }

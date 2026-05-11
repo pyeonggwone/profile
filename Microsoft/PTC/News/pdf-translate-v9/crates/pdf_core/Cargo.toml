@@ -1,0 +1,9 @@
+[package]
+name = "pdf_core"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+lopdf.workspace = true
+pdf_models = { path = "../pdf_models" }

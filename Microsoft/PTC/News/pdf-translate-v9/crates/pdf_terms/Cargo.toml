@@ -1,0 +1,8 @@
+[package]
+name = "pdf_terms"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+regex.workspace = true
+pdf_models = { path = "../pdf_models" }

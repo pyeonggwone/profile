@@ -1,0 +1,10 @@
+[package]
+name = "pdf_rebuild"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+lopdf.workspace = true
+pdf_core = { path = "../pdf_core" }
+pdf_models = { path = "../pdf_models" }

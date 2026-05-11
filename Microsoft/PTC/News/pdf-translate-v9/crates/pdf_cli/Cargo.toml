@@ -1,0 +1,25 @@
+[package]
+name = "pdf_cli"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+hex.workspace = true
+pdf_cmap = { path = "../pdf_cmap" }
+pdf_models = { path = "../pdf_models" }
+pdf_qpdf = { path = "../pdf_qpdf" }
+pdf_rebuild = { path = "../pdf_rebuild" }
+pdf_reports = { path = "../pdf_reports" }
+pdf_state_db = { path = "../pdf_state_db" }
+pdf_terms = { path = "../pdf_terms" }
+pdf_text_state = { path = "../pdf_text_state" }
+pdf_translate_openai = { path = "../pdf_translate_openai" }
+
+[[bin]]
+name = "pdf-translate-v9"
+path = "src/main.rs"

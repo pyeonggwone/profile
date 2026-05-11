@@ -1,0 +1,11 @@
+[package]
+name = "pdf_state_db"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+chrono.workspace = true
+hex.workspace = true
+rusqlite.workspace = true
+sha2.workspace = true
