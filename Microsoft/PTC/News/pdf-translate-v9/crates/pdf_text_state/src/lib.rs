@@ -1,7 +1,8 @@
 use anyhow::Result;
 use lopdf::Dictionary;
-use pdf_core::LoadedPdf;
+use pdf_core::{FontResourceInfo, LoadedPdf};
 use pdf_models::*;
+use std::collections::BTreeMap;
 use std::path::Path;
 
 #[derive(Debug, Clone)]
@@ -15,7 +16,7 @@ pub fn extract_raw_text_state(source: &Path) -> Result<RawPdfTextState> {
     let pdf = LoadedPdf::open(source)?;
     let mut pages = Vec::new();
     for stream in pdf.content_streams()? {
-        let text_runs = parse_stream(stream.page, stream.object_id.0, &stream.decoded, stream.resources.as_ref());
+        let text_runs = parse_stream(stream.page, stream.object_id.0, &stream.decoded, stream.resources.as_ref(), &stream.font_resources);
         pages.push(RawPage {
             page: stream.page,
             contents: vec![RawContentStream {
@@ -27,9 +28,11 @@ pub fn extract_raw_text_state(source: &Path) -> Result<RawPdfTextState> {
     Ok(RawPdfTextState { pages })
 }
 
-fn parse_stream(page: u32, stream_xref: u32, bytes: &[u8], resources: Option<&Dictionary>) -> Vec<RawTextRun> {
+fn parse_stream(page: u32, stream_xref: u32, bytes: &[u8], resources: Option<&Dictionary>, fonts: &BTreeMap<String, FontResourceInfo>) -> Vec<RawTextRun> {
     let tokens = tokenize(bytes);
+    let block_ranges = text_block_ranges(&tokens);
     let mut state = TextState::default();
+    let mut state_stack: Vec<TextState> = Vec::new();
     let mut sequence: Vec<OperatorSnapshot> = Vec::new();
     let mut runs = Vec::new();
     let mut counter = 1;
@@ -37,8 +40,14 @@ fn parse_stream(page: u32, stream_xref: u32, bytes: &[u8], resources: Option<&Di
         let op = tokens[index].text.as_str();
         match op {
             "BT" | "ET" => sequence.push(OperatorSnapshot { op: op.to_string(), font: None, size: None, matrix: None }),
+            "q" => state_stack.push(state.clone()),
+            "Q" => {
+                if let Some(previous) = state_stack.pop() {
+                    state = previous;
+                }
+            }
             "Tf" if index >= 2 => {
-                state.font = Some(tokens[index - 2].text.clone());
+                state.font = Some(normalize_resource_name(&tokens[index - 2].text));
                 state.font_size = tokens[index - 1].text.parse::<f64>().ok();
                 sequence.push(OperatorSnapshot { op: "Tf".to_string(), font: state.font.clone(), size: state.font_size, matrix: None });
             }
@@ -54,14 +63,23 @@ fn parse_stream(page: u32, stream_xref: u32, bytes: &[u8], resources: Option<&Di
             "TL" if index >= 1 => state.leading = tokens[index - 1].text.parse().unwrap_or(state.leading),
             "Tr" if index >= 1 => state.render_mode = tokens[index - 1].text.parse().unwrap_or(state.render_mode),
             "Ts" if index >= 1 => state.rise = tokens[index - 1].text.parse().unwrap_or(state.rise),
+            "Td" if index >= 2 => apply_text_move(&mut state, tokens[index - 2].text.parse().unwrap_or(0.0), tokens[index - 1].text.parse().unwrap_or(0.0)),
+            "TD" if index >= 2 => {
+                state.leading = -tokens[index - 1].text.parse::<f64>().unwrap_or(-state.leading);
+                apply_text_move(&mut state, tokens[index - 2].text.parse().unwrap_or(0.0), tokens[index - 1].text.parse().unwrap_or(0.0));
+            }
+            "T*" => {
+                let leading = state.leading;
+                apply_text_move(&mut state, 0.0, -leading);
+            }
             "Tj" | "'" | "\"" if index >= 1 => {
                 let operand = tokens[index - 1].clone();
-                runs.push(make_run(page, stream_xref, counter, op, operand, &sequence, &state, resources));
+                runs.push(make_run(page, stream_xref, counter, op, operand, block_ranges[index].clone(), &sequence, &state, resources, fonts));
                 counter += 1;
             }
             "TJ" if index >= 1 => {
                 let operand = tokens[index - 1].clone();
-                runs.push(make_run(page, stream_xref, counter, op, operand, &sequence, &state, resources));
+                runs.push(make_run(page, stream_xref, counter, op, operand, block_ranges[index].clone(), &sequence, &state, resources, fonts));
                 counter += 1;
             }
             _ => {}
@@ -76,28 +94,31 @@ fn make_run(
     counter: usize,
     operator: &str,
     operand: Token,
+    text_block_range: Option<ByteRange>,
     sequence: &[OperatorSnapshot],
     state: &TextState,
     _resources: Option<&Dictionary>,
+    fonts: &BTreeMap<String, FontResourceInfo>,
 ) -> RawTextRun {
-    let (decoded, _, _) = pdf_cmap::decode_pdf_operand(&operand.text);
+    let font_state = state.font.as_ref().and_then(|font| fonts.get(font).map(|info| font_state_from_info(font, info))).unwrap_or_else(|| FontState {
+        resource_name: state.font.clone(),
+        font_object_ref: None,
+        subtype: None,
+        base_font: None,
+        encoding: None,
+        to_unicode_ref: None,
+    });
+    let (decoded, _, _) = decode_operand_with_font(&operand.text, state.font.as_ref().and_then(|font| fonts.get(font)));
     RawTextRun {
         id: format!("p{page:04}-s{stream_xref:04}-r{counter:05}"),
         restore_options: RestoreOptions {
             stream_xref,
             operator: operator.to_string(),
             operand_range: ByteRange { start: operand.start, end: operand.end },
-            text_block_range: None,
+            text_block_range,
             operator_sequence: sequence.to_vec(),
             text_state: state.clone(),
-            font_state: FontState {
-                resource_name: state.font.clone(),
-                font_object_ref: None,
-                subtype: None,
-                base_font: None,
-                encoding: None,
-                to_unicode_ref: None,
-            },
+            font_state,
         },
         text_payload: TextPayload {
             encoded_original: operand.text,
@@ -106,6 +127,64 @@ fn make_run(
             replacement_encoded: None,
         },
     }
+}
+
+fn decode_operand_with_font(encoded: &str, font: Option<&FontResourceInfo>) -> (Option<String>, String, Vec<String>) {
+    let decoded = pdf_cmap::decode_pdf_operand(encoded);
+    if decoded.0.is_some() {
+        return decoded;
+    }
+    let Some(cmap_bytes) = font.and_then(|info| info.to_unicode_cmap.as_ref()) else {
+        return decoded;
+    };
+    match pdf_cmap::parse_to_unicode_cmap(cmap_bytes) {
+        Ok(cmap) => {
+            let result = pdf_cmap::decode_with_cmap(encoded, &cmap);
+            (result.text, result.method, result.issues)
+        }
+        Err(err) => (decoded.0, decoded.1, vec![format!("ToUnicode CMap parse failed: {err}")]),
+    }
+}
+
+fn text_block_ranges(tokens: &[Token]) -> Vec<Option<ByteRange>> {
+    let mut ranges = vec![None; tokens.len()];
+    let mut block_start: Option<(usize, usize)> = None;
+    for (index, token) in tokens.iter().enumerate() {
+        if token.text == "BT" {
+            block_start = Some((index, token.start));
+        } else if token.text == "ET" {
+            if let Some((start_index, start)) = block_start.take() {
+                let range = ByteRange { start, end: token.end };
+                for slot in ranges.iter_mut().take(index + 1).skip(start_index) {
+                    *slot = Some(range.clone());
+                }
+            }
+        }
+    }
+    ranges
+}
+
+fn normalize_resource_name(value: &str) -> String {
+    value.trim_start_matches('/').to_string()
+}
+
+fn font_state_from_info(resource_name: &str, info: &FontResourceInfo) -> FontState {
+    FontState {
+        resource_name: Some(resource_name.to_string()),
+        font_object_ref: info.object_ref.clone(),
+        subtype: info.subtype.clone(),
+        base_font: info.base_font.clone(),
+        encoding: info.encoding.clone(),
+        to_unicode_ref: info.to_unicode_ref.clone(),
+    }
+}
+
+fn apply_text_move(state: &mut TextState, tx: f64, ty: f64) {
+    let mut matrix = state.line_matrix.unwrap_or([1.0, 0.0, 0.0, 1.0, 0.0, 0.0]);
+    matrix[4] += tx;
+    matrix[5] += ty;
+    state.line_matrix = Some(matrix);
+    state.text_matrix = Some(matrix);
 }
 
 fn parse_matrix(tokens: &[Token]) -> Option<[f64; 6]> {

@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "command": "qpdf --version",
+  "exit_code": null,
+  "stdout": "",
+  "stderr": "qpdf skipped in degraded mode: qpdf is required but no project-local executable candidate could be run. Put qpdf under tools/qpdf/bin inside this project. Tried: tools/qpdf/bin/qpdf: not found; tools/qpdf/qpdf: not found; tools/qpdf/bin/qpdf.exe: not found; tools/qpdf/qpdf.exe: not found; tools/bin/qpdf: not found; tools/bin/qpdf.exe: not found"
+}

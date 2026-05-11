@@ -48,6 +48,22 @@ impl StateDb {
                 model TEXT,
                 created_at TEXT NOT NULL
             );
+            CREATE TABLE IF NOT EXISTS validation_events (
+                job_id TEXT NOT NULL,
+                stage TEXT NOT NULL,
+                severity TEXT NOT NULL,
+                code TEXT NOT NULL,
+                item_id TEXT,
+                message TEXT NOT NULL,
+                created_at TEXT NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS terms (
+                term TEXT PRIMARY KEY,
+                translation TEXT,
+                mode TEXT NOT NULL,
+                source TEXT NOT NULL,
+                updated_at TEXT NOT NULL
+            );
             "#,
         )?;
         Ok(Self { conn })
@@ -79,6 +95,33 @@ impl StateDb {
         self.conn.execute(
             "INSERT INTO artifacts(job_id, kind, path, created_at) VALUES (?1, ?2, ?3, ?4)",
             params![job_id, kind, path, Utc::now().to_rfc3339()],
+        )?;
+        Ok(())
+    }
+
+    pub fn add_validation_event(
+        &self,
+        job_id: &str,
+        stage: &str,
+        severity: &str,
+        code: &str,
+        item_id: Option<&str>,
+        message: &str,
+    ) -> Result<()> {
+        self.conn.execute(
+            "INSERT INTO validation_events(job_id, stage, severity, code, item_id, message, created_at)
+             VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7)",
+            params![job_id, stage, severity, code, item_id, message, Utc::now().to_rfc3339()],
+        )?;
+        Ok(())
+    }
+
+    pub fn put_term(&self, term: &str, translation: Option<&str>, mode: &str, source: &str) -> Result<()> {
+        self.conn.execute(
+            "INSERT INTO terms(term, translation, mode, source, updated_at)
+             VALUES (?1, ?2, ?3, ?4, ?5)
+             ON CONFLICT(term) DO UPDATE SET translation = excluded.translation, mode = excluded.mode, source = excluded.source, updated_at = excluded.updated_at",
+            params![term, translation, mode, source, Utc::now().to_rfc3339()],
         )?;
         Ok(())
     }

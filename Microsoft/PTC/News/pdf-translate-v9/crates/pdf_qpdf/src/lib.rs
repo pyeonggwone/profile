@@ -46,9 +46,9 @@ pub fn check_pdf(path: &Path) -> Result<ValidationReport> {
 
 fn run_qpdf(args: &[QpdfArg]) -> Result<ValidationReport> {
     let display_args = display_args(args)?;
-    let (binary, output, resolved_args) = execute_qpdf(args)
+    let (binary, output, _) = execute_qpdf(args)
         .with_context(|| format!("failed to execute qpdf {}", display_args.join(" ")))?;
-    let command = format!("{binary} {}", resolved_args.join(" "));
+    let command = format!("{binary} {}", display_args.join(" "));
     Ok(ValidationReport {
         ok: output.status.success(),
         command,
@@ -64,8 +64,8 @@ fn execute_qpdf(args: &[QpdfArg]) -> Result<(String, Output, Vec<String>)> {
     for candidate in candidates {
         let resolved_args = resolve_args_for_binary(&candidate, args)?;
         match Command::new(&candidate).args(&resolved_args).output() {
-            Ok(output) => return Ok((candidate, output, resolved_args)),
-            Err(err) => errors.push(format!("{candidate}: {err}")),
+            Ok(output) => return Ok((display_path(Path::new(&candidate)), output, resolved_args)),
+            Err(err) => errors.push(format!("{}: {err}", display_path(Path::new(&candidate)))),
         }
     }
     if errors.is_empty() {
@@ -99,7 +99,7 @@ fn expected_qpdf_candidates() -> Vec<String> {
     if let Some(root) = root.as_deref() {
         return project_qpdf_candidate_paths(root)
             .into_iter()
-            .filter_map(|path| path.to_str().map(|value| value.to_string()))
+            .map(|path| display_path(&path))
             .collect();
     }
     vec![
@@ -189,7 +189,12 @@ fn resolve_args_for_binary(binary: &str, args: &[QpdfArg]) -> Result<Vec<String>
 }
 
 fn display_args(args: &[QpdfArg]) -> Result<Vec<String>> {
-    resolve_args_for_binary("qpdf", args)
+    args.iter()
+        .map(|arg| match arg {
+            QpdfArg::Raw(value) => Ok(value.clone()),
+            QpdfArg::Path(path) => Ok(display_path(path)),
+        })
+        .collect()
 }
 
 fn path_for_binary(binary: &str, path: &Path) -> Result<String> {
@@ -217,5 +222,13 @@ fn wsl_mnt_path_to_windows(path: &str) -> Option<String> {
         drive.to_ascii_uppercase(),
         tail.replace('/', "\\")
     ))
+}
+
+fn display_path(path: &Path) -> String {
+    project_root()
+        .and_then(|root| path.strip_prefix(root).ok().map(|value| value.to_path_buf()))
+        .unwrap_or_else(|| path.to_path_buf())
+        .to_string_lossy()
+        .replace('\\', "/")
 }
 

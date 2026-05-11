@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "mode": "off",
+  "status": "configured-policy-only",
+  "message": "fallback font settings are applied during encode failure handling; v9 does not inject new font resources and will report FONT_FALLBACK_* issues instead of silently substituting text"
+}

@@ -1,0 +1,6978 @@
+{
+  "ok": false,
+  "checkedItems": 5790,
+  "violations": [
+    {
+      "id": "p0002-s0034-r00025",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 분류법은 개인용 컴퓨팅 장치(PCDs)에 대한 포괄적인 개요와 정의를 제공합니다."
+    },
+    {
+      "id": "p0002-s0034-r00026",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "데스크탑, 노트북, 분리형 태블릿, 슬레이트 태블릿 및 워크스테이션 제품 카테고리를 포함합니다."
+    },
+    {
+      "id": "p0002-s0034-r00026",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "데스크탑, 노트북, 분리형 태블릿, 슬레이트 태블릿 및 워크스테이션 제품 카테고리를 포함합니다."
+    },
+    {
+      "id": "p0002-s0034-r00026",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "데스크탑, 노트북, 분리형 태블릿, 슬레이트 태블릿 및 워크스테이션 제품 카테고리를 포함합니다."
+    },
+    {
+      "id": "p0002-s0034-r00027",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이 문서에 제공된 정의는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0002-s0034-r00036",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 분류법은 기술, 공급업체, 지리 및 수익 지표별 분류를 포함하여 PCD 산업을 위한 시장 세분화 및 측정 방법론을 개략적으로 설명합니다."
+    },
+    {
+      "id": "p0002-s0034-r00037",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": " "
+    },
+    {
+      "id": "p0002-s0034-r00037",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": " "
+    },
+    {
+      "id": "p0002-s0034-r00042",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이 분류법은 전 세계 IDC 분석가들이 시장 규모 산정, 예측 및 시장 모델을 생성하는 데 사용됩니다."
+    },
+    {
+      "id": "p0002-s0034-r00087",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 문서는 IDC"
+    },
+    {
+      "id": "p0003-s0041-r00010",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "다음 섹션에서는 IDC"
+    },
+    {
+      "id": "p0003-s0041-r00018",
+      "term": "Personal",
+      "mode": "preserve",
+      "expected": "Personal",
+      "actual": "개인용 컴퓨팅 장치에는 데스크탑, 노트북, 분리형 태블릿, 슬레이트 태블릿 및 워크스테이션 제품 카테고리가 포함됩니다."
+    },
+    {
+      "id": "p0003-s0041-r00021",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "다음 제품들은 특별히 "
+    },
+    {
+      "id": "p0003-s0041-r00037",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이러한 제품은 일반적으로 모니터 벤더에 의해 주로 디스플레이로 마케팅되며, Android는 보조 기능으로 제공됩니다."
+    },
+    {
+      "id": "p0003-s0041-r00037",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이러한 제품은 일반적으로 모니터 벤더에 의해 주로 디스플레이로 마케팅되며, Android는 보조 기능으로 제공됩니다."
+    },
+    {
+      "id": "p0003-s0041-r00038",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "그러나 "
+    },
+    {
+      "id": "p0003-s0041-r00038",
+      "term": "Android",
+      "mode": "preserve",
+      "expected": "Android",
+      "actual": "그러나 "
+    },
+    {
+      "id": "p0003-s0041-r00038",
+      "term": "But",
+      "mode": "preserve",
+      "expected": "But",
+      "actual": "그러나 "
+    },
+    {
+      "id": "p0003-s0041-r00045",
+      "term": "HP",
+      "mode": "preserve",
+      "expected": "HP",
+      "actual": "와 같은 Android 인터페이스를 주로 사용하는 제품은 데스크탑으로 계산됩니다."
+    },
+    {
+      "id": "p0003-s0041-r00045",
+      "term": "HP Inc",
+      "mode": "preserve",
+      "expected": "HP Inc",
+      "actual": "와 같은 Android 인터페이스를 주로 사용하는 제품은 데스크탑으로 계산됩니다."
+    },
+    {
+      "id": "p0003-s0041-r00045",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "와 같은 Android 인터페이스를 주로 사용하는 제품은 데스크탑으로 계산됩니다."
+    },
+    {
+      "id": "p0003-s0041-r00045",
+      "term": "Inc",
+      "mode": "preserve",
+      "expected": "Inc",
+      "actual": "와 같은 Android 인터페이스를 주로 사용하는 제품은 데스크탑으로 계산됩니다."
+    },
+    {
+      "id": "p0003-s0041-r00060",
+      "term": "Although",
+      "mode": "preserve",
+      "expected": "Although",
+      "actual": "이들은 desktops 및 notebooks,"
+    },
+    {
+      "id": "p0003-s0041-r00071",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "IDC는 화면 크기가 7.0인치보다 0.1인치 작은 장치의 경우, 분석가 기대에 부합하면 슬레이트 또는 탈착식 태블릿으로 분류할 권리를 보유합니다."
+    },
+    {
+      "id": "p0003-s0041-r00071",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "IDC는 화면 크기가 7.0인치보다 0.1인치 작은 장치의 경우, 분석가 기대에 부합하면 슬레이트 또는 탈착식 태블릿으로 분류할 권리를 보유합니다."
+    },
+    {
+      "id": "p0003-s0041-r00071",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "IDC는 화면 크기가 7.0인치보다 0.1인치 작은 장치의 경우, 분석가 기대에 부합하면 슬레이트 또는 탈착식 태블릿으로 분류할 권리를 보유합니다."
+    },
+    {
+      "id": "p0003-s0041-r00071",
+      "term": "PCDs. IDC",
+      "mode": "preserve",
+      "expected": "PCDs. IDC",
+      "actual": "IDC는 화면 크기가 7.0인치보다 0.1인치 작은 장치의 경우, 분석가 기대에 부합하면 슬레이트 또는 탈착식 태블릿으로 분류할 권리를 보유합니다."
+    },
+    {
+      "id": "p0003-s0041-r00079",
+      "term": "PCDs. Like",
+      "mode": "preserve",
+      "expected": "PCDs. Like",
+      "actual": "일반적으로 PCDs와는 다른 기능을 제공합니다."
+    },
+    {
+      "id": "p0003-s0041-r00094",
+      "term": "Further",
+      "mode": "preserve",
+      "expected": "Further",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00098",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "하지만 데스크탑 주위를 기반으로 조립되는 POS 솔루션에는 적용되지 않습니다."
+    },
+    {
+      "id": "p0003-s0041-r00099",
+      "term": "However",
+      "mode": "preserve",
+      "expected": "However",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00099",
+      "term": "MICROS. However",
+      "mode": "preserve",
+      "expected": "MICROS. However",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00099",
+      "term": "NC",
+      "mode": "preserve",
+      "expected": "NC",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00099",
+      "term": "NCR",
+      "mode": "preserve",
+      "expected": "NCR",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00099",
+      "term": "OS",
+      "mode": "preserve",
+      "expected": "OS",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00099",
+      "term": "POS",
+      "mode": "preserve",
+      "expected": "POS",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00101",
+      "term": "US",
+      "mode": "preserve",
+      "expected": "US",
+      "actual": "-"
+    },
+    {
+      "id": "p0003-s0041-r00101",
+      "term": "USB",
+      "mode": "preserve",
+      "expected": "USB",
+      "actual": "-"
+    },
+    {
+      "id": "p0003-s0041-r00103",
+      "term": "Such",
+      "mode": "preserve",
+      "expected": "Such",
+      "actual": ""
+    },
+    {
+      "id": "p0003-s0041-r00106",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": ""
+    },
+    {
+      "id": "p0003-s0041-r00109",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "Device Tracker에서는 여전히 데스크탑으로 계산됩니다."
+    },
+    {
+      "id": "p0003-s0041-r00111",
+      "term": "Personal",
+      "mode": "preserve",
+      "expected": "Personal",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00111",
+      "term": "Quarterly",
+      "mode": "preserve",
+      "expected": "Quarterly",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00111",
+      "term": "Worldwide",
+      "mode": "preserve",
+      "expected": "Worldwide",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00111",
+      "term": "Worldwide Quarterly",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00111",
+      "term": "Worldwide Quarterly Personal",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00111",
+      "term": "Worldwide Quarterly Personal Computing",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing",
+      "actual": " "
+    },
+    {
+      "id": "p0003-s0041-r00112",
+      "term": "Device Tracker",
+      "mode": "preserve",
+      "expected": "Device Tracker",
+      "actual": "장치입니다."
+    },
+    {
+      "id": "p0003-s0041-r00112",
+      "term": "Tracker",
+      "mode": "preserve",
+      "expected": "Tracker",
+      "actual": "장치입니다."
+    },
+    {
+      "id": "p0003-s0041-r00116",
+      "term": "System",
+      "mode": "preserve",
+      "expected": "System",
+      "actual": "디지털 사이니지를 위해 설계된 시스템은 이 제외 범주에 해당됩니다."
+    },
+    {
+      "id": "p0003-s0041-r00116",
+      "term": "Systems",
+      "mode": "preserve",
+      "expected": "Systems",
+      "actual": "디지털 사이니지를 위해 설계된 시스템은 이 제외 범주에 해당됩니다."
+    },
+    {
+      "id": "p0004-s0043-r00008",
+      "term": "Other",
+      "mode": "preserve",
+      "expected": "Other",
+      "actual": "이 PCD 정의에서 제외된 기타 제품은(Table 1 참조) 다음과 같습니다:"
+    },
+    {
+      "id": "p0004-s0043-r00008",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "이 PCD 정의에서 제외된 기타 제품은(Table 1 참조) 다음과 같습니다:"
+    },
+    {
+      "id": "p0004-s0043-r00012",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "주로 다른 컴퓨터의 정보를 액세스하도록 설계된 터미널 또는 네트워크 컴퓨터(NC)와 같은 모든 제품이며,"
+    },
+    {
+      "id": "p0004-s0043-r00012",
+      "term": "Any",
+      "mode": "preserve",
+      "expected": "Any",
+      "actual": "주로 다른 컴퓨터의 정보를 액세스하도록 설계된 터미널 또는 네트워크 컴퓨터(NC)와 같은 모든 제품이며,"
+    },
+    {
+      "id": "p0004-s0043-r00021",
+      "term": "Raspberry Pi",
+      "mode": "preserve",
+      "expected": "Raspberry Pi",
+      "actual": "범주에 속함.)"
+    },
+    {
+      "id": "p0004-s0043-r00026",
+      "term": "Devices",
+      "mode": "preserve",
+      "expected": "Devices",
+      "actual": "임베디드 응용프로그램용 장치"
+    },
+    {
+      "id": "p0004-s0043-r00030",
+      "term": "Upgrades",
+      "mode": "preserve",
+      "expected": "Upgrades",
+      "actual": "기존 시스템(예: 데스크탑 또는 노트북 컴퓨터)에 대한 업그레이드"
+    },
+    {
+      "id": "p0004-s0043-r00042",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "제외 예시"
+    },
+    {
+      "id": "p0004-s0043-r00052",
+      "term": "Company",
+      "mode": "preserve",
+      "expected": "Company",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00054",
+      "term": "Model",
+      "mode": "preserve",
+      "expected": "Model",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00056",
+      "term": "Certification",
+      "mode": "preserve",
+      "expected": "Certification",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00058",
+      "term": "Brand",
+      "mode": "preserve",
+      "expected": "Brand",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00060",
+      "term": "Comments",
+      "mode": "preserve",
+      "expected": "Comments",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00064",
+      "term": "Mac Pro",
+      "mode": "preserve",
+      "expected": "Mac Pro",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00064",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00070",
+      "term": "Apple",
+      "mode": "preserve",
+      "expected": "Apple",
+      "actual": ""
+    },
+    {
+      "id": "p0004-s0043-r00070",
+      "term": "While",
+      "mode": "preserve",
+      "expected": "While",
+      "actual": ""
+    },
+    {
+      "id": "p0004-s0043-r00070",
+      "term": "While Apple",
+      "mode": "preserve",
+      "expected": "While Apple",
+      "actual": ""
+    },
+    {
+      "id": "p0004-s0043-r00072",
+      "term": "CPU",
+      "mode": "preserve",
+      "expected": "CPU",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00072",
+      "term": "Fi",
+      "mode": "preserve",
+      "expected": "Fi",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00072",
+      "term": "FirePro",
+      "mode": "preserve",
+      "expected": "FirePro",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00072",
+      "term": "Mac Pro",
+      "mode": "preserve",
+      "expected": "Mac Pro",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00072",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00072",
+      "term": "Xeon",
+      "mode": "preserve",
+      "expected": "Xeon",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00072",
+      "term": "Xeon CPU",
+      "mode": "preserve",
+      "expected": "Xeon CPU",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00073",
+      "term": "ECC",
+      "mode": "preserve",
+      "expected": "ECC",
+      "actual": "\u0000$\u0000F\u0000H\u0000U"
+    },
+    {
+      "id": "p0004-s0043-r00073",
+      "term": "GPU",
+      "mode": "preserve",
+      "expected": "GPU",
+      "actual": "\u0000$\u0000F\u0000H\u0000U"
+    },
+    {
+      "id": "p0004-s0043-r00074",
+      "term": "ISV",
+      "mode": "preserve",
+      "expected": "ISV",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00079",
+      "term": "P530",
+      "mode": "preserve",
+      "expected": "P530",
+      "actual": "X"
+    },
+    {
+      "id": "p0004-s0043-r00079",
+      "term": "Veriton",
+      "mode": "preserve",
+      "expected": "Veriton",
+      "actual": "X"
+    },
+    {
+      "id": "p0004-s0043-r00079",
+      "term": "Veriton P530",
+      "mode": "preserve",
+      "expected": "Veriton P530",
+      "actual": "X"
+    },
+    {
+      "id": "p0004-s0043-r00085",
+      "term": "While",
+      "mode": "preserve",
+      "expected": "While",
+      "actual": "P530은 Xeon 및 NVIDIA Quadro를 탑재하고 있으나, 필요한 ISV 인증이 부족하며 전용 워크스테이션 브랜드에 속하지 않습니다."
+    },
+    {
+      "id": "p0004-s0043-r00085",
+      "term": "While Acer",
+      "mode": "preserve",
+      "expected": "While Acer",
+      "actual": "P530은 Xeon 및 NVIDIA Quadro를 탑재하고 있으나, 필요한 ISV 인증이 부족하며 전용 워크스테이션 브랜드에 속하지 않습니다."
+    },
+    {
+      "id": "p0004-s0043-r00087",
+      "term": "Veriton",
+      "mode": "preserve",
+      "expected": "Veriton",
+      "actual": "\u0000+\u00003\u0000\u0003\u0000,\u0000Q\u0000F"
+    },
+    {
+      "id": "p0004-s0043-r00089",
+      "term": "P530",
+      "mode": "preserve",
+      "expected": "P530",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00089",
+      "term": "Xeon",
+      "mode": "preserve",
+      "expected": "Xeon",
+      "actual": " "
+    },
+    {
+      "id": "p0004-s0043-r00090",
+      "term": "ISV",
+      "mode": "preserve",
+      "expected": "ISV",
+      "actual": "EliteDesk 800 WSE"
+    },
+    {
+      "id": "p0004-s0043-r00090",
+      "term": "NVIDIA",
+      "mode": "preserve",
+      "expected": "NVIDIA",
+      "actual": "EliteDesk 800 WSE"
+    },
+    {
+      "id": "p0004-s0043-r00090",
+      "term": "NVIDIA Quadro",
+      "mode": "preserve",
+      "expected": "NVIDIA Quadro",
+      "actual": "EliteDesk 800 WSE"
+    },
+    {
+      "id": "p0004-s0043-r00104",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "EliteDesk 800 Workstation Edition은 "
+    },
+    {
+      "id": "p0004-s0043-r00104",
+      "term": "The EliteDesk",
+      "mode": "preserve",
+      "expected": "The EliteDesk",
+      "actual": "EliteDesk 800 Workstation Edition은 "
+    },
+    {
+      "id": "p0004-s0043-r00108",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC, 2025"
+    },
+    {
+      "id": "p0004-s0043-r00127",
+      "term": "Table",
+      "mode": "preserve",
+      "expected": "Table",
+      "actual": "표 2는 PCD 제품 세분화 및 분류 체계를 제시합니다."
+    },
+    {
+      "id": "p0005-s0045-r00133",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고: 표의 제품명은 IDC에 실제로 사용되는 이름을 반영합니다."
+    },
+    {
+      "id": "p0005-s0045-r00133",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고: 표의 제품명은 IDC에 실제로 사용되는 이름을 반영합니다."
+    },
+    {
+      "id": "p0005-s0045-r00133",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "참고: 표의 제품명은 IDC에 실제로 사용되는 이름을 반영합니다."
+    },
+    {
+      "id": "p0005-s0045-r00135",
+      "term": "Personal",
+      "mode": "preserve",
+      "expected": "Personal",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE "
+    },
+    {
+      "id": "p0005-s0045-r00135",
+      "term": "Quarterly",
+      "mode": "preserve",
+      "expected": "Quarterly",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE "
+    },
+    {
+      "id": "p0005-s0045-r00135",
+      "term": "Worldwide",
+      "mode": "preserve",
+      "expected": "Worldwide",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE "
+    },
+    {
+      "id": "p0005-s0045-r00135",
+      "term": "Worldwide Quarterly",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE "
+    },
+    {
+      "id": "p0005-s0045-r00135",
+      "term": "Worldwide Quarterly Personal",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE "
+    },
+    {
+      "id": "p0005-s0045-r00135",
+      "term": "Worldwide Quarterly Personal Computing",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE "
+    },
+    {
+      "id": "p0005-s0045-r00135",
+      "term": "Worldwide Quarterly Personal Computing Device",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing Device",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE "
+    },
+    {
+      "id": "p0005-s0045-r00136",
+      "term": "When",
+      "mode": "preserve",
+      "expected": "When",
+      "actual": "Tracker 데이터베이스입니다. 텍스트(예: 분석 보고서)에서 사용될 때 이러한 이름은 종종 철자가 풀려 사용됩니다(예: DT는 데스크탑이 되고, NB는 노트북이 되며, WS는 워크스테이션이 됩니다)."
+    },
+    {
+      "id": "p0005-s0045-r00137",
+      "term": "NB",
+      "mode": "preserve",
+      "expected": "NB",
+      "actual": ""
+    },
+    {
+      "id": "p0005-s0045-r00137",
+      "term": "WS",
+      "mode": "preserve",
+      "expected": "WS",
+      "actual": ""
+    },
+    {
+      "id": "p0005-s0045-r00139",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Computing Device Tracker",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Device Tracker",
+      "mode": "preserve",
+      "expected": "Device Tracker",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Personal",
+      "mode": "preserve",
+      "expected": "Personal",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Personal Computing Device Tracker",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Quarterly",
+      "mode": "preserve",
+      "expected": "Quarterly",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Quarterly Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Quarterly Personal Computing Device Tracker",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Worldwide",
+      "mode": "preserve",
+      "expected": "Worldwide",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Worldwide Quarterly",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Worldwide Quarterly Personal",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Worldwide Quarterly Personal Computing",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Worldwide Quarterly Personal Computing Device",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing Device",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00141",
+      "term": "Worldwide Quarterly Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing Device Tracker",
+      "actual": "전 세계 분기별 PERSONAL COMPUTING DEVICE Tracker, 2025"
+    },
+    {
+      "id": "p0005-s0045-r00146",
+      "term": "Desktop",
+      "mode": "preserve",
+      "expected": "Desktop",
+      "actual": "데스크탑은 정지형이며 AC"
+    },
+    {
+      "id": "p0005-s0045-r00146",
+      "term": "Desktops",
+      "mode": "preserve",
+      "expected": "Desktops",
+      "actual": "데스크탑은 정지형이며 AC"
+    },
+    {
+      "id": "p0005-s0045-r00148",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "전력(배터리 없음)으로 작동하는 컴퓨팅 장치입니다. 자주 이동하거나 휴대해 사용하도록 설계되지 않았습니다. 입력은 보통 분리형"
+    },
+    {
+      "id": "p0005-s0045-r00148",
+      "term": "They",
+      "mode": "preserve",
+      "expected": "They",
+      "actual": "전력(배터리 없음)으로 작동하는 컴퓨팅 장치입니다. 자주 이동하거나 휴대해 사용하도록 설계되지 않았습니다. 입력은 보통 분리형"
+    },
+    {
+      "id": "p0005-s0045-r00149",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": " 키보드를 통해 이루어지며, 터치"
+    },
+    {
+      "id": "p0005-s0045-r00149",
+      "term": "Input",
+      "mode": "preserve",
+      "expected": "Input",
+      "actual": " 키보드를 통해 이루어지며, 터치"
+    },
+    {
+      "id": "p0005-s0045-r00152",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "-"
+    },
+    {
+      "id": "p0005-s0045-r00158",
+      "term": "DT",
+      "mode": "preserve",
+      "expected": "DT",
+      "actual": " "
+    },
+    {
+      "id": "p0006-s0047-r00027",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "유사 장치가 포함되며 수평으로 사용되고 모바일 all"
+    },
+    {
+      "id": "p0006-s0047-r00056",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "one DT 범주에 속합니다. 이러한 시스템은 "
+    },
+    {
+      "id": "p0006-s0047-r00056",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "one DT 범주에 속합니다. 이러한 시스템은 "
+    },
+    {
+      "id": "p0006-s0047-r00058",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "예를 들면 HP Sprout와 Dell Smart Desk가 있습니다."
+    },
+    {
+      "id": "p0006-s0047-r00059",
+      "term": "Dell",
+      "mode": "preserve",
+      "expected": "Dell",
+      "actual": " "
+    },
+    {
+      "id": "p0006-s0047-r00059",
+      "term": "Dell Smart Desk",
+      "mode": "preserve",
+      "expected": "Dell Smart Desk",
+      "actual": " "
+    },
+    {
+      "id": "p0006-s0047-r00059",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": " "
+    },
+    {
+      "id": "p0006-s0047-r00059",
+      "term": "HP",
+      "mode": "preserve",
+      "expected": "HP",
+      "actual": " "
+    },
+    {
+      "id": "p0006-s0047-r00059",
+      "term": "HP Sprout",
+      "mode": "preserve",
+      "expected": "HP Sprout",
+      "actual": " "
+    },
+    {
+      "id": "p0006-s0047-r00059",
+      "term": "Smart",
+      "mode": "preserve",
+      "expected": "Smart",
+      "actual": " "
+    },
+    {
+      "id": "p0006-s0047-r00086",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이들은 이전 불릿 포인트에서 정의되었습니다."
+    },
+    {
+      "id": "p0006-s0047-r00086",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이들은 이전 불릿 포인트에서 정의되었습니다."
+    },
+    {
+      "id": "p0006-s0047-r00092",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이 디자인들은 1Q18 이후부터 13.x"
+    },
+    {
+      "id": "p0006-s0047-r00092",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이 디자인들은 1Q18 이후부터 13.x"
+    },
+    {
+      "id": "p0006-s0047-r00095",
+      "term": "Prior",
+      "mode": "preserve",
+      "expected": "Prior",
+      "actual": "-"
+    },
+    {
+      "id": "p0006-s0047-r00103",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이 디자인들은 3"
+    },
+    {
+      "id": "p0006-s0047-r00103",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이 디자인들은 3"
+    },
+    {
+      "id": "p0006-s0047-r00107",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "L 부피를 1Q18 이후부터 갖습니다. 소형 데스크탑 PC의 크기는 시간이 지나면서 줄어들었습니다. 2013년부터 2017년까지 이 범주는 3"
+    },
+    {
+      "id": "p0006-s0047-r00108",
+      "term": "Fr",
+      "mode": "preserve",
+      "expected": "Fr",
+      "actual": "-"
+    },
+    {
+      "id": "p0006-s0047-r00108",
+      "term": "From",
+      "mode": "preserve",
+      "expected": "From",
+      "actual": "-"
+    },
+    {
+      "id": "p0006-s0047-r00108",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "-"
+    },
+    {
+      "id": "p0006-s0047-r00108",
+      "term": "PCs",
+      "mode": "preserve",
+      "expected": "PCs",
+      "actual": "-"
+    },
+    {
+      "id": "p0006-s0047-r00126",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이것들은 업계 내에서 일부에 의해 mini PCs로도 불립니다. "
+    },
+    {
+      "id": "p0006-s0047-r00126",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이것들은 업계 내에서 일부에 의해 mini PCs로도 불립니다. "
+    },
+    {
+      "id": "p0006-s0047-r00127",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이 디자인들은 3.x보다 작은 부피를 가지고 있습니다"
+    },
+    {
+      "id": "p0006-s0047-r00127",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이 디자인들은 3.x보다 작은 부피를 가지고 있습니다"
+    },
+    {
+      "id": "p0006-s0047-r00129",
+      "term": "DTs",
+      "mode": "preserve",
+      "expected": "DTs",
+      "actual": "L. Ultrasmall DT의 크기는 "
+    },
+    {
+      "id": "p0006-s0047-r00129",
+      "term": "L. The",
+      "mode": "preserve",
+      "expected": "L. The",
+      "actual": "L. Ultrasmall DT의 크기는 "
+    },
+    {
+      "id": "p0006-s0047-r00129",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "L. Ultrasmall DT의 크기는 "
+    },
+    {
+      "id": "p0006-s0047-r00130",
+      "term": "Prior",
+      "mode": "preserve",
+      "expected": "Prior",
+      "actual": "시간이 지나면서 감소했습니다. 2013년 이전에는 이 범주에 최대 7.x 크기의 시스템이 포함되었습니다"
+    },
+    {
+      "id": "p0006-s0047-r00133",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 범주에는 blade client PCs와 puck form factors(예: NUC)도 포함되며"
+    },
+    {
+      "id": "p0006-s0047-r00134",
+      "term": "NUC",
+      "mode": "preserve",
+      "expected": "NUC",
+      "actual": "개인용 컴퓨팅 목적으로 사용됩니다(예: "
+    },
+    {
+      "id": "p0006-s0047-r00145",
+      "term": "PCs",
+      "mode": "preserve",
+      "expected": "PCs",
+      "actual": "Blade 형태의 PC는 때때로 blade PC라고 불리며, 랙에 장착할 수 있는 개인용 컴퓨터입니다. 이들은 싱글"
+    },
+    {
+      "id": "p0006-s0047-r00148",
+      "term": "OS",
+      "mode": "preserve",
+      "expected": "OS",
+      "actual": "이 제품들은 더 이상 별도로 추적되지 않고 "
+    },
+    {
+      "id": "p0006-s0047-r00148",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "이 제품들은 더 이상 별도로 추적되지 않고 "
+    },
+    {
+      "id": "p0006-s0047-r00148",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이 제품들은 더 이상 별도로 추적되지 않고 "
+    },
+    {
+      "id": "p0006-s0047-r00148",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이 제품들은 더 이상 별도로 추적되지 않고 "
+    },
+    {
+      "id": "p0006-s0047-r00157",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "키보드를 가지고 있습니다. 이 장치들은 자주 이동되어 모바일 환경에서 사용하도록 설계되었습니다."
+    },
+    {
+      "id": "p0006-s0047-r00157",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "키보드를 가지고 있습니다. 이 장치들은 자주 이동되어 모바일 환경에서 사용하도록 설계되었습니다."
+    },
+    {
+      "id": "p0006-s0047-r00158",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "입력은 일반적으로 키보드와 마우스이며, 터치"
+    },
+    {
+      "id": "p0006-s0047-r00158",
+      "term": "Input",
+      "mode": "preserve",
+      "expected": "Input",
+      "actual": "입력은 일반적으로 키보드와 마우스이며, 터치"
+    },
+    {
+      "id": "p0006-s0047-r00163",
+      "term": "Designs",
+      "mode": "preserve",
+      "expected": "Designs",
+      "actual": "디자인은 일반적으로 클램쉘, 슬라이더 또는 트위스터 형태이지만 다른 디자인도 자동으로 제외되지 않습니다."
+    },
+    {
+      "id": "p0007-s0049-r00018",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이는 다른 범주에 포함되지 않은 모든 노트북입니다."
+    },
+    {
+      "id": "p0007-s0049-r00024",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 노트북 PC는 최소 18mm"
+    },
+    {
+      "id": "p0007-s0049-r00029",
+      "term": "NB",
+      "mode": "preserve",
+      "expected": "NB",
+      "actual": "기준을 충족하는 대부분의 제품을 포함하며,"
+    },
+    {
+      "id": "p0007-s0049-r00029",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "기준을 충족하는 대부분의 제품을 포함하며,"
+    },
+    {
+      "id": "p0007-s0049-r00029",
+      "term": "WS",
+      "mode": "preserve",
+      "expected": "WS",
+      "actual": "기준을 충족하는 대부분의 제품을 포함하며,"
+    },
+    {
+      "id": "p0007-s0049-r00030",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": " "
+    },
+    {
+      "id": "p0007-s0049-r00030",
+      "term": "Intel",
+      "mode": "preserve",
+      "expected": "Intel",
+      "actual": " "
+    },
+    {
+      "id": "p0007-s0049-r00034",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "인텔 "
+    },
+    {
+      "id": "p0007-s0049-r00034",
+      "term": "Intel",
+      "mode": "preserve",
+      "expected": "Intel",
+      "actual": "인텔 "
+    },
+    {
+      "id": "p0007-s0049-r00036",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "기반 제품 및 다른 Ultrabook 기준을 충족하지 않을 수 있는 인텔 제품도 포함합니다. 1Q17 이전 데이터의 경우, 모든 21mm 미만인 울트라슬림 노트북은 이 "
+    },
+    {
+      "id": "p0007-s0049-r00036",
+      "term": "Intel",
+      "mode": "preserve",
+      "expected": "Intel",
+      "actual": "기반 제품 및 다른 Ultrabook 기준을 충족하지 않을 수 있는 인텔 제품도 포함합니다. 1Q17 이전 데이터의 경우, 모든 21mm 미만인 울트라슬림 노트북은 이 "
+    },
+    {
+      "id": "p0007-s0049-r00053",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 노트북 PC는 가장 두꺼운 부분이 최소 15mm 이상이고 또한 18mm 미만입니다."
+    },
+    {
+      "id": "p0007-s0049-r00058",
+      "term": "NB",
+      "mode": "preserve",
+      "expected": "NB",
+      "actual": "이 제품 가치는 1Q17부터 적용됩니다."
+    },
+    {
+      "id": "p0007-s0049-r00058",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 제품 가치는 1Q17부터 적용됩니다."
+    },
+    {
+      "id": "p0007-s0049-r00058",
+      "term": "WS",
+      "mode": "preserve",
+      "expected": "WS",
+      "actual": "이 제품 가치는 1Q17부터 적용됩니다."
+    },
+    {
+      "id": "p0007-s0049-r00064",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 노트북 PC는 가장 두꺼운 부분이 15"
+    },
+    {
+      "id": "p0007-s0049-r00066",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "convertible NB, mobile WS 또는 mini NB 카테고리에 포함되지 않습니다. 이"
+    },
+    {
+      "id": "p0007-s0049-r00075",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 노트북 컴퓨터는 통합 키보드"
+    },
+    {
+      "id": "p0007-s0049-r00081",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "슬라이드"
+    },
+    {
+      "id": "p0007-s0049-r00086",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "모든 컨버터블 디자인은 평평한 슬레이트-"
+    },
+    {
+      "id": "p0007-s0049-r00086",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "모든 컨버터블 디자인은 평평한 슬레이트-"
+    },
+    {
+      "id": "p0007-s0049-r00088",
+      "term": "All",
+      "mode": "preserve",
+      "expected": "All",
+      "actual": ""
+    },
+    {
+      "id": "p0007-s0049-r00099",
+      "term": "Lenovo",
+      "mode": "preserve",
+      "expected": "Lenovo",
+      "actual": ""
+    },
+    {
+      "id": "p0007-s0049-r00099",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": ""
+    },
+    {
+      "id": "p0007-s0049-r00101",
+      "term": "Flex",
+      "mode": "preserve",
+      "expected": "Flex",
+      "actual": "Convertible NB 범주에 속한 이 시스템은 가장 두꺼운 부분이 21mm 미만이며 평평한 슬레이트 구성으로 전환됩니다."
+    },
+    {
+      "id": "p0007-s0049-r00109",
+      "term": "Convertible",
+      "mode": "preserve",
+      "expected": "Convertible",
+      "actual": "이 노트북 컴퓨터는 가장 두꺼운 부분이 21mm 미만이고 평평한 슬레이트 구성으로 전환됩니다. 이 시스템들은 현재 convertible NB 카테고리에 포함됩니다."
+    },
+    {
+      "id": "p0007-s0049-r00110",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": " "
+    },
+    {
+      "id": "p0007-s0049-r00111",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": ""
+    },
+    {
+      "id": "p0007-s0049-r00111",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": ""
+    },
+    {
+      "id": "p0007-s0049-r00112",
+      "term": "NB",
+      "mode": "preserve",
+      "expected": "NB",
+      "actual": " "
+    },
+    {
+      "id": "p0007-s0049-r00116",
+      "term": "Mini",
+      "mode": "preserve",
+      "expected": "Mini",
+      "actual": "이 노트북 컴퓨터는 대각선으로 7"
+    },
+    {
+      "id": "p0007-s0049-r00117",
+      "term": "NB",
+      "mode": "preserve",
+      "expected": "NB",
+      "actual": ""
+    },
+    {
+      "id": "p0007-s0049-r00119",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "초기 성능 중앙 처리 장치(CPU)(예: Intel Atom 또는 VIA CPU)이 탑재되어 있고 "
+    },
+    {
+      "id": "p0007-s0049-r00124",
+      "term": "At",
+      "mode": "preserve",
+      "expected": "At",
+      "actual": "기타 저가 컴퓨터의 도입으로 인해 판매는 빠르게 감소했습니다."
+    },
+    {
+      "id": "p0007-s0049-r00124",
+      "term": "CPU",
+      "mode": "preserve",
+      "expected": "CPU",
+      "actual": "기타 저가 컴퓨터의 도입으로 인해 판매는 빠르게 감소했습니다."
+    },
+    {
+      "id": "p0007-s0049-r00124",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "기타 저가 컴퓨터의 도입으로 인해 판매는 빠르게 감소했습니다."
+    },
+    {
+      "id": "p0007-s0049-r00124",
+      "term": "Intel",
+      "mode": "preserve",
+      "expected": "Intel",
+      "actual": "기타 저가 컴퓨터의 도입으로 인해 판매는 빠르게 감소했습니다."
+    },
+    {
+      "id": "p0007-s0049-r00124",
+      "term": "Intel Atom",
+      "mode": "preserve",
+      "expected": "Intel Atom",
+      "actual": "기타 저가 컴퓨터의 도입으로 인해 판매는 빠르게 감소했습니다."
+    },
+    {
+      "id": "p0007-s0049-r00124",
+      "term": "VIA",
+      "mode": "preserve",
+      "expected": "VIA",
+      "actual": "기타 저가 컴퓨터의 도입으로 인해 판매는 빠르게 감소했습니다."
+    },
+    {
+      "id": "p0007-s0049-r00125",
+      "term": "CPU",
+      "mode": "preserve",
+      "expected": "CPU",
+      "actual": "�2026 IDC"
+    },
+    {
+      "id": "p0008-s0051-r00001",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": " "
+    },
+    {
+      "id": "p0008-s0051-r00004",
+      "term": "US",
+      "mode": "preserve",
+      "expected": "US",
+      "actual": " "
+    },
+    {
+      "id": "p0008-s0051-r00004",
+      "term": "US54462026",
+      "mode": "preserve",
+      "expected": "US54462026",
+      "actual": " "
+    },
+    {
+      "id": "p0008-s0051-r00008",
+      "term": "Chromebooks. Volumes",
+      "mode": "preserve",
+      "expected": "Chromebooks. Volumes",
+      "actual": ""
+    },
+    {
+      "id": "p0008-s0051-r00008",
+      "term": "Volume",
+      "mode": "preserve",
+      "expected": "Volume",
+      "actual": ""
+    },
+    {
+      "id": "p0008-s0051-r00017",
+      "term": "Lacking",
+      "mode": "preserve",
+      "expected": "Lacking",
+      "actual": "소비자 수요 부족으로 인해, 공급업체들은 "
+    },
+    {
+      "id": "p0008-s0051-r00026",
+      "term": "Workstation",
+      "mode": "preserve",
+      "expected": "Workstation",
+      "actual": "를 들면, 이러한 "
+    },
+    {
+      "id": "p0008-s0051-r00026",
+      "term": "Workstations",
+      "mode": "preserve",
+      "expected": "Workstations",
+      "actual": "를 들면, 이러한 "
+    },
+    {
+      "id": "p0008-s0051-r00029",
+      "term": "Dell",
+      "mode": "preserve",
+      "expected": "Dell",
+      "actual": " "
+    },
+    {
+      "id": "p0008-s0051-r00031",
+      "term": "HP",
+      "mode": "preserve",
+      "expected": "HP",
+      "actual": " s Z, 그리고 Lenovo"
+    },
+    {
+      "id": "p0008-s0051-r00031",
+      "term": "Precision",
+      "mode": "preserve",
+      "expected": "Precision",
+      "actual": " s Z, 그리고 Lenovo"
+    },
+    {
+      "id": "p0008-s0051-r00033",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "ThinkStation 및 ThinkPad P를 포함합니다."
+    },
+    {
+      "id": "p0008-s0051-r00033",
+      "term": "Inc",
+      "mode": "preserve",
+      "expected": "Inc",
+      "actual": "ThinkStation 및 ThinkPad P를 포함합니다."
+    },
+    {
+      "id": "p0008-s0051-r00035",
+      "term": "Lenovo",
+      "mode": "preserve",
+      "expected": "Lenovo",
+      "actual": "2018년 1분기부터의 데이터에 대해, 워크스테이션 시장은 "
+    },
+    {
+      "id": "p0008-s0051-r00038",
+      "term": "ThinkPad P",
+      "mode": "preserve",
+      "expected": "ThinkPad P",
+      "actual": ""
+    },
+    {
+      "id": "p0008-s0051-r00038",
+      "term": "ThinkStation",
+      "mode": "preserve",
+      "expected": "ThinkStation",
+      "actual": ""
+    },
+    {
+      "id": "p0008-s0051-r00040",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "Premium workstations"
+    },
+    {
+      "id": "p0008-s0051-r00041",
+      "term": "Table",
+      "mode": "preserve",
+      "expected": "Table",
+      "actual": " "
+    },
+    {
+      "id": "p0008-s0051-r00045",
+      "term": "Premium",
+      "mode": "preserve",
+      "expected": "Premium",
+      "actual": "이 시스템들은 모두 ISV 인증을 받았으며 보통 Intel"
+    },
+    {
+      "id": "p0008-s0051-r00052",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "또한 ISV 인증을 받았으며 전문가급 "
+    },
+    {
+      "id": "p0008-s0051-r00052",
+      "term": "Intel",
+      "mode": "preserve",
+      "expected": "Intel",
+      "actual": "또한 ISV 인증을 받았으며 전문가급 "
+    },
+    {
+      "id": "p0008-s0051-r00052",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "또한 ISV 인증을 받았으며 전문가급 "
+    },
+    {
+      "id": "p0008-s0051-r00052",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "또한 ISV 인증을 받았으며 전문가급 "
+    },
+    {
+      "id": "p0008-s0051-r00054",
+      "term": "Xeon",
+      "mode": "preserve",
+      "expected": "Xeon",
+      "actual": "유형보다 출력 및 확장성이 적습니다."
+    },
+    {
+      "id": "p0008-s0051-r00059",
+      "term": "Performance",
+      "mode": "preserve",
+      "expected": "Performance",
+      "actual": "는 워크스테이션 트래커에 새롭게 추가된 항목입니다. 이들 "
+    },
+    {
+      "id": "p0008-s0051-r00061",
+      "term": "ISV",
+      "mode": "preserve",
+      "expected": "ISV",
+      "actual": "-"
+    },
+    {
+      "id": "p0009-s0053-r00052",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00054",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00056",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00058",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00067",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00069",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00071",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00073",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00082",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00084",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "아니요"
+    },
+    {
+      "id": "p0009-s0053-r00086",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "아니요"
+    },
+    {
+      "id": "p0009-s0053-r00088",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "아니요"
+    },
+    {
+      "id": "p0009-s0053-r00098",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00100",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00102",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00104",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00113",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00115",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00117",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00119",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "아니요"
+    },
+    {
+      "id": "p0009-s0053-r00128",
+      "term": "Yes",
+      "mode": "preserve",
+      "expected": "Yes",
+      "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00130",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "아니요"
+    },
+    {
+      "id": "p0009-s0053-r00132",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "아니요"
+    },
+    {
+      "id": "p0010-s0055-r00044",
+      "term": "Further",
+      "mode": "preserve",
+      "expected": "Further",
+      "actual": "기기 전용으로 설계된 1차 키보드와 함께 작동합니다. 추가로:"
+    },
+    {
+      "id": "p0010-s0055-r00048",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "분리형 태블릿 장치의 키보드 구성 요소는 간단한 "
+    },
+    {
+      "id": "p0010-s0055-r00054",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "키보드 구성 요소는 1차 "
+    },
+    {
+      "id": "p0010-s0055-r00060",
+      "term": "Magnetic",
+      "mode": "preserve",
+      "expected": "Magnetic",
+      "actual": "1차 "
+    },
+    {
+      "id": "p0010-s0055-r00061",
+      "term": "Data",
+      "mode": "preserve",
+      "expected": "Data",
+      "actual": "-"
+    },
+    {
+      "id": "p0010-s0055-r00062",
+      "term": "Bluetooth",
+      "mode": "preserve",
+      "expected": "Bluetooth",
+      "actual": "기 분리형 키보드가 박스에 포함되어 나오지만 클램쉘 장치에 제대로 맞지 않는 경우입니다. 예를 들면 HP Inc."
+    },
+    {
+      "id": "p0010-s0055-r00062",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "기 분리형 키보드가 박스에 포함되어 나오지만 클램쉘 장치에 제대로 맞지 않는 경우입니다. 예를 들면 HP Inc."
+    },
+    {
+      "id": "p0010-s0055-r00067",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": ""
+    },
+    {
+      "id": "p0010-s0055-r00067",
+      "term": "HP",
+      "mode": "preserve",
+      "expected": "HP",
+      "actual": ""
+    },
+    {
+      "id": "p0010-s0055-r00067",
+      "term": "HP Inc",
+      "mode": "preserve",
+      "expected": "HP Inc",
+      "actual": ""
+    },
+    {
+      "id": "p0010-s0055-r00067",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": ""
+    },
+    {
+      "id": "p0010-s0055-r00067",
+      "term": "Inc",
+      "mode": "preserve",
+      "expected": "Inc",
+      "actual": ""
+    },
+    {
+      "id": "p0010-s0055-r00069",
+      "term": "ENVY",
+      "mode": "preserve",
+      "expected": "ENVY",
+      "actual": "키보드 구성 요소는 선택 사항일 수도 있고 필수일 수도 있습니다. 만약 키보드 구성 요소가 “필수”라면, 해당 비용은 추적된 평균값에 포함되고, "
+    },
+    {
+      "id": "p0010-s0055-r00069",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "키보드 구성 요소는 선택 사항일 수도 있고 필수일 수도 있습니다. 만약 키보드 구성 요소가 “필수”라면, 해당 비용은 추적된 평균값에 포함되고, "
+    },
+    {
+      "id": "p0010-s0055-r00069",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "키보드 구성 요소는 선택 사항일 수도 있고 필수일 수도 있습니다. 만약 키보드 구성 요소가 “필수”라면, 해당 비용은 추적된 평균값에 포함되고, "
+    },
+    {
+      "id": "p0010-s0055-r00073",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "제품 범주 "
+    },
+    {
+      "id": "p0010-s0055-r00073",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "제품 범주 "
+    },
+    {
+      "id": "p0010-s0055-r00077",
+      "term": "All",
+      "mode": "preserve",
+      "expected": "All",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00089",
+      "term": "Microsoft",
+      "mode": "preserve",
+      "expected": "Microsoft",
+      "actual": "주의사항"
+    },
+    {
+      "id": "p0010-s0055-r00089",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "주의사항"
+    },
+    {
+      "id": "p0010-s0055-r00091",
+      "term": "Surface",
+      "mode": "preserve",
+      "expected": "Surface",
+      "actual": "다음 내용은 우리 제품 세부 범주에 별도로 구분되지 않은 사용 모델 또는 제품에 관한 것입니다:"
+    },
+    {
+      "id": "p0010-s0055-r00092",
+      "term": "Apple",
+      "mode": "preserve",
+      "expected": "Apple",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00092",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00092",
+      "term": "Surface",
+      "mode": "preserve",
+      "expected": "Surface",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00092",
+      "term": "Surface Book",
+      "mode": "preserve",
+      "expected": "Surface Book",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00094",
+      "term": "HP",
+      "mode": "preserve",
+      "expected": "HP",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00094",
+      "term": "HP Inc",
+      "mode": "preserve",
+      "expected": "HP Inc",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00094",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00094",
+      "term": "Inc",
+      "mode": "preserve",
+      "expected": "Inc",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00094",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": " "
+    },
+    {
+      "id": "p0010-s0055-r00096",
+      "term": "ENVY",
+      "mode": "preserve",
+      "expected": "ENVY",
+      "actual": "모든 노트북이 "
+    },
+    {
+      "id": "p0010-s0055-r00096",
+      "term": "Split",
+      "mode": "preserve",
+      "expected": "Split",
+      "actual": "모든 노트북이 "
+    },
+    {
+      "id": "p0010-s0055-r00097",
+      "term": "ASUS",
+      "mode": "preserve",
+      "expected": "ASUS",
+      "actual": "ruggedized로 설계 및 판매된 것입니다. 일반적으로 이들은 미군 군사규격 MIL"
+    },
+    {
+      "id": "p0010-s0055-r00097",
+      "term": "Slate",
+      "mode": "preserve",
+      "expected": "Slate",
+      "actual": "ruggedized로 설계 및 판매된 것입니다. 일반적으로 이들은 미군 군사규격 MIL"
+    },
+    {
+      "id": "p0010-s0055-r00097",
+      "term": "SlateBook",
+      "mode": "preserve",
+      "expected": "SlateBook",
+      "actual": "ruggedized로 설계 및 판매된 것입니다. 일반적으로 이들은 미군 군사규격 MIL"
+    },
+    {
+      "id": "p0010-s0055-r00097",
+      "term": "US",
+      "mode": "preserve",
+      "expected": "US",
+      "actual": "ruggedized로 설계 및 판매된 것입니다. 일반적으로 이들은 미군 군사규격 MIL"
+    },
+    {
+      "id": "p0010-s0055-r00100",
+      "term": "Transformer Book Trio",
+      "mode": "preserve",
+      "expected": "Transformer Book Trio",
+      "actual": "-810F 사양을 충족해야 하며, 이 규격은 미국 정부가 장비의 내구성을 테스트하기 위해 만든 일련의 표준입니다."
+    },
+    {
+      "id": "p0010-s0055-r00102",
+      "term": "Additional",
+      "mode": "preserve",
+      "expected": "Additional",
+      "actual": " "
+    },
+    {
+      "id": "p0011-s0057-r00013",
+      "term": "Home",
+      "mode": "preserve",
+      "expected": "Home",
+      "actual": "홈 서버"
+    },
+    {
+      "id": "p0011-s0057-r00015",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "아직 매우 적은 볼륨으로 떠오르는 카테고리입니다. 이들은 시스템 볼륨에 따라 데스크탑 카테고리에 속합니다."
+    },
+    {
+      "id": "p0011-s0057-r00015",
+      "term": "They",
+      "mode": "preserve",
+      "expected": "They",
+      "actual": "아직 매우 적은 볼륨으로 떠오르는 카테고리입니다. 이들은 시스템 볼륨에 따라 데스크탑 카테고리에 속합니다."
+    },
+    {
+      "id": "p0011-s0057-r00034",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 데이터는 all 데스크탑, 전통적인 노트북, 울트라슬림 노트북, 컨버터블 노트북, 미니 노트북, 탈착식 태블릿 및 슬레이트 태블릿 수준 내에서 1인치 단위로 화면 크기를 추적합니다."
+    },
+    {
+      "id": "p0011-s0057-r00043",
+      "term": "Coverage",
+      "mode": "preserve",
+      "expected": "Coverage",
+      "actual": "포함 범위는 다음 크기를 포함합니다:"
+    },
+    {
+      "id": "p0012-s0059-r00018",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "IDC의 선택적 구성 요소"
+    },
+    {
+      "id": "p0012-s0059-r00028",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이는 최종 사용자 관점에서 사용되는 운영 체제 유형을 나타냅니다."
+    },
+    {
+      "id": "p0012-s0059-r00034",
+      "term": "Android. If",
+      "mode": "preserve",
+      "expected": "Android. If",
+      "actual": "예를 들어, Windows, OS X, iOS 및 Android가 있습니다. 특정 모델이 여러 종류의 OS를 실행할 수 있다면, 우리는 각 OS별로 하나의 모델로 추적할 것입니다."
+    },
+    {
+      "id": "p0012-s0059-r00034",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "예를 들어, Windows, OS X, iOS 및 Android가 있습니다. 특정 모델이 여러 종류의 OS를 실행할 수 있다면, 우리는 각 OS별로 하나의 모델로 추적할 것입니다."
+    },
+    {
+      "id": "p0012-s0059-r00035",
+      "term": "OS",
+      "mode": "preserve",
+      "expected": "OS",
+      "actual": "또는 "
+    },
+    {
+      "id": "p0012-s0059-r00037",
+      "term": "OS",
+      "mode": "preserve",
+      "expected": "OS",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00037",
+      "term": "OS. This",
+      "mode": "preserve",
+      "expected": "OS. This",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00037",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00039",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "우리는 이후의 업그레이드나 "
+    },
+    {
+      "id": "p0012-s0059-r00039",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "우리는 이후의 업그레이드나 "
+    },
+    {
+      "id": "p0012-s0059-r00039",
+      "term": "OS",
+      "mode": "preserve",
+      "expected": "OS",
+      "actual": "우리는 이후의 업그레이드나 "
+    },
+    {
+      "id": "p0012-s0059-r00040",
+      "term": "We",
+      "mode": "preserve",
+      "expected": "We",
+      "actual": "다운그레이드는 포함하지 않습니다."
+    },
+    {
+      "id": "p0012-s0059-r00043",
+      "term": "Application",
+      "mode": "preserve",
+      "expected": "Application",
+      "actual": "p"
+    },
+    {
+      "id": "p0012-s0059-r00049",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00049",
+      "term": "Inform",
+      "mode": "preserve",
+      "expected": "Inform",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00049",
+      "term": "Information",
+      "mode": "preserve",
+      "expected": "Information",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00054",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": "애플리케이션 프로세서 제조사는 OEM 수준에서 추적됩니다. 이는 장치에 포함되어 배송되는 애플리케이션 프로세서 브랜드가 기록된다는 의미입니다. IDC는 다음 제조사들을 추적합니다: Allwinner, Apple, Intel, MediaTek, "
+    },
+    {
+      "id": "p0012-s0059-r00054",
+      "term": "Processor",
+      "mode": "preserve",
+      "expected": "Processor",
+      "actual": "애플리케이션 프로세서 제조사는 OEM 수준에서 추적됩니다. 이는 장치에 포함되어 배송되는 애플리케이션 프로세서 브랜드가 기록된다는 의미입니다. IDC는 다음 제조사들을 추적합니다: Allwinner, Apple, Intel, MediaTek, "
+    },
+    {
+      "id": "p0012-s0059-r00056",
+      "term": "OEM",
+      "mode": "preserve",
+      "expected": "OEM",
+      "actual": "kchip, Samsung, 그리고 TI. 나머지 제조사들은 추적되지 않으며 "
+    },
+    {
+      "id": "p0012-s0059-r00056",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "kchip, Samsung, 그리고 TI. 나머지 제조사들은 추적되지 않으며 "
+    },
+    {
+      "id": "p0012-s0059-r00057",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00058",
+      "term": "All",
+      "mode": "preserve",
+      "expected": "All",
+      "actual": "기타로 분류됩니다."
+    },
+    {
+      "id": "p0012-s0059-r00058",
+      "term": "Allwinner",
+      "mode": "preserve",
+      "expected": "Allwinner",
+      "actual": "기타로 분류됩니다."
+    },
+    {
+      "id": "p0012-s0059-r00058",
+      "term": "Apple",
+      "mode": "preserve",
+      "expected": "Apple",
+      "actual": "기타로 분류됩니다."
+    },
+    {
+      "id": "p0012-s0059-r00058",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "기타로 분류됩니다."
+    },
+    {
+      "id": "p0012-s0059-r00058",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "기타로 분류됩니다."
+    },
+    {
+      "id": "p0012-s0059-r00058",
+      "term": "Intel",
+      "mode": "preserve",
+      "expected": "Intel",
+      "actual": "기타로 분류됩니다."
+    },
+    {
+      "id": "p0012-s0059-r00058",
+      "term": "MediaTek",
+      "mode": "preserve",
+      "expected": "MediaTek",
+      "actual": "기타로 분류됩니다."
+    },
+    {
+      "id": "p0012-s0059-r00059",
+      "term": "NVIDIA",
+      "mode": "preserve",
+      "expected": "NVIDIA",
+      "actual": ""
+    },
+    {
+      "id": "p0012-s0059-r00059",
+      "term": "Qualcomm",
+      "mode": "preserve",
+      "expected": "Qualcomm",
+      "actual": ""
+    },
+    {
+      "id": "p0012-s0059-r00059",
+      "term": "Roc",
+      "mode": "preserve",
+      "expected": "Roc",
+      "actual": ""
+    },
+    {
+      "id": "p0012-s0059-r00060",
+      "term": "All",
+      "mode": "preserve",
+      "expected": "All",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00060",
+      "term": "Samsung",
+      "mode": "preserve",
+      "expected": "Samsung",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00060",
+      "term": "TI. All",
+      "mode": "preserve",
+      "expected": "TI. All",
+      "actual": " "
+    },
+    {
+      "id": "p0012-s0059-r00068",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": "0GHz ~ 1.0GHz 미만"
+    },
+    {
+      "id": "p0012-s0059-r00068",
+      "term": "Processor",
+      "mode": "preserve",
+      "expected": "Processor",
+      "actual": "0GHz ~ 1.0GHz 미만"
+    },
+    {
+      "id": "p0012-s0059-r00070",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": ""
+    },
+    {
+      "id": "p0012-s0059-r00070",
+      "term": "Processor",
+      "mode": "preserve",
+      "expected": "Processor",
+      "actual": ""
+    },
+    {
+      "id": "p0012-s0059-r00109",
+      "term": "Some",
+      "mode": "preserve",
+      "expected": "Some",
+      "actual": "일부 최신 애플리케이션 "
+    },
+    {
+      "id": "p0012-s0059-r00110",
+      "term": "CPU. IDC",
+      "mode": "preserve",
+      "expected": "CPU. IDC",
+      "actual": "프로세서는 하나 이상의 CPU를 보유하고 있습니다. IDC는 핸드셋의 실제 CPU 수를 "
+    },
+    {
+      "id": "p0012-s0059-r00110",
+      "term": "CPUs",
+      "mode": "preserve",
+      "expected": "CPUs",
+      "actual": "프로세서는 하나 이상의 CPU를 보유하고 있습니다. IDC는 핸드셋의 실제 CPU 수를 "
+    },
+    {
+      "id": "p0013-s0061-r00017",
+      "term": "Currently",
+      "mode": "preserve",
+      "expected": "Currently",
+      "actual": "type에 따라 출하량을 분류합니다. 현재 이 분류는 ARM 및 x86 프로세서가 장착된 장치로 제한됩니다."
+    },
+    {
+      "id": "p0013-s0061-r00023",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 IDC의 구성 요소는"
+    },
+    {
+      "id": "p0013-s0061-r00036",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "데스크톱과 노트북용으로 다음과 같은 분류를 제공합니다: "
+    },
+    {
+      "id": "p0013-s0061-r00079",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고:"
+    },
+    {
+      "id": "p0013-s0061-r00079",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고:"
+    },
+    {
+      "id": "p0013-s0061-r00081",
+      "term": "Man",
+      "mode": "preserve",
+      "expected": "Man",
+      "actual": "많은 PC 및 워크스테이션은 CPU 또는 GPU를 사용하여 AI 워크로드를 실행할 수 있습니다; "
+    },
+    {
+      "id": "p0013-s0061-r00081",
+      "term": "Many PCs",
+      "mode": "preserve",
+      "expected": "Many PCs",
+      "actual": "많은 PC 및 워크스테이션은 CPU 또는 GPU를 사용하여 AI 워크로드를 실행할 수 있습니다; "
+    },
+    {
+      "id": "p0013-s0061-r00081",
+      "term": "PCs",
+      "mode": "preserve",
+      "expected": "PCs",
+      "actual": "많은 PC 및 워크스테이션은 CPU 또는 GPU를 사용하여 AI 워크로드를 실행할 수 있습니다; "
+    },
+    {
+      "id": "p0013-s0061-r00084",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "분리형 태블릿 및 슬레이트 태블릿에 대해 다음 카테고리가 제공됩니다: "
+    },
+    {
+      "id": "p0013-s0061-r00088",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "Android, iOS 및 기타 OS에 대하여:"
+    },
+    {
+      "id": "p0013-s0061-r00088",
+      "term": "For Android",
+      "mode": "preserve",
+      "expected": "For Android",
+      "actual": "Android, iOS 및 기타 OS에 대하여:"
+    },
+    {
+      "id": "p0013-s0061-r00088",
+      "term": "OSs",
+      "mode": "preserve",
+      "expected": "OSs",
+      "actual": "Android, iOS 및 기타 OS에 대하여:"
+    },
+    {
+      "id": "p0013-s0061-r00110",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "Windows 및 Chrome OS용:"
+    },
+    {
+      "id": "p0013-s0061-r00110",
+      "term": "For Windows",
+      "mode": "preserve",
+      "expected": "For Windows",
+      "actual": "Windows 및 Chrome OS용:"
+    },
+    {
+      "id": "p0013-s0061-r00127",
+      "term": "Hence",
+      "mode": "preserve",
+      "expected": "Hence",
+      "actual": "참고: IDC는 1Q23부터 AI 데이터를 추적합니다. 따라서 1Q23 이전의 모든 장치는 N/A로 표시됩니다."
+    },
+    {
+      "id": "p0013-s0061-r00127",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고: IDC는 1Q23부터 AI 데이터를 추적합니다. 따라서 1Q23 이전의 모든 장치는 N/A로 표시됩니다."
+    },
+    {
+      "id": "p0013-s0061-r00127",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고: IDC는 1Q23부터 AI 데이터를 추적합니다. 따라서 1Q23 이전의 모든 장치는 N/A로 표시됩니다."
+    },
+    {
+      "id": "p0013-s0061-r00146",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "IDC는 각 장치를 그 장치가 지원하는 가장 높은 Air Interface로 분류합니다. 예를 들어, 한 장치가 LTE를 지원하고 HSPA 네트워크에서도 작동 가능하다면, 해당 장치는 LTE 장치로 분류됩니다."
+    },
+    {
+      "id": "p0013-s0061-r00147",
+      "term": "HSPA",
+      "mode": "preserve",
+      "expected": "HSPA",
+      "actual": "LTE 장치로 분류됩니다."
+    },
+    {
+      "id": "p0014-s0065-r00008",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이는 가장 빠르거나 가장 높은 air interface입니다. 특정 지리적 위치 내 사용 가능한 네트워크 기술과 해당 위치로 출하된 장치의 기술 사이에 직접적인 상관관계는 없습니다."
+    },
+    {
+      "id": "p0014-s0065-r00008",
+      "term": "There",
+      "mode": "preserve",
+      "expected": "There",
+      "actual": "이는 가장 빠르거나 가장 높은 air interface입니다. 특정 지리적 위치 내 사용 가능한 네트워크 기술과 해당 위치로 출하된 장치의 기술 사이에 직접적인 상관관계는 없습니다."
+    },
+    {
+      "id": "p0014-s0065-r00010",
+      "term": "We",
+      "mode": "preserve",
+      "expected": "We",
+      "actual": "더 높은 수준의 연결성을 가진 장치를 "
+    },
+    {
+      "id": "p0014-s0065-r00015",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": " "
+    },
+    {
+      "id": "p0014-s0065-r00021",
+      "term": "HSPA",
+      "mode": "preserve",
+      "expected": "HSPA",
+      "actual": ""
+    },
+    {
+      "id": "p0014-s0065-r00023",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "용어 "
+    },
+    {
+      "id": "p0014-s0065-r00030",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": " "
+    },
+    {
+      "id": "p0014-s0065-r00107",
+      "term": "New",
+      "mode": "preserve",
+      "expected": "New",
+      "actual": "새로운 무선 인터페이스가 사용 가능해지면 추가될 것입니다."
+    },
+    {
+      "id": "p0014-s0065-r00109",
+      "term": "Connect",
+      "mode": "preserve",
+      "expected": "Connect",
+      "actual": "연결성 ("
+    },
+    {
+      "id": "p0014-s0065-r00109",
+      "term": "Connectivity",
+      "mode": "preserve",
+      "expected": "Connectivity",
+      "actual": "연결성 ("
+    },
+    {
+      "id": "p0015-s0069-r00098",
+      "term": "Screen",
+      "mode": "preserve",
+      "expected": "Screen",
+      "actual": "화면 "
+    },
+    {
+      "id": "p0015-s0069-r00117",
+      "term": "Storage",
+      "mode": "preserve",
+      "expected": "Storage",
+      "actual": "저장 공간 ("
+    },
+    {
+      "id": "p0015-s0069-r00134",
+      "term": "Storage",
+      "mode": "preserve",
+      "expected": "Storage",
+      "actual": ""
+    },
+    {
+      "id": "p0015-s0069-r00137",
+      "term": "Voice",
+      "mode": "preserve",
+      "expected": "Voice",
+      "actual": "음성 "
+    },
+    {
+      "id": "p0015-s0069-r00154",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": ""
+    },
+    {
+      "id": "p0015-s0069-r00164",
+      "term": "Voice",
+      "mode": "preserve",
+      "expected": "Voice",
+      "actual": "음성 통화는 외장, Bluetooth, 또는 내부 마이크/스피커의 조합을 통해 구현될 수 있습니다. Skype와 같은 앱을 통해 음성 통화를 지원하는 태블릿은 제외됩니다."
+    },
+    {
+      "id": "p0015-s0069-r00165",
+      "term": "Bluetooth",
+      "mode": "preserve",
+      "expected": "Bluetooth",
+      "actual": ""
+    },
+    {
+      "id": "p0015-s0069-r00166",
+      "term": "IP",
+      "mode": "preserve",
+      "expected": "IP",
+      "actual": ""
+    },
+    {
+      "id": "p0015-s0069-r00166",
+      "term": "Skype",
+      "mode": "preserve",
+      "expected": "Skype",
+      "actual": ""
+    },
+    {
+      "id": "p0015-s0069-r00166",
+      "term": "Table",
+      "mode": "preserve",
+      "expected": "Table",
+      "actual": ""
+    },
+    {
+      "id": "p0015-s0069-r00166",
+      "term": "Tablets",
+      "mode": "preserve",
+      "expected": "Tablets",
+      "actual": ""
+    },
+    {
+      "id": "p0016-s0071-r00008",
+      "term": "Customer",
+      "mode": "preserve",
+      "expected": "Customer",
+      "actual": "고객 "
+    },
+    {
+      "id": "p0016-s0071-r00014",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "사용자 세분화는 각 최종 사용자 범주별 PCD의 최종 구매를 나타냅니다."
+    },
+    {
+      "id": "p0016-s0071-r00018",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "실제 최종 사용자 여부. 예를 들어, 학교가 교육용으로 PCD를 구매하고 학생들이 최종 최종 사용자인 경우,"
+    },
+    {
+      "id": "p0016-s0071-r00019",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "PCD 출하량은 소비자가 아닌 교육에 따라 계산됩니다."
+    },
+    {
+      "id": "p0016-s0071-r00022",
+      "term": "Wi",
+      "mode": "preserve",
+      "expected": "Wi",
+      "actual": "비즈니스 세그먼트에 관해서는, 다국적 회사는 그 자체의"
+    },
+    {
+      "id": "p0016-s0071-r00022",
+      "term": "With",
+      "mode": "preserve",
+      "expected": "With",
+      "actual": "비즈니스 세그먼트에 관해서는, 다국적 회사는 그 자체의"
+    },
+    {
+      "id": "p0016-s0071-r00024",
+      "term": "Poland",
+      "mode": "preserve",
+      "expected": "Poland",
+      "actual": "폴란드에 20명만 있는 경우라도)."
+    },
+    {
+      "id": "p0016-s0071-r00024",
+      "term": "States",
+      "mode": "preserve",
+      "expected": "States",
+      "actual": "폴란드에 20명만 있는 경우라도)."
+    },
+    {
+      "id": "p0016-s0071-r00024",
+      "term": "Unit",
+      "mode": "preserve",
+      "expected": "Unit",
+      "actual": "폴란드에 20명만 있는 경우라도)."
+    },
+    {
+      "id": "p0016-s0071-r00024",
+      "term": "United",
+      "mode": "preserve",
+      "expected": "United",
+      "actual": "폴란드에 20명만 있는 경우라도)."
+    },
+    {
+      "id": "p0016-s0071-r00024",
+      "term": "United States",
+      "mode": "preserve",
+      "expected": "United States",
+      "actual": "폴란드에 20명만 있는 경우라도)."
+    },
+    {
+      "id": "p0016-s0071-r00027",
+      "term": "Segments",
+      "mode": "preserve",
+      "expected": "Segments",
+      "actual": "세그먼트는 다음을 포함합니다:"
+    },
+    {
+      "id": "p0016-s0071-r00031",
+      "term": "Consumer",
+      "mode": "preserve",
+      "expected": "Consumer",
+      "actual": "소비자."
+    },
+    {
+      "id": "p0016-s0071-r00033",
+      "term": "All",
+      "mode": "preserve",
+      "expected": "All",
+      "actual": "홈 오피스, 재택근무, 소비자 애플리케이션 및 가정에서 운영되는 비즈니스를 포함한 모든 가정 구매"
+    },
+    {
+      "id": "p0016-s0071-r00038",
+      "term": "Small",
+      "mode": "preserve",
+      "expected": "Small",
+      "actual": "소규모 사무실."
+    },
+    {
+      "id": "p0016-s0071-r00040",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "그 국가에서 직원 수가 10명 미만인 비거주 사업체"
+    },
+    {
+      "id": "p0016-s0071-r00040",
+      "term": "Nonresidential",
+      "mode": "preserve",
+      "expected": "Nonresidential",
+      "actual": "그 국가에서 직원 수가 10명 미만인 비거주 사업체"
+    },
+    {
+      "id": "p0016-s0071-r00044",
+      "term": "Small",
+      "mode": "preserve",
+      "expected": "Small",
+      "actual": "소규모 비즈니스."
+    },
+    {
+      "id": "p0016-s0071-r00046",
+      "term": "Business",
+      "mode": "preserve",
+      "expected": "Business",
+      "actual": "해당 국가에서 직원 수가 10명에서"
+    },
+    {
+      "id": "p0016-s0071-r00046",
+      "term": "Businesses",
+      "mode": "preserve",
+      "expected": "Businesses",
+      "actual": "해당 국가에서 직원 수가 10명에서"
+    },
+    {
+      "id": "p0016-s0071-r00052",
+      "term": "Medium",
+      "mode": "preserve",
+      "expected": "Medium",
+      "actual": "중규모"
+    },
+    {
+      "id": "p0016-s0071-r00056",
+      "term": "Business",
+      "mode": "preserve",
+      "expected": "Business",
+      "actual": "해당 국가에서 직원 수가 100명에서"
+    },
+    {
+      "id": "p0016-s0071-r00056",
+      "term": "Businesses",
+      "mode": "preserve",
+      "expected": "Businesses",
+      "actual": "해당 국가에서 직원 수가 100명에서"
+    },
+    {
+      "id": "p0016-s0071-r00062",
+      "term": "Large",
+      "mode": "preserve",
+      "expected": "Large",
+      "actual": "대기업."
+    },
+    {
+      "id": "p0016-s0071-r00064",
+      "term": "Business",
+      "mode": "preserve",
+      "expected": "Business",
+      "actual": "해당 국가에서 직원 수가 500명에서"
+    },
+    {
+      "id": "p0016-s0071-r00064",
+      "term": "Businesses",
+      "mode": "preserve",
+      "expected": "Businesses",
+      "actual": "해당 국가에서 직원 수가 500명에서"
+    },
+    {
+      "id": "p0016-s0071-r00070",
+      "term": "Very",
+      "mode": "preserve",
+      "expected": "Very",
+      "actual": "대기업."
+    },
+    {
+      "id": "p0016-s0071-r00072",
+      "term": "Business",
+      "mode": "preserve",
+      "expected": "Business",
+      "actual": "해당 국가에서 1,000명 이상의 직원이 있는 비즈니스"
+    },
+    {
+      "id": "p0016-s0071-r00072",
+      "term": "Businesses",
+      "mode": "preserve",
+      "expected": "Businesses",
+      "actual": "해당 국가에서 1,000명 이상의 직원이 있는 비즈니스"
+    },
+    {
+      "id": "p0016-s0071-r00076",
+      "term": "Government",
+      "mode": "preserve",
+      "expected": "Government",
+      "actual": "정부."
+    },
+    {
+      "id": "p0016-s0071-r00078",
+      "term": "City",
+      "mode": "preserve",
+      "expected": "City",
+      "actual": "도시, 카운티, 주, 지방, 지역, 군사 및 연방 정부 기관(제외 대상은 정부 소유의 상업 기업에 대한 PC 판매)"
+    },
+    {
+      "id": "p0016-s0071-r00079",
+      "term": "Excluded",
+      "mode": "preserve",
+      "expected": "Excluded",
+      "actual": " "
+    },
+    {
+      "id": "p0016-s0071-r00079",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": " "
+    },
+    {
+      "id": "p0016-s0071-r00086",
+      "term": "Education",
+      "mode": "preserve",
+      "expected": "Education",
+      "actual": "교육."
+    },
+    {
+      "id": "p0016-s0071-r00088",
+      "term": "Education",
+      "mode": "preserve",
+      "expected": "Education",
+      "actual": "유치원부터 12학년까지 그리고 대학, 대학교, 직업 학교를 포괄하는 교육 및 교수 기관(학생에 대한 판매는 소비자 세그먼트로 계산됨)"
+    },
+    {
+      "id": "p0016-s0071-r00091",
+      "term": "Sales",
+      "mode": "preserve",
+      "expected": "Sales",
+      "actual": " "
+    },
+    {
+      "id": "p0016-s0071-r00096",
+      "term": "Education",
+      "mode": "preserve",
+      "expected": "Education",
+      "actual": "세그먼트. 교육에는 공립 및 사립 기관이 모두 포함됩니다. 정부에서 자금을 지원하는 공공 기관에 대한 출하는 교육으로 계산됩니다 [정부가 아닙니다].)"
+    },
+    {
+      "id": "p0016-s0071-r00096",
+      "term": "Shipment",
+      "mode": "preserve",
+      "expected": "Shipment",
+      "actual": "세그먼트. 교육에는 공립 및 사립 기관이 모두 포함됩니다. 정부에서 자금을 지원하는 공공 기관에 대한 출하는 교육으로 계산됩니다 [정부가 아닙니다].)"
+    },
+    {
+      "id": "p0016-s0071-r00096",
+      "term": "Shipments",
+      "mode": "preserve",
+      "expected": "Shipments",
+      "actual": "세그먼트. 교육에는 공립 및 사립 기관이 모두 포함됩니다. 정부에서 자금을 지원하는 공공 기관에 대한 출하는 교육으로 계산됩니다 [정부가 아닙니다].)"
+    },
+    {
+      "id": "p0016-s0071-r00100",
+      "term": "Customer",
+      "mode": "preserve",
+      "expected": "Customer",
+      "actual": "고객"
+    },
+    {
+      "id": "p0016-s0071-r00110",
+      "term": "Consumer",
+      "mode": "preserve",
+      "expected": "Consumer",
+      "actual": "소비자."
+    },
+    {
+      "id": "p0016-s0071-r00112",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "가정 카테고리는 공식적으로 "
+    },
+    {
+      "id": "p0016-s0071-r00123",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "정부 및 교육 부문의 합계는 때때로"
+    },
+    {
+      "id": "p0016-s0071-r00130",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "소규모 사무실, 소규모 비즈니스, 중간"
+    },
+    {
+      "id": "p0016-s0071-r00140",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "공공 및 비즈니스(모든 비소비자 선적)의 합계는"
+    },
+    {
+      "id": "p0017-s0073-r00014",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "학교가 학생을 위해 장치를 구매하는 경우(예: 필수 구매,"
+    },
+    {
+      "id": "p0017-s0073-r00020",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "학교가 학생에게 장치를 가져오도록 요구하는 경우(필요시 구매), 그러나 학생이 판매자에게 직접 비용을 지불하고"
+    },
+    {
+      "id": "p0017-s0073-r00036",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "IDC는 채널을 두 수준으로 분류합니다: 채널 그룹과 채널. 채널 그룹은 직접 및 간접이라는 두 범주의 채널 데이터를 집계한 것입니다. 직접은"
+    },
+    {
+      "id": "p0017-s0073-r00037",
+      "term": "Direct",
+      "mode": "preserve",
+      "expected": "Direct",
+      "actual": "판매자가 최종 사용자에게 직접 판매하는 모든 것을 의미하며, 간접은 "
+    },
+    {
+      "id": "p0017-s0073-r00042",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "IDC 트래커의 채널 데이터는 최종 사용자가 신제품을 구매하는 채널을 나타냅니다. IDC는 벤더가 1차 유통업체에 판매하는 중간 이동을 추적하지 않습니다. 예를 들어, 벤더가 모바일 사업자에게 판매하고, 그 사업자가 다시 소매점에 판매하는 경우,"
+    },
+    {
+      "id": "p0017-s0073-r00048",
+      "term": "Channel",
+      "mode": "preserve",
+      "expected": "Channel",
+      "actual": "IDC는 채널을 소매로 캡처하며, 통신업체로 캡처하지 않습니다. 채널은 주요 사업 활동에 따라 정의됩니다. 다른 회사의 자회사인 회사(예: CDW Logistics가 CDW의 자회사)의 채널 분류는"
+    },
+    {
+      "id": "p0017-s0073-r00048",
+      "term": "Channels",
+      "mode": "preserve",
+      "expected": "Channels",
+      "actual": "IDC는 채널을 소매로 캡처하며, 통신업체로 캡처하지 않습니다. 채널은 주요 사업 활동에 따라 정의됩니다. 다른 회사의 자회사인 회사(예: CDW Logistics가 CDW의 자회사)의 채널 분류는"
+    },
+    {
+      "id": "p0017-s0073-r00050",
+      "term": "CDW",
+      "mode": "preserve",
+      "expected": "CDW",
+      "actual": "독립적으로 평가됩니다. 각 회사 내에서, IDC는 모든 최종 사용자 판매를 단일 범주 내에 포착하려고 합니다. 이것은"
+    },
+    {
+      "id": "p0017-s0073-r00050",
+      "term": "CDW Logistics",
+      "mode": "preserve",
+      "expected": "CDW Logistics",
+      "actual": "독립적으로 평가됩니다. 각 회사 내에서, IDC는 모든 최종 사용자 판매를 단일 범주 내에 포착하려고 합니다. 이것은"
+    },
+    {
+      "id": "p0017-s0073-r00059",
+      "term": "VAR",
+      "mode": "preserve",
+      "expected": "VAR",
+      "actual": "유형의 온라인 회사 운영에도 적용됩니다. 그러나 판매가 최종 사용자에게 이루어지지 않는 경우(예: 다른 채널에게 판매되는 경우),"
+    },
+    {
+      "id": "p0017-s0073-r00069",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "이행되었거나 수령되었습니다. 예를 들어:"
+    },
+    {
+      "id": "p0017-s0073-r00073",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "고객이 소매점에 방문해서 PC를 구매했지만, PC가 고객에게 배송되는 경우, "
+    },
+    {
+      "id": "p0017-s0073-r00074",
+      "term": "Conversely",
+      "mode": "preserve",
+      "expected": "Conversely",
+      "actual": "IDC는 이를 직접 판매가 아니라 소매로 간주합니다. 반대로, 사용자가 MacBook을 온라인으로 주문했지만 Apple 매장에 방문하여 수령하는 경우라면 "
+    },
+    {
+      "id": "p0017-s0073-r00075",
+      "term": "Apple",
+      "mode": "preserve",
+      "expected": "Apple",
+      "actual": "직접 판매로 간주됩니다"
+    },
+    {
+      "id": "p0017-s0073-r00075",
+      "term": "MacBook",
+      "mode": "preserve",
+      "expected": "MacBook",
+      "actual": "직접 판매로 간주됩니다"
+    },
+    {
+      "id": "p0017-s0073-r00093",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "글로벌 본사가 파트너를 통해 지역적으로 납품하는 판매를 할 경우, 이는 "
+    },
+    {
+      "id": "p0017-s0073-r00095",
+      "term": "Effectively",
+      "mode": "preserve",
+      "expected": "Effectively",
+      "actual": "직접 판매로 간주됩니다. 실질적으로 납품, 설치, 지원 서비스 등은 부가적이거나 아웃소싱된 거래의 일부로 볼 수 있지만, "
+    },
+    {
+      "id": "p0017-s0073-r00101",
+      "term": "Conversely",
+      "mode": "preserve",
+      "expected": "Conversely",
+      "actual": "반대로, 지역 채널이 계약을 체결했지만 납품이나 관련 서비스가 공급업체에 의해 직접 제공되면, 이 판매는 채널 파트너 하에 집계할 것입니다."
+    },
+    {
+      "id": "p0017-s0073-r00104",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "기업 판매의 경우, 여러 당사자가 "
+    },
+    {
+      "id": "p0018-s0075-r00011",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "채널은 공급업체에 의해 공식적으로 승인될 필요가 없습니다. 경우에 따라 공급업체에 의해 승인받지 않았거나 직접적으로 관련되지 않은 채널도 "
+    },
+    {
+      "id": "p0018-s0075-r00015",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "제품을. 여기에는 공식적으로 특정 국가에서 출시되지 않았거나 대상이 아닌 제품을, 채널이 비공식 공급원(예: 다른 채널)으로부터 제품을 조달해 제공하는 경우도 포함될 수 있습니다."
+    },
+    {
+      "id": "p0018-s0075-r00019",
+      "term": "Fi",
+      "mode": "preserve",
+      "expected": "Fi",
+      "actual": "도표 2는 직접 채널에 포함된 채널들을 자세히 설명합니다."
+    },
+    {
+      "id": "p0018-s0075-r00019",
+      "term": "Figure",
+      "mode": "preserve",
+      "expected": "Figure",
+      "actual": "도표 2는 직접 채널에 포함된 채널들을 자세히 설명합니다."
+    },
+    {
+      "id": "p0018-s0075-r00021",
+      "term": "FIGURE",
+      "mode": "preserve",
+      "expected": "FIGURE",
+      "actual": "도표 2"
+    },
+    {
+      "id": "p0018-s0075-r00036",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Computing Device Tracker",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Device Tracker",
+      "mode": "preserve",
+      "expected": "Device Tracker",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Personal",
+      "mode": "preserve",
+      "expected": "Personal",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Personal Computing Device Tracker",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Quarterly",
+      "mode": "preserve",
+      "expected": "Quarterly",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Quarterly Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Quarterly Personal Computing Device Tracker",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Tracker",
+      "mode": "preserve",
+      "expected": "Tracker",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Worldwide",
+      "mode": "preserve",
+      "expected": "Worldwide",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Worldwide Quarterly",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Worldwide Quarterly Personal",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Worldwide Quarterly Personal Computing",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Worldwide Quarterly Personal Computing Device",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing Device",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00038",
+      "term": "Worldwide Quarterly Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing Device Tracker",
+      "actual": "전 세계 분기별 개인용 컴퓨팅 장치 추적기, 2015"
+    },
+    {
+      "id": "p0018-s0075-r00040",
+      "term": "Channel",
+      "mode": "preserve",
+      "expected": "Channel",
+      "actual": "참고: 채널 세부 정보는 IDC"
+    },
+    {
+      "id": "p0018-s0075-r00040",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고: 채널 세부 정보는 IDC"
+    },
+    {
+      "id": "p0018-s0075-r00040",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고: 채널 세부 정보는 IDC"
+    },
+    {
+      "id": "p0018-s0075-r00045",
+      "term": "Direct",
+      "mode": "preserve",
+      "expected": "Direct",
+      "actual": "직접 "
+    },
+    {
+      "id": "p0018-s0075-r00051",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "인터넷 판매는 공급업체가 자사의 웹사이트나 온라인 스토어를 통해 최종 사용자에게 직접 판매하는 것을 포함합니다."
+    },
+    {
+      "id": "p0018-s0075-r00054",
+      "term": "Purchase",
+      "mode": "preserve",
+      "expected": "Purchase",
+      "actual": "웹사이트나 온라인 스토어를 통한 구매 확인이 반드시 인터넷을 통해 이루어져야 합니다."
+    },
+    {
+      "id": "p0018-s0075-r00055",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "인터넷 텔레세일의 경우, 제품이 온라인에서 구매되지만 일부 인간 요소가 개입(예: 거래 전후에 고객이 공급업체에 직접 전화해 상담)된다면 이 채널에 포함됩니다."
+    },
+    {
+      "id": "p0018-s0075-r00055",
+      "term": "Internet",
+      "mode": "preserve",
+      "expected": "Internet",
+      "actual": "인터넷 텔레세일의 경우, 제품이 온라인에서 구매되지만 일부 인간 요소가 개입(예: 거래 전후에 고객이 공급업체에 직접 전화해 상담)된다면 이 채널에 포함됩니다."
+    },
+    {
+      "id": "p0018-s0075-r00060",
+      "term": "Most",
+      "mode": "preserve",
+      "expected": "Most",
+      "actual": "경우에 따라 공급업체는 웹사이트 운영을 아웃소싱하기도 합니다. 대부분 제3자가 인보이스 발행과 이행을 관리하는 경우 간접 판매(일반적으로 전자 소매상)로 간주합니다."
+    },
+    {
+      "id": "p0018-s0075-r00060",
+      "term": "Some",
+      "mode": "preserve",
+      "expected": "Some",
+      "actual": "경우에 따라 공급업체는 웹사이트 운영을 아웃소싱하기도 합니다. 대부분 제3자가 인보이스 발행과 이행을 관리하는 경우 간접 판매(일반적으로 전자 소매상)로 간주합니다."
+    },
+    {
+      "id": "p0018-s0075-r00060",
+      "term": "Sometimes",
+      "mode": "preserve",
+      "expected": "Sometimes",
+      "actual": "경우에 따라 공급업체는 웹사이트 운영을 아웃소싱하기도 합니다. 대부분 제3자가 인보이스 발행과 이행을 관리하는 경우 간접 판매(일반적으로 전자 소매상)로 간주합니다."
+    },
+    {
+      "id": "p0018-s0075-r00062",
+      "term": "However",
+      "mode": "preserve",
+      "expected": "However",
+      "actual": " "
+    },
+    {
+      "id": "p0019-s0078-r00017",
+      "term": "Exception",
+      "mode": "preserve",
+      "expected": "Exception",
+      "actual": "예외: 딜러 또는 소매업체 웹사이트를 통한 판매는 여기에 포함되지 않습니다. 예를 들어, 판매자의"
+    },
+    {
+      "id": "p0019-s0078-r00017",
+      "term": "Exceptions",
+      "mode": "preserve",
+      "expected": "Exceptions",
+      "actual": "예외: 딜러 또는 소매업체 웹사이트를 통한 판매는 여기에 포함되지 않습니다. 예를 들어, 판매자의"
+    },
+    {
+      "id": "p0019-s0078-r00017",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "예외: 딜러 또는 소매업체 웹사이트를 통한 판매는 여기에 포함되지 않습니다. 예를 들어, 판매자의"
+    },
+    {
+      "id": "p0019-s0078-r00017",
+      "term": "Sales",
+      "mode": "preserve",
+      "expected": "Sales",
+      "actual": "예외: 딜러 또는 소매업체 웹사이트를 통한 판매는 여기에 포함되지 않습니다. 예를 들어, 판매자의"
+    },
+    {
+      "id": "p0019-s0078-r00022",
+      "term": "SI",
+      "mode": "preserve",
+      "expected": "SI",
+      "actual": "독립적으로 발생시키는 온라인 판매는 "
+    },
+    {
+      "id": "p0019-s0078-r00022",
+      "term": "Similarly",
+      "mode": "preserve",
+      "expected": "Similarly",
+      "actual": "독립적으로 발생시키는 온라인 판매는 "
+    },
+    {
+      "id": "p0019-s0078-r00022",
+      "term": "VAR",
+      "mode": "preserve",
+      "expected": "VAR",
+      "actual": "독립적으로 발생시키는 온라인 판매는 "
+    },
+    {
+      "id": "p0019-s0078-r00028",
+      "term": "SI",
+      "mode": "preserve",
+      "expected": "SI",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00028",
+      "term": "VAR",
+      "mode": "preserve",
+      "expected": "VAR",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00032",
+      "term": "Direct",
+      "mode": "preserve",
+      "expected": "Direct",
+      "actual": "직접 "
+    },
+    {
+      "id": "p0019-s0078-r00038",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "상점 채널은 판매자가 소유 및 직접 공급하는 스토어프론트 비즈니스를 통해 최종 사용자에게 판매하는 것을 포함합니다. 이러한 상점은 일반적으로 "
+    },
+    {
+      "id": "p0019-s0078-r00039",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "소매 채널과 마찬가지로 많은 수의 무관한 고객에게 판매합니다."
+    },
+    {
+      "id": "p0019-s0078-r00039",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "소매 채널과 마찬가지로 많은 수의 무관한 고객에게 판매합니다."
+    },
+    {
+      "id": "p0019-s0078-r00042",
+      "term": "Apple",
+      "mode": "preserve",
+      "expected": "Apple",
+      "actual": "다른 어떤 판매자"
+    },
+    {
+      "id": "p0019-s0078-r00042",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "다른 어떤 판매자"
+    },
+    {
+      "id": "p0019-s0078-r00047",
+      "term": "Exception",
+      "mode": "preserve",
+      "expected": "Exception",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00047",
+      "term": "Exceptions",
+      "mode": "preserve",
+      "expected": "Exceptions",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00047",
+      "term": "Fr",
+      "mode": "preserve",
+      "expected": "Fr",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00047",
+      "term": "Fra",
+      "mode": "preserve",
+      "expected": "Fra",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00047",
+      "term": "Franchise",
+      "mode": "preserve",
+      "expected": "Franchise",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00052",
+      "term": "Direct",
+      "mode": "preserve",
+      "expected": "Direct",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00060",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "소유 상점 내에서 이루어지지 않는 모든 판매자 직접 판매가 포함됩니다."
+    },
+    {
+      "id": "p0019-s0078-r00060",
+      "term": "Inbound",
+      "mode": "preserve",
+      "expected": "Inbound",
+      "actual": "소유 상점 내에서 이루어지지 않는 모든 판매자 직접 판매가 포함됩니다."
+    },
+    {
+      "id": "p0019-s0078-r00063",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "직접 "
+    },
+    {
+      "id": "p0019-s0078-r00075",
+      "term": "Vendor",
+      "mode": "preserve",
+      "expected": "Vendor",
+      "actual": "판매자 영업 인력(즉, 아웃바운드):"
+    },
+    {
+      "id": "p0019-s0078-r00077",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이것은 판매자가 영업 인력, 대리인, 또는 대표자를 통해 최종 사용자에게 직접 판매하는 경우입니다(이들이 "
+    },
+    {
+      "id": "p0019-s0078-r00077",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이것은 판매자가 영업 인력, 대리인, 또는 대표자를 통해 최종 사용자에게 직접 판매하는 경우입니다(이들이 "
+    },
+    {
+      "id": "p0019-s0078-r00083",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": " "
+    },
+    {
+      "id": "p0019-s0078-r00084",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "카탈로그/텔레세일즈/콜센터: "
+    },
+    {
+      "id": "p0019-s0078-r00085",
+      "term": "HP",
+      "mode": "preserve",
+      "expected": "HP",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00085",
+      "term": "HP Inc",
+      "mode": "preserve",
+      "expected": "HP Inc",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00085",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00085",
+      "term": "Inc",
+      "mode": "preserve",
+      "expected": "Inc",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00085",
+      "term": "Lenovo",
+      "mode": "preserve",
+      "expected": "Lenovo",
+      "actual": ""
+    },
+    {
+      "id": "p0019-s0078-r00089",
+      "term": "Catalog",
+      "mode": "preserve",
+      "expected": "Catalog",
+      "actual": "인바운드 "
+    },
+    {
+      "id": "p0019-s0078-r00091",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": " "
+    },
+    {
+      "id": "p0019-s0078-r00091",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": " "
+    },
+    {
+      "id": "p0019-s0078-r00100",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "구매 시 선물이 제공되는 경우에 ("
+    },
+    {
+      "id": "p0019-s0078-r00109",
+      "term": "Exception",
+      "mode": "preserve",
+      "expected": "Exception",
+      "actual": "예외 사항: 공급업체가 비즈니스 개발에 중요한 역할을 하지만 "
+    },
+    {
+      "id": "p0019-s0078-r00109",
+      "term": "Exceptions",
+      "mode": "preserve",
+      "expected": "Exceptions",
+      "actual": "예외 사항: 공급업체가 비즈니스 개발에 중요한 역할을 하지만 "
+    },
+    {
+      "id": "p0019-s0078-r00109",
+      "term": "Sales",
+      "mode": "preserve",
+      "expected": "Sales",
+      "actual": "예외 사항: 공급업체가 비즈니스 개발에 중요한 역할을 하지만 "
+    },
+    {
+      "id": "p0020-s0080-r00008",
+      "term": "Fi",
+      "mode": "preserve",
+      "expected": "Fi",
+      "actual": "그림 3은 간접 채널에 포함된 채널을 자세히 설명합니다."
+    },
+    {
+      "id": "p0020-s0080-r00008",
+      "term": "Figure",
+      "mode": "preserve",
+      "expected": "Figure",
+      "actual": "그림 3은 간접 채널에 포함된 채널을 자세히 설명합니다."
+    },
+    {
+      "id": "p0020-s0080-r00025",
+      "term": "Channel",
+      "mode": "preserve",
+      "expected": "Channel",
+      "actual": "참고: 채널 세부 사항은 IDC"
+    },
+    {
+      "id": "p0020-s0080-r00025",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고: 채널 세부 사항은 IDC"
+    },
+    {
+      "id": "p0020-s0080-r00025",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고: 채널 세부 사항은 IDC"
+    },
+    {
+      "id": "p0020-s0080-r00029",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0020-s0080-r00034",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0020-s0080-r00034",
+      "term": "Indirect",
+      "mode": "preserve",
+      "expected": "Indirect",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0020-s0080-r00040",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "대리점/VAR/SI 채널은 가격과 가용성(일반적으로 소매점의 주요 경쟁 요소)을 넘어 "
+    },
+    {
+      "id": "p0020-s0080-r00042",
+      "term": "Only",
+      "mode": "preserve",
+      "expected": "Only",
+      "actual": "최종 단계로서 회사나 소비자)에게 판매하는 경우에만 이 채널에 적합합니다."
+    },
+    {
+      "id": "p0020-s0080-r00046",
+      "term": "CDW",
+      "mode": "preserve",
+      "expected": "CDW",
+      "actual": "소매 부문에 포함되고 기업에 판매되는 것은"
+    },
+    {
+      "id": "p0020-s0080-r00046",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "소매 부문에 포함되고 기업에 판매되는 것은"
+    },
+    {
+      "id": "p0020-s0080-r00050",
+      "term": "SI",
+      "mode": "preserve",
+      "expected": "SI",
+      "actual": " "
+    },
+    {
+      "id": "p0020-s0080-r00050",
+      "term": "VAR",
+      "mode": "preserve",
+      "expected": "VAR",
+      "actual": " "
+    },
+    {
+      "id": "p0020-s0080-r00052",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": " "
+    },
+    {
+      "id": "p0020-s0080-r00056",
+      "term": "Corp",
+      "mode": "preserve",
+      "expected": "Corp",
+      "actual": " "
+    },
+    {
+      "id": "p0020-s0080-r00056",
+      "term": "Corporate",
+      "mode": "preserve",
+      "expected": "Corporate",
+      "actual": " "
+    },
+    {
+      "id": "p0020-s0080-r00061",
+      "term": "Each",
+      "mode": "preserve",
+      "expected": "Each",
+      "actual": "1000만 달러 이상이며, 이 중 50% 이상이 대형 고객을 통해 이루어지고, "
+    },
+    {
+      "id": "p0020-s0080-r00064",
+      "term": "IT",
+      "mode": "preserve",
+      "expected": "IT",
+      "actual": " "
+    },
+    {
+      "id": "p0020-s0080-r00064",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": " "
+    },
+    {
+      "id": "p0020-s0080-r00064",
+      "term": "They",
+      "mode": "preserve",
+      "expected": "They",
+      "actual": " "
+    },
+    {
+      "id": "p0020-s0080-r00065",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "수준 서버를 포함하되 이에 국한되지 않는 모든 IT 제품을 재판매합니다."
+    },
+    {
+      "id": "p0020-s0080-r00065",
+      "term": "PCs",
+      "mode": "preserve",
+      "expected": "PCs",
+      "actual": "수준 서버를 포함하되 이에 국한되지 않는 모든 IT 제품을 재판매합니다."
+    },
+    {
+      "id": "p0021-s0083-r00008",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "중급 시스템, 네트워크, 주변기기 및 소프트웨어를 포함합니다. 이들의 사업 모델은 "
+    },
+    {
+      "id": "p0021-s0083-r00008",
+      "term": "Their",
+      "mode": "preserve",
+      "expected": "Their",
+      "actual": "중급 시스템, 네트워크, 주변기기 및 소프트웨어를 포함합니다. 이들의 사업 모델은 "
+    },
+    {
+      "id": "p0021-s0083-r00009",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "소규모 대리점보다 서비스 비중이 더 큽니다. 예시로는 Computacenter, Infoproducts, ICL Multivendor, Keydata, TC Sistema가 있습니다."
+    },
+    {
+      "id": "p0021-s0083-r00010",
+      "term": "Computacenter",
+      "mode": "preserve",
+      "expected": "Computacenter",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00010",
+      "term": "ICL Multivendor",
+      "mode": "preserve",
+      "expected": "ICL Multivendor",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00010",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00010",
+      "term": "Infoproducts",
+      "mode": "preserve",
+      "expected": "Infoproducts",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00010",
+      "term": "Keydata",
+      "mode": "preserve",
+      "expected": "Keydata",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00010",
+      "term": "Sistem",
+      "mode": "preserve",
+      "expected": "Sistem",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00010",
+      "term": "TC Sistema",
+      "mode": "preserve",
+      "expected": "TC Sistema",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00015",
+      "term": "Traditional",
+      "mode": "preserve",
+      "expected": "Traditional",
+      "actual": "전통적인 대리점"
+    },
+    {
+      "id": "p0021-s0083-r00020",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "기업 딜러와 동일한 표준의 제품과 서비스를 판매하는 이들은 "
+    },
+    {
+      "id": "p0021-s0083-r00020",
+      "term": "They",
+      "mode": "preserve",
+      "expected": "They",
+      "actual": "기업 딜러와 동일한 표준의 제품과 서비스를 판매하는 이들은 "
+    },
+    {
+      "id": "p0021-s0083-r00025",
+      "term": "Traditional",
+      "mode": "preserve",
+      "expected": "Traditional",
+      "actual": "20% 미만을 차지합니다. 전통적인 딜러/리셀러는 "
+    },
+    {
+      "id": "p0021-s0083-r00036",
+      "term": "Value",
+      "mode": "preserve",
+      "expected": "Value",
+      "actual": "부가가치"
+    },
+    {
+      "id": "p0021-s0083-r00041",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "Lewan & Associates가 있습니다. "
+    },
+    {
+      "id": "p0021-s0083-r00041",
+      "term": "FusionStorm",
+      "mode": "preserve",
+      "expected": "FusionStorm",
+      "actual": "Lewan & Associates가 있습니다. "
+    },
+    {
+      "id": "p0021-s0083-r00041",
+      "term": "VAR",
+      "mode": "preserve",
+      "expected": "VAR",
+      "actual": "Lewan & Associates가 있습니다. "
+    },
+    {
+      "id": "p0021-s0083-r00041",
+      "term": "VARs",
+      "mode": "preserve",
+      "expected": "VARs",
+      "actual": "Lewan & Associates가 있습니다. "
+    },
+    {
+      "id": "p0021-s0083-r00042",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": " "
+    },
+    {
+      "id": "p0021-s0083-r00042",
+      "term": "Associates",
+      "mode": "preserve",
+      "expected": "Associates",
+      "actual": " "
+    },
+    {
+      "id": "p0021-s0083-r00042",
+      "term": "Lewan",
+      "mode": "preserve",
+      "expected": "Lewan",
+      "actual": " "
+    },
+    {
+      "id": "p0021-s0083-r00046",
+      "term": "System",
+      "mode": "preserve",
+      "expected": "System",
+      "actual": " "
+    },
+    {
+      "id": "p0021-s0083-r00046",
+      "term": "Systems",
+      "mode": "preserve",
+      "expected": "Systems",
+      "actual": " "
+    },
+    {
+      "id": "p0021-s0083-r00052",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "SI는 고객의 "
+    },
+    {
+      "id": "p0021-s0083-r00052",
+      "term": "SIs",
+      "mode": "preserve",
+      "expected": "SIs",
+      "actual": "SI는 고객의 "
+    },
+    {
+      "id": "p0021-s0083-r00058",
+      "term": "SI",
+      "mode": "preserve",
+      "expected": "SI",
+      "actual": "는 일반적으로 제한된 지리적 영역에서 전문 IT 서비스를 제공하는 소규모 조직(개인일 수도 있음)입니다. 많은 IT 컨설턴트는 특정 전문 기술이나 업계 전문 지식을 가지고 있으며 해당 영역에서만 서비스를 제공합니다. 다른 컨설턴트들은 더 넓은 기술 세트에 대한 전문성을 가지고 있으나 특정 지역 시장에 집중합니다."
+    },
+    {
+      "id": "p0021-s0083-r00058",
+      "term": "SIs",
+      "mode": "preserve",
+      "expected": "SIs",
+      "actual": "는 일반적으로 제한된 지리적 영역에서 전문 IT 서비스를 제공하는 소규모 조직(개인일 수도 있음)입니다. 많은 IT 컨설턴트는 특정 전문 기술이나 업계 전문 지식을 가지고 있으며 해당 영역에서만 서비스를 제공합니다. 다른 컨설턴트들은 더 넓은 기술 세트에 대한 전문성을 가지고 있으나 특정 지역 시장에 집중합니다."
+    },
+    {
+      "id": "p0021-s0083-r00066",
+      "term": "Accenture",
+      "mode": "preserve",
+      "expected": "Accenture",
+      "actual": "유통업체"
+    },
+    {
+      "id": "p0021-s0083-r00066",
+      "term": "Capgemini",
+      "mode": "preserve",
+      "expected": "Capgemini",
+      "actual": "유통업체"
+    },
+    {
+      "id": "p0021-s0083-r00066",
+      "term": "Deloitte",
+      "mode": "preserve",
+      "expected": "Deloitte",
+      "actual": "유통업체"
+    },
+    {
+      "id": "p0021-s0083-r00066",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "유통업체"
+    },
+    {
+      "id": "p0021-s0083-r00066",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "유통업체"
+    },
+    {
+      "id": "p0021-s0083-r00066",
+      "term": "Infosys",
+      "mode": "preserve",
+      "expected": "Infosys",
+      "actual": "유통업체"
+    },
+    {
+      "id": "p0021-s0083-r00070",
+      "term": "IT",
+      "mode": "preserve",
+      "expected": "IT",
+      "actual": " "
+    },
+    {
+      "id": "p0021-s0083-r00073",
+      "term": "IT",
+      "mode": "preserve",
+      "expected": "IT",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00073",
+      "term": "Man",
+      "mode": "preserve",
+      "expected": "Man",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00073",
+      "term": "Many IT",
+      "mode": "preserve",
+      "expected": "Many IT",
+      "actual": ""
+    },
+    {
+      "id": "p0021-s0083-r00118",
+      "term": "Shipment",
+      "mode": "preserve",
+      "expected": "Shipment",
+      "actual": "대리점이나 리셀러와 같은 비최종 계층에 이루어진 선적은 고려되지 않습니다."
+    },
+    {
+      "id": "p0021-s0083-r00118",
+      "term": "Shipments",
+      "mode": "preserve",
+      "expected": "Shipments",
+      "actual": "대리점이나 리셀러와 같은 비최종 계층에 이루어진 선적은 고려되지 않습니다."
+    },
+    {
+      "id": "p0021-s0083-r00123",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이러한 판매는 최종 계층에서 최종 사용자로의 판매 시점에서 포착됩니다."
+    },
+    {
+      "id": "p0021-s0083-r00123",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이러한 판매는 최종 계층에서 최종 사용자로의 판매 시점에서 포착됩니다."
+    },
+    {
+      "id": "p0022-s0085-r00010",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "만약 딜러/VAR/SI가 공급업체를 대신하여 단지 이행 대행자 역할만 한다면,"
+    },
+    {
+      "id": "p0022-s0085-r00014",
+      "term": "SIs",
+      "mode": "preserve",
+      "expected": "SIs",
+      "actual": "표 5는 지역별 딜러/VAR/SI의 예시를 제공합니다."
+    },
+    {
+      "id": "p0022-s0085-r00014",
+      "term": "Table",
+      "mode": "preserve",
+      "expected": "Table",
+      "actual": "표 5는 지역별 딜러/VAR/SI의 예시를 제공합니다."
+    },
+    {
+      "id": "p0022-s0085-r00014",
+      "term": "VARs",
+      "mode": "preserve",
+      "expected": "VARs",
+      "actual": "표 5는 지역별 딜러/VAR/SI의 예시를 제공합니다."
+    },
+    {
+      "id": "p0022-s0085-r00018",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "예시 of "
+    },
+    {
+      "id": "p0023-s0087-r00046",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 활동할 수 있습니다. 예시는 "
+    },
+    {
+      "id": "p0023-s0087-r00046",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 활동할 수 있습니다. 예시는 "
+    },
+    {
+      "id": "p0023-s0087-r00046",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 활동할 수 있습니다. 예시는 "
+    },
+    {
+      "id": "p0023-s0087-r00046",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 활동할 수 있습니다. 예시는 "
+    },
+    {
+      "id": "p0023-s0087-r00049",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0023-s0087-r00054",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0023-s0087-r00054",
+      "term": "Indirect",
+      "mode": "preserve",
+      "expected": "Indirect",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0023-s0087-r00061",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 범주에는 순수 etailer "
+    },
+    {
+      "id": "p0023-s0087-r00069",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "메일을 통해 판매합니다. 여기에는 Amazon.com과 eBay와 같은 온라인 마켓플레이스가 포함되어, "
+    },
+    {
+      "id": "p0023-s0087-r00072",
+      "term": "Business",
+      "mode": "preserve",
+      "expected": "Business",
+      "actual": "사업"
+    },
+    {
+      "id": "p0023-s0087-r00076",
+      "term": "B2B",
+      "mode": "preserve",
+      "expected": "B2B",
+      "actual": "(예: 홈쇼핑 네트워크)이 이 범주에 포함됩니다. IDC 트래커 출하량은 신규 제품 출하만 "
+    },
+    {
+      "id": "p0023-s0087-r00076",
+      "term": "TV",
+      "mode": "preserve",
+      "expected": "TV",
+      "actual": "(예: 홈쇼핑 네트워크)이 이 범주에 포함됩니다. IDC 트래커 출하량은 신규 제품 출하만 "
+    },
+    {
+      "id": "p0023-s0087-r00077",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "포착하며 중고 제품 판매는 포함하지 않습니다."
+    },
+    {
+      "id": "p0023-s0087-r00082",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "일부 경우, etailer가 오프라인 매장으로 확장할 때,"
+    },
+    {
+      "id": "p0023-s0087-r00090",
+      "term": "China",
+      "mode": "preserve",
+      "expected": "China",
+      "actual": "중국과 같이 Tmall.com과 같은 온라인 상점이 공급자나 판매자에 대한 가상 매장(subsite)을 운영하며 "
+    },
+    {
+      "id": "p0023-s0087-r00090",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "중국과 같이 Tmall.com과 같은 온라인 상점이 공급자나 판매자에 대한 가상 매장(subsite)을 운영하며 "
+    },
+    {
+      "id": "p0023-s0087-r00094",
+      "term": "Exception",
+      "mode": "preserve",
+      "expected": "Exception",
+      "actual": "예외:"
+    },
+    {
+      "id": "p0023-s0087-r00094",
+      "term": "Exceptions",
+      "mode": "preserve",
+      "expected": "Exceptions",
+      "actual": "예외:"
+    },
+    {
+      "id": "p0023-s0087-r00098",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "판매자 자체 웹사이트 및 온라인 스토어를 통한 인터넷 판매는 직접 "
+    },
+    {
+      "id": "p0023-s0087-r00098",
+      "term": "Internet",
+      "mode": "preserve",
+      "expected": "Internet",
+      "actual": "판매자 자체 웹사이트 및 온라인 스토어를 통한 인터넷 판매는 직접 "
+    },
+    {
+      "id": "p0023-s0087-r00106",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "간접 채널을 통한 인터넷 판매는 해당 채널 카테고리에서 트래킹됩니다 (예: BestBuy.com은 소매 인터넷에서 트래킹)."
+    },
+    {
+      "id": "p0023-s0087-r00106",
+      "term": "Internet",
+      "mode": "preserve",
+      "expected": "Internet",
+      "actual": "간접 채널을 통한 인터넷 판매는 해당 채널 카테고리에서 트래킹됩니다 (예: BestBuy.com은 소매 인터넷에서 트래킹)."
+    },
+    {
+      "id": "p0023-s0087-r00111",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": "etainer 브랜드의 제품은 직접 "
+    },
+    {
+      "id": "p0023-s0087-r00111",
+      "term": "Product",
+      "mode": "preserve",
+      "expected": "Product",
+      "actual": "etainer 브랜드의 제품은 직접 "
+    },
+    {
+      "id": "p0023-s0087-r00111",
+      "term": "Products",
+      "mode": "preserve",
+      "expected": "Products",
+      "actual": "etainer 브랜드의 제품은 직접 "
+    },
+    {
+      "id": "p0023-s0087-r00117",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "채널로 계산되며, etailer 채널로는 계산되지 않습니다. 예를 들어 Amazon.com에서 판매되는 Amazon Fire 휴대폰과 태블릿은 "
+    },
+    {
+      "id": "p0023-s0087-r00118",
+      "term": "Amazon",
+      "mode": "preserve",
+      "expected": "Amazon",
+      "actual": "직접 "
+    },
+    {
+      "id": "p0023-s0087-r00118",
+      "term": "Amazon.com",
+      "mode": "preserve",
+      "expected": "Amazon.com",
+      "actual": "직접 "
+    },
+    {
+      "id": "p0024-s0089-r00008",
+      "term": "Table",
+      "mode": "preserve",
+      "expected": "Table",
+      "actual": "표 6에서는 지역별 etailer 사례를 제공합니다."
+    },
+    {
+      "id": "p0024-s0089-r00010",
+      "term": "TABLE",
+      "mode": "preserve",
+      "expected": "TABLE",
+      "actual": "표 6"
+    },
+    {
+      "id": "p0024-s0089-r00012",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "e"
+    },
+    {
+      "id": "p0024-s0089-r00018",
+      "term": "States",
+      "mode": "preserve",
+      "expected": "States",
+      "actual": "미국"
+    },
+    {
+      "id": "p0024-s0089-r00018",
+      "term": "Unit",
+      "mode": "preserve",
+      "expected": "Unit",
+      "actual": "미국"
+    },
+    {
+      "id": "p0024-s0089-r00018",
+      "term": "United",
+      "mode": "preserve",
+      "expected": "United",
+      "actual": "미국"
+    },
+    {
+      "id": "p0024-s0089-r00018",
+      "term": "United States",
+      "mode": "preserve",
+      "expected": "United States",
+      "actual": "미국"
+    },
+    {
+      "id": "p0024-s0089-r00153",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0024-s0089-r00158",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0024-s0089-r00158",
+      "term": "Indirect",
+      "mode": "preserve",
+      "expected": "Indirect",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0024-s0089-r00164",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "소매 채널은 주로 다수의 관련 없는 고객에게 판매하는 매장형 비즈니스가 특징이며, 일반적으로 소비자 및 소규모"
+    },
+    {
+      "id": "p0024-s0089-r00167",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "사무 사용자입니다. 소매 "
+    },
+    {
+      "id": "p0025-s0091-r00010",
+      "term": "Sales",
+      "mode": "preserve",
+      "expected": "Sales",
+      "actual": "보행자 상거래에서 발생합니다."
+    },
+    {
+      "id": "p0025-s0091-r00021",
+      "term": "Retail",
+      "mode": "preserve",
+      "expected": "Retail",
+      "actual": "소매 매장은 일반적으로 가격과 가용성에 대해 경쟁하며 채널 파트너인 딜러 및 VARs보다 서비스 의존도가 낮습니다."
+    },
+    {
+      "id": "p0025-s0091-r00023",
+      "term": "VAR",
+      "mode": "preserve",
+      "expected": "VAR",
+      "actual": " "
+    },
+    {
+      "id": "p0025-s0091-r00023",
+      "term": "VARs",
+      "mode": "preserve",
+      "expected": "VARs",
+      "actual": " "
+    },
+    {
+      "id": "p0025-s0091-r00033",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "많은 지역에서(특히 신흥 시장) 소규모 독립 상점들이 종종 PC/IT 쇼핑몰에 함께 위치합니다. 개별 상점은 범위가 제한적이고 일부 브랜드 및/또는 제품에만 집중할 수 있지만, 이들의 결합된 장소는 브랜드"
+    },
+    {
+      "id": "p0025-s0091-r00044",
+      "term": "Open",
+      "mode": "preserve",
+      "expected": "Open",
+      "actual": "오픈"
+    },
+    {
+      "id": "p0025-s0091-r00048",
+      "term": "Open",
+      "mode": "preserve",
+      "expected": "Open",
+      "actual": "오픈"
+    },
+    {
+      "id": "p0025-s0091-r00052",
+      "term": "Kiosks",
+      "mode": "preserve",
+      "expected": "Kiosks",
+      "actual": "소매 채널 하에서. 더 큰 단일 소유 소매 환경 내에 위치한 키오스크는"
+    },
+    {
+      "id": "p0025-s0091-r00057",
+      "term": "Exception",
+      "mode": "preserve",
+      "expected": "Exception",
+      "actual": "예외: Operator"
+    },
+    {
+      "id": "p0025-s0091-r00057",
+      "term": "Exceptions",
+      "mode": "preserve",
+      "expected": "Exceptions",
+      "actual": "예외: Operator"
+    },
+    {
+      "id": "p0025-s0091-r00064",
+      "term": "Fr",
+      "mode": "preserve",
+      "expected": "Fr",
+      "actual": "프랜차이즈 매장:"
+    },
+    {
+      "id": "p0025-s0091-r00064",
+      "term": "Fra",
+      "mode": "preserve",
+      "expected": "Fra",
+      "actual": "프랜차이즈 매장:"
+    },
+    {
+      "id": "p0025-s0091-r00064",
+      "term": "Franchise",
+      "mode": "preserve",
+      "expected": "Franchise",
+      "actual": "프랜차이즈 매장:"
+    },
+    {
+      "id": "p0025-s0091-r00065",
+      "term": "Outlets",
+      "mode": "preserve",
+      "expected": "Outlets",
+      "actual": "공급업체 이름(예: Sony 매장)으로 전용 및 브랜드화된 매장은 소매 채널에 속하며, 직접 "
+    },
+    {
+      "id": "p0025-s0091-r00066",
+      "term": "Sony",
+      "mode": "preserve",
+      "expected": "Sony",
+      "actual": "store의 일부가 아닙니다."
+    },
+    {
+      "id": "p0025-s0091-r00070",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "(대형 상인, warehouse clubs, 백화점, 카탈로그"
+    },
+    {
+      "id": "p0025-s0091-r00079",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": ""
+    },
+    {
+      "id": "p0025-s0091-r00083",
+      "term": "Exception",
+      "mode": "preserve",
+      "expected": "Exception",
+      "actual": ""
+    },
+    {
+      "id": "p0025-s0091-r00083",
+      "term": "Exceptions",
+      "mode": "preserve",
+      "expected": "Exceptions",
+      "actual": ""
+    },
+    {
+      "id": "p0025-s0091-r00083",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": ""
+    },
+    {
+      "id": "p0025-s0091-r00083",
+      "term": "Product",
+      "mode": "preserve",
+      "expected": "Product",
+      "actual": ""
+    },
+    {
+      "id": "p0025-s0091-r00083",
+      "term": "Products",
+      "mode": "preserve",
+      "expected": "Products",
+      "actual": ""
+    },
+    {
+      "id": "p0025-s0091-r00087",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "또한, BestBuy.com과 같은 오프라인 및 온라인 소매점에서의 판매는 소매 인터넷 채널에 포함되며 etailer 채널에 포함되지 않습니다."
+    },
+    {
+      "id": "p0025-s0091-r00087",
+      "term": "Tesco",
+      "mode": "preserve",
+      "expected": "Tesco",
+      "actual": "또한, BestBuy.com과 같은 오프라인 및 온라인 소매점에서의 판매는 소매 인터넷 채널에 포함되며 etailer 채널에 포함되지 않습니다."
+    },
+    {
+      "id": "p0025-s0091-r00091",
+      "term": "Also",
+      "mode": "preserve",
+      "expected": "Also",
+      "actual": ""
+    },
+    {
+      "id": "p0025-s0091-r00099",
+      "term": "Table",
+      "mode": "preserve",
+      "expected": "Table",
+      "actual": " "
+    },
+    {
+      "id": "p0026-s0093-r00010",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "지역별 소매 예시"
+    },
+    {
+      "id": "p0026-s0093-r00039",
+      "term": "Tiancai",
+      "mode": "preserve",
+      "expected": "Tiancai",
+      "actual": " "
+    },
+    {
+      "id": "p0026-s0093-r00041",
+      "term": "El",
+      "mode": "preserve",
+      "expected": "El",
+      "actual": " "
+    },
+    {
+      "id": "p0026-s0093-r00041",
+      "term": "Electronics Store",
+      "mode": "preserve",
+      "expected": "Electronics Store",
+      "actual": " "
+    },
+    {
+      "id": "p0026-s0093-r00042",
+      "term": "PRC",
+      "mode": "preserve",
+      "expected": "PRC",
+      "actual": "Ripley와 Curacao"
+    },
+    {
+      "id": "p0026-s0093-r00044",
+      "term": "Curacao",
+      "mode": "preserve",
+      "expected": "Curacao",
+      "actual": "Costco"
+    },
+    {
+      "id": "p0026-s0093-r00044",
+      "term": "Ripley",
+      "mode": "preserve",
+      "expected": "Ripley",
+      "actual": "Costco"
+    },
+    {
+      "id": "p0026-s0093-r00046",
+      "term": "Costco",
+      "mode": "preserve",
+      "expected": "Costco",
+      "actual": "Best Buy"
+    },
+    {
+      "id": "p0026-s0093-r00048",
+      "term": "Best",
+      "mode": "preserve",
+      "expected": "Best",
+      "actual": "EDION"
+    },
+    {
+      "id": "p0026-s0093-r00048",
+      "term": "Best Buy",
+      "mode": "preserve",
+      "expected": "Best Buy",
+      "actual": "EDION"
+    },
+    {
+      "id": "p0026-s0093-r00048",
+      "term": "Buy",
+      "mode": "preserve",
+      "expected": "Buy",
+      "actual": "EDION"
+    },
+    {
+      "id": "p0026-s0093-r00050",
+      "term": "EDION",
+      "mode": "preserve",
+      "expected": "EDION",
+      "actual": ""
+    },
+    {
+      "id": "p0026-s0093-r00176",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고: 이 목록은 모두 포함하지 않으며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 현재 해당 회사들의 운영을 기반으로 하며, 과거의 원래 중점과는 다를 수 있습니다."
+    },
+    {
+      "id": "p0026-s0093-r00176",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고: 이 목록은 모두 포함하지 않으며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 현재 해당 회사들의 운영을 기반으로 하며, 과거의 원래 중점과는 다를 수 있습니다."
+    },
+    {
+      "id": "p0026-s0093-r00176",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "참고: 이 목록은 모두 포함하지 않으며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 현재 해당 회사들의 운영을 기반으로 하며, 과거의 원래 중점과는 다를 수 있습니다."
+    },
+    {
+      "id": "p0026-s0093-r00176",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "참고: 이 목록은 모두 포함하지 않으며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 현재 해당 회사들의 운영을 기반으로 하며, 과거의 원래 중점과는 다를 수 있습니다."
+    },
+    {
+      "id": "p0026-s0093-r00179",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0027-s0095-r00014",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "Telco 채널은 셀룰러 서비스를 운영할 수 있는 라이선스를 보유한 기관이 기기를 판매하는 것을 포함합니다. 이러한 기기는 일반적으로 운영자의 네트워크에서 작동하도록 설계되어 있습니다."
+    },
+    {
+      "id": "p0027-s0095-r00015",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이 기기가 실제로 네트워크에서 사용되는지 여부는 추적하지 않으며, 단지 최종 사용자가 기기를 구매한 채널만 추적합니다."
+    },
+    {
+      "id": "p0027-s0095-r00015",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "이 기기가 실제로 네트워크에서 사용되는지 여부는 추적하지 않으며, 단지 최종 사용자가 기기를 구매한 채널만 추적합니다."
+    },
+    {
+      "id": "p0027-s0095-r00019",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "IDC는 자체 브랜드 매장과 키오스크(완전 소유 또는 프랜차이즈 여부와 관계없이), 온라인, 그리고 영업 인력을 통해 Telco 기기를 추적합니다 (예: B2B). 라이선스 보유자는 일반적으로 GSM/UMTS 및 LTE 서비스를 제공하는 대규모 네트워크 운영자이며, CDMA 서비스도 포함됩니다 (예: Vodafone, Verizon, AT&T)."
+    },
+    {
+      "id": "p0027-s0095-r00021",
+      "term": "SI",
+      "mode": "preserve",
+      "expected": "SI",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00021",
+      "term": "SIM",
+      "mode": "preserve",
+      "expected": "SIM",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00022",
+      "term": "Wi",
+      "mode": "preserve",
+      "expected": "Wi",
+      "actual": "Telco 판매에는 단독으로 판매되는 제품과 음성/데이터/인터넷 구독과 함께 번들로 판매되는 제품이 포함되며, 이 구독과 함께 번들로 판매되는 전체 제품 수는 나타내지 않습니다."
+    },
+    {
+      "id": "p0027-s0095-r00024",
+      "term": "Fi",
+      "mode": "preserve",
+      "expected": "Fi",
+      "actual": "통신사 보조금이 포함된 제품의 평균 가치는 보조금 없이 제품의 소매 가격으로 추적됩니다."
+    },
+    {
+      "id": "p0027-s0095-r00026",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "예외 사항:"
+    },
+    {
+      "id": "p0027-s0095-r00029",
+      "term": "B2B",
+      "mode": "preserve",
+      "expected": "B2B",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00029",
+      "term": "License",
+      "mode": "preserve",
+      "expected": "License",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00032",
+      "term": "GSM",
+      "mode": "preserve",
+      "expected": "GSM",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00032",
+      "term": "LTE",
+      "mode": "preserve",
+      "expected": "LTE",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00032",
+      "term": "MTS",
+      "mode": "preserve",
+      "expected": "MTS",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00032",
+      "term": "UMTS",
+      "mode": "preserve",
+      "expected": "UMTS",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00034",
+      "term": "AT&T",
+      "mode": "preserve",
+      "expected": "AT&T",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00034",
+      "term": "CDMA",
+      "mode": "preserve",
+      "expected": "CDMA",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00034",
+      "term": "MA",
+      "mode": "preserve",
+      "expected": "MA",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00034",
+      "term": "Verizon",
+      "mode": "preserve",
+      "expected": "Verizon",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00034",
+      "term": "Vodafone",
+      "mode": "preserve",
+      "expected": "Vodafone",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00035",
+      "term": "StarHub",
+      "mode": "preserve",
+      "expected": "StarHub",
+      "actual": "Telco 브랜드로 판매되는 제품은 단일 매장 내에서 여러 브랜드가 판매되므로 간접 채널로 집계됩니다."
+    },
+    {
+      "id": "p0027-s0095-r00035",
+      "term": "TV",
+      "mode": "preserve",
+      "expected": "TV",
+      "actual": "Telco 브랜드로 판매되는 제품은 단일 매장 내에서 여러 브랜드가 판매되므로 간접 채널로 집계됩니다."
+    },
+    {
+      "id": "p0027-s0095-r00036",
+      "term": "MVNOs",
+      "mode": "preserve",
+      "expected": "MVNOs",
+      "actual": "예를 들어 Vodafone 매장에서 판매된 Vodafone 태블릿은 간접 채널에 포함됩니다."
+    },
+    {
+      "id": "p0027-s0095-r00038",
+      "term": "Boost",
+      "mode": "preserve",
+      "expected": "Boost",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00038",
+      "term": "Virgin Mobile",
+      "mode": "preserve",
+      "expected": "Virgin Mobile",
+      "actual": " "
+    },
+    {
+      "id": "p0027-s0095-r00072",
+      "term": "Specialized",
+      "mode": "preserve",
+      "expected": "Specialized",
+      "actual": "다양한 사업자의 모바일 음성/데이터 요금제를 제공하고 다중 벤더 장치 포트폴리오를 보유한 전문 통신사 매장은 소매 채널 아래에서 추적됩니다."
+    },
+    {
+      "id": "p0027-s0095-r00073",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "최근 몇 년 동안 일부 주요 전문 통신사 매장은 시장에서 철수했거나(e.g., Ph) 소매업체와 합병되었습니다(e.g., Carphone Warehouse가 Dixon에 인수됨)."
+    },
+    {
+      "id": "p0027-s0095-r00081",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "프랜차이즈 시나리오에서 하나 이상의 통신사 서비스가 제공되면 이러한 단위는 더 이상 통신사에 묶여 있지 않고 대신 소매로 계산됩니다."
+    },
+    {
+      "id": "p0028-s0097-r00008",
+      "term": "Canada",
+      "mode": "preserve",
+      "expected": "Canada",
+      "actual": "예를 들어, 캐나다의 Telus가 소매업체 Blacks를 소유하고 있으며, 우리는 이를 소매로 계산합니다."
+    },
+    {
+      "id": "p0028-s0097-r00011",
+      "term": "Table",
+      "mode": "preserve",
+      "expected": "Table",
+      "actual": "표 8은 지역별 통신사 예시를 제공합니다."
+    },
+    {
+      "id": "p0028-s0097-r00101",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고: 이 목록은 전체를 포함하지 않으며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 "
+    },
+    {
+      "id": "p0028-s0097-r00101",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고: 이 목록은 전체를 포함하지 않으며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 "
+    },
+    {
+      "id": "p0028-s0097-r00101",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "참고: 이 목록은 전체를 포함하지 않으며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 "
+    },
+    {
+      "id": "p0028-s0097-r00101",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "참고: 이 목록은 전체를 포함하지 않으며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 "
+    },
+    {
+      "id": "p0028-s0097-r00104",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0028-s0097-r00109",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0028-s0097-r00109",
+      "term": "Indirect",
+      "mode": "preserve",
+      "expected": "Indirect",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0028-s0097-r00117",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "소매 인터넷 채널은 소매업체가 웹사이트나 온라인 매장(e.g., BestBuy.com은 소매 인터넷 채널에 포함됨)을 통해 최종 사용자에게 하는 온라인 판매를 포함합니다 "
+    },
+    {
+      "id": "p0028-s0097-r00118",
+      "term": "Best",
+      "mode": "preserve",
+      "expected": "Best",
+      "actual": "."
+    },
+    {
+      "id": "p0028-s0097-r00118",
+      "term": "BestBuy.com",
+      "mode": "preserve",
+      "expected": "BestBuy.com",
+      "actual": "."
+    },
+    {
+      "id": "p0028-s0097-r00118",
+      "term": "Buy",
+      "mode": "preserve",
+      "expected": "Buy",
+      "actual": "."
+    },
+    {
+      "id": "p0028-s0097-r00121",
+      "term": "Table",
+      "mode": "preserve",
+      "expected": "Table",
+      "actual": "표 9는 지역별 소매 인터넷 예시를 제공합니다."
+    },
+    {
+      "id": "p0029-s0099-r00010",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "소매 인터넷의 "
+    },
+    {
+      "id": "p0029-s0099-r00067",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 현재 운영을 기반으로 하며, 원래의 초점과 다를 수 있습니다."
+    },
+    {
+      "id": "p0029-s0099-r00067",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 현재 운영을 기반으로 하며, 원래의 초점과 다를 수 있습니다."
+    },
+    {
+      "id": "p0029-s0099-r00067",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 현재 운영을 기반으로 하며, 원래의 초점과 다를 수 있습니다."
+    },
+    {
+      "id": "p0029-s0099-r00067",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 현재 운영을 기반으로 하며, 원래의 초점과 다를 수 있습니다."
+    },
+    {
+      "id": "p0029-s0099-r00070",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0029-s0099-r00075",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0029-s0099-r00075",
+      "term": "Indirect",
+      "mode": "preserve",
+      "expected": "Indirect",
+      "actual": "간접 "
+    },
+    {
+      "id": "p0029-s0099-r00083",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "텔코 인터넷 채널에는 통신사들이 자체 장비 이외의 디바이스를 웹사이트 또는 온라인 스토어(예: Telstra를 제외한 모든 디바이스) 통해 최종 사용자에게 온라인으로 판매하는 것이 포함됩니다."
+    },
+    {
+      "id": "p0029-s0099-r00091",
+      "term": "Table",
+      "mode": "preserve",
+      "expected": "Table",
+      "actual": "표 10은 지역별 텔코 인터넷의 예시를 제공합니다."
+    },
+    {
+      "id": "p0029-s0099-r00093",
+      "term": "TABLE",
+      "mode": "preserve",
+      "expected": "TABLE",
+      "actual": "표 10"
+    },
+    {
+      "id": "p0029-s0099-r00095",
+      "term": "Examples",
+      "mode": "preserve",
+      "expected": "Examples",
+      "actual": "예시 "
+    },
+    {
+      "id": "p0029-s0099-r00140",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 현재 운영을 기반으로 하며, 원래의 초점과 다를 수 있습니다."
+    },
+    {
+      "id": "p0029-s0099-r00140",
+      "term": "Note",
+      "mode": "preserve",
+      "expected": "Note",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 현재 운영을 기반으로 하며, 원래의 초점과 다를 수 있습니다."
+    },
+    {
+      "id": "p0029-s0099-r00140",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 현재 운영을 기반으로 하며, 원래의 초점과 다를 수 있습니다."
+    },
+    {
+      "id": "p0029-s0099-r00140",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "참고: 이 목록은 전체가 아니며, 나열된 회사들은 여러 지역에서 운영될 수 있습니다. 예시는 회사들의 현재 운영을 기반으로 하며, 원래의 초점과 다를 수 있습니다."
+    },
+    {
+      "id": "p0029-s0099-r00143",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0031-s0103-r00232",
+      "term": "Serbia",
+      "mode": "preserve",
+      "expected": "Serbia",
+      "actual": " "
+    },
+    {
+      "id": "p0031-s0103-r00270",
+      "term": "Rest",
+      "mode": "preserve",
+      "expected": "Rest",
+      "actual": "나머지 "
+    },
+    {
+      "id": "p0031-s0103-r00290",
+      "term": "Rest",
+      "mode": "preserve",
+      "expected": "Rest",
+      "actual": "나머지 "
+    },
+    {
+      "id": "p0031-s0103-r00297",
+      "term": "Rest",
+      "mode": "preserve",
+      "expected": "Rest",
+      "actual": "나머지 "
+    },
+    {
+      "id": "p0032-s0105-r00058",
+      "term": "Rest",
+      "mode": "preserve",
+      "expected": "Rest",
+      "actual": "기타 "
+    },
+    {
+      "id": "p0032-s0105-r00145",
+      "term": "Rest",
+      "mode": "preserve",
+      "expected": "Rest",
+      "actual": "기타 "
+    },
+    {
+      "id": "p0032-s0105-r00133",
+      "term": "Unit",
+      "mode": "preserve",
+      "expected": "Unit",
+      "actual": " "
+    },
+    {
+      "id": "p0032-s0105-r00133",
+      "term": "United",
+      "mode": "preserve",
+      "expected": "United",
+      "actual": " "
+    },
+    {
+      "id": "p0032-s0105-r00134",
+      "term": "Arab",
+      "mode": "preserve",
+      "expected": "Arab",
+      "actual": " "
+    },
+    {
+      "id": "p0032-s0105-r00135",
+      "term": "Emirates",
+      "mode": "preserve",
+      "expected": "Emirates",
+      "actual": "Rest of "
+    },
+    {
+      "id": "p0032-s0105-r00145",
+      "term": "Rest",
+      "mode": "preserve",
+      "expected": "Rest",
+      "actual": " "
+    },
+    {
+      "id": "p0032-s0105-r00146",
+      "term": "Middle",
+      "mode": "preserve",
+      "expected": "Middle",
+      "actual": " "
+    },
+    {
+      "id": "p0038-s0117-r00035",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "중앙 아메리카 지역의 나머지 국가들"
+    },
+    {
+      "id": "p0038-s0117-r00035",
+      "term": "Central",
+      "mode": "preserve",
+      "expected": "Central",
+      "actual": "중앙 아메리카 지역의 나머지 국가들"
+    },
+    {
+      "id": "p0038-s0117-r00035",
+      "term": "Central America",
+      "mode": "preserve",
+      "expected": "Central America",
+      "actual": "중앙 아메리카 지역의 나머지 국가들"
+    },
+    {
+      "id": "p0038-s0117-r00035",
+      "term": "Rest",
+      "mode": "preserve",
+      "expected": "Rest",
+      "actual": "중앙 아메리카 지역의 나머지 국가들"
+    },
+    {
+      "id": "p0038-s0117-r00037",
+      "term": "Belize",
+      "mode": "preserve",
+      "expected": "Belize",
+      "actual": "벨리즈, 온두라스, 니카라과"
+    },
+    {
+      "id": "p0038-s0117-r00037",
+      "term": "Honduras",
+      "mode": "preserve",
+      "expected": "Honduras",
+      "actual": "벨리즈, 온두라스, 니카라과"
+    },
+    {
+      "id": "p0038-s0117-r00037",
+      "term": "Nicaragua",
+      "mode": "preserve",
+      "expected": "Nicaragua",
+      "actual": "벨리즈, 온두라스, 니카라과"
+    },
+    {
+      "id": "p0038-s0117-r00040",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "라틴 아메리카 지역의 나머지 국가들"
+    },
+    {
+      "id": "p0038-s0117-r00040",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "라틴 아메리카 지역의 나머지 국가들"
+    },
+    {
+      "id": "p0038-s0117-r00040",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "라틴 아메리카 지역의 나머지 국가들"
+    },
+    {
+      "id": "p0038-s0117-r00040",
+      "term": "Rest",
+      "mode": "preserve",
+      "expected": "Rest",
+      "actual": "라틴 아메리카 지역의 나머지 국가들"
+    },
+    {
+      "id": "p0038-s0117-r00056",
+      "term": "Source",
+      "mode": "preserve",
+      "expected": "Source",
+      "actual": "출처: IDC"
+    },
+    {
+      "id": "p0038-s0117-r00089",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "(예: 합병 전후의 결합을 반영하여 비교 가능한 시장 규모 및 성장을 보여준다). 이 필드는 모든 IDC 트래커 발표의 점유율, 순위 및 성장에 사용된다."
+    },
+    {
+      "id": "p0038-s0117-r00091",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": " "
+    },
+    {
+      "id": "p0038-s0117-r00091",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": " "
+    },
+    {
+      "id": "p0038-s0117-r00107",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "박스에 표시되는 벤더 브랜드 이름(로고)을 반영한다. 예를 들어, Alienware는 박스에 표시되는 브랜드 이름이며, Dell Inc.는 부모회사를 의미한다."
+    },
+    {
+      "id": "p0038-s0117-r00121",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 정의는 금융 지주회사, 프라이빗 에쿼티 기업 등을 IDC 추적기의 벤더에서 명시적으로 제외합니다."
+    },
+    {
+      "id": "p0038-s0117-r00123",
+      "term": "When",
+      "mode": "preserve",
+      "expected": "When",
+      "actual": "합병되거나 인수될 경우, IDC 추적기 데이터는 계약이 법적으로 확정된 연구 주기부터 새로운 법인을 나타냅니다."
+    },
+    {
+      "id": "p0039-s0119-r00011",
+      "term": "Shipment",
+      "mode": "preserve",
+      "expected": "Shipment",
+      "actual": "출하량"
+    },
+    {
+      "id": "p0039-s0119-r00011",
+      "term": "Shipments",
+      "mode": "preserve",
+      "expected": "Shipments",
+      "actual": "출하량"
+    },
+    {
+      "id": "p0039-s0119-r00013",
+      "term": "Unit",
+      "mode": "preserve",
+      "expected": "Unit",
+      "actual": "단위 출하량은 벤더가 모든 "
+    },
+    {
+      "id": "p0039-s0119-r00017",
+      "term": "Unit",
+      "mode": "preserve",
+      "expected": "Unit",
+      "actual": "단위는 벤더에서 채널 또는 고객에게 소유권이 이전될 때 계산되며, 이는 다른 확인과 일치합니다."
+    },
+    {
+      "id": "p0039-s0119-r00017",
+      "term": "Units",
+      "mode": "preserve",
+      "expected": "Units",
+      "actual": "단위는 벤더에서 채널 또는 고객에게 소유권이 이전될 때 계산되며, 이는 다른 확인과 일치합니다."
+    },
+    {
+      "id": "p0039-s0119-r00018",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 "
+    },
+    {
+      "id": "p0039-s0119-r00024",
+      "term": "We",
+      "mode": "preserve",
+      "expected": "We",
+      "actual": "우리는 매출이 수취되거나 청구될 때가 아니라 단위 기준으로 계속 계산합니다."
+    },
+    {
+      "id": "p0039-s0119-r00026",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "매출 계약에 따라 소유권이 이전될 수 있으며,"
+    },
+    {
+      "id": "p0039-s0119-r00027",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "제품이 이동하여 채널이 실제로 제품을 수령하기 전에 시간이 걸릴 수 있습니다."
+    },
+    {
+      "id": "p0039-s0119-r00027",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "제품이 이동하여 채널이 실제로 제품을 수령하기 전에 시간이 걸릴 수 있습니다."
+    },
+    {
+      "id": "p0039-s0119-r00027",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "제품이 이동하여 채널이 실제로 제품을 수령하기 전에 시간이 걸릴 수 있습니다."
+    },
+    {
+      "id": "p0039-s0119-r00027",
+      "term": "Miami",
+      "mode": "preserve",
+      "expected": "Miami",
+      "actual": "제품이 이동하여 채널이 실제로 제품을 수령하기 전에 시간이 걸릴 수 있습니다."
+    },
+    {
+      "id": "p0039-s0119-r00028",
+      "term": "Miami",
+      "mode": "preserve",
+      "expected": "Miami",
+      "actual": "제품이 이동하는 데 시간이 걸리고, 통관을 통과한 후"
+    },
+    {
+      "id": "p0039-s0119-r00030",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "이 경우 그 출하는 소유권이 이전될 때(마이애미, 벤더의 판매 계약과 일치) 집계됩니다."
+    },
+    {
+      "id": "p0039-s0119-r00038",
+      "term": "Miami",
+      "mode": "preserve",
+      "expected": "Miami",
+      "actual": "소유권이 이전될 때(마이애미, 벤더"
+    },
+    {
+      "id": "p0039-s0119-r00041",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "출하량은 여전히 "
+    },
+    {
+      "id": "p0039-s0119-r00045",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "최종 목적지 (라틴 아메리카, 제품이 해당 국가에 도착하기 전에도)."
+    },
+    {
+      "id": "p0039-s0119-r00046",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00048",
+      "term": "Shipment",
+      "mode": "preserve",
+      "expected": "Shipment",
+      "actual": "출하 데이터는 장치 조립, 구성 요소 공급, 수입 기록, 재수출, 대규모 프로젝트, 재고 및 특정 채널의 출하 정보 등 다양한 소스를 사용하여 검증됩니다."
+    },
+    {
+      "id": "p0039-s0119-r00050",
+      "term": "Some",
+      "mode": "preserve",
+      "expected": "Some",
+      "actual": "이러한 출처들 간의 차이가 존재할 수 있으나,"
+    },
+    {
+      "id": "p0039-s0119-r00052",
+      "term": "To",
+      "mode": "preserve",
+      "expected": "To",
+      "actual": "이를 해결하기 위해 IDC는 가장 신뢰할 수 있는 출처를 고려하고 시간 경과에 따른 정렬을 평가합니다."
+    },
+    {
+      "id": "p0039-s0119-r00053",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": "결과적으로 여러 출처의 정렬을 조정하는 작업은 매 분기마다 이루어지지 않을 수 있지만,"
+    },
+    {
+      "id": "p0039-s0119-r00057",
+      "term": "It",
+      "mode": "preserve",
+      "expected": "It",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00065",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "PCD는 OEM 관계의 경우 중복 집계되지 않습니다 (예: 제품이 OEM에 의해 제조되고, 벤더에 출하되고, 채널이나 최종 사용자에 배송될 경우)."
+    },
+    {
+      "id": "p0039-s0119-r00066",
+      "term": "OEM",
+      "mode": "preserve",
+      "expected": "OEM",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00068",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "벤더에서 채널 또는 최종 사용자로 출하될 때 단 한번만 계산됩니다."
+    },
+    {
+      "id": "p0039-s0119-r00071",
+      "term": "OEM",
+      "mode": "preserve",
+      "expected": "OEM",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00073",
+      "term": "New",
+      "mode": "preserve",
+      "expected": "New",
+      "actual": "새로운 PCD는 공인 벤더나 채널을 통해 완제품으로 판매되든,"
+    },
+    {
+      "id": "p0039-s0119-r00073",
+      "term": "New PCDs",
+      "mode": "preserve",
+      "expected": "New PCDs",
+      "actual": "새로운 PCD는 공인 벤더나 채널을 통해 완제품으로 판매되든,"
+    },
+    {
+      "id": "p0039-s0119-r00073",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "새로운 PCD는 공인 벤더나 채널을 통해 완제품으로 판매되든,"
+    },
+    {
+      "id": "p0039-s0119-r00079",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00081",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "중고 PCD 판매 및 중고 PCD의 업그레이드는 IDC의"
+    },
+    {
+      "id": "p0039-s0119-r00081",
+      "term": "Sales",
+      "mode": "preserve",
+      "expected": "Sales",
+      "actual": "중고 PCD 판매 및 중고 PCD의 업그레이드는 IDC의"
+    },
+    {
+      "id": "p0039-s0119-r00083",
+      "term": "Worldwide",
+      "mode": "preserve",
+      "expected": "Worldwide",
+      "actual": "전세계 분기별 개인 컴퓨팅 장치 추적기에 포함되지 않습니다."
+    },
+    {
+      "id": "p0039-s0119-r00084",
+      "term": "Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Computing Device Tracker",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00084",
+      "term": "Device Tracker",
+      "mode": "preserve",
+      "expected": "Device Tracker",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00084",
+      "term": "Personal",
+      "mode": "preserve",
+      "expected": "Personal",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00084",
+      "term": "Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Personal Computing Device Tracker",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00084",
+      "term": "Quarterly",
+      "mode": "preserve",
+      "expected": "Quarterly",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00084",
+      "term": "Quarterly Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Quarterly Personal Computing Device Tracker",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00084",
+      "term": "Tracker",
+      "mode": "preserve",
+      "expected": "Tracker",
+      "actual": " "
+    },
+    {
+      "id": "p0039-s0119-r00086",
+      "term": "Related",
+      "mode": "preserve",
+      "expected": "Related",
+      "actual": "업그레이드와 재구성된 것과 관련됨"
+    },
+    {
+      "id": "p0039-s0119-r00089",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이것은 사용된 PCD에서 특정 문제를 해결하기 위해 한 개 이상의 부품이 교체될 때 적용됨(예: 저장 공간이나 메모리 추가). "
+    },
+    {
+      "id": "p0039-s0119-r00090",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "만약 PCD가 본질적으로 재구성된다면(교체하는 것과 같은)"
+    },
+    {
+      "id": "p0040-s0121-r00020",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "가치 부품), 그때 IDC는 이를 새 PCD로 간주함. 이러한 경우에,"
+    },
+    {
+      "id": "p0040-s0121-r00020",
+      "term": "PCD. In",
+      "mode": "preserve",
+      "expected": "PCD. In",
+      "actual": "가치 부품), 그때 IDC는 이를 새 PCD로 간주함. 이러한 경우에,"
+    },
+    {
+      "id": "p0040-s0121-r00023",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": " "
+    },
+    {
+      "id": "p0040-s0121-r00023",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": " "
+    },
+    {
+      "id": "p0040-s0121-r00026",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "시장 일부에 불과하며 일반적으로 개인이 자신의 시스템을 구축하거나"
+    },
+    {
+      "id": "p0040-s0121-r00026",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "시장 일부에 불과하며 일반적으로 개인이 자신의 시스템을 구축하거나"
+    },
+    {
+      "id": "p0040-s0121-r00026",
+      "term": "PCD. We",
+      "mode": "preserve",
+      "expected": "PCD. We",
+      "actual": "시장 일부에 불과하며 일반적으로 개인이 자신의 시스템을 구축하거나"
+    },
+    {
+      "id": "p0040-s0121-r00026",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "시장 일부에 불과하며 일반적으로 개인이 자신의 시스템을 구축하거나"
+    },
+    {
+      "id": "p0040-s0121-r00026",
+      "term": "We",
+      "mode": "preserve",
+      "expected": "We",
+      "actual": "시장 일부에 불과하며 일반적으로 개인이 자신의 시스템을 구축하거나"
+    },
+    {
+      "id": "p0040-s0121-r00031",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "출하량이 현지 자회사에 재고로 보관되는 경우, 채널로 보내질 때까지 계산하지 않음. 현지 자회사는 채널의 일부로 간주되지 않음."
+    },
+    {
+      "id": "p0040-s0121-r00032",
+      "term": "Local",
+      "mode": "preserve",
+      "expected": "Local",
+      "actual": "채널에 포함되지 않음."
+    },
+    {
+      "id": "p0040-s0121-r00034",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "예를 들어, 채널과의 어떤 종류의 가격 보호 계약을 통해 제품이 공급업체에 반품되는 경우,"
+    },
+    {
+      "id": "p0040-s0121-r00036",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "시간이 지나서"
+    },
+    {
+      "id": "p0040-s0121-r00039",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "제품이 새 것으로 재판매될 수 있다면, 짧은 보증 기간 내 사용자가 반품한 제품에 대해 같은 방법을 적용할 수 있음."
+    },
+    {
+      "id": "p0040-s0121-r00040",
+      "term": "If",
+      "mode": "preserve",
+      "expected": "If",
+      "actual": "제품이 그렇지 않다면"
+    },
+    {
+      "id": "p0040-s0121-r00045",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "원래 출하는 유효하며 차감할 반품이 필요 없음. 이러한 제품의 수리 및 재판매는 중고 시스템으로 간주되며 재판매는 IDC의 새 출하로 인정되지 않음."
+    },
+    {
+      "id": "p0040-s0121-r00045",
+      "term": "Any",
+      "mode": "preserve",
+      "expected": "Any",
+      "actual": "원래 출하는 유효하며 차감할 반품이 필요 없음. 이러한 제품의 수리 및 재판매는 중고 시스템으로 간주되며 재판매는 IDC의 새 출하로 인정되지 않음."
+    },
+    {
+      "id": "p0040-s0121-r00047",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "새 출하에 포함되지 않음."
+    },
+    {
+      "id": "p0040-s0121-r00051",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "OEM 상황에서는 출하가 최종 제품에 표시된 회사 이름에 귀속됨. 일부 국가에서는"
+    },
+    {
+      "id": "p0040-s0121-r00051",
+      "term": "In OEM",
+      "mode": "preserve",
+      "expected": "In OEM",
+      "actual": "OEM 상황에서는 출하가 최종 제품에 표시된 회사 이름에 귀속됨. 일부 국가에서는"
+    },
+    {
+      "id": "p0040-s0121-r00052",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "OEM 이름이 제품 뒷면에 나타나는 것이 일반적임."
+    },
+    {
+      "id": "p0040-s0121-r00055",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "이 경우 제조업체 이름이 제품 뒷면에 명확하게 표시되면 IDC는 제조업체 이름을 고려함. 이는 브라질에서 PC 모니터에 가장 일반적임."
+    },
+    {
+      "id": "p0040-s0121-r00057",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "가장 일반적임."
+    },
+    {
+      "id": "p0040-s0121-r00058",
+      "term": "Brazil",
+      "mode": "preserve",
+      "expected": "Brazil",
+      "actual": "브라질에서 PC 모니터에 가장 일반적임."
+    },
+    {
+      "id": "p0040-s0121-r00060",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "한 국가의 채널을 통해 상당량의 제품이 판매되지만 실제로는 다른 국가로 재수출되어 사용되는 경우,"
+    },
+    {
+      "id": "p0040-s0121-r00062",
+      "term": "Dubai",
+      "mode": "preserve",
+      "expected": "Dubai",
+      "actual": "적용됨. 실제로는 이"
+    },
+    {
+      "id": "p0040-s0121-r00062",
+      "term": "MEA",
+      "mode": "preserve",
+      "expected": "MEA",
+      "actual": "적용됨. 실제로는 이"
+    },
+    {
+      "id": "p0040-s0121-r00062",
+      "term": "UAE",
+      "mode": "preserve",
+      "expected": "UAE",
+      "actual": "적용됨. 실제로는 이"
+    },
+    {
+      "id": "p0040-s0121-r00063",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": " "
+    },
+    {
+      "id": "p0040-s0121-r00064",
+      "term": "CIS",
+      "mode": "preserve",
+      "expected": "CIS",
+      "actual": "두바이(UAE)에서 수출되는 출하에 적용됨."
+    },
+    {
+      "id": "p0040-s0121-r00064",
+      "term": "Dubai",
+      "mode": "preserve",
+      "expected": "Dubai",
+      "actual": "두바이(UAE)에서 수출되는 출하에 적용됨."
+    },
+    {
+      "id": "p0040-s0121-r00065",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "CIS 내 일부 경우, 마이애미에서 라틴 아메리카로, 홍콩에서 다른 시장으로 등."
+    },
+    {
+      "id": "p0040-s0121-r00065",
+      "term": "Hong",
+      "mode": "preserve",
+      "expected": "Hong",
+      "actual": "CIS 내 일부 경우, 마이애미에서 라틴 아메리카로, 홍콩에서 다른 시장으로 등."
+    },
+    {
+      "id": "p0040-s0121-r00065",
+      "term": "Hong Kong",
+      "mode": "preserve",
+      "expected": "Hong Kong",
+      "actual": "CIS 내 일부 경우, 마이애미에서 라틴 아메리카로, 홍콩에서 다른 시장으로 등."
+    },
+    {
+      "id": "p0040-s0121-r00065",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "CIS 내 일부 경우, 마이애미에서 라틴 아메리카로, 홍콩에서 다른 시장으로 등."
+    },
+    {
+      "id": "p0040-s0121-r00065",
+      "term": "Ko",
+      "mode": "preserve",
+      "expected": "Ko",
+      "actual": "CIS 내 일부 경우, 마이애미에서 라틴 아메리카로, 홍콩에서 다른 시장으로 등."
+    },
+    {
+      "id": "p0040-s0121-r00065",
+      "term": "Kong",
+      "mode": "preserve",
+      "expected": "Kong",
+      "actual": "CIS 내 일부 경우, 마이애미에서 라틴 아메리카로, 홍콩에서 다른 시장으로 등."
+    },
+    {
+      "id": "p0040-s0121-r00065",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "CIS 내 일부 경우, 마이애미에서 라틴 아메리카로, 홍콩에서 다른 시장으로 등."
+    },
+    {
+      "id": "p0040-s0121-r00065",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "CIS 내 일부 경우, 마이애미에서 라틴 아메리카로, 홍콩에서 다른 시장으로 등."
+    },
+    {
+      "id": "p0040-s0121-r00065",
+      "term": "Miami",
+      "mode": "preserve",
+      "expected": "Miami",
+      "actual": "CIS 내 일부 경우, 마이애미에서 라틴 아메리카로, 홍콩에서 다른 시장으로 등."
+    },
+    {
+      "id": "p0040-s0121-r00070",
+      "term": "New",
+      "mode": "preserve",
+      "expected": "New",
+      "actual": "자사 제품을 소비하는 회사의 신제품은 출하로 계산되어야 함(예: 기술적으로 제3자에게 배송되지 않더라도) 총 수요, 생산, 설치 기반 등을 반영함. 마찬가지로"
+    },
+    {
+      "id": "p0040-s0121-r00072",
+      "term": "Similarly",
+      "mode": "preserve",
+      "expected": "Similarly",
+      "actual": "무료로 기부되거나 제공되는 신제품도 출하로 계산됨."
+    },
+    {
+      "id": "p0040-s0121-r00074",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이는 대부분이 실제로는 비용이 다른 곳에서 상쇄되는 인센티브(예: 벤더가 PCD를 제공)"
+    },
+    {
+      "id": "p0040-s0121-r00076",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "제공하는 것을 반영함."
+    },
+    {
+      "id": "p0040-s0121-r00076",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "제공하는 것을 반영함."
+    },
+    {
+      "id": "p0040-s0121-r00076",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "제공하는 것을 반영함."
+    },
+    {
+      "id": "p0040-s0121-r00088",
+      "term": "Even",
+      "mode": "preserve",
+      "expected": "Even",
+      "actual": "특정 출하량 달성을 기반으로 제품을 제공함). 완전한 자선 선물도 수요 충족에 기여하고, 대안과 실질적으로 경쟁하며,"
+    },
+    {
+      "id": "p0040-s0121-r00090",
+      "term": "Counting",
+      "mode": "preserve",
+      "expected": "Counting",
+      "actual": "이러한 시스템의 계산은 구성요소 공급과 시스템 설치 기반을 정확히 추적하는 데 기여함."
+    },
+    {
+      "id": "p0041-s0123-r00013",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": " "
+    },
+    {
+      "id": "p0041-s0123-r00019",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "100% 공식적이지 않은 모든 것과 불법적인 것도 포함됩니다. 여기에는 다음이 포함됩니다:"
+    },
+    {
+      "id": "p0041-s0123-r00023",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "공급업체에서 공식적으로 지원하지 않는 유통 채널의 사용 (이는 보너스 및 리베이트 보상, 제품 지원, 유통 채널 행동 관리 및 승인되지 않은 고객/국가로의 유통과 관련될 수 있습니다.)"
+    },
+    {
+      "id": "p0041-s0123-r00023",
+      "term": "Use",
+      "mode": "preserve",
+      "expected": "Use",
+      "actual": "공급업체에서 공식적으로 지원하지 않는 유통 채널의 사용 (이는 보너스 및 리베이트 보상, 제품 지원, 유통 채널 행동 관리 및 승인되지 않은 고객/국가로의 유통과 관련될 수 있습니다.)"
+    },
+    {
+      "id": "p0041-s0123-r00029",
+      "term": "Official",
+      "mode": "preserve",
+      "expected": "Official",
+      "actual": "공식 채널이 세금 "
+    },
+    {
+      "id": "p0041-s0123-r00039",
+      "term": "Full",
+      "mode": "preserve",
+      "expected": "Full",
+      "actual": "완제품 시스템과 부품에 대한 수입, 판매 또는 기타 세금의 전부 또는 일부 회피"
+    },
+    {
+      "id": "p0041-s0123-r00044",
+      "term": "Use",
+      "mode": "preserve",
+      "expected": "Use",
+      "actual": "신규 "
+    },
+    {
+      "id": "p0041-s0123-r00053",
+      "term": "Sales",
+      "mode": "preserve",
+      "expected": "Sales",
+      "actual": "해적판 또는 부적절하게 라이선스된 소프트웨어 또는 컨텐츠의 판매 또는 지원"
+    },
+    {
+      "id": "p0041-s0123-r00056",
+      "term": "Sales",
+      "mode": "preserve",
+      "expected": "Sales",
+      "actual": "판매 "
+    },
+    {
+      "id": "p0041-s0123-r00076",
+      "term": "To",
+      "mode": "preserve",
+      "expected": "To",
+      "actual": "가장 정확한 PCD 시장, 공급업체 성과 및 사용자 지출 추세를 제공하기 위해 그리고 그러한 분석을 수행하기 위해 사용되는 방법론 및 정보 출처와 관련하여, IDC는"
+    },
+    {
+      "id": "p0041-s0123-r00078",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "분석 수행 시 사용되는 방법론 및 정보 출처와 상관하여,"
+    },
+    {
+      "id": "p0041-s0123-r00095",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "예측을 결합합니다. 상세 내용:"
+    },
+    {
+      "id": "p0041-s0123-r00099",
+      "term": "Unit",
+      "mode": "preserve",
+      "expected": "Unit",
+      "actual": "단위 선적은 이전에 정의한 대로 공급업체가 소유권을 제3자(최종 사용자 또는 채널 중 하나)로 이전할 때 계산됩니다. 이 선적량은 데이터베이스와 기타 분할에서 유지됩니다."
+    },
+    {
+      "id": "p0041-s0123-r00100",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "소유권이 제3자(최종 사용자 또는 채널)에게 넘어가는 시점에 단위 선적이 계산됩니다. 이 선적 수량은 데이터베이스 및 다른 분류에 계속 유지됩니다."
+    },
+    {
+      "id": "p0041-s0123-r00100",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": "소유권이 제3자(최종 사용자 또는 채널)에게 넘어가는 시점에 단위 선적이 계산됩니다. 이 선적 수량은 데이터베이스 및 다른 분류에 계속 유지됩니다."
+    },
+    {
+      "id": "p0041-s0123-r00105",
+      "term": "Pro",
+      "mode": "preserve",
+      "expected": "Pro",
+      "actual": "제품 브랜드 분할 및 프로세서 분할도 주로 출하량에 기반합니다 "
+    },
+    {
+      "id": "p0041-s0123-r00105",
+      "term": "Product",
+      "mode": "preserve",
+      "expected": "Product",
+      "actual": "제품 브랜드 분할 및 프로세서 분할도 주로 출하량에 기반합니다 "
+    },
+    {
+      "id": "p0041-s0123-r00110",
+      "term": "Channel",
+      "mode": "preserve",
+      "expected": "Channel",
+      "actual": "채널 유통/분할은 최종 "
+    },
+    {
+      "id": "p0041-s0123-r00113",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "수준(즉, PCD가 최종 사용자에 의해 구매되는 위치)에서 판매자 출하량의 분류를 반영합니다. 실제로, "
+    },
+    {
+      "id": "p0041-s0123-r00113",
+      "term": "Indeed",
+      "mode": "preserve",
+      "expected": "Indeed",
+      "actual": "수준(즉, PCD가 최종 사용자에 의해 구매되는 위치)에서 판매자 출하량의 분류를 반영합니다. 실제로, "
+    },
+    {
+      "id": "p0041-s0123-r00113",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "수준(즉, PCD가 최종 사용자에 의해 구매되는 위치)에서 판매자 출하량의 분류를 반영합니다. 실제로, "
+    },
+    {
+      "id": "p0041-s0123-r00114",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "최초의"
+    },
+    {
+      "id": "p0041-s0123-r00114",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "최초의"
+    },
+    {
+      "id": "p0041-s0123-r00114",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "최초의"
+    },
+    {
+      "id": "p0041-s0123-r00116",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "1단계 유통업체를 통해 판매되는 PCD는 보통 2단계"
+    },
+    {
+      "id": "p0041-s0123-r00123",
+      "term": "VAR",
+      "mode": "preserve",
+      "expected": "VAR",
+      "actual": " "
+    },
+    {
+      "id": "p0041-s0123-r00123",
+      "term": "VARs",
+      "mode": "preserve",
+      "expected": "VARs",
+      "actual": " "
+    },
+    {
+      "id": "p0041-s0123-r00124",
+      "term": "To",
+      "mode": "preserve",
+      "expected": "To",
+      "actual": "사실상 이는 "
+    },
+    {
+      "id": "p0041-s0123-r00127",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": ""
+    },
+    {
+      "id": "p0041-s0123-r00127",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": ""
+    },
+    {
+      "id": "p0041-s0123-r00127",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": ""
+    },
+    {
+      "id": "p0042-s0125-r00010",
+      "term": "Customer",
+      "mode": "preserve",
+      "expected": "Customer",
+      "actual": "고객 세그먼트 분할도 유사하게 정량화되고 분석됩니다. 볼륨은 판매자의 채널로의 출하량을 기반으로 하며, 따라서 해당 볼륨에 의해 가중치가 부여되지만, PCD를 각각의 고객 유형이 최종적으로 구매할 것을 예측하여 반영합니다."
+    },
+    {
+      "id": "p0042-s0125-r00010",
+      "term": "Volume",
+      "mode": "preserve",
+      "expected": "Volume",
+      "actual": "고객 세그먼트 분할도 유사하게 정량화되고 분석됩니다. 볼륨은 판매자의 채널로의 출하량을 기반으로 하며, 따라서 해당 볼륨에 의해 가중치가 부여되지만, PCD를 각각의 고객 유형이 최종적으로 구매할 것을 예측하여 반영합니다."
+    },
+    {
+      "id": "p0042-s0125-r00012",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "우리는 시스템이 사용자에게 출하한 때(이 예에서는 4분기) 예상되는 세그먼트 분할과 함께 3분기의 출하량을 제시합니다. 이는 검증된 공급 정보와 최상의 소비자 세분화를 일치시켜 시장 행동을 더 잘 반영하고 분석하며, IDC가 PCD 판매량을 사용자 지출과 설치 기반 정보와 연관시키는 분석을 가능케 합니다. 요약하자면, 출하량은 제3자(예: 채널)에게 판매자가 출하한 출하량을 기반으로 하지만, 고객 세그먼트 분할은 PCD를 구매할 것으로 예상되는 사용자 세그먼트를 예측한 것을 반영합니다."
+    },
+    {
+      "id": "p0042-s0125-r00012",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "우리는 시스템이 사용자에게 출하한 때(이 예에서는 4분기) 예상되는 세그먼트 분할과 함께 3분기의 출하량을 제시합니다. 이는 검증된 공급 정보와 최상의 소비자 세분화를 일치시켜 시장 행동을 더 잘 반영하고 분석하며, IDC가 PCD 판매량을 사용자 지출과 설치 기반 정보와 연관시키는 분석을 가능케 합니다. 요약하자면, 출하량은 제3자(예: 채널)에게 판매자가 출하한 출하량을 기반으로 하지만, 고객 세그먼트 분할은 PCD를 구매할 것으로 예상되는 사용자 세그먼트를 예측한 것을 반영합니다."
+    },
+    {
+      "id": "p0042-s0125-r00014",
+      "term": "September",
+      "mode": "preserve",
+      "expected": "September",
+      "actual": "판매량 예측)."
+    },
+    {
+      "id": "p0042-s0125-r00015",
+      "term": "October",
+      "mode": "preserve",
+      "expected": "October",
+      "actual": " "
+    },
+    {
+      "id": "p0042-s0125-r00016",
+      "term": "To",
+      "mode": "preserve",
+      "expected": "To",
+      "actual": "IDC는 \"판매 중,\""
+    },
+    {
+      "id": "p0042-s0125-r00020",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "\"판매의 추정\"에 기반한 이 결합 접근 방식이 가장 정확한 시장 관점을 제공하고, 시간과 비용 제약 내에서 시장(산업이나 채널만이 아닌)을 반영하며 설치 기반 같은 하류 시장 데이터와 상관관계가 높다고 믿습니다."
+    },
+    {
+      "id": "p0042-s0125-r00023",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "평균"
+    },
+    {
+      "id": "p0042-s0125-r00024",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "판매 가격"
+    },
+    {
+      "id": "p0042-s0125-r00024",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "판매 가격"
+    },
+    {
+      "id": "p0042-s0125-r00024",
+      "term": "To",
+      "mode": "preserve",
+      "expected": "To",
+      "actual": "판매 가격"
+    },
+    {
+      "id": "p0042-s0125-r00066",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "그 "
+    },
+    {
+      "id": "p0042-s0125-r00072",
+      "term": "Taxes",
+      "mode": "preserve",
+      "expected": "Taxes",
+      "actual": "수출 등)은 포함됩니다. 판매"
+    },
+    {
+      "id": "p0042-s0125-r00073",
+      "term": "Point",
+      "mode": "preserve",
+      "expected": "Point",
+      "actual": "-"
+    },
+    {
+      "id": "p0042-s0125-r00077",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "사항은 특히 VAT가"
+    },
+    {
+      "id": "p0042-s0125-r00078",
+      "term": "VAT",
+      "mode": "preserve",
+      "expected": "VAT",
+      "actual": " "
+    },
+    {
+      "id": "p0042-s0125-r00083",
+      "term": "Because",
+      "mode": "preserve",
+      "expected": "Because",
+      "actual": "왜냐하면 "
+    },
+    {
+      "id": "p0042-s0125-r00085",
+      "term": "ASP",
+      "mode": "preserve",
+      "expected": "ASP",
+      "actual": "는 평균 최종 사용자가 최종 가격을 추정한 것이기 때문에 "
+    },
+    {
+      "id": "p0042-s0125-r00088",
+      "term": "However",
+      "mode": "preserve",
+      "expected": "However",
+      "actual": "일반적으로 반영되지 않습니다."
+    },
+    {
+      "id": "p0042-s0125-r00092",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "데이터베이스에 참여 당사자가 그러한 정보를 제공하지 않는 한 포함되지 않습니다."
+    },
+    {
+      "id": "p0042-s0125-r00099",
+      "term": "List",
+      "mode": "preserve",
+      "expected": "List",
+      "actual": "권장 가격"
+    },
+    {
+      "id": "p0042-s0125-r00102",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이것은 제품의 할인되지 않은 직접 가격입니다. 권장 가격은 "
+    },
+    {
+      "id": "p0042-s0125-r00104",
+      "term": "List",
+      "mode": "preserve",
+      "expected": "List",
+      "actual": "보통 공급업체 가격 책자에서 확인할 수 있습니다."
+    },
+    {
+      "id": "p0042-s0125-r00107",
+      "term": "ASP",
+      "mode": "preserve",
+      "expected": "ASP",
+      "actual": "IDC"
+    },
+    {
+      "id": "p0042-s0125-r00107",
+      "term": "ASPs",
+      "mode": "preserve",
+      "expected": "ASPs",
+      "actual": "IDC"
+    },
+    {
+      "id": "p0042-s0125-r00108",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": ""
+    },
+    {
+      "id": "p0042-s0125-r00112",
+      "term": "Exception",
+      "mode": "preserve",
+      "expected": "Exception",
+      "actual": "예외: 다른 ASP가 없는 보조금 제공 telco 모델의 경우, 우리는 보조금이 적용된 ASP를 보여줍니다. 예를 들어 인도에서 다른 가격이 없는 일부 telco 보조금 모델에 대해 보조금이 적용된 ASP를 보여줍니다."
+    },
+    {
+      "id": "p0042-s0125-r00112",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "예외: 다른 ASP가 없는 보조금 제공 telco 모델의 경우, 우리는 보조금이 적용된 ASP를 보여줍니다. 예를 들어 인도에서 다른 가격이 없는 일부 telco 보조금 모델에 대해 보조금이 적용된 ASP를 보여줍니다."
+    },
+    {
+      "id": "p0042-s0125-r00113",
+      "term": "ASP",
+      "mode": "preserve",
+      "expected": "ASP",
+      "actual": " "
+    },
+    {
+      "id": "p0042-s0125-r00113",
+      "term": "ASP. For",
+      "mode": "preserve",
+      "expected": "ASP. For",
+      "actual": " "
+    },
+    {
+      "id": "p0042-s0125-r00113",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": " "
+    },
+    {
+      "id": "p0042-s0125-r00113",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": " "
+    },
+    {
+      "id": "p0042-s0125-r00113",
+      "term": "India",
+      "mode": "preserve",
+      "expected": "India",
+      "actual": " "
+    },
+    {
+      "id": "p0043-s0127-r00008",
+      "term": "Revenue",
+      "mode": "preserve",
+      "expected": "Revenue",
+      "actual": "수익(또는 "
+    },
+    {
+      "id": "p0043-s0127-r00016",
+      "term": "Value",
+      "mode": "preserve",
+      "expected": "Value",
+      "actual": "가치 "
+    },
+    {
+      "id": "p0043-s0127-r00022",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": " "
+    },
+    {
+      "id": "p0043-s0127-r00026",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": " "
+    },
+    {
+      "id": "p0043-s0127-r00032",
+      "term": "ASP",
+      "mode": "preserve",
+      "expected": "ASP",
+      "actual": "s Worldwide Quarterly Personal Computing Device Tracker 조회 도구에서 기본적으로 미국 달러 (대개 백만 달러단위 [US$M])로 표시되지만, 다양한 기타 통화로도 표현이 가능합니다."
+    },
+    {
+      "id": "p0043-s0127-r00034",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": ""
+    },
+    {
+      "id": "p0043-s0127-r00034",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": ""
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Computing Device Tracker",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Device Tracker",
+      "mode": "preserve",
+      "expected": "Device Tracker",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Personal",
+      "mode": "preserve",
+      "expected": "Personal",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Personal Computing Device Tracker",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Quarterly",
+      "mode": "preserve",
+      "expected": "Quarterly",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Quarterly Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Quarterly Personal Computing Device Tracker",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Tracker",
+      "mode": "preserve",
+      "expected": "Tracker",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Worldwide",
+      "mode": "preserve",
+      "expected": "Worldwide",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Worldwide Quarterly",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Worldwide Quarterly Personal",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Worldwide Quarterly Personal Computing",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Worldwide Quarterly Personal Computing Device",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing Device",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0043-s0127-r00036",
+      "term": "Worldwide Quarterly Personal Computing Device Tracker",
+      "mode": "preserve",
+      "expected": "Worldwide Quarterly Personal Computing Device Tracker",
+      "actual": "가치는 공급업체 또는 채널 가격에 포함된 운송비, 보험 및 기타 배송과 처리 비용(세금 및 관세 등)을 모두 포함합니다. 판매 시점에 부과되는 VAT 또는 판매세와 같은 세금은 제외됩니다. 가치는 다음을 나타냅니다."
+    },
+    {
+      "id": "p0044-s0129-r00038",
+      "term": "States",
+      "mode": "preserve",
+      "expected": "States",
+      "actual": "따라서 미국 이외의 지역 시장의 경우, 이러한 값들은"
+    },
+    {
+      "id": "p0044-s0129-r00038",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "따라서 미국 이외의 지역 시장의 경우, 이러한 값들은"
+    },
+    {
+      "id": "p0044-s0129-r00038",
+      "term": "There",
+      "mode": "preserve",
+      "expected": "There",
+      "actual": "따라서 미국 이외의 지역 시장의 경우, 이러한 값들은"
+    },
+    {
+      "id": "p0044-s0129-r00038",
+      "term": "Therefore",
+      "mode": "preserve",
+      "expected": "Therefore",
+      "actual": "따라서 미국 이외의 지역 시장의 경우, 이러한 값들은"
+    },
+    {
+      "id": "p0044-s0129-r00038",
+      "term": "Unit",
+      "mode": "preserve",
+      "expected": "Unit",
+      "actual": "따라서 미국 이외의 지역 시장의 경우, 이러한 값들은"
+    },
+    {
+      "id": "p0044-s0129-r00038",
+      "term": "United",
+      "mode": "preserve",
+      "expected": "United",
+      "actual": "따라서 미국 이외의 지역 시장의 경우, 이러한 값들은"
+    },
+    {
+      "id": "p0044-s0129-r00038",
+      "term": "United States",
+      "mode": "preserve",
+      "expected": "United States",
+      "actual": "따라서 미국 이외의 지역 시장의 경우, 이러한 값들은"
+    },
+    {
+      "id": "p0044-s0129-r00041",
+      "term": "Please",
+      "mode": "preserve",
+      "expected": "Please",
+      "actual": "해당 국가의 각 분기별 평균 환율을 기준으로 합니다. "
+    },
+    {
+      "id": "p0044-s0129-r00047",
+      "term": "Quarterly",
+      "mode": "preserve",
+      "expected": "Quarterly",
+      "actual": "분기별 및 연간 예측은 예측이 개발될 때의 고정 환율로 수행됩니다. "
+    },
+    {
+      "id": "p0044-s0129-r00049",
+      "term": "For",
+      "mode": "preserve",
+      "expected": "For",
+      "actual": "-"
+    },
+    {
+      "id": "p0044-s0129-r00051",
+      "term": "January",
+      "mode": "preserve",
+      "expected": "January",
+      "actual": "분기형 결과물(1월"
+    },
+    {
+      "id": "p0044-s0129-r00053",
+      "term": "March",
+      "mode": "preserve",
+      "expected": "March",
+      "actual": "3월"
+    },
+    {
+      "id": "p0044-s0129-r00055",
+      "term": "Brazil",
+      "mode": "preserve",
+      "expected": "Brazil",
+      "actual": "브라질의 평균 환율이 2.3이라면, 그 환율이 다음 분기에도 변하지 않을 것이라고 가정합니다."
+    },
+    {
+      "id": "p0044-s0129-r00064",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "PCD 산업을 구성하는 시장으로 분류할 때, IDC 분석가들은 "
+    },
+    {
+      "id": "p0044-s0129-r00070",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": " "
+    },
+    {
+      "id": "p0044-s0129-r00077",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "전담 지역 분석가들의 입력에 기반합니다."
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "Africa",
+      "mode": "preserve",
+      "expected": "Africa",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "Asia",
+      "mode": "preserve",
+      "expected": "Asia",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "East",
+      "mode": "preserve",
+      "expected": "East",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "Europe",
+      "mode": "preserve",
+      "expected": "Europe",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "Middle",
+      "mode": "preserve",
+      "expected": "Middle",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "Middle East",
+      "mode": "preserve",
+      "expected": "Middle East",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "North",
+      "mode": "preserve",
+      "expected": "North",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00080",
+      "term": "Pacific",
+      "mode": "preserve",
+      "expected": "Pacific",
+      "actual": "센터는 유럽, 아시아/태평양, 중동 및 아프리카, 라틴 아메리카, 북미에 있습니다. 특성 및 차이점은 로컬 수준에서 수집되고 지역 수준에서 집계되며 이후 전 세계 수준에서 종합되어"
+    },
+    {
+      "id": "p0044-s0129-r00081",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": ""
+    },
+    {
+      "id": "p0044-s0129-r00081",
+      "term": "America. Characteristics",
+      "mode": "preserve",
+      "expected": "America. Characteristics",
+      "actual": ""
+    },
+    {
+      "id": "p0045-s0131-r00008",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 분류법은 아래의 기반입니다:"
+    },
+    {
+      "id": "p0045-s0131-r00021",
+      "term": "At",
+      "mode": "preserve",
+      "expected": "At",
+      "actual": " "
+    },
+    {
+      "id": "p0045-s0131-r00036",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": " "
+    },
+    {
+      "id": "p0045-s0131-r00038",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": " "
+    },
+    {
+      "id": "p0045-s0131-r00038",
+      "term": "These",
+      "mode": "preserve",
+      "expected": "These",
+      "actual": " "
+    },
+    {
+      "id": "p0045-s0131-r00045",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 IDC 연구는 personal computing device(PCD)에 대한 포괄적인 개요와 정의를 제공합니다. 이 문서에 제공된 정의는 IDC"
+    },
+    {
+      "id": "p0045-s0131-r00045",
+      "term": "This IDC",
+      "mode": "preserve",
+      "expected": "This IDC",
+      "actual": "이 IDC 연구는 personal computing device(PCD)에 대한 포괄적인 개요와 정의를 제공합니다. 이 문서에 제공된 정의는 IDC"
+    },
+    {
+      "id": "p0045-s0131-r00046",
+      "term": "PCDs",
+      "mode": "preserve",
+      "expected": "PCDs",
+      "actual": "의 PCD 하드웨어 연구 범위를 나타냅니다."
+    },
+    {
+      "id": "p0045-s0131-r00046",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "의 PCD 하드웨어 연구 범위를 나타냅니다."
+    },
+    {
+      "id": "p0045-s0131-r00051",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": "이 분류법은 시장 세분화와 측정 방법론을 개괄합니다."
+    },
+    {
+      "id": "p0045-s0131-r00067",
+      "term": "The",
+      "mode": "preserve",
+      "expected": "The",
+      "actual": "이 분류 문서는 "
+    },
+    {
+      "id": "p0046-s0133-r00006",
+      "term": "Wi",
+      "mode": "preserve",
+      "expected": "Wi",
+      "actual": "전 세계 1,300명 이상의 분석가와 함께, IDC는 전 세계, 지역"
+    },
+    {
+      "id": "p0046-s0133-r00006",
+      "term": "With",
+      "mode": "preserve",
+      "expected": "With",
+      "actual": "전 세계 1,300명 이상의 분석가와 함께, IDC는 전 세계, 지역"
+    },
+    {
+      "id": "p0046-s0133-r00018",
+      "term": "Global",
+      "mode": "preserve",
+      "expected": "Global",
+      "actual": "One Beacon Street"
+    },
+    {
+      "id": "p0046-s0133-r00020",
+      "term": "One Beacon Street",
+      "mode": "preserve",
+      "expected": "One Beacon Street",
+      "actual": "Suite 33100"
+    },
+    {
+      "id": "p0046-s0133-r00022",
+      "term": "Suite",
+      "mode": "preserve",
+      "expected": "Suite",
+      "actual": "Boston, MA 02108"
+    },
+    {
+      "id": "p0046-s0133-r00024",
+      "term": "Boston",
+      "mode": "preserve",
+      "expected": "Boston",
+      "actual": "USA"
+    },
+    {
+      "id": "p0046-s0133-r00024",
+      "term": "MA",
+      "mode": "preserve",
+      "expected": "MA",
+      "actual": "USA"
+    },
+    {
+      "id": "p0046-s0133-r00026",
+      "term": "US",
+      "mode": "preserve",
+      "expected": "US",
+      "actual": "508.872.8200"
+    },
+    {
+      "id": "p0046-s0133-r00026",
+      "term": "USA",
+      "mode": "preserve",
+      "expected": "USA",
+      "actual": "508.872.8200"
+    },
+    {
+      "id": "p0046-s0133-r00030",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": "blogs.idc.com"
+    },
+    {
+      "id": "p0046-s0133-r00036",
+      "term": "Copyright",
+      "mode": "preserve",
+      "expected": "Copyright",
+      "actual": "이 IDC 연구 문서는 연속적인 지능형 서비스의 일부로 발행되었으며, 서면 연구, 분석가 상호작용, 웹 컨퍼런스 및 컨퍼런스 행사 결과를 제공합니다. www.idc.com에서 IDC 구독 및 컨설팅 서비스에 대해 자세히 알아보십시오."
+    },
+    {
+      "id": "p0046-s0133-r00038",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": " "
+    },
+    {
+      "id": "p0046-s0133-r00038",
+      "term": "This",
+      "mode": "preserve",
+      "expected": "This",
+      "actual": " "
+    },
+    {
+      "id": "p0046-s0133-r00038",
+      "term": "This IDC",
+      "mode": "preserve",
+      "expected": "This IDC",
+      "actual": " "
+    },
+    {
+      "id": "p0046-s0133-r00039",
+      "term": "Visit",
+      "mode": "preserve",
+      "expected": "Visit",
+      "actual": "Copyright 2026 IDC. 무단 복제 금지. 판권 소유."
+    },
+    {
+      "id": "p0046-s0133-r00040",
+      "term": "IDC",
+      "mode": "preserve",
+      "expected": "IDC",
+      "actual": " "
+    }
+  ]
+}

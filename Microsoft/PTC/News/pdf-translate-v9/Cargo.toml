@@ -22,6 +22,7 @@ version = "0.1.0"
 anyhow = "1"
 chrono = { version = "0.4", features = ["serde"] }
 clap = { version = "4", features = ["derive"] }
+csv = "1"
 hex = "0.4"
 lopdf = "0.32"
 regex = "1"

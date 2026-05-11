@@ -1,4 +1,4 @@
-use anyhow::{anyhow, Context, Result};
+use anyhow::{Context, Result};
 use pdf_core::LoadedPdf;
 use pdf_models::{ByteRange, PdfInputTextState, RebuildReport, ReportIssue};
 use std::collections::BTreeMap;
@@ -23,7 +23,7 @@ pub fn rebuild_pdf(source: &Path, input: &PdfInputTextState, output: &Path) -> R
         let xref = run.restore_options.stream_xref;
         let Some(content) = streams.get(&xref) else {
             report.ok = false;
-            report.failed.push(ReportIssue { id: Some(run.id.clone()), message: format!("stream {xref} not found") });
+            report.failed.push(issue(Some(run.id.clone()), "REBUILD_STREAM_NOT_FOUND", format!("stream {xref} not found")));
             continue;
         };
         let range = &run.restore_options.operand_range;
@@ -32,18 +32,18 @@ pub fn rebuild_pdf(source: &Path, input: &PdfInputTextState, output: &Path) -> R
             Some(value) => value.as_bytes(),
             None => {
                 report.ok = false;
-                report.failed.push(ReportIssue { id: Some(run.id.clone()), message: "replacementEncoded missing".to_string() });
+                report.failed.push(issue(Some(run.id.clone()), "REPLACEMENT_ENCODED_MISSING", "replacementEncoded missing"));
                 continue;
             }
         };
         if range.end > content.len() || range.start >= range.end {
             report.ok = false;
-            report.failed.push(ReportIssue { id: Some(run.id.clone()), message: "operandRange out of bounds".to_string() });
+            report.failed.push(issue(Some(run.id.clone()), "REBUILD_RANGE_OUT_OF_BOUNDS", "operandRange out of bounds"));
             continue;
         }
         if &content[range.start..range.end] != original {
             report.ok = false;
-            report.failed.push(ReportIssue { id: Some(run.id.clone()), message: "encodedOriginal mismatch at operandRange".to_string() });
+            report.failed.push(issue(Some(run.id.clone()), "REBUILD_RANGE_MISMATCH", "encodedOriginal mismatch at operandRange"));
             continue;
         }
         replacements.entry(xref).or_default().push(Replacement {
@@ -54,12 +54,16 @@ pub fn rebuild_pdf(source: &Path, input: &PdfInputTextState, output: &Path) -> R
     }
 
     for (xref, mut stream_replacements) in replacements {
-        let content = streams.get_mut(&xref).ok_or_else(|| anyhow!("stream {xref} not found"))?;
+        let Some(content) = streams.get_mut(&xref) else {
+            report.ok = false;
+            report.failed.push(issue(None, "REBUILD_STREAM_NOT_FOUND", format!("stream {xref} not found before replacement")));
+            continue;
+        };
         stream_replacements.sort_by(|left, right| right.range.start.cmp(&left.range.start));
         for replacement in stream_replacements {
             if replacement.range.end > content.len() || replacement.range.start >= replacement.range.end {
                 report.ok = false;
-                report.failed.push(ReportIssue { id: Some(replacement.id), message: "operandRange out of bounds after sorting".to_string() });
+                report.failed.push(issue(Some(replacement.id), "REBUILD_RANGE_OUT_OF_BOUNDS", "operandRange out of bounds after sorting"));
                 continue;
             }
             content.splice(replacement.range.start..replacement.range.end, replacement.replacement.iter().copied());
@@ -71,9 +75,19 @@ pub fn rebuild_pdf(source: &Path, input: &PdfInputTextState, output: &Path) -> R
         pdf.replace_stream_content((xref, 0), decoded)
             .with_context(|| format!("replace stream {xref}"))?;
     }
-    if !report.ok {
-        return Err(anyhow!("rebuild failed with {} issue(s)", report.failed.len()));
+    if report.ok || report.replaced > 0 {
+        pdf.save(output)?;
     }
-    pdf.save(output)?;
     Ok(report)
+}
+
+fn issue(id: Option<String>, code: &str, message: impl Into<String>) -> ReportIssue {
+    ReportIssue {
+        id,
+        stage: Some("rebuild".to_string()),
+        code: code.to_string(),
+        severity: "error".to_string(),
+        message: message.into(),
+        recoverable: true,
+    }
 }

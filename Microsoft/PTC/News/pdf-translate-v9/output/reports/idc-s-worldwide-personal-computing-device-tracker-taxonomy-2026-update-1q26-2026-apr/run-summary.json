@@ -1,0 +1,29 @@
+{
+  "job": "idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr",
+  "sourcePdf": "work/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/source/source.pdf",
+  "outputPdf": "output/rejected/IDC’s Worldwide Personal Computing Device Tracker Taxonomy, 2026 Update, 1Q26 - 2026 Apr_V9.pdf",
+  "classification": "failed",
+  "fallbackUsed": true,
+  "validatedPdf": null,
+  "rejectedPdf": "output/rejected/IDC’s Worldwide Personal Computing Device Tracker Taxonomy, 2026 Update, 1Q26 - 2026 Apr_V9.pdf",
+  "sourceSha256": "7884527c3221c927062b33911892d55df959ef6cef35c9264728a3d7d038e9dd",
+  "outputSha256": "cc8b44a3fa522b22d87195dfddd972e291580a1f528bc3812becb59b925ca48f",
+  "degraded": true,
+  "translationError": true,
+  "textRuns": 5769,
+  "changedTextRuns": 1460,
+  "unchangedTextRuns": 4309,
+  "encodeOk": 4742,
+  "encodeFailed": 1027,
+  "rebuildOk": false,
+  "rebuildReplaced": 4704,
+  "rebuildFailed": 1065,
+  "validationOk": false,
+  "notes": [
+    "OpenAI translation failed or was skipped; unchanged text may have been reused",
+    "1027 text run(s) could not be encoded with the original font/CMap",
+    "rebuild report is not ok; degraded mode may have copied the source PDF",
+    "qpdf validation did not pass or was skipped",
+    "translation report has missing, duplicate, unknown, or fallback items"
+  ]
+}

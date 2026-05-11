@@ -154,8 +154,26 @@ pub struct DecodeStatus {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct LayoutInfo {
     pub matrix: Option<[f64; 6]>,
+    pub bbox: Option<[f64; 4]>,
+    pub estimated_width: Option<f64>,
+    pub font_size: Option<f64>,
+    pub horizontal_scaling: Option<f64>,
+    pub source_visual_units: Option<f64>,
+    pub spacing_visual_units: Option<f64>,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct LayoutLimit {
+    pub max_visual_units: f64,
+    pub max_hangul_chars: usize,
+    pub source_visual_units: f64,
+    pub spacing_visual_units: f64,
+    pub font_size: f64,
+    pub safety_ratio: f64,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize, Default)]
@@ -165,9 +183,12 @@ pub struct TranslationInput {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct TranslationInputItem {
     pub id: String,
     pub text: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub layout_limit: Option<LayoutLimit>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize, Default)]
@@ -239,7 +260,17 @@ pub struct ValidationReport {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct ReportIssue {
+    #[serde(default)]
     pub id: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub stage: Option<String>,
+    #[serde(default)]
+    pub code: String,
+    #[serde(default)]
+    pub severity: String,
     pub message: String,
+    #[serde(default)]
+    pub recoverable: bool,
 }

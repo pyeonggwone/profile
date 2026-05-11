@@ -97,6 +97,7 @@ work/<job>/state/
   job-terms.json
   translation-input.json
   translation-results.json
+  translation-error.json
   pdf-input-text-state.json
   rebuild-report.json
   validation-report.json
@@ -128,11 +129,17 @@ readable-text-state.json
 proper-noun-candidates.json / job-terms.json
   job별 고유명사 후보와 확정 용어집 JSON
 
+glossary.csv
+  작업 간 번역 일관성을 유지하기 위한 CSV 용어집
+
 state.sqlite / tm.sqlite / terms.sqlite
   job 상태, pipeline 상태, Translation Memory, term memory 보조 저장소
 
 translation-input.json
   OpenAI에 보낼 id/text chunk JSON
+
+translation-input-chunk-0001.json ...
+  OpenAI 요청 단위로 나눈 청크 입력 JSON
 
 translation-results.json
   OpenAI가 반환한 id/translated JSON
@@ -142,6 +149,9 @@ pdf-input-text-state.json
 
 rebuilt.pdf
   원본 PDF 구조 위에서 text payload만 교체한 PDF
+
+run-summary.json
+  최종 실행이 completed-ok인지 completed-degraded인지 판단할 수 있는 요약 JSON
 ```
 
 ## 복원 기준
@@ -292,6 +302,11 @@ SOURCE_LANG=en
 TARGET_LANG=ko
 OPENAI_MODEL=gpt-4o-mini
 OPENAI_API_KEY=...
+OCR_MODE=off
+OCR_PAGES=1
+AZURE_VISION_ENDPOINT=...
+AZURE_VISION_KEY=...
+FONT_FALLBACK_MODE=off
 ```
 
 qpdf 실행 파일은 v9 프로젝트 내부 상대경로에서만 자동으로 탐색한다. 전역 package manager로 설치하지 않는다.
@@ -319,7 +334,7 @@ tools/qpdf/bin/qpdf.exe  Windows 실행 파일
 
 단, `.env`에서 `ALLOW_DEGRADED=true`이고 `STRICT_TOOLS=false`이면 qpdf reference/check 단계는 report에 skip 사유를 남기고 계속 진행한다.
 
-Windows용 `qpdf.exe`를 `tools/qpdf/bin/qpdf.exe`에 두고 WSL에서 실행하면 `/mnt/c/...` PDF 경로를 `C:\...` 형식으로 변환해서 실행한다.
+Windows용 `qpdf.exe`를 `tools/qpdf/bin/qpdf.exe`에 두고 WSL에서 실행하면 내부 실행 인자는 Windows 형식으로 변환하되 report에는 v9 root 기준 상대경로를 기록한다.
 
 ## 실행 방식
 
@@ -342,6 +357,12 @@ cargo run -p pdf_cli -- run .\input\sample.pdf
 cargo run -p pdf_cli -- run .\input
 ```
 
+이미 생성된 `pdf-input-text-state.json`을 기준으로 rebuild, validation, publish만 다시 수행하려면 `finalize`를 사용한다. 이 명령은 OpenAI 번역을 다시 호출하지 않는다.
+
+```powershell
+cargo run -p pdf_cli -- finalize <job>
+```
+
 번역 언어와 모델은 `run` 명령에서 지정한다.
 
 ```powershell
@@ -349,6 +370,34 @@ cargo run -p pdf_cli -- run --source-lang en --target-lang ko --model gpt-4o-min
 ```
 
 명령 옵션이 없으면 `.env`의 `SOURCE_LANG`, `TARGET_LANG`, `OPENAI_MODEL`을 사용한다.
+
+OpenAI 요청은 전체 text run을 한 번에 보내지 않는다. PDF 자체는 분할하지 않고, 추출된 readable text item만 page range 기준 part로 나누어 병렬 번역한다. 각 part 안에서는 `.env`의 `OPENAI_CHUNK_SIZE` 단위로 요청한다. 기본값은 100이다.
+
+번역 part 수는 `.env`의 `TRANSLATION_PARALLELISM`으로 지정할 수 있다. `0` 또는 미설정이면 page 수 기준으로 자동 결정한다. 20 page 미만은 3개, 50 page 미만은 5개, 그 외는 10개 part를 사용한다.
+
+실행 중에는 각 pipeline step과 OpenAI chunk 진행 상황을 터미널에 출력한다. timeout 방지를 위해 `.env`의 `OPENAI_RETRY_MAX`, `OPENAI_RETRY_BASE_MS`, `OPENAI_TIMEOUT_SECS`로 retry/backoff와 요청 timeout을 조정한다.
+
+일부 text run이 encode/rebuild에 실패해도 성공한 replacement가 있으면 partial PDF를 `work/<job>/pdf/rebuilt.pdf`로 저장한다. 이 결과는 검증 통과 PDF가 아니므로 `output/validated`가 아니라 `output/rejected`에 publish된다.
+
+작업 일관성 용어집은 `.env`의 `GLOSSARY_PATH`를 사용한다. 상대 경로는 v9 root 기준이며 기본값은 `glossary.csv`다.
+
+CSV 형식:
+
+```csv
+term,translation,mode
+Personal Computing Device,개인용 컴퓨팅 디바이스,fixed
+IDC,,preserve
+```
+
+`mode=fixed`는 translation을 그대로 적용하라는 지시이고, `mode=preserve`는 원문 용어를 유지하라는 지시다. CSV 용어는 자동 추출된 고유명사 후보보다 우선한다.
+
+OpenAI 요청이 실패하고 `.env`에서 `ALLOW_DEGRADED=true`, `STRICT_TOOLS=false`이면 `translation-error.json`에 실패 원인을 저장하고 원문 유지 결과를 `translation-results.json`으로 생성한다. 이 degraded 결과는 Translation Memory에 저장하지 않는다.
+
+rebuild가 실패하고 `ALLOW_DEGRADED=true`, `STRICT_TOOLS=false`이면 `rebuild-report.json`에 실패 issue를 저장하고 원본 PDF를 `pdf/rebuilt.pdf`로 복사해 publish 단계까지 진행한다.
+
+OCR은 기본 off다. `OCR_MODE=azure` 또는 `OCR_MODE=force`이면 project-local `pdftoppm` 또는 `mutool`로 `OCR_PAGES` 대상 페이지를 PNG로 렌더링하고 Azure AI Vision Read API를 호출해 `ocr-report.json`에 line text와 bounding box를 저장한다. OCR 결과는 PDF byte range가 없으므로 자동으로 replacement 대상에 병합하지 않는다.
+
+font fallback 설정은 encode 실패 정책에 적용된다. v9는 새 font resource를 PDF에 주입하지 않으므로 기존 font/CMap으로 encode할 수 없는 번역문은 `encode-report.json`에 `FONT_FALLBACK_FONT_MISSING` 또는 `FONT_FALLBACK_EMBED_UNSUPPORTED`로 기록되고 rejected로 분류된다.
 
 batch 실행 중 한 PDF가 실패해도 다음 PDF 처리는 계속 진행한다. 전체 처리가 끝난 뒤 실패한 PDF 목록을 error로 반환한다.
 
@@ -393,7 +442,7 @@ work/<job>/qpdf/source.qdf.pdf
 work/<job>/state/qpdf-check.json
 ```
 
-qpdf가 없으면 실패한다. fallback은 두지 않는다.
+qpdf가 없으면 기본적으로 실패한다. `STRICT_TOOLS=false` 및 `ALLOW_DEGRADED=true`인 경우에는 qpdf reference/validation을 skip report로 기록하고 다음 단계로 진행한다.
 
 ## 03 Raw PDF Text State 추출
 
@@ -580,6 +629,10 @@ readable-text-state.json에서 source만 chunk로 묶어 OpenAI에 보낸다.
 
 ```text
 work/<job>/state/translation-input.json
+work/<job>/state/translation-input-part-0001.json
+work/<job>/state/translation-input-part-0001-chunk-0001.json
+work/<job>/state/translation-results-part-0001.json
+work/<job>/state/translation-report-part-0001.json
 work/<job>/state/translation-results.json
 ```
 
@@ -592,9 +645,14 @@ work/<job>/state/translation-results.json
 ```text
 id 기준으로 raw-pdf-text-state와 translation-results 병합
 decodedTranslated 저장
+decodedTranslated가 decodedOriginal과 같으면 encodedOriginal을 replacementEncoded로 그대로 재사용
 기존 font/CMap으로 replacementEncoded 생성 시도
 encoding 성공/실패 기록
 ```
+
+현재 구현은 ASCII literal string, ASCII hex string, UTF-16BE BOM hex string, ASCII TJ array를 replacementEncoded로 변환한다. 명시적 CMap mapping이 없는 non-ASCII 재인코딩은 실패로 남긴다.
+
+실패하면 `encode.status=failed`로 표시하고 rebuild 단계에서 해당 run은 실패 처리한다. 원문 유지 항목은 `encode.method=reuse-original-encoded`로 기록한다.
 
 산출물:
 
@@ -692,12 +750,13 @@ work/<job>/state/validation-report.json
 
 ## 09 Publish
 
-검증이 통과한 PDF만 output으로 복사한다.
+검증이 통과한 PDF를 output으로 복사한다. degraded mode에서 rebuild 또는 validation이 실패했으면 report에 실패 상태를 남기고 fallback PDF를 output으로 복사할 수 있다.
 
 산출물:
 
 ```text
 output/<source-name>_V9.pdf
+work/<job>/state/run-summary.json
 ```
 
 ## 실패 처리 원칙
@@ -710,7 +769,7 @@ output/<source-name>_V9.pdf
 | 사람이 읽는 text 변환 실패 | 번역 제외, report 기록 |
 | 기존 font/CMap으로 번역문 encode 불가 | encode failed |
 | operandRange 불일치 | rebuild failed |
-| qpdf 검증 실패 | publish 중단 |
+| qpdf 검증 실패 | 기본 모드에서는 publish 중단, degraded mode에서는 report 기록 후 fallback publish |
 
 ## 최종 정의
 

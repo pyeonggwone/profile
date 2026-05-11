@@ -4,5 +4,7 @@ edition.workspace = true
 version.workspace = true
 
 [dependencies]
+anyhow.workspace = true
+csv.workspace = true
 regex.workspace = true
 pdf_models = { path = "../pdf_models" }
