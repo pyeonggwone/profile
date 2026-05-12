@@ -2,3 +2,11 @@
 *.PPTX
 *.ppt
 *.PPT
+
+**/.venv/
+**/.venv-wsl/
+**/target/
+**/__pycache__/
+*.so
+*.dll
+*.exe
