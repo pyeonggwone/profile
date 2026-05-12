@@ -1,5 +1,5 @@
 {
-  "ok": false,
+  "ok": true,
   "qdfPdf": "work/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/qpdf/source.qdf.pdf",
   "rawExtractionBasis": "source.pdf byte ranges; qdf is debug/reference only",
   "streamXrefs": [

@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: pdf-translate-v10
+Version: 0.1.0
+Summary: Python PDF text-payload translation pipeline that preserves original PDF structure.
+Requires-Python: >=3.11
+Requires-Dist: pikepdf>=9.0.0
+Requires-Dist: pdfplumber>=0.11.0
+Requires-Dist: pdfminer.six>=20231228
+Requires-Dist: requests>=2.31.0
+Requires-Dist: reportlab>=4.0.0

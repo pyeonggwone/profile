@@ -1,0 +1,21 @@
+[17:11:35] [rebuild] create textless base by binary-copying non-text PDF content
+[17:11:38] [rebuild] compose original text clone from pdfminer extraction
+[17:11:42] [rebuild] compose original text clone from pdfplumber extraction
+[17:11:52] [rebuild] compose translated PDF from translated text state
+[17:11:54] [finalize] published output/rejected/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr_V10.pdf
+{
+  "job": "idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr",
+  "outputPdf": "output/rejected/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr_V10.pdf",
+  "sourceSha256": "7884527c3221c927062b33911892d55df959ef6cef35c9264728a3d7d038e9dd",
+  "outputSha256": "81fa74db2bd30702a311d59f1155cc54e2cf74010ff67b3b5ecda9e5c49c5467",
+  "rebuildOk": true,
+  "rebuildReplaced": 2081,
+  "rebuildFailed": 0,
+  "textlessBasePdf": "work/jobs/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/pdf/textless-base.pdf",
+  "clonePdfminerPdf": "work/jobs/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/pdf/clone-pdfminer.pdf",
+  "clonePdfplumberPdf": "work/jobs/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/pdf/clone-pdfplumber.pdf",
+  "translatedRenderPdf": "work/jobs/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/pdf/translated.pdf",
+  "validationOk": false,
+  "classification": "fallback",
+  "notes": []
+}

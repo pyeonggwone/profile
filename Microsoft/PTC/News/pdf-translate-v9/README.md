@@ -394,11 +394,16 @@ LAYOUT_WEIGHT_REPEATED_SPACE=0.12
 LAYOUT_WEIGHT_PUNCT=0.35
 LAYOUT_WEIGHT_OTHER=0.80
 LAYOUT_SPACING_CREDIT_RATIO=0.25
+PDF_TRANSLATION_RENDER_MODE=overlay
 ```
 
 일부 text run이 encode/rebuild에 실패해도 성공한 replacement가 있으면 partial PDF를 `work/<job>/pdf/rebuilt.pdf`로 저장한다. 이 결과는 검증 통과 PDF가 아니므로 `output/validated`가 아니라 `output/rejected`에 publish된다.
 
-기존 font/CMap으로 번역문을 encode할 수 없으면 기본적으로 원본 encoded payload를 보존한다. 이 정책은 `ENCODE_UNSUPPORTED_POLICY=preserve-original`로 제어하며, `encode-report.json`에는 `ENCODE_UNSUPPORTED_PRESERVED_ORIGINAL` warning을 남긴다. 이 경우 PDF 포맷과 원본 text run은 유지되지만 해당 run의 번역문은 PDF에 반영되지 않는다.
+기본 출력 모드는 `PDF_TRANSLATION_RENDER_MODE=overlay`다. 이 모드에서는 번역이 필요한 원본 text operand를 빈 문자열/배열로 비우고, `FONT_REGULAR`, `FONT_FALLBACK`, `FONT_BOLD` 중 사용 가능한 project-local Korean font를 새 PDF font resource로 추가해 번역문을 원래 좌표에 다시 그린다. 따라서 기존 font/CMap이 한국어를 encode하지 못해도 최종 PDF 화면에는 한국어 번역문을 우선 표시한다.
+
+`PDF_TRANSLATION_RENDER_MODE=original-cmap`처럼 overlay가 아닌 모드에서는 기존 font/CMap으로 번역문을 encode하려고 시도한다. 이때 encode할 수 없으면 `ENCODE_UNSUPPORTED_POLICY=preserve-original` 정책에 따라 원본 encoded payload를 보존하고, `encode-report.json`에는 `ENCODE_UNSUPPORTED_PRESERVED_ORIGINAL` warning을 남긴다.
+
+rebuild 중 추출 당시의 `encodedOriginal`과 현재 source stream의 `operandRange`가 맞지 않으면 기본적으로 해당 run 교체를 건너뛰고 원본 bytes를 유지한다. 이 정책은 `REBUILD_MISMATCH_POLICY=preserve-original`로 제어하며, `rebuild-report.json`에는 `REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL` warning을 남긴다.
 
 작업 일관성 용어집은 `.env`의 `GLOSSARY_PATH`를 사용한다. 상대 경로는 v9 root 기준이며 기본값은 `glossary.csv`다.
 
@@ -418,7 +423,7 @@ rebuild가 실패하고 `ALLOW_DEGRADED=true`, `STRICT_TOOLS=false`이면 `rebui
 
 OCR은 기본 off다. `OCR_MODE=azure` 또는 `OCR_MODE=force`이면 project-local `pdftoppm` 또는 `mutool`로 `OCR_PAGES` 대상 페이지를 PNG로 렌더링하고 Azure AI Vision Read API를 호출해 `ocr-report.json`에 line text와 bounding box를 저장한다. OCR 결과는 PDF byte range가 없으므로 자동으로 replacement 대상에 병합하지 않는다.
 
-font fallback 설정은 encode 실패 정책에 적용된다. v9는 새 font resource를 PDF에 주입하지 않으므로 기존 font/CMap으로 encode할 수 없는 번역문은 `encode-report.json`에 `FONT_FALLBACK_FONT_MISSING` 또는 `FONT_FALLBACK_EMBED_UNSUPPORTED`로 기록되고 rejected로 분류된다.
+font fallback 설정은 overlay 모드에서 한국어 표시용 font resource를 추가하는 데 사용된다. overlay가 아닌 모드에서는 기존 font/CMap 기준 encode 실패 정책에만 적용된다.
 
 batch 실행 중 한 PDF가 실패해도 다음 PDF 처리는 계속 진행한다. 전체 처리가 끝난 뒤 실패한 PDF 목록을 error로 반환한다.
 
@@ -667,11 +672,12 @@ work/<job>/state/translation-results.json
 id 기준으로 raw-pdf-text-state와 translation-results 병합
 decodedTranslated 저장
 decodedTranslated가 decodedOriginal과 같으면 encodedOriginal을 replacementEncoded로 그대로 재사용
-기존 font/CMap으로 replacementEncoded 생성 시도
+overlay 모드에서는 번역 대상 원본 operand를 빈 문자열/배열로 교체
+overlay가 아닌 모드에서는 기존 font/CMap으로 replacementEncoded 생성 시도
 encoding 성공/실패 기록
 ```
 
-현재 구현은 ASCII literal string, ASCII hex string, UTF-16BE BOM hex string, ASCII TJ array를 replacementEncoded로 변환한다. 명시적 CMap mapping이 없는 non-ASCII 재인코딩은 실패로 남긴다.
+overlay가 아닌 모드의 기존 font/CMap 변환은 ASCII literal string, ASCII hex string, UTF-16BE BOM hex string, ASCII TJ array를 replacementEncoded로 변환한다. 명시적 CMap mapping이 없는 non-ASCII 재인코딩은 실패로 남긴다.
 
 실패하면 `encode.status=failed`로 표시하고 rebuild 단계에서 해당 run은 실패 처리한다. 원문 유지 항목은 `encode.method=reuse-original-encoded`로 기록한다.
 
@@ -723,8 +729,8 @@ work/<job>/state/pdf-input-text-state.json
 원본 PDF object tree 유지
 streamXref로 content stream 찾기
 operandRange로 원본 text payload 찾기
-restoreOptions의 text state/operator/font/CMap 옵션 그대로 적용
 encodedOriginal을 replacementEncoded로 교체
+overlay 모드에서는 Korean font resource와 page별 overlay content stream 추가
 비텍스트 operator/object/resource는 수정하지 않음
 ```
 
@@ -788,7 +794,7 @@ work/<job>/state/run-summary.json
 | ToUnicode 없음 | decode failed |
 | CMap 해석 실패 | decode failed |
 | 사람이 읽는 text 변환 실패 | 번역 제외, report 기록 |
-| 기존 font/CMap으로 번역문 encode 불가 | encode failed |
+| 기존 font/CMap으로 번역문 encode 불가 | overlay 모드에서는 Korean font overlay로 표시, original-cmap 모드에서는 encode failed 또는 preserve-original |
 | operandRange 불일치 | rebuild failed |
 | qpdf 검증 실패 | 기본 모드에서는 publish 중단, degraded mode에서는 report 기록 후 fallback publish |
 

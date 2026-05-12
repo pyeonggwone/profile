@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+work/jobs/*
+work/db/*.sqlite
+output/validated/*.pdf
+output/rejected/*.pdf
+output/reports/*
+input/*.pdf
+input/ready/*.pdf
+input/done/*.pdf
+input/failed/*.pdf

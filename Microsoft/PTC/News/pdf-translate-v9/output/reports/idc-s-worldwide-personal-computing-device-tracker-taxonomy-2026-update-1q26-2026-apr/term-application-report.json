@@ -24,11 +24,32 @@
       "actual": " "
     },
     {
+      "id": "p0001-s0005-r00006",
+      "term": "Taxonomy",
+      "mode": "preserve",
+      "expected": "Taxonomy",
+      "actual": "분류법"
+    },
+    {
       "id": "p0001-s0005-r00008",
       "term": "IDC",
       "mode": "preserve",
       "expected": "IDC",
       "actual": ""
+    },
+    {
+      "id": "p0001-s0005-r00011",
+      "term": "Taxonomy",
+      "mode": "preserve",
+      "expected": "Taxonomy",
+      "actual": "분류법, 2026: 업데이트, 1Q26"
+    },
+    {
+      "id": "p0001-s0005-r00011",
+      "term": "Update",
+      "mode": "preserve",
+      "expected": "Update",
+      "actual": "분류법, 2026: 업데이트, 1Q26"
     },
     {
       "id": "p0001-s0005-r00054",
@@ -2005,6 +2026,13 @@
       "actual": "convertible NB, mobile WS 또는 mini NB 카테고리에 포함되지 않습니다. 이"
     },
     {
+      "id": "p0007-s0049-r00071",
+      "term": "Convertible",
+      "mode": "preserve",
+      "expected": "Convertible",
+      "actual": "컨버터블"
+    },
+    {
       "id": "p0007-s0049-r00073",
       "term": "NB",
       "mode": "preserve",
@@ -2229,6 +2257,13 @@
       "actual": "소비자 수요 부족으로 인해, 공급업체들은 "
     },
     {
+      "id": "p0008-s0051-r00023",
+      "term": "Workstation",
+      "mode": "preserve",
+      "expected": "Workstation",
+      "actual": "워크스테이션"
+    },
+    {
       "id": "p0008-s0051-r00026",
       "term": "Workstation",
       "mode": "preserve",
@@ -2404,6 +2439,20 @@
       "actual": " "
     },
     {
+      "id": "p0009-s0053-r00008",
+      "term": "TABLE",
+      "mode": "preserve",
+      "expected": "TABLE",
+      "actual": "표 3"
+    },
+    {
+      "id": "p0009-s0053-r00010",
+      "term": "Workstation",
+      "mode": "preserve",
+      "expected": "Workstation",
+      "actual": "워크스테이션"
+    },
+    {
       "id": "p0009-s0053-r00014",
       "term": "Pro",
       "mode": "preserve",
@@ -2430,6 +2479,13 @@
       "mode": "preserve",
       "expected": "Professional",
       "actual": "전문가용 "
+    },
+    {
+      "id": "p0009-s0053-r00038",
+      "term": "Native",
+      "mode": "preserve",
+      "expected": "Native",
+      "actual": "네이티브"
     },
     {
       "id": "p0009-s0053-r00052",
@@ -2460,6 +2516,13 @@
       "actual": "예"
     },
     {
+      "id": "p0009-s0053-r00064",
+      "term": "Premium",
+      "mode": "preserve",
+      "expected": "Premium",
+      "actual": "프리미엄"
+    },
+    {
       "id": "p0009-s0053-r00067",
       "term": "Yes",
       "mode": "preserve",
@@ -2486,6 +2549,13 @@
       "mode": "preserve",
       "expected": "Yes",
       "actual": "예"
+    },
+    {
+      "id": "p0009-s0053-r00079",
+      "term": "Performance",
+      "mode": "preserve",
+      "expected": "Performance",
+      "actual": "퍼포먼스"
     },
     {
       "id": "p0009-s0053-r00082",
@@ -2551,6 +2621,13 @@
       "actual": "예"
     },
     {
+      "id": "p0009-s0053-r00110",
+      "term": "Premium",
+      "mode": "preserve",
+      "expected": "Premium",
+      "actual": "프리미엄"
+    },
+    {
       "id": "p0009-s0053-r00113",
       "term": "Yes",
       "mode": "preserve",
@@ -2577,6 +2654,13 @@
       "mode": "preserve",
       "expected": "No",
       "actual": "아니요"
+    },
+    {
+      "id": "p0009-s0053-r00125",
+      "term": "Performance",
+      "mode": "preserve",
+      "expected": "Performance",
+      "actual": "퍼포먼스"
     },
     {
       "id": "p0009-s0053-r00128",
@@ -2626,6 +2710,13 @@
       "mode": "preserve",
       "expected": "Slate",
       "actual": "슬레이트"
+    },
+    {
+      "id": "p0009-s0053-r00149",
+      "term": "Slate",
+      "mode": "preserve",
+      "expected": "Slate",
+      "actual": "슬레이트 태블릿"
     },
     {
       "id": "p0009-s0053-r00157",
@@ -2829,6 +2920,13 @@
       "mode": "preserve",
       "expected": "Examples",
       "actual": "컨버터블 NB 범주에 포함됩니다. 예로는 Lenovo"
+    },
+    {
+      "id": "p0010-s0055-r00035",
+      "term": "Ultrabook",
+      "mode": "preserve",
+      "expected": "Ultrabook",
+      "actual": "울트라북."
     },
     {
       "id": "p0010-s0055-r00037",
@@ -6366,6 +6464,48 @@
       "actual": "유럽, 중동,"
     },
     {
+      "id": "p0022-s0085-r00033",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0022-s0085-r00033",
+      "term": "Asia",
+      "mode": "preserve",
+      "expected": "Asia",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0022-s0085-r00033",
+      "term": "Pacific",
+      "mode": "preserve",
+      "expected": "Pacific",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0022-s0085-r00035",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0022-s0085-r00035",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0022-s0085-r00035",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "라틴 아메리카"
+    },
+    {
       "id": "p0022-s0085-r00062",
       "term": "To",
       "mode": "preserve",
@@ -6525,6 +6665,48 @@
       "mode": "preserve",
       "expected": "Middle East",
       "actual": "유럽, 중동,"
+    },
+    {
+      "id": "p0023-s0087-r00025",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0023-s0087-r00025",
+      "term": "Asia",
+      "mode": "preserve",
+      "expected": "Asia",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0023-s0087-r00025",
+      "term": "Pacific",
+      "mode": "preserve",
+      "expected": "Pacific",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0023-s0087-r00027",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0023-s0087-r00027",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0023-s0087-r00027",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "라틴 아메리카"
     },
     {
       "id": "p0023-s0087-r00046",
@@ -6884,6 +7066,48 @@
       "actual": "일본"
     },
     {
+      "id": "p0024-s0089-r00026",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0024-s0089-r00026",
+      "term": "Asia",
+      "mode": "preserve",
+      "expected": "Asia",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0024-s0089-r00026",
+      "term": "Pacific",
+      "mode": "preserve",
+      "expected": "Pacific",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0024-s0089-r00028",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0024-s0089-r00028",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0024-s0089-r00028",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "라틴 아메리카"
+    },
+    {
       "id": "p0024-s0089-r00041",
       "term": "PRC",
       "mode": "preserve",
@@ -7241,6 +7465,13 @@
       "actual": " "
     },
     {
+      "id": "p0026-s0093-r00008",
+      "term": "TABLE",
+      "mode": "preserve",
+      "expected": "TABLE",
+      "actual": "표 7"
+    },
+    {
       "id": "p0026-s0093-r00010",
       "term": "Examples",
       "mode": "preserve",
@@ -7288,6 +7519,48 @@
       "mode": "preserve",
       "expected": "Japan",
       "actual": "일본"
+    },
+    {
+      "id": "p0026-s0093-r00024",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0026-s0093-r00024",
+      "term": "Asia",
+      "mode": "preserve",
+      "expected": "Asia",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0026-s0093-r00024",
+      "term": "Pacific",
+      "mode": "preserve",
+      "expected": "Pacific",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0026-s0093-r00026",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0026-s0093-r00026",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0026-s0093-r00026",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "라틴 아메리카"
     },
     {
       "id": "p0026-s0093-r00028",
@@ -7871,6 +8144,13 @@
       "actual": "표 8은 지역별 통신사 예시를 제공합니다."
     },
     {
+      "id": "p0028-s0097-r00013",
+      "term": "TABLE",
+      "mode": "preserve",
+      "expected": "TABLE",
+      "actual": "표 8"
+    },
+    {
       "id": "p0028-s0097-r00015",
       "term": "Examples",
       "mode": "preserve",
@@ -7911,6 +8191,48 @@
       "mode": "preserve",
       "expected": "Canada",
       "actual": "캐나다"
+    },
+    {
+      "id": "p0028-s0097-r00027",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0028-s0097-r00027",
+      "term": "Asia",
+      "mode": "preserve",
+      "expected": "Asia",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0028-s0097-r00027",
+      "term": "Pacific",
+      "mode": "preserve",
+      "expected": "Pacific",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0028-s0097-r00029",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0028-s0097-r00029",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0028-s0097-r00029",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "라틴 아메리카"
     },
     {
       "id": "p0028-s0097-r00101",
@@ -8144,6 +8466,48 @@
       "actual": "일본"
     },
     {
+      "id": "p0029-s0099-r00026",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0029-s0099-r00026",
+      "term": "Asia",
+      "mode": "preserve",
+      "expected": "Asia",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0029-s0099-r00026",
+      "term": "Pacific",
+      "mode": "preserve",
+      "expected": "Pacific",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0029-s0099-r00028",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0029-s0099-r00028",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0029-s0099-r00028",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "라틴 아메리카"
+    },
+    {
       "id": "p0029-s0099-r00067",
       "term": "No",
       "mode": "preserve",
@@ -8347,6 +8711,27 @@
       "actual": "일본"
     },
     {
+      "id": "p0029-s0099-r00111",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0029-s0099-r00111",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0029-s0099-r00111",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "라틴 아메리카"
+    },
+    {
       "id": "p0029-s0099-r00140",
       "term": "No",
       "mode": "preserve",
@@ -8515,6 +8900,27 @@
       "actual": "캐나다"
     },
     {
+      "id": "p0030-s0101-r00024",
+      "term": "America",
+      "mode": "preserve",
+      "expected": "America",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0030-s0101-r00024",
+      "term": "Latin",
+      "mode": "preserve",
+      "expected": "Latin",
+      "actual": "라틴 아메리카"
+    },
+    {
+      "id": "p0030-s0101-r00024",
+      "term": "Latin America",
+      "mode": "preserve",
+      "expected": "Latin America",
+      "actual": "라틴 아메리카"
+    },
+    {
       "id": "p0030-s0101-r00044",
       "term": "Japan",
       "mode": "preserve",
@@ -8648,6 +9054,27 @@
       "actual": "방글라데시"
     },
     {
+      "id": "p0031-s0103-r00060",
+      "term": "Austria",
+      "mode": "preserve",
+      "expected": "Austria",
+      "actual": "오스트리아"
+    },
+    {
+      "id": "p0031-s0103-r00062",
+      "term": "Bulgaria",
+      "mode": "preserve",
+      "expected": "Bulgaria",
+      "actual": "불가리아"
+    },
+    {
+      "id": "p0031-s0103-r00064",
+      "term": "Algeria",
+      "mode": "preserve",
+      "expected": "Algeria",
+      "actual": "알제리"
+    },
+    {
       "id": "p0031-s0103-r00066",
       "term": "Argentina",
       "mode": "preserve",
@@ -8660,6 +9087,27 @@
       "mode": "preserve",
       "expected": "Bangladesh",
       "actual": "홍콩 (중국)"
+    },
+    {
+      "id": "p0031-s0103-r00074",
+      "term": "Belgium",
+      "mode": "preserve",
+      "expected": "Belgium",
+      "actual": "벨기에"
+    },
+    {
+      "id": "p0031-s0103-r00076",
+      "term": "Croatia",
+      "mode": "preserve",
+      "expected": "Croatia",
+      "actual": "크로아티아"
+    },
+    {
+      "id": "p0031-s0103-r00078",
+      "term": "Bahrain",
+      "mode": "preserve",
+      "expected": "Bahrain",
+      "actual": "바레인"
     },
     {
       "id": "p0031-s0103-r00080",
@@ -8697,6 +9145,27 @@
       "actual": "인도"
     },
     {
+      "id": "p0031-s0103-r00088",
+      "term": "Denmark",
+      "mode": "preserve",
+      "expected": "Denmark",
+      "actual": "덴마크"
+    },
+    {
+      "id": "p0031-s0103-r00091",
+      "term": "Republic",
+      "mode": "preserve",
+      "expected": "Republic",
+      "actual": "공화국"
+    },
+    {
+      "id": "p0031-s0103-r00093",
+      "term": "Botswana",
+      "mode": "preserve",
+      "expected": "Botswana",
+      "actual": "보츠와나"
+    },
+    {
       "id": "p0031-s0103-r00095",
       "term": "Brazil",
       "mode": "preserve",
@@ -8716,6 +9185,34 @@
       "mode": "preserve",
       "expected": "India",
       "actual": "인도네시아"
+    },
+    {
+      "id": "p0031-s0103-r00103",
+      "term": "Fi",
+      "mode": "preserve",
+      "expected": "Fi",
+      "actual": "핀란드"
+    },
+    {
+      "id": "p0031-s0103-r00103",
+      "term": "Finland",
+      "mode": "preserve",
+      "expected": "Finland",
+      "actual": "핀란드"
+    },
+    {
+      "id": "p0031-s0103-r00105",
+      "term": "Estonia",
+      "mode": "preserve",
+      "expected": "Estonia",
+      "actual": "에스토니아"
+    },
+    {
+      "id": "p0031-s0103-r00107",
+      "term": "Egypt",
+      "mode": "preserve",
+      "expected": "Egypt",
+      "actual": "이집트"
     },
     {
       "id": "p0031-s0103-r00109",
@@ -8739,6 +9236,41 @@
       "actual": "말레이시아"
     },
     {
+      "id": "p0031-s0103-r00117",
+      "term": "Fr",
+      "mode": "preserve",
+      "expected": "Fr",
+      "actual": "프랑스"
+    },
+    {
+      "id": "p0031-s0103-r00117",
+      "term": "Fra",
+      "mode": "preserve",
+      "expected": "Fra",
+      "actual": "프랑스"
+    },
+    {
+      "id": "p0031-s0103-r00117",
+      "term": "France",
+      "mode": "preserve",
+      "expected": "France",
+      "actual": "프랑스"
+    },
+    {
+      "id": "p0031-s0103-r00119",
+      "term": "Hungary",
+      "mode": "preserve",
+      "expected": "Hungary",
+      "actual": "헝가리"
+    },
+    {
+      "id": "p0031-s0103-r00121",
+      "term": "Ethiopia",
+      "mode": "preserve",
+      "expected": "Ethiopia",
+      "actual": "에티오피아"
+    },
+    {
       "id": "p0031-s0103-r00123",
       "term": "Colombia",
       "mode": "preserve",
@@ -8746,11 +9278,81 @@
       "actual": "콜롬비아"
     },
     {
+      "id": "p0031-s0103-r00130",
+      "term": "South",
+      "mode": "preserve",
+      "expected": "South",
+      "actual": "(남부)"
+    },
+    {
+      "id": "p0031-s0103-r00132",
+      "term": "Germany",
+      "mode": "preserve",
+      "expected": "Germany",
+      "actual": "독일"
+    },
+    {
+      "id": "p0031-s0103-r00134",
+      "term": "Kazakhstan",
+      "mode": "preserve",
+      "expected": "Kazakhstan",
+      "actual": "카자흐스탄"
+    },
+    {
+      "id": "p0031-s0103-r00136",
+      "term": "Ghana",
+      "mode": "preserve",
+      "expected": "Ghana",
+      "actual": "가나"
+    },
+    {
+      "id": "p0031-s0103-r00139",
+      "term": "Rica",
+      "mode": "preserve",
+      "expected": "Rica",
+      "actual": "리카"
+    },
+    {
       "id": "p0031-s0103-r00145",
       "term": "Malaysia",
       "mode": "preserve",
       "expected": "Malaysia",
       "actual": "뉴질랜드"
+    },
+    {
+      "id": "p0031-s0103-r00147",
+      "term": "Greece",
+      "mode": "preserve",
+      "expected": "Greece",
+      "actual": "그리스"
+    },
+    {
+      "id": "p0031-s0103-r00149",
+      "term": "Latvia",
+      "mode": "preserve",
+      "expected": "Latvia",
+      "actual": "라트비아"
+    },
+    {
+      "id": "p0031-s0103-r00151",
+      "term": "Israel",
+      "mode": "preserve",
+      "expected": "Israel",
+      "actual": "이스라엘"
+    },
+    {
+      "id": "p0031-s0103-r00154",
+      "term": "Republic",
+      "mode": "preserve",
+      "expected": "Republic",
+      "actual": "공화국"
+    },
+    {
+      "id": "p0031-s0103-r00160",
+      "term": "Myanmar",
+      "mode": "preserve",
+      "expected": "Myanmar",
+      "actual": "미얀마"
     },
     {
       "id": "p0031-s0103-r00170",
@@ -8774,6 +9376,27 @@
       "actual": "필리핀"
     },
     {
+      "id": "p0031-s0103-r00172",
+      "term": "Ireland",
+      "mode": "preserve",
+      "expected": "Ireland",
+      "actual": "아일랜드"
+    },
+    {
+      "id": "p0031-s0103-r00174",
+      "term": "Lithuania",
+      "mode": "preserve",
+      "expected": "Lithuania",
+      "actual": "리투아니아"
+    },
+    {
+      "id": "p0031-s0103-r00176",
+      "term": "Jordan",
+      "mode": "preserve",
+      "expected": "Jordan",
+      "actual": "요르단"
+    },
+    {
       "id": "p0031-s0103-r00178",
       "term": "Ecuador",
       "mode": "preserve",
@@ -8795,6 +9418,41 @@
       "actual": "싱가포르"
     },
     {
+      "id": "p0031-s0103-r00186",
+      "term": "It",
+      "mode": "preserve",
+      "expected": "It",
+      "actual": "이탈리아"
+    },
+    {
+      "id": "p0031-s0103-r00186",
+      "term": "Italy",
+      "mode": "preserve",
+      "expected": "Italy",
+      "actual": "이탈리아"
+    },
+    {
+      "id": "p0031-s0103-r00188",
+      "term": "Poland",
+      "mode": "preserve",
+      "expected": "Poland",
+      "actual": "폴란드"
+    },
+    {
+      "id": "p0031-s0103-r00190",
+      "term": "Kenya",
+      "mode": "preserve",
+      "expected": "Kenya",
+      "actual": "케냐"
+    },
+    {
+      "id": "p0031-s0103-r00193",
+      "term": "Salvador",
+      "mode": "preserve",
+      "expected": "Salvador",
+      "actual": "살바도르"
+    },
+    {
       "id": "p0031-s0103-r00199",
       "term": "Singapore",
       "mode": "preserve",
@@ -8802,11 +9460,67 @@
       "actual": "대한민국"
     },
     {
+      "id": "p0031-s0103-r00201",
+      "term": "Netherlands",
+      "mode": "preserve",
+      "expected": "Netherlands",
+      "actual": "네덜란드"
+    },
+    {
+      "id": "p0031-s0103-r00203",
+      "term": "Romania",
+      "mode": "preserve",
+      "expected": "Romania",
+      "actual": "루마니아"
+    },
+    {
+      "id": "p0031-s0103-r00205",
+      "term": "Kuwait",
+      "mode": "preserve",
+      "expected": "Kuwait",
+      "actual": "쿠웨이트"
+    },
+    {
+      "id": "p0031-s0103-r00207",
+      "term": "Guatemal",
+      "mode": "preserve",
+      "expected": "Guatemal",
+      "actual": "과테말"
+    },
+    {
       "id": "p0031-s0103-r00214",
       "term": "Sri Lanka",
       "mode": "preserve",
       "expected": "Sri Lanka",
       "actual": "대만"
+    },
+    {
+      "id": "p0031-s0103-r00216",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "노르웨이"
+    },
+    {
+      "id": "p0031-s0103-r00216",
+      "term": "Norway",
+      "mode": "preserve",
+      "expected": "Norway",
+      "actual": "노르웨이"
+    },
+    {
+      "id": "p0031-s0103-r00218",
+      "term": "Russia",
+      "mode": "preserve",
+      "expected": "Russia",
+      "actual": "러시아"
+    },
+    {
+      "id": "p0031-s0103-r00220",
+      "term": "Lebanon",
+      "mode": "preserve",
+      "expected": "Lebanon",
+      "actual": "레바논"
     },
     {
       "id": "p0031-s0103-r00222",
@@ -8823,11 +9537,25 @@
       "actual": "태국"
     },
     {
+      "id": "p0031-s0103-r00230",
+      "term": "Portugal",
+      "mode": "preserve",
+      "expected": "Portugal",
+      "actual": "포르투갈"
+    },
+    {
       "id": "p0031-s0103-r00232",
       "term": "Serbia",
       "mode": "preserve",
       "expected": "Serbia",
       "actual": " "
+    },
+    {
+      "id": "p0031-s0103-r00234",
+      "term": "Morocco",
+      "mode": "preserve",
+      "expected": "Morocco",
+      "actual": "모로코"
     },
     {
       "id": "p0031-s0103-r00236",
@@ -8844,11 +9572,67 @@
       "actual": "베트남"
     },
     {
+      "id": "p0031-s0103-r00244",
+      "term": "Spain",
+      "mode": "preserve",
+      "expected": "Spain",
+      "actual": "스페인"
+    },
+    {
+      "id": "p0031-s0103-r00246",
+      "term": "Slovakia",
+      "mode": "preserve",
+      "expected": "Slovakia",
+      "actual": "슬로바키아"
+    },
+    {
+      "id": "p0031-s0103-r00248",
+      "term": "Namibia",
+      "mode": "preserve",
+      "expected": "Namibia",
+      "actual": "나미비아"
+    },
+    {
       "id": "p0031-s0103-r00250",
       "term": "Paraguay",
       "mode": "preserve",
       "expected": "Paraguay",
       "actual": "파라과이"
+    },
+    {
+      "id": "p0031-s0103-r00256",
+      "term": "Vietnam",
+      "mode": "preserve",
+      "expected": "Vietnam",
+      "actual": "베트남"
+    },
+    {
+      "id": "p0031-s0103-r00258",
+      "term": "Sweden",
+      "mode": "preserve",
+      "expected": "Sweden",
+      "actual": "스웨덴"
+    },
+    {
+      "id": "p0031-s0103-r00260",
+      "term": "Slovenia",
+      "mode": "preserve",
+      "expected": "Slovenia",
+      "actual": "슬로베니아"
+    },
+    {
+      "id": "p0031-s0103-r00262",
+      "term": "Niger",
+      "mode": "preserve",
+      "expected": "Niger",
+      "actual": "나이지리아"
+    },
+    {
+      "id": "p0031-s0103-r00262",
+      "term": "Nigeria",
+      "mode": "preserve",
+      "expected": "Nigeria",
+      "actual": "나이지리아"
     },
     {
       "id": "p0031-s0103-r00264",
@@ -8865,6 +9649,55 @@
       "actual": " "
     },
     {
+      "id": "p0031-s0103-r00271",
+      "term": "As",
+      "mode": "preserve",
+      "expected": "As",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0031-s0103-r00271",
+      "term": "Asia",
+      "mode": "preserve",
+      "expected": "Asia",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0031-s0103-r00271",
+      "term": "Pacific",
+      "mode": "preserve",
+      "expected": "Pacific",
+      "actual": "아시아/태평양"
+    },
+    {
+      "id": "p0031-s0103-r00273",
+      "term": "Switzerland",
+      "mode": "preserve",
+      "expected": "Switzerland",
+      "actual": "스위스"
+    },
+    {
+      "id": "p0031-s0103-r00275",
+      "term": "Ukraine",
+      "mode": "preserve",
+      "expected": "Ukraine",
+      "actual": "우크라이나"
+    },
+    {
+      "id": "p0031-s0103-r00277",
+      "term": "Oman",
+      "mode": "preserve",
+      "expected": "Oman",
+      "actual": "오만"
+    },
+    {
+      "id": "p0031-s0103-r00280",
+      "term": "Rico",
+      "mode": "preserve",
+      "expected": "Rico",
+      "actual": "리코"
+    },
+    {
       "id": "p0031-s0103-r00287",
       "term": "Unit",
       "mode": "preserve",
@@ -8877,6 +9710,13 @@
       "mode": "preserve",
       "expected": "United",
       "actual": " "
+    },
+    {
+      "id": "p0031-s0103-r00288",
+      "term": "Kingdom",
+      "mode": "preserve",
+      "expected": "Kingdom",
+      "actual": "왕국"
     },
     {
       "id": "p0031-s0103-r00290",
@@ -9467,6 +10307,447 @@
       "actual": "일본"
     },
     {
+      "id": "p0033-s0107-r00060",
+      "term": "Austria",
+      "mode": "preserve",
+      "expected": "Austria",
+      "actual": "오스트리아"
+    },
+    {
+      "id": "p0033-s0107-r00062",
+      "term": "Austria",
+      "mode": "preserve",
+      "expected": "Austria",
+      "actual": "오스트리아"
+    },
+    {
+      "id": "p0033-s0107-r00065",
+      "term": "Belgium",
+      "mode": "preserve",
+      "expected": "Belgium",
+      "actual": "벨기에"
+    },
+    {
+      "id": "p0033-s0107-r00067",
+      "term": "Belgium",
+      "mode": "preserve",
+      "expected": "Belgium",
+      "actual": "벨기에 및 룩셈부르크(벨기에)"
+    },
+    {
+      "id": "p0033-s0107-r00067",
+      "term": "Luxembourg",
+      "mode": "preserve",
+      "expected": "Luxembourg",
+      "actual": "벨기에 및 룩셈부르크(벨기에)"
+    },
+    {
+      "id": "p0033-s0107-r00070",
+      "term": "Denmark",
+      "mode": "preserve",
+      "expected": "Denmark",
+      "actual": "덴마크"
+    },
+    {
+      "id": "p0033-s0107-r00072",
+      "term": "Denmark",
+      "mode": "preserve",
+      "expected": "Denmark",
+      "actual": "덴마크, 페로 제도(덴마크), 그린란드(덴마크) 및 "
+    },
+    {
+      "id": "p0033-s0107-r00072",
+      "term": "Faroe Islands",
+      "mode": "preserve",
+      "expected": "Faroe Islands",
+      "actual": "덴마크, 페로 제도(덴마크), 그린란드(덴마크) 및 "
+    },
+    {
+      "id": "p0033-s0107-r00072",
+      "term": "Greenland",
+      "mode": "preserve",
+      "expected": "Greenland",
+      "actual": "덴마크, 페로 제도(덴마크), 그린란드(덴마크) 및 "
+    },
+    {
+      "id": "p0033-s0107-r00072",
+      "term": "Islands",
+      "mode": "preserve",
+      "expected": "Islands",
+      "actual": "덴마크, 페로 제도(덴마크), 그린란드(덴마크) 및 "
+    },
+    {
+      "id": "p0033-s0107-r00073",
+      "term": "Denmark",
+      "mode": "preserve",
+      "expected": "Denmark",
+      "actual": "아이슬란드(덴마크)"
+    },
+    {
+      "id": "p0033-s0107-r00073",
+      "term": "Iceland",
+      "mode": "preserve",
+      "expected": "Iceland",
+      "actual": "아이슬란드(덴마크)"
+    },
+    {
+      "id": "p0033-s0107-r00076",
+      "term": "Fi",
+      "mode": "preserve",
+      "expected": "Fi",
+      "actual": "핀란드"
+    },
+    {
+      "id": "p0033-s0107-r00076",
+      "term": "Finland",
+      "mode": "preserve",
+      "expected": "Finland",
+      "actual": "핀란드"
+    },
+    {
+      "id": "p0033-s0107-r00078",
+      "term": "Fi",
+      "mode": "preserve",
+      "expected": "Fi",
+      "actual": "핀란드"
+    },
+    {
+      "id": "p0033-s0107-r00078",
+      "term": "Finland",
+      "mode": "preserve",
+      "expected": "Finland",
+      "actual": "핀란드"
+    },
+    {
+      "id": "p0033-s0107-r00081",
+      "term": "Fr",
+      "mode": "preserve",
+      "expected": "Fr",
+      "actual": "프랑스"
+    },
+    {
+      "id": "p0033-s0107-r00081",
+      "term": "Fra",
+      "mode": "preserve",
+      "expected": "Fra",
+      "actual": "프랑스"
+    },
+    {
+      "id": "p0033-s0107-r00081",
+      "term": "France",
+      "mode": "preserve",
+      "expected": "France",
+      "actual": "프랑스"
+    },
+    {
+      "id": "p0033-s0107-r00083",
+      "term": "Fr",
+      "mode": "preserve",
+      "expected": "Fr",
+      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
+    },
+    {
+      "id": "p0033-s0107-r00083",
+      "term": "Fra",
+      "mode": "preserve",
+      "expected": "Fra",
+      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
+    },
+    {
+      "id": "p0033-s0107-r00083",
+      "term": "France",
+      "mode": "preserve",
+      "expected": "France",
+      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
+    },
+    {
+      "id": "p0033-s0107-r00083",
+      "term": "Miquelon",
+      "mode": "preserve",
+      "expected": "Miquelon",
+      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
+    },
+    {
+      "id": "p0033-s0107-r00083",
+      "term": "Monaco",
+      "mode": "preserve",
+      "expected": "Monaco",
+      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
+    },
+    {
+      "id": "p0033-s0107-r00083",
+      "term": "Saint",
+      "mode": "preserve",
+      "expected": "Saint",
+      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
+    },
+    {
+      "id": "p0033-s0107-r00083",
+      "term": "Saint Pierre",
+      "mode": "preserve",
+      "expected": "Saint Pierre",
+      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
+    },
+    {
+      "id": "p0033-s0107-r00086",
+      "term": "Germany",
+      "mode": "preserve",
+      "expected": "Germany",
+      "actual": "독일"
+    },
+    {
+      "id": "p0033-s0107-r00088",
+      "term": "Germany",
+      "mode": "preserve",
+      "expected": "Germany",
+      "actual": "독일"
+    },
+    {
+      "id": "p0033-s0107-r00091",
+      "term": "Greece",
+      "mode": "preserve",
+      "expected": "Greece",
+      "actual": "그리스"
+    },
+    {
+      "id": "p0033-s0107-r00093",
+      "term": "Cyprus",
+      "mode": "preserve",
+      "expected": "Cyprus",
+      "actual": "그리스, 키프로스"
+    },
+    {
+      "id": "p0033-s0107-r00093",
+      "term": "Greece",
+      "mode": "preserve",
+      "expected": "Greece",
+      "actual": "그리스, 키프로스"
+    },
+    {
+      "id": "p0033-s0107-r00096",
+      "term": "Ireland",
+      "mode": "preserve",
+      "expected": "Ireland",
+      "actual": "아일랜드"
+    },
+    {
+      "id": "p0033-s0107-r00098",
+      "term": "Ireland",
+      "mode": "preserve",
+      "expected": "Ireland",
+      "actual": "아일랜드"
+    },
+    {
+      "id": "p0033-s0107-r00101",
+      "term": "It",
+      "mode": "preserve",
+      "expected": "It",
+      "actual": "이탈리아"
+    },
+    {
+      "id": "p0033-s0107-r00101",
+      "term": "Italy",
+      "mode": "preserve",
+      "expected": "Italy",
+      "actual": "이탈리아"
+    },
+    {
+      "id": "p0033-s0107-r00103",
+      "term": "City",
+      "mode": "preserve",
+      "expected": "City",
+      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
+    },
+    {
+      "id": "p0033-s0107-r00103",
+      "term": "It",
+      "mode": "preserve",
+      "expected": "It",
+      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
+    },
+    {
+      "id": "p0033-s0107-r00103",
+      "term": "Italy",
+      "mode": "preserve",
+      "expected": "Italy",
+      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
+    },
+    {
+      "id": "p0033-s0107-r00103",
+      "term": "Malta",
+      "mode": "preserve",
+      "expected": "Malta",
+      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
+    },
+    {
+      "id": "p0033-s0107-r00103",
+      "term": "San Marino",
+      "mode": "preserve",
+      "expected": "San Marino",
+      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
+    },
+    {
+      "id": "p0033-s0107-r00103",
+      "term": "Vatican City",
+      "mode": "preserve",
+      "expected": "Vatican City",
+      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
+    },
+    {
+      "id": "p0033-s0107-r00106",
+      "term": "Holy See",
+      "mode": "preserve",
+      "expected": "Holy See",
+      "actual": "교황청"
+    },
+    {
+      "id": "p0033-s0107-r00109",
+      "term": "Netherlands",
+      "mode": "preserve",
+      "expected": "Netherlands",
+      "actual": "네덜란드"
+    },
+    {
+      "id": "p0033-s0107-r00111",
+      "term": "Netherlands",
+      "mode": "preserve",
+      "expected": "Netherlands",
+      "actual": "네덜란드"
+    },
+    {
+      "id": "p0033-s0107-r00114",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "노르웨이"
+    },
+    {
+      "id": "p0033-s0107-r00114",
+      "term": "Norway",
+      "mode": "preserve",
+      "expected": "Norway",
+      "actual": "노르웨이"
+    },
+    {
+      "id": "p0033-s0107-r00116",
+      "term": "No",
+      "mode": "preserve",
+      "expected": "No",
+      "actual": "노르웨이, 스발바르"
+    },
+    {
+      "id": "p0033-s0107-r00116",
+      "term": "Norway",
+      "mode": "preserve",
+      "expected": "Norway",
+      "actual": "노르웨이, 스발바르"
+    },
+    {
+      "id": "p0033-s0107-r00116",
+      "term": "Svalbard",
+      "mode": "preserve",
+      "expected": "Svalbard",
+      "actual": "노르웨이, 스발바르"
+    },
+    {
+      "id": "p0033-s0107-r00119",
+      "term": "Portugal",
+      "mode": "preserve",
+      "expected": "Portugal",
+      "actual": "포르투갈"
+    },
+    {
+      "id": "p0033-s0107-r00121",
+      "term": "Portugal",
+      "mode": "preserve",
+      "expected": "Portugal",
+      "actual": "포르투갈"
+    },
+    {
+      "id": "p0033-s0107-r00124",
+      "term": "Spain",
+      "mode": "preserve",
+      "expected": "Spain",
+      "actual": "스페인"
+    },
+    {
+      "id": "p0033-s0107-r00126",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
+    },
+    {
+      "id": "p0033-s0107-r00126",
+      "term": "Andorra",
+      "mode": "preserve",
+      "expected": "Andorra",
+      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
+    },
+    {
+      "id": "p0033-s0107-r00126",
+      "term": "Canary Islands",
+      "mode": "preserve",
+      "expected": "Canary Islands",
+      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
+    },
+    {
+      "id": "p0033-s0107-r00126",
+      "term": "Gibraltar",
+      "mode": "preserve",
+      "expected": "Gibraltar",
+      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
+    },
+    {
+      "id": "p0033-s0107-r00126",
+      "term": "Islands",
+      "mode": "preserve",
+      "expected": "Islands",
+      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
+    },
+    {
+      "id": "p0033-s0107-r00126",
+      "term": "Spain",
+      "mode": "preserve",
+      "expected": "Spain",
+      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
+    },
+    {
+      "id": "p0033-s0107-r00129",
+      "term": "Sweden",
+      "mode": "preserve",
+      "expected": "Sweden",
+      "actual": "스웨덴"
+    },
+    {
+      "id": "p0033-s0107-r00131",
+      "term": "Sweden",
+      "mode": "preserve",
+      "expected": "Sweden",
+      "actual": "스웨덴"
+    },
+    {
+      "id": "p0033-s0107-r00134",
+      "term": "Switzerland",
+      "mode": "preserve",
+      "expected": "Switzerland",
+      "actual": "스위스"
+    },
+    {
+      "id": "p0033-s0107-r00136",
+      "term": "Liechtenstein",
+      "mode": "preserve",
+      "expected": "Liechtenstein",
+      "actual": "스위스, 리히텐슈타인"
+    },
+    {
+      "id": "p0033-s0107-r00136",
+      "term": "Switzerland",
+      "mode": "preserve",
+      "expected": "Switzerland",
+      "actual": "스위스, 리히텐슈타인"
+    },
+    {
       "id": "p0034-s0109-r00004",
       "term": "US",
       "mode": "preserve",
@@ -9509,6 +10790,174 @@
       "actual": "국가"
     },
     {
+      "id": "p0034-s0109-r00037",
+      "term": "Bulgaria",
+      "mode": "preserve",
+      "expected": "Bulgaria",
+      "actual": "불가리아"
+    },
+    {
+      "id": "p0034-s0109-r00039",
+      "term": "Bulgaria",
+      "mode": "preserve",
+      "expected": "Bulgaria",
+      "actual": "불가리아"
+    },
+    {
+      "id": "p0034-s0109-r00042",
+      "term": "Croatia",
+      "mode": "preserve",
+      "expected": "Croatia",
+      "actual": "크로아티아"
+    },
+    {
+      "id": "p0034-s0109-r00044",
+      "term": "Croatia",
+      "mode": "preserve",
+      "expected": "Croatia",
+      "actual": "크로아티아"
+    },
+    {
+      "id": "p0034-s0109-r00047",
+      "term": "Czech",
+      "mode": "preserve",
+      "expected": "Czech",
+      "actual": "체코 공화국"
+    },
+    {
+      "id": "p0034-s0109-r00047",
+      "term": "Czech Republic",
+      "mode": "preserve",
+      "expected": "Czech Republic",
+      "actual": "체코 공화국"
+    },
+    {
+      "id": "p0034-s0109-r00047",
+      "term": "Republic",
+      "mode": "preserve",
+      "expected": "Republic",
+      "actual": "체코 공화국"
+    },
+    {
+      "id": "p0034-s0109-r00049",
+      "term": "Czech",
+      "mode": "preserve",
+      "expected": "Czech",
+      "actual": "체코 공화국"
+    },
+    {
+      "id": "p0034-s0109-r00049",
+      "term": "Czech Republic",
+      "mode": "preserve",
+      "expected": "Czech Republic",
+      "actual": "체코 공화국"
+    },
+    {
+      "id": "p0034-s0109-r00049",
+      "term": "Republic",
+      "mode": "preserve",
+      "expected": "Republic",
+      "actual": "체코 공화국"
+    },
+    {
+      "id": "p0034-s0109-r00052",
+      "term": "Hungary",
+      "mode": "preserve",
+      "expected": "Hungary",
+      "actual": "헝가리"
+    },
+    {
+      "id": "p0034-s0109-r00054",
+      "term": "Hungary",
+      "mode": "preserve",
+      "expected": "Hungary",
+      "actual": "헝가리"
+    },
+    {
+      "id": "p0034-s0109-r00057",
+      "term": "Poland",
+      "mode": "preserve",
+      "expected": "Poland",
+      "actual": "폴란드"
+    },
+    {
+      "id": "p0034-s0109-r00059",
+      "term": "Poland",
+      "mode": "preserve",
+      "expected": "Poland",
+      "actual": "폴란드"
+    },
+    {
+      "id": "p0034-s0109-r00062",
+      "term": "Romania",
+      "mode": "preserve",
+      "expected": "Romania",
+      "actual": "루마니아"
+    },
+    {
+      "id": "p0034-s0109-r00064",
+      "term": "Romania",
+      "mode": "preserve",
+      "expected": "Romania",
+      "actual": "루마니아"
+    },
+    {
+      "id": "p0034-s0109-r00067",
+      "term": "Russia",
+      "mode": "preserve",
+      "expected": "Russia",
+      "actual": "러시아"
+    },
+    {
+      "id": "p0034-s0109-r00069",
+      "term": "Russia",
+      "mode": "preserve",
+      "expected": "Russia",
+      "actual": "러시아"
+    },
+    {
+      "id": "p0034-s0109-r00072",
+      "term": "Slovakia",
+      "mode": "preserve",
+      "expected": "Slovakia",
+      "actual": "슬로바키아"
+    },
+    {
+      "id": "p0034-s0109-r00074",
+      "term": "Slovakia",
+      "mode": "preserve",
+      "expected": "Slovakia",
+      "actual": "슬로바키아"
+    },
+    {
+      "id": "p0034-s0109-r00077",
+      "term": "Slovenia",
+      "mode": "preserve",
+      "expected": "Slovenia",
+      "actual": "슬로베니아"
+    },
+    {
+      "id": "p0034-s0109-r00079",
+      "term": "Slovenia",
+      "mode": "preserve",
+      "expected": "Slovenia",
+      "actual": "슬로베니아"
+    },
+    {
+      "id": "p0034-s0109-r00082",
+      "term": "Ukraine",
+      "mode": "preserve",
+      "expected": "Ukraine",
+      "actual": "우크라이나"
+    },
+    {
+      "id": "p0034-s0109-r00084",
+      "term": "Ukraine",
+      "mode": "preserve",
+      "expected": "Ukraine",
+      "actual": "우크라이나"
+    },
+    {
       "id": "p0034-s0109-r00087",
       "term": "Serbia",
       "mode": "preserve",
@@ -9521,6 +10970,62 @@
       "mode": "preserve",
       "expected": "Serbia",
       "actual": " "
+    },
+    {
+      "id": "p0034-s0109-r00092",
+      "term": "Latvia",
+      "mode": "preserve",
+      "expected": "Latvia",
+      "actual": "라트비아"
+    },
+    {
+      "id": "p0034-s0109-r00094",
+      "term": "Latvia",
+      "mode": "preserve",
+      "expected": "Latvia",
+      "actual": "라트비아"
+    },
+    {
+      "id": "p0034-s0109-r00097",
+      "term": "Lithuania",
+      "mode": "preserve",
+      "expected": "Lithuania",
+      "actual": "리투아니아"
+    },
+    {
+      "id": "p0034-s0109-r00099",
+      "term": "Lithuania",
+      "mode": "preserve",
+      "expected": "Lithuania",
+      "actual": "리투아니아"
+    },
+    {
+      "id": "p0034-s0109-r00102",
+      "term": "Estonia",
+      "mode": "preserve",
+      "expected": "Estonia",
+      "actual": "에스토니아"
+    },
+    {
+      "id": "p0034-s0109-r00104",
+      "term": "Estonia",
+      "mode": "preserve",
+      "expected": "Estonia",
+      "actual": "에스토니아"
+    },
+    {
+      "id": "p0034-s0109-r00107",
+      "term": "Kazakhstan",
+      "mode": "preserve",
+      "expected": "Kazakhstan",
+      "actual": "카자흐스탄"
+    },
+    {
+      "id": "p0034-s0109-r00109",
+      "term": "Kazakhstan",
+      "mode": "preserve",
+      "expected": "Kazakhstan",
+      "actual": "카자흐스탄"
     },
     {
       "id": "p0034-s0109-r00112",
@@ -9563,6 +11068,181 @@
       "mode": "preserve",
       "expected": "Europe",
       "actual": "동유럽"
+    },
+    {
+      "id": "p0034-s0109-r00115",
+      "term": "Albania",
+      "mode": "preserve",
+      "expected": "Albania",
+      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
+    },
+    {
+      "id": "p0034-s0109-r00115",
+      "term": "Armenia",
+      "mode": "preserve",
+      "expected": "Armenia",
+      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
+    },
+    {
+      "id": "p0034-s0109-r00115",
+      "term": "Azerbaijan",
+      "mode": "preserve",
+      "expected": "Azerbaijan",
+      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
+    },
+    {
+      "id": "p0034-s0109-r00115",
+      "term": "Belarus",
+      "mode": "preserve",
+      "expected": "Belarus",
+      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
+    },
+    {
+      "id": "p0034-s0109-r00115",
+      "term": "Bosnia",
+      "mode": "preserve",
+      "expected": "Bosnia",
+      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
+    },
+    {
+      "id": "p0034-s0109-r00116",
+      "term": "Fr",
+      "mode": "preserve",
+      "expected": "Fr",
+      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
+    },
+    {
+      "id": "p0034-s0109-r00116",
+      "term": "Fra",
+      "mode": "preserve",
+      "expected": "Fra",
+      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
+    },
+    {
+      "id": "p0034-s0109-r00116",
+      "term": "Franz Josef Islands",
+      "mode": "preserve",
+      "expected": "Franz Josef Islands",
+      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
+    },
+    {
+      "id": "p0034-s0109-r00116",
+      "term": "Georgia",
+      "mode": "preserve",
+      "expected": "Georgia",
+      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
+    },
+    {
+      "id": "p0034-s0109-r00116",
+      "term": "Herzegovina",
+      "mode": "preserve",
+      "expected": "Herzegovina",
+      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
+    },
+    {
+      "id": "p0034-s0109-r00116",
+      "term": "Islands",
+      "mode": "preserve",
+      "expected": "Islands",
+      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
+    },
+    {
+      "id": "p0034-s0109-r00116",
+      "term": "Ko",
+      "mode": "preserve",
+      "expected": "Ko",
+      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
+    },
+    {
+      "id": "p0034-s0109-r00116",
+      "term": "Kosovo",
+      "mode": "preserve",
+      "expected": "Kosovo",
+      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
+    },
+    {
+      "id": "p0034-s0109-r00116",
+      "term": "Russia",
+      "mode": "preserve",
+      "expected": "Russia",
+      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
+    },
+    {
+      "id": "p0034-s0109-r00117",
+      "term": "Kyrgyzstan",
+      "mode": "preserve",
+      "expected": "Kyrgyzstan",
+      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
+    },
+    {
+      "id": "p0034-s0109-r00117",
+      "term": "Macedonia",
+      "mode": "preserve",
+      "expected": "Macedonia",
+      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
+    },
+    {
+      "id": "p0034-s0109-r00117",
+      "term": "Moldova",
+      "mode": "preserve",
+      "expected": "Moldova",
+      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
+    },
+    {
+      "id": "p0034-s0109-r00117",
+      "term": "Montenegro",
+      "mode": "preserve",
+      "expected": "Montenegro",
+      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
+    },
+    {
+      "id": "p0034-s0109-r00117",
+      "term": "Tajikistan",
+      "mode": "preserve",
+      "expected": "Tajikistan",
+      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
+    },
+    {
+      "id": "p0034-s0109-r00118",
+      "term": "Turkmenistan",
+      "mode": "preserve",
+      "expected": "Turkmenistan",
+      "actual": "투르크메니스탄, 그리고 우즈베키스탄"
+    },
+    {
+      "id": "p0034-s0109-r00118",
+      "term": "Uzbekistan",
+      "mode": "preserve",
+      "expected": "Uzbekistan",
+      "actual": "투르크메니스탄, 그리고 우즈베키스탄"
+    },
+    {
+      "id": "p0034-s0109-r00123",
+      "term": "Egypt",
+      "mode": "preserve",
+      "expected": "Egypt",
+      "actual": "이집트"
+    },
+    {
+      "id": "p0034-s0109-r00125",
+      "term": "Egypt",
+      "mode": "preserve",
+      "expected": "Egypt",
+      "actual": "이집트"
+    },
+    {
+      "id": "p0034-s0109-r00128",
+      "term": "Israel",
+      "mode": "preserve",
+      "expected": "Israel",
+      "actual": "이스라엘"
+    },
+    {
+      "id": "p0034-s0109-r00130",
+      "term": "Israel",
+      "mode": "preserve",
+      "expected": "Israel",
+      "actual": "이스라엘"
     },
     {
       "id": "p0035-s0111-r00004",
@@ -9621,6 +11301,48 @@
       "actual": "터키"
     },
     {
+      "id": "p0035-s0111-r00045",
+      "term": "Bahrain",
+      "mode": "preserve",
+      "expected": "Bahrain",
+      "actual": "바레인"
+    },
+    {
+      "id": "p0035-s0111-r00047",
+      "term": "Bahrain",
+      "mode": "preserve",
+      "expected": "Bahrain",
+      "actual": "바레인"
+    },
+    {
+      "id": "p0035-s0111-r00050",
+      "term": "Kuwait",
+      "mode": "preserve",
+      "expected": "Kuwait",
+      "actual": "쿠웨이트"
+    },
+    {
+      "id": "p0035-s0111-r00052",
+      "term": "Kuwait",
+      "mode": "preserve",
+      "expected": "Kuwait",
+      "actual": "쿠웨이트"
+    },
+    {
+      "id": "p0035-s0111-r00055",
+      "term": "Oman",
+      "mode": "preserve",
+      "expected": "Oman",
+      "actual": "오만"
+    },
+    {
+      "id": "p0035-s0111-r00057",
+      "term": "Oman",
+      "mode": "preserve",
+      "expected": "Oman",
+      "actual": "오만"
+    },
+    {
       "id": "p0035-s0111-r00060",
       "term": "Qatar",
       "mode": "preserve",
@@ -9633,6 +11355,160 @@
       "mode": "preserve",
       "expected": "Qatar",
       "actual": "카타르"
+    },
+    {
+      "id": "p0035-s0111-r00065",
+      "term": "Jordan",
+      "mode": "preserve",
+      "expected": "Jordan",
+      "actual": "요르단"
+    },
+    {
+      "id": "p0035-s0111-r00067",
+      "term": "Jordan",
+      "mode": "preserve",
+      "expected": "Jordan",
+      "actual": "요르단"
+    },
+    {
+      "id": "p0035-s0111-r00070",
+      "term": "Lebanon",
+      "mode": "preserve",
+      "expected": "Lebanon",
+      "actual": "레바논"
+    },
+    {
+      "id": "p0035-s0111-r00072",
+      "term": "Lebanon",
+      "mode": "preserve",
+      "expected": "Lebanon",
+      "actual": "레바논"
+    },
+    {
+      "id": "p0035-s0111-r00075",
+      "term": "Algeria",
+      "mode": "preserve",
+      "expected": "Algeria",
+      "actual": "알제리"
+    },
+    {
+      "id": "p0035-s0111-r00077",
+      "term": "Algeria",
+      "mode": "preserve",
+      "expected": "Algeria",
+      "actual": "알제리"
+    },
+    {
+      "id": "p0035-s0111-r00080",
+      "term": "Botswana",
+      "mode": "preserve",
+      "expected": "Botswana",
+      "actual": "보츠와나"
+    },
+    {
+      "id": "p0035-s0111-r00082",
+      "term": "Botswana",
+      "mode": "preserve",
+      "expected": "Botswana",
+      "actual": "보츠와나"
+    },
+    {
+      "id": "p0035-s0111-r00085",
+      "term": "Ethiopia",
+      "mode": "preserve",
+      "expected": "Ethiopia",
+      "actual": "에티오피아"
+    },
+    {
+      "id": "p0035-s0111-r00087",
+      "term": "Ethiopia",
+      "mode": "preserve",
+      "expected": "Ethiopia",
+      "actual": "에티오피아"
+    },
+    {
+      "id": "p0035-s0111-r00090",
+      "term": "Ghana",
+      "mode": "preserve",
+      "expected": "Ghana",
+      "actual": "가나"
+    },
+    {
+      "id": "p0035-s0111-r00092",
+      "term": "Ghana",
+      "mode": "preserve",
+      "expected": "Ghana",
+      "actual": "가나"
+    },
+    {
+      "id": "p0035-s0111-r00095",
+      "term": "Kenya",
+      "mode": "preserve",
+      "expected": "Kenya",
+      "actual": "케냐"
+    },
+    {
+      "id": "p0035-s0111-r00097",
+      "term": "Kenya",
+      "mode": "preserve",
+      "expected": "Kenya",
+      "actual": "케냐"
+    },
+    {
+      "id": "p0035-s0111-r00100",
+      "term": "Morocco",
+      "mode": "preserve",
+      "expected": "Morocco",
+      "actual": "모로코"
+    },
+    {
+      "id": "p0035-s0111-r00102",
+      "term": "Morocco",
+      "mode": "preserve",
+      "expected": "Morocco",
+      "actual": "모로코"
+    },
+    {
+      "id": "p0035-s0111-r00105",
+      "term": "Namibia",
+      "mode": "preserve",
+      "expected": "Namibia",
+      "actual": "나미비아"
+    },
+    {
+      "id": "p0035-s0111-r00107",
+      "term": "Namibia",
+      "mode": "preserve",
+      "expected": "Namibia",
+      "actual": "나미비아"
+    },
+    {
+      "id": "p0035-s0111-r00110",
+      "term": "Niger",
+      "mode": "preserve",
+      "expected": "Niger",
+      "actual": "나이지리아"
+    },
+    {
+      "id": "p0035-s0111-r00110",
+      "term": "Nigeria",
+      "mode": "preserve",
+      "expected": "Nigeria",
+      "actual": "나이지리아"
+    },
+    {
+      "id": "p0035-s0111-r00112",
+      "term": "Niger",
+      "mode": "preserve",
+      "expected": "Niger",
+      "actual": "나이지리아"
+    },
+    {
+      "id": "p0035-s0111-r00112",
+      "term": "Nigeria",
+      "mode": "preserve",
+      "expected": "Nigeria",
+      "actual": "나이지리아"
     },
     {
       "id": "p0035-s0111-r00115",
@@ -10584,6 +12460,20 @@
       "term": "Thailand",
       "mode": "preserve",
       "expected": "Thailand",
+      "actual": "베트남"
+    },
+    {
+      "id": "p0036-s0113-r00121",
+      "term": "Vietnam",
+      "mode": "preserve",
+      "expected": "Vietnam",
+      "actual": "베트남"
+    },
+    {
+      "id": "p0036-s0113-r00123",
+      "term": "Vietnam",
+      "mode": "preserve",
+      "expected": "Vietnam",
       "actual": "베트남"
     },
     {
@@ -14220,6 +16110,27 @@
       "actual": "보고서"
     },
     {
+      "id": "p0044-s0129-r00033",
+      "term": "Hi",
+      "mode": "preserve",
+      "expected": "Hi",
+      "actual": "년도)의 데이터를 추적기에 제시한다. 분기별 과거 시장 가치는 해당 분기의 현재 미국 "
+    },
+    {
+      "id": "p0044-s0129-r00033",
+      "term": "Historical",
+      "mode": "preserve",
+      "expected": "Historical",
+      "actual": "년도)의 데이터를 추적기에 제시한다. 분기별 과거 시장 가치는 해당 분기의 현재 미국 "
+    },
+    {
+      "id": "p0044-s0129-r00033",
+      "term": "U.S",
+      "mode": "preserve",
+      "expected": "U.S",
+      "actual": "년도)의 데이터를 추적기에 제시한다. 분기별 과거 시장 가치는 해당 분기의 현재 미국 "
+    },
+    {
       "id": "p0044-s0129-r00038",
       "term": "States",
       "mode": "preserve",
@@ -14309,6 +16220,27 @@
       "mode": "preserve",
       "expected": "Brazil",
       "actual": "브라질의 평균 환율이 2.3이라면, 그 환율이 다음 분기에도 변하지 않을 것이라고 가정합니다."
+    },
+    {
+      "id": "p0044-s0129-r00058",
+      "term": "LEARN",
+      "mode": "preserve",
+      "expected": "LEARN",
+      "actual": "학습 "
+    },
+    {
+      "id": "p0044-s0129-r00060",
+      "term": "ORE",
+      "mode": "preserve",
+      "expected": "ORE",
+      "actual": "보기"
+    },
+    {
+      "id": "p0044-s0129-r00062",
+      "term": "Methodology",
+      "mode": "preserve",
+      "expected": "Methodology",
+      "actual": "방법론"
     },
     {
       "id": "p0044-s0129-r00064",
@@ -14738,1572 +16670,263 @@
       "actual": "Copyright 2026 IDC. 허가되지 않은 복제는 금지됩니다. 모든 권리 보유."
     },
     {
-      "id": "p0001-s0005-r00006",
-      "term": "Taxonomy",
+      "id": "p0002-s0034-r00017",
+      "term": "The",
       "mode": "preserve",
-      "expected": "Taxonomy",
-      "actual": "분류법"
+      "expected": "The",
+      "actual": "변동이 없"
     },
     {
-      "id": "p0001-s0005-r00011",
-      "term": "Taxonomy",
+      "id": "p0002-s0034-r00017",
+      "term": "There",
       "mode": "preserve",
-      "expected": "Taxonomy",
-      "actual": "분류법, 2026: 업데이트, 1Q26"
+      "expected": "There",
+      "actual": "변동이 없"
     },
     {
-      "id": "p0001-s0005-r00011",
-      "term": "Update",
+      "id": "p0002-s0034-r00032",
+      "term": "In",
       "mode": "preserve",
-      "expected": "Update",
-      "actual": "분류법, 2026: 업데이트, 1Q26"
+      "expected": "In",
+      "actual": "P C D 하드웨어 조사. 자세한 내용은:"
     },
     {
-      "id": "p0007-s0049-r00071",
-      "term": "Convertible",
+      "id": "p0002-s0034-r00032",
+      "term": "PC",
       "mode": "preserve",
-      "expected": "Convertible",
-      "actual": "컨버터블"
+      "expected": "PC",
+      "actual": "P C D 하드웨어 조사. 자세한 내용은:"
     },
     {
-      "id": "p0008-s0051-r00023",
-      "term": "Workstation",
+      "id": "p0002-s0034-r00032",
+      "term": "PCD",
       "mode": "preserve",
-      "expected": "Workstation",
-      "actual": "워크스테이션"
+      "expected": "PCD",
+      "actual": "P C D 하드웨어 조사. 자세한 내용은:"
     },
     {
-      "id": "p0009-s0053-r00008",
-      "term": "TABLE",
+      "id": "p0002-s0034-r00047",
+      "term": "Built",
       "mode": "preserve",
-      "expected": "TABLE",
-      "actual": "표 3"
+      "expected": "Built",
+      "actual": "IDC의 기반 위에 구축됨"
     },
     {
-      "id": "p0009-s0053-r00010",
-      "term": "Workstation",
+      "id": "p0002-s0034-r00059",
+      "term": "Quarterly",
       "mode": "preserve",
-      "expected": "Workstation",
-      "actual": "워크스테이션"
+      "expected": "Quarterly",
+      "actual": "정확한 견해를 제공한다. 분기별 업데이트와 예측은 "
     },
     {
-      "id": "p0009-s0053-r00038",
-      "term": "Native",
+      "id": "p0002-s0034-r00070",
+      "term": "PC",
       "mode": "preserve",
-      "expected": "Native",
-      "actual": "네이티브"
+      "expected": "PC",
+      "actual": "P C D 연구 프레임워크 및 해당 산출물은 "
     },
     {
-      "id": "p0009-s0053-r00064",
-      "term": "Premium",
+      "id": "p0002-s0034-r00070",
+      "term": "PCD",
       "mode": "preserve",
-      "expected": "Premium",
-      "actual": "프리미엄"
+      "expected": "PCD",
+      "actual": "P C D 연구 프레임워크 및 해당 산출물은 "
     },
     {
-      "id": "p0009-s0053-r00079",
-      "term": "Performance",
-      "mode": "preserve",
-      "expected": "Performance",
-      "actual": "퍼포먼스"
-    },
-    {
-      "id": "p0009-s0053-r00110",
-      "term": "Premium",
-      "mode": "preserve",
-      "expected": "Premium",
-      "actual": "프리미엄"
-    },
-    {
-      "id": "p0009-s0053-r00125",
-      "term": "Performance",
-      "mode": "preserve",
-      "expected": "Performance",
-      "actual": "퍼포먼스"
-    },
-    {
-      "id": "p0009-s0053-r00149",
-      "term": "Slate",
-      "mode": "preserve",
-      "expected": "Slate",
-      "actual": "슬레이트 태블릿"
-    },
-    {
-      "id": "p0010-s0055-r00035",
-      "term": "Ultrabook",
-      "mode": "preserve",
-      "expected": "Ultrabook",
-      "actual": "울트라북."
-    },
-    {
-      "id": "p0022-s0085-r00033",
-      "term": "As",
-      "mode": "preserve",
-      "expected": "As",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0022-s0085-r00033",
-      "term": "Asia",
-      "mode": "preserve",
-      "expected": "Asia",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0022-s0085-r00033",
-      "term": "Pacific",
-      "mode": "preserve",
-      "expected": "Pacific",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0022-s0085-r00035",
-      "term": "America",
-      "mode": "preserve",
-      "expected": "America",
-      "actual": "라틴 아메리카"
-    },
-    {
-      "id": "p0022-s0085-r00035",
-      "term": "Latin",
-      "mode": "preserve",
-      "expected": "Latin",
-      "actual": "라틴 아메리카"
-    },
-    {
-      "id": "p0022-s0085-r00035",
-      "term": "Latin America",
-      "mode": "preserve",
-      "expected": "Latin America",
-      "actual": "라틴 아메리카"
-    },
-    {
-      "id": "p0023-s0087-r00025",
-      "term": "As",
-      "mode": "preserve",
-      "expected": "As",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0023-s0087-r00025",
-      "term": "Asia",
-      "mode": "preserve",
-      "expected": "Asia",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0023-s0087-r00025",
-      "term": "Pacific",
-      "mode": "preserve",
-      "expected": "Pacific",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0023-s0087-r00027",
-      "term": "America",
-      "mode": "preserve",
-      "expected": "America",
-      "actual": "라틴 아메리카"
-    },
-    {
-      "id": "p0023-s0087-r00027",
-      "term": "Latin",
-      "mode": "preserve",
-      "expected": "Latin",
-      "actual": "라틴 아메리카"
-    },
-    {
-      "id": "p0023-s0087-r00027",
-      "term": "Latin America",
-      "mode": "preserve",
-      "expected": "Latin America",
-      "actual": "라틴 아메리카"
-    },
-    {
-      "id": "p0024-s0089-r00026",
-      "term": "As",
-      "mode": "preserve",
-      "expected": "As",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0024-s0089-r00026",
-      "term": "Asia",
-      "mode": "preserve",
-      "expected": "Asia",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0024-s0089-r00026",
-      "term": "Pacific",
-      "mode": "preserve",
-      "expected": "Pacific",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0024-s0089-r00028",
-      "term": "America",
-      "mode": "preserve",
-      "expected": "America",
-      "actual": "라틴 아메리카"
-    },
-    {
-      "id": "p0024-s0089-r00028",
-      "term": "Latin",
-      "mode": "preserve",
-      "expected": "Latin",
-      "actual": "라틴 아메리카"
-    },
-    {
-      "id": "p0024-s0089-r00028",
-      "term": "Latin America",
-      "mode": "preserve",
-      "expected": "Latin America",
-      "actual": "라틴 아메리카"
-    },
-    {
-      "id": "p0026-s0093-r00008",
-      "term": "TABLE",
-      "mode": "preserve",
-      "expected": "TABLE",
-      "actual": "표 7"
-    },
-    {
-      "id": "p0028-s0097-r00013",
-      "term": "TABLE",
-      "mode": "preserve",
-      "expected": "TABLE",
-      "actual": "표 8"
-    },
-    {
-      "id": "p0031-s0103-r00060",
-      "term": "Austria",
-      "mode": "preserve",
-      "expected": "Austria",
-      "actual": "오스트리아"
-    },
-    {
-      "id": "p0031-s0103-r00062",
-      "term": "Bulgaria",
-      "mode": "preserve",
-      "expected": "Bulgaria",
-      "actual": "불가리아"
-    },
-    {
-      "id": "p0031-s0103-r00064",
-      "term": "Algeria",
-      "mode": "preserve",
-      "expected": "Algeria",
-      "actual": "알제리"
-    },
-    {
-      "id": "p0031-s0103-r00074",
-      "term": "Belgium",
-      "mode": "preserve",
-      "expected": "Belgium",
-      "actual": "벨기에"
-    },
-    {
-      "id": "p0031-s0103-r00076",
-      "term": "Croatia",
-      "mode": "preserve",
-      "expected": "Croatia",
-      "actual": "크로아티아"
-    },
-    {
-      "id": "p0031-s0103-r00078",
-      "term": "Bahrain",
-      "mode": "preserve",
-      "expected": "Bahrain",
-      "actual": "바레인"
-    },
-    {
-      "id": "p0031-s0103-r00088",
-      "term": "Denmark",
-      "mode": "preserve",
-      "expected": "Denmark",
-      "actual": "덴마크"
-    },
-    {
-      "id": "p0031-s0103-r00091",
-      "term": "Republic",
-      "mode": "preserve",
-      "expected": "Republic",
-      "actual": "공화국"
-    },
-    {
-      "id": "p0031-s0103-r00093",
-      "term": "Botswana",
-      "mode": "preserve",
-      "expected": "Botswana",
-      "actual": "보츠와나"
-    },
-    {
-      "id": "p0031-s0103-r00103",
-      "term": "Fi",
-      "mode": "preserve",
-      "expected": "Fi",
-      "actual": "핀란드"
-    },
-    {
-      "id": "p0031-s0103-r00103",
-      "term": "Finland",
-      "mode": "preserve",
-      "expected": "Finland",
-      "actual": "핀란드"
-    },
-    {
-      "id": "p0031-s0103-r00105",
-      "term": "Estonia",
-      "mode": "preserve",
-      "expected": "Estonia",
-      "actual": "에스토니아"
-    },
-    {
-      "id": "p0031-s0103-r00107",
-      "term": "Egypt",
-      "mode": "preserve",
-      "expected": "Egypt",
-      "actual": "이집트"
-    },
-    {
-      "id": "p0031-s0103-r00117",
-      "term": "Fr",
-      "mode": "preserve",
-      "expected": "Fr",
-      "actual": "프랑스"
-    },
-    {
-      "id": "p0031-s0103-r00117",
-      "term": "Fra",
-      "mode": "preserve",
-      "expected": "Fra",
-      "actual": "프랑스"
-    },
-    {
-      "id": "p0031-s0103-r00117",
-      "term": "France",
-      "mode": "preserve",
-      "expected": "France",
-      "actual": "프랑스"
-    },
-    {
-      "id": "p0031-s0103-r00119",
-      "term": "Hungary",
-      "mode": "preserve",
-      "expected": "Hungary",
-      "actual": "헝가리"
-    },
-    {
-      "id": "p0031-s0103-r00121",
-      "term": "Ethiopia",
-      "mode": "preserve",
-      "expected": "Ethiopia",
-      "actual": "에티오피아"
-    },
-    {
-      "id": "p0031-s0103-r00130",
-      "term": "South",
-      "mode": "preserve",
-      "expected": "South",
-      "actual": "(남부)"
-    },
-    {
-      "id": "p0031-s0103-r00132",
-      "term": "Germany",
-      "mode": "preserve",
-      "expected": "Germany",
-      "actual": "독일"
-    },
-    {
-      "id": "p0031-s0103-r00134",
-      "term": "Kazakhstan",
-      "mode": "preserve",
-      "expected": "Kazakhstan",
-      "actual": "카자흐스탄"
-    },
-    {
-      "id": "p0031-s0103-r00136",
-      "term": "Ghana",
-      "mode": "preserve",
-      "expected": "Ghana",
-      "actual": "가나"
-    },
-    {
-      "id": "p0031-s0103-r00139",
-      "term": "Rica",
-      "mode": "preserve",
-      "expected": "Rica",
-      "actual": "리카"
-    },
-    {
-      "id": "p0031-s0103-r00147",
-      "term": "Greece",
-      "mode": "preserve",
-      "expected": "Greece",
-      "actual": "그리스"
-    },
-    {
-      "id": "p0031-s0103-r00149",
-      "term": "Latvia",
-      "mode": "preserve",
-      "expected": "Latvia",
-      "actual": "라트비아"
-    },
-    {
-      "id": "p0031-s0103-r00151",
-      "term": "Israel",
-      "mode": "preserve",
-      "expected": "Israel",
-      "actual": "이스라엘"
-    },
-    {
-      "id": "p0031-s0103-r00154",
-      "term": "Republic",
-      "mode": "preserve",
-      "expected": "Republic",
-      "actual": "공화국"
-    },
-    {
-      "id": "p0031-s0103-r00160",
-      "term": "Myanmar",
-      "mode": "preserve",
-      "expected": "Myanmar",
-      "actual": "미얀마"
-    },
-    {
-      "id": "p0031-s0103-r00172",
-      "term": "Ireland",
-      "mode": "preserve",
-      "expected": "Ireland",
-      "actual": "아일랜드"
-    },
-    {
-      "id": "p0031-s0103-r00174",
-      "term": "Lithuania",
-      "mode": "preserve",
-      "expected": "Lithuania",
-      "actual": "리투아니아"
-    },
-    {
-      "id": "p0031-s0103-r00176",
-      "term": "Jordan",
-      "mode": "preserve",
-      "expected": "Jordan",
-      "actual": "요르단"
-    },
-    {
-      "id": "p0031-s0103-r00186",
-      "term": "It",
-      "mode": "preserve",
-      "expected": "It",
-      "actual": "이탈리아"
-    },
-    {
-      "id": "p0031-s0103-r00186",
-      "term": "Italy",
-      "mode": "preserve",
-      "expected": "Italy",
-      "actual": "이탈리아"
-    },
-    {
-      "id": "p0031-s0103-r00188",
-      "term": "Poland",
-      "mode": "preserve",
-      "expected": "Poland",
-      "actual": "폴란드"
-    },
-    {
-      "id": "p0031-s0103-r00190",
-      "term": "Kenya",
-      "mode": "preserve",
-      "expected": "Kenya",
-      "actual": "케냐"
-    },
-    {
-      "id": "p0031-s0103-r00193",
-      "term": "Salvador",
-      "mode": "preserve",
-      "expected": "Salvador",
-      "actual": "살바도르"
-    },
-    {
-      "id": "p0031-s0103-r00201",
-      "term": "Netherlands",
-      "mode": "preserve",
-      "expected": "Netherlands",
-      "actual": "네덜란드"
-    },
-    {
-      "id": "p0031-s0103-r00203",
-      "term": "Romania",
-      "mode": "preserve",
-      "expected": "Romania",
-      "actual": "루마니아"
-    },
-    {
-      "id": "p0031-s0103-r00205",
-      "term": "Kuwait",
-      "mode": "preserve",
-      "expected": "Kuwait",
-      "actual": "쿠웨이트"
-    },
-    {
-      "id": "p0031-s0103-r00207",
-      "term": "Guatemal",
-      "mode": "preserve",
-      "expected": "Guatemal",
-      "actual": "과테말"
-    },
-    {
-      "id": "p0031-s0103-r00216",
-      "term": "No",
-      "mode": "preserve",
-      "expected": "No",
-      "actual": "노르웨이"
-    },
-    {
-      "id": "p0031-s0103-r00216",
-      "term": "Norway",
-      "mode": "preserve",
-      "expected": "Norway",
-      "actual": "노르웨이"
-    },
-    {
-      "id": "p0031-s0103-r00218",
-      "term": "Russia",
-      "mode": "preserve",
-      "expected": "Russia",
-      "actual": "러시아"
-    },
-    {
-      "id": "p0031-s0103-r00220",
-      "term": "Lebanon",
-      "mode": "preserve",
-      "expected": "Lebanon",
-      "actual": "레바논"
-    },
-    {
-      "id": "p0031-s0103-r00230",
-      "term": "Portugal",
-      "mode": "preserve",
-      "expected": "Portugal",
-      "actual": "포르투갈"
-    },
-    {
-      "id": "p0031-s0103-r00234",
-      "term": "Morocco",
-      "mode": "preserve",
-      "expected": "Morocco",
-      "actual": "모로코"
-    },
-    {
-      "id": "p0031-s0103-r00244",
-      "term": "Spain",
-      "mode": "preserve",
-      "expected": "Spain",
-      "actual": "스페인"
-    },
-    {
-      "id": "p0031-s0103-r00246",
-      "term": "Slovakia",
-      "mode": "preserve",
-      "expected": "Slovakia",
-      "actual": "슬로바키아"
-    },
-    {
-      "id": "p0031-s0103-r00248",
-      "term": "Namibia",
-      "mode": "preserve",
-      "expected": "Namibia",
-      "actual": "나미비아"
-    },
-    {
-      "id": "p0031-s0103-r00256",
-      "term": "Vietnam",
-      "mode": "preserve",
-      "expected": "Vietnam",
-      "actual": "베트남"
-    },
-    {
-      "id": "p0031-s0103-r00258",
-      "term": "Sweden",
-      "mode": "preserve",
-      "expected": "Sweden",
-      "actual": "스웨덴"
-    },
-    {
-      "id": "p0031-s0103-r00260",
-      "term": "Slovenia",
-      "mode": "preserve",
-      "expected": "Slovenia",
-      "actual": "슬로베니아"
-    },
-    {
-      "id": "p0031-s0103-r00262",
-      "term": "Niger",
-      "mode": "preserve",
-      "expected": "Niger",
-      "actual": "나이지리아"
-    },
-    {
-      "id": "p0031-s0103-r00262",
-      "term": "Nigeria",
-      "mode": "preserve",
-      "expected": "Nigeria",
-      "actual": "나이지리아"
-    },
-    {
-      "id": "p0031-s0103-r00271",
-      "term": "As",
-      "mode": "preserve",
-      "expected": "As",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0031-s0103-r00271",
-      "term": "Asia",
-      "mode": "preserve",
-      "expected": "Asia",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0031-s0103-r00271",
-      "term": "Pacific",
-      "mode": "preserve",
-      "expected": "Pacific",
-      "actual": "아시아/태평양"
-    },
-    {
-      "id": "p0031-s0103-r00273",
-      "term": "Switzerland",
-      "mode": "preserve",
-      "expected": "Switzerland",
-      "actual": "스위스"
-    },
-    {
-      "id": "p0031-s0103-r00275",
-      "term": "Ukraine",
-      "mode": "preserve",
-      "expected": "Ukraine",
-      "actual": "우크라이나"
-    },
-    {
-      "id": "p0031-s0103-r00277",
-      "term": "Oman",
-      "mode": "preserve",
-      "expected": "Oman",
-      "actual": "오만"
-    },
-    {
-      "id": "p0031-s0103-r00280",
-      "term": "Rico",
-      "mode": "preserve",
-      "expected": "Rico",
-      "actual": "리코"
-    },
-    {
-      "id": "p0031-s0103-r00288",
-      "term": "Kingdom",
-      "mode": "preserve",
-      "expected": "Kingdom",
-      "actual": "왕국"
-    },
-    {
-      "id": "p0033-s0107-r00060",
-      "term": "Austria",
-      "mode": "preserve",
-      "expected": "Austria",
-      "actual": "오스트리아"
-    },
-    {
-      "id": "p0033-s0107-r00062",
-      "term": "Austria",
-      "mode": "preserve",
-      "expected": "Austria",
-      "actual": "오스트리아"
-    },
-    {
-      "id": "p0033-s0107-r00065",
-      "term": "Belgium",
-      "mode": "preserve",
-      "expected": "Belgium",
-      "actual": "벨기에"
-    },
-    {
-      "id": "p0033-s0107-r00067",
-      "term": "Belgium",
-      "mode": "preserve",
-      "expected": "Belgium",
-      "actual": "벨기에 및 룩셈부르크(벨기에)"
-    },
-    {
-      "id": "p0033-s0107-r00067",
-      "term": "Luxembourg",
-      "mode": "preserve",
-      "expected": "Luxembourg",
-      "actual": "벨기에 및 룩셈부르크(벨기에)"
-    },
-    {
-      "id": "p0033-s0107-r00070",
-      "term": "Denmark",
-      "mode": "preserve",
-      "expected": "Denmark",
-      "actual": "덴마크"
-    },
-    {
-      "id": "p0033-s0107-r00072",
-      "term": "Denmark",
-      "mode": "preserve",
-      "expected": "Denmark",
-      "actual": "덴마크, 페로 제도(덴마크), 그린란드(덴마크) 및 "
-    },
-    {
-      "id": "p0033-s0107-r00072",
-      "term": "Faroe Islands",
-      "mode": "preserve",
-      "expected": "Faroe Islands",
-      "actual": "덴마크, 페로 제도(덴마크), 그린란드(덴마크) 및 "
-    },
-    {
-      "id": "p0033-s0107-r00072",
-      "term": "Greenland",
-      "mode": "preserve",
-      "expected": "Greenland",
-      "actual": "덴마크, 페로 제도(덴마크), 그린란드(덴마크) 및 "
-    },
-    {
-      "id": "p0033-s0107-r00072",
-      "term": "Islands",
-      "mode": "preserve",
-      "expected": "Islands",
-      "actual": "덴마크, 페로 제도(덴마크), 그린란드(덴마크) 및 "
-    },
-    {
-      "id": "p0033-s0107-r00073",
-      "term": "Denmark",
-      "mode": "preserve",
-      "expected": "Denmark",
-      "actual": "아이슬란드(덴마크)"
-    },
-    {
-      "id": "p0033-s0107-r00073",
-      "term": "Iceland",
-      "mode": "preserve",
-      "expected": "Iceland",
-      "actual": "아이슬란드(덴마크)"
-    },
-    {
-      "id": "p0033-s0107-r00076",
-      "term": "Fi",
-      "mode": "preserve",
-      "expected": "Fi",
-      "actual": "핀란드"
-    },
-    {
-      "id": "p0033-s0107-r00076",
-      "term": "Finland",
-      "mode": "preserve",
-      "expected": "Finland",
-      "actual": "핀란드"
-    },
-    {
-      "id": "p0033-s0107-r00078",
-      "term": "Fi",
-      "mode": "preserve",
-      "expected": "Fi",
-      "actual": "핀란드"
-    },
-    {
-      "id": "p0033-s0107-r00078",
-      "term": "Finland",
-      "mode": "preserve",
-      "expected": "Finland",
-      "actual": "핀란드"
-    },
-    {
-      "id": "p0033-s0107-r00081",
-      "term": "Fr",
-      "mode": "preserve",
-      "expected": "Fr",
-      "actual": "프랑스"
-    },
-    {
-      "id": "p0033-s0107-r00081",
-      "term": "Fra",
-      "mode": "preserve",
-      "expected": "Fra",
-      "actual": "프랑스"
-    },
-    {
-      "id": "p0033-s0107-r00081",
-      "term": "France",
-      "mode": "preserve",
-      "expected": "France",
-      "actual": "프랑스"
-    },
-    {
-      "id": "p0033-s0107-r00083",
-      "term": "Fr",
-      "mode": "preserve",
-      "expected": "Fr",
-      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
-    },
-    {
-      "id": "p0033-s0107-r00083",
-      "term": "Fra",
-      "mode": "preserve",
-      "expected": "Fra",
-      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
-    },
-    {
-      "id": "p0033-s0107-r00083",
-      "term": "France",
-      "mode": "preserve",
-      "expected": "France",
-      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
-    },
-    {
-      "id": "p0033-s0107-r00083",
-      "term": "Miquelon",
-      "mode": "preserve",
-      "expected": "Miquelon",
-      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
-    },
-    {
-      "id": "p0033-s0107-r00083",
-      "term": "Monaco",
-      "mode": "preserve",
-      "expected": "Monaco",
-      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
-    },
-    {
-      "id": "p0033-s0107-r00083",
-      "term": "Saint",
-      "mode": "preserve",
-      "expected": "Saint",
-      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
-    },
-    {
-      "id": "p0033-s0107-r00083",
-      "term": "Saint Pierre",
-      "mode": "preserve",
-      "expected": "Saint Pierre",
-      "actual": "프랑스, 모나코 및 생피에르 미클롱(프랑스)"
-    },
-    {
-      "id": "p0033-s0107-r00086",
-      "term": "Germany",
-      "mode": "preserve",
-      "expected": "Germany",
-      "actual": "독일"
-    },
-    {
-      "id": "p0033-s0107-r00088",
-      "term": "Germany",
-      "mode": "preserve",
-      "expected": "Germany",
-      "actual": "독일"
-    },
-    {
-      "id": "p0033-s0107-r00091",
-      "term": "Greece",
-      "mode": "preserve",
-      "expected": "Greece",
-      "actual": "그리스"
-    },
-    {
-      "id": "p0033-s0107-r00093",
-      "term": "Cyprus",
-      "mode": "preserve",
-      "expected": "Cyprus",
-      "actual": "그리스, 키프로스"
-    },
-    {
-      "id": "p0033-s0107-r00093",
-      "term": "Greece",
-      "mode": "preserve",
-      "expected": "Greece",
-      "actual": "그리스, 키프로스"
-    },
-    {
-      "id": "p0033-s0107-r00096",
-      "term": "Ireland",
-      "mode": "preserve",
-      "expected": "Ireland",
-      "actual": "아일랜드"
-    },
-    {
-      "id": "p0033-s0107-r00098",
-      "term": "Ireland",
-      "mode": "preserve",
-      "expected": "Ireland",
-      "actual": "아일랜드"
-    },
-    {
-      "id": "p0033-s0107-r00101",
-      "term": "It",
-      "mode": "preserve",
-      "expected": "It",
-      "actual": "이탈리아"
-    },
-    {
-      "id": "p0033-s0107-r00101",
-      "term": "Italy",
-      "mode": "preserve",
-      "expected": "Italy",
-      "actual": "이탈리아"
-    },
-    {
-      "id": "p0033-s0107-r00103",
-      "term": "City",
-      "mode": "preserve",
-      "expected": "City",
-      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
-    },
-    {
-      "id": "p0033-s0107-r00103",
-      "term": "It",
-      "mode": "preserve",
-      "expected": "It",
-      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
-    },
-    {
-      "id": "p0033-s0107-r00103",
-      "term": "Italy",
-      "mode": "preserve",
-      "expected": "Italy",
-      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
-    },
-    {
-      "id": "p0033-s0107-r00103",
-      "term": "Malta",
-      "mode": "preserve",
-      "expected": "Malta",
-      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
-    },
-    {
-      "id": "p0033-s0107-r00103",
-      "term": "San Marino",
-      "mode": "preserve",
-      "expected": "San Marino",
-      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
-    },
-    {
-      "id": "p0033-s0107-r00103",
-      "term": "Vatican City",
-      "mode": "preserve",
-      "expected": "Vatican City",
-      "actual": "이탈리아, 몰타, 산마리노 및 바티칸 시국"
-    },
-    {
-      "id": "p0033-s0107-r00106",
-      "term": "Holy See",
-      "mode": "preserve",
-      "expected": "Holy See",
-      "actual": "교황청"
-    },
-    {
-      "id": "p0033-s0107-r00109",
-      "term": "Netherlands",
-      "mode": "preserve",
-      "expected": "Netherlands",
-      "actual": "네덜란드"
-    },
-    {
-      "id": "p0033-s0107-r00111",
-      "term": "Netherlands",
-      "mode": "preserve",
-      "expected": "Netherlands",
-      "actual": "네덜란드"
-    },
-    {
-      "id": "p0033-s0107-r00114",
-      "term": "No",
-      "mode": "preserve",
-      "expected": "No",
-      "actual": "노르웨이"
-    },
-    {
-      "id": "p0033-s0107-r00114",
-      "term": "Norway",
-      "mode": "preserve",
-      "expected": "Norway",
-      "actual": "노르웨이"
-    },
-    {
-      "id": "p0033-s0107-r00116",
-      "term": "No",
-      "mode": "preserve",
-      "expected": "No",
-      "actual": "노르웨이, 스발바르"
-    },
-    {
-      "id": "p0033-s0107-r00116",
-      "term": "Norway",
-      "mode": "preserve",
-      "expected": "Norway",
-      "actual": "노르웨이, 스발바르"
-    },
-    {
-      "id": "p0033-s0107-r00116",
-      "term": "Svalbard",
-      "mode": "preserve",
-      "expected": "Svalbard",
-      "actual": "노르웨이, 스발바르"
-    },
-    {
-      "id": "p0033-s0107-r00119",
-      "term": "Portugal",
-      "mode": "preserve",
-      "expected": "Portugal",
-      "actual": "포르투갈"
-    },
-    {
-      "id": "p0033-s0107-r00121",
-      "term": "Portugal",
-      "mode": "preserve",
-      "expected": "Portugal",
-      "actual": "포르투갈"
-    },
-    {
-      "id": "p0033-s0107-r00124",
-      "term": "Spain",
-      "mode": "preserve",
-      "expected": "Spain",
-      "actual": "스페인"
-    },
-    {
-      "id": "p0033-s0107-r00126",
-      "term": "An",
-      "mode": "preserve",
-      "expected": "An",
-      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
-    },
-    {
-      "id": "p0033-s0107-r00126",
-      "term": "Andorra",
-      "mode": "preserve",
-      "expected": "Andorra",
-      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
-    },
-    {
-      "id": "p0033-s0107-r00126",
-      "term": "Canary Islands",
-      "mode": "preserve",
-      "expected": "Canary Islands",
-      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
-    },
-    {
-      "id": "p0033-s0107-r00126",
-      "term": "Gibraltar",
-      "mode": "preserve",
-      "expected": "Gibraltar",
-      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
-    },
-    {
-      "id": "p0033-s0107-r00126",
-      "term": "Islands",
-      "mode": "preserve",
-      "expected": "Islands",
-      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
-    },
-    {
-      "id": "p0033-s0107-r00126",
-      "term": "Spain",
-      "mode": "preserve",
-      "expected": "Spain",
-      "actual": "스페인, 안도라(스페인), 카나리아 제도(스페인), 지브롤터"
-    },
-    {
-      "id": "p0033-s0107-r00129",
-      "term": "Sweden",
-      "mode": "preserve",
-      "expected": "Sweden",
-      "actual": "스웨덴"
-    },
-    {
-      "id": "p0033-s0107-r00131",
-      "term": "Sweden",
-      "mode": "preserve",
-      "expected": "Sweden",
-      "actual": "스웨덴"
-    },
-    {
-      "id": "p0033-s0107-r00134",
-      "term": "Switzerland",
-      "mode": "preserve",
-      "expected": "Switzerland",
-      "actual": "스위스"
-    },
-    {
-      "id": "p0033-s0107-r00136",
-      "term": "Liechtenstein",
-      "mode": "preserve",
-      "expected": "Liechtenstein",
-      "actual": "스위스, 리히텐슈타인"
-    },
-    {
-      "id": "p0033-s0107-r00136",
-      "term": "Switzerland",
-      "mode": "preserve",
-      "expected": "Switzerland",
-      "actual": "스위스, 리히텐슈타인"
-    },
-    {
-      "id": "p0034-s0109-r00037",
-      "term": "Bulgaria",
-      "mode": "preserve",
-      "expected": "Bulgaria",
-      "actual": "불가리아"
-    },
-    {
-      "id": "p0034-s0109-r00039",
-      "term": "Bulgaria",
-      "mode": "preserve",
-      "expected": "Bulgaria",
-      "actual": "불가리아"
-    },
-    {
-      "id": "p0034-s0109-r00042",
-      "term": "Croatia",
-      "mode": "preserve",
-      "expected": "Croatia",
-      "actual": "크로아티아"
-    },
-    {
-      "id": "p0034-s0109-r00044",
-      "term": "Croatia",
-      "mode": "preserve",
-      "expected": "Croatia",
-      "actual": "크로아티아"
-    },
-    {
-      "id": "p0034-s0109-r00047",
-      "term": "Czech",
-      "mode": "preserve",
-      "expected": "Czech",
-      "actual": "체코 공화국"
-    },
-    {
-      "id": "p0034-s0109-r00047",
-      "term": "Czech Republic",
-      "mode": "preserve",
-      "expected": "Czech Republic",
-      "actual": "체코 공화국"
-    },
-    {
-      "id": "p0034-s0109-r00047",
-      "term": "Republic",
-      "mode": "preserve",
-      "expected": "Republic",
-      "actual": "체코 공화국"
-    },
-    {
-      "id": "p0034-s0109-r00049",
-      "term": "Czech",
-      "mode": "preserve",
-      "expected": "Czech",
-      "actual": "체코 공화국"
-    },
-    {
-      "id": "p0034-s0109-r00049",
-      "term": "Czech Republic",
-      "mode": "preserve",
-      "expected": "Czech Republic",
-      "actual": "체코 공화국"
-    },
-    {
-      "id": "p0034-s0109-r00049",
-      "term": "Republic",
-      "mode": "preserve",
-      "expected": "Republic",
-      "actual": "체코 공화국"
-    },
-    {
-      "id": "p0034-s0109-r00052",
-      "term": "Hungary",
-      "mode": "preserve",
-      "expected": "Hungary",
-      "actual": "헝가리"
-    },
-    {
-      "id": "p0034-s0109-r00054",
-      "term": "Hungary",
-      "mode": "preserve",
-      "expected": "Hungary",
-      "actual": "헝가리"
-    },
-    {
-      "id": "p0034-s0109-r00057",
-      "term": "Poland",
-      "mode": "preserve",
-      "expected": "Poland",
-      "actual": "폴란드"
-    },
-    {
-      "id": "p0034-s0109-r00059",
-      "term": "Poland",
-      "mode": "preserve",
-      "expected": "Poland",
-      "actual": "폴란드"
-    },
-    {
-      "id": "p0034-s0109-r00062",
-      "term": "Romania",
-      "mode": "preserve",
-      "expected": "Romania",
-      "actual": "루마니아"
-    },
-    {
-      "id": "p0034-s0109-r00064",
-      "term": "Romania",
-      "mode": "preserve",
-      "expected": "Romania",
-      "actual": "루마니아"
-    },
-    {
-      "id": "p0034-s0109-r00067",
-      "term": "Russia",
-      "mode": "preserve",
-      "expected": "Russia",
-      "actual": "러시아"
-    },
-    {
-      "id": "p0034-s0109-r00069",
-      "term": "Russia",
-      "mode": "preserve",
-      "expected": "Russia",
-      "actual": "러시아"
-    },
-    {
-      "id": "p0034-s0109-r00072",
-      "term": "Slovakia",
-      "mode": "preserve",
-      "expected": "Slovakia",
-      "actual": "슬로바키아"
-    },
-    {
-      "id": "p0034-s0109-r00074",
-      "term": "Slovakia",
-      "mode": "preserve",
-      "expected": "Slovakia",
-      "actual": "슬로바키아"
-    },
-    {
-      "id": "p0034-s0109-r00077",
-      "term": "Slovenia",
-      "mode": "preserve",
-      "expected": "Slovenia",
-      "actual": "슬로베니아"
-    },
-    {
-      "id": "p0034-s0109-r00079",
-      "term": "Slovenia",
-      "mode": "preserve",
-      "expected": "Slovenia",
-      "actual": "슬로베니아"
-    },
-    {
-      "id": "p0034-s0109-r00082",
-      "term": "Ukraine",
-      "mode": "preserve",
-      "expected": "Ukraine",
-      "actual": "우크라이나"
-    },
-    {
-      "id": "p0034-s0109-r00084",
-      "term": "Ukraine",
-      "mode": "preserve",
-      "expected": "Ukraine",
-      "actual": "우크라이나"
-    },
-    {
-      "id": "p0034-s0109-r00092",
-      "term": "Latvia",
-      "mode": "preserve",
-      "expected": "Latvia",
-      "actual": "라트비아"
-    },
-    {
-      "id": "p0034-s0109-r00094",
-      "term": "Latvia",
-      "mode": "preserve",
-      "expected": "Latvia",
-      "actual": "라트비아"
-    },
-    {
-      "id": "p0034-s0109-r00097",
-      "term": "Lithuania",
-      "mode": "preserve",
-      "expected": "Lithuania",
-      "actual": "리투아니아"
-    },
-    {
-      "id": "p0034-s0109-r00099",
-      "term": "Lithuania",
-      "mode": "preserve",
-      "expected": "Lithuania",
-      "actual": "리투아니아"
-    },
-    {
-      "id": "p0034-s0109-r00102",
-      "term": "Estonia",
-      "mode": "preserve",
-      "expected": "Estonia",
-      "actual": "에스토니아"
-    },
-    {
-      "id": "p0034-s0109-r00104",
-      "term": "Estonia",
-      "mode": "preserve",
-      "expected": "Estonia",
-      "actual": "에스토니아"
-    },
-    {
-      "id": "p0034-s0109-r00107",
-      "term": "Kazakhstan",
-      "mode": "preserve",
-      "expected": "Kazakhstan",
-      "actual": "카자흐스탄"
-    },
-    {
-      "id": "p0034-s0109-r00109",
-      "term": "Kazakhstan",
-      "mode": "preserve",
-      "expected": "Kazakhstan",
-      "actual": "카자흐스탄"
-    },
-    {
-      "id": "p0034-s0109-r00115",
-      "term": "Albania",
-      "mode": "preserve",
-      "expected": "Albania",
-      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
-    },
-    {
-      "id": "p0034-s0109-r00115",
-      "term": "Armenia",
-      "mode": "preserve",
-      "expected": "Armenia",
-      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
-    },
-    {
-      "id": "p0034-s0109-r00115",
-      "term": "Azerbaijan",
-      "mode": "preserve",
-      "expected": "Azerbaijan",
-      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
-    },
-    {
-      "id": "p0034-s0109-r00115",
-      "term": "Belarus",
-      "mode": "preserve",
-      "expected": "Belarus",
-      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
-    },
-    {
-      "id": "p0034-s0109-r00115",
-      "term": "Bosnia",
-      "mode": "preserve",
-      "expected": "Bosnia",
-      "actual": "알바니아, 아르메니아, 아제르바이잔, 벨라루스, 보스니아 및 "
-    },
-    {
-      "id": "p0034-s0109-r00116",
-      "term": "Fr",
-      "mode": "preserve",
-      "expected": "Fr",
-      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
-    },
-    {
-      "id": "p0034-s0109-r00116",
-      "term": "Fra",
-      "mode": "preserve",
-      "expected": "Fra",
-      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
-    },
-    {
-      "id": "p0034-s0109-r00116",
-      "term": "Franz Josef Islands",
-      "mode": "preserve",
-      "expected": "Franz Josef Islands",
-      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
-    },
-    {
-      "id": "p0034-s0109-r00116",
-      "term": "Georgia",
-      "mode": "preserve",
-      "expected": "Georgia",
-      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
-    },
-    {
-      "id": "p0034-s0109-r00116",
-      "term": "Herzegovina",
-      "mode": "preserve",
-      "expected": "Herzegovina",
-      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
-    },
-    {
-      "id": "p0034-s0109-r00116",
-      "term": "Islands",
-      "mode": "preserve",
-      "expected": "Islands",
-      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
-    },
-    {
-      "id": "p0034-s0109-r00116",
-      "term": "Ko",
-      "mode": "preserve",
-      "expected": "Ko",
-      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
-    },
-    {
-      "id": "p0034-s0109-r00116",
-      "term": "Kosovo",
-      "mode": "preserve",
-      "expected": "Kosovo",
-      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
-    },
-    {
-      "id": "p0034-s0109-r00116",
-      "term": "Russia",
-      "mode": "preserve",
-      "expected": "Russia",
-      "actual": "헤르체고비나, 프란츠 요셉 제도 (러시아), 조지아, 코소보, "
-    },
-    {
-      "id": "p0034-s0109-r00117",
-      "term": "Kyrgyzstan",
-      "mode": "preserve",
-      "expected": "Kyrgyzstan",
-      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
-    },
-    {
-      "id": "p0034-s0109-r00117",
-      "term": "Macedonia",
-      "mode": "preserve",
-      "expected": "Macedonia",
-      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
-    },
-    {
-      "id": "p0034-s0109-r00117",
-      "term": "Moldova",
-      "mode": "preserve",
-      "expected": "Moldova",
-      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
-    },
-    {
-      "id": "p0034-s0109-r00117",
-      "term": "Montenegro",
-      "mode": "preserve",
-      "expected": "Montenegro",
-      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
-    },
-    {
-      "id": "p0034-s0109-r00117",
-      "term": "Tajikistan",
-      "mode": "preserve",
-      "expected": "Tajikistan",
-      "actual": "키르기스스탄, 마케도니아, 몰도바, 몬테네그로, 타지키스탄, "
-    },
-    {
-      "id": "p0034-s0109-r00118",
-      "term": "Turkmenistan",
-      "mode": "preserve",
-      "expected": "Turkmenistan",
-      "actual": "투르크메니스탄, 그리고 우즈베키스탄"
-    },
-    {
-      "id": "p0034-s0109-r00118",
-      "term": "Uzbekistan",
-      "mode": "preserve",
-      "expected": "Uzbekistan",
-      "actual": "투르크메니스탄, 그리고 우즈베키스탄"
-    },
-    {
-      "id": "p0034-s0109-r00123",
-      "term": "Egypt",
-      "mode": "preserve",
-      "expected": "Egypt",
-      "actual": "이집트"
-    },
-    {
-      "id": "p0034-s0109-r00125",
-      "term": "Egypt",
-      "mode": "preserve",
-      "expected": "Egypt",
-      "actual": "이집트"
-    },
-    {
-      "id": "p0034-s0109-r00128",
-      "term": "Israel",
-      "mode": "preserve",
-      "expected": "Israel",
-      "actual": "이스라엘"
-    },
-    {
-      "id": "p0034-s0109-r00130",
-      "term": "Israel",
-      "mode": "preserve",
-      "expected": "Israel",
-      "actual": "이스라엘"
-    },
-    {
-      "id": "p0036-s0113-r00121",
-      "term": "Vietnam",
-      "mode": "preserve",
-      "expected": "Vietnam",
-      "actual": "베트남"
-    },
-    {
-      "id": "p0036-s0113-r00123",
-      "term": "Vietnam",
-      "mode": "preserve",
-      "expected": "Vietnam",
-      "actual": "베트남"
-    },
-    {
-      "id": "p0044-s0129-r00033",
-      "term": "Hi",
-      "mode": "preserve",
-      "expected": "Hi",
-      "actual": "년도)의 데이터를 추적기에 제시한다. 분기별 과거 시장 가치는 해당 분기의 현재 미국 "
-    },
-    {
-      "id": "p0044-s0129-r00033",
-      "term": "Historical",
-      "mode": "preserve",
-      "expected": "Historical",
-      "actual": "년도)의 데이터를 추적기에 제시한다. 분기별 과거 시장 가치는 해당 분기의 현재 미국 "
-    },
-    {
-      "id": "p0044-s0129-r00033",
-      "term": "U.S",
-      "mode": "preserve",
-      "expected": "U.S",
-      "actual": "년도)의 데이터를 추적기에 제시한다. 분기별 과거 시장 가치는 해당 분기의 현재 미국 "
-    },
-    {
-      "id": "p0044-s0129-r00058",
-      "term": "LEARN",
-      "mode": "preserve",
-      "expected": "LEARN",
-      "actual": "학습 "
-    },
-    {
-      "id": "p0044-s0129-r00060",
-      "term": "ORE",
-      "mode": "preserve",
-      "expected": "ORE",
-      "actual": "보기"
-    },
-    {
-      "id": "p0044-s0129-r00062",
+      "id": "p0002-s0034-r00071",
       "term": "Methodology",
       "mode": "preserve",
       "expected": "Methodology",
-      "actual": "방법론"
+      "actual": "방법론 섹션에 자세히 설명되어 있다."
+    },
+    {
+      "id": "p0002-s0034-r00073",
+      "term": "Future",
+      "mode": "preserve",
+      "expected": "Future",
+      "actual": "향후 "
+    },
+    {
+      "id": "p0002-s0034-r00079",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "P C D 분류 체계는 변화하는 시장 상황을 반영하기 위해 정기적으로 업데이트된다."
+    },
+    {
+      "id": "p0002-s0034-r00079",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "P C D 분류 체계는 변화하는 시장 상황을 반영하기 위해 정기적으로 업데이트된다."
+    },
+    {
+      "id": "p0002-s0034-r00080",
+      "term": "In",
+      "mode": "preserve",
+      "expected": "In",
+      "actual": "또한, 관련 시장과 다른 형태의 P C D 시장도 연중 정의, 규모 산정, 예측이 가능하다."
+    },
+    {
+      "id": "p0002-s0034-r00080",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "또한, 관련 시장과 다른 형태의 P C D 시장도 연중 정의, 규모 산정, 예측이 가능하다."
+    },
+    {
+      "id": "p0002-s0034-r00080",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "또한, 관련 시장과 다른 형태의 P C D 시장도 연중 정의, 규모 산정, 예측이 가능하다."
+    },
+    {
+      "id": "p0002-s0034-r00083",
+      "term": "Essential",
+      "mode": "preserve",
+      "expected": "Essential",
+      "actual": "필수 "
+    },
+    {
+      "id": "p0002-s0034-r00089",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "현재의 P C D 분류 체계는 "
+    },
+    {
+      "id": "p0002-s0034-r00089",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "현재의 P C D 분류 체계는 "
+    },
+    {
+      "id": "p0002-s0034-r00090",
+      "term": "PC",
+      "mode": "preserve",
+      "expected": "PC",
+      "actual": "기존 P C D 연구 및 예정된 IDC 하드웨어 연구의 지침 역할을 한다."
+    },
+    {
+      "id": "p0002-s0034-r00090",
+      "term": "PCD",
+      "mode": "preserve",
+      "expected": "PCD",
+      "actual": "기존 P C D 연구 및 예정된 IDC 하드웨어 연구의 지침 역할을 한다."
+    },
+    {
+      "id": "p0002-s0034-r00097",
+      "term": "Tracker",
+      "mode": "preserve",
+      "expected": "Tracker",
+      "actual": "산출물 및 연구 문서. 추적기는 보통 웹 쿼리나 피벗 테이블 형식으로 제공되며, "
+    },
+    {
+      "id": "p0003-s0041-r00057",
+      "term": "Stick",
+      "mode": "preserve",
+      "expected": "Stick",
+      "actual": "스틱 컴퓨터"
+    },
+    {
+      "id": "p0003-s0041-r00077",
+      "term": "We",
+      "mode": "preserve",
+      "expected": "We",
+      "actual": "웨어러블"
+    },
+    {
+      "id": "p0003-s0041-r00077",
+      "term": "Wearables",
+      "mode": "preserve",
+      "expected": "Wearables",
+      "actual": "웨어러블"
+    },
+    {
+      "id": "p0003-s0041-r00084",
+      "term": "Application",
+      "mode": "preserve",
+      "expected": "Application",
+      "actual": "응용 프로그램"
+    },
+    {
+      "id": "p0004-s0043-r00018",
+      "term": "Board",
+      "mode": "preserve",
+      "expected": "Board",
+      "actual": "보드"
+    },
+    {
+      "id": "p0004-s0043-r00034",
+      "term": "Single",
+      "mode": "preserve",
+      "expected": "Single",
+      "actual": "싱글"
+    },
+    {
+      "id": "p0004-s0043-r00111",
+      "term": "Technology",
+      "mode": "preserve",
+      "expected": "Technology",
+      "actual": "기술 "
+    },
+    {
+      "id": "p0009-s0053-r00090",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "아무"
+    },
+    {
+      "id": "p0009-s0053-r00090",
+      "term": "Any",
+      "mode": "preserve",
+      "expected": "Any",
+      "actual": "아무"
+    },
+    {
+      "id": "p0009-s0053-r00092",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "아무"
+    },
+    {
+      "id": "p0009-s0053-r00092",
+      "term": "Any",
+      "mode": "preserve",
+      "expected": "Any",
+      "actual": "아무"
+    },
+    {
+      "id": "p0009-s0053-r00136",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "아무"
+    },
+    {
+      "id": "p0009-s0053-r00136",
+      "term": "Any",
+      "mode": "preserve",
+      "expected": "Any",
+      "actual": "아무"
+    },
+    {
+      "id": "p0009-s0053-r00138",
+      "term": "An",
+      "mode": "preserve",
+      "expected": "An",
+      "actual": "아무"
+    },
+    {
+      "id": "p0009-s0053-r00138",
+      "term": "Any",
+      "mode": "preserve",
+      "expected": "Any",
+      "actual": "아무"
     }
   ]
 }

@@ -8,3 +8,4 @@ anyhow.workspace = true
 lopdf.workspace = true
 pdf_core = { path = "../pdf_core" }
 pdf_models = { path = "../pdf_models" }
+ttf-parser.workspace = true

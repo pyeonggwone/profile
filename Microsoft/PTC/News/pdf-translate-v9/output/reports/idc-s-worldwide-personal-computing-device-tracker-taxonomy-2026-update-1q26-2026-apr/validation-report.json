@@ -1,7 +1,7 @@
 {
-  "ok": false,
-  "command": "qpdf --check",
-  "exit_code": null,
-  "stdout": "",
-  "stderr": "qpdf validation skipped in degraded mode: qpdf is required but no project-local executable candidate could be run. Put qpdf under tools/qpdf/bin inside this project. Tried: tools/qpdf/bin/qpdf: not found; tools/qpdf/qpdf: not found; tools/qpdf/bin/qpdf.exe: not found; tools/qpdf/qpdf.exe: not found; tools/bin/qpdf: not found; tools/bin/qpdf.exe: not found"
+  "ok": true,
+  "command": "tools/qpdf/bin/qpdf.exe --check work/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/pdf/rebuilt.pdf",
+  "exit_code": 0,
+  "stdout": "checking C:\\Users\\v-kimpy\\test\\profile\\Microsoft\\PTC\\News\\pdf-translate-v9\\work\\idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr\\pdf\\rebuilt.pdf\r\nPDF Version: 1.7\r\nFile is not encrypted\r\nFile is not linearized\r\nNo syntax or stream encoding errors found; the file may still contain\r\nerrors that qpdf cannot detect\r\n",
+  "stderr": ""
 }

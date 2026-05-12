@@ -22,6 +22,7 @@ import re
 import shutil
 import sqlite3
 import sys
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
 from contextlib import contextmanager
 from pathlib import Path
 
@@ -505,6 +506,122 @@ def extract(pptx_path: Path) -> list[dict]:
     return segments
 
 
+_EXTRACT_SLIDES_PER_CHUNK = 5
+_EXTRACT_PARALLEL_WORKERS = 5
+
+
+def _slide_ranges(slide_count: int, size: int = _EXTRACT_SLIDES_PER_CHUNK) -> list[tuple[int, int]]:
+    return [(start, min(start + size - 1, slide_count)) for start in range(1, slide_count + 1, size)]
+
+
+def _presentation_slide_count(pptx_path: Path) -> int:
+    with powerpoint() as app, open_presentation(app, pptx_path, read_only=True) as pres:
+        try:
+            return int(pres.Slides.Count)
+        except (com_error, AttributeError, TypeError):
+            return 0
+
+
+def _save_slide_chunk(source_path: Path, chunk_path: Path, slide_start: int, slide_end: int) -> None:
+    chunk_path.parent.mkdir(parents=True, exist_ok=True)
+    with powerpoint() as app, open_presentation(app, source_path, read_only=True) as source:
+        chunk = app.Presentations.Add(WithWindow=False)
+        try:
+            try:
+                chunk.PageSetup.SlideWidth = source.PageSetup.SlideWidth
+                chunk.PageSetup.SlideHeight = source.PageSetup.SlideHeight
+            except com_error:
+                pass
+            try:
+                while int(chunk.Slides.Count) > 0:
+                    chunk.Slides(1).Delete()
+            except (com_error, AttributeError, TypeError):
+                pass
+            for slide_no in range(slide_start, slide_end + 1):
+                source.Slides(slide_no).Copy()
+                chunk.Slides.Paste()
+            chunk.SaveAs(str(chunk_path.resolve()), 24)
+        finally:
+            try:
+                chunk.Close()
+            except com_error:
+                pass
+
+
+def _build_slide_chunks(pptx_path: Path, work: Path) -> list[dict]:
+    slide_count = _presentation_slide_count(pptx_path)
+    if slide_count <= _EXTRACT_SLIDES_PER_CHUNK:
+        return []
+    chunk_dir = work / "chunks"
+    extract_dir = work / "extract"
+    shutil.rmtree(chunk_dir, ignore_errors=True)
+    shutil.rmtree(extract_dir, ignore_errors=True)
+    chunk_dir.mkdir(parents=True, exist_ok=True)
+    extract_dir.mkdir(parents=True, exist_ok=True)
+    chunks: list[dict] = []
+    ranges = _slide_ranges(slide_count)
+    console.print(f"  슬라이드 chunk 생성: {slide_count}장 → {len(ranges)}개 ({_EXTRACT_SLIDES_PER_CHUNK}장 단위)")
+    for idx, (slide_start, slide_end) in enumerate(ranges, start=1):
+        chunk_path = chunk_dir / f"chunk-{idx:04d}-slides-{slide_start:04d}-{slide_end:04d}.pptx"
+        segments_path = extract_dir / f"segments-{idx:04d}.json"
+        _save_slide_chunk(pptx_path, chunk_path, slide_start, slide_end)
+        chunks.append({
+            "index": idx,
+            "slide_start": slide_start,
+            "slide_end": slide_end,
+            "chunk_path": chunk_path,
+            "segments_path": segments_path,
+        })
+    return chunks
+
+
+def _extract_chunk_task(chunk_path: Path, segments_path: Path, slide_start: int) -> tuple[int, Path, int, str | None]:
+    try:
+        segments = extract(chunk_path)
+        for seg in segments:
+            seg["slide"] = int(seg.get("slide", 0)) + slide_start - 1
+        segments.sort(key=lambda x: (x["slide"], _path_key(x["path"])))
+        segments_path.parent.mkdir(parents=True, exist_ok=True)
+        segments_path.write_text(json.dumps(segments, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
+        return slide_start, segments_path, len(segments), None
+    except Exception as e:
+        return slide_start, segments_path, 0, str(e)
+
+
+def extract_parallel_by_slide_chunks(pptx_path: Path, work: Path) -> list[dict]:
+    chunks = _build_slide_chunks(pptx_path, work)
+    if not chunks:
+        return extract(pptx_path)
+
+    workers = min(_EXTRACT_PARALLEL_WORKERS, len(chunks))
+    console.print(f"  세그먼트 병렬 추출 시작: chunk {len(chunks)}개, 동시 작업 {workers}개")
+    failed: list[str] = []
+    with ProcessPoolExecutor(max_workers=workers) as executor:
+        futures = [
+            executor.submit(
+                _extract_chunk_task,
+                chunk["chunk_path"],
+                chunk["segments_path"],
+                chunk["slide_start"],
+            )
+            for chunk in chunks
+        ]
+        for future in as_completed(futures):
+            slide_start, _, count, error = future.result()
+            if error is None:
+                console.print(f"  chunk 시작 slide {slide_start}: 세그먼트 {count}건")
+            else:
+                failed.append(f"slide {slide_start}: {error}")
+    if failed:
+        raise RuntimeError("세그먼트 병렬 추출 실패: " + "; ".join(failed))
+
+    segments: list[dict] = []
+    for chunk in sorted(chunks, key=lambda x: x["index"]):
+        segments.extend(json.loads(chunk["segments_path"].read_text(encoding="utf-8")))
+    segments.sort(key=lambda x: (x["slide"], _path_key(x["path"])))
+    return segments
+
+
 # ────────────────────────────────────────────────
 # TM
 # ────────────────────────────────────────────────
@@ -674,6 +791,7 @@ def _polish_title(text: str) -> str:
 # TRANSLATE — 번호 매김 텍스트 블록 + 재시도 없음
 # ────────────────────────────────────────────────
 _BATCH = 5
+_PARALLEL_API_CALLS = 5
 _TITLE_MAX_CHARS = 20  # 절대 상한
 
 _BLOCK_RE = re.compile(r"^===\s*(\d+)\s*===\s*$")
@@ -794,6 +912,13 @@ def _call_llm_block(batch: list[dict]) -> list[str]:
     return parsed
 
 
+def _translate_batch_task(index: int, batch: list[dict]) -> tuple[int, list[dict], list[str], Exception | None]:
+    try:
+        return index, batch, _call_llm_block(batch), None
+    except Exception as e:
+        return index, batch, [s["text"] for s in batch], e
+
+
 def translate_segments(segments: list[dict]) -> list[dict]:
     results: list[dict] = []
     pending: list[dict] = []
@@ -820,19 +945,22 @@ def translate_segments(segments: list[dict]) -> list[dict]:
 
     total = len(pending)
     done = 0
-    for i in range(0, total, _BATCH):
-        batch = pending[i : i + _BATCH]
-        try:
-            translations = _call_llm_block(batch)
-        except Exception as e:
-            console.log(f"[red]번역 실패 (원문 유지) {len(batch)}건: {e}[/red]")
-            translations = [s["text"] for s in batch]
-        for seg, tgt in zip(batch, translations, strict=True):
-            tgt = _post_process(seg, tgt)
-            tm_store(seg["text"], tgt, model=settings.llm_model)
-            results.append({**seg, "translated": tgt})
-        done += len(batch)
-        console.print(f"  [cyan]{done}/{total}[/cyan]")
+    batches = list(enumerate((pending[i : i + _BATCH] for i in range(0, total, _BATCH)), start=1))
+    workers = min(_PARALLEL_API_CALLS, len(batches))
+    if batches:
+        console.print(f"  번역 API 병렬 처리 시작: batch {len(batches)}개, 동시 작업 {workers}개")
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = [executor.submit(_translate_batch_task, index, batch) for index, batch in batches]
+            for future in as_completed(futures):
+                _, batch, translations, error = future.result()
+                if error is not None:
+                    console.log(f"[red]번역 실패 (원문 유지) {len(batch)}건: {error}[/red]")
+                for seg, tgt in zip(batch, translations, strict=True):
+                    tgt = _post_process(seg, tgt)
+                    tm_store(seg["text"], tgt, model=settings.llm_model)
+                    results.append({**seg, "translated": tgt})
+                done += len(batch)
+                console.print(f"  [cyan]{done}/{total}[/cyan]")
 
     results.sort(key=lambda x: (x["slide"], _path_key(x["path"])))
     return results
@@ -1312,7 +1440,7 @@ def _run_one(pptx: Path, *, output: Path | None, move_done: bool, verify: bool) 
         out = output
 
     console.print("[bold]EXTRACT[/bold]")
-    segments = extract(pptx)
+    segments = extract_parallel_by_slide_chunks(pptx, work)
     (work / "segments.json").write_text(
         json.dumps(segments, ensure_ascii=False, indent=2, default=str), encoding="utf-8"
     )

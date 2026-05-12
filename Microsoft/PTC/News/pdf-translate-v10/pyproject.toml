@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-translate-v10"
+version = "0.1.0"
+description = "Python PDF text-payload translation pipeline that preserves original PDF structure."
+requires-python = ">=3.11"
+dependencies = [
+    "pikepdf>=9.0.0",
+    "pdfplumber>=0.11.0",
+    "pdfminer.six>=20231228",
+    "requests>=2.31.0",
+    "reportlab>=4.0.0",
+]
+
+[project.scripts]
+pdf-translate-v10 = "pdf_translate_v10.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

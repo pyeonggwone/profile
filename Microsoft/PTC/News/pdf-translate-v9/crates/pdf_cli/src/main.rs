@@ -484,6 +484,7 @@ fn finalize_existing_job(paths: Paths) -> Result<RunSummary> {
     let db = StateDb::open(&paths.state_db)?;
     let source = read_json::<PdfSource>(&paths.job_root.join("state/pdf-source.json"))?;
     db.upsert_job(&paths.job, &source.path, &source.sha256, "finalizing")?;
+    run_step(&db, &paths, "07_convert_translation_to_pdf_input_state", false, || convert_pdf_input(&paths))?;
     run_step(&db, &paths, "08_rebuild_pdf_with_extracted_options", false, || rebuild(&paths))?;
     run_step(&db, &paths, "09_qpdf_validate_output", false, || validate_output(&paths))?;
     run_step(&db, &paths, "10_publish_output", false, || publish(&paths))?;
@@ -734,6 +735,10 @@ fn extract_terms(paths: &Paths) -> Result<()> {
 }
 
 fn translate(paths: &Paths, source_lang: &str, target_lang: &str, model: &str) -> Result<()> {
+    let translation_error_path = paths.job_root.join("state/translation-error.json");
+    if translation_error_path.exists() {
+        fs::remove_file(&translation_error_path)?;
+    }
     let readable = read_json::<ReadableTextState>(&paths.readable_json)?;
     let terms = read_json::<JobTerms>(&paths.terms_json).unwrap_or_default();
     let db = StateDb::open(&paths.tm_db)?;
@@ -776,7 +781,7 @@ fn translate(paths: &Paths, source_lang: &str, target_lang: &str, model: &str) -
         results.items.extend(miss_results.items.clone());
 
         if !degraded_errors.is_empty() {
-            write_json(&paths.job_root.join("state/translation-error.json"), &ReportIssue {
+            write_json(&translation_error_path, &ReportIssue {
                 id: None,
                 stage: Some("translation".to_string()),
                 code: "TRANSLATION_CHUNK_FAILED".to_string(),
@@ -1175,6 +1180,7 @@ fn convert_pdf_input(paths: &Paths) -> Result<()> {
     let translations = read_json::<TranslationResults>(&paths.translation_results_json)?;
     let map: BTreeMap<String, String> = translations.items.into_iter().map(|item| (item.id, item.translated)).collect();
     let font_cmaps = font_cmaps_by_object_ref(&paths.source_pdf)?;
+    let render_overlay = translation_render_mode() == "overlay";
     let mut output = PdfInputTextState::default();
     let mut encode_report = EncodeReport { ok: true, ..EncodeReport::default() };
     for page in raw.pages {
@@ -1187,6 +1193,13 @@ fn convert_pdf_input(paths: &Paths) -> Result<()> {
                         "reuse-original-encoded".to_string(),
                         "ok".to_string(),
                         Some(run.text_payload.encoded_original.clone()),
+                        Vec::new(),
+                    )
+                } else if render_overlay {
+                    (
+                        "korean-overlay".to_string(),
+                        "ok".to_string(),
+                        Some(empty_operand_for_operator(&run.restore_options.operator).to_string()),
                         Vec::new(),
                     )
                 } else {
@@ -1262,6 +1275,14 @@ fn convert_pdf_input(paths: &Paths) -> Result<()> {
     }
     write_json(&paths.encode_report_json, &encode_report)?;
     write_json(&paths.pdf_input_json, &output)
+}
+
+fn translation_render_mode() -> String {
+    env_or_default("PDF_TRANSLATION_RENDER_MODE", "overlay").trim().to_ascii_lowercase()
+}
+
+fn empty_operand_for_operator(operator: &str) -> &'static str {
+    if operator == "TJ" { "[]" } else { "()" }
 }
 
 fn font_fallback_encode_issue(root: &Path, run: &RawTextRun, translated: &str, encode_error: &str) -> (String, String) {
@@ -1392,6 +1413,7 @@ fn publish(paths: &Paths) -> Result<()> {
         fs::remove_file(stale)?;
     }
     fs::copy(&paths.rebuilt_pdf, target)?;
+    write_run_summary(paths)?;
     progress_line(format!("[publish] {} -> {}", if summary.degraded { "rejected" } else { "validated" }, relative(target, &paths.root)));
     publish_report_bundle(paths)?;
     Ok(())
@@ -1402,7 +1424,7 @@ fn write_run_summary(paths: &Paths) -> Result<RunSummary> {
     let rebuild = read_json::<RebuildReport>(&paths.rebuild_report_json)?;
     let validation = read_json::<ValidationReport>(&paths.validation_report_json).unwrap_or_default();
     let translation_report = read_json::<TranslationReport>(&paths.translation_report_json).unwrap_or_default();
-    let translation_error = paths.job_root.join("state/translation-error.json").exists();
+    let translation_error = paths.job_root.join("state/translation-error.json").exists() && !translation_report.ok;
 
     let text_runs = pdf_input.text_runs.len();
     let changed_text_runs = pdf_input
@@ -1439,7 +1461,7 @@ fn write_run_summary(paths: &Paths) -> Result<RunSummary> {
         notes.push("translation report has missing, duplicate, unknown, or fallback items".to_string());
     }
     let fallback_used = translation_error
-        || translation_report.fallback > 0
+        || !translation_report.ok
         || validated_sha256.as_deref() == Some(source_sha256.as_str())
         || rejected_sha256.as_deref() == Some(source_sha256.as_str());
     let degraded = fallback_used || encode_failed > 0 || !rebuild.ok || !validation.ok || !translation_report.ok;

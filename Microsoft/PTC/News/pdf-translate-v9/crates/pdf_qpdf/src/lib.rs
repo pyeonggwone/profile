@@ -49,13 +49,19 @@ fn run_qpdf(args: &[QpdfArg]) -> Result<ValidationReport> {
     let (binary, output, _) = execute_qpdf(args)
         .with_context(|| format!("failed to execute qpdf {}", display_args.join(" ")))?;
     let command = format!("{binary} {}", display_args.join(" "));
+    let stdout = String::from_utf8_lossy(&output.stdout).to_string();
+    let stderr = String::from_utf8_lossy(&output.stderr).to_string();
     Ok(ValidationReport {
-        ok: output.status.success(),
+        ok: output.status.success() || qpdf_succeeded_with_warnings(output.status.code(), &stderr),
         command,
         exit_code: output.status.code(),
-        stdout: String::from_utf8_lossy(&output.stdout).to_string(),
-        stderr: String::from_utf8_lossy(&output.stderr).to_string(),
+        stdout,
+        stderr,
     })
+}
+
+fn qpdf_succeeded_with_warnings(exit_code: Option<i32>, stderr: &str) -> bool {
+    exit_code == Some(3) && stderr.contains("operation succeeded with warnings")
 }
 
 fn execute_qpdf(args: &[QpdfArg]) -> Result<(String, Output, Vec<String>)> {

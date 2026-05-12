@@ -1,7 +1,7 @@
 {
-  "ok": false,
-  "command": "qpdf --version",
-  "exit_code": null,
+  "ok": true,
+  "command": "tools/qpdf/bin/qpdf.exe --qdf --object-streams=disable work/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/source/source.pdf work/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/qpdf/source.qdf.pdf",
+  "exit_code": 0,
   "stdout": "",
-  "stderr": "qpdf skipped in degraded mode: qpdf is required but no project-local executable candidate could be run. Put qpdf under tools/qpdf/bin inside this project. Tried: tools/qpdf/bin/qpdf: not found; tools/qpdf/qpdf: not found; tools/qpdf/bin/qpdf.exe: not found; tools/qpdf/qpdf.exe: not found; tools/bin/qpdf: not found; tools/bin/qpdf.exe: not found"
+  "stderr": ""
 }

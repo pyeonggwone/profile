@@ -1,0 +1,205 @@
+[11:17:53] [batch] inputs=1
+[11:17:53] [batch] file 1/1 IDC’s Worldwide Personal Computing Device Tracker Taxonomy, 2026 Update, 1Q26 - 2026 Apr.pdf
+[11:17:53] [job] start idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr source=IDC’s Worldwide Personal Computing Device Tracker Taxonomy, 2026 Update, 1Q26 - 2026 Apr.pdf
+[11:17:53] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 01_init_job completed
+[11:17:53] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 02_qpdf_reference start
+[11:17:53] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 02_qpdf_reference degraded
+[11:17:53] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 03_extract_raw_pdf_text_state start
+[11:18:05] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 03_extract_raw_pdf_text_state completed pages=46 runs=2090
+[11:18:05] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 04_convert_raw_to_readable_text_state start
+[11:18:05] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 04_convert_raw_to_readable_text_state completed items=2090
+[11:18:05] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 05_extract_and_apply_job_terms start
+[11:18:05] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 05_extract_and_apply_job_terms completed candidates=1068 terms=2
+[11:18:05] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 06_translate_readable_text_state start
+[11:18:05] [translate] parallel parts=5 workers=5 items=2090 chunkSize=30
+[11:18:05] [translate] part 2/5 items=343
+[11:18:05] [translate] part 2/5 chunk 1/12 items=30
+[11:18:05] [translate] part 5/5 items=205
+[11:18:05] [translate] part 5/5 chunk 1/7 items=30
+[11:18:05] [translate] part 4/5 items=553
+[11:18:05] [translate] part 4/5 chunk 1/19 items=30
+[11:18:05] [translate] part 1/5 items=421
+[11:18:05] [translate] part 1/5 chunk 1/15 items=30
+[11:18:05] [translate] part 3/5 items=568
+[11:18:05] [translate] part 3/5 chunk 1/19 items=30
+[11:18:13] [translate] part 4/5 chunk 1/19 status=ok returned=30 fallback=0
+[11:18:13] [translate] part 4/5 chunk 2/19 items=30
+[11:18:13] [translate] part 1/5 chunk 1/15 status=ok returned=30 fallback=0
+[11:18:13] [translate] part 1/5 chunk 2/15 items=30
+[11:18:14] [translate] part 2/5 chunk 1/12 status=ok returned=30 fallback=0
+[11:18:14] [translate] part 2/5 chunk 2/12 items=30
+[11:18:17] [translate] part 5/5 chunk 1/7 status=degraded returned=23 fallback=7
+[11:18:17] [translate] part 5/5 chunk 2/7 items=30
+[11:18:21] [translate] part 3/5 chunk 1/19 status=ok returned=30 fallback=0
+[11:18:21] [translate] part 3/5 chunk 2/19 items=30
+[11:18:25] [translate] part 2/5 chunk 2/12 status=ok returned=30 fallback=0
+[11:18:25] [translate] part 2/5 chunk 3/12 items=30
+[11:18:27] [translate] part 1/5 chunk 2/15 status=ok returned=30 fallback=0
+[11:18:27] [translate] part 1/5 chunk 3/15 items=30
+[11:18:27] [translate] part 4/5 chunk 2/19 status=ok returned=30 fallback=0
+[11:18:27] [translate] part 4/5 chunk 3/19 items=30
+[11:18:30] [translate] part 3/5 chunk 2/19 status=ok returned=30 fallback=0
+[11:18:30] [translate] part 3/5 chunk 3/19 items=30
+[11:18:36] [translate] part 1/5 chunk 3/15 status=degraded returned=23 fallback=7
+[11:18:36] [translate] part 1/5 chunk 4/15 items=30
+[11:18:37] [translate] part 3/5 chunk 3/19 status=ok returned=30 fallback=0
+[11:18:37] [translate] part 3/5 chunk 4/19 items=30
+[11:18:39] [translate] part 4/5 chunk 3/19 status=ok returned=30 fallback=0
+[11:18:39] [translate] part 4/5 chunk 4/19 items=30
+[11:18:42] [translate] part 5/5 chunk 2/7 status=ok returned=30 fallback=0
+[11:18:42] [translate] part 5/5 chunk 3/7 items=30
+[11:18:43] [translate] part 2/5 chunk 3/12 status=ok returned=30 fallback=0
+[11:18:43] [translate] part 2/5 chunk 4/12 items=30
+[11:18:46] [translate] part 3/5 chunk 4/19 status=ok returned=30 fallback=0
+[11:18:46] [translate] part 3/5 chunk 5/19 items=30
+[11:18:53] [translate] part 2/5 chunk 4/12 status=ok returned=30 fallback=0
+[11:18:53] [translate] part 2/5 chunk 5/12 items=30
+[11:18:54] [translate] part 5/5 chunk 3/7 status=ok returned=30 fallback=0
+[11:18:54] [translate] part 5/5 chunk 4/7 items=30
+[11:18:56] [translate] part 3/5 chunk 5/19 status=ok returned=30 fallback=0
+[11:18:56] [translate] part 3/5 chunk 6/19 items=30
+[11:19:00] [translate] part 2/5 chunk 5/12 status=ok returned=30 fallback=0
+[11:19:00] [translate] part 2/5 chunk 6/12 items=30
+[11:19:02] [translate] part 1/5 chunk 4/15 status=degraded returned=27 fallback=3
+[11:19:02] [translate] part 1/5 chunk 5/15 items=30
+[11:19:03] [translate] part 4/5 chunk 4/19 status=ok returned=30 fallback=0
+[11:19:03] [translate] part 4/5 chunk 5/19 items=30
+[11:19:05] [translate] part 5/5 chunk 4/7 status=degraded returned=27 fallback=3
+[11:19:05] [translate] part 5/5 chunk 5/7 items=30
+[11:19:09] [translate] part 3/5 chunk 6/19 status=ok returned=30 fallback=0
+[11:19:09] [translate] part 3/5 chunk 7/19 items=30
+[11:19:11] [translate] part 4/5 chunk 5/19 status=ok returned=30 fallback=0
+[11:19:11] [translate] part 4/5 chunk 6/19 items=30
+[11:19:12] [translate] part 2/5 chunk 6/12 status=ok returned=30 fallback=0
+[11:19:12] [translate] part 2/5 chunk 7/12 items=30
+[11:19:15] [translate] part 1/5 chunk 5/15 status=ok returned=30 fallback=0
+[11:19:15] [translate] part 1/5 chunk 6/15 items=30
+[11:19:20] [translate] part 5/5 chunk 5/7 status=ok returned=30 fallback=0
+[11:19:20] [translate] part 5/5 chunk 6/7 items=30
+[11:19:20] [translate] part 3/5 chunk 7/19 status=ok returned=30 fallback=0
+[11:19:20] [translate] part 3/5 chunk 8/19 items=30
+[11:19:25] [translate] part 1/5 chunk 6/15 status=ok returned=30 fallback=0
+[11:19:25] [translate] part 1/5 chunk 7/15 items=30
+[11:19:28] [translate] part 2/5 chunk 7/12 status=ok returned=30 fallback=0
+[11:19:28] [translate] part 2/5 chunk 8/12 items=30
+[11:19:30] [translate] part 3/5 chunk 8/19 status=ok returned=30 fallback=0
+[11:19:30] [translate] part 3/5 chunk 9/19 items=30
+[11:19:31] [translate] part 5/5 chunk 6/7 status=ok returned=30 fallback=0
+[11:19:31] [translate] part 5/5 chunk 7/7 items=25
+[11:19:33] [translate] part 4/5 chunk 6/19 status=ok returned=30 fallback=0
+[11:19:33] [translate] part 4/5 chunk 7/19 items=30
+[11:19:37] [translate] part 2/5 chunk 8/12 status=ok returned=30 fallback=0
+[11:19:37] [translate] part 2/5 chunk 9/12 items=30
+[11:19:40] [translate] part 1/5 chunk 7/15 status=ok returned=30 fallback=0
+[11:19:40] [translate] part 1/5 chunk 8/15 items=30
+[11:19:41] [translate] part 5/5 chunk 7/7 status=ok returned=25 fallback=0
+[11:19:41] [translate] part 5/5 status=degraded translated=176 fallback=29
+[11:19:43] [translate] part 4/5 chunk 7/19 status=ok returned=30 fallback=0
+[11:19:43] [translate] part 4/5 chunk 8/19 items=30
+[11:19:44] [translate] part 3/5 chunk 9/19 status=ok returned=30 fallback=0
+[11:19:44] [translate] part 3/5 chunk 10/19 items=30
+[11:19:48] [translate] part 2/5 chunk 9/12 status=degraded returned=29 fallback=1
+[11:19:48] [translate] part 2/5 chunk 10/12 items=30
+[11:19:54] [translate] part 4/5 chunk 8/19 status=ok returned=30 fallback=0
+[11:19:54] [translate] part 4/5 chunk 9/19 items=30
+[11:19:54] [translate] part 1/5 chunk 8/15 status=ok returned=30 fallback=0
+[11:19:54] [translate] part 1/5 chunk 9/15 items=30
+[11:20:04] [translate] part 4/5 chunk 9/19 status=ok returned=30 fallback=0
+[11:20:04] [translate] part 4/5 chunk 10/19 items=30
+[11:20:09] [translate] part 2/5 chunk 10/12 status=degraded returned=22 fallback=8
+[11:20:09] [translate] part 2/5 chunk 11/12 items=30
+[11:20:09] [translate] part 1/5 chunk 9/15 status=degraded returned=22 fallback=8
+[11:20:09] [translate] part 1/5 chunk 10/15 items=30
+[11:20:10] [translate] part 3/5 chunk 10/19 status=ok returned=30 fallback=0
+[11:20:10] [translate] part 3/5 chunk 11/19 items=30
+[11:20:20] [translate] part 3/5 chunk 11/19 status=ok returned=30 fallback=0
+[11:20:20] [translate] part 3/5 chunk 12/19 items=30
+[11:20:20] [translate] part 2/5 chunk 11/12 status=degraded returned=27 fallback=3
+[11:20:20] [translate] part 2/5 chunk 12/12 items=13
+[11:20:25] [translate] part 4/5 chunk 10/19 status=ok returned=30 fallback=0
+[11:20:25] [translate] part 4/5 chunk 11/19 items=30
+[11:20:29] [translate] part 2/5 chunk 12/12 status=ok returned=13 fallback=0
+[11:20:29] [translate] part 2/5 status=degraded translated=285 fallback=58
+[11:20:30] [translate] part 1/5 chunk 10/15 status=ok returned=30 fallback=0
+[11:20:30] [translate] part 1/5 chunk 11/15 items=30
+[11:20:30] [translate] part 3/5 chunk 12/19 status=ok returned=30 fallback=0
+[11:20:30] [translate] part 3/5 chunk 13/19 items=30
+[11:20:36] [translate] part 1/5 chunk 11/15 status=ok returned=30 fallback=0
+[11:20:36] [translate] part 1/5 chunk 12/15 items=30
+[11:20:38] [translate] part 4/5 chunk 11/19 status=ok returned=30 fallback=0
+[11:20:38] [translate] part 4/5 chunk 12/19 items=30
+[11:20:41] [translate] part 3/5 chunk 13/19 status=ok returned=30 fallback=0
+[11:20:41] [translate] part 3/5 chunk 14/19 items=30
+[11:20:43] [translate] part 1/5 chunk 12/15 status=ok returned=30 fallback=0
+[11:20:43] [translate] part 1/5 chunk 13/15 items=30
+[11:20:53] [translate] part 1/5 chunk 13/15 status=degraded returned=21 fallback=9
+[11:20:53] [translate] part 1/5 chunk 14/15 items=30
+[11:20:54] [translate] part 4/5 chunk 12/19 status=ok returned=30 fallback=0
+[11:20:54] [translate] part 4/5 chunk 13/19 items=30
+[11:20:56] [translate] part 3/5 chunk 14/19 status=ok returned=30 fallback=0
+[11:20:56] [translate] part 3/5 chunk 15/19 items=30
+[11:21:01] [translate] part 1/5 chunk 14/15 status=degraded returned=24 fallback=6
+[11:21:01] [translate] part 1/5 chunk 15/15 items=1
+[11:21:02] [translate] part 1/5 chunk 15/15 status=ok returned=1 fallback=0
+[11:21:02] [translate] part 1/5 status=degraded translated=344 fallback=77
+[11:21:18] [translate] part 4/5 chunk 13/19 status=ok returned=30 fallback=0
+[11:21:18] [translate] part 4/5 chunk 14/19 items=30
+[11:21:29] [translate] part 3/5 chunk 15/19 status=ok returned=30 fallback=0
+[11:21:29] [translate] part 3/5 chunk 16/19 items=30
+[11:21:31] [translate] part 4/5 chunk 14/19 status=ok returned=30 fallback=0
+[11:21:31] [translate] part 4/5 chunk 15/19 items=30
+[11:21:36] [translate] part 3/5 chunk 16/19 status=ok returned=30 fallback=0
+[11:21:36] [translate] part 3/5 chunk 17/19 items=30
+[11:21:45] [translate] part 3/5 chunk 17/19 status=ok returned=30 fallback=0
+[11:21:45] [translate] part 3/5 chunk 18/19 items=30
+[11:21:51] [translate] part 4/5 chunk 15/19 status=ok returned=30 fallback=0
+[11:21:51] [translate] part 4/5 chunk 16/19 items=30
+[11:21:53] [translate] part 3/5 chunk 18/19 status=ok returned=30 fallback=0
+[11:21:53] [translate] part 3/5 chunk 19/19 items=28
+[11:22:02] [translate] part 3/5 chunk 19/19 status=ok returned=28 fallback=0
+[11:22:02] [translate] part 3/5 status=ok translated=376 fallback=192
+[11:22:10] [translate] part 4/5 chunk 16/19 status=ok returned=30 fallback=0
+[11:22:10] [translate] part 4/5 chunk 17/19 items=30
+[11:22:44] [translate] part 4/5 chunk 17/19 status=degraded returned=25 fallback=5
+[11:22:44] [translate] part 4/5 chunk 18/19 items=30
+[11:22:56] [translate] part 4/5 chunk 18/19 status=degraded returned=27 fallback=3
+[11:22:56] [translate] part 4/5 chunk 19/19 items=13
+[11:23:02] [translate] part 4/5 chunk 19/19 status=ok returned=13 fallback=0
+[11:23:02] [translate] part 4/5 status=degraded translated=506 fallback=47
+[11:23:02] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 06_translate_readable_text_state degraded translated=1687 fallback=403 chunks=72
+[11:23:02] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 07_convert_translation_to_pdf_input_state start
+[11:23:03] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 07_convert_translation_to_pdf_input_state degraded ok=0 failed=2090
+[11:23:03] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 08_rebuild_pdf_with_extracted_options start
+[11:23:03] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 08_rebuild_pdf_with_extracted_options degraded replaced=0 failed=1
+[11:23:03] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 09_qpdf_validate_output start
+[11:23:03] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 09_qpdf_validate_output failed
+[11:23:03] [job] idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr 10_publish_output start
+[11:23:03] [job] completed idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr output=output/rejected/IDC’s Worldwide Personal Computing Device Tracker Taxonomy, 2026 Update, 1Q26 - 2026 Apr_V10.pdf
+[11:23:03] [batch] completed inputs=1
+[
+  {
+    "job": "idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr",
+    "sourcePdf": "work/jobs/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr/source/source.pdf",
+    "outputPdf": "output/rejected/IDC’s Worldwide Personal Computing Device Tracker Taxonomy, 2026 Update, 1Q26 - 2026 Apr_V10.pdf",
+    "classification": "fallback",
+    "fallbackUsed": true,
+    "validatedPdf": null,
+    "rejectedPdf": "output/rejected/IDC’s Worldwide Personal Computing Device Tracker Taxonomy, 2026 Update, 1Q26 - 2026 Apr_V10.pdf",
+    "sourceSha256": "7884527c3221c927062b33911892d55df959ef6cef35c9264728a3d7d038e9dd",
+    "outputSha256": "7884527c3221c927062b33911892d55df959ef6cef35c9264728a3d7d038e9dd",
+    "degraded": true,
+    "translationError": true,
+    "textRuns": 2090,
+    "changedTextRuns": 2081,
+    "unchangedTextRuns": 0,
+    "encodeOk": 0,
+    "encodeFailed": 2090,
+    "rebuildOk": false,
+    "rebuildReplaced": 0,
+    "rebuildFailed": 1,
+    "validationOk": false,
+    "notes": [
+      "No text run has a verified source stream byte range. Source PDF was copied to rebuilt.pdf and must be treated as rejected."
+    ]
+  }
+]

@@ -22,6 +22,7 @@ import re
 import shutil
 import sqlite3
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from contextlib import contextmanager
 from pathlib import Path
 
@@ -776,6 +777,7 @@ def _polish_title(text: str) -> str:
 # TRANSLATE — 번호 매김 텍스트 블록 + 재시도 없음
 # ────────────────────────────────────────────────
 _BATCH = 5
+_PARALLEL_API_CALLS = 5
 _TITLE_MAX_CHARS = 20  # 절대 상한
 
 _BLOCK_RE = re.compile(r"^===\s*(\d+)\s*===\s*$")
@@ -908,6 +910,13 @@ def _call_llm_block(batch: list[dict]) -> list[str]:
     return parsed
 
 
+def _translate_batch_task(index: int, batch: list[dict]) -> tuple[int, list[dict], list[str], Exception | None]:
+    try:
+        return index, batch, _call_llm_block(batch), None
+    except Exception as e:
+        return index, batch, [s["text"] for s in batch], e
+
+
 def translate_segments(segments: list[dict]) -> list[dict]:
     results: list[dict] = []
     pending: list[dict] = []
@@ -934,19 +943,22 @@ def translate_segments(segments: list[dict]) -> list[dict]:
 
     total = len(pending)
     done = 0
-    for i in range(0, total, _BATCH):
-        batch = pending[i : i + _BATCH]
-        try:
-            translations = _call_llm_block(batch)
-        except Exception as e:
-            console.log(f"[red]번역 실패 (원문 유지) {len(batch)}건: {e}[/red]")
-            translations = [s["text"] for s in batch]
-        for seg, tgt in zip(batch, translations, strict=True):
-            tgt = _post_process(seg, tgt)
-            tm_store(seg["text"], tgt, model=settings.llm_model)
-            results.append({**seg, "translated": tgt})
-        done += len(batch)
-        console.print(f"  [cyan]{done}/{total}[/cyan]")
+    batches = list(enumerate((pending[i : i + _BATCH] for i in range(0, total, _BATCH)), start=1))
+    workers = min(_PARALLEL_API_CALLS, len(batches))
+    if batches:
+        console.print(f"  번역 API 병렬 처리 시작: batch {len(batches)}개, 동시 작업 {workers}개")
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = [executor.submit(_translate_batch_task, index, batch) for index, batch in batches]
+            for future in as_completed(futures):
+                _, batch, translations, error = future.result()
+                if error is not None:
+                    console.log(f"[red]번역 실패 (원문 유지) {len(batch)}건: {error}[/red]")
+                for seg, tgt in zip(batch, translations, strict=True):
+                    tgt = _post_process(seg, tgt)
+                    tm_store(seg["text"], tgt, model=settings.llm_model)
+                    results.append({**seg, "translated": tgt})
+                done += len(batch)
+                console.print(f"  [cyan]{done}/{total}[/cyan]")
 
     results.sort(key=lambda x: (x["slide"], _path_key(x["path"])))
     return results

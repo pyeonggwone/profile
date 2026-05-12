@@ -1,0 +1,13 @@
+[12:03:00] [finalize] published output/rejected/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr_V10.pdf
+{
+  "job": "idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr",
+  "outputPdf": "output/rejected/idc-s-worldwide-personal-computing-device-tracker-taxonomy-2026-update-1q26-2026-apr_V10.pdf",
+  "sourceSha256": "7884527c3221c927062b33911892d55df959ef6cef35c9264728a3d7d038e9dd",
+  "outputSha256": "09757630c85369c26d8e1756caf985f466f890d27bf4548f768d37ba464ab534",
+  "rebuildOk": true,
+  "rebuildReplaced": 1678,
+  "rebuildFailed": 0,
+  "validationOk": false,
+  "classification": "fallback",
+  "notes": []
+}

@@ -1,21 +1,389 @@
 {
-  "ok": false,
-  "replaced": 1157,
+  "ok": true,
+  "replaced": 5376,
   "failed": [
+    {
+      "id": "p0002-s0034-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0003-s0041-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0004-s0043-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0005-s0045-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0006-s0047-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0007-s0049-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0008-s0051-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0009-s0053-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0010-s0055-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0011-s0057-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0012-s0059-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0013-s0061-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0014-s0065-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0015-s0069-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0016-s0071-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0017-s0073-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0018-s0075-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0019-s0078-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0020-s0080-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0021-s0083-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0022-s0085-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0022-s0085-r00087",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
     {
       "id": "p0022-s0085-r00097",
       "stage": "rebuild",
-      "code": "REBUILD_RANGE_MISMATCH",
-      "severity": "error",
-      "message": "encodedOriginal mismatch at operandRange",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0022-s0085-r00111",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0023-s0087-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0024-s0089-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0025-s0091-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0026-s0093-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
       "recoverable": true
     },
     {
       "id": "p0026-s0093-r00103",
       "stage": "rebuild",
-      "code": "REBUILD_RANGE_MISMATCH",
-      "severity": "error",
-      "message": "encodedOriginal mismatch at operandRange",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0027-s0095-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0028-s0097-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0029-s0099-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0030-s0101-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0031-s0103-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0032-s0105-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0033-s0107-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0034-s0109-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0035-s0111-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0036-s0113-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0037-s0115-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0038-s0117-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0039-s0119-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0040-s0121-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0041-s0123-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0042-s0125-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0043-s0127-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0044-s0129-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
+      "recoverable": true
+    },
+    {
+      "id": "p0045-s0131-r00001",
+      "stage": "rebuild",
+      "code": "REBUILD_RANGE_MISMATCH_PRESERVED_ORIGINAL",
+      "severity": "warning",
+      "message": "encodedOriginal mismatch at operandRange; replacement skipped to preserve original PDF bytes",
       "recoverable": true
     }
   ]
